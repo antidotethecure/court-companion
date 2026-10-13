@@ -1,0 +1,177 @@
+{
+  "state": "CA",
+  "county": "Amador",
+  "slug": "amador",
+  "court_name": "Superior Court of California, County of Amador",
+  "court_website": "https://amador.courts.ca.gov/",
+  "case_search_url": "https://www.amadorportal.org/",
+  "case_search_note": "Online Case Search and Payments (linked from amador.courts.ca.gov/online-services/case-search-and-payments). Criminal and traffic cases are searchable; confidential case types (sealed, juvenile, mental health, etc.) are not online.",
+  "sources": [
+    {
+      "title": "Amador Superior Court — Contact Information",
+      "url": "https://amador.courts.ca.gov/general-information/contact-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Amador Superior Court — Criminal",
+      "url": "https://amador.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Amador Superior Court — Case Search and Payments",
+      "url": "https://amador.courts.ca.gov/online-services/case-search-and-payments",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Amador Sheriff — Jail General Information",
+      "url": "https://www.amadorsheriff.org/corrections-div/amador-jail/general-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Amador Sheriff — Jail Visiting",
+      "url": "https://www.amadorsheriff.org/corrections-div/amador-jail/visiting",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Amador County Probation",
+      "url": "https://www.amadorcounty.gov/departments/probation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Amador County Probation — Adult Services",
+      "url": "https://www.amadorcounty.gov/departments/probation/adult-services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "LSNC — Auburn Office",
+      "url": "https://lsnc.net/office/auburn",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check Agent/Broker",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "jackson",
+      "name": "Amador Superior Court (Jackson)",
+      "address": "500 Argonaut Lane",
+      "city": "Jackson",
+      "zip": "95642",
+      "phone": "(209) 257-2600",
+      "criminal_phone": "(209) 257-2604",
+      "hours": "Courthouse public access 8 a.m.–3 p.m. per Criminal page; clerk by phone 9 a.m.–3 p.m. Mon–Fri",
+      "criminal": true,
+      "note": "Only courthouse in the county. Criminal direct line (209) 257-2604 / phone tree (209) 257-2630, criminal@amadorcourt.org. Traffic direct (209) 257-2605 / phone tree (209) 257-2660, traffic@amadorcourt.org. Note: the Criminal page lists 209-257-2605 as the clerk number, which the Contact page labels Traffic — numbers conflict, try both.",
+      "departments": [],
+      "source_url": "https://amador.courts.ca.gov/general-information/contact-information",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Court-appointed Public Defender (Amador County)",
+      "address": null,
+      "city": "Jackson",
+      "zip": "95642",
+      "phone": null,
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": null,
+      "source_url": "https://amador.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13",
+      "note": "Court's Criminal page: if you cannot afford an attorney, ask the court to appoint one; the court may appoint a Public Defender, and the judge decides how much (if any) of the fees you repay.",
+      "todo": "No official Public Defender contact page found (amadorcounty.gov has no PD department page). A third-party list (EBCLC) gives 201 Clinton Road Suite 202, Jackson, (209) 223-0877 — NOT verified on an official page, not used."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Legal Services of Northern California — Auburn Office",
+      "serves": "Low-income residents of Amador, Calaveras, El Dorado, Nevada, Placer and Sierra counties",
+      "what": "Free CIVIL legal help — housing and public benefits (CalWORKs, CalFresh, Medi-Cal, General Assistance, SSI/Social Security, unemployment, SDI). Not criminal defense; page does not mention record clearing.",
+      "phone": "(530) 823-7560",
+      "toll_free": "(800) 660-6107",
+      "email": null,
+      "address": "190 Reamer Street, Auburn, CA 95603",
+      "hours": "Intake Mon–Thu 9 a.m.–12 p.m. and 1:15–4 p.m.; no new intakes Fridays",
+      "url": "https://lsnc.net/office/auburn",
+      "source_url": "https://lsnc.net/office/auburn",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": {
+    "name": "Amador County Probation Department",
+    "address": "675 New York Ranch Rd.",
+    "city": "Jackson",
+    "zip": "95642",
+    "phone": "(209) 223-6387",
+    "hours": "Mon–Fri 8 a.m.–5 p.m.",
+    "url": "https://www.amadorcounty.gov/departments/probation",
+    "source_url": "https://www.amadorcounty.gov/departments/probation",
+    "verified_on": "2026-10-13",
+    "note": "Fax (209) 223-6403, amadorprobation@amadorcounty.gov. Same phone is listed by the court for the Alternative Sentencing Program."
+  },
+  "programs": [
+    {
+      "id": "pretrial",
+      "name": "Probation Pretrial Supervision",
+      "type": "pretrial",
+      "summary": "Amador Probation's Adult Services says it provides offender supervision services 'including pretrial'. Details/check-in rules not published — follow your release order and ask Probation.",
+      "phone": "(209) 223-6387",
+      "url": "https://www.amadorcounty.gov/departments/probation/adult-services",
+      "source_url": "https://www.amadorcounty.gov/departments/probation/adult-services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "alt-sentencing",
+      "name": "Alternative Sentencing Program (Probation + Sheriff)",
+      "type": "alternative_sentencing",
+      "summary": "People sentenced to jail are assessed to see if they can serve the sentence another way — community service or GPS monitoring. Non-compliance can mean return to jail custody.",
+      "phone": "(209) 223-6387",
+      "url": "https://www.amadorcounty.gov/departments/probation/adult-services",
+      "source_url": "https://www.amadorcounty.gov/departments/probation/adult-services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "wapp",
+      "name": "Workforce Assistance Placement Program (WAPP)",
+      "type": "reentry",
+      "summary": "For eligible people on probation: partnership with Mother Lode Job Training — pre-employment screening, then a paid 90-day work-site placement (can be extended).",
+      "phone": "(209) 223-6387",
+      "url": "https://www.amadorcounty.gov/departments/probation/adult-services",
+      "source_url": "https://www.amadorcounty.gov/departments/probation/adult-services",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "amador-jail",
+      "name": "Amador County Jail",
+      "address": "700 Court Street",
+      "city": "Jackson",
+      "zip": "95642",
+      "phone": "(209) 223-6500",
+      "phone_note": "Sheriff main office. Jail line for special-housing visit appointments: (209) 223-6521 (Fridays from 8 a.m.). Non-emergency dispatch (209) 223-6513.",
+      "houses": "both",
+      "visiting_url": "https://www.amadorsheriff.org/corrections-div/amador-jail/visiting",
+      "commissary_or_money_url": "https://www.smartdeposit.com",
+      "court_ids": [
+        "jackson"
+      ],
+      "url": "https://www.amadorsheriff.org/corrections-div/amador-jail/general-information",
+      "source_url": "https://www.amadorsheriff.org/corrections-div/amador-jail/general-information",
+      "verified_on": "2026-10-13",
+      "note": "State-rated capacity 76 (65 male, 11 female). Visits: men Sat 8:30–10:30 a.m. & 12:30–3:30 p.m., Sun 12:30–5:30 p.m.; women Sat 3:30–5:30 p.m., Sun 8:30–10:30 a.m.; special housing Fri by appointment. Deposits: SmartDeposit online or (866) 394-0490 (Facility Code JAQ, Pay Location #5500) or lobby kiosk Mon–Fri 8–5 and during visiting; front counter/mail deposits not accepted. court_ids: nearest criminal courthouse, not confirmed."
+    }
+  ],
+  "inmate_lookup_url": "https://amadorsheriff.citizenrims.com/map",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' (linked from insurance.ca.gov CheckAgntBrkr page) — look up any bail agent's license status. Amador Sheriff jail page gives no bail amounts or bond procedure; call the jail/Sheriff at (209) 223-6500. Not verified: where/when cash bail is accepted.",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13"
+  }
+}

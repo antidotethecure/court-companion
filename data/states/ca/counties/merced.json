@@ -1,0 +1,447 @@
+{
+  "state": "CA",
+  "county": "Merced",
+  "slug": "merced",
+  "court_name": "Superior Court of California, County of Merced",
+  "court_website": "https://www.merced.courts.ca.gov/",
+  "case_search_url": "https://www.merced.courts.ca.gov/self-help/records-search",
+  "case_search_note": "Criminal and traffic case information is NOT available online in Merced — the court's online portal (jpportal.mercedcourt.org) covers only civil and small claims. For criminal cases use the public computer in the Criminal Clerk's Office (Ogletree Jr. Courthouse, 2260 N Street), mail a Record/Search/Copy Request (form MSC-RR-001), or ask a clerk in person. Staff take phone calls for calendar/case info from the defendant or their attorney: Criminal Division (209) 725-4113. $15 search fee if a search takes more than 10 minutes.",
+  "sources": [
+    {
+      "title": "Merced Superior Court — Locations",
+      "url": "https://www.merced.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced Superior Court — Ogletree Jr. Courthouse",
+      "url": "https://www.merced.courts.ca.gov/location/ogletree-jr-courthouse-0",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced Superior Court — Los Banos (Robert M. Falasco Justice Center)",
+      "url": "https://www.merced.courts.ca.gov/location/los-banos-robert-m-falasco-justice-center",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced Superior Court — Traffic Building",
+      "url": "https://www.merced.courts.ca.gov/location/traffic-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced Superior Court — Juvenile Justice",
+      "url": "https://www.merced.courts.ca.gov/location/juvenile-justice",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced Superior Court — Old Merced Courthouse",
+      "url": "https://www.merced.courts.ca.gov/location/old-merced-courthouse-21st-street-building",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced Superior Court — Criminal Division",
+      "url": "https://www.merced.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced Superior Court — Case Records Search",
+      "url": "https://www.merced.courts.ca.gov/online-services/case-records-search",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced Superior Court — Records Search",
+      "url": "https://www.merced.courts.ca.gov/self-help/records-search",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced Superior Court — Collaborative Courts",
+      "url": "https://www.merced.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced Superior Court — Self-Help Center",
+      "url": "https://www.merced.courts.ca.gov/self-help/self-help-center",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced County Civil Grand Jury 2025/2026 Annual Report (jail inspections)",
+      "url": "https://www.merced.courts.ca.gov/system/files/general/2025-2026-civil-grand-jury-final-report.pdf",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced County Sheriff — Jail Information",
+      "url": "https://www.countyofmerced.com/381/Jail-Information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced County Sheriff — Visiting Information",
+      "url": "https://www.countyofmerced.com/3056/Visiting-Information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced County Sheriff — Jail Visitation Schedules",
+      "url": "https://www.countyofmerced.com/3200/Jail-Visitation-Schedules",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced County Sheriff — Inmate Funds",
+      "url": "https://www.countyofmerced.com/2085/Inmate-Funds",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced County — Main Jail directory",
+      "url": "https://www.countyofmerced.com/directory.aspx?did=49",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced County — John Latorraca Correctional Center directory",
+      "url": "https://www.countyofmerced.com/directory.aspx?did=187",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced County Public Defender",
+      "url": "https://www.countyofmerced.com/81/Public-Defender",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced County Public Defender — Location and Hours",
+      "url": "https://www.countyofmerced.com/2031/Location-and-Hours",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced County Public Defender — Post Disposition Dismissals and Reductions",
+      "url": "https://www.countyofmerced.com/903/Post-Disposition-Dismissals-and-Reductio",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced County Probation — Contact Us",
+      "url": "https://www.countyofmerced.com/3515/Contact-Us",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Merced County Probation — Pretrial Services",
+      "url": "https://www.countyofmerced.com/3693/Pretrial-Services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Central California Legal Services — Get Help",
+      "url": "https://centralcallegal.org/get-help/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Central California Legal Services — Criminal Record Expungement Clinic (archived)",
+      "url": "https://centralcallegal.org/criminal-record-expungement-clinic/",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "ogletree",
+      "name": "Ogletree Jr. Courthouse (N Street Building)",
+      "address": "2260 N Street",
+      "city": "Merced",
+      "zip": "95340",
+      "phone": "(209) 725-4100",
+      "criminal_phone": "(209) 725-4113",
+      "hours": "Building Mon–Fri 7:45 a.m.–3:00 p.m.; Criminal Clerk's Office (1st floor) 8:00 a.m.–3:00 p.m. for filings",
+      "criminal": true,
+      "note": "Main criminal courthouse (Courtrooms 1–7): Criminal, Collections, Family Law, Family Court Services, Jury Services, Self-Help Center (Room 1400). Criminal fax (209) 725-4114. Public computer for case lookup in the Criminal office. Remote appearances by Zoom (CourtCall ended July 1, 2026). Collaborative courts (drug, behavioral health) meet in Courtroom 3.",
+      "departments": [
+        {
+          "id": "3",
+          "label": "Courtroom 3",
+          "type": "Collaborative courts (Behavioral Health Treatment Court; Drug Treatment Court)",
+          "note": "Behavioral Health: 1st, 2nd & 4th Tuesdays 10:00 a.m.; Drug Court: Fridays 10:00 a.m."
+        }
+      ],
+      "source_url": "https://www.merced.courts.ca.gov/location/ogletree-jr-courthouse-0",
+      "verified_on": "2026-10-13",
+      "todo": "Per-courtroom criminal assignments (arraignment, felony, misdemeanor) not published on the location page"
+    },
+    {
+      "id": "los-banos",
+      "name": "Los Banos — Robert M. Falasco Justice Center",
+      "address": "1159 G Street",
+      "city": "Los Banos",
+      "zip": "93635",
+      "phone": "(209) 725-4124",
+      "hours": "Mon–Fri 7:45 a.m.–3:00 p.m.",
+      "criminal": true,
+      "note": "Civil, Collections, Criminal, Traffic, Juvenile, Small Claims and Self-Help appointments (Courtrooms 12 and 13). Fax (209) 725-4125.",
+      "departments": [],
+      "source_url": "https://www.merced.courts.ca.gov/location/los-banos-robert-m-falasco-justice-center",
+      "verified_on": "2026-10-13",
+      "todo": "Which criminal calendars (arraignments, in-custody) are heard in Los Banos not published"
+    },
+    {
+      "id": "traffic",
+      "name": "Traffic Building",
+      "address": "720 West 20th Street",
+      "city": "Merced",
+      "zip": "95340",
+      "phone": "(209) 725-4107",
+      "hours": "Mon–Fri 7:30 a.m.–3:00 p.m.",
+      "criminal": true,
+      "note": "Traffic — adult and juvenile — and Collections. Page doesn't say whether traffic misdemeanors are heard here.",
+      "departments": [],
+      "source_url": "https://www.merced.courts.ca.gov/location/traffic-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "old-courthouse",
+      "name": "Old Merced Courthouse (21st Street Building)",
+      "address": "627 W 21st Street",
+      "city": "Merced",
+      "zip": "95340",
+      "phone": "(209) 725-4100",
+      "hours": "Mon–Fri, doors open 7:45 a.m.",
+      "criminal": false,
+      "note": "Civil, Collections, Probate; court Administration (Courtrooms 8, 9, 10).",
+      "departments": [],
+      "source_url": "https://www.merced.courts.ca.gov/location/old-merced-courthouse-21st-street-building",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "juvenile-justice",
+      "name": "Juvenile Justice (Iris Garrett Juvenile Justice Correctional Complex)",
+      "address": "2840 W Sandy Mush Road",
+      "city": "Merced",
+      "zip": "95341",
+      "phone": "(209) 725-4119",
+      "hours": "Mon–Fri 8:00 a.m.–3:00 p.m.; calendar starts 8:15 a.m.",
+      "criminal": false,
+      "note": "Juvenile justice calendar only (Courtroom 11).",
+      "departments": [],
+      "source_url": "https://www.merced.courts.ca.gov/location/juvenile-justice",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Merced County Public Defender — Merced Office",
+      "address": "1944 M Street",
+      "city": "Merced",
+      "zip": "95340",
+      "phone": "(209) 385-7692",
+      "toll_free": null,
+      "email": "public.defender@countyofmerced.com",
+      "hours": "Office Mon–Fri 9:00 a.m.–4:00 p.m.; phones 8:30 a.m.–4:00 p.m.; closed 12:00–1:00 p.m.",
+      "url": "https://www.countyofmerced.com/81/Public-Defender",
+      "source_url": "https://www.countyofmerced.com/2031/Location-and-Hours",
+      "verified_on": "2026-10-13",
+      "note": "Proof of community service, payments or programs: PDInfo@countyofmerced.com. Fax (209) 725-8873. Call to reach your attorney before your court date."
+    },
+    {
+      "name": "Merced County Public Defender — Los Banos Office",
+      "address": "445 I Street",
+      "city": "Los Banos",
+      "zip": "93635",
+      "phone": "(209) 710-6030",
+      "toll_free": null,
+      "email": "public.defender@countyofmerced.com",
+      "hours": "Mon–Fri 9:00 a.m.–4:00 p.m.; closed 12:00–1:00 p.m.",
+      "url": "https://www.countyofmerced.com/81/Public-Defender",
+      "source_url": "https://www.countyofmerced.com/2031/Location-and-Hours",
+      "verified_on": "2026-10-13",
+      "note": "Fax (209) 826-0361."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Merced County Public Defender — Post Disposition Dismissals and Reductions",
+      "serves": "People with Merced County convictions who finished probation and paid all fines/fees",
+      "what": "PC 1203.4 dismissals and felony-to-misdemeanor reductions. Stop by either PD office (1944 M St, Merced or 445 I St, Los Banos) to fill out a Relief Information sheet; a Post Conviction Specialist reviews it. The page says neither the PD nor the court charges a fee for expungement. You must have no open cases, not be on probation or serving time.",
+      "phone": "(209) 385-7692",
+      "email": "public.defender@countyofmerced.com",
+      "url": "https://www.countyofmerced.com/903/Post-Disposition-Dismissals-and-Reductio",
+      "source_url": "https://www.countyofmerced.com/903/Post-Disposition-Dismissals-and-Reductio",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Central California Legal Services — Merced Office",
+      "serves": "Eligible low-income Central Valley residents and seniors 60+",
+      "what": "Civil legal aid; its (archived, Nov 2023) Criminal Record Expungement Clinic served people with convictions in Fresno, Tulare, Kings, Madera, Merced, Mariposa and Tuolumne counties (eligibility review, form prep). Legal Advice & Referral Line (800) 675-8001. Pro Bono Program (559) 570-1274, ProBono@CentralCalLegal.org.",
+      "phone": "(209) 386-1696",
+      "email": null,
+      "url": "https://centralcallegal.org/get-help/",
+      "source_url": "https://centralcallegal.org/get-help/",
+      "verified_on": "2026-10-13",
+      "note": "Office: 1640 N Street, Suite 200, Merced, CA 95340. Los Banos satellite listed.",
+      "todo": "Expungement clinic page is marked archived — confirm it still runs"
+    },
+    {
+      "name": "Merced Superior Court Self-Help Center",
+      "serves": "Self-represented people in Merced County",
+      "what": "Remote help plus in-person appointments in Merced (Room 1400, Ogletree Jr. Courthouse) and Los Banos; closed to walk-ins. Listed services are civil/family; criminal record clearing is not listed.",
+      "phone": "(209) 725-4168",
+      "email": "selfhelp@mercedcourt.org",
+      "url": "https://www.merced.courts.ca.gov/self-help/self-help-center",
+      "source_url": "https://www.merced.courts.ca.gov/self-help/self-help-center",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Merced County Probation — Adult Supervision",
+      "address": "600 W. Olive Avenue",
+      "city": "Merced",
+      "zip": "95340",
+      "phone": "(209) 381-1380",
+      "hours": null,
+      "url": "https://www.countyofmerced.com/3478/Adult-Probation",
+      "source_url": "https://www.countyofmerced.com/3515/Contact-Us",
+      "verified_on": "2026-10-13",
+      "note": "Fax (209) 725-3737.",
+      "todo": "Office hours not listed"
+    },
+    {
+      "name": "Merced County Probation — Adult Pre-Trial, Intake & Investigations",
+      "address": "510 W. 25th Street",
+      "city": "Merced",
+      "zip": "95340",
+      "phone": "(209) 385-4906",
+      "hours": null,
+      "url": "https://www.countyofmerced.com/3693/Pretrial-Services",
+      "source_url": "https://www.countyofmerced.com/3515/Contact-Us",
+      "verified_on": "2026-10-13",
+      "todo": "Office hours not listed"
+    },
+    {
+      "name": "Merced County Probation — Los Banos Office",
+      "address": "445 \"I\" Street",
+      "city": "Los Banos",
+      "zip": "93635",
+      "phone": "(209) 710-6050",
+      "hours": null,
+      "url": "https://www.countyofmerced.com/3884/Probation",
+      "source_url": "https://www.countyofmerced.com/3515/Contact-Us",
+      "verified_on": "2026-10-13",
+      "note": "Fax (209) 826-2811.",
+      "todo": "Office hours not listed"
+    },
+    {
+      "name": "Merced County Probation — Administration & Juvenile Services",
+      "address": "1880 Wardrobe Ave",
+      "city": "Merced",
+      "zip": "95341",
+      "phone": "(209) 385-7494",
+      "hours": null,
+      "url": "https://www.countyofmerced.com/3884/Probation",
+      "source_url": "https://www.countyofmerced.com/3515/Contact-Us",
+      "verified_on": "2026-10-13",
+      "note": "Fax (209) 725-3999.",
+      "todo": "Office hours not listed"
+    }
+  ],
+  "programs": [
+    {
+      "id": "merced-pretrial",
+      "name": "Probation Pretrial Services Unit",
+      "type": "pretrial",
+      "summary": "Probation staff do pretrial assessments using the Public Safety Assessment (PSA) and supervise people on pretrial release according to risk level. Defendants download the Supervision Access app for court reminders; people without a smartphone are given one at no cost. The unit writes reports to help the court decide release.",
+      "phone": "(209) 385-4906",
+      "url": "https://www.countyofmerced.com/3693/Pretrial-Services",
+      "source_url": "https://www.countyofmerced.com/3693/Pretrial-Services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "merced-behavioral-health-court",
+      "name": "Behavioral Health Treatment Court",
+      "type": "collaborative-court",
+      "summary": "Treatment court linking the mental health and criminal justice systems. Courtroom 3, 1st, 2nd and 4th Tuesdays at 10:00 a.m.",
+      "phone": null,
+      "url": "https://www.merced.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://www.merced.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "Eligibility and referral contact not published"
+    },
+    {
+      "id": "merced-drug-court",
+      "name": "Drug Treatment Court",
+      "type": "collaborative-court",
+      "summary": "Intense judicial supervision with substance abuse treatment, random drug testing, incentives/sanctions and case management. Courtroom 3, Fridays at 10:00 a.m.",
+      "phone": null,
+      "url": "https://www.merced.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://www.merced.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "Eligibility and referral contact not published"
+    },
+    {
+      "id": "merced-veterans-court",
+      "name": "Veterans Treatment Court",
+      "type": "collaborative-court",
+      "summary": "Alternative sentencing program for veterans requiring regular court appearances. 3rd Tuesday of the month at 8:30 a.m.",
+      "phone": null,
+      "url": "https://www.merced.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://www.merced.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "Courtroom, eligibility and contact not published"
+    },
+    {
+      "id": "merced-homeless-court",
+      "name": "Homeless Court",
+      "type": "collaborative-court",
+      "summary": "For people experiencing homelessness with criminal offenses who first work with a homeless services provider. Held at the Hoffmeister Center, Central Presbyterian Church, 920 Canal Street, Merced, last Tuesday of each month at 3:00 p.m. Homeless Court Navigator (Worknet): (209) 724-2100.",
+      "phone": "(209) 724-2100",
+      "url": "https://www.merced.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://www.merced.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "merced-self-help",
+      "name": "Court Self-Help Center",
+      "type": "self-help",
+      "summary": "Phone (209) 725-4168, Mon–Fri 8:00 a.m.–12:00 p.m.; email selfhelp@mercedcourt.org; appointments in Merced and Los Banos (no walk-ins).",
+      "phone": "(209) 725-4168",
+      "url": "https://www.merced.courts.ca.gov/self-help/self-help-center",
+      "source_url": "https://www.merced.courts.ca.gov/self-help/self-help-center",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "main-jail",
+      "name": "Merced County Main Jail",
+      "address": "700 W. 22nd St.",
+      "city": "Merced",
+      "zip": "95340",
+      "phone": "(209) 385-7410",
+      "phone_note": "Visits: sign in at the lobby window starting the hour before the visit (by 15 min before); two visitors per visiting day; approved visitor list required. Schedule in the 'Main Jail Visitation Schedule' PDF. The 2025/2026 Grand Jury says Main Jail inmates will be moved to the new JLCC expansion (scheduled 2027).",
+      "houses": null,
+      "visiting_url": "https://www.countyofmerced.com/3200/Jail-Visitation-Schedules",
+      "commissary_or_money_url": "https://www.countyofmerced.com/2085/Inmate-Funds",
+      "court_ids": [
+        "ogletree"
+      ],
+      "court_ids_note": "Nearest criminal courthouse (about a block away), not confirmed by the Sheriff. Los Banos (los-banos) also hears criminal cases.",
+      "url": "https://www.countyofmerced.com/381/Jail-Information",
+      "source_url": "https://www.countyofmerced.com/directory.aspx?did=49",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff page doesn't say men/women; 2025/2026 Grand Jury says it holds low- to high-risk inmates (capacity 189) without stating sex"
+    },
+    {
+      "id": "jlcc",
+      "name": "John Latorraca Correctional Center (JLCC)",
+      "address": "2584 W. Sandy Mush Rd.",
+      "city": "El Nido",
+      "zip": "95317",
+      "phone": null,
+      "phone_note": "Same visiting rules as Main Jail; see 'JLCC Visitation Schedule' PDF. Capacity 564 (Grand Jury, Oct 2025); expansion under construction. Grand Jury report lists the address as 2840 W. Sandy Mush Road; the county directory says 2584.",
+      "houses": "both",
+      "visiting_url": "https://www.countyofmerced.com/3200/Jail-Visitation-Schedules",
+      "commissary_or_money_url": "https://www.countyofmerced.com/2085/Inmate-Funds",
+      "court_ids": [
+        "ogletree"
+      ],
+      "court_ids_note": "Nearest criminal courthouse, not confirmed by the Sheriff. Los Banos (los-banos) also hears criminal cases.",
+      "url": "https://www.countyofmerced.com/381/Jail-Information",
+      "source_url": "https://www.merced.courts.ca.gov/system/files/general/2025-2026-civil-grand-jury-final-report.pdf",
+      "verified_on": "2026-10-13",
+      "todo": "No JLCC phone on the official directory page (a search snippet showed (209) 385-7575, unverified). 'houses: both' comes from the 2025/2026 Merced County Civil Grand Jury report (men and women in segregated units), not the Sheriff's page."
+    }
+  ],
+  "inmate_lookup_url": "https://booking2.co.merced.ca.us/",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "Before paying a bail agent, check that their license is active with the California Department of Insurance license lookup. The court's fee & bail schedules are at https://www.merced.courts.ca.gov/forms-filing/fee-bail-schedules. To find someone in custody use the county's 'Inmate and Booking Information' search linked from the Sheriff's Jail Information page. Money for an inmate: TouchPay (site ID 295340), 1-866-232-1899 or tponlinepay.com, or the Main Jail lobby kiosk. This is information only, not legal advice."
+  }
+}

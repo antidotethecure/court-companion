@@ -1,0 +1,392 @@
+{
+  "state": "CA",
+  "county": "San Joaquin",
+  "slug": "san-joaquin",
+  "court_name": "Superior Court of California, County of San Joaquin",
+  "court_website": "https://www.sjcourts.org/",
+  "case_search_url": "https://prod-portal-ecourt-sanjoaquincounty-ca.journaltech.com/public-portal/",
+  "case_search_note": "eCourt Public Portal (linked from sjcourts.org/case-management-search). Per CRC 2.507, party searches use first/middle/last name only (no DOB or driver's license); search by case number also available. If a case hasn't updated, contact the clerk.",
+  "sources": [
+    {
+      "title": "SJ Superior Court — Court Locations & Contact",
+      "url": "https://www.sjcourts.org/court-location-and-contact",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SJ Superior Court — Stockton Courthouse",
+      "url": "https://www.sjcourts.org/court-location-and-contact/stockton-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SJ Superior Court — Lodi Courthouse",
+      "url": "https://www.sjcourts.org/court-location-and-contact/lodi-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SJ Superior Court — Manteca Courthouse",
+      "url": "https://www.sjcourts.org/court-location-and-contact/manteca-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SJ Superior Court — Juvenile Justice Center",
+      "url": "https://www.sjcourts.org/court-location-and-contact/juvenile-justice-center",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SJ Superior Court — Criminal",
+      "url": "https://www.sjcourts.org/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SJ Superior Court — Traffic",
+      "url": "https://www.sjcourts.org/traffic",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SJ Superior Court — Case Management Search",
+      "url": "https://www.sjcourts.org/case-management-search",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SJ Superior Court — Collaborative Courts",
+      "url": "https://www.sjcourts.org/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SJ Superior Court — Self-Help",
+      "url": "https://www.sjcourts.org/self-help",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SJ Sheriff — Custody Division",
+      "url": "https://sjsheriff.org/custody",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SJ Sheriff — Visiting Info",
+      "url": "https://sjsheriff.org/visiting-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SJ Sheriff — Bail Procedures",
+      "url": "https://sjsheriff.org/bail-procedures",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SJ Sheriff — Unified Court Services",
+      "url": "https://sjsheriff.org/unified",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SJ County Public Defender",
+      "url": "https://www.sjgov.org/department/pubdef",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SJ County Public Defender — Contact Us",
+      "url": "https://www.sjgov.org/department/pubdef/contact-us",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SJ County Public Defender — Clean Slate",
+      "url": "https://www.sjgov.org/department/pubdef/programs-services/clean-slate",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SJ County Probation",
+      "url": "https://sjcprobation.org/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SJ County Probation — Adults",
+      "url": "https://sjcprobation.org/adult-probation",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "stockton",
+      "name": "Stockton Courthouse",
+      "address": "180 E. Weber Avenue",
+      "city": "Stockton",
+      "zip": "95202",
+      "phone": "(209) 992-5691",
+      "hours": "Criminal clerk's office: Mon–Fri 8:00 a.m.–4:00 p.m. (excluding holidays). Temporary notice: Sept 7–Oct 30, 2026 clerk's counter and phone hours are 8:00 a.m.–2:00 p.m. Mon–Fri.",
+      "criminal": true,
+      "note": "Main courthouse. Criminal clerk: 2nd floor, (209) 992-5691 (mailing: Criminal Department, 180 E Weber Ave., Suite 202). Traffic clerk: 2nd floor, (209) 992-5692. Collaborative Courts: 5th floor, (209) 992-5452. Self-Help Center: Suite 105, (209) 992-5283. Sheriff describes it as 13 stories with 28 courtrooms; criminal courts hear misdemeanors, felony preliminary hearings and felony trials, including arraignments.",
+      "departments": [],
+      "source_url": "https://www.sjcourts.org/criminal",
+      "verified_on": "2026-10-13",
+      "todo": "Department-level criminal assignments not published on the location page."
+    },
+    {
+      "id": "lodi",
+      "name": "Lodi Courthouse (Department L-1)",
+      "address": "217 W. Elm Street, 2nd Floor",
+      "city": "Lodi",
+      "zip": "95240",
+      "phone": "(209) 992-5521",
+      "hours": "Clerk's office, phone and dropbox: Mon–Fri 8:00 a.m.–4:00 p.m.; courtroom proceedings generally 8:30 a.m.–4:30 p.m. Temporary notice: Sept 7–Oct 30, 2026 clerk's counter and phone hours are 8:00 a.m.–2:00 p.m. Mon–Fri.",
+      "criminal": true,
+      "note": "Dept L-1 (217 W. Elm St., 2nd floor): Criminal, Civil Name Changes, Small Claims, Civil Harassment, Municipal Codes, some Probate. Dept L-2 (315 W. Elm St.): Probate. Mailing address for both: 315 W. Elm Street, Lodi 95240. Criminal (209) 992-5521; Traffic (209) 992-5520. Sheriff notes inmate holding areas here.",
+      "departments": [
+        {
+          "id": "L-1",
+          "label": "Department L-1",
+          "type": "Criminal, Civil Name Changes, Small Claims, Civil Harassment, Municipal Codes, some Probate",
+          "note": "217 W. Elm Street, 2nd Floor"
+        },
+        {
+          "id": "L-2",
+          "label": "Department L-2",
+          "type": "Probate",
+          "note": "315 W. Elm Street"
+        }
+      ],
+      "source_url": "https://www.sjcourts.org/court-location-and-contact/lodi-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "manteca",
+      "name": "Manteca Courthouse",
+      "address": "315 E. Center Street",
+      "city": "Manteca",
+      "zip": "95336",
+      "phone": "(209) 239-1316",
+      "hours": "Clerk's office, phone and dropbox: Mon–Fri 8:00 a.m.–4:00 p.m.; courtroom proceedings generally 8:30 a.m.–4:30 p.m. Temporary notice: Sept 7–Oct 30, 2026 clerk's counter and phone hours are 8:00 a.m.–2:00 p.m. Mon–Fri.",
+      "criminal": true,
+      "note": "Branch court for South County. Phone lines listed for Criminal and Traffic (209) 239-1316; Civil Harassment and Unlawful Detainer (209) 239-9188. Sheriff notes 2 courtrooms and inmate holding areas.",
+      "departments": [],
+      "source_url": "https://www.sjcourts.org/court-location-and-contact/manteca-courthouse",
+      "verified_on": "2026-10-13",
+      "todo": "Court does not list departments or a full set of case types for this branch."
+    },
+    {
+      "id": "juvenile",
+      "name": "Juvenile Justice Center",
+      "address": "535 W. Mathews Rd",
+      "city": "French Camp",
+      "zip": "95231",
+      "phone": null,
+      "hours": null,
+      "criminal": false,
+      "note": "Juvenile Division — Departments J-1 and J-2. Not an adult criminal court.",
+      "departments": [
+        {
+          "id": "J-1",
+          "label": "Department J-1",
+          "type": "Juvenile",
+          "note": null
+        },
+        {
+          "id": "J-2",
+          "label": "Department J-2",
+          "type": "Juvenile",
+          "note": null
+        }
+      ],
+      "source_url": "https://www.sjcourts.org/court-location-and-contact/juvenile-justice-center",
+      "verified_on": "2026-10-13",
+      "todo": "No phone or regular hours on the location page."
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "San Joaquin County Public Defender — Main Office",
+      "address": "102 S. San Joaquin Street, Room 1",
+      "city": "Stockton",
+      "zip": "95202",
+      "phone": "(209) 468-2730",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.sjgov.org/department/pubdef",
+      "source_url": "https://www.sjgov.org/department/pubdef/contact-us",
+      "verified_on": "2026-10-13",
+      "todo": "Office hours and general email not listed."
+    },
+    {
+      "name": "San Joaquin County Public Defender — Juvenile Division",
+      "address": "535 W. Mathews Road",
+      "city": "French Camp",
+      "zip": "95231",
+      "phone": "(209) 468-4252",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.sjgov.org/department/pubdef",
+      "source_url": "https://www.sjgov.org/department/pubdef/contact-us",
+      "verified_on": "2026-10-13",
+      "todo": "Hours not listed."
+    },
+    {
+      "name": "Court Assigned Counsel (listed on Public Defender contact page)",
+      "address": "343 East Main Street, Suite 408",
+      "city": "Stockton",
+      "zip": "95202",
+      "phone": "(209) 948-0125",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.sjgov.org/department/pubdef/contact-us",
+      "source_url": "https://www.sjgov.org/department/pubdef/contact-us",
+      "verified_on": "2026-10-13",
+      "note": "Appointed counsel when the Public Defender cannot represent you (role inferred from name; page gives contact info only).",
+      "todo": "Role description not stated on the page; hours not listed."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "San Joaquin County Public Defender — Clean Slate Program",
+      "serves": "People with eligible past convictions",
+      "what": "Helps clear eligible past convictions (record clearance). Apply via the online 'Start Request' form; allow up to two weeks for case review and a return call.",
+      "phone": null,
+      "email": "cleanslate@sjgov.org",
+      "url": "https://www.sjgov.org/department/pubdef/programs-services/clean-slate",
+      "source_url": "https://www.sjgov.org/department/pubdef/programs-services/clean-slate",
+      "verified_on": "2026-10-13",
+      "note": "Office: 102 S. San Joaquin Street, Room 1, Stockton 95202.",
+      "todo": "No direct phone listed for Clean Slate; main PD line is (209) 468-2730."
+    },
+    {
+      "name": "San Joaquin Superior Court — Self-Help Center",
+      "serves": "People without attorneys",
+      "what": "Free help with forms for Family Law, Civil, Probate and Restraining Orders; workshops. Criminal matters are not on its list of services.",
+      "phone": "(209) 992-5283",
+      "email": null,
+      "url": "https://www.sjcourts.org/self-help",
+      "source_url": "https://www.sjcourts.org/self-help",
+      "verified_on": "2026-10-13",
+      "note": "180 E Weber Ave., Suite 105, Stockton. Mon/Tue/Thu/Fri 8:00–3:30; Wed 8:00–11:00."
+    }
+  ],
+  "probation": [
+    {
+      "name": "San Joaquin County Probation — Adult Probation",
+      "address": "24 S. Hunter Street",
+      "city": "Stockton",
+      "zip": "95202",
+      "phone": "(209) 468-4100",
+      "hours": "Phones Mon–Fri 8:00 a.m.–5:00 p.m.; walk-in Mon–Fri 8:00 a.m.–4:30 p.m.",
+      "url": "https://sjcprobation.org/adult-probation",
+      "source_url": "https://sjcprobation.org/",
+      "verified_on": "2026-10-13",
+      "note": "Supervises adults on Pretrial Programming, Adult Probation or Local Community Supervision. A Day Reporting Center and Assessment Center are mentioned (address not given)."
+    },
+    {
+      "name": "San Joaquin County Probation — Juvenile Probation",
+      "address": "575 W. Mathews Road",
+      "city": "French Camp",
+      "zip": "95231",
+      "phone": "(209) 468-4000",
+      "hours": "Phones Mon–Fri 8:00 a.m.–5:00 p.m.; walk-in Mon–Fri 8:00 a.m.–4:30 p.m.",
+      "url": "https://sjcprobation.org/juvenile-services-division",
+      "source_url": "https://sjcprobation.org/",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "programs": [
+    {
+      "id": "sj-pretrial",
+      "name": "Probation Pretrial Programming",
+      "type": "pretrial",
+      "summary": "San Joaquin County Probation supervises adults released on Pretrial Programming. The department's site gives no further detail; call Adult Probation.",
+      "phone": "(209) 468-4100",
+      "url": "https://sjcprobation.org/",
+      "source_url": "https://sjcprobation.org/",
+      "verified_on": "2026-10-13",
+      "todo": "No published description of check-in requirements."
+    },
+    {
+      "id": "sj-collaborative-courts",
+      "name": "Collaborative Courts (Drug Court, DUI Drug Court, Veterans Court, Parole Reentry Court, AB109 Compliance Courts, Dependency Drug Court)",
+      "type": "collaborative-court",
+      "summary": "Court-monitored treatment programs using an evidence-based drug court model for people affected by substance use, mental illness and related issues; regular review hearings with incentives and sanctions, plus links to treatment, education, housing and reentry services.",
+      "phone": "(209) 992-5452",
+      "url": "https://www.sjcourts.org/collaborative-courts",
+      "source_url": "https://www.sjcourts.org/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "note": "Office: 180 E Weber Ave., 5th Floor, Stockton. Mon–Fri 8:00–4:00. Program list is the court's historical list ('implemented ... since 1995'); confirm which are currently running."
+    },
+    {
+      "id": "sj-traffic-ability-to-pay",
+      "name": "Traffic ability-to-pay / virtual counter",
+      "type": "self-help",
+      "summary": "If you cannot pay an infraction fine (including most traffic tickets) you may ask the court to reduce it based on ability to pay. Traffic Division also offers a video 'virtual counter' with a clerk.",
+      "url": "https://www.sjcourts.org/traffic",
+      "source_url": "https://www.sjcourts.org/traffic",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "sj-jail-core",
+      "name": "San Joaquin County Jail — John Zunino Jail Complex (Intake / Main Jail, 'Jail Core')",
+      "address": "7000 Michael Canlis Blvd, French Camp, CA 95231",
+      "city": "French Camp",
+      "zip": "95231",
+      "phone": "(209) 468-4562",
+      "phone_note": "24-hour jail information. Jail Core visiting: (209) 468-4295. Non-emergency: (209) 468-4400. Cash bail posted here (U.S. currency or cashier's check payable to San Joaquin County Superior Court).",
+      "houses": null,
+      "visiting_url": "https://sjsheriff.org/visiting-info",
+      "commissary_or_money_url": "https://sjsheriff.org/wp-content/uploads/2023/03/sjso-how-to-deposit-money-into-an-inmate-account.pdf",
+      "court_ids": [
+        "stockton",
+        "lodi",
+        "manteca"
+      ],
+      "court_ids_note": "Sheriff's Unified Court Services manages in-custody inmates brought to court from the county jail to the Stockton, Lodi and Manteca courthouses (Lodi and Manteca have inmate holding areas). Specific courthouse depends on the case.",
+      "url": "https://sjsheriff.org/custody",
+      "source_url": "https://sjsheriff.org/custody",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff's pages do not say whether this facility houses men, women or both. Money: SmartDeposit (smartdeposit.com, (866) 394-0490), lobby kiosks, or USPS money orders to 999 W. Mathews Rd."
+    },
+    {
+      "id": "sj-south-jail",
+      "name": "San Joaquin County South Jail",
+      "address": "7000 Michael Canlis Blvd, French Camp, CA 95231",
+      "city": "French Camp",
+      "zip": "95231",
+      "phone": "(209) 468-4676",
+      "phone_note": "South Jail visiting line. 24-hour jail info (209) 468-4562.",
+      "houses": null,
+      "visiting_url": "https://sjsheriff.org/visiting-info",
+      "commissary_or_money_url": "https://sjsheriff.org/wp-content/uploads/2023/03/sjso-how-to-deposit-money-into-an-inmate-account.pdf",
+      "court_ids": [
+        "stockton",
+        "lodi",
+        "manteca"
+      ],
+      "court_ids_note": "Same county jail complex; Unified Court Services transports to the Stockton, Lodi and Manteca courthouses. Specific courthouse depends on the case.",
+      "url": "https://sjsheriff.org/visiting-info",
+      "source_url": "https://sjsheriff.org/visiting-info",
+      "verified_on": "2026-10-13",
+      "todo": "Housing (men/women) not stated. Address given for 'Jail Core and South Jail' together on the visiting page."
+    },
+    {
+      "id": "sj-honor-farm",
+      "name": "San Joaquin County Honor Farm",
+      "address": null,
+      "city": "French Camp",
+      "zip": null,
+      "phone": "(209) 468-4384",
+      "phone_note": "Honor Farm visiting line. Max two visitors per inmate; inmates on work assignment cannot visit; inmates may not receive money during visits.",
+      "houses": null,
+      "visiting_url": "https://sjsheriff.org/visiting-info",
+      "commissary_or_money_url": "https://sjsheriff.org/wp-content/uploads/2023/03/sjso-how-to-deposit-money-into-an-inmate-account.pdf",
+      "court_ids": [
+        "stockton"
+      ],
+      "court_ids_note": "Nearest, not confirmed.",
+      "url": "https://sjsheriff.org/visiting-info",
+      "source_url": "https://sjsheriff.org/visiting-info",
+      "verified_on": "2026-10-13",
+      "todo": "No street address published (directions: west on Mathews Rd past Canlis Blvd to Wolfe Rd); city/ZIP inferred from the Custody Division's French Camp addresses, ZIP not confirmed. Housing (men/women) not stated."
+    }
+  ],
+  "inmate_lookup_url": "https://vinelink.vineapps.com/search/CA/Person",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "Before paying a bail agent, check their license with the California Department of Insurance license lookup. Cash bail can be posted at the San Joaquin County Jail, 7000 Michael Canlis Blvd, French Camp (U.S. currency or cashier's check payable to San Joaquin County Superior Court), and in some circumstances at the courthouse. Court's Uniform Bail Schedule: https://sjcourts.org/sites/default/files/2026-07/2026%20Uniform%20County%20Bail%20Schedule.pdf. Custody status: 24-hour line (209) 468-4562 or VINE (the sheriff's linked custody-status tool). This is information only, not legal advice."
+  }
+}

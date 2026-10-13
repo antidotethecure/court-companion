@@ -1,0 +1,320 @@
+{
+  "state": "CA",
+  "county": "El Dorado",
+  "slug": "el-dorado",
+  "court_name": "Superior Court of California, County of El Dorado",
+  "court_website": "https://www.eldorado.courts.ca.gov/",
+  "case_search_url": "https://public-portal-eldorado.journaltech.com/public-portal/?q=Home",
+  "case_search_note": "Web Portal linked from eldorado.courts.ca.gov/online-services/case-index-department-calendars. You must register a free account (email activation) to search cases and view department calendars.",
+  "sources": [
+    {"title": "El Dorado Superior Court — Locations & Contact Information", "url": "https://www.eldorado.courts.ca.gov/general-information/locations-contact-information", "verified_on": "2026-10-13"},
+    {"title": "El Dorado Superior Court — Judicial Assignments", "url": "https://www.eldorado.courts.ca.gov/general-information/judicial-assignments", "verified_on": "2026-10-13"},
+    {"title": "El Dorado Superior Court — Criminal Division", "url": "https://www.eldorado.courts.ca.gov/divisions/criminal", "verified_on": "2026-10-13"},
+    {"title": "El Dorado Superior Court — Collaborative Courts", "url": "https://www.eldorado.courts.ca.gov/divisions/collaborative-courts", "verified_on": "2026-10-13"},
+    {"title": "El Dorado Superior Court — Case Index & Department Calendars", "url": "https://www.eldorado.courts.ca.gov/online-services/case-index-department-calendars", "verified_on": "2026-10-13"},
+    {"title": "El Dorado Superior Court — Family Law Facilitator/Self-Help Center", "url": "https://www.eldorado.courts.ca.gov/self-help/family-law-facilitatorself-help-center", "verified_on": "2026-10-13"},
+    {"title": "El Dorado County Sheriff — Visiting Information", "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/sheriff/custody/visiting", "verified_on": "2026-10-13"},
+    {"title": "El Dorado County Sheriff — Inmate Correspondence", "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/sheriff/custody/inmate_comms", "verified_on": "2026-10-13"},
+    {"title": "El Dorado County Sheriff — main page (Current Inmates link)", "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/sheriff", "verified_on": "2026-10-13"},
+    {"title": "El Dorado County Public Defender", "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/Public-Defender", "verified_on": "2026-10-13"},
+    {"title": "El Dorado County Alternate Public Defender", "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/Alternate-Public-Defender", "verified_on": "2026-10-13"},
+    {"title": "El Dorado County Probation — Contacts", "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/Probation/Contacts", "verified_on": "2026-10-13"},
+    {"title": "El Dorado County Probation — Pretrial Services", "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/Probation/El-Dorado-County-Pretrial-Services", "verified_on": "2026-10-13"},
+    {"title": "El Dorado County Probation — Juvenile Treatment Center South Lake Tahoe", "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/Probation/Institutional-Services/Juvenile-Treatment-Center-South-Lake-Tahoe", "verified_on": "2026-10-13"},
+    {"title": "Legal Services of Northern California — Auburn office", "url": "https://lsnc.net/office/auburn", "verified_on": "2026-10-13"},
+    {"title": "CA Dept. of Insurance — Check an Agent/Broker license", "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm", "verified_on": "2026-10-13"}
+  ],
+  "courthouses": [
+    {
+      "id": "main-street",
+      "name": "Placerville Main Street Branch",
+      "address": "495 Main Street",
+      "city": "Placerville",
+      "zip": "95667",
+      "phone": "(530) 621-5047",
+      "criminal_phone": "(530) 621-5047",
+      "hours": "Clerk's Office Mon–Fri 8:00 a.m.–3:30 p.m.",
+      "criminal": true,
+      "note": "West Slope criminal courthouse. Departments 1, 2, 6 & 7; Depts. 1, 2 and 7 are Criminal Pre-Trial and Criminal Trials (Dept. 6 vacant). Criminal filings and payments accepted here. Assignments rotate.",
+      "departments": [
+        {"id": "1", "label": "Department 1", "type": "Criminal Pre-Trial, Criminal Trials", "note": "Dept. phone 530-621-6426."},
+        {"id": "2", "label": "Department 2", "type": "Criminal Pre-Trial, Criminal Trials", "note": "Dept. phone 530-621-6426."},
+        {"id": "7", "label": "Department 7", "type": "Criminal Pre-Trial, Criminal Trials", "note": "Dept. phone 530-621-7464."}
+      ],
+      "departments_source_url": "https://www.eldorado.courts.ca.gov/general-information/judicial-assignments",
+      "source_url": "https://www.eldorado.courts.ca.gov/general-information/locations-contact-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "building-c",
+      "name": "Placerville Building C Branch",
+      "address": "2850 Fairlane Court, Suite 120",
+      "city": "Placerville",
+      "zip": "95667",
+      "phone": "(530) 621-5047",
+      "criminal_phone": null,
+      "hours": "Mon–Fri 8:00 a.m.–3:30 p.m.",
+      "criminal": true,
+      "note": "Departments 5 & 8. Dept. 8 hears Behavioral Health Court, Mental Health Diversion Court and Veterans Treatment Court (plus restraining orders, CARE Court, dependency); Dept. 5 family law. Family Law Facilitator/Self-Help (530) 621-5098 and Court Administration are here. No regular criminal arraignment calendar listed.",
+      "departments": [
+        {"id": "8", "label": "Department 8", "type": "Behavioral Health Court, Mental Health Diversion Court, Veterans Treatment Court, restraining orders, CARE Court", "note": "Dept. phone 530-621-7470."}
+      ],
+      "departments_source_url": "https://www.eldorado.courts.ca.gov/general-information/judicial-assignments",
+      "source_url": "https://www.eldorado.courts.ca.gov/general-information/locations-contact-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "cameron-park",
+      "name": "Cameron Park Branch",
+      "address": "2927 Meder Road",
+      "city": "Cameron Park",
+      "zip": "95682",
+      "phone": "(530) 621-5047",
+      "criminal_phone": null,
+      "hours": "Mon–Fri 8:00 a.m.–3:30 p.m.",
+      "criminal": true,
+      "note": "Departments 9 & 10. Dept. 10 hears Traffic and juvenile infractions (also small claims, unlawful detainers, child support); Dept. 9 civil/probate/Family Wellness Court. Traffic only — no misdemeanor/felony calendar listed. Traffic email infractionservices@eldorado.courts.ca.gov.",
+      "departments": [
+        {"id": "10", "label": "Department 10", "type": "Traffic, juvenile infractions, small claims, unlawful detainers, DCSS", "note": "Dept. phone 530-621-5867."}
+      ],
+      "departments_source_url": "https://www.eldorado.courts.ca.gov/general-information/judicial-assignments",
+      "source_url": "https://www.eldorado.courts.ca.gov/general-information/locations-contact-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "south-lake-tahoe",
+      "name": "South Lake Tahoe Branch",
+      "address": "1354 Johnson Blvd.",
+      "city": "South Lake Tahoe",
+      "zip": "96150",
+      "phone": "(530) 573-3075",
+      "criminal_phone": "(530) 573-3044",
+      "hours": "Clerk's Office Mon–Fri 8:00 a.m.–3:30 p.m.",
+      "criminal": true,
+      "note": "Departments 3, 4, 11 & 12. Dept. 3: Criminal Pre-Trial, Criminal Trials, Domestic Violence Compliance Court. Dept. 4: juvenile justice, family, civil, probate. Dept. 12: traffic, family law, restraining orders. Criminal/Traffic clerk (530) 573-3044; Family Law Facilitator (530) 573-3066.",
+      "departments": [
+        {"id": "3", "label": "Department 3", "type": "Criminal Pre-Trial, Criminal Trials, DV Compliance Court", "note": "Dept. phone 530-573-3044."},
+        {"id": "4", "label": "Department 4", "type": "Juvenile Justice / Dependency, Family, Civil, Probate", "note": null},
+        {"id": "12", "label": "Department 12", "type": "Traffic, family law, restraining orders, juvenile infractions", "note": null}
+      ],
+      "departments_source_url": "https://www.eldorado.courts.ca.gov/general-information/judicial-assignments",
+      "source_url": "https://www.eldorado.courts.ca.gov/general-information/locations-contact-information",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "El Dorado County Public Defender — Shingle Springs Office",
+      "address": "3976 Durock Road, Suite 104",
+      "city": "Shingle Springs",
+      "zip": "95682",
+      "phone": "(530) 621-6440",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/Public-Defender",
+      "source_url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/Public-Defender",
+      "verified_on": "2026-10-13",
+      "note": "From El Dorado Hills: (916) 358-3555 ext. 6440; from South Lake Tahoe: (530) 573-7955 ext. 6440.",
+      "todo": "hours not listed"
+    },
+    {
+      "name": "El Dorado County Public Defender — South Lake Tahoe Office",
+      "address": "1360 Johnson Blvd., #106",
+      "city": "South Lake Tahoe",
+      "zip": "96150",
+      "phone": "(530) 573-3115",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/Public-Defender",
+      "source_url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/Public-Defender",
+      "verified_on": "2026-10-13",
+      "todo": "hours not listed"
+    },
+    {
+      "name": "El Dorado County Alternate Public Defender (conflict office)",
+      "address": "300A Forni Road",
+      "city": "Placerville",
+      "zip": "95667",
+      "phone": "(530) 621-6770",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/Alternate-Public-Defender",
+      "source_url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/Alternate-Public-Defender",
+      "verified_on": "2026-10-13",
+      "note": "Represents clients when the Public Defender can't (conflict/unavailability). Mailing: PO Box 1738, Placerville 95667.",
+      "todo": "hours not listed"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Legal Services of Northern California — Auburn office",
+      "serves": "Low-income residents of Amador, Calaveras, El Dorado, Nevada, Placer and Sierra counties",
+      "what": "Civil legal aid: housing and public benefits (CalWORKs, CalFresh, Medi-Cal, GA, Social Security/SSI, unemployment, SDI). Does not list criminal defense. Office 190 Reamer Street, Auburn 95603; evening intake message line (866) 815-5990.",
+      "phone": "(530) 823-7560",
+      "toll_free": "(800) 660-6107",
+      "email": "auburn-office@lsnc.net",
+      "url": "https://lsnc.net/office/auburn",
+      "source_url": "https://lsnc.net/office/auburn",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "El Dorado Superior Court — Family Law Facilitator/Self-Help Center",
+      "serves": "Self-represented people with El Dorado cases",
+      "what": "Free procedural information (not legal advice, not confidential). Topics listed include family law, restraining orders, small claims, unlawful detainer, civil harassment, CARE Act and Expungement. Placerville (Building C) (530) 621-5098; South Lake Tahoe (530) 573-3066.",
+      "phone": "(530) 621-5098",
+      "email": null,
+      "url": "https://www.eldorado.courts.ca.gov/self-help/family-law-facilitatorself-help-center",
+      "source_url": "https://www.eldorado.courts.ca.gov/self-help/family-law-facilitatorself-help-center",
+      "verified_on": "2026-10-13",
+      "todo": "Self-help hours not captured."
+    }
+  ],
+  "probation": [
+    {
+      "name": "El Dorado County Probation — Shingle Springs Office",
+      "address": "3974 Durock Road, Suite 205",
+      "city": "Shingle Springs",
+      "zip": "95682",
+      "phone": "(530) 621-5625",
+      "hours": "8:00 a.m.–5:00 p.m.",
+      "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/Probation",
+      "source_url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/Probation/Contacts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "El Dorado County Probation — South Lake Tahoe Office",
+      "address": "1360 Johnson Blvd, Suite 102",
+      "city": "South Lake Tahoe",
+      "zip": "96150",
+      "phone": "(530) 573-3083",
+      "hours": "8:00 a.m.–5:00 p.m.",
+      "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/Probation",
+      "source_url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/Probation/Contacts",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "programs": [
+    {
+      "id": "pretrial",
+      "name": "El Dorado County Pretrial Services (Probation)",
+      "type": "pretrial",
+      "summary": "Probation scores pretrial defendants with the VPRAI-R risk tool; risk level, most serious charge and failure-to-appear history set the level of pretrial supervision. The page publishes the scoring (SB 36 disclosure).",
+      "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/Probation/El-Dorado-County-Pretrial-Services",
+      "source_url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/Probation/El-Dorado-County-Pretrial-Services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "behavioral-health-court",
+      "name": "Behavioral Health Court",
+      "type": "collaborative_court",
+      "summary": "Intensive court program for adults and transitional-age youth with mental illness in the justice system: evaluation, treatment and monitoring by a team of court, law enforcement, probation and mental health, with a clinical manager per participant. Dept. 8, Building C.",
+      "url": "https://www.eldorado.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://www.eldorado.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "veterans-court",
+      "name": "Veterans Treatment Court",
+      "type": "collaborative_court",
+      "summary": "Court-supervised community treatment for veterans and active-duty members; typically 12–24 months. Apply through your attorney using local form CR-183. Dept. 8, Building C.",
+      "url": "https://www.eldorado.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://www.eldorado.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "mental-health-diversion",
+      "name": "Mental Health Diversion Court",
+      "type": "diversion",
+      "summary": "Listed on the Judicial Assignments page as a Dept. 8 (Building C) calendar. No separate program description found on the court site.",
+      "url": "https://www.eldorado.courts.ca.gov/general-information/judicial-assignments",
+      "source_url": "https://www.eldorado.courts.ca.gov/general-information/judicial-assignments",
+      "verified_on": "2026-10-13",
+      "todo": "eligibility/process not published on court site"
+    },
+    {
+      "id": "family-wellness-court",
+      "name": "Family Wellness Court (with Shingle Springs Band of Miwok Indians)",
+      "type": "collaborative_court",
+      "summary": "Joint state–tribal collaborative court for system-involved youth and families; hears juvenile, dependency, DV and criminal matters together with culturally based restorative services. Dept. 9, Cameron Park.",
+      "url": "https://www.eldorado.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://www.eldorado.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "dv-compliance-court",
+      "name": "Domestic Violence Compliance Court",
+      "type": "collaborative_court",
+      "summary": "Listed on the Judicial Assignments page as a Dept. 3 (South Lake Tahoe) calendar.",
+      "url": "https://www.eldorado.courts.ca.gov/general-information/judicial-assignments",
+      "source_url": "https://www.eldorado.courts.ca.gov/general-information/judicial-assignments",
+      "verified_on": "2026-10-13",
+      "todo": "No program description found."
+    }
+  ],
+  "jails": [
+    {
+      "id": "placerville-jail",
+      "name": "Placerville Jail",
+      "address": "300 Forni Road, Placerville, CA 95667",
+      "city": "Placerville",
+      "zip": "95667",
+      "phone": "(530) 621-6000",
+      "phone_note": "In-person visits daily 8–11 a.m. and 1–4 p.m., Mon–Thu evenings 7–10 p.m.; first come, first served; call ahead for evening visits. Video visits and messaging via NCIC ((800) 943-2189). Cash or cashier's check can be brought to the facility (or mailed) for an inmate's account.",
+      "houses": null,
+      "visiting_url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/sheriff/custody/visiting",
+      "commissary_or_money_url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/sheriff/custody/visiting",
+      "court_ids": ["main-street"],
+      "court_ids_note": "nearest, not confirmed — West Slope criminal departments 1, 2, 7 sit at the Main Street Branch.",
+      "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/sheriff/custody",
+      "source_url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/sheriff/custody/visiting",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff pages don't state men/women housing; no dedicated commissary/deposit page found (money rule is on the visiting page)."
+    },
+    {
+      "id": "south-lake-tahoe-jail",
+      "name": "South Lake Tahoe Jail",
+      "address": "1051 Al Tahoe Blvd, South Lake Tahoe, CA 96150",
+      "city": "South Lake Tahoe",
+      "zip": "96150",
+      "phone": "(530) 573-3030",
+      "phone_note": "In-person visits Mon–Sat 8–11 a.m. and 1–4 p.m., Tue–Thu evenings 7–10 p.m.; call ahead for evening visits. Video visits/messaging via NCIC.",
+      "houses": null,
+      "visiting_url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/sheriff/custody/visiting",
+      "commissary_or_money_url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/sheriff/custody/visiting",
+      "court_ids": ["south-lake-tahoe"],
+      "court_ids_note": "nearest, not confirmed — Dept. 3 (criminal) is at the South Lake Tahoe Branch.",
+      "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/sheriff/custody",
+      "source_url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/sheriff/custody/visiting",
+      "verified_on": "2026-10-13",
+      "todo": "men/women housing not stated"
+    },
+    {
+      "id": "juvenile-treatment-center",
+      "name": "Juvenile Treatment Center — South Lake Tahoe (Probation)",
+      "address": "1041 Al Tahoe Blvd, South Lake Tahoe, CA 96150",
+      "city": "South Lake Tahoe",
+      "zip": "96150",
+      "phone": "(530) 573-7980",
+      "phone_note": "Secure juvenile detention for up to 40 youth; call to schedule a visit.",
+      "houses": "juvenile",
+      "visiting_url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/Probation/Institutional-Services/Juvenile-Treatment-Center-South-Lake-Tahoe",
+      "commissary_or_money_url": null,
+      "court_ids": ["south-lake-tahoe"],
+      "court_ids_note": "nearest, not confirmed — juvenile justice is heard in Dept. 4, South Lake Tahoe Branch (per assignments page).",
+      "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/Probation/Institutional-Services/Juvenile-Treatment-Center-South-Lake-Tahoe",
+      "source_url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/Probation/Contacts",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "inmate_lookup_url": "https://eldoradosheriff.citizenrims.com/incarcerated-people",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' — look up a bail agent's license status. Bail schedules are on the court's Fees & Bail Schedules page (eldorado.courts.ca.gov/general-information/fees-bail-schedules). No Sheriff page on how/where to post bail was found.",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "todo": "Sheriff bail-posting hours/methods not found on official site."
+  }
+}

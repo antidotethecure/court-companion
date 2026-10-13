@@ -1,0 +1,305 @@
+{
+  "state": "CA",
+  "county": "Tulare",
+  "slug": "tulare",
+  "court_name": "Superior Court of California, County of Tulare",
+  "court_website": "https://www.tulare.courts.ca.gov/",
+  "case_search_url": "https://online.tulare.courts.ca.gov/",
+  "case_search_note": "'Case Search' link in the court website footer (Attorney Resources). Public access scope for criminal cases not confirmed.",
+  "sources": [
+    {
+      "title": "Tulare Superior Court — Locations",
+      "url": "https://www.tulare.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tulare Superior Court — Visalia (County Civic Center)",
+      "url": "https://www.tulare.courts.ca.gov/location/visalia-county-civic-center",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tulare Superior Court — Porterville",
+      "url": "https://www.tulare.courts.ca.gov/location/porterville",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tulare Superior Court — Dinuba Division",
+      "url": "https://www.tulare.courts.ca.gov/location/dinuba-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tulare Superior Court — Pretrial Facility",
+      "url": "https://www.tulare.courts.ca.gov/location/pretrial-facility",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tulare Superior Court — Juvenile Justice Facility",
+      "url": "https://www.tulare.courts.ca.gov/location/juvenile-justice-facility",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tulare Superior Court — Criminal",
+      "url": "https://www.tulare.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tulare County Sheriff — Detentions",
+      "url": "https://tularecounty.ca.gov/sheriff/divisions/detentions",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tulare County Sheriff — Video Visitation",
+      "url": "https://tularecounty.ca.gov/sheriff/divisions/detentions1/detentions-operations/inmate-services/video-visitation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tulare County Sheriff — Sending Money to Inmates",
+      "url": "https://tularecounty.ca.gov/sheriff/divisions/detentions1/detentions-operations/inmate-services/sending-money-to-inmates",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tulare County Sheriff — Inmate Search",
+      "url": "https://tularecounty.ca.gov/sheriff/divisions/detentions1/detentions-operations/inmate-search/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tulare County Public Defender — Office Locations",
+      "url": "https://www.tularecountypublicdefender.com/publicdefender/contact-us/office-locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tulare County Probation",
+      "url": "https://tcprobation.com/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tulare County — Probation listing",
+      "url": "https://tularecounty.ca.gov/probation/",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "visalia",
+      "name": "Visalia (County Civic Center)",
+      "address": "221 S. Mooney Blvd.",
+      "city": "Visalia",
+      "zip": "93291",
+      "phone": "559-730-5000",
+      "hours": "Building Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Cases served per court: Criminal, Traffic, Domestic Violence, Civil, Family, Probate, Mental Health, Appeals, CARE Court and more. Criminal/traffic payments at Room 124. Public Defender's Visalia office is in this building (Room G-35). Self-Help at this courthouse: 559-737-5500, selfhelp@tulare.courts.ca.gov (in person Mon–Thu 8–4, Fri 8–12).",
+      "departments": [],
+      "source_url": "https://www.tulare.courts.ca.gov/location/visalia-county-civic-center",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "porterville",
+      "name": "Porterville (South County Justice Center)",
+      "address": "300 E. Olive",
+      "city": "Porterville",
+      "zip": "93257",
+      "phone": "559-782-3700",
+      "hours": "Building Mon–Fri 8:00 a.m.–4:00 p.m.; outside windows 8–4 for limited services",
+      "criminal": true,
+      "note": "Cases served per court: Criminal, Traffic, Domestic Violence, Civil, Family Law, Restraining Orders, CARE Court. Self-Help at this courthouse: 559-737-5500, selfhelp@tulare.courts.ca.gov (in person Mon–Thu 8–4, Fri 8–12).",
+      "departments": [],
+      "source_url": "https://www.tulare.courts.ca.gov/location/porterville",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "dinuba",
+      "name": "Dinuba Division",
+      "address": "640 South Alta Avenue",
+      "city": "Dinuba",
+      "zip": "93618",
+      "phone": "559-595-6400",
+      "hours": "Mon and Wed–Thu 8:00 a.m.–4:00 p.m.; closed Tuesday and Friday",
+      "criminal": true,
+      "note": "Cases served per court: Criminal, Traffic, Family Law; DCSS (child support) matters heard Mon, Wed, Thu. Criminal/traffic payments accepted Wednesdays 8:00 a.m.–12:00 p.m.",
+      "departments": [],
+      "source_url": "https://www.tulare.courts.ca.gov/location/dinuba-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "pretrial-facility",
+      "name": "Pretrial Facility (in-custody court)",
+      "address": "36650 Road 112",
+      "city": "Visalia",
+      "zip": "93291-8940",
+      "phone": "559-730-5020",
+      "hours": "Closed to the public — all hearings held remotely; phone Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Court lists 'Last day arraignments, In custody hearings' here, and references South County Justice Center – Porterville (Dept. 16). Contact the court about the in-custody calendar. Located at the Sheriff's Pre-Trial Facility complex (inferred from name; not stated by the Sheriff).",
+      "departments": [],
+      "source_url": "https://www.tulare.courts.ca.gov/location/pretrial-facility",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "juvenile",
+      "name": "Juvenile Justice Facility",
+      "address": "11200 Avenue 368, Room 201",
+      "city": "Visalia",
+      "zip": "93291",
+      "phone": "559-738-2300",
+      "hours": "Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": false,
+      "note": "Juvenile delinquency and dependency only — not adult criminal.",
+      "departments": [],
+      "source_url": "https://www.tulare.courts.ca.gov/location/juvenile-justice-facility",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Tulare County Public Defender — Visalia Office",
+      "address": "221 S Mooney Blvd, Room G-35 (Visalia Courthouse)",
+      "city": "Visalia",
+      "zip": "93291",
+      "phone": "(559) 636-4500",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.tularecountypublicdefender.com/",
+      "source_url": "https://www.tularecountypublicdefender.com/publicdefender/contact-us/office-locations",
+      "todo": "Hours not listed",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Tulare County Public Defender — Porterville Office",
+      "address": "20 N. Main St, 2nd Floor",
+      "city": "Porterville",
+      "zip": "93257",
+      "phone": "(559) 782-6960",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.tularecountypublicdefender.com/",
+      "source_url": "https://www.tularecountypublicdefender.com/publicdefender/contact-us/office-locations",
+      "todo": "Hours not listed",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Tulare County Public Defender — Juvenile Office",
+      "address": "11200 Avenue 368, Room 103",
+      "city": "Visalia",
+      "zip": "93291",
+      "phone": "(559) 735-1435",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.tularecountypublicdefender.com/",
+      "source_url": "https://www.tularecountypublicdefender.com/publicdefender/contact-us/office-locations",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Tulare Superior Court Self-Help",
+      "serves": "People without an attorney",
+      "what": "Court self-help center serving the Visalia and Porterville courthouses (information and forms, not legal advice).",
+      "phone": "559-737-5500",
+      "email": "selfhelp@tulare.courts.ca.gov",
+      "url": "https://www.tulare.courts.ca.gov/self-help",
+      "source_url": "https://www.tulare.courts.ca.gov/location/visalia-county-civic-center",
+      "todo": "Adult record-clearance (expungement) program at the Public Defender not found on its site; only juvenile record sealing is linked",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Tulare County Probation Department",
+      "address": "3241 West Noble Avenue",
+      "city": "Visalia",
+      "zip": "93277",
+      "phone": "(559) 608-9035",
+      "hours": null,
+      "url": "https://tcprobation.com/",
+      "source_url": "https://tcprobation.com/",
+      "note": "Address and phone from the Probation website header/footer. The county's site lists Probation's phone as (559) 608-9000 (tularecounty.ca.gov/probation/).",
+      "todo": "Hours, adult field office locations and pretrial unit not verified",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "programs": [
+    {
+      "id": "tulare-day-reporting-center",
+      "name": "Day Reporting Center (DRC) / SWAP",
+      "type": "alternative-sentencing",
+      "summary": "Sheriff's Detentions Division lists a Day Reporting Center and SWAP (work program) under the Pre-Trial Facility lieutenant (559-735-1750). Eligibility and details not reviewed.",
+      "phone": "559-735-1750",
+      "url": "https://tularecounty.ca.gov/sheriff/divisions/detentions1/detentions-operations/day-reporting-center-drc",
+      "source_url": "https://tularecounty.ca.gov/sheriff/divisions/detentions",
+      "todo": "DRC page content not read",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "pre-trial",
+      "name": "Adult Pre-Trial Facility",
+      "address": "36650 Road 112 (court's address for the Pretrial Facility courtroom)",
+      "city": "Visalia",
+      "zip": "93291-8940",
+      "phone": "559-735-1750",
+      "phone_note": "Number is the Sheriff's facility contact for the Pre-Trial Facility lieutenant. Internet video visits Sun–Sat 7:45–11:05 a.m., 1:00–4:10 p.m., 8:00–9:20 p.m. (scheduled online). Deposits through Access Corrections (accesscorrections.com or lobby kiosk; account login now required).",
+      "houses": null,
+      "visiting_url": "https://tularecounty.ca.gov/sheriff/divisions/detentions1/detentions-operations/inmate-services/video-visitation",
+      "commissary_or_money_url": "https://tularecounty.ca.gov/sheriff/divisions/detentions1/detentions-operations/inmate-services/sending-money-to-inmates",
+      "court_ids": [
+        "pretrial-facility",
+        "visalia"
+      ],
+      "court_ids_note": "The court holds in-custody hearings and last-day arraignments at its Pretrial Facility courtroom; Visalia is the main criminal courthouse. Not confirmed per person.",
+      "url": "https://tularecounty.ca.gov/sheriff/divisions/detentions",
+      "source_url": "https://tularecounty.ca.gov/sheriff/divisions/detentions1/pre-trial-facility",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff's pages give no street address or men/women housing; address is the court's Pretrial Facility location"
+    },
+    {
+      "id": "bob-wiley",
+      "name": "Bob Wiley Detention Facility",
+      "address": null,
+      "city": null,
+      "zip": null,
+      "phone": "559-735-1700",
+      "phone_note": "Sheriff's facility contact (Pro-Per, kitchen, laundry, warehouse). Internet video visitation available.",
+      "houses": null,
+      "visiting_url": "https://tularecounty.ca.gov/sheriff/divisions/detentions1/detentions-operations/inmate-services/video-visitation",
+      "commissary_or_money_url": "https://tularecounty.ca.gov/sheriff/divisions/detentions1/detentions-operations/inmate-services/sending-money-to-inmates",
+      "court_ids": [
+        "visalia"
+      ],
+      "court_ids_note": "Nearest, not confirmed.",
+      "url": "https://tularecounty.ca.gov/sheriff/divisions/detentions",
+      "source_url": "https://tularecounty.ca.gov/sheriff/divisions/detentions1/bob-wiley-detention-facility",
+      "verified_on": "2026-10-13",
+      "todo": "Street address, city and men/women housing not on the Sheriff's pages"
+    },
+    {
+      "id": "south-county",
+      "name": "South County Detention Facility",
+      "address": null,
+      "city": null,
+      "zip": null,
+      "phone": "559-782-7800",
+      "phone_note": "Sheriff's contact for the facility (phones/visiting). Only facility with on-site video visitation: Sun–Sat 7:45 a.m.–3:40 p.m.",
+      "houses": null,
+      "visiting_url": "https://tularecounty.ca.gov/sheriff/divisions/detentions1/detentions-operations/inmate-services/video-visitation",
+      "commissary_or_money_url": "https://tularecounty.ca.gov/sheriff/divisions/detentions1/detentions-operations/inmate-services/sending-money-to-inmates",
+      "court_ids": [
+        "porterville"
+      ],
+      "court_ids_note": "Nearest, not confirmed (court references South County Justice Center – Porterville, Dept. 16).",
+      "url": "https://tularecounty.ca.gov/sheriff/divisions/detentions",
+      "source_url": "https://tularecounty.ca.gov/sheriff/divisions/detentions1/south-county-detention-facility",
+      "verified_on": "2026-10-13",
+      "todo": "Street address, city and men/women housing not on the Sheriff's pages"
+    }
+  ],
+  "inmate_lookup_url": "https://tularecounty.ca.gov/sheriff/divisions/detentions1/detentions-operations/inmate-search/",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "Before paying a bail agent, check that their license is active using the California Department of Insurance license lookup (search by name or license number). Tulare Superior Court's criminal page explains bail and own-recognizance release at arraignment; a bail schedule link was not found on the court's Criminal page. Inmate account deposits go through Access Corrections (the Sheriff noted a system update pausing deposits until 9/20). This is information only, not legal advice."
+  }
+}

@@ -1,0 +1,523 @@
+{
+  "state": "CA",
+  "county": "Stanislaus",
+  "slug": "stanislaus",
+  "court_name": "Superior Court of California, County of Stanislaus",
+  "court_website": "https://www.stanislaus.courts.ca.gov/",
+  "case_search_url": "https://stanportal.stanct.org/",
+  "case_search_note": "The court's 'Search for a Case' page links to the Public, Justice Partner, and Attorney Portal, which it says lets you search public case information and make traffic payments. The page does not say whether criminal cases are included. In person, the Criminal Division has a court-provided computer, or you can submit a Research Request Form; a $15 research fee may apply if you don't know your case number (Criminal FAQs). Criminal Division: (209) 530-3100 option 4, Criminal.Requests@stanct.org.",
+  "sources": [
+    {
+      "title": "Stanislaus Superior Court — Locations",
+      "url": "https://www.stanislaus.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Stanislaus Superior Court — Search for a Case",
+      "url": "https://www.stanislaus.courts.ca.gov/online-services/search-case",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Stanislaus Superior Court — Criminal Division",
+      "url": "https://www.stanislaus.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Stanislaus Superior Court — Judicial Assignments (eff. 9/1/2026)",
+      "url": "https://www.stanislaus.courts.ca.gov/general-information/judicial-assignments",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Stanislaus Superior Court — Self-Help Center Info",
+      "url": "https://www.stanislaus.courts.ca.gov/self-help/self-help-center-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Stanislaus Superior Court — CARE Act",
+      "url": "https://www.stanislaus.courts.ca.gov/general-information/care-act",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Stanislaus Sheriff — Adult Detention Facilities",
+      "url": "https://www.scsdonline.com/detention-services/detention-facilities",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Stanislaus Sheriff — Sheriff's Detention Center East",
+      "url": "https://www.scsdonline.com/detention-services/detention-facilities/sheriff-s-detention-center-east",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Stanislaus Sheriff — Sheriff's Detention Center West",
+      "url": "https://www.scsdonline.com/detention-services/detention-facilities/sheriff-s-detention-center-west",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Stanislaus Sheriff — Minimum Housing Units 1 & 2",
+      "url": "https://www.scsdonline.com/detention-services/detention-facilities/minimum-housing-units-1-2",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Stanislaus Sheriff — REACT",
+      "url": "https://www.scsdonline.com/detention-services/detention-facilities/re-entry-and-enhanced-alternatives-to-custody-training-react",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Stanislaus Sheriff — Visitation",
+      "url": "https://www.scsdonline.com/detention-services/visitation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Stanislaus Sheriff — TouchPay Payment Info",
+      "url": "https://www.scsdonline.com/detention-services/touchpay-payment-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Stanislaus Sheriff — Court Services",
+      "url": "https://www.scsdonline.com/administration/court-services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Stanislaus Sheriff — Who's in Jail",
+      "url": "https://www.scsdonline.com/online-services/inmates-list",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Stanislaus Public Defender — Contact",
+      "url": "https://www.stancounty.com/publicdefender/contact.shtm",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Stanislaus Public Defender — Clean Slate Form",
+      "url": "https://www.stancounty.com/publicdefender/clean-slate-form.shtm",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Stanislaus Probation — Services",
+      "url": "https://www.stancounty.com/probation/services.shtm",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CRLA — Modesto (Headquarters)",
+      "url": "https://crla.org/locations/modesto-headquarters",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CRLA — Stanislaus County residents clear criminal records",
+      "url": "https://crla.org/articles/stanislaus-county-residents-clear-criminal-records-help-crla-and-pro-bono-partners",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "main",
+      "name": "Main Courthouse",
+      "address": "800 11th Street",
+      "city": "Modesto",
+      "zip": "95354",
+      "phone": "(209) 530-3100",
+      "criminal_phone": "(209) 530-3100 option 4",
+      "hours": "Mon–Fri 8:15 a.m.–4:00 p.m. (Criminal Division phone line Mon–Fri 8:15 a.m.–3:00 p.m.)",
+      "criminal": true,
+      "note": "Main criminal courthouse. Criminal Clerk's Office is 1st floor, Room 140 (11th St entrance); Self-Help Center 2nd floor, Room 220. Mailing: P.O. Box 1098, Modesto, CA 95353. Criminal email: Criminal.Requests@stanct.org; Zoom link requests (pre-authorized counsel/pro per only): criminalzoomrequests@stanct.org. Per the Sheriff's Court Services page, courtrooms here handle arraignments, preliminary hearings, and misdemeanor and felony trials. Department list from the court's Judicial Assignments page effective 9/1/2026 — assignments rotate.",
+      "departments": [
+        {
+          "id": "1",
+          "label": "Department 1",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "2",
+          "label": "Department 2",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "3",
+          "label": "Department 3",
+          "type": "Criminal — Supervising Criminal Judge",
+          "note": null
+        },
+        {
+          "id": "4",
+          "label": "Department 4",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "5",
+          "label": "Department 5",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "6",
+          "label": "Department 6",
+          "type": "CARE Court; SARB; Collaborative Court",
+          "note": null
+        },
+        {
+          "id": "7",
+          "label": "Department 7",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "8",
+          "label": "Department 8",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "9",
+          "label": "Department 9",
+          "type": "Criminal, Misdemeanor (Presiding Judge)",
+          "note": null
+        },
+        {
+          "id": "10",
+          "label": "Department 10",
+          "type": "Criminal, Misdemeanor",
+          "note": null
+        },
+        {
+          "id": "12",
+          "label": "Department 12",
+          "type": "Criminal, Arraignments",
+          "note": null
+        }
+      ],
+      "source_url": "https://www.stanislaus.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "traffic",
+      "name": "Traffic Court",
+      "address": "2260 Floyd Avenue",
+      "city": "Modesto",
+      "zip": "95355",
+      "phone": "(209) 530-3100",
+      "hours": "Mon–Fri 8:15 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Traffic (Department 20). Phone tree option 1. Juvenile traffic is also heard in Department 20 here.",
+      "departments": [
+        {
+          "id": "20",
+          "label": "Department 20",
+          "type": "Traffic",
+          "note": null
+        }
+      ],
+      "source_url": "https://www.stanislaus.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "juvenile",
+      "name": "Juvenile Court (Department 18)",
+      "address": "2215 Blue Gum Avenue",
+      "city": "Modesto",
+      "zip": "95358",
+      "phone": "(209) 530-3100",
+      "hours": "Mon–Fri 8:15 a.m.–4:00 p.m.",
+      "criminal": false,
+      "note": "Juvenile Justice and Juvenile Dependency (minors only). The juvenile clerk's office moved to 800 11th St effective May 1, 2026.",
+      "departments": [
+        {
+          "id": "18",
+          "label": "Department 18",
+          "type": "Juvenile Dependency, Juvenile Justice",
+          "note": null
+        }
+      ],
+      "source_url": "https://www.stanislaus.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "city-towers",
+      "name": "City Towers Courthouse (Civil)",
+      "address": "801 10th Street",
+      "city": "Modesto",
+      "zip": "95354",
+      "phone": "(209) 530-3100",
+      "hours": "Mon–Fri 8:15 a.m.–4:00 p.m.",
+      "criminal": false,
+      "note": "Civil and Probate. Departments 21–24; Civil Clerk's Office 4th floor.",
+      "departments": [],
+      "source_url": "https://www.stanislaus.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "turlock",
+      "name": "Turlock Court (Small Claims & UD)",
+      "address": "300 Starr Ave",
+      "city": "Turlock",
+      "zip": "95380",
+      "phone": "(209) 530-3100",
+      "hours": "Mon–Fri 8:15 a.m.–4:00 p.m.",
+      "criminal": false,
+      "note": "Small Claims and Unlawful Detainers (Department 19).",
+      "departments": [],
+      "source_url": "https://www.stanislaus.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Stanislaus County Public Defender — Main Office",
+      "address": "1021 I Street, Suite 201 (P.O. Box 3428)",
+      "city": "Modesto",
+      "zip": "95353",
+      "phone": "(209) 525-4200",
+      "toll_free": null,
+      "email": null,
+      "hours": "Mon–Fri 8:00 a.m.–4:30 p.m.; closed 12:00–1:00 p.m.",
+      "url": "https://www.stancounty.com/publicdefender/",
+      "source_url": "https://www.stancounty.com/publicdefender/contact.shtm",
+      "verified_on": "2026-10-13",
+      "todo": "No email listed on the official contact page"
+    },
+    {
+      "name": "Stanislaus County Public Defender — Juvenile Office",
+      "address": "2215 Blue Gum Ave., Rm. 18",
+      "city": "Modesto",
+      "zip": "95358",
+      "phone": "(209) 525-4592",
+      "toll_free": null,
+      "email": null,
+      "hours": "Mon–Fri 8:00 a.m.–4:30 p.m.; closed 12:00–1:00 p.m.",
+      "url": "https://www.stancounty.com/publicdefender/",
+      "source_url": "https://www.stancounty.com/publicdefender/contact.shtm",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Stanislaus County Alternate Defender's Office",
+      "address": "1012 11th Street, Suite 100",
+      "city": "Modesto",
+      "zip": "95354",
+      "phone": "(209) 525-2000",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.stancounty.com/publicdefender/",
+      "source_url": "https://www.stancounty.com/publicdefender/contact.shtm",
+      "verified_on": "2026-10-13",
+      "todo": "Hours not listed separately for the Alternate Defender"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Stanislaus County Public Defender — Clean Slate Program",
+      "serves": "People with Stanislaus County convictions only",
+      "what": "Post-conviction relief. Apply with the online Clean Slate Form; you must not be serving a sentence, on probation/parole/PRCS, or facing a pending charge. Not everyone qualifies and it may take a few months. Do not submit duplicate applications.",
+      "phone": "(209) 525-4200",
+      "email": null,
+      "url": "https://www.stancounty.com/publicdefender/clean-slate-form.shtm",
+      "source_url": "https://www.stancounty.com/publicdefender/clean-slate-form.shtm",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "California Rural Legal Assistance (CRLA) — Modesto Headquarters",
+      "serves": "Low-income residents of rural California; Modesto office",
+      "what": "Lists Criminal Record Clearing among its legal help areas. CRLA has held free Clean Slate clinics in Modesto with the Stanislaus DA, Public Defender and Probation (most recent found: Nov 7, 2025).",
+      "phone": "(209) 577-3811",
+      "email": null,
+      "url": "https://crla.org/locations/modesto-headquarters",
+      "source_url": "https://crla.org/locations/modesto-headquarters",
+      "verified_on": "2026-10-13",
+      "todo": "No upcoming 2026 Stanislaus clinic date found; office hours not listed"
+    },
+    {
+      "name": "Stanislaus Superior Court Self-Help Center",
+      "serves": "Self-represented people in Stanislaus County",
+      "what": "Free help with court forms and procedures; its service list includes expungements. Walk-ins first-come, first-served. Staff cannot give legal advice.",
+      "phone": "(209) 548-6237",
+      "email": "Self.Help@StanCt.org",
+      "url": "https://www.stanislaus.courts.ca.gov/self-help/self-help-center-info",
+      "source_url": "https://www.stanislaus.courts.ca.gov/self-help/self-help-center-info",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Stanislaus County Probation — Adult Division",
+      "address": "801 11th Street",
+      "city": "Modesto",
+      "zip": null,
+      "phone": "(209) 567-4120",
+      "hours": null,
+      "url": "https://www.stancounty.com/probation/",
+      "source_url": "https://www.stancounty.com/probation/services.shtm",
+      "verified_on": "2026-10-13",
+      "note": "Fax (209) 567-4188. Pretrial Services Unit is part of Probation (no separate phone listed).",
+      "todo": "ZIP and office hours not on the probation services page"
+    },
+    {
+      "name": "Stanislaus County Probation — Juvenile Division / Administration",
+      "address": "2215 Blue Gum Ave",
+      "city": "Modesto",
+      "zip": "95358",
+      "phone": "(209) 525-5400",
+      "hours": null,
+      "url": "https://www.stancounty.com/probation/",
+      "source_url": "https://www.stancounty.com/probation/services.shtm",
+      "verified_on": "2026-10-13",
+      "note": "Fax (209) 525-4588.",
+      "todo": "Office hours not listed"
+    },
+    {
+      "name": "Stanislaus County Probation — Day Reporting Center",
+      "address": "190 E. Hackett Road",
+      "city": "Modesto",
+      "zip": null,
+      "phone": "(209) 525-7212",
+      "hours": null,
+      "url": "https://www.stancounty.com/probation/services.shtm",
+      "source_url": "https://www.stancounty.com/probation/services.shtm",
+      "verified_on": "2026-10-13",
+      "note": "Run by Probation with the Sheriff and Behavioral Health and Recovery Services.",
+      "todo": "ZIP and hours not listed"
+    }
+  ],
+  "programs": [
+    {
+      "id": "stan-pretrial",
+      "name": "Probation Pretrial Services Unit",
+      "type": "pretrial",
+      "summary": "Probation officers complete pretrial assessments on adults booked into custody on new charges and give the results to judges, who decide on release or detention. People released are monitored, must report to Probation and sign a pretrial monitoring agreement, and get court-date reminders.",
+      "phone": "(209) 567-4120",
+      "url": "https://www.stancounty.com/probation/services.shtm",
+      "source_url": "https://www.stancounty.com/probation/services.shtm",
+      "verified_on": "2026-10-13",
+      "todo": "No dedicated pretrial phone number published; Adult Division number shown"
+    },
+    {
+      "id": "stan-collaborative-court",
+      "name": "Collaborative Court (Department 6)",
+      "type": "collaborative-court",
+      "summary": "The court's judicial assignments (effective 9/1/2026) list Department 6 as handling CARE Court, SARB and Collaborative Court. The CARE Act page names a Collaborative Courts Coordinator.",
+      "phone": null,
+      "url": "https://www.stanislaus.courts.ca.gov/general-information/judicial-assignments",
+      "source_url": "https://www.stanislaus.courts.ca.gov/general-information/judicial-assignments",
+      "verified_on": "2026-10-13",
+      "todo": "Specific collaborative court programs (drug/mental health/veterans), eligibility and contact phone not published on pages reviewed"
+    },
+    {
+      "id": "stan-day-reporting",
+      "name": "Day Reporting Center (DRC)",
+      "type": "reentry",
+      "summary": "Probation-run center (with the Sheriff and BHRS) for people released from custody: assessment with a validated risk tool plus programs including high school equivalency prep, tattoo removal, job search/placement, vocational training, batterer's and child abuse treatment, substance use disorder treatment and cognitive behavioral classes.",
+      "phone": "(209) 525-7212",
+      "url": "https://www.stancounty.com/probation/services.shtm",
+      "source_url": "https://www.stancounty.com/probation/services.shtm",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "stan-jail-alternatives",
+      "name": "Sheriff's Jail Alternatives Unit (Home Detention & Alternative Work Program)",
+      "type": "alternative-custody",
+      "summary": "The Sheriff's Jail Alternatives Unit runs a Home Detention Program and an Alternative Work Program that may let eligible people serve a sentence while keeping regular employment.",
+      "phone": null,
+      "url": "https://www.scsdonline.com/detention-services/jail-alternatives-unit",
+      "source_url": "https://www.scsdonline.com/detention-services/detention-facilities",
+      "verified_on": "2026-10-13",
+      "todo": "Jail Alternatives Unit page itself was not loaded; eligibility and phone not verified"
+    },
+    {
+      "id": "stan-self-help",
+      "name": "Court Self-Help Center",
+      "type": "self-help",
+      "summary": "800 11th Street, Room 220, Modesto. Mon–Fri 8:00 a.m.–12:00 p.m. and 1:00–4:00 p.m.; walk-ins first-come, first-served. Voicemail (209) 548-6237 (calls returned Wednesdays); email Self.Help@StanCt.org. Services include expungements.",
+      "phone": "(209) 548-6237",
+      "url": "https://www.stanislaus.courts.ca.gov/self-help/self-help-center-info",
+      "source_url": "https://www.stanislaus.courts.ca.gov/self-help/self-help-center-info",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "sdc-east",
+      "name": "Sheriff's Detention Center – East (SDC-East)",
+      "address": "200 E. Hackett Road",
+      "city": "Modesto",
+      "zip": "95358",
+      "phone": "(209) 525-5630",
+      "phone_note": "Booking and releasing facility (opened 2017); up to 559 people; includes maximum-security, mental health and hospital units. Video visits only (JailATM.com account); no visiting Wednesdays; two free 30-minute video visits per week.",
+      "houses": null,
+      "visiting_url": "https://www.scsdonline.com/detention-services/visitation",
+      "commissary_or_money_url": "https://www.scsdonline.com/detention-services/touchpay-payment-info",
+      "court_ids": [
+        "main"
+      ],
+      "court_ids_note": "The Sheriff's Court Services page says it transports all inmates to court; arraignments, preliminary hearings and misdemeanor/felony trials are at the Main Courthouse (800 11th St). Specific court assignment depends on the case. The Sheriff also runs one court holding facility (not listed separately).",
+      "url": "https://www.scsdonline.com/detention-services/detention-facilities/sheriff-s-detention-center-east",
+      "source_url": "https://www.scsdonline.com/detention-services/detention-facilities/sheriff-s-detention-center-east",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff's page does not say whether men, women or both are housed here (it is the booking facility for all arrestees)."
+    },
+    {
+      "id": "sdc-west",
+      "name": "Sheriff's Detention Center – West (SDC-West)",
+      "address": "200 E. Hackett Road",
+      "city": "Modesto",
+      "zip": "95358",
+      "phone": "(209) 525-5630",
+      "phone_note": "Opened 1992, rated capacity 510, direct-observation pods. In-person non-contact visits through glass scheduled via ICS (icsolutions.com) at least 24 hours ahead, Thu–Tue 8:00 a.m.–7:00 p.m.; video visits via JailATM.com.",
+      "houses": "both",
+      "visiting_url": "https://www.scsdonline.com/detention-services/visitation",
+      "commissary_or_money_url": "https://www.scsdonline.com/detention-services/touchpay-payment-info",
+      "court_ids": [
+        "main"
+      ],
+      "court_ids_note": "The Sheriff's Court Services page says it transports all inmates to court; arraignments, preliminary hearings and misdemeanor/felony trials are at the Main Courthouse (800 11th St). Specific court assignment depends on the case. The Sheriff also runs one court holding facility (not listed separately).",
+      "url": "https://www.scsdonline.com/detention-services/detention-facilities/sheriff-s-detention-center-west",
+      "source_url": "https://www.scsdonline.com/detention-services/detention-facilities/sheriff-s-detention-center-west",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "mhu",
+      "name": "Minimum Housing Units 1 & 2 (MHU)",
+      "address": "200 E. Hackett Road",
+      "city": "Modesto",
+      "zip": "95358",
+      "phone": "(209) 491-8702",
+      "phone_note": "Two 192-bed minimum-security units. In-person visits through glass scheduled via ICS (sessions effective 10/18/25, Sat & Sun); video visits via JailATM.com.",
+      "houses": null,
+      "visiting_url": "https://www.scsdonline.com/detention-services/visitation",
+      "commissary_or_money_url": "https://www.scsdonline.com/detention-services/touchpay-payment-info",
+      "court_ids": [
+        "main"
+      ],
+      "court_ids_note": "The Sheriff's Court Services page says it transports all inmates to court; arraignments, preliminary hearings and misdemeanor/felony trials are at the Main Courthouse (800 11th St). Specific court assignment depends on the case. The Sheriff also runs one court holding facility (not listed separately).",
+      "url": "https://www.scsdonline.com/detention-services/detention-facilities/minimum-housing-units-1-2",
+      "source_url": "https://www.scsdonline.com/detention-services/detention-facilities/minimum-housing-units-1-2",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff's page does not say whether men, women or both are housed here."
+    },
+    {
+      "id": "react",
+      "name": "Re-Entry and Enhanced Alternatives to Custody Training (REACT)",
+      "address": "194 E. Hackett Road",
+      "city": "Modesto",
+      "zip": "95355",
+      "phone": "(209) 491-8771",
+      "phone_note": "Program-based facility opened 2018, rated capacity 288 (education, vocational and alternative custody programs). Video visits via JailATM.com. ZIP shown as on the Sheriff's page (other Hackett Rd facilities list 95358).",
+      "houses": null,
+      "visiting_url": "https://www.scsdonline.com/detention-services/visitation",
+      "commissary_or_money_url": "https://www.scsdonline.com/detention-services/touchpay-payment-info",
+      "court_ids": [
+        "main"
+      ],
+      "court_ids_note": "The Sheriff's Court Services page says it transports all inmates to court; arraignments, preliminary hearings and misdemeanor/felony trials are at the Main Courthouse (800 11th St). Specific court assignment depends on the case. The Sheriff also runs one court holding facility (not listed separately).",
+      "url": "https://www.scsdonline.com/detention-services/detention-facilities/re-entry-and-enhanced-alternatives-to-custody-training-react",
+      "source_url": "https://www.scsdonline.com/detention-services/detention-facilities/re-entry-and-enhanced-alternatives-to-custody-training-react",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff's page does not say whether men, women or both are housed here."
+    }
+  ],
+  "inmate_lookup_url": "https://www.scsdonline.com/online-services/inmates-list",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "Before paying a bail agent, check that their license is active with the California Department of Insurance license lookup. The court's bail schedules are linked from the Criminal Division page (https://www.stanislaus.courts.ca.gov/divisions/criminal/bail-schedules). To find someone in custody, use the Sheriff's 'Who's in Jail' search (name, DOB or 7-digit booking number). This is information only, not legal advice."
+  }
+}

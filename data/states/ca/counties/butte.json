@@ -1,0 +1,285 @@
+{
+  "state": "CA",
+  "county": "Butte",
+  "slug": "butte",
+  "court_name": "Superior Court of California, County of Butte",
+  "court_website": "https://www.butte.courts.ca.gov/",
+  "case_search_url": "https://portal-cabutte.tylertech.cloud/Portal",
+  "case_search_note": "Tyler Odyssey public portal linked from the court's Case and Calendar Information page. No account needed (court asks you NOT to use 'Register' for public searches). Cases from 1988 on; non-confidential, non-sealed only; DOB not shown. Smart Search may require a CAPTCHA. Courthouse terminals in Chico and Oroville show some public documents not available online. Published calendars at https://www.butte.courts.ca.gov/node/86.",
+  "sources": [
+    {
+      "title": "Butte Superior Court — Locations & Contact Info",
+      "url": "https://www.butte.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Butte Superior Court — Criminal Division",
+      "url": "https://www.butte.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Butte Superior Court — Case and Calendar Information",
+      "url": "https://www.butte.courts.ca.gov/online-services/case-and-calendar-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Butte Superior Court — Self-Help (SHARP)",
+      "url": "https://www.butte.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Butte Superior Court — News release, National Drug Court Month 2024 (PDF; text not machine-extracted)",
+      "url": "https://www.butte.courts.ca.gov/system/files/general/news-release-national-drug-court-month-2024.pdf",
+      "verified_on": null
+    },
+    {
+      "title": "Butte County Sheriff — Corrections Division",
+      "url": "https://www.buttecounty.net/1010/Corrections-Division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Butte County Sheriff — Visiting Schedules",
+      "url": "https://www.buttecounty.net/2268/Visiting-Schedules",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Butte County Sheriff — BCSO Booking Logs",
+      "url": "https://www.buttecounty.net/1723/BCSO-Booking-Logs",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Butte County Probation",
+      "url": "https://www.buttecounty.net/673/Probation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Butte County Probation — Adult Court Process",
+      "url": "https://www.buttecounty.net/740/Adult-Court-Process",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Butte County Probation — Juvenile Hall Facility",
+      "url": "https://www.buttecounty.net/760/Juvenile-Hall-Facility",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Legal Services of Northern California — Chico office",
+      "url": "https://lsnc.net/office/chico",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check an Agent/Broker license",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "oroville",
+      "name": "Butte County Courthouse (Oroville)",
+      "address": "One Court Street",
+      "city": "Oroville",
+      "zip": "95965",
+      "phone": "(530) 532-7002",
+      "criminal_phone": "(530) 532-7011",
+      "hours": "Mon–Fri 8:30 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Criminal Division is here and handles misdemeanor and felony matters countywide plus specified Penal Code infractions. Also juvenile justice (530) 532-7010, appeals, jury. Free parking in two lots south of the courthouse.",
+      "departments": [],
+      "source_url": "https://www.butte.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13",
+      "todo": "Department/courtroom assignments for arraignments (in-custody vs. out-of-custody) not published on pages loaded"
+    },
+    {
+      "id": "chico",
+      "name": "North Butte County Courthouse (Chico)",
+      "address": "1775 Concord Avenue",
+      "city": "Chico",
+      "zip": "95928",
+      "phone": "(530) 532-7009",
+      "criminal_phone": null,
+      "hours": "Mon–Fri 8:30 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Traffic (530) 532-7005, civil (530) 532-7009, family law, probate, mediation. Marked criminal because traffic matters are heard here; the court's Criminal Division (misdemeanor/felony) is at the Oroville courthouse. Phone listed is the Civil line — no general main line is listed for this location.",
+      "departments": [],
+      "source_url": "https://www.butte.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Butte County indigent defense (court-appointed counsel)",
+      "address": null,
+      "city": null,
+      "zip": null,
+      "phone": null,
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": null,
+      "source_url": "https://www.butte.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13",
+      "todo": "Butte County appears to use contract attorneys rather than a county Public Defender office (news/commentary only, not an official page). No official office address/phone found; buttecounty.net site search returned no results. Ask for appointed counsel at arraignment; confirm contract-defender contact."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Legal Services of Northern California — Chico Office",
+      "serves": "Low-income residents of Butte, Glenn and Plumas counties; seniors in Butte, Glenn, Plumas and Colusa",
+      "what": "Civil legal aid: housing and public benefits (CalWORKs, CalFresh, Medi-Cal, GA, SSI, unemployment); senior legal services. Office page lists no criminal defense or record-clearance services. 541 Normal Avenue, Chico, CA 95928. Office hours Mon–Fri 9–12 & 1–4:30; walk-in Mon–Thu. After-hours intake message line (866) 815-5990.",
+      "phone": "(530) 345-9491",
+      "toll_free": "(800) 345-9491",
+      "email": null,
+      "url": "https://lsnc.net/office/chico",
+      "source_url": "https://lsnc.net/office/chico",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Butte Superior Court — SHARP Self-Help Assistance and Referral Program",
+      "serves": "Self-represented litigants",
+      "what": "Forms, legal information and referrals for family law, guardianships, evictions, small claims, name/gender change and restraining orders. Cannot give legal advice. Hours Mon–Thu 8:30–4:00, Fri 8:30–1:00.",
+      "phone": "(530) 532-7015",
+      "email": null,
+      "url": "https://www.butte.courts.ca.gov/self-help",
+      "source_url": "https://www.butte.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13",
+      "todo": "Street address not on the self-help page; criminal record clearance help not listed"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Butte County Probation — Oroville Office",
+      "address": "18 County Center Drive",
+      "city": "Oroville",
+      "zip": "95965",
+      "phone": "(530) 538-7661",
+      "hours": "Mon–Fri 8:00 a.m.–12:00 p.m. and 1:00–4:30 p.m.",
+      "url": "https://www.buttecounty.net/673/Probation",
+      "source_url": "https://www.buttecounty.net/673/Probation",
+      "verified_on": "2026-10-13",
+      "note": "Main Probation page lists 18 County Center Drive; the Adult Probation/Adult Court Process sidebars list 42 County Center Drive, Oroville 95965 with the same phone.",
+      "todo": "Confirm which Oroville address (18 vs. 42 County Center Drive) adult probation reporting uses"
+    },
+    {
+      "name": "Butte County Probation — Chico Office",
+      "address": "1370 Ridgewood Drive, Suite #22",
+      "city": "Chico",
+      "zip": "95973",
+      "phone": "(530) 538-7661",
+      "hours": "Mon–Fri 8:00 a.m.–12:00 p.m. and 1:00–4:30 p.m.",
+      "url": "https://www.buttecounty.net/673/Probation",
+      "source_url": "https://www.buttecounty.net/673/Probation",
+      "verified_on": "2026-10-13",
+      "note": "Phone and hours are the department-wide values shown on the page; no Chico-specific phone listed."
+    }
+  ],
+  "programs": [
+    {
+      "id": "collaborative-courts",
+      "name": "Drug Court, DUI Court and Veterans Treatment Court",
+      "type": "collaborative_court",
+      "summary": "The court's 2024 National Drug Court Month news release names Butte's collaborative courts (Drug Court, DUI Court, Veterans Treatment Court). No dedicated collaborative-courts page was found on butte.courts.ca.gov — ask your attorney or Probation about eligibility.",
+      "url": "https://www.butte.courts.ca.gov/system/files/general/news-release-national-drug-court-month-2024.pdf",
+      "source_url": "https://www.butte.courts.ca.gov/system/files/general/news-release-national-drug-court-month-2024.pdf",
+      "verified_on": null,
+      "todo": "PDF text could not be extracted locally; program names come from a search-index summary of the court's own PDF. Verify by reading the PDF; no eligibility/schedule details captured."
+    },
+    {
+      "id": "acs",
+      "name": "Sheriff's Alternative Custody Supervision (ACS)",
+      "type": "custody_alternative",
+      "summary": "Lets eligible people serve sentence at home on RF/GPS ankle monitor after a risk assessment; supervised by Correctional Deputies with home visits; capacity ~200. Includes a Day Reporting Center with evidence-based classes. Fee applies (non-refundable).",
+      "url": "https://www.buttecounty.net/1010/Corrections-Division",
+      "source_url": "https://www.buttecounty.net/1010/Corrections-Division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "swap",
+      "name": "Sheriff's Work Alternative Program (SWAP)",
+      "type": "custody_alternative",
+      "summary": "Community work instead of serving time in custody; SWAP office is in the jail's East Facility. Fee applies (non-refundable).",
+      "url": "https://www.buttecounty.net/1010/Corrections-Division",
+      "source_url": "https://www.buttecounty.net/1010/Corrections-Division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "self-help",
+      "name": "SHARP Self-Help Center",
+      "type": "self_help",
+      "summary": "Court self-help program, (530) 532-7015; Mon–Thu 8:30–4:00, Fri 8:30–1:00. Does not give legal advice.",
+      "url": "https://www.butte.courts.ca.gov/self-help",
+      "source_url": "https://www.butte.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "butte-main-jail",
+      "name": "Butte County Jail — Main Jail",
+      "address": "7 Gillick Way",
+      "city": "Oroville",
+      "zip": "95965",
+      "houses": null,
+      "phone": "(530) 552-1600",
+      "phone_note": "Jail phone per Corrections Division page. Inmate calls 10 a.m.–10 p.m.; jail does not take messages. Bail: cash, money orders, cashier's checks (payable to the specific court) or a bond from a licensed bail agent.",
+      "url": "https://www.buttecounty.net/1010/Corrections-Division",
+      "visiting_url": "https://www.buttecounty.net/2268/Visiting-Schedules",
+      "commissary_or_money_url": "https://www.accesscorrections.com/home",
+      "court_ids": [
+        "oroville"
+      ],
+      "note": "614-bed county jail (Main + Expansion). 2 visits/week, 45 min each; schedules are PDFs on the Visiting Schedules page; video visits via gettingout.com. Money: Access Corrections online/app, 24h lobby kiosk, or (866) 345-1884; commissary packages buttecountypackages.com ($100/week limit). court_ids: Criminal Division is countywide at the Oroville courthouse (nearest criminal courthouse; transport destination not confirmed by Sheriff).",
+      "source_url": "https://www.buttecounty.net/1010/Corrections-Division",
+      "verified_on": "2026-10-13",
+      "todo": "7 Gillick Way is the inmate MAIL address on the official page — physical address not separately stated. Which sexes each facility houses is not stated on the HTML pages (visiting schedule PDFs not readable)."
+    },
+    {
+      "id": "butte-expansion-jail",
+      "name": "Butte County Jail — Expansion Jail (NORA)",
+      "address": null,
+      "city": "Oroville",
+      "zip": null,
+      "houses": null,
+      "phone": "(530) 552-1600",
+      "phone_note": "Main jail phone; no separate number listed.",
+      "url": "https://www.buttecounty.net/2268/Visiting-Schedules",
+      "visiting_url": "https://www.buttecounty.net/2268/Visiting-Schedules",
+      "commissary_or_money_url": "https://www.accesscorrections.com/home",
+      "court_ids": [
+        "oroville"
+      ],
+      "note": "Has its own visiting schedule PDF (DocumentCenter/View/18751). court_ids: nearest criminal courthouse, not confirmed.",
+      "source_url": "https://www.buttecounty.net/2268/Visiting-Schedules",
+      "verified_on": "2026-10-13",
+      "todo": "Address, ZIP and population housed not stated on pages loaded"
+    },
+    {
+      "id": "butte-juvenile-hall",
+      "name": "Butte County Juvenile Hall",
+      "address": null,
+      "city": "Oroville",
+      "zip": null,
+      "houses": "juvenile",
+      "phone": "(530) 538-7661",
+      "phone_note": "Probation department phone shown on the Juvenile Hall pages; lobby generally open Mon–Fri 8 a.m.–5 p.m.",
+      "url": "https://www.buttecounty.net/756/Juvenile-Hall",
+      "visiting_url": "https://www.buttecounty.net/765/Keeping-in-Touch-with-Your-Child-at-Juve",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "oroville"
+      ],
+      "note": "Run by Probation; capacity 60. Juvenile justice clerk is at the Oroville courthouse ((530) 532-7010) — nearest, not confirmed.",
+      "source_url": "https://www.buttecounty.net/760/Juvenile-Hall-Facility",
+      "verified_on": "2026-10-13",
+      "todo": "Street address not on Juvenile Hall pages; city assumed from Probation's Oroville office — confirm"
+    }
+  ],
+  "inmate_lookup_url": "https://www.buttecounty.net/1723/BCSO-Booking-Logs",
+  "inmate_lookup_note": "Butte Sheriff posts weekly booking logs (no live search found). Custody status alerts: VINE https://www.vinelink.com/vinelink/siteInfoAction.do?siteId=5000 (linked from the Corrections page).",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' — search a bail agent by name or license number for status and discipline history (linked from insurance.ca.gov CheckAgntBrkr page). Butte Sheriff accepts bail as cash, money orders, cashier's checks (payable to the specific court) or a bond from a licensed bail agent.",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13"
+  }
+}

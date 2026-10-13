@@ -1,0 +1,892 @@
+{
+  "state": "CA",
+  "county": "Santa Clara",
+  "slug": "santa-clara",
+  "court_name": "Superior Court of California, County of Santa Clara",
+  "court_website": "https://santaclara.courts.ca.gov/",
+  "case_search_url": "https://portal.scscourt.org/",
+  "case_search_note": "Case Information Portal (linked from the court's Case Information Online page). Court says case documents (filings, etc.) are not generally available online and access may be limited where confidentiality is required.",
+  "sources": [
+    {
+      "title": "SCSC — Courthouse Locations",
+      "url": "https://santaclara.courts.ca.gov/general-information/locations-contact-info/santa-clara-county-courthouse-locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCSC — Court Telephone Numbers & Email",
+      "url": "https://santaclara.courts.ca.gov/general-information/locations-contact-info/court-telephone-numbers-email-addresses",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCSC — Criminal Division",
+      "url": "https://santaclara.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCSC — Case Information Online",
+      "url": "https://santaclara.courts.ca.gov/online-services/case-information-online",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCSC — Hall of Justice",
+      "url": "https://santaclara.courts.ca.gov/location/hall-justice-hoj",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCSC — Palo Alto Courthouse",
+      "url": "https://santaclara.courts.ca.gov/location/palo-alto-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCSC — South County Morgan Hill Courthouse",
+      "url": "https://santaclara.courts.ca.gov/location/south-county-morgan-hill-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCSC — Family Justice Center Courthouse",
+      "url": "https://santaclara.courts.ca.gov/location/family-justice-center-courthouse-fjcc",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCSC — Collaborative Courts",
+      "url": "https://santaclara.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCSC — Self-Help Center/FLF Office",
+      "url": "https://santaclara.courts.ca.gov/self-help/self-help-centerflf-office",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCC Public Defender — Office Locations",
+      "url": "https://pdo.santaclaracounty.gov/contact-us/office-locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCC Public Defender — Record Clearance",
+      "url": "https://pdo.santaclaracounty.gov/criminal-defense/record-clearance-post-conviction-services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCC Probation — Contact Us",
+      "url": "https://pro.santaclaracounty.gov/about-us/contact-us",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCC Pretrial Services",
+      "url": "https://pts.santaclaracounty.gov/home",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCC Sheriff — Main Jail Complex",
+      "url": "https://sheriff.santaclaracounty.gov/bureaus/custody-bureau/main-jail-complex",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCC Sheriff — Elmwood Men's Facility",
+      "url": "https://sheriff.santaclaracounty.gov/bureaus/custody-bureau/elmwood-complex-mens-facility",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCC Sheriff — Elmwood Women's visiting",
+      "url": "https://sheriff.santaclaracounty.gov/bureaus/custody-bureau/elmwood-complex-womens-facility/visiting-incarcerated-person-elmwood-women",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCC Sheriff — Administrative Booking (bail)",
+      "url": "https://sheriff.santaclaracounty.gov/bureaus/custody-bureau/administrative-booking",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCC Sheriff — Visiting appointments",
+      "url": "https://sheriff.santaclaracounty.gov/services/custody-services/make-appointment-visit-someone-jail",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCC Sheriff — Commissary",
+      "url": "https://sheriff.santaclaracounty.gov/services/custody-services/custody-commissary",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "LawHelpCA — Criminal Record Improvement (Santa Clara)",
+      "url": "https://www.lawhelpca.org/resource/criminal-record-improvement-santa-clara-county",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "hoj",
+      "name": "Hall of Justice (HOJ)",
+      "address": "190-200 West Hedding Street",
+      "city": "San Jose",
+      "zip": "95110",
+      "phone": "(408) 808-6611",
+      "criminal_phone": "(408) 808-6611",
+      "hours": "Building Mon–Fri 8:00 a.m.–5:00 p.m.; clerk's office & phones Mon–Thu 8:30 a.m.–3:00 p.m., Fri 8:30 a.m.–12:00 p.m.",
+      "criminal": true,
+      "note": "Main criminal courthouse (Depts. 23–54, East and West wings). Dept. 23 = Master Calendar. Court's criminal records page says it covers San Jose, Milpitas, Los Gatos, Saratoga, Monte Sereno and Santa Clara (from search summary of the court's records page — confirm). Criminal email sscriminfo@scscourt.org. Mailing address 191 N. First St., San Jose 95113.",
+      "departments": [
+        {
+          "id": "23",
+          "label": "Department 23",
+          "type": "Master Calendar",
+          "note": null
+        },
+        {
+          "id": "24",
+          "label": "Department 24",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "25",
+          "label": "Department 25",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "26",
+          "label": "Department 26",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "27",
+          "label": "Department 27",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "28",
+          "label": "Department 28",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "29",
+          "label": "Department 29",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "30",
+          "label": "Department 30",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "31",
+          "label": "Department 31",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "32",
+          "label": "Department 32",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "33",
+          "label": "Department 33",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "34",
+          "label": "Department 34",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "35",
+          "label": "Department 35",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "36",
+          "label": "Department 36",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "37",
+          "label": "Department 37",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "38",
+          "label": "Department 38",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "39",
+          "label": "Department 39",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "40",
+          "label": "Department 40",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "41",
+          "label": "Department 41",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "42",
+          "label": "Department 42",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "43",
+          "label": "Department 43",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "44",
+          "label": "Department 44",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "45",
+          "label": "Department 45",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "46",
+          "label": "Department 46",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "47",
+          "label": "Department 47",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "48",
+          "label": "Department 48",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "49",
+          "label": "Department 49",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "50",
+          "label": "Department 50",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "51",
+          "label": "Department 51",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "52",
+          "label": "Department 52",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "53",
+          "label": "Department 53",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "54",
+          "label": "Department 54",
+          "type": "Criminal",
+          "note": null
+        }
+      ],
+      "departments_source_url": "https://santaclara.courts.ca.gov/location/hall-justice-hoj",
+      "source_url": "https://santaclara.courts.ca.gov/location/hall-justice-hoj",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "palo-alto",
+      "name": "Palo Alto Courthouse",
+      "address": "270 Grant Avenue",
+      "city": "Palo Alto",
+      "zip": "94306",
+      "phone": "(650) 462-3810",
+      "criminal_phone": "(650) 462-3810",
+      "hours": "Building Mon–Fri 8:00 a.m.–5:00 p.m.; clerk's office & phones Mon–Thu 8:30 a.m.–3:00 p.m., Fri 8:30 a.m.–12:00 p.m.",
+      "criminal": true,
+      "note": "Criminal (Depts. 84–89). Search summary of the court's records page says it covers Cupertino, Mountain View, Palo Alto and Sunnyvale — confirm.",
+      "departments": [
+        {
+          "id": "84",
+          "label": "Department 84",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "85",
+          "label": "Department 85",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "86",
+          "label": "Department 86",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "87",
+          "label": "Department 87",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "88",
+          "label": "Department 88",
+          "type": "Criminal",
+          "note": null
+        },
+        {
+          "id": "89",
+          "label": "Department 89",
+          "type": "Criminal",
+          "note": null
+        }
+      ],
+      "departments_source_url": "https://santaclara.courts.ca.gov/location/palo-alto-courthouse",
+      "source_url": "https://santaclara.courts.ca.gov/location/palo-alto-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "south-county",
+      "name": "South County Morgan Hill Courthouse",
+      "address": "301 Diana Avenue",
+      "city": "Morgan Hill",
+      "zip": "95037",
+      "phone": "(408) 695-5014",
+      "criminal_phone": "(408) 695-5014",
+      "hours": "Building Mon–Fri 8:00 a.m.–5:00 p.m.; clerk's office & phones Mon–Thu 8:30 a.m.–3:00 p.m., Fri 8:30 a.m.–12:00 p.m.",
+      "criminal": true,
+      "note": "Criminal and Traffic (Depts. 105–110). Traffic clerk (408) 556-3000, traffic pay-by-phone (408) 878-0098, sstrafficinfo@scscourt.org. Also hosts services relocated from the temporarily closed Santa Clara Courthouse (per search summary).",
+      "departments": [
+        {
+          "id": "105",
+          "label": "Department 105",
+          "type": "Criminal / Traffic",
+          "note": null
+        },
+        {
+          "id": "106",
+          "label": "Department 106",
+          "type": "Criminal / Traffic",
+          "note": null
+        },
+        {
+          "id": "107",
+          "label": "Department 107",
+          "type": "Criminal / Traffic",
+          "note": null
+        },
+        {
+          "id": "108",
+          "label": "Department 108",
+          "type": "Criminal / Traffic",
+          "note": null
+        },
+        {
+          "id": "109",
+          "label": "Department 109",
+          "type": "Criminal / Traffic",
+          "note": null
+        },
+        {
+          "id": "110",
+          "label": "Department 110",
+          "type": "Criminal / Traffic",
+          "note": null
+        }
+      ],
+      "departments_source_url": "https://santaclara.courts.ca.gov/location/south-county-morgan-hill-courthouse",
+      "source_url": "https://santaclara.courts.ca.gov/location/south-county-morgan-hill-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "fjcc",
+      "name": "Family Justice Center Courthouse (FJCC)",
+      "address": "201 N. First Street",
+      "city": "San Jose",
+      "zip": "95113",
+      "phone": "(408) 534-5711",
+      "criminal_phone": "(408) 491-4811",
+      "hours": "Building Mon–Fri 8:00 a.m.–5:00 p.m.; clerk's office & phones Mon–Thu 8:30 a.m.–3:00 p.m., Fri 8:30 a.m.–12:00 p.m.",
+      "criminal": true,
+      "note": "Drug Court (Depts. 60–62; Drug Court clerk (408) 491-4811) and Traffic (Dept. 63; (408) 556-3000), plus Family and Juvenile Dependency. General phone listed is the Family line. Self-Help Center is here.",
+      "departments": [
+        {
+          "id": "60",
+          "label": "Department 60",
+          "type": "Drug Court",
+          "note": null
+        },
+        {
+          "id": "61",
+          "label": "Department 61",
+          "type": "Drug Court",
+          "note": null
+        },
+        {
+          "id": "62",
+          "label": "Department 62",
+          "type": "Drug Court",
+          "note": null
+        },
+        {
+          "id": "63",
+          "label": "Department 63",
+          "type": "Traffic",
+          "note": null
+        }
+      ],
+      "departments_source_url": "https://santaclara.courts.ca.gov/location/family-justice-center-courthouse-fjcc",
+      "source_url": "https://santaclara.courts.ca.gov/location/family-justice-center-courthouse-fjcc",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "juvenile-justice",
+      "name": "Juvenile Justice Courthouse",
+      "address": "840 Guadalupe Parkway",
+      "city": "San Jose",
+      "zip": "95110",
+      "phone": "(408) 808-6211",
+      "criminal_phone": null,
+      "hours": "Building Mon–Fri 8:00 a.m.–5:00 p.m.; clerk's office & phones Mon–Thu 8:30 a.m.–3:00 p.m., Fri 8:30 a.m.–12:00 p.m.",
+      "criminal": false,
+      "note": "Juvenile Justice (Depts. 80–83). Not an adult criminal court.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://santaclara.courts.ca.gov/general-information/locations-contact-info/santa-clara-county-courthouse-locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "downtown",
+      "name": "Downtown Superior Court (DTS)",
+      "address": "191 N. First St.",
+      "city": "San Jose",
+      "zip": "95113",
+      "phone": "(408) 882-2700",
+      "criminal_phone": null,
+      "hours": "Building Mon–Fri 8:00 a.m.–5:00 p.m.; clerk's office & phones Mon–Thu 8:30 a.m.–3:00 p.m., Fri 8:30 a.m.–12:00 p.m.",
+      "criminal": false,
+      "note": "Civil, Probate, Small Claims (Depts. 1–16). Also the court's mailing address. Phone is the court's main number.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://santaclara.courts.ca.gov/general-information/locations-contact-info/santa-clara-county-courthouse-locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "old-courthouse",
+      "name": "Old Courthouse (OCH)",
+      "address": "161 North First Street",
+      "city": "San Jose",
+      "zip": "95113",
+      "phone": "(408) 882-2700",
+      "criminal_phone": null,
+      "hours": "Building Mon–Fri 8:00 a.m.–5:00 p.m.; clerk's office & phones Mon–Thu 8:30 a.m.–3:00 p.m., Fri 8:30 a.m.–12:00 p.m.",
+      "criminal": false,
+      "note": "Civil (Depts. 17–22). Phone is the court's main number. Santa Clara Courthouse (1095 Homestead Rd.) is listed by the court as temporarily closed and is omitted.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://santaclara.courts.ca.gov/general-information/locations-contact-info/santa-clara-county-courthouse-locations",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Santa Clara County Public Defender — Main Office",
+      "address": "120 West Mission Street",
+      "city": "San Jose",
+      "zip": "95110",
+      "phone": "(408) 299-7700",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://pdo.santaclaracounty.gov/",
+      "source_url": "https://pdo.santaclaracounty.gov/contact-us/office-locations",
+      "verified_on": "2026-10-13",
+      "todo": "Office hours not listed on the locations page"
+    },
+    {
+      "name": "Santa Clara County Public Defender — South County",
+      "address": "17275 Butterfield Blvd., Suite B",
+      "city": "Morgan Hill",
+      "zip": "95037",
+      "phone": "(408) 201-0500",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://pdo.santaclaracounty.gov/",
+      "source_url": "https://pdo.santaclaracounty.gov/contact-us/office-locations",
+      "verified_on": "2026-10-13",
+      "todo": "Hours not listed"
+    },
+    {
+      "name": "Santa Clara County Public Defender — Palo Alto",
+      "address": "425 Sherman Avenue, Suite 100",
+      "city": "Palo Alto",
+      "zip": "94306",
+      "phone": "(408) 918-7740",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://pdo.santaclaracounty.gov/",
+      "source_url": "https://pdo.santaclaracounty.gov/contact-us/office-locations",
+      "verified_on": "2026-10-13",
+      "todo": "Hours not listed"
+    },
+    {
+      "name": "Santa Clara County Alternate Defender — Main Office",
+      "address": "2305 Bering Drive",
+      "city": "San Jose",
+      "zip": "95131",
+      "phone": "(408) 970-2700",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://ado.santaclaracounty.gov/",
+      "source_url": "https://pdo.santaclaracounty.gov/contact-us/office-locations",
+      "verified_on": "2026-10-13",
+      "todo": "Hours not listed. Alternate Defender handles conflict cases (general role, not stated on the locations page)."
+    },
+    {
+      "name": "Santa Clara County Alternate Defender — South County",
+      "address": "80 Highland Ave.",
+      "city": "San Martin",
+      "zip": "95046",
+      "phone": "(408) 686-3628",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://ado.santaclaracounty.gov/",
+      "source_url": "https://pdo.santaclaracounty.gov/contact-us/office-locations",
+      "verified_on": "2026-10-13",
+      "todo": "Hours not listed"
+    },
+    {
+      "name": "Santa Clara County Alternate Defender — Palo Alto",
+      "address": "270 Grant Avenue",
+      "city": "Palo Alto",
+      "zip": "94306",
+      "phone": "(650) 324-6442",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://ado.santaclaracounty.gov/",
+      "source_url": "https://pdo.santaclaracounty.gov/contact-us/office-locations",
+      "verified_on": "2026-10-13",
+      "todo": "Hours not listed"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Santa Clara County Public Defender — Reentry Expungement Program (REP)",
+      "serves": "People with Santa Clara County convictions who qualify for Public Defender services",
+      "what": "Petitions for expungement (record clearance), charge reductions and deletion of outstanding fines & fees. Located inside the Reentry Resource Center, 151 W. Mission Street, San Jose; by appointment. CalWORKS participants: (408) 299-7038. PDO does not take Certificate of Rehabilitation cases.",
+      "phone": "(408) 535-4290",
+      "email": "expungement@pdo.sccgov.org",
+      "url": "https://pdo.santaclaracounty.gov/criminal-defense/record-clearance-post-conviction-services",
+      "source_url": "https://pdo.santaclaracounty.gov/criminal-defense/record-clearance-post-conviction-services",
+      "verified_on": "2026-10-13",
+      "todo": null
+    },
+    {
+      "name": "Santa Clara County Probation — Record Clearance (adults)",
+      "serves": "People not financially eligible for the Public Defender",
+      "what": "Probation provides a record clearance (expungement) application. Search summary listed a record clearance line (408) 435-2061 — not confirmed on the page loaded; main Adult Services line used.",
+      "phone": "(408) 435-2000",
+      "email": null,
+      "url": "https://pro.santaclaracounty.gov/adult-services/clear-and-expunge-records-adults",
+      "source_url": "https://pro.santaclaracounty.gov/adult-services/clear-and-expunge-records-adults",
+      "verified_on": "2026-10-13",
+      "todo": "Confirm dedicated record clearance phone (408) 435-2061"
+    },
+    {
+      "name": "Santa Clara County Law Library — Criminal Record Improvement guide (via LawHelpCA)",
+      "serves": "Anyone with Santa Clara County adult convictions",
+      "what": "Self-help guide to record improvement criteria; links to PDO and Certificate of Rehabilitation packet. Check restitution owed with County Dept. of Revenue (408) 282-3200.",
+      "phone": null,
+      "email": null,
+      "url": "https://www.lawhelpca.org/resource/criminal-record-improvement-santa-clara-county",
+      "source_url": "https://www.lawhelpca.org/resource/criminal-record-improvement-santa-clara-county",
+      "verified_on": "2026-10-13",
+      "todo": "Law Library phone/address not loaded"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Santa Clara County Probation — Adult Services Division, Main Office",
+      "address": "2314 North 1st Street",
+      "city": "San Jose",
+      "zip": "95131",
+      "phone": "(408) 435-2000",
+      "hours": null,
+      "url": "https://pro.santaclaracounty.gov/",
+      "source_url": "https://pro.santaclaracounty.gov/about-us/contact-us",
+      "verified_on": "2026-10-13",
+      "note": "(408) 435-2000 is also listed as the Adult Deputy Probation Officer line. Fax (408) 456-0527.",
+      "todo": "Office hours not listed on Contact Us"
+    },
+    {
+      "name": "Santa Clara County Probation — Adult Services, North County Office",
+      "address": "270 Grant Avenue",
+      "city": "Palo Alto",
+      "zip": "94306",
+      "phone": "(650) 324-6500",
+      "hours": null,
+      "url": "https://pro.santaclaracounty.gov/",
+      "source_url": "https://pro.santaclaracounty.gov/about-us/contact-us",
+      "verified_on": "2026-10-13",
+      "note": null,
+      "todo": "Hours not listed"
+    },
+    {
+      "name": "Santa Clara County Probation — Adult Services, South County Office",
+      "address": "17275 Butterfield Blvd. Suite C",
+      "city": "Morgan Hill",
+      "zip": "95037",
+      "phone": "(408) 201-0600",
+      "hours": null,
+      "url": "https://pro.santaclaracounty.gov/",
+      "source_url": "https://pro.santaclaracounty.gov/about-us/contact-us",
+      "verified_on": "2026-10-13",
+      "note": null,
+      "todo": "Hours not listed"
+    }
+  ],
+  "programs": [
+    {
+      "id": "pretrial-services",
+      "name": "Santa Clara County Office of Pretrial Services",
+      "type": "pretrial",
+      "summary": "County department that supervises people released before trial. Its site offers: contact my officer, look up court date, an app to interact with your officer, and a check-if-someone-is-in-jail link. PDO says if arrested you can talk to a Pretrial Services Officer at the jail about release without bail.",
+      "phone": null,
+      "url": "https://pts.santaclaracounty.gov/home",
+      "source_url": "https://pts.santaclaracounty.gov/home",
+      "verified_on": "2026-10-13",
+      "todo": "Pretrial Services phone/address not captured from the site"
+    },
+    {
+      "id": "self-help",
+      "name": "Self-Help Center / Family Law Facilitator",
+      "type": "self_help",
+      "summary": "Free court help center at the Family Justice Center Courthouse, 201 N. First St., San Jose. Mainly family law, restraining orders, guardianship. A 2026 flyer describes remote assistance (phone/live chat) — check before going in person.",
+      "phone": "(408) 882-2926",
+      "url": "https://santaclara.courts.ca.gov/self-help/self-help-centerflf-office",
+      "source_url": "https://santaclara.courts.ca.gov/self-help/self-help-centerflf-office",
+      "verified_on": "2026-10-13",
+      "todo": "Current walk-in availability conflicts between court flyers"
+    },
+    {
+      "id": "drug-treatment-court",
+      "name": "Drug Treatment Court (DTC)",
+      "type": "collaborative_court",
+      "summary": "For defendants with substance use disorders: frequent judicial reviews plus connection to treatment and services. Held at the Family Justice Center (Depts. 60–62).",
+      "phone": "(408) 491-4811",
+      "url": "https://santaclara.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://santaclara.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": null
+    },
+    {
+      "id": "mental-health-treatment-court",
+      "name": "Mental Health Treatment Court (MHTC)",
+      "type": "collaborative_court",
+      "summary": "Supervision and community resources for participants with mental illness, including assessment, medication review and housing.",
+      "phone": null,
+      "url": "https://santaclara.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://santaclara.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "No program phone listed"
+    },
+    {
+      "id": "mental-health-diversion",
+      "name": "Mental Health Diversion",
+      "type": "diversion",
+      "summary": "Eligible people with a qualifying mental health diagnosis can enter treatment with criminal proceedings suspended for up to two years.",
+      "phone": null,
+      "url": "https://santaclara.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://santaclara.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "No program phone listed"
+    },
+    {
+      "id": "veterans-treatment-court",
+      "name": "Veterans Treatment Court",
+      "type": "collaborative_court",
+      "summary": "For military veterans meeting statutory requirements (mental illness, substance abuse, sexual trauma or other conditions).",
+      "phone": null,
+      "url": "https://santaclara.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://santaclara.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "No program phone listed"
+    },
+    {
+      "id": "parole-reentry-court",
+      "name": "Parole Reentry Court",
+      "type": "collaborative_court",
+      "summary": "Reduces recidivism among parolees through treatment, incentives, sanctions and violation hearings.",
+      "phone": null,
+      "url": "https://santaclara.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://santaclara.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "No program phone listed"
+    },
+    {
+      "id": "intellectually-challenged-court",
+      "name": "Intellectually Challenged Court",
+      "type": "collaborative_court",
+      "summary": "Oversight, services through San Andreas Regional Center, and frequent reviews for participants with qualifying intellectual disabilities.",
+      "phone": null,
+      "url": "https://santaclara.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://santaclara.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "No program phone listed"
+    },
+    {
+      "id": "ist-court",
+      "name": "Incompetent to Stand Trial Court",
+      "type": "collaborative_court",
+      "summary": "Monitors and supports people found unable to understand charges or assist counsel, aiming to restore competency.",
+      "phone": null,
+      "url": "https://santaclara.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://santaclara.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "No program phone listed"
+    },
+    {
+      "id": "community-outreach-court",
+      "name": "Community Outreach Court",
+      "type": "collaborative_court",
+      "summary": "Former participants who have made significant progress can do public service for nonprofits in lieu of paying court fines.",
+      "phone": null,
+      "url": "https://santaclara.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://santaclara.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "No program phone listed"
+    },
+    {
+      "id": "yadej",
+      "name": "Young Adult Deferred Entry of Judgment (YADEJ)",
+      "type": "diversion",
+      "summary": "Pilot for ages 18–21 charged with non-serious, non-violent felonies: case management, and records sealed on graduation.",
+      "phone": null,
+      "url": "https://santaclara.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://santaclara.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "No program phone listed"
+    }
+  ],
+  "jails": [
+    {
+      "id": "main-jail",
+      "name": "Santa Clara County Main Jail Complex",
+      "address": "150 West Hedding Street",
+      "city": "San Jose",
+      "zip": "95110",
+      "houses": null,
+      "phone": "(408) 808-2800",
+      "phone_note": "Main Jail visiting line (408) 808-2800; second listed number (408) 299-3438; Visiting.MainJail@shf.sccgov.org. Public custody info (bail, charges, holds, initial court date, projected release): Administrative Booking (408) 299-2305. Bail can be posted at the jail lobby cashier window 5:00 a.m.–12:00 a.m.",
+      "url": "https://sheriff.santaclaracounty.gov/bureaus/custody-bureau/main-jail-complex",
+      "visiting_url": "https://sheriff.santaclaracounty.gov/services/custody-services/make-appointment-visit-someone-jail",
+      "commissary_or_money_url": "https://sheriff.santaclaracounty.gov/services/custody-services/custody-commissary",
+      "court_ids": [
+        "hoj"
+      ],
+      "source_url": "https://sheriff.santaclaracounty.gov/bureaus/custody-bureau/main-jail-complex",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff page does not say whether Main Jail houses men only or both (it books ~30,000 people/yr). court_ids: HOJ is next door — nearest, not confirmed; people may also go to Palo Alto / South County / FJCC depending on case."
+    },
+    {
+      "id": "elmwood-men",
+      "name": "Elmwood Complex — Men's Facility",
+      "address": "945 Thompson Street",
+      "city": "Milpitas",
+      "zip": "95035",
+      "houses": "men",
+      "phone": "(408) 957-5300",
+      "phone_note": "Elmwood administration (408) 957-5300; visitation (408) 957-5900; Visiting.Elmwood@shf.sccgov.org. Houses minimum- and medium-security men.",
+      "url": "https://sheriff.santaclaracounty.gov/bureaus/custody-bureau/elmwood-complex-mens-facility",
+      "visiting_url": "https://sheriff.santaclaracounty.gov/bureaus/custody-bureau/elmwood-complex-mens-facility/visiting-inmate-elmwood-men-complex",
+      "commissary_or_money_url": "https://sheriff.santaclaracounty.gov/services/custody-services/custody-commissary",
+      "court_ids": [
+        "hoj"
+      ],
+      "source_url": "https://sheriff.santaclaracounty.gov/bureaus/custody-bureau/elmwood-complex-mens-facility",
+      "verified_on": "2026-10-13",
+      "todo": "Some Sheriff pages give 701 S. Abel St. for the whole Elmwood complex. court_ids: nearest, not confirmed."
+    },
+    {
+      "id": "elmwood-women",
+      "name": "Elmwood Complex — Women's Facility",
+      "address": "701 S. Abel Street",
+      "city": "Milpitas",
+      "zip": "95035",
+      "houses": "women",
+      "phone": "(408) 957-5300",
+      "phone_note": "Elmwood administration (408) 957-5300; visitation (408) 957-5900. Sheriff search snippet: houses ~250 women, all security levels, separate from the men's facility.",
+      "url": "https://sheriff.santaclaracounty.gov/bureaus/custody-bureau/elmwood-complex-womens-facility",
+      "visiting_url": "https://sheriff.santaclaracounty.gov/bureaus/custody-bureau/elmwood-complex-womens-facility/visiting-incarcerated-person-elmwood-women",
+      "commissary_or_money_url": "https://sheriff.santaclaracounty.gov/services/custody-services/custody-commissary",
+      "court_ids": [
+        "hoj"
+      ],
+      "source_url": "https://sheriff.santaclaracounty.gov/bureaus/custody-bureau/elmwood-complex-womens-facility/visiting-incarcerated-person-elmwood-women",
+      "verified_on": "2026-10-13",
+      "todo": "court_ids: nearest criminal courthouse, not confirmed."
+    },
+    {
+      "id": "juvenile-hall",
+      "name": "Santa Clara County Juvenile Hall (Probation)",
+      "address": "840 Guadalupe Pkwy",
+      "city": "San Jose",
+      "zip": "95110",
+      "houses": "juvenile",
+      "phone": "(408) 278-5850",
+      "phone_note": "Run by the Probation Department.",
+      "url": "https://pro.santaclaracounty.gov/",
+      "visiting_url": null,
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "juvenile-justice"
+      ],
+      "source_url": "https://pro.santaclaracounty.gov/about-us/contact-us",
+      "verified_on": "2026-10-13",
+      "todo": "Visiting page not located. Juvenile Justice Courthouse shares the 840 Guadalupe Pkwy address (same campus); court link inferred, not confirmed."
+    }
+  ],
+  "inmate_lookup_url": "https://eservices.sccgov.org/OVR/FindInmate/Find",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "note": "CA Department of Insurance 'Check a License' — look up a bail agent's license status. Santa Clara Sheriff: post cash bail at the jail lobby cashier window, 5:00 a.m.–12:00 a.m.; cash, bank cashier's check, money order (payable to 'Santa Clara County Judicial District') or bail bond. Sheriff is prohibited from referring bail agents. Bail info line (Administrative Booking): (408) 299-2305. Inmate lookup URL is the one linked by the court; it redirects to santaclara-inmatesearch.atimsle.com."
+  }
+}

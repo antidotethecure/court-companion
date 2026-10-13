@@ -1,0 +1,419 @@
+{
+  "state": "CA",
+  "county": "Ventura",
+  "slug": "ventura",
+  "court_name": "Superior Court of California, County of Ventura",
+  "court_website": "https://ventura.courts.ca.gov/",
+  "case_search_url": "https://opa.ventura.courts.ca.gov/CourtServiceHome.aspx",
+  "case_search_note": "Criminal or Traffic Case Inquiries go through the court's Online Public Access (OPA) site, linked from the Case Inquiry page; the Criminal/Traffic page says to use OPA for misdemeanor/felony hearing information. Use of the site means accepting the court's Terms of Use; it is not the official record.",
+  "sources": [
+    {
+      "title": "VSC — All Locations",
+      "url": "https://ventura.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "VSC — Criminal / Traffic Information",
+      "url": "https://ventura.courts.ca.gov/divisions/criminal-traffic-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "VSC — Case Inquiry",
+      "url": "https://ventura.courts.ca.gov/online-services/case-inquiry",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "VSC — Phone Directory",
+      "url": "https://ventura.courts.ca.gov/general-information/phone-directory",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "VSC — Collaborative Justice Court Programs",
+      "url": "https://ventura.courts.ca.gov/collaborative-justice-court-programs",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Ventura Sheriff — Pre-Trial Detention Facility",
+      "url": "https://sheriff.venturacounty.gov/detention-services/pre-trial-detention-facility/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Ventura Sheriff — Todd Road Jail",
+      "url": "https://sheriff.venturacounty.gov/detention-services/todd-road-jail/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Ventura Sheriff — East County Jail",
+      "url": "https://sheriff.venturacounty.gov/detention-services/east-county-jail/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Ventura Sheriff — Posting Bail",
+      "url": "https://sheriff.venturacounty.gov/inmate-information/posting-bail/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Ventura Public Defender — home / locations",
+      "url": "https://publicdefender.venturacounty.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Ventura Public Defender — Fresh Start",
+      "url": "https://publicdefender.venturacounty.gov/services/fresh-start/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Ventura Probation — Locations",
+      "url": "https://probation.venturacounty.gov/locations/",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "hall-of-justice",
+      "name": "Hall of Justice (Ventura)",
+      "address": "800 South Victoria Avenue",
+      "city": "Ventura",
+      "zip": "93009",
+      "phone": "(805) 289-8900",
+      "criminal_phone": "(805) 289-8545",
+      "hours": "Building Mon–Fri 8:00 a.m.–4:00 p.m.; Criminal/Traffic lobby (filing) Mon–Fri 8:00 a.m.–4:00 p.m.; walk-up payment windows Mon–Fri 8:00 a.m.–4:30 p.m.; phones 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Cases served: Appeals, Civil, Criminal, Domestic Violence, Family Law, Small Claims, Traffic. Main criminal courthouse; in the Government Center with the Pre-Trial Detention Facility. Records division is here.",
+      "departments": [],
+      "source_url": "https://ventura.courts.ca.gov/location/hall-justice",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "east-county",
+      "name": "East County Courthouse (Simi Valley)",
+      "address": "3855-F Alamo Street",
+      "city": "Simi Valley",
+      "zip": "93063",
+      "phone": "(805) 289-8545",
+      "criminal_phone": "(805) 289-8545",
+      "hours": "Building Mon–Fri 8:00 a.m.–4:00 p.m.; Traffic Division and payment windows open Monday and Tuesday only, 8:00 a.m.–4:30 p.m.; phones Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Cases served: Criminal, Small Claims, Traffic.",
+      "departments": [],
+      "source_url": "https://ventura.courts.ca.gov/location/east-county-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "juvenile-justice-center",
+      "name": "Juvenile Justice Center (Oxnard)",
+      "address": "4353 E. Vineyard Avenue",
+      "city": "Oxnard",
+      "zip": "93036",
+      "phone": "(805) 289-8820",
+      "criminal_phone": null,
+      "hours": "Mon–Fri 8:00 a.m.–4:00 p.m. (clerk Room 122)",
+      "criminal": true,
+      "note": "Cases served: Juvenile Delinquency and Dependency, Probate/Conservatorships/Guardianships, Small Claims, Traffic incl. adult and juvenile traffic trials, Adoption, Civil Harassment ROs. Adult criminal (misdemeanor/felony) not listed — criminal flag is for traffic trials only.",
+      "departments": [],
+      "source_url": "https://ventura.courts.ca.gov/location/juvenile-justice-center",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Ventura County Public Defender — Hall of Justice",
+      "address": "800 S. Victoria Ave., Room #207",
+      "city": "Ventura",
+      "zip": "93009",
+      "phone": "(805) 654-2201",
+      "toll_free": null,
+      "email": null,
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "url": "https://publicdefender.venturacounty.gov/",
+      "note": "Adult cases & contempt (805) 654-2201; Probate (805) 662-6889; Mental Health (805) 654-3959.",
+      "verified_on": "2026-10-13",
+      "source_url": "https://publicdefender.venturacounty.gov/"
+    },
+    {
+      "name": "Ventura County Public Defender — Juvenile Justice Center",
+      "address": "4353 Vineyard, Room #296",
+      "city": "Oxnard",
+      "zip": "93033",
+      "phone": "(805) 981-5990",
+      "toll_free": null,
+      "email": null,
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "url": "https://publicdefender.venturacounty.gov/",
+      "note": "PD site lists zip 93033; the court lists the building at 4353 E. Vineyard Ave., 93036.",
+      "todo": "zip discrepancy between PD (93033) and court (93036) pages",
+      "verified_on": "2026-10-13",
+      "source_url": "https://publicdefender.venturacounty.gov/"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Ventura PD — Fresh Start (record clearance)",
+      "serves": "People with Ventura County convictions",
+      "what": "PD program for expungements, record sealing and early probation termination. As of 2026-10-13 the page says it cannot accept new applications because of court case-management changes ('check back in 30 days'). The PD also lists an Expungement Clinic and outreach events; call and ask for the Fresh Start Team.",
+      "phone": "(805) 654-2201",
+      "email": null,
+      "url": "https://publicdefender.venturacounty.gov/services/fresh-start/",
+      "source_url": "https://publicdefender.venturacounty.gov/services/fresh-start/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "VSC Self-Help Legal Access Center",
+      "serves": "Self-represented people",
+      "what": "Court self-help center (court phone directory lists the Self-Help Legal Access Center line); also runs self-help webinars.",
+      "phone": "(805) 289-8812",
+      "email": null,
+      "url": "https://ventura.courts.ca.gov/self-help",
+      "source_url": "https://ventura.courts.ca.gov/general-information/phone-directory",
+      "todo": "Whether it helps with criminal record clearance not confirmed",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Ventura Probation — Administration & Adult Court Services (Government Center, PTDF)",
+      "address": "800 South Victoria Avenue",
+      "city": "Ventura",
+      "zip": "93009",
+      "phone": "(805) 654-2106",
+      "hours": null,
+      "url": "https://probation.venturacounty.gov/",
+      "todo": "hours not listed",
+      "note": "Adult Court Services: (805) 654-2132.",
+      "verified_on": "2026-10-13",
+      "source_url": "https://probation.venturacounty.gov/locations/"
+    },
+    {
+      "name": "Ventura Probation — Adult Field Office — Ventura",
+      "address": "669 County Square Drive, Suite 101",
+      "city": "Ventura",
+      "zip": "93003",
+      "phone": "(805) 662-6900",
+      "hours": null,
+      "url": "https://probation.venturacounty.gov/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://probation.venturacounty.gov/locations/"
+    },
+    {
+      "name": "Ventura Probation — Adult Field Office — Oxnard",
+      "address": "1721 Pacific Ave., Suite #140",
+      "city": "Oxnard",
+      "zip": "93033",
+      "phone": "(805) 204-5900",
+      "hours": null,
+      "url": "https://probation.venturacounty.gov/",
+      "todo": "hours not listed",
+      "note": "2nd floor: (805) 204-5901.",
+      "verified_on": "2026-10-13",
+      "source_url": "https://probation.venturacounty.gov/locations/"
+    },
+    {
+      "name": "Ventura Probation — Adult Field Office — Simi Valley",
+      "address": "3855 Alamo Street, Bldg. F",
+      "city": "Simi Valley",
+      "zip": "93063",
+      "phone": "(805) 582-8032",
+      "hours": null,
+      "url": "https://probation.venturacounty.gov/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://probation.venturacounty.gov/locations/"
+    },
+    {
+      "name": "Ventura Probation — Juvenile Field Office",
+      "address": "1911 Williams Drive, Suite 175",
+      "city": "Oxnard",
+      "zip": "93036",
+      "phone": "(805) 973-5100",
+      "hours": null,
+      "url": "https://probation.venturacounty.gov/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://probation.venturacounty.gov/locations/"
+    },
+    {
+      "name": "Ventura Probation — Work Release",
+      "address": "800 S. Victoria Ave., 2nd floor PTDF building",
+      "city": "Ventura",
+      "zip": "93009",
+      "phone": "(805) 654-2966",
+      "hours": null,
+      "url": "https://probation.venturacounty.gov/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://probation.venturacounty.gov/locations/"
+    }
+  ],
+  "programs": [
+    {
+      "id": "drug-court",
+      "name": "Adult Drug Court",
+      "type": "collaborative_court",
+      "summary": "For drug offenders who failed Deferred Entry of Judgment and would otherwise go to state prison; non-violent drug felonies and non-violent non-drug felonies driven by drug abuse. Assessment, outpatient/residential treatment, counseling, intensive probation and random testing.",
+      "url": "https://ventura.courts.ca.gov/collaborative-justice-court-programs",
+      "source_url": "https://ventura.courts.ca.gov/collaborative-justice-court-programs",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "mental-health-court",
+      "name": "Mental Health Court",
+      "type": "collaborative_court",
+      "summary": "Post-booking, out-of-custody formal-probation program for adults with a primary mental illness and co-occurring substance disorder, booked for misdemeanors or low-level felonies. Treatment, medication monitoring, therapy, intensive probation, crisis services, housing/employment links.",
+      "url": "https://ventura.courts.ca.gov/collaborative-justice-court-programs",
+      "source_url": "https://ventura.courts.ca.gov/collaborative-justice-court-programs",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "veterans-court",
+      "name": "Veterans Court (VCVIP)",
+      "type": "collaborative_court",
+      "summary": "For honorably discharged veterans with combat-related psychological injury or substance abuse charged with jailable offenses; requires a guilty/no contest plea; completing the treatment plan earns a reduced sentence. VA staff in court.",
+      "url": "https://ventura.courts.ca.gov/collaborative-justice-court-programs",
+      "source_url": "https://ventura.courts.ca.gov/collaborative-justice-court-programs",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "community-intervention-court",
+      "name": "Community Intervention Court",
+      "type": "collaborative_court",
+      "summary": "For homeless people arrested for repeated vagrancy-related municipal code violations in the City of Ventura; treatment and case management instead of fines/jail. Excludes violence, drug sales, mandatory-jail offenses.",
+      "url": "https://ventura.courts.ca.gov/collaborative-justice-court-programs",
+      "source_url": "https://ventura.courts.ca.gov/collaborative-justice-court-programs",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "dv-court",
+      "name": "Domestic Violence Court",
+      "type": "collaborative_court",
+      "summary": "Single judge monitors DV offenders' enrollment in a 52-week program and probation meetings.",
+      "url": "https://ventura.courts.ca.gov/collaborative-justice-court-programs",
+      "source_url": "https://ventura.courts.ca.gov/collaborative-justice-court-programs",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "elder-law-court",
+      "name": "Elder Law Court",
+      "type": "collaborative_court",
+      "summary": "Dedicated calendar for Penal Code 368 elder abuse cases (except trials and prelims).",
+      "url": "https://ventura.courts.ca.gov/collaborative-justice-court-programs",
+      "source_url": "https://ventura.courts.ca.gov/collaborative-justice-court-programs",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "homeless-court",
+      "name": "Homeless Court",
+      "type": "collaborative_court",
+      "summary": "Lets homeless people resolve fines for minor violations through community service; sessions held at homeless advocacy sites.",
+      "url": "https://ventura.courts.ca.gov/collaborative-justice-court-programs",
+      "source_url": "https://ventura.courts.ca.gov/collaborative-justice-court-programs",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "stand-down-court",
+      "name": "Stand Down Court",
+      "type": "collaborative_court",
+      "summary": "Court session every July at the veterans Stand Down event to resolve infractions and minor misdemeanors for homeless veterans.",
+      "url": "https://ventura.courts.ca.gov/collaborative-justice-court-programs",
+      "source_url": "https://ventura.courts.ca.gov/collaborative-justice-court-programs",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "pretrial-info",
+      "name": "Before criminal court",
+      "type": "info",
+      "summary": "Court: if represented by the Public Defender, contact your assigned attorney for instructions BEFORE coming to court; check OPA for misdemeanor/felony hearing info; if you can't afford a lawyer, contact the Public Defender.",
+      "url": "https://ventura.courts.ca.gov/divisions/criminal-traffic-information",
+      "source_url": "https://ventura.courts.ca.gov/divisions/criminal-traffic-information",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "ptdf",
+      "name": "Pre-Trial Detention Facility",
+      "address": "800 South Victoria Avenue",
+      "city": "Ventura",
+      "zip": "93009",
+      "phone": "(805) 654-3335",
+      "phone_note": "Visiting line (Sheriff PTDF inmate-information page). Bail can be posted here.",
+      "houses": null,
+      "url": "https://sheriff.venturacounty.gov/detention-services/pre-trial-detention-facility/",
+      "visiting_url": "https://sheriff.venturacounty.gov/inmate-information/pre-trial-detention-facility/",
+      "commissary_or_money_url": "https://sheriff.venturacounty.gov/inmate-information/online-payments/",
+      "court_ids": [
+        "hall-of-justice"
+      ],
+      "source_url": "https://sheriff.venturacounty.gov/detention-services/pre-trial-detention-facility/",
+      "verified_on": "2026-10-13",
+      "note": "Sheriff: opened 1980, houses ~890 sentenced and unsentenced inmates; with the East Valley booking facility, accepts arrestees from every agency in the county. Same Government Center as the Hall of Justice.",
+      "todo": "houses (men/women) not stated. court_ids: nearest criminal courthouse, not confirmed by Sheriff."
+    },
+    {
+      "id": "todd-road",
+      "name": "Todd Road Jail",
+      "address": "Todd Road",
+      "city": null,
+      "zip": null,
+      "phone": "(805) 933-8501",
+      "phone_note": "Visiting line (Sheriff Todd Road inmate-information page).",
+      "houses": null,
+      "url": "https://sheriff.venturacounty.gov/detention-services/todd-road-jail/",
+      "visiting_url": "https://sheriff.venturacounty.gov/inmate-information/todd-road-jail/",
+      "commissary_or_money_url": "https://sheriff.venturacounty.gov/inmate-information/online-payments/",
+      "court_ids": [
+        "hall-of-justice"
+      ],
+      "source_url": "https://sheriff.venturacounty.gov/detention-services/todd-road-jail/",
+      "verified_on": "2026-10-13",
+      "note": "Sheriff: state-rated capacity 796; home of Inmate Services programs (education, vocational, substance abuse treatment, re-entry).",
+      "todo": "street number/city/zip not shown on Sheriff pages loaded; houses not stated. court_ids: nearest criminal courthouse, not confirmed by Sheriff."
+    },
+    {
+      "id": "east-county-jail",
+      "name": "East County Jail (East Valley)",
+      "address": "2101 E. Olsen Road",
+      "city": "Thousand Oaks",
+      "zip": null,
+      "phone": "(805) 494-8242",
+      "phone_note": "Open 24 hours; accepts bail bonds and deposits for anyone in Sheriff custody. Visits: pre-trial inmates 8 a.m.–5 p.m. Mon–Fri; housed inmates 4–8 p.m. Mon–Fri and 8 a.m.–5 p.m. Sat–Sun.",
+      "houses": null,
+      "url": "https://sheriff.venturacounty.gov/detention-services/east-county-jail/",
+      "visiting_url": "https://sheriff.venturacounty.gov/detention-services/east-county-jail/",
+      "commissary_or_money_url": "https://sheriff.venturacounty.gov/inmate-information/online-payments/",
+      "court_ids": [
+        "east-county"
+      ],
+      "source_url": "https://sheriff.venturacounty.gov/detention-services/east-county-jail/",
+      "verified_on": "2026-10-13",
+      "note": "At the Sheriff's East County Patrol Station; booking and housing facility.",
+      "todo": "zip not listed; houses not stated. court_ids: nearest criminal courthouse, not confirmed by Sheriff."
+    },
+    {
+      "id": "juvenile-facilities",
+      "name": "Ventura County Juvenile Facilities (Probation)",
+      "address": "4333 Vineyard Avenue",
+      "city": "Oxnard",
+      "zip": "93036",
+      "phone": "(805) 981-5521",
+      "phone_note": "Run by Ventura County Probation Agency.",
+      "houses": "juvenile",
+      "url": "https://probation.venturacounty.gov/juvenile-services/",
+      "visiting_url": null,
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "juvenile-justice-center"
+      ],
+      "source_url": "https://probation.venturacounty.gov/locations/",
+      "verified_on": "2026-10-13",
+      "todo": "visiting info not loaded; court_ids nearest (adjacent Juvenile Justice Center), not confirmed"
+    }
+  ],
+  "inmate_lookup_url": "https://sheriff.venturacounty.gov/inmate-information/inmate-search/",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "note": "Ventura Sheriff: bail may be posted at the Pre-Trial Detention Facility (800 S. Victoria Ave., Ventura) by cashier's check payable to Ventura County Superior Court, or by credit/debit card online via GovPayNet or by phone 1-888-604-7888 (PLC # 6404). East County Jail also accepts bail bonds and deposits 24 hours. Verify any bail agent's license with the CA Department of Insurance."
+  }
+}

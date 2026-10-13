@@ -1,0 +1,301 @@
+{
+  "state": "CA",
+  "county": "Monterey",
+  "slug": "monterey",
+  "court_name": "Superior Court of California, County of Monterey",
+  "court_website": "https://www.monterey.courts.ca.gov/",
+  "case_search_url": "https://portal.monterey.courts.ca.gov/search",
+  "case_search_note": "Self-service records portal (linked from the court's Case Search page): current and completed cases back to 2008, no registration; view case info or scheduled hearings and pay criminal/traffic fines. Daily calendars: https://portal.monterey.courts.ca.gov/calendars/final-daily.",
+  "sources": [
+    {
+      "title": "Monterey Superior Court — Locations",
+      "url": "https://www.monterey.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Monterey Superior Court — Case Search",
+      "url": "https://www.monterey.courts.ca.gov/online-services/case-search",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Monterey Superior Court — Criminal Clerk's Office",
+      "url": "https://www.monterey.courts.ca.gov/divisions/criminal/clerks-office",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Monterey Superior Court — Criminal Court Programs",
+      "url": "https://www.monterey.courts.ca.gov/divisions/criminal/court-programs",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Monterey Superior Court — Collaborative Court",
+      "url": "https://www.monterey.courts.ca.gov/general-information/collaborative-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Monterey Superior Court — Self-Help",
+      "url": "https://www.monterey.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Monterey County Sheriff — Jail Information",
+      "url": "https://www.countyofmonterey.gov/government/departments-i-z/sheriff-coroner/services/jail-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Monterey County Sheriff — Jail Division",
+      "url": "https://www.countyofmonterey.gov/government/departments-i-z/sheriff-coroner/about/corrections-operations-bureau/jail-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Monterey County Sheriff — Home",
+      "url": "https://www.countyofmonterey.gov/government/departments-i-z/sheriff-coroner/home",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Monterey County Public Defender — Contact Us",
+      "url": "https://www.countyofmonterey.gov/government/departments-i-z/public-defender/contact-us",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Monterey County Public Defender — Clear My Record",
+      "url": "https://www.countyofmonterey.gov/government/departments-i-z/public-defender/clear-my-record",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Monterey County Probation — Office Locations and Hours",
+      "url": "https://www.countyofmonterey.gov/government/departments-i-z/probation/more-information/office-locations-and-hours",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "salinas",
+      "name": "Salinas Courthouse",
+      "address": "240 Church St.",
+      "city": "Salinas",
+      "zip": "93901",
+      "phone": "(831) 775-5400",
+      "hours": "Building Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Courtrooms 1–11. Court lists cases served as Criminal, Juvenile and Mental Health and calls it the main hub (criminal, civil, family, probate, traffic). Main criminal courthouse; criminal clerk's office. Salinas Self-Help Center open Wednesdays 9–3.",
+      "departments": [],
+      "source_url": "https://www.monterey.courts.ca.gov/location/salinas-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "marina",
+      "name": "Marina Courthouse",
+      "address": "3180 Del Monte Blvd.",
+      "city": "Marina",
+      "zip": "93933",
+      "phone": "(831) 883-5300",
+      "hours": "Building Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Courtrooms 20–21. Traffic services and traffic court hearings, night court, small claims, child support hearings. Traffic matters only (not felony/misdemeanor per the court's listing). Mailing: P.O. Box 2010, Marina, CA 93933.",
+      "departments": [],
+      "source_url": "https://www.monterey.courts.ca.gov/location/marina-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "king-city",
+      "name": "King City Courthouse",
+      "address": "250 Franciscan Way",
+      "city": "King City",
+      "zip": "93930",
+      "phone": "(831) 883-5300",
+      "hours": null,
+      "criminal": true,
+      "note": "Courtroom 18. Traffic payments and filings, traffic arraignments, family and restraining-order filings, small claims filings, child support calendars, self-help (Tuesdays 9–3). Traffic only for criminal-type matters.",
+      "departments": [],
+      "source_url": "https://www.monterey.courts.ca.gov/location/king-city-courthouse",
+      "verified_on": "2026-10-13",
+      "todo": "Building hours not listed"
+    },
+    {
+      "id": "monterey",
+      "name": "Monterey Courthouse",
+      "address": "1200 Aguajito Road",
+      "city": "Monterey",
+      "zip": "93940",
+      "phone": "(831) 647-5800",
+      "hours": "Building Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": false,
+      "note": "Courtrooms 13–17. Civil, family, probate, jury services, family court services, self-help (Mon–Fri 9–4). Not criminal.",
+      "departments": [],
+      "source_url": "https://www.monterey.courts.ca.gov/location/monterey-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "juvenile",
+      "name": "Juvenile Justice Court",
+      "address": "1422 Natividad Rd",
+      "city": "Salinas",
+      "zip": "93906",
+      "phone": "(831) 775-5400",
+      "hours": null,
+      "criminal": false,
+      "note": "Juvenile justice sessions held daily in the Juvenile Court Branch at the Probation Department; filings are kept at the Salinas Courthouse clerk's office. Not adult criminal.",
+      "departments": [],
+      "source_url": "https://www.monterey.courts.ca.gov/location/juvenile-justice-court",
+      "verified_on": "2026-10-13",
+      "todo": "Hours not listed"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Monterey County Public Defender",
+      "address": "168 W. Alisal St., Second Floor",
+      "city": "Salinas",
+      "zip": "93901",
+      "phone": "(831) 755-5058",
+      "toll_free": null,
+      "email": "askpubdef@countyofmonterey.gov",
+      "hours": "Mon–Fri 8:00 a.m.–12:00 p.m., 1:00–5:00 p.m.",
+      "url": "https://www.countyofmonterey.gov/government/departments-i-z/public-defender",
+      "source_url": "https://www.countyofmonterey.gov/government/departments-i-z/public-defender/contact-us",
+      "note": "Fax (831) 755-5873. The Clear My Record page gives the email as askpubdef@co.monterey.ca.us.",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Monterey County Public Defender — Clear My Record",
+      "serves": "People with Monterey County criminal records",
+      "what": "Free help from the Public Defender's office clearing a criminal record; call, email or visit the office.",
+      "phone": "(831) 755-5058",
+      "email": "askpubdef@co.monterey.ca.us",
+      "url": "https://www.countyofmonterey.gov/government/departments-i-z/public-defender/clear-my-record",
+      "todo": "Eligibility details and services list not captured",
+      "source_url": "https://www.countyofmonterey.gov/government/departments-i-z/public-defender/clear-my-record",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Monterey Superior Court Self-Help Center",
+      "serves": "People without a lawyer",
+      "what": "Information and form help (family law, restraining orders, evictions, small claims, etc.); no legal advice. Monterey (1200 Aguajito Rd) Mon–Fri 9–4; Salinas Wed 9–3; King City Tue 9–3. Form-completion help by phone appointment.",
+      "phone": "(831) 647-5800 ext. 3005",
+      "email": "selfhelpcenter@monterey.courts.ca.gov",
+      "url": "https://www.monterey.courts.ca.gov/self-help",
+      "source_url": "https://www.monterey.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Monterey County Probation — Adult Division (Field Services, Court Investigations)",
+      "address": "20 E. Alisal Street",
+      "city": "Salinas",
+      "zip": "93901",
+      "phone": "(831) 796-1200",
+      "hours": "Mon–Fri 8:00 a.m.–12:00 p.m., 1:00–5:00 p.m.",
+      "url": "https://www.countyofmonterey.gov/government/departments-i-z/probation",
+      "source_url": "https://www.countyofmonterey.gov/government/departments-i-z/probation/more-information/office-locations-and-hours",
+      "note": "Fax (831) 757-7321.",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Monterey County Probation — Adult Division (Family Violence Unit, Prop 36, Supervised Home Confinement)",
+      "address": "20 E. Alisal Street",
+      "city": "Salinas",
+      "zip": "93901",
+      "phone": "(831) 784-5799",
+      "hours": "Mon–Fri 8:00 a.m.–12:00 p.m., 1:00–5:00 p.m.",
+      "url": "https://www.countyofmonterey.gov/government/departments-i-z/probation",
+      "source_url": "https://www.countyofmonterey.gov/government/departments-i-z/probation/more-information/office-locations-and-hours",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Monterey County Probation — Monterey Office",
+      "address": "1200 Aguajito Road, Suite 008",
+      "city": "Monterey",
+      "zip": "93940",
+      "phone": "(831) 647-7739",
+      "hours": "Mon–Fri 8:00 a.m.–12:00 p.m., 1:00–5:00 p.m.",
+      "url": "https://www.countyofmonterey.gov/government/departments-i-z/probation",
+      "source_url": "https://www.countyofmonterey.gov/government/departments-i-z/probation/more-information/office-locations-and-hours",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Monterey County Probation — Administration / Information",
+      "address": "20 E. Alisal St.",
+      "city": "Salinas",
+      "zip": "93901",
+      "phone": "(831) 755-3900",
+      "hours": "Mon–Fri 8:00 a.m.–12:00 p.m., 1:00–5:00 p.m.",
+      "url": "https://www.countyofmonterey.gov/government/departments-i-z/probation",
+      "source_url": "https://www.countyofmonterey.gov/government/departments-i-z/probation/contact-us",
+      "note": "Information line per Contact Us; Administration Division direct line (831) 755-3913.",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "programs": [
+    {
+      "id": "monterey-collaborative-courts",
+      "name": "Collaborative Courts",
+      "type": "collaborative-court",
+      "summary": "Court lists DUI/DWI Court, Drug Treatment Court, Mental Health Court (Creating New Choices) and Veterans Treatment Court — judicial supervision plus treatment instead of traditional incarceration, for those who qualify. Ask your attorney.",
+      "phone": null,
+      "url": "https://www.monterey.courts.ca.gov/general-information/collaborative-court",
+      "source_url": "https://www.monterey.courts.ca.gov/general-information/collaborative-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "monterey-wap",
+      "name": "Work Alternative Program (WAP)",
+      "type": "jail-alternative",
+      "summary": "Court says people sentenced to 40 days or less of jail may be eligible to serve it as community service through the Sheriff's Work Alternative Program.",
+      "phone": null,
+      "url": "https://www.monterey.courts.ca.gov/divisions/criminal/court-programs",
+      "source_url": "https://www.monterey.courts.ca.gov/divisions/criminal/court-programs",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "monterey-shc",
+      "name": "Supervised Home Confinement (Probation)",
+      "type": "jail-alternative",
+      "summary": "Custodial home-supervision program for non-violent offenders run by Probation as an alternative to county jail; participants apply and are monitored at home, school and work.",
+      "phone": "(831) 784-5799",
+      "url": "https://www.monterey.courts.ca.gov/divisions/criminal/court-programs",
+      "source_url": "https://www.monterey.courts.ca.gov/divisions/criminal/court-programs",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "monterey-diversion-classes",
+      "name": "Theft Offender / Assaultive Behavior classes",
+      "type": "diversion",
+      "summary": "8-hour classes a judge may order as part of pretrial diversion or sentencing for minor theft or assault offenses; registration fee paid to the program.",
+      "phone": null,
+      "url": "https://www.monterey.courts.ca.gov/divisions/criminal/court-programs",
+      "source_url": "https://www.monterey.courts.ca.gov/divisions/criminal/court-programs",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "monterey-county-jail",
+      "name": "Monterey County Jail (Main Jail and Rehabilitation Facility)",
+      "address": "1414 Natividad Rd",
+      "city": "Salinas",
+      "zip": "93906",
+      "phone": "(831) 755-3700",
+      "phone_note": "Sheriff's Office main number/address shown on the Sheriff's site; jail ADA coordinator (831) 755-3743; property releases (831) 755-3782. Mail goes through Smart Communications (P.O. Box 9199, Seminole, FL 33775-9199) with name and booking number. Public visiting rules are on the Jail Information page.",
+      "houses": "both",
+      "visiting_url": "https://www.countyofmonterey.gov/government/departments-i-z/sheriff-coroner/services/jail-information",
+      "commissary_or_money_url": "https://www.countyofmonterey.gov/government/departments-i-z/sheriff-coroner/services/jail-information",
+      "court_ids": [
+        "salinas"
+      ],
+      "court_ids_note": "Court's Clerk's Office page says that if the DA files within 48 hours the Sheriff transports the defendant to court for arraignment; Sheriff also notes a limited video arraignment program. Salinas is the criminal courthouse (nearest; specific courtroom not confirmed).",
+      "url": "https://www.countyofmonterey.gov/government/departments-i-z/sheriff-coroner/about/corrections-operations-bureau/jail-division",
+      "source_url": "https://www.countyofmonterey.gov/government/departments-i-z/sheriff-coroner/about/corrections-operations-bureau/jail-division",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff pages give 1414 Natividad Rd as the Sheriff's Office address; a separate street address for the jail buildings was not shown. Jail Division says the County Jail houses sentenced and unsentenced male and female persons (~1,100 in 31 housing units). Trust deposits: lobby kiosk, web.connectnetwork.com, or mail; fees apply."
+    }
+  ],
+  "inmate_lookup_url": "https://www.countyofmonterey.gov/government/departments-i-z/sheriff-coroner/about/reporting/in-custody-log",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "Before paying a bail agent, check that their license is active using the California Department of Insurance license lookup (search by name or license number). Monterey Superior Court bail and fee schedules: https://www.monterey.courts.ca.gov/forms-filing/bail-fee-schedules. The Sheriff's Jail Information page links an online bail payment service. Booking numbers are on the Sheriff's In Custody Log. The Public Defender's site also links a 'County Jail Inmate Locator' at montereysheriff.org/inmates/ (not verified as current). This is information only, not legal advice."
+  }
+}

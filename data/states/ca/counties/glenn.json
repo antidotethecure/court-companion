@@ -1,0 +1,194 @@
+{
+  "state": "CA",
+  "county": "Glenn",
+  "slug": "glenn",
+  "court_name": "Superior Court of California, County of Glenn",
+  "court_website": "https://www.glenn.courts.ca.gov/",
+  "case_search_url": "https://portal-caglenn.tylertech.cloud/portal",
+  "case_search_note": "Online Case Index / Register of Actions (Tyler portal), linked from the court's Case Index page. Criminal clerk: (530) 934-6446 option 2.",
+  "sources": [
+    {
+      "title": "Glenn Superior Court — Locations & Contact Info",
+      "url": "https://www.glenn.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Glenn Superior Court — Hours & Holidays",
+      "url": "https://www.glenn.courts.ca.gov/general-information/hours-and-holidays",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Glenn Superior Court — Criminal Case",
+      "url": "https://www.glenn.courts.ca.gov/divisions/criminal-case",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Glenn Superior Court — Juvenile",
+      "url": "https://www.glenn.courts.ca.gov/divisions/juvenile",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Glenn Superior Court — Case Index",
+      "url": "https://www.glenn.courts.ca.gov/online-services/case-index",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Glenn Superior Court — Self-Help",
+      "url": "https://www.glenn.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "County of Glenn — Sheriff",
+      "url": "https://www.countyofglenn.net/government/departments/sheriff",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "County of Glenn — Jail",
+      "url": "https://www.countyofglenn.net/government/departments/sheriff/jail",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "County of Glenn — Public Defender",
+      "url": "https://www.countyofglenn.net/government/departments/public-defender",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "County of Glenn — Probation",
+      "url": "https://www.countyofglenn.net/government/departments/probation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "County of Glenn — Probation: Juvenile Hall",
+      "url": "https://www.countyofglenn.net/government/departments/probation/juvenile-hall",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "County of Glenn — Probation: Pretrial Services",
+      "url": "https://www.countyofglenn.net/government/departments/probation/juvenile-justice-coordinating-council-jjcc/pretrial-services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Legal Services of Northern California — Chico office (serves Glenn)",
+      "url": "https://lsnc.net/office/chico",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check an Agent/Broker license",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "willows",
+      "name": "Glenn County Superior Court (Willows)",
+      "address": "526 West Sycamore Street",
+      "city": "Willows",
+      "zip": "95988",
+      "phone": "(530) 934-6446",
+      "criminal_phone": "(530) 934-6446 option 2",
+      "hours": "Clerk's Office Mon–Fri 8:00 a.m.–3:30 p.m. (effective Jan 1, 2025), except holidays",
+      "criminal": true,
+      "note": "The court's only listed location — criminal and juvenile delinquency (option 2), traffic/juvenile traffic (option 1), family/civil/dependency (option 4). Juvenile transfer-in hearings 2:00 p.m. on the 2nd & 4th Mondays. Court will appoint the Public Defender for eligible defendants at arraignment. Bench warrant after a missed date: surrender at the court or to law enforcement — call for the day/time.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://www.glenn.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13",
+      "todo": "Department numbers/assignments not published on pages loaded."
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Glenn County Public Defender",
+      "address": "332 W. Sycamore St.",
+      "city": "Willows",
+      "zip": "95988",
+      "phone": "530-330-7084",
+      "toll_free": null,
+      "email": null,
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "url": "https://www.countyofglenn.net/government/departments/public-defender",
+      "source_url": "https://www.countyofglenn.net/government/departments/public-defender",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Legal Services of Northern California — Chico Office",
+      "serves": "Low-income Glenn County residents (housing, public benefits) and Glenn seniors",
+      "what": "Civil legal aid: housing and public benefits (CalWORKs, CalFresh, Medi-Cal, GA, SSI, unemployment); for seniors also consumer, estate planning, POAs, elder abuse. Page does not list criminal or record-clearing help. Walk-ins Mon–Thu; after-hours intake (866) 815-5990.",
+      "phone": "(530) 345-9491",
+      "address": "541 Normal Avenue, Chico, CA 95928",
+      "url": "https://lsnc.net/office/chico",
+      "source_url": "https://lsnc.net/office/chico",
+      "verified_on": "2026-10-13",
+      "todo": "No free criminal record-clearing provider for Glenn County verified."
+    }
+  ],
+  "probation": [
+    {
+      "name": "Glenn County Probation Department",
+      "address": "541 West Oak Street",
+      "city": "Willows",
+      "zip": "95988",
+      "phone": "530-934-6416",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "url": "https://www.countyofglenn.net/government/departments/probation",
+      "source_url": "https://www.countyofglenn.net/government/departments/probation",
+      "verified_on": "2026-10-13",
+      "note": "Fax (530) 934-6468. Probation performs pretrial risk assessments for the court using the Public Safety Assessment (PSA) tool."
+    }
+  ],
+  "programs": [
+    {
+      "id": "pretrial",
+      "name": "Pretrial Services (Probation)",
+      "type": "pretrial",
+      "summary": "Glenn County Probation is the agency that performs pretrial risk assessments and gives them to the court, using the Public Safety Assessment (PSA). The page does not describe supervision conditions — read your release order.",
+      "phone": "530-934-6416",
+      "url": "https://www.countyofglenn.net/government/departments/probation/juvenile-justice-coordinating-council-jjcc/pretrial-services",
+      "source_url": "https://www.countyofglenn.net/government/departments/probation/juvenile-justice-coordinating-council-jjcc/pretrial-services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "self-help",
+      "name": "Self-Help Center (SHARP)",
+      "type": "self_help",
+      "summary": "Court-supported self-help (family law focus) for unrepresented people; not criminal defense. Mon, Tue, Thu 9:00 a.m.–12:00 p.m. & 12:30–3:30 p.m. at Willows Court Services.",
+      "phone": "(530) 934-7114",
+      "url": "https://www.glenn.courts.ca.gov/self-help",
+      "source_url": "https://www.glenn.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "glenn-jail",
+      "name": "Glenn County Jail",
+      "address": null,
+      "city": "Willows",
+      "zip": "95988",
+      "phone": "530-934-6428",
+      "phone_note": "Number the jail page gives for visiting times for people on administrative separation. Sheriff's Office (543 West Oak Street, Willows): 530-934-6441; 24/7 dispatch 530-934-6431.",
+      "houses": "both",
+      "visiting_url": "https://www.countyofglenn.net/government/departments/sheriff/jail",
+      "commissary_or_money_url": "https://www.countyofglenn.net/government/departments/sheriff/jail",
+      "court_ids": [
+        "willows"
+      ],
+      "note": "Visiting: male Tue & Wed 9–12 & 1–4; protective custody Thu 1–4; female Mon 1–4. Money: Smart Deposit online/phone (866-394-0490), lobby kiosk or window Mon–Fri 8–5 (money orders/cashier's checks). No care packs. court_ids: the only courthouse in the county — nearest, not confirmed.",
+      "url": "https://www.countyofglenn.net/government/departments/sheriff/jail",
+      "source_url": "https://www.countyofglenn.net/government/departments/sheriff/jail",
+      "verified_on": "2026-10-13",
+      "todo": "Jail street address not on the jail page (Sheriff's Office is 543 West Oak Street, Willows 95988)."
+    }
+  ],
+  "inmate_lookup_url": null,
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "note": "CA Department of Insurance license lookup for bail agents (URL carried over from the Orange file; not re-loaded today). Glenn: court links its bail schedule at https://www.glenn.courts.ca.gov/forms-filing/fee-bail-schedules. No online inmate lookup found on county pages; call the Sheriff at 530-934-6441. Glenn County no longer operates a juvenile hall (since June 27, 2017) — detained youth are housed in contracted facilities outside the county; contact Probation 530-934-6416."
+  },
+  "inmate_lookup_note": "No online inmate lookup on Glenn County Sheriff pages."
+}

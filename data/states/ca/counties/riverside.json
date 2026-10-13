@@ -1,0 +1,645 @@
+{
+  "state": "CA",
+  "county": "Riverside",
+  "slug": "riverside",
+  "court_name": "Superior Court of California, County of Riverside",
+  "court_website": "https://www.riverside.courts.ca.gov/",
+  "case_search_url": "https://epublic-access.riverside.courts.ca.gov/public-portal/",
+  "case_search_note": "Public Portal for Civil, Criminal, Family Law, Probate and other case types (linked from the court's 'Search Court Records—Public Access' page). Court disclaimer: online information is not the official record. The register of actions shows the courtroom/department where a case is heard. The same page links the Sheriff inmate locator.",
+  "sources": [
+    {
+      "title": "RSC — Locations & Contact Info",
+      "url": "https://www.riverside.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "RSC — Search Court Records—Public Access",
+      "url": "https://www.riverside.courts.ca.gov/online-services/search-court-records-public-access",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "RSC — Criminal Division",
+      "url": "https://www.riverside.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "RSC — Expungement self-help",
+      "url": "https://www.riverside.courts.ca.gov/self-help/expungement",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "RSC — Where Cases are Heard",
+      "url": "https://www.riverside.courts.ca.gov/forms-filing/where-cases-are-heard",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Riverside Sheriff — Corrections",
+      "url": "https://www.riversidesheriff.org/183",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Riverside Sheriff — Money",
+      "url": "https://www.riversidesheriff.org/227/Money",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Riverside Probation — Field Services Locations",
+      "url": "https://rivcoprobation.org/field-services-locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Riverside Probation — Institutions & Treatment Facilities",
+      "url": "https://rivcoprobation.org/institutions-treatment-facilities",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "County of Riverside — Agencies and Departments",
+      "url": "https://rivco.gov/agencies-and-departments",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "banning",
+      "name": "Banning Justice Center",
+      "address": "311 E. Ramsey Street",
+      "city": "Banning",
+      "zip": "92220",
+      "phone": "(951) 777-3147",
+      "criminal_phone": "(951) 777-3147",
+      "hours": "Mon–Fri 7:30 a.m.–4:00 p.m.; clerk phone hours 7:30 a.m.–2:00 p.m. Mon–Fri (except court holidays)",
+      "criminal": true,
+      "note": "Matters served (court location page): Evictions, Small Claims, Criminal, Traffic. Listed as a criminal court location on the Criminal Division page.",
+      "departments": [],
+      "source_url": "https://www.riverside.courts.ca.gov/location/banning-justice-center",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "blythe",
+      "name": "Blythe Courthouse",
+      "address": "265 N. Broadway",
+      "city": "Blythe",
+      "zip": "92225",
+      "phone": "(760) 393-2617",
+      "criminal_phone": "(951) 777-3147",
+      "hours": "Tue and Thu–Fri 7:30 a.m.–4:00 p.m. (per location page)",
+      "criminal": true,
+      "note": "Matters served (court location page): Evictions, Small Claims, Civil, Family Law, Criminal, Traffic. Listed as a criminal court location. Open Tuesday and Thursday–Friday only.",
+      "departments": [],
+      "source_url": "https://www.riverside.courts.ca.gov/location/blythe-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "corona",
+      "name": "Corona Courthouse",
+      "address": "505 S. Buena Vista Ave. #201",
+      "city": "Corona",
+      "zip": "92882",
+      "phone": "(951) 777-3147",
+      "criminal_phone": "(951) 777-3147",
+      "hours": "Mon–Fri 7:30 a.m.–4:00 p.m.; clerk phone hours 7:30 a.m.–2:00 p.m. Mon–Fri (except court holidays)",
+      "criminal": true,
+      "note": "Matters served (court location page): Small Claims, Unlawful Detainers, Civil, Traffic. Traffic only — not listed as a criminal court location.",
+      "departments": [],
+      "source_url": "https://www.riverside.courts.ca.gov/location/corona-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "larson",
+      "name": "Larson Justice Center (Indio)",
+      "address": "46-200 Oasis Street",
+      "city": "Indio",
+      "zip": "92201",
+      "phone": "(760) 393-2617",
+      "criminal_phone": "(951) 777-3147",
+      "hours": "Mon–Fri 7:30 a.m.–4:00 p.m.; clerk phone hours 7:30 a.m.–2:00 p.m. Mon–Fri (except court holidays)",
+      "criminal": true,
+      "note": "Matters served (court location page): Family Law, Criminal, Traffic, Juvenile. Listed as a criminal court location (Indio).",
+      "departments": [],
+      "source_url": "https://www.riverside.courts.ca.gov/location/larson-justice-center-indio-ca",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "menifee",
+      "name": "Menifee Justice Center",
+      "address": "27401 Menifee Center Drive",
+      "city": "Menifee",
+      "zip": "92584",
+      "phone": "(951) 777-3147",
+      "criminal_phone": null,
+      "hours": "Mon–Fri 7:30 a.m.–4:00 p.m.; clerk phone hours 7:30 a.m.–2:00 p.m. Mon–Fri (except court holidays)",
+      "criminal": false,
+      "note": "Matters served (court location page): Civil, Evictions, Family Law, Small Claims.",
+      "departments": [],
+      "source_url": "https://www.riverside.courts.ca.gov/location/menifee-justice-center",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "moreno-valley",
+      "name": "Moreno Valley Courthouse",
+      "address": "13800 Heacock Street Bldg. D #201",
+      "city": "Moreno Valley",
+      "zip": "92553",
+      "phone": "(951) 777-3147",
+      "criminal_phone": "(951) 777-3147",
+      "hours": "Mon–Fri 7:30 a.m.–4:00 p.m.; clerk phone hours 7:30 a.m.–2:00 p.m. Mon–Fri (except court holidays)",
+      "criminal": true,
+      "note": "Matters served (court location page): Small Claims, Unlawful Detainers, Civil, Traffic. Traffic only — not listed as a criminal court location.",
+      "departments": [],
+      "source_url": "https://www.riverside.courts.ca.gov/location/moreno-valley-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "palm-springs",
+      "name": "Palm Springs Courthouse",
+      "address": "3255 E Tahquitz Canyon Way",
+      "city": "Palm Springs",
+      "zip": "92262",
+      "phone": "(760) 393-2617",
+      "criminal_phone": null,
+      "hours": "Mon–Fri 7:30 a.m.–4:00 p.m.; clerk phone hours 7:30 a.m.–2:00 p.m. Mon–Fri (except court holidays)",
+      "criminal": false,
+      "note": "Matters served (court location page): Evictions, Small Claims, Civil, Probate. No criminal or traffic listed.",
+      "departments": [],
+      "source_url": "https://www.riverside.courts.ca.gov/location/palm-springs-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "family-law",
+      "name": "Riverside Family Law Courthouse",
+      "address": "4175 Main Street",
+      "city": "Riverside",
+      "zip": "92501",
+      "phone": "(951) 777-3147",
+      "criminal_phone": null,
+      "hours": "Mon–Fri 7:30 a.m.–4:00 p.m.; clerk phone hours 7:30 a.m.–2:00 p.m. Mon–Fri (except court holidays)",
+      "criminal": false,
+      "note": "Matters served (court location page): Family Law.",
+      "departments": [],
+      "source_url": "https://www.riverside.courts.ca.gov/location/riverside-family-law-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "hall-of-justice",
+      "name": "Riverside Hall of Justice",
+      "address": "4100 Main Street",
+      "city": "Riverside",
+      "zip": "92501",
+      "phone": "(951) 777-3147",
+      "criminal_phone": "(951) 777-3147",
+      "hours": "Mon–Fri 7:30 a.m.–4:00 p.m.; clerk phone hours 7:30 a.m.–2:00 p.m. Mon–Fri (except court holidays)",
+      "criminal": true,
+      "note": "Matters served (court location page): Criminal. Main criminal courthouse for the Riverside (western) region; also the Appeals Department (fax filing 951.777.3727).",
+      "departments": [],
+      "source_url": "https://www.riverside.courts.ca.gov/location/riverside-hall-justice",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "historic",
+      "name": "Riverside Historic Courthouse",
+      "address": "4050 Main Street",
+      "city": "Riverside",
+      "zip": "92501",
+      "phone": "(951) 777-3147",
+      "criminal_phone": null,
+      "hours": "Mon–Fri 7:30 a.m.–4:00 p.m.; clerk phone hours 7:30 a.m.–2:00 p.m. Mon–Fri (except court holidays)",
+      "criminal": false,
+      "note": "Matters served (court location page): Civil, Probate.",
+      "departments": [],
+      "source_url": "https://www.riverside.courts.ca.gov/location/riverside-historic-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "riverside-juvenile",
+      "name": "Riverside Juvenile Courthouse",
+      "address": "9991 County Farm Road",
+      "city": "Riverside",
+      "zip": "92503",
+      "phone": "(951) 777-3147",
+      "criminal_phone": null,
+      "hours": "Mon–Fri 7:30 a.m.–4:00 p.m.; clerk phone hours 7:30 a.m.–2:00 p.m. Mon–Fri (except court holidays)",
+      "criminal": false,
+      "note": "Matters served (court location page): Juvenile. Juvenile only.",
+      "departments": [],
+      "source_url": "https://www.riverside.courts.ca.gov/location/riverside-juvenile-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "southwest",
+      "name": "Southwest Justice Center",
+      "address": "30755-D Auld Road",
+      "city": "Murrieta",
+      "zip": "92563",
+      "phone": "(951) 777-3147",
+      "criminal_phone": "(951) 777-3147",
+      "hours": "Mon–Fri 7:30 a.m.–4:00 p.m.; clerk phone hours 7:30 a.m.–2:00 p.m. Mon–Fri (except court holidays)",
+      "criminal": true,
+      "note": "Matters served (court location page): Civil Harassment, Criminal, Traffic, Juvenile. Listed as a criminal court location (Murrieta).",
+      "departments": [],
+      "source_url": "https://www.riverside.courts.ca.gov/location/southwest-justice-center",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "southwest-juvenile",
+      "name": "Southwest Juvenile Courthouse",
+      "address": "30755-G Auld Road",
+      "city": "Murrieta",
+      "zip": "92563",
+      "phone": "(951) 777-3147",
+      "criminal_phone": null,
+      "hours": "Mon–Fri 7:30 a.m.–4:00 p.m.; clerk phone hours 7:30 a.m.–2:00 p.m. Mon–Fri (except court holidays)",
+      "criminal": false,
+      "note": "Matters served (court location page): Juvenile. Juvenile only.",
+      "departments": [],
+      "source_url": "https://www.riverside.courts.ca.gov/location/southwest-juvenile-courthouse",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Riverside County Public Defender",
+      "address": null,
+      "city": null,
+      "zip": null,
+      "phone": null,
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://rivcopublicdefender.org/",
+      "source_url": "https://rivco.gov/agencies-and-departments",
+      "todo": "County department list links rivcopublicdefender.org but the site did not load on 2026-10-13; office addresses/phones not verified",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Inland Empire Latino Lawyers Association (IELLA) — expungement help",
+      "serves": "Riverside County residents seeking expungement",
+      "what": "The court's Expungement self-help page says you may be eligible for free expungement assistance through IELLA; call for clinic locations and times.",
+      "phone": "(951) 369-3009",
+      "email": null,
+      "url": "https://www.riverside.courts.ca.gov/self-help/expungement",
+      "source_url": "https://www.riverside.courts.ca.gov/self-help/expungement",
+      "todo": "IELLA's own website not loaded",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "RSC — Expungement self-help page",
+      "serves": "Anyone with a Riverside Superior Court conviction",
+      "what": "Explains what expungement (PC 1203.4) does and does not do; links the court's Expungement Packet (PDF) and the Criminal FAQ PDF.",
+      "phone": null,
+      "email": null,
+      "url": "https://www.riverside.courts.ca.gov/self-help/expungement",
+      "source_url": "https://www.riverside.courts.ca.gov/self-help/expungement",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Riverside Probation — Southwest Justice Center (adult & juvenile)",
+      "address": "30755-D Auld Rd., Suite L257",
+      "city": "Murrieta",
+      "zip": "92563",
+      "phone": "(951) 304-5700",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m., except county holidays",
+      "url": "https://rivcoprobation.org/",
+      "verified_on": "2026-10-13",
+      "source_url": "https://rivcoprobation.org/field-services-locations"
+    },
+    {
+      "name": "Riverside Probation — Riverside Adult Probation Office",
+      "address": "4075 Main St., Suite 200",
+      "city": "Riverside",
+      "zip": "92501",
+      "phone": "(951) 358-7536",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m., except county holidays",
+      "url": "https://rivcoprobation.org/",
+      "verified_on": "2026-10-13",
+      "source_url": "https://rivcoprobation.org/field-services-locations"
+    },
+    {
+      "name": "Riverside Probation — San Jacinto Office (adult & juvenile)",
+      "address": "1330 South State St., Suite A",
+      "city": "San Jacinto",
+      "zip": "92583",
+      "phone": "(951) 487-2650",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m., except county holidays",
+      "url": "https://rivcoprobation.org/",
+      "verified_on": "2026-10-13",
+      "source_url": "https://rivcoprobation.org/field-services-locations"
+    },
+    {
+      "name": "Riverside Probation — Adult Services Division Iowa Center (supervision & Day Reporting Center)",
+      "address": "1020 Iowa Ave., Suite A",
+      "city": "Riverside",
+      "zip": "92507",
+      "phone": "(951) 358-7500",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m., except county holidays",
+      "url": "https://rivcoprobation.org/",
+      "verified_on": "2026-10-13",
+      "source_url": "https://rivcoprobation.org/field-services-locations"
+    },
+    {
+      "name": "Riverside Probation — Banning Office (adult & juvenile)",
+      "address": "135 North Alessandro Rd.",
+      "city": "Banning",
+      "zip": "92220",
+      "phone": "(951) 922-7200",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m., except county holidays",
+      "url": "https://rivcoprobation.org/",
+      "verified_on": "2026-10-13",
+      "source_url": "https://rivcoprobation.org/field-services-locations"
+    },
+    {
+      "name": "Riverside Probation — Riverside Juvenile Probation Office",
+      "address": "9889 County Farm Rd.",
+      "city": "Riverside",
+      "zip": "92503",
+      "phone": "(951) 358-4310",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m., except county holidays",
+      "url": "https://rivcoprobation.org/",
+      "verified_on": "2026-10-13",
+      "source_url": "https://rivcoprobation.org/field-services-locations"
+    },
+    {
+      "name": "Riverside Probation — Palm Springs Office (adult & juvenile)",
+      "address": "3255 East Tahquitz Canyon Way, Room 101",
+      "city": "Palm Springs",
+      "zip": "92262",
+      "phone": "(760) 778-2120",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m., except county holidays",
+      "url": "https://rivcoprobation.org/",
+      "verified_on": "2026-10-13",
+      "source_url": "https://rivcoprobation.org/field-services-locations"
+    },
+    {
+      "name": "Riverside Probation — Corona Office (adult & juvenile)",
+      "address": "505 South Buena Vista Ave., Suite 320",
+      "city": "Corona",
+      "zip": "92882",
+      "phone": "(951) 272-5671",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m., except county holidays",
+      "url": "https://rivcoprobation.org/",
+      "verified_on": "2026-10-13",
+      "source_url": "https://rivcoprobation.org/field-services-locations"
+    },
+    {
+      "name": "Riverside Probation — Indio Office (adult & juvenile)",
+      "address": "47-940 Arabia",
+      "city": "Indio",
+      "zip": "92201",
+      "phone": "(760) 863-8221",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m., except county holidays",
+      "url": "https://rivcoprobation.org/",
+      "note": "Also (760) 863-8415.",
+      "verified_on": "2026-10-13",
+      "source_url": "https://rivcoprobation.org/field-services-locations"
+    },
+    {
+      "name": "Riverside Probation — Moreno Valley Office (adult & juvenile)",
+      "address": "14327 Frederick St.",
+      "city": "Moreno Valley",
+      "zip": "92553",
+      "phone": "(951) 443-2250",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m., except county holidays",
+      "url": "https://rivcoprobation.org/",
+      "verified_on": "2026-10-13",
+      "source_url": "https://rivcoprobation.org/field-services-locations"
+    },
+    {
+      "name": "Riverside Probation — Blythe Office (adult & juvenile)",
+      "address": "240 North Broadway St.",
+      "city": "Blythe",
+      "zip": "92225",
+      "phone": "(760) 921-5860",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m., except county holidays",
+      "url": "https://rivcoprobation.org/",
+      "verified_on": "2026-10-13",
+      "source_url": "https://rivcoprobation.org/field-services-locations"
+    },
+    {
+      "name": "Riverside Probation — Murrieta Office (adult & juvenile)",
+      "address": "30123 Technology Dr.",
+      "city": "Murrieta",
+      "zip": "92563",
+      "phone": "(951) 600-6282",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m., except county holidays",
+      "url": "https://rivcoprobation.org/",
+      "verified_on": "2026-10-13",
+      "source_url": "https://rivcoprobation.org/field-services-locations"
+    }
+  ],
+  "programs": [
+    {
+      "id": "pretrial",
+      "name": "Probation Pretrial Services (reporting lines)",
+      "type": "pretrial",
+      "summary": "Riverside Probation lists two Pretrial Services reporting numbers: Desert Reporting (760) 863-8239 and Riverside Reporting (951) 955-2885. Follow your release order for check-in requirements.",
+      "phone": "(951) 955-2885",
+      "url": "https://rivcoprobation.org/field-services-locations",
+      "todo": "No Probation page describing pretrial program rules was loaded",
+      "source_url": "https://rivcoprobation.org/field-services-locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "veterans-court",
+      "name": "Veterans Court",
+      "type": "collaborative_court",
+      "summary": "The Criminal Division page links a 'Veterans Court Info Sheet' (PDF). Contents not loaded — ask your attorney about eligibility.",
+      "url": "https://www.riverside.courts.ca.gov/divisions/criminal",
+      "todo": "Info sheet PDF not loaded",
+      "source_url": "https://www.riverside.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "arraignment-video",
+      "name": "Advisement of Rights video (misdemeanor arraignment)",
+      "type": "info",
+      "summary": "Court video explaining your rights at misdemeanor arraignment; the court says watching it may speed up the process at court.",
+      "url": "https://www.riverside.courts.ca.gov/divisions/criminal",
+      "source_url": "https://www.riverside.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "expungement",
+      "name": "Expungement / Cannabis records removal",
+      "type": "record_relief",
+      "summary": "Court self-help page and Criminal Division links for expungement and Cannabis Records Removal (H&S 11361.5).",
+      "url": "https://www.riverside.courts.ca.gov/self-help/expungement",
+      "source_url": "https://www.riverside.courts.ca.gov/self-help/expungement",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "web-chat",
+      "name": "Court phone and web chat",
+      "type": "self_help",
+      "summary": "Clerk line (951) 777-3147, Mon–Fri 7:30 a.m.–2:00 p.m.; court warns of long waits. Web chat also available.",
+      "phone": "(951) 777-3147",
+      "url": "https://www.riverside.courts.ca.gov/general-information/locations-contact-info",
+      "source_url": "https://www.riverside.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "rpdc",
+      "name": "Robert Presley Detention Center",
+      "address": "4000 Orange Street",
+      "city": "Riverside",
+      "zip": "92501",
+      "phone": "(951) 955-4500",
+      "phone_note": "Visit scheduling: (951) 341-8888, 9 a.m.–5 p.m., one day ahead. Max 2 visits/week, ~45 min.",
+      "houses": null,
+      "url": "https://www.riversidesheriff.org/678/Robert-Presley-Detention-Center",
+      "visiting_url": "https://www.riversidesheriff.org/678/Robert-Presley-Detention-Center",
+      "commissary_or_money_url": "https://www.riversidesheriff.org/227/Money",
+      "court_ids": [
+        "hall-of-justice"
+      ],
+      "source_url": "https://www.riversidesheriff.org/183",
+      "verified_on": "2026-10-13",
+      "todo": "houses (men/women) not stated on Sheriff pages loaded. court_ids: nearest criminal courthouse, not confirmed (Sheriff 'Offender Court Calendars' page lists calendars per jail but the calendar content did not load)."
+    },
+    {
+      "id": "cbdc",
+      "name": "Cois M. Byrd Detention Center",
+      "address": "30755-B Auld Road",
+      "city": "Murrieta",
+      "zip": "92563",
+      "phone": "(951) 696-3050",
+      "phone_note": "Visit scheduling: (951) 696-3470, 9 a.m.–5 p.m.",
+      "houses": null,
+      "url": "https://www.riversidesheriff.org/518/Cois-M-Byrd-Detention-Center",
+      "visiting_url": "https://www.riversidesheriff.org/674/Cois-M-Byrd-Detention-Center",
+      "commissary_or_money_url": "https://www.riversidesheriff.org/227/Money",
+      "court_ids": [
+        "southwest"
+      ],
+      "source_url": "https://www.riversidesheriff.org/183",
+      "verified_on": "2026-10-13",
+      "todo": "houses not stated. court_ids: nearest criminal courthouse, not confirmed (Sheriff 'Offender Court Calendars' page lists calendars per jail but the calendar content did not load)."
+    },
+    {
+      "id": "jbdc",
+      "name": "John J. Benoit Detention Center",
+      "address": "82675 St. Hwy. 111",
+      "city": "Indio",
+      "zip": "92201",
+      "phone": "(760) 863-8252",
+      "phone_note": "Visit scheduling: (760) 863-8540, 9 a.m.–5 p.m.",
+      "houses": null,
+      "url": "https://www.riversidesheriff.org/708/John-J-Benoit-Detention-Center",
+      "visiting_url": "https://www.riversidesheriff.org/708/John-J-Benoit-Detention-Center",
+      "commissary_or_money_url": "https://www.riversidesheriff.org/227/Money",
+      "court_ids": [
+        "larson"
+      ],
+      "source_url": "https://www.riversidesheriff.org/183",
+      "verified_on": "2026-10-13",
+      "todo": "houses not stated. court_ids: nearest criminal courthouse, not confirmed (Sheriff 'Offender Court Calendars' page lists calendars per jail but the calendar content did not load)."
+    },
+    {
+      "id": "smith",
+      "name": "Larry D. Smith Correctional Facility",
+      "address": "1627 S. Hargrave Street",
+      "city": "Banning",
+      "zip": "92220",
+      "phone": "(951) 922-7300",
+      "phone_note": "Visit scheduling: (951) 922-7540, 9 a.m.–5 p.m.",
+      "houses": null,
+      "url": "https://www.riversidesheriff.org/677/Larry-D-Smith-Correctional-Facility",
+      "visiting_url": "https://www.riversidesheriff.org/677/Larry-D-Smith-Correctional-Facility",
+      "commissary_or_money_url": "https://www.riversidesheriff.org/227/Money",
+      "court_ids": [
+        "banning"
+      ],
+      "source_url": "https://www.riversidesheriff.org/183",
+      "verified_on": "2026-10-13",
+      "todo": "houses not stated. court_ids: nearest criminal courthouse, not confirmed (Sheriff 'Offender Court Calendars' page lists calendars per jail but the calendar content did not load)."
+    },
+    {
+      "id": "blythe-jail",
+      "name": "Blythe Jail",
+      "address": "260 N. Spring Street",
+      "city": "Blythe",
+      "zip": "92225",
+      "phone": "(760) 921-5780",
+      "phone_note": "Visit scheduling: (760) 863-8540, 9 a.m.–5 p.m., one day ahead (same number as Benoit per Sheriff page).",
+      "houses": null,
+      "url": "https://www.riversidesheriff.org/675/Blythe-Jail",
+      "visiting_url": "https://www.riversidesheriff.org/675/Blythe-Jail",
+      "commissary_or_money_url": "https://www.riversidesheriff.org/227/Money",
+      "court_ids": [
+        "blythe"
+      ],
+      "source_url": "https://www.riversidesheriff.org/183",
+      "verified_on": "2026-10-13",
+      "todo": "houses not stated. court_ids: nearest criminal courthouse, not confirmed (Sheriff 'Offender Court Calendars' page lists calendars per jail but the calendar content did not load)."
+    },
+    {
+      "id": "amc-ytec",
+      "name": "Alan M. Crogan Youth Treatment and Education Center (Probation)",
+      "address": "10000 County Farm Rd.",
+      "city": "Riverside",
+      "zip": "92503",
+      "phone": "(951) 358-4400",
+      "phone_note": "Run by Riverside County Probation. Visiting rules are in the Juvenile Facilities Handbook.",
+      "houses": "juvenile",
+      "url": "https://rivcoprobation.org/institutions-treatment-facilities",
+      "visiting_url": "https://rivcoprobation.org/detention-and-treatment-center-handbook",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "riverside-juvenile"
+      ],
+      "source_url": "https://rivcoprobation.org/institutions-treatment-facilities",
+      "verified_on": "2026-10-13",
+      "todo": "court_ids nearest juvenile court, not confirmed"
+    },
+    {
+      "id": "sw-juvenile-hall",
+      "name": "Southwest Juvenile Hall (Probation)",
+      "address": "30755-C Auld Rd.",
+      "city": "Murrieta",
+      "zip": "92563",
+      "phone": "(951) 600-6750",
+      "phone_note": "Run by Riverside County Probation.",
+      "houses": "juvenile",
+      "url": "https://rivcoprobation.org/institutions-treatment-facilities",
+      "visiting_url": "https://rivcoprobation.org/detention-and-treatment-center-handbook",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "southwest-juvenile"
+      ],
+      "source_url": "https://rivcoprobation.org/institutions-treatment-facilities",
+      "verified_on": "2026-10-13",
+      "todo": "court_ids nearest, not confirmed"
+    },
+    {
+      "id": "indio-juvenile-hall",
+      "name": "Indio Juvenile Hall (Probation)",
+      "address": "47665 Oasis St.",
+      "city": "Indio",
+      "zip": "92201",
+      "phone": "(760) 863-7600",
+      "phone_note": "Run by Riverside County Probation.",
+      "houses": "juvenile",
+      "url": "https://rivcoprobation.org/institutions-treatment-facilities",
+      "visiting_url": "https://rivcoprobation.org/detention-and-treatment-center-handbook",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "larson"
+      ],
+      "source_url": "https://rivcoprobation.org/institutions-treatment-facilities",
+      "verified_on": "2026-10-13",
+      "todo": "court_ids nearest (Larson hears Juvenile), not confirmed"
+    }
+  ],
+  "inmate_lookup_url": "https://jimspub.riversidesheriff.org/",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "note": "CA Department of Insurance 'Check a License' — verify a bail agent's license before signing. Money for an inmate's account (not bail): Access Corrections online, by phone 1-866-345-1884, kiosks in jail lobbies, or USPS money order (Sheriff Money page).",
+    "todo": "Riverside Sheriff bail-posting location/hours page not loaded"
+  }
+}

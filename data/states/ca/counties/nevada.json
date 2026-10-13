@@ -1,0 +1,231 @@
+{
+  "state": "CA",
+  "county": "Nevada",
+  "slug": "nevada",
+  "court_name": "Superior Court of California, County of Nevada",
+  "court_website": "https://www.nevada.courts.ca.gov/",
+  "case_search_url": "https://nevada-portal.ecourt.com/public-portal/",
+  "case_search_note": "Online Case Access Portal linked from nevada.courts.ca.gov/online-services/web-portal. Free account required. Publicly searchable: Family, Probate, Civil, Criminal, Traffic; also shows court calendars. Parties can request document access (ID required) and then e-file in their criminal case. Court warns current filings may not appear.",
+  "sources": [
+    {"title": "Nevada County Superior Court — Locations & Hours", "url": "https://www.nevada.courts.ca.gov/administrative/locations-hours", "verified_on": "2026-10-13"},
+    {"title": "Nevada County Superior Court — Criminal Division", "url": "https://www.nevada.courts.ca.gov/divisions/criminal", "verified_on": "2026-10-13"},
+    {"title": "Nevada County Superior Court — Juvenile Division", "url": "https://www.nevada.courts.ca.gov/divisions/juvenile", "verified_on": "2026-10-13"},
+    {"title": "Nevada County Superior Court — Web Portal", "url": "https://www.nevada.courts.ca.gov/online-services/web-portal", "verified_on": "2026-10-13"},
+    {"title": "Nevada County Superior Court — Self-Surrender Warrants", "url": "https://www.nevada.courts.ca.gov/self-surrender-warrants", "verified_on": "2026-10-13"},
+    {"title": "Nevada County Superior Court — Collaborative Courts", "url": "https://www.nevada.courts.ca.gov/collaborative-courts", "verified_on": "2026-10-13"},
+    {"title": "Nevada County Superior Court — Self-Help Center", "url": "https://www.nevada.courts.ca.gov/self-help", "verified_on": "2026-10-13"},
+    {"title": "Nevada County Sheriff — Corrections Division", "url": "https://www.nevadacountyca.gov/264/Corrections-Division", "verified_on": "2026-10-13"},
+    {"title": "Nevada County Sheriff — Search for an Incarcerated Person", "url": "https://www.nevadacountyca.gov/187/Search-for-an-Incarcerated-Person", "verified_on": "2026-10-13"},
+    {"title": "Nevada County Sheriff — Incarcerated Persons Visitation", "url": "https://www.nevadacountyca.gov/287/Incarcerated-Persons-Visitation", "verified_on": "2026-10-13"},
+    {"title": "Nevada County Sheriff — Add Money to a Trust or Phone Account", "url": "https://www.nevadacountyca.gov/271/Add-Money-to-a-Trust-or-Phone-Account", "verified_on": "2026-10-13"},
+    {"title": "Nevada County Sheriff media release letterhead (Truckee address), 10/2/25", "url": "https://www.nevadacountyca.gov/DocumentCenter/View/59891", "verified_on": "2026-10-13"},
+    {"title": "Nevada County Public Defender", "url": "https://www.nevadacountyca.gov/573/Public-Defender", "verified_on": "2026-10-13"},
+    {"title": "Nevada County Public Defender — Cleaning Up Criminal Records", "url": "https://www.nevadacountyca.gov/628/Cleaning-Up-Criminal-Record", "verified_on": "2026-10-13"},
+    {"title": "Nevada County Probation", "url": "https://www.nevadacountyca.gov/617/Probation", "verified_on": "2026-10-13"},
+    {"title": "Nevada County Probation — Pretrial Information", "url": "https://www.nevadacountyca.gov/3280/Pretrial-Information", "verified_on": "2026-10-13"},
+    {"title": "Legal Services of Northern California — Auburn office", "url": "https://lsnc.net/office/auburn", "verified_on": "2026-10-13"},
+    {"title": "CA Dept. of Insurance — Check an Agent/Broker license", "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm", "verified_on": "2026-10-13"}
+  ],
+  "courthouses": [
+    {
+      "id": "nevada-city",
+      "name": "Nevada City Courthouse",
+      "address": "201 Church Street",
+      "city": "Nevada City",
+      "zip": "95959",
+      "phone": "(530) 362-4309",
+      "criminal_phone": null,
+      "hours": "Clerk's Office Mon–Fri 8:00 a.m.–4:00 p.m.; building Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "criminal": true,
+      "note": "Hears misdemeanors and felonies, traffic, juvenile justice and dependency. Self-surrender on warrants: misdemeanors Thursdays 1:30 p.m., felonies Fridays 1:30 p.m. — check in at the Criminal Clerk's Office before 11:00 a.m. Self-Help Center & Law Library in the same building (1st floor, Suite 9). Court phone line is the general clerk number (530) 362-4309; no separate criminal number published.",
+      "departments": [],
+      "source_url": "https://www.nevada.courts.ca.gov/administrative/locations-hours",
+      "verified_on": "2026-10-13",
+      "todo": "Department-by-department criminal assignments not found on court site."
+    },
+    {
+      "id": "truckee",
+      "name": "Truckee Courthouse — Joseph Government Center",
+      "address": "10075 Levon Avenue",
+      "city": "Truckee",
+      "zip": "96161",
+      "phone": "(530) 362-4309",
+      "criminal_phone": null,
+      "hours": "Clerk's Office Mon–Fri 8:00 a.m.–4:00 p.m. (court-wide hours)",
+      "criminal": true,
+      "note": "Hears misdemeanors and felonies, traffic and juvenile justice. Self-surrender on warrants: Mondays 8:30 a.m., check in at the front counter 8:00–8:30 a.m. Phone shown is the court's general line; no Truckee-specific number published on the Locations page.",
+      "departments": [],
+      "source_url": "https://www.nevada.courts.ca.gov/administrative/locations-hours",
+      "verified_on": "2026-10-13",
+      "todo": "Truckee-specific phone and department numbers not published."
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Nevada County Public Defender",
+      "address": "109 North Pine Street",
+      "city": "Nevada City",
+      "zip": "95959",
+      "phone": "(530) 265-1400",
+      "toll_free": null,
+      "email": "publicdefender@nevadacountyca.gov",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "url": "https://www.nevadacountyca.gov/573/Public-Defender",
+      "source_url": "https://www.nevadacountyca.gov/573/Public-Defender",
+      "verified_on": "2026-10-13",
+      "note": "Represents adults and juveniles charged with crimes. Out-of-custody clients should call or email; people in custody can call the office from the jail for free. Email address is from the office's racial-equity statement on the same page.",
+      "todo": "No Truckee office or conflict/alternate defender office found on county site."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Nevada County Public Defender — Cleaning Up Criminal Records",
+      "serves": "People with Nevada County convictions",
+      "what": "The Public Defender helps with expungement options for Nevada County cases (not other counties or states).",
+      "phone": "(530) 265-1400",
+      "email": null,
+      "url": "https://www.nevadacountyca.gov/628/Cleaning-Up-Criminal-Record",
+      "source_url": "https://www.nevadacountyca.gov/628/Cleaning-Up-Criminal-Record",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Legal Services of Northern California — Auburn office",
+      "serves": "Low-income residents of Amador, Calaveras, El Dorado, Nevada, Placer and Sierra counties",
+      "what": "Civil legal aid: housing and public benefits (CalWORKs, CalFresh, Medi-Cal, GA, Social Security/SSI, unemployment, SDI). Does not list criminal defense. Office 190 Reamer Street, Auburn 95603; evening intake message line (866) 815-5990.",
+      "phone": "(530) 823-7560",
+      "toll_free": "(800) 660-6107",
+      "email": "auburn-office@lsnc.net",
+      "url": "https://lsnc.net/office/auburn",
+      "source_url": "https://lsnc.net/office/auburn",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Nevada County Superior Court Self-Help Center",
+      "serves": "Self-represented people",
+      "what": "Free legal/procedural info and help with court forms (not legal advice, not confidential). Nevada City walk-in Mon–Thu 8:30–12 & 1:30–4, Fri 8:30–12 (may close 2nd & 4th Wednesdays); Truckee walk-in 2nd & 4th Wednesdays 9–12. Online question form preferred over phone.",
+      "phone": "(530) 362-5328",
+      "email": null,
+      "url": "https://www.nevada.courts.ca.gov/self-help",
+      "source_url": "https://www.nevada.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Nevada County Probation",
+      "address": "109 1/2 N Pine Street",
+      "city": "Nevada City",
+      "zip": "95959",
+      "phone": "(530) 265-1200",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "url": "https://www.nevadacountyca.gov/617/Probation",
+      "source_url": "https://www.nevadacountyca.gov/617/Probation",
+      "verified_on": "2026-10-13",
+      "note": "If sentenced to probation, the court instructs you to report in person within 24 hours unless returning to custody. Probation lists a Program Manager for 'Truckee Operations'.",
+      "todo": "No Truckee probation office address published on the Probation page."
+    }
+  ],
+  "programs": [
+    {
+      "id": "pretrial",
+      "name": "Pretrial Risk Assessment (Public Safety Assessment)",
+      "type": "pretrial",
+      "summary": "Nevada County uses the Public Safety Assessment (PSA) to inform pretrial release decisions (PC 1320.35 disclosure on Probation's page).",
+      "url": "https://www.nevadacountyca.gov/3280/Pretrial-Information",
+      "source_url": "https://www.nevadacountyca.gov/3280/Pretrial-Information",
+      "verified_on": "2026-10-13",
+      "todo": "Supervision/check-in details not published."
+    },
+    {
+      "id": "drug-court",
+      "name": "Adult Drug Court",
+      "type": "collaborative_court",
+      "summary": "For select non-violent felony drug-using offenders; minimum 18 months with random testing, intensive probation, bi-weekly court appearances and treatment. Court notes participants who fail may be sentenced to state prison.",
+      "url": "https://www.nevada.courts.ca.gov/collaborative-courts",
+      "source_url": "https://www.nevada.courts.ca.gov/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "mental-health-court",
+      "name": "Adult Mental Health (Behavioral Health) Court",
+      "type": "collaborative_court",
+      "summary": "Intensive program for adults and transitional-age youth with mental illness in the justice system: evaluation, treatment and monitoring by a court/law enforcement/probation/mental-health team.",
+      "url": "https://www.nevada.courts.ca.gov/collaborative-courts",
+      "source_url": "https://www.nevada.courts.ca.gov/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "dui-court",
+      "name": "DUI Court",
+      "type": "collaborative_court",
+      "summary": "Post-adjudication program for people with two DUIs in 5 years or three or more lifetime; enhanced supervision, mandatory treatment, frequent testing and bi-weekly judge reviews. Referred by the court and screened by the DUI Court case manager.",
+      "url": "https://www.nevada.courts.ca.gov/collaborative-courts",
+      "source_url": "https://www.nevada.courts.ca.gov/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "yes-court",
+      "name": "Juvenile Drug and Mental Health Court ('YES' Court)",
+      "type": "collaborative_court",
+      "summary": "Youth Empowerment Services court addressing alcohol, drug and mental health issues in juveniles.",
+      "url": "https://www.nevada.courts.ca.gov/collaborative-courts",
+      "source_url": "https://www.nevada.courts.ca.gov/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "self-surrender",
+      "name": "Self-Surrender on Warrants",
+      "type": "court_procedure",
+      "summary": "To clear a Nevada County warrant you must appear: Nevada City misdemeanors Thu 1:30 p.m., felonies Fri 1:30 p.m. (check in before 11 a.m.; both kinds → Friday); Truckee Mondays 8:30 a.m. (check in 8:00–8:30).",
+      "url": "https://www.nevada.courts.ca.gov/self-surrender-warrants",
+      "source_url": "https://www.nevada.courts.ca.gov/self-surrender-warrants",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "wayne-brown",
+      "name": "Wayne Brown Correctional Facility",
+      "address": "925 Maidu Ave, Nevada City, CA 95959",
+      "city": "Nevada City",
+      "zip": "95959",
+      "phone": "(530) 265-1291",
+      "phone_note": "Main county jail; adult-only booking facility housing pre-sentence and sentenced people. Visits are non-contact and by appointment arranged by the incarcerated person (up to four 30-min visits/week; lobby open Tue–Fri). Video visits via GettingOut. Inmate mail goes to a PO Box in Las Vegas (Pigeonly), not the jail.",
+      "houses": null,
+      "visiting_url": "https://www.nevadacountyca.gov/287/Incarcerated-Persons-Visitation",
+      "commissary_or_money_url": "https://www.nevadacountyca.gov/271/Add-Money-to-a-Trust-or-Phone-Account",
+      "court_ids": ["nevada-city"],
+      "court_ids_note": "nearest, not confirmed — Sheriff says Corrections includes a court holding facility and transportation unit but doesn't name courts.",
+      "url": "https://www.nevadacountyca.gov/264/Corrections-Division",
+      "source_url": "https://www.nevadacountyca.gov/264/Corrections-Division",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff says 'adult-only' but not whether men, women or both — houses left null (it's the only long-term jail, so likely both; not confirmed)."
+    },
+    {
+      "id": "truckee-jail",
+      "name": "Truckee Jail (Truckee Substation)",
+      "address": "10879 Donner Pass Rd, Truckee, CA 96161",
+      "city": "Truckee",
+      "zip": "96161",
+      "phone": "(530) 582-7838",
+      "phone_note": "Adult-only booking and temporary holding facility; arrestees from Nevada, Sierra and Placer counties are booked here and held until transported to their county's main jail. No personal visits. Address/phone are the Sheriff's Truckee office from Sheriff media-release letterhead.",
+      "houses": null,
+      "visiting_url": "https://www.nevadacountyca.gov/187/Search-for-an-Incarcerated-Person",
+      "commissary_or_money_url": null,
+      "court_ids": ["truckee"],
+      "court_ids_note": "nearest, not confirmed",
+      "url": "https://www.nevadacountyca.gov/264/Corrections-Division",
+      "source_url": "https://www.nevadacountyca.gov/264/Corrections-Division",
+      "verified_on": "2026-10-13",
+      "todo": "Jail street address taken from Sheriff letterhead ('TRUCKEE: 10879 Donner Pass Rd'), not a jail-specific page; men/women housing not stated."
+    }
+  ],
+  "inmate_lookup_url": "https://reports.nevcounty.net/justice/rdPage.aspx?rdReport=Sheriff.InCustodyInmates&rdNewBookmark=True&rdAgReset=True&rdOgReset=True&rdDgReset=True",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' — look up a bail agent's license status. Bail schedules are on the court's Fees & Bail Schedules page (nevada.courts.ca.gov/forms-filing/fees-bail-schedules). No Sheriff page on how/where to post bail was found. Juvenile: Carl F. Bryan II Juvenile Hall closed 1/1/2021 — juvenile arrests/detentions questions go to Juvenile Probation (530) 265-1200.",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "todo": "Sheriff bail-posting hours/methods not found on official site."
+  }
+}

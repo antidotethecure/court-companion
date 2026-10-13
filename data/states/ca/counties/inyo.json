@@ -1,0 +1,161 @@
+{
+  "state": "CA",
+  "county": "Inyo",
+  "slug": "inyo",
+  "court_name": "Superior Court of California, County of Inyo",
+  "court_website": "https://www.inyo.courts.ca.gov/",
+  "case_search_url": null,
+  "case_search_note": "No online case lookup described. Criminal records are requested in person or by mail with name, DOB, case number if known and documents wanted; clerk quotes the cost (send payment with a self-addressed stamped envelope). See https://www.inyo.courts.ca.gov/forms-filing/records-search-requests",
+  "sources": [
+    {
+      "title": "Inyo Superior Court — Home",
+      "url": "https://www.inyo.courts.ca.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Inyo Superior Court — Locations",
+      "url": "https://www.inyo.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Inyo Superior Court — Criminal Division",
+      "url": "https://www.inyo.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Inyo County Sheriff",
+      "url": "https://www.inyocounty.us/services/sheriff",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Inyo County Sheriff — Jail",
+      "url": "https://www.inyocounty.us/services/sheriff/jail",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Inyo County Probation — Adult Division",
+      "url": "https://www.inyocounty.us/services/probation/probation-adult-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check Agent/Broker",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "bishop",
+      "name": "Bishop Courthouse",
+      "address": "301 West Line Street",
+      "city": "Bishop",
+      "zip": "93514",
+      "phone": "(760) 872-3038",
+      "criminal_phone": "(760) 872-3038",
+      "hours": "Office Mon–Fri 8:30 a.m.–4 p.m. (closed noon–1); phone 1–4 p.m.",
+      "criminal": true,
+      "note": "Criminal Division page says criminal cases may be heard in Bishop or Independence but not which types go where — check the wall calendar or ask the clerk. DA (760) 878-0282; Victim Witness (760) 873-6669.",
+      "departments": [],
+      "source_url": "https://www.inyo.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "independence",
+      "name": "Independence Courthouse",
+      "address": "168 North Edwards Street",
+      "city": "Independence",
+      "zip": "93526",
+      "phone": "(760) 872-3038",
+      "criminal_phone": "(760) 872-3038",
+      "hours": "Phone 1–4 p.m.; office hours not listed for this location",
+      "criminal": true,
+      "note": "Departments 1 and 3 (Dept. 3 mail: P.O. Box 518; ADA access at north entry on Center Street; Dept. 1 help at the Dept. 3 counter). Criminal cases may be heard here or in Bishop.",
+      "departments": [],
+      "source_url": "https://www.inyo.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Court-appointed counsel (Inyo County contract public defender)",
+      "address": null,
+      "city": null,
+      "zip": null,
+      "phone": null,
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": null,
+      "source_url": "https://www.inyo.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13",
+      "note": "Court's Criminal page: fill out a public defender application at your first appearance; the court may appoint the Public Defender, Conflict Counsel, Alternate Conflict Counsel or a private attorney. Inyo County site indicates the public defender function is contracted and administered by the County Administrator's Office.",
+      "todo": "No public contact for the contract public defender found on an official page"
+    }
+  ],
+  "legal_aid": [],
+  "probation": {
+    "name": "Inyo County Probation — Adult Division",
+    "address": "1360 N. Main Street, Suite 162",
+    "city": "Bishop",
+    "zip": "93514",
+    "phone": "(760) 872-4111",
+    "hours": null,
+    "url": "https://www.inyocounty.us/services/probation/probation-adult-division",
+    "source_url": "https://www.inyocounty.us/services/probation/probation-adult-division",
+    "verified_on": "2026-10-13",
+    "note": "Fax (760) 872-0931. Adult Division handles probation/PRCS/mandatory supervision, presentence reports, pretrial services, alternative sentencing, victim restitution, and lists adult record expungement information.",
+    "todo": "Hours not captured"
+  },
+  "programs": [
+    {
+      "id": "pretrial",
+      "name": "Pretrial Services (Inyo County Probation)",
+      "type": "pretrial",
+      "summary": "Probation provides pretrial risk assessments for the court and supervises people the court orders to pretrial supervision.",
+      "phone": "(760) 872-4111",
+      "url": "https://www.inyocounty.us/services/probation/probation-adult-division",
+      "source_url": "https://www.inyocounty.us/services/probation/probation-adult-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "alt-sentencing",
+      "name": "Alternative Sentencing (Electronic Monitoring, Remote Alcohol Monitoring, Adult Community Service)",
+      "type": "alternative_sentencing",
+      "summary": "Probation-run alternatives to serving time in custody, as ordered by the court.",
+      "phone": "(760) 872-4111",
+      "url": "https://www.inyocounty.us/services/probation/probation-adult-division",
+      "source_url": "https://www.inyocounty.us/services/probation/probation-adult-division",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "inyo-jail",
+      "name": "Inyo County Jail",
+      "address": "550 South Clay Street",
+      "city": "Independence",
+      "zip": "93526",
+      "phone": "(760) 878-0370",
+      "phone_note": "Staffed 24/7. Fax (760) 878-0404. The jail does not take incoming calls for inmates. Court says call this number to check whether someone is in custody.",
+      "houses": null,
+      "visiting_url": "https://www.inyocounty.us/services/sheriff/jail",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "independence",
+        "bishop"
+      ],
+      "url": "https://www.inyocounty.us/services/sheriff/jail",
+      "source_url": "https://www.inyocounty.us/services/sheriff/jail",
+      "verified_on": "2026-10-13",
+      "note": "Only correctional facility in Inyo County. Visits Sat & Sun 9 a.m.–4 p.m.; call 8 a.m.–2 p.m. the same day to reserve. Money orders accepted for inmates (no cash, personal checks or cards); items via commissary only. Mail: PO Drawer 456, Independence, CA 93526. court_ids: Independence is nearest; criminal cases are also heard in Bishop — transport not confirmed.",
+      "todo": "Men/women housing not stated; no online deposit vendor listed"
+    }
+  ],
+  "inmate_lookup_url": "https://inyosheriff.citizenrims.com/bulletins",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' (linked from insurance.ca.gov CheckAgntBrkr page) — look up any bail agent's license status. Inyo jail page gives no bail procedure; call the jail at (760) 878-0370. Note: inmate_lookup_url is the Sheriff's Citizen RIMS bulletins page — not confirmed to be an in-custody roster.",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13"
+  }
+}

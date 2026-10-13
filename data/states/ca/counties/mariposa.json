@@ -1,0 +1,155 @@
+{
+  "state": "CA",
+  "county": "Mariposa",
+  "slug": "mariposa",
+  "court_name": "Superior Court of California, County of Mariposa",
+  "court_website": "https://www.mariposa.courts.ca.gov/",
+  "case_search_url": "https://portal-camariposa.tylertech.cloud/Portal/",
+  "case_search_note": "Case Information portal (linked from mariposa.courts.ca.gov/online-services/case-information). Must accept Terms of Use; shows only publicly viewable information and is not the official record. Page does not say which case types (criminal/traffic) are included.",
+  "sources": [
+    {
+      "title": "Mariposa Superior Court — Home",
+      "url": "https://www.mariposa.courts.ca.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Mariposa Superior Court — Criminal",
+      "url": "https://www.mariposa.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Mariposa Superior Court — Case Information",
+      "url": "https://www.mariposa.courts.ca.gov/online-services/case-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Mariposa County Sheriff",
+      "url": "https://www.mariposacounty.gov/82/Sheriffs-Office",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Mariposa Sheriff — Adult Detention Facility",
+      "url": "https://www.mariposacounty.gov/603/Adult-Detention-Facility",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Mariposa ADF — Visiting",
+      "url": "https://www.mariposacounty.gov/2340/Visiting",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Mariposa ADF — Video Visitation",
+      "url": "https://www.mariposacounty.gov/2487/Video-Visitation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Mariposa ADF — Commissary",
+      "url": "https://www.mariposacounty.gov/2339/Commissary",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Mariposa County Probation",
+      "url": "https://www.mariposacounty.gov/81/Probation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Central California Legal Services — Expungement Clinic (archived)",
+      "url": "https://centralcallegal.org/criminal-record-expungement-clinic/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check Agent/Broker",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "mariposa",
+      "name": "Mariposa County Superior Court — Historic Courthouse",
+      "address": "5088 Bullion Street",
+      "city": "Mariposa",
+      "zip": "95338",
+      "phone": "(209) 966-2005",
+      "criminal_phone": "(209) 966-2005",
+      "hours": "Court offices Mon–Fri 8 a.m.–3 p.m.",
+      "criminal": true,
+      "note": "Only courthouse in the county; hears criminal and traffic. Mailing: PO Box 28. Check the wall calendar for your name and department. Ask the judge at your first appearance for an appointed lawyer.",
+      "departments": [],
+      "source_url": "https://www.mariposa.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Court-appointed counsel (Mariposa County)",
+      "address": null,
+      "city": "Mariposa",
+      "zip": "95338",
+      "phone": null,
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": null,
+      "source_url": "https://www.mariposa.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13",
+      "note": "Court's Criminal page: if you don't hire a lawyer, ask the judge at your first appearance to appoint one; the court later decides whether you repay any fees.",
+      "todo": "No Public Defender department or contract-provider contact found on mariposacounty.gov or the court site"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Central California Legal Services — Pro Bono Program (expungement clinic)",
+      "serves": "People with convictions in Fresno, Tulare, Kings, Madera, Merced, Mariposa or Tuolumne County",
+      "what": "Free legal information on criminal record expungement after a prescreen (clinic page dated Nov 2023 and marked archived).",
+      "phone": "(559) 570-1274",
+      "email": "ProBono@CentralCalLegal.org",
+      "url": "https://centralcallegal.org/criminal-record-expungement-clinic/",
+      "source_url": "https://centralcallegal.org/criminal-record-expungement-clinic/",
+      "verified_on": "2026-10-13",
+      "todo": "Page is archived — confirm the clinic is still running"
+    }
+  ],
+  "probation": {
+    "name": "Mariposa County Probation Department",
+    "address": "5091 Bullion St.",
+    "city": "Mariposa",
+    "zip": "95338",
+    "phone": "(209) 966-3612",
+    "hours": "Mon–Fri 8 a.m.–12 p.m., 1–5 p.m.",
+    "url": "https://www.mariposacounty.gov/81/Probation",
+    "source_url": "https://www.mariposacounty.gov/81/Probation",
+    "verified_on": "2026-10-13",
+    "note": "Mailing: PO Box 76. Fax (209) 742-5961."
+  },
+  "programs": [],
+  "jails": [
+    {
+      "id": "mariposa-adf",
+      "name": "Mariposa County Adult Detention Facility",
+      "address": "5379 Highway 49 N",
+      "city": "Mariposa",
+      "zip": "95338",
+      "phone": "(209) 966-3616",
+      "phone_note": "Jail staffed 24/7; lobby 8 a.m.–5 p.m. Fax (209) 966-8415. Mailing PO Box 727.",
+      "houses": null,
+      "visiting_url": "https://www.mariposacounty.gov/2340/Visiting",
+      "commissary_or_money_url": "https://www.mariposacounty.gov/2339/Commissary",
+      "court_ids": [
+        "mariposa"
+      ],
+      "url": "https://www.mariposacounty.gov/603/Adult-Detention-Facility",
+      "source_url": "https://www.mariposacounty.gov/603/Adult-Detention-Facility",
+      "verified_on": "2026-10-13",
+      "note": "Type II facility. Staff will not release court dates or recommend bail agents. Visiting: one hour/week, non-contact, first come first served, by housing block (A Sun 1–4, B Sat 1–4, C Fri 1–4, D Wed 1–4, E Sun 9–11, F Sat 9–11; Mondays for Administrative Separation). Video visits/messaging through NCIC (www.NCIC.com). Money: lobby kiosk or phone (866) 345-1884. court_ids: nearest criminal courthouse, not confirmed.",
+      "todo": "Men/women housing not stated on Sheriff pages"
+    }
+  ],
+  "inmate_lookup_url": "https://www.mariposacounty.gov/2757/Daily-Booking-Report",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' (linked from insurance.ca.gov CheckAgntBrkr page) — look up any bail agent's license status. Mariposa jail staff will not recommend or refer bail agents. Bail procedure not described on Sheriff pages; call the jail at (209) 966-3616.",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13"
+  }
+}

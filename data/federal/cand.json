@@ -1,0 +1,244 @@
+{
+  "id": "cand",
+  "name": "U.S. District Court — Northern District of California",
+  "website": "https://cand.uscourts.gov/",
+  "case_search": {
+    "pacer": "https://pacer.uscourts.gov/",
+    "courtlistener": "https://www.courtlistener.com/"
+  },
+  "sources": [
+    {
+      "title": "CAND — Court Locations",
+      "url": "https://cand.uscourts.gov/about-court/court-locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CAND — San Francisco",
+      "url": "https://cand.uscourts.gov/locations/san-francisco",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CAND — Oakland",
+      "url": "https://cand.uscourts.gov/locations/oakland",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CAND — San Jose",
+      "url": "https://cand.uscourts.gov/locations/san-jose",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CAND — Eureka-McKinleyville",
+      "url": "https://cand.uscourts.gov/locations/eureka-mckinleyville",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CAND — Criminal Justice Act (CJA)",
+      "url": "https://cand.uscourts.gov/attorneys/criminal-justice-act-cja",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "fd.org — Federal Public & Community Defender Directory (dated 10/05/2026)",
+      "url": "https://www.fd.org/sites/default/files/public/other-resources/Federal-Defender-Programs/defenderdir_0.pdf",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "U.S. Probation, N.D. Cal.",
+      "url": "https://www.canp.uscourts.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "U.S. Pretrial Services, N.D. Cal.",
+      "url": "https://www.canpt.uscourts.gov/",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "san-francisco",
+      "name": "Phillip Burton Federal Building & U.S. Courthouse",
+      "division": "San Francisco",
+      "address": "450 Golden Gate Avenue, 16th floor (Clerk's Office)",
+      "city": "San Francisco",
+      "zip": "94102",
+      "phone": "(415) 522-2000",
+      "hours": "Clerk front desk 9:00 a.m.–4:00 p.m.; building public access 6:00 a.m.–6:00 p.m.; filing drop box 6:00 a.m.–6:00 p.m.",
+      "criminal": true,
+      "note": "Two public entrances (Golden Gate Ave. and Turk St.); the Turk St. entrance may be used by anyone with business at the District Court, Bankruptcy Court, Pretrial Services, Probation, Federal Public Defender and U.S. Attorney. Jury office 19th floor (415) 522-2171. 'criminal' assumed true for a district courthouse — todo: confirm duty/magistrate courtroom.",
+      "departments": [],
+      "source_url": "https://cand.uscourts.gov/locations/san-francisco",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "oakland",
+      "name": "Ronald V. Dellums Federal Building & U.S. Courthouse",
+      "division": "Oakland",
+      "address": "1301 Clay Street, Suite 400 S (Clerk's Office)",
+      "city": "Oakland",
+      "zip": "94612",
+      "phone": "(510) 637-3530",
+      "hours": "Clerk front desk 9:00 a.m.–4:00 p.m.; building public access 7:00 a.m.–5:00 p.m.; filing drop box 7:00 a.m.–5:00 p.m.",
+      "criminal": true,
+      "note": "Jury office Suite 460 S, (510) 637-3533. 'criminal' assumed true — todo: confirm.",
+      "departments": [],
+      "source_url": "https://cand.uscourts.gov/locations/oakland",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "san-jose",
+      "name": "Robert F. Peckham Federal Building & U.S. Courthouse",
+      "division": "San Jose",
+      "address": "280 South 1st Street, Room 2112 (Clerk's Office, 2nd floor)",
+      "city": "San Jose",
+      "zip": "95113",
+      "phone": "(408) 535-5363",
+      "hours": "Clerk front desk 9:00 a.m.–4:00 p.m.; building public access 7:30 a.m.–5:00 p.m.; filing drop box 7:30 a.m.–5:00 p.m.",
+      "criminal": true,
+      "note": "San Jose venue covers Monterey, San Benito, Santa Clara and Santa Cruz counties (per CJA page). Jury office (408) 535-5393. 'criminal' assumed true — todo: confirm.",
+      "departments": [],
+      "source_url": "https://cand.uscourts.gov/locations/san-jose",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "eureka-mckinleyville",
+      "name": "United States Courthouse (Eureka-McKinleyville)",
+      "division": "Eureka",
+      "address": "3140 Boeing Avenue",
+      "city": "McKinleyville",
+      "zip": "95519",
+      "phone": "(707) 445-3612",
+      "hours": "9:00 a.m.–4:00 p.m.; no drop box",
+      "criminal": null,
+      "note": "The court lists four locations: San Francisco, Oakland, San Jose and McKinleyville. The district has a separate Eureka CJA panel. todo: which criminal matters are heard here is not stated on the location page (criminal set to null).",
+      "departments": [],
+      "source_url": "https://cand.uscourts.gov/locations/eureka-mckinleyville",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Federal Public Defender, Northern District of California — San Francisco (Main Office)",
+      "address": "Phillip Burton United States Courthouse, 450 Golden Gate Avenue, Suite 19-6884",
+      "city": "San Francisco",
+      "zip": "94102-3434",
+      "phone": "(415) 436-7700",
+      "hours": null,
+      "url": "https://www.fd.org/sites/default/files/public/other-resources/Federal-Defender-Programs/defenderdir_0.pdf",
+      "note": "Federal Public Defender: Jodi Halim Linker. Fax (415) 436-7706. todo: office hours and district FPD website not verified.",
+      "source_url": "https://www.fd.org/sites/default/files/public/other-resources/Federal-Defender-Programs/defenderdir_0.pdf",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Federal Public Defender, Northern District of California — Oakland Office",
+      "address": "Ronald V. Dellums Federal Building, 1301 Clay Street, Suite 1350N",
+      "city": "Oakland",
+      "zip": "94612-5217",
+      "phone": "(510) 637-3500",
+      "hours": null,
+      "url": "https://www.fd.org/sites/default/files/public/other-resources/Federal-Defender-Programs/defenderdir_0.pdf",
+      "note": "Fax (510) 637-3507. Directory also lists an 'Oakland Alt. Office' at Oakland City Center, 1300 Clay Street, Oakland 94612-1425 (no phone).",
+      "source_url": "https://www.fd.org/sites/default/files/public/other-resources/Federal-Defender-Programs/defenderdir_0.pdf",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Federal Public Defender, Northern District of California — San Jose Office",
+      "address": "55 S Market St, Suite 820",
+      "city": "San Jose",
+      "zip": "95113",
+      "phone": "(408) 291-7753",
+      "hours": null,
+      "url": "https://www.fd.org/sites/default/files/public/other-resources/Federal-Defender-Programs/defenderdir_0.pdf",
+      "note": "Fax (408) 291-7399.",
+      "source_url": "https://www.fd.org/sites/default/files/public/other-resources/Federal-Defender-Programs/defenderdir_0.pdf",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "pretrial": [
+    {
+      "name": "U.S. Pretrial Services Agency, N.D. Cal. — San Francisco",
+      "address": "Phillip Burton Federal Building and U.S. Courthouse, 450 Golden Gate Avenue, Suite 18-5497, San Francisco, CA 94102 (USPS: P.O. Box 36108)",
+      "phone": "(415) 436-7501",
+      "url": "https://www.canpt.uscourts.gov/",
+      "what": "Separate agency from Probation in this district (est. 1987). Investigates and gives the court information for release/detention decisions (uses the federal Pretrial Risk Assessment) and supervises people released before trial. Hours Mon–Fri 8:30 a.m.–4:30 p.m.",
+      "source_url": "https://www.canpt.uscourts.gov/offices/san-francisco",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "U.S. Pretrial Services Agency, N.D. Cal. — Oakland",
+      "address": "Ronald V. Dellums Federal Building and U.S. Courthouse, 1301 Clay Street, Suite 100C, Oakland, CA 94612-5217",
+      "phone": "(510) 637-3751",
+      "url": "https://www.canpt.uscourts.gov/",
+      "what": "Hours Mon–Fri 8:30 a.m.–4:30 p.m. Visitors need government ID and must clear security.",
+      "source_url": "https://www.canpt.uscourts.gov/offices/oakland",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "U.S. Pretrial Services Agency, N.D. Cal. — San Jose",
+      "address": "Robert F. Peckham Federal Building and U.S. Courthouse, 280 South First Street, Suite 1150, San Jose, CA 95113",
+      "phone": "(408) 535-5222",
+      "url": "https://www.canpt.uscourts.gov/",
+      "what": "Hours Mon–Fri 8:30 a.m.–4:30 p.m.",
+      "source_url": "https://www.canpt.uscourts.gov/offices/san-jose",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "U.S. Probation Office, N.D. Cal. — San Francisco",
+      "address": "Phillip Burton U.S. Courthouse, 450 Golden Gate Avenue, Suite 17-6884, San Francisco, CA 94102-3434",
+      "phone": "(415) 436-7540",
+      "url": "https://www.canp.uscourts.gov/",
+      "what": "Supervises people on federal probation/supervised release and prepares presentence reports. The homepage lists (415) 436-7540 for every office.",
+      "source_url": "https://www.canp.uscourts.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "U.S. Probation Office, N.D. Cal. — Oakland",
+      "address": "Ronald V. Dellums Federal Building, 1301 Clay Street, Suite 220S, Oakland, CA 94612-5217",
+      "phone": "(415) 436-7540",
+      "url": "https://www.canp.uscourts.gov/",
+      "what": "Phone shown is the district number listed on the homepage.",
+      "source_url": "https://www.canp.uscourts.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "U.S. Probation Office, N.D. Cal. — San Jose",
+      "address": "Robert F. Peckham Federal Building, 280 South First Street, Suite 106, San Jose, CA 95113-3002",
+      "phone": "(415) 436-7540",
+      "url": "https://www.canp.uscourts.gov/",
+      "what": "Phone shown is the district number listed on the homepage.",
+      "source_url": "https://www.canp.uscourts.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "U.S. Probation Office, N.D. Cal. — Santa Rosa",
+      "address": "John F. Shea Federal Building, 777 Sonoma Avenue, Suite 323, Santa Rosa, CA 95404-4731",
+      "phone": "(415) 436-7540",
+      "url": "https://www.canp.uscourts.gov/",
+      "what": "Phone shown is the district number listed on the homepage.",
+      "source_url": "https://www.canp.uscourts.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "U.S. Probation Office, N.D. Cal. — McKinleyville (satellite)",
+      "address": "3140 Boeing Ave, McKinleyville, CA 95519",
+      "phone": "(510) 637-3600",
+      "url": "https://www.canp.uscourts.gov/offices/mckinleyville",
+      "what": "Satellite office with no regular hours; the page says to call the San Francisco office, (415) 436-7540.",
+      "source_url": "https://www.canp.uscourts.gov/offices/mckinleyville",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "marshals": {
+    "name": "U.S. Marshals Service — Northern District of California",
+    "url": null,
+    "phone": null,
+    "note": "todo: not verified from an official page on 2026-10-13."
+  },
+  "cja_panel": {
+    "what": "Court-approved private attorneys appointed on a rotating basis for people who cannot afford counsel (18 U.S.C. § 3006A). Four panels: Tier One Trial, Tier Two Trial, Appellate, and Eureka. Venues: San Jose (Monterey, San Benito, Santa Clara, Santa Cruz counties); San Francisco/Oakland (Alameda, Contra Costa, Marin, Napa, San Francisco, San Mateo, Sonoma). See General Order 2, Section XI.",
+    "url": "https://cand.uscourts.gov/attorneys/criminal-justice-act-cja",
+    "source_url": "https://cand.uscourts.gov/attorneys/criminal-justice-act-cja",
+    "verified_on": "2026-10-13"
+  }
+}

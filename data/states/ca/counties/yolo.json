@@ -1,0 +1,382 @@
+{
+  "state": "CA",
+  "county": "Yolo",
+  "slug": "yolo",
+  "court_name": "Superior Court of California, County of Yolo",
+  "court_website": "https://www.yolo.courts.ca.gov/",
+  "case_search_url": "https://portal-cayolo.tylertech.cloud/Portal/",
+  "case_search_note": "Court's public case access portal (Tyler). Criminal Division FAQ says it gives summary case details, the court calendar and upcoming hearings; you can also call the Criminal Division at (530) 406-6705 for limited case info (fines, warrants, court date/department). Confidential records (police/probation reports) are not public.",
+  "sources": [
+    {
+      "title": "Yolo Superior Court — Location & Contact Info",
+      "url": "https://www.yolo.courts.ca.gov/general-information/location-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Yolo Superior Court — Criminal Division",
+      "url": "https://www.yolo.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Yolo Superior Court — Juvenile Division",
+      "url": "https://www.yolo.courts.ca.gov/divisions/juvenile",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Yolo Superior Court — Traffic Division",
+      "url": "https://www.yolo.courts.ca.gov/divisions/traffic-division-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Yolo Superior Court — Judicial Assignments (2026 calendar)",
+      "url": "https://www.yolo.courts.ca.gov/general-information/yolo-superior-court-judicial-assignments",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Yolo Superior Court — Self-Help Center",
+      "url": "https://www.yolo.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Yolo County Sheriff — Detention Facilities",
+      "url": "https://yolocountysheriff.com/organization/jail/centers/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Yolo County Sheriff — Visitation & Inmate Communication",
+      "url": "https://yolocountysheriff.com/organization/jail/visitation-inmate-communication/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Yolo County Sheriff — Inmate Commissary & Money",
+      "url": "https://yolocountysheriff.com/organization/jail/inmate-commissary-money/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Yolo County Sheriff — Custody FAQ",
+      "url": "https://yolocountysheriff.com/organization/jail/custody-faq/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Yolo County Sheriff — VINE",
+      "url": "https://yolocountysheriff.com/services-resources/vine/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Yolo County Public Defender (yolocounty.gov page redirects here)",
+      "url": "https://www.yolocountypublicdefender.com/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Yolo County Public Defender — Record Mitigation & Reintegration Clinic",
+      "url": "https://www.yolocountypublicdefender.com/record-mitigation-reintegration-clinic",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Yolo County Probation — Contact Us",
+      "url": "https://www.yolocounty.gov/government/general-government-departments/law-justice/probation/contact-us",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Yolo County Probation — FAQs (Adult)",
+      "url": "https://www.yolocounty.gov/government/general-government-departments/law-justice/probation/adult-services/faqs-adult-related-questions",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Yolo County DA — Addiction Intervention Court",
+      "url": "https://yoloda.org/progressive-programs/addiction-intervention-court/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Yolo County DA — Mental Health Court",
+      "url": "https://yoloda.org/progressive-programs/mental-health-court/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Legal Services of Northern California — Woodland office",
+      "url": "https://lsnc.net/office/woodland",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check an Agent/Broker license",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "woodland",
+      "name": "Yolo Superior Court (Woodland Courthouse)",
+      "address": "1000 Main Street",
+      "city": "Woodland",
+      "zip": "95695",
+      "phone": "(530) 406-6700",
+      "criminal_phone": "(530) 406-6705",
+      "hours": "Phone/window Mon–Fri 8:00 a.m.–4:00 p.m. (excluding holidays)",
+      "criminal": true,
+      "note": "The court's only listed location — hears criminal (felony, misdemeanor, non-traffic infractions), traffic (Dept. 2; traffic (530) 406-6702), juvenile ((530) 406-6725), family, civil. In-custody arraignments Mon–Fri 1:30 p.m. in Dept. 1. Calendar kiosk near security on the 1st floor; Criminal Division is on the 1st floor. Department list from the 2026 judicial assignments calendar — assignments change (a 2027 calendar effective 1-4-27 is already posted).",
+      "departments": [
+        {
+          "id": "1",
+          "label": "Department 1",
+          "type": "Arraignments",
+          "note": "2026 calendar: Mon–Thu 9:00 misdemeanor arraignments; Mon–Fri 1:30 felony arraignments; back-up prelims. Court FAQ: in-custody arraignments Mon–Fri 1:30 p.m. in Dept. 1."
+        },
+        {
+          "id": "2",
+          "label": "Department 2",
+          "type": "Commissioner — AB1058 / Traffic / Small Claims / Unlawful Detainers",
+          "note": "Wed–Fri 9:00 traffic arraignments; traffic court trials 1:30; 1st Wed juvenile traffic."
+        },
+        {
+          "id": "3",
+          "label": "Department 3",
+          "type": "Family (odd-numbered cases)",
+          "note": null
+        },
+        {
+          "id": "4",
+          "label": "Department 4",
+          "type": "Family (even-numbered cases)",
+          "note": null
+        },
+        {
+          "id": "6",
+          "label": "Department 6",
+          "type": "Juvenile — Delinquency & Dependency",
+          "note": "Daily 9:00 602 (delinquency) uncontested; 1:30 contested hearings."
+        },
+        {
+          "id": "7",
+          "label": "Department 7",
+          "type": "Criminal — Trial",
+          "note": null
+        },
+        {
+          "id": "8",
+          "label": "Department 8",
+          "type": "Criminal — Law & Motion",
+          "note": "Daily 9:00 law & motion; 1:30 preliminary hearings (PX)."
+        },
+        {
+          "id": "9",
+          "label": "Department 9",
+          "type": "Criminal — Law & Motion",
+          "note": "Daily 9:00 law & motion; 1:30 preliminary hearings (PX)."
+        },
+        {
+          "id": "10",
+          "label": "Department 10",
+          "type": "Criminal — Trial",
+          "note": "Calendar lists 'AIC/MHC/MHD' here on Fridays; footnote says last Friday of the month. Acronyms not expanded on the page (DA site describes Addiction Intervention Court and Mental Health Court)."
+        },
+        {
+          "id": "11",
+          "label": "Department 11",
+          "type": "Criminal — Master Calendar",
+          "note": "Wed 9:00 TRC, 1:30 settlements; trials other days."
+        },
+        {
+          "id": "13",
+          "label": "Department 13",
+          "type": "Civil / Probate / LPS (odd)",
+          "note": null
+        },
+        {
+          "id": "14",
+          "label": "Department 14",
+          "type": "Civil / Probate (even)",
+          "note": "Fri 10:30 CARE Court."
+        }
+      ],
+      "departments_source_url": "https://www.yolo.courts.ca.gov/general-information/yolo-superior-court-judicial-assignments",
+      "source_url": "https://www.yolo.courts.ca.gov/general-information/location-contact-info",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Yolo County Public Defender",
+      "address": "814 North Street",
+      "city": "Woodland",
+      "zip": "95695",
+      "phone": "(530) 666-8165",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.yolocountypublicdefender.com/",
+      "source_url": "https://www.yolocountypublicdefender.com/",
+      "verified_on": "2026-10-13",
+      "todo": "Office hours not shown on the pages loaded (a search snippet of a yolocounty.gov directory listed Mon–Thu 8–4, Fri 8–12 — not verified on a loaded page). Conflict/alternate defender office not researched."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Yolo County Public Defender — Record Mitigation & Reintegration Clinic",
+      "serves": "People with Yolo County convictions/arrests",
+      "what": "Expungement, felony reductions, early probation termination, certificates of rehabilitation, record sealing (arrests without conviction), sex-offender registry removal. Email is the preferred contact; clinic phone hours Thursdays 1:00–4:00 p.m.",
+      "phone": "(530) 666-8165",
+      "email": "Record.Mitigation@yolocounty.gov",
+      "url": "https://www.yolocountypublicdefender.com/record-mitigation-reintegration-clinic",
+      "source_url": "https://www.yolocountypublicdefender.com/record-mitigation-reintegration-clinic",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Legal Services of Northern California — Woodland Office",
+      "serves": "Low-income Yolo County residents (civil legal aid)",
+      "what": "Civil legal aid: housing, public benefits, health, education, consumer, unemployment, Social Security, veterans' benefits, elder abuse restraining orders. Office page does not list criminal defense or record clearing. New-applicant intake Mon–Thu 8:30–12 & 1–3 (no new intakes Fridays); evening intake line (866) 815-5990.",
+      "phone": "(530) 662-1065",
+      "address": "619 North Street, Woodland, CA 95695",
+      "url": "https://lsnc.net/office/woodland",
+      "source_url": "https://lsnc.net/office/woodland",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Yolo County Probation — Main Office",
+      "address": "725 Court Street",
+      "city": "Woodland",
+      "zip": "95695",
+      "phone": "(530) 406-5320",
+      "hours": "Mon–Fri 8:00 a.m.–12:00 p.m. & 12:30–4:30 p.m.",
+      "url": "https://www.yolocounty.gov/government/general-government-departments/law-justice/probation/contact-us",
+      "source_url": "https://www.yolocounty.gov/government/general-government-departments/law-justice/probation/contact-us",
+      "verified_on": "2026-10-13",
+      "note": "Probation's adult FAQ says people granted formal probation must report to the probation office at 2780 E. Gibson Rd., Woodland, right after the hearing (or within 72 hours of release from jail). Alternative Sentencing Office: 2780 E. Gibson Road, Woodland 95776, (530) 669-2331. Fee payments by phone: Yolo County Collections (530) 666-8190. yolocounty.gov blocks automated fetches; pages read in a browser."
+    },
+    {
+      "name": "Yolo County Probation — West Sacramento Office",
+      "address": "500-A Jefferson Boulevard",
+      "city": "West Sacramento",
+      "zip": "95605",
+      "phone": "(916) 375-6418",
+      "hours": "Mon–Fri 8:00 a.m.–12:00 p.m. & 1:00–4:00 p.m.",
+      "url": "https://www.yolocounty.gov/government/general-government-departments/law-justice/probation/contact-us",
+      "source_url": "https://www.yolocounty.gov/government/general-government-departments/law-justice/probation/contact-us",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Yolo County Probation — Adult reporting / Alternative Sentencing Office",
+      "address": "2780 E. Gibson Road",
+      "city": "Woodland",
+      "zip": "95776",
+      "phone": "(530) 669-2331",
+      "hours": null,
+      "url": "https://www.yolocounty.gov/government/general-government-departments/law-justice/probation/adult-services/faqs-adult-related-questions",
+      "source_url": "https://www.yolocounty.gov/government/general-government-departments/law-justice/probation/adult-services/faqs-adult-related-questions",
+      "verified_on": "2026-10-13",
+      "todo": "Phone listed is the Alternative Sentencing Program line; a separate adult-supervision reporting line was not found. Hours not listed."
+    }
+  ],
+  "programs": [
+    {
+      "id": "aic",
+      "name": "Addiction Intervention Court (AIC)",
+      "type": "collaborative_court",
+      "summary": "Voluntary specialty court (launched 2018) for people whose offenses stem from substance use; up to 20 participants. Four phases (Engagement, Transition, Sustainability, Maintenance) with testing, 12-step or equivalent, employment and housing goals, and a 4–6 week restorative justice component. Graduation requires 9+ months arrest-free and 180+ continuous days sober. Partners: Superior Court, Public Defender, DA, Probation, HHSA. Court calendar lists AIC/MHC/MHD in Dept. 10 (last Friday of the month).",
+      "url": "https://yoloda.org/progressive-programs/addiction-intervention-court/",
+      "source_url": "https://yoloda.org/progressive-programs/addiction-intervention-court/",
+      "verified_on": "2026-10-13",
+      "todo": "Source is the DA's site (prosecution framing); referral/eligibility criteria not published."
+    },
+    {
+      "id": "mhc",
+      "name": "Mental Health Court (MHC)",
+      "type": "collaborative_court",
+      "summary": "For adults with serious mental illness charged with misdemeanors or felonies; up to 15 participants; minimum 18 months in four phases, ending with a 4–6 week restorative justice component. Partners: Superior Court, Probation, HHSA, Public Defender, DA.",
+      "url": "https://yoloda.org/progressive-programs/mental-health-court/",
+      "source_url": "https://yoloda.org/progressive-programs/mental-health-court/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "self-help",
+      "name": "Self-Help Center / Family Law Facilitator",
+      "type": "self_help",
+      "summary": "1000 Main Street, 2nd floor, Woodland. Free help for self-represented people (family, small claims, restraining orders, name change, evictions, etc.) — not criminal defense. Walk-in Tue & Thu 8:30 a.m.–2:30 p.m.; phone Mon/Wed/Fri (530) 406-6793; main (530) 406-6794.",
+      "phone": "(530) 406-6794",
+      "url": "https://www.yolo.courts.ca.gov/self-help",
+      "source_url": "https://www.yolo.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "warrant-surrender",
+      "name": "Misdemeanor warrant surrender (one-time calendar request)",
+      "type": "court_procedure",
+      "summary": "Per the Criminal Division FAQ, for a misdemeanor warrant you may call (530) 406-6705 to set a one-time 'warrant surrender' court date or turn yourself in. If you miss that date, no further dates are set and the warrant stays outstanding.",
+      "phone": "(530) 406-6705",
+      "url": "https://www.yolo.courts.ca.gov/divisions/criminal-division",
+      "source_url": "https://www.yolo.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "mdc",
+      "name": "Monroe Detention Center (MDC)",
+      "address": "140A Tony Diaz Drive",
+      "city": "Woodland",
+      "zip": "95776",
+      "phone": "(530) 668-5245",
+      "phone_note": "Monroe Records — custody status, charges, bail, court date, housing; also visit scheduling. Sheriff page also lists 530-668-JAIL for MDC.",
+      "houses": null,
+      "visiting_url": "https://yolocountysheriff.com/organization/jail/visitation-inmate-communication/",
+      "commissary_or_money_url": "https://yolocountysheriff.com/organization/jail/inmate-commissary-money/",
+      "court_ids": [
+        "woodland"
+      ],
+      "note": "Medium-to-maximum security; primary intake point for everyone booked in Yolo County; 345 beds. In-person non-contact visits daily 1–3 p.m., one 30-min visit/week, book by calling (530) 668-5245 (sign-ups 7 a.m.–midnight the day before). Video visits via ICSolutions. Court: in-custody arraignments Mon–Fri 1:30 p.m., Dept. 1, 1000 Main St. (per court FAQ). Court-ordered report-to-jail: 24-hour lobby by 9:00 a.m.",
+      "url": "https://yolocountysheriff.com/organization/jail/centers/",
+      "source_url": "https://yolocountysheriff.com/organization/jail/centers/",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff page does not explicitly say men and women are both housed (it says MDC is the intake point for all individuals booked) — 'houses' left null."
+    },
+    {
+      "id": "lmc",
+      "name": "Leinberger Memorial Center (LMC)",
+      "address": null,
+      "city": "Woodland",
+      "zip": null,
+      "phone": null,
+      "phone_note": null,
+      "houses": null,
+      "visiting_url": "https://yolocountysheriff.com/organization/jail/visitation-inmate-communication/",
+      "commissary_or_money_url": "https://yolocountysheriff.com/organization/jail/inmate-commissary-money/",
+      "court_ids": [
+        "woodland"
+      ],
+      "note": "Rebuilt dorm facility (three 30-bed dorms and one 60-bed dorm per Sheriff page). Sheriff page says inmates are NOT yet housed there due to staffing shortages. court_ids = nearest/only criminal courthouse, not confirmed.",
+      "url": "https://yolocountysheriff.com/organization/jail/centers/",
+      "source_url": "https://yolocountysheriff.com/organization/jail/centers/",
+      "verified_on": "2026-10-13",
+      "todo": "Street address and phone not on Sheriff page; facility not yet housing inmates as of 2026-10-13."
+    },
+    {
+      "id": "jdf",
+      "name": "Yolo County Juvenile Detention Facility (Probation)",
+      "address": "2880 E. Gibson Road",
+      "city": "Woodland",
+      "zip": "95776",
+      "phone": "(530) 406-5300",
+      "phone_note": "Probation contact page; fax (530) 669-5802.",
+      "houses": "juvenile",
+      "visiting_url": null,
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "woodland"
+      ],
+      "note": "Operated by Yolo County Probation. Juvenile delinquency hearings are in Dept. 6 at 1000 Main St. (court juvenile page + judicial assignments).",
+      "url": "https://www.yolocounty.gov/government/general-government-departments/law-justice/probation/contact-us",
+      "source_url": "https://www.yolocounty.gov/government/general-government-departments/law-justice/probation/contact-us",
+      "verified_on": "2026-10-13",
+      "todo": "Visiting rules page (institutional-services/juvenile-detention-facility) not loaded."
+    }
+  ],
+  "inmate_lookup_url": "https://www.vinelink.com/state/CA",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "note": "CA Department of Insurance license lookup for bail agents (URL carried over from the Orange file; not re-loaded today). Yolo has no online inmate locator: the Sheriff's Custody FAQ says call (530) 668-5245 to ask if someone is in custody, their charges, bail and court date; the Sheriff links VINELink for custody status. The court's Criminal FAQ says to call the Sheriff at (530) 668-5245 about posting bail. Court bail schedules: https://www.yolo.courts.ca.gov/general-information/fee-bail-schedules"
+  }
+}

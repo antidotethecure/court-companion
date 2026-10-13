@@ -1,0 +1,233 @@
+{
+  "state": "CA",
+  "county": "Kings",
+  "slug": "kings",
+  "court_name": "Superior Court of California, County of Kings",
+  "court_website": "https://www.kings.courts.ca.gov/",
+  "case_search_url": "https://portal.kings.courts.ca.gov/public-portal/",
+  "case_search_note": "Case Index Search (court notes it moved to this new URL). Daily courtroom calendar: https://portal.kings.courts.ca.gov/calendar/. The court also offers a Hearing Reminder Service (text/email) at /online-services/hearing-reminder-service-hrs.",
+  "sources": [
+    {
+      "title": "Kings Superior Court — Locations",
+      "url": "https://www.kings.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Kings Superior Court — Criminal",
+      "url": "https://www.kings.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Kings Superior Court — Online Services",
+      "url": "https://www.kings.courts.ca.gov/online-services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Kings Superior Court — Self-Help",
+      "url": "https://www.kings.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Kings County Sheriff",
+      "url": "https://www.countyofkingsca.gov/departments/public-safety/sheriff",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Kings County Sheriff — Booking/Inmate Information",
+      "url": "https://www.countyofkingsca.gov/departments/public-safety/sheriff/booking-inmate-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Kings County Sheriff — Visitation",
+      "url": "https://www.countyofkingsca.gov/departments/public-safety/sheriff/booking-inmate-information/visitation-",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Kings County — Defense of the Indigent Accused / Public Defender",
+      "url": "https://www.countyofkingsca.gov/departments/general-services/defense-of-the-indigent-accused-kings-county-public-defender",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Kings County Probation",
+      "url": "https://www.countyofkingsca.gov/departments/probation-department",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Kings County Probation — Adult Court Services",
+      "url": "https://www.countyofkingsca.gov/departments/public-safety/probation-department/divisions/adult-court-services",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "hanford",
+      "name": "Kings Superior Court",
+      "address": "1640 Kings County Drive",
+      "city": "Hanford",
+      "zip": "93230",
+      "phone": "(559) 582-1010",
+      "hours": "Lobby Mon–Fri 8:00 a.m.–4:00 p.m.; phones Mon–Fri 8:00 a.m.–5:00 p.m. (Traffic, Criminal, Civil division phones 8:00 a.m.–4:00 p.m.)",
+      "criminal": true,
+      "note": "The court's Criminal page says all court matters are held at this courthouse (Departments 1–10): felony, misdemeanor, traffic, civil, family, juvenile. Email information@kings.courts.ca.gov. Full-security building; no shorts, tank tops, crop tops or bare feet. Department judges as listed on the court's location page; case-type assignments per department are not published.",
+      "departments": [
+        {
+          "id": "1",
+          "label": "Department 1",
+          "type": null,
+          "note": "Jennifer Giuliani"
+        },
+        {
+          "id": "2",
+          "label": "Department 2",
+          "type": null,
+          "note": "Judge Robert S. Burns"
+        },
+        {
+          "id": "3",
+          "label": "Department 3",
+          "type": null,
+          "note": "Judge Kendra D. Weber"
+        },
+        {
+          "id": "4",
+          "label": "Department 4",
+          "type": null,
+          "note": "Commissioner Mark Skinner"
+        },
+        {
+          "id": "5",
+          "label": "Department 5",
+          "type": null,
+          "note": "Judge Risé Donlon"
+        },
+        {
+          "id": "6",
+          "label": "Department 6",
+          "type": null,
+          "note": "Judge Marianne Gilbert"
+        },
+        {
+          "id": "7",
+          "label": "Department 7",
+          "type": null,
+          "note": "Assistant Presiding Judge Melissa D'Morias"
+        },
+        {
+          "id": "8",
+          "label": "Department 8",
+          "type": null,
+          "note": "Presiding Judge Kathy Ciuffini"
+        },
+        {
+          "id": "9",
+          "label": "Department 9",
+          "type": null,
+          "note": "Pro Tems"
+        },
+        {
+          "id": "10",
+          "label": "Department 10",
+          "type": null,
+          "note": "Judge Jim A. Trevino"
+        }
+      ],
+      "source_url": "https://www.kings.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Kings County Public Defender (Defense of the Indigent Accused)",
+      "address": null,
+      "city": "Hanford",
+      "zip": null,
+      "phone": "(559) 852-2119",
+      "toll_free": null,
+      "email": "public.defender@co.kings.ca.us",
+      "hours": null,
+      "url": "https://www.countyofkingsca.gov/departments/general-services/defense-of-the-indigent-accused-kings-county-public-defender",
+      "note": "County page says indigent defense sits within County Administration and is provided by contracted attorneys appointed on cases.",
+      "todo": "Office street address and hours not listed on the county page",
+      "source_url": "https://www.countyofkingsca.gov/departments/general-services/defense-of-the-indigent-accused-kings-county-public-defender",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Kings Superior Court Self-Help Center",
+      "serves": "People without an attorney",
+      "what": "Help completing legal forms in person (walk-in or appointment), by email or phone; no legal advice. Court's Criminal page also posts Prop 47, Prop 64 and Certificate of Rehabilitation forms.",
+      "phone": "(559) 582-1010 option 8",
+      "email": "kingsselfhelpcenter@kings.courts.ca.gov",
+      "url": "https://www.kings.courts.ca.gov/self-help",
+      "hours": "Mon–Fri 8:00 a.m.–4:30 p.m.",
+      "source_url": "https://www.kings.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Kings County Probation Department",
+      "address": "1424 Forum Drive",
+      "city": "Hanford",
+      "zip": "93230",
+      "phone": "(559) 852-2850",
+      "hours": null,
+      "url": "https://www.countyofkingsca.gov/departments/probation-department",
+      "source_url": "https://www.countyofkingsca.gov/departments/probation-department",
+      "note": "Divisions include Adult Court Services (pre-sentence investigations, court officers, Pretrial Program, Day Reporting Center) and Adult Field Services.",
+      "todo": "Office hours not listed",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "programs": [
+    {
+      "id": "kings-pretrial-program",
+      "name": "Pretrial Program (Probation Adult Court Services)",
+      "type": "pretrial",
+      "summary": "Kings County Probation's Adult Court Services division runs the Pretrial Program and the Day Reporting Center. Details of check-ins are not published; follow your release order.",
+      "phone": "(559) 852-2850",
+      "url": "https://www.countyofkingsca.gov/departments/public-safety/probation-department/divisions/adult-court-services",
+      "todo": "Program details not published on the page",
+      "source_url": "https://www.countyofkingsca.gov/departments/public-safety/probation-department/divisions/adult-court-services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "kings-hearing-reminders",
+      "name": "Hearing Reminder Service",
+      "type": "court-reminders",
+      "summary": "Court service that sends text or email reminders for upcoming court dates.",
+      "phone": null,
+      "url": "https://www.kings.courts.ca.gov/online-services/hearing-reminder-service-hrs",
+      "source_url": "https://www.kings.courts.ca.gov/online-services",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "kings-county-jail",
+      "name": "Kings County Jail (Sheriff's Detentions Division)",
+      "address": "1550 Kings County Drive",
+      "city": "Hanford",
+      "zip": "93230",
+      "phone": "(559) 852-2812",
+      "phone_note": "Jail and inmate information: (559) 852-2812 or ext. 4103 (as written on the Sheriff's page). Mailing: PO Box 1699, Hanford, CA 93230. Visiting is by remote video or onsite video; visitors must register and schedule through the Sheriff's visitation page.",
+      "houses": null,
+      "visiting_url": "https://www.countyofkingsca.gov/departments/public-safety/sheriff/booking-inmate-information/visitation-",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "hanford"
+      ],
+      "court_ids_note": "County's only courthouse; transport destination not stated by the Sheriff.",
+      "url": "https://www.countyofkingsca.gov/departments/public-safety/sheriff/booking-inmate-information",
+      "source_url": "https://www.countyofkingsca.gov/departments/public-safety/sheriff",
+      "verified_on": "2026-10-13",
+      "todo": "Address shown is the Sheriff's contact address on the Sheriff page — confirm it is the jail's street address. Sheriff's pages do not say men/women/both, and do not list an account deposit/commissary method."
+    }
+  ],
+  "inmate_lookup_url": "https://inmatelocator.countyofkings.com/",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "Before paying a bail agent, check that their license is active using the California Department of Insurance license lookup (search by name or license number). Kings Superior Court posts its 2026 Felony Bail Schedule (https://www.kings.courts.ca.gov/system/files/general/2026-felony-bail-schedule.pdf) and 2026 Misdemeanor Bail Schedule (https://www.kings.courts.ca.gov/system/files/general/2026-misdemeanor-bail-schedule.pdf). Jail and inmate info: (559) 852-2812. This is information only, not legal advice."
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "state": "CA",
+  "county": "Tuolumne",
+  "slug": "tuolumne",
+  "court_name": "Superior Court of California, County of Tuolumne",
+  "court_website": "https://www.tuolumne.courts.ca.gov/",
+  "case_search_url": null,
+  "case_search_note": "No general online case search found. Court Calendar: https://www.tuolumne.courts.ca.gov/online-services/court-calendars. Criminal Pay or Appear System (pay instead of appearing, eligible cases): https://apps.tuolumne.courts.ca.gov/Criminal. Record searches by request form, in person or mail ($15/name if over 10 minutes).",
+  "sources": [
+    {
+      "title": "Tuolumne Superior Court — Home",
+      "url": "https://www.tuolumne.courts.ca.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tuolumne Superior Court — Criminal",
+      "url": "https://www.tuolumne.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tuolumne Superior Court — Recovery Court",
+      "url": "https://www.tuolumne.courts.ca.gov/divisions/collaborative-courts/recovery-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tuolumne County Public Defender",
+      "url": "https://www.tuolumnecounty.ca.gov/432/Public-Defender",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tuolumne PD — Conflicts Division",
+      "url": "https://www.tuolumnecounty.ca.gov/1814/Conflicts-Division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tuolumne County Probation",
+      "url": "https://www.tuolumnecounty.ca.gov/337/Probation-Department",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tuolumne Probation — Alternatives to Detention",
+      "url": "https://www.tuolumnecounty.ca.gov/339/Alternatives-to-Detention",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tuolumne County Sheriff",
+      "url": "https://tuolumnecountysheriff.com/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tuolumne Sheriff — Dambacher Detention Center",
+      "url": "https://tuolumnecountysheriff.com/divisions/dambacher-detention-center/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tuolumne County Directory — Sheriff",
+      "url": "https://www.tuolumnecounty.ca.gov/m/directory/department?did=35",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Central California Legal Services — Expungement Clinic (archived)",
+      "url": "https://centralcallegal.org/criminal-record-expungement-clinic/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check Agent/Broker",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "justice-center",
+      "name": "Tuolumne County Superior Court — Justice Center Courthouse",
+      "address": "12855 Justice Center Drive",
+      "city": "Sonora",
+      "zip": "95370",
+      "phone": "(209) 533-5555",
+      "criminal_phone": "(209) 533-5563",
+      "hours": "Building Mon–Fri 8 a.m.–5 p.m.; clerk counter 8 a.m.–4:30 p.m.; phones 8 a.m.–3 p.m.",
+      "criminal": true,
+      "note": "Only courthouse listed; hears criminal and traffic. Criminal Division (209) 533-5563 (8 a.m.–3 p.m.). Ask for a court-appointed attorney at arraignment. Remote appearances: https://www.tuolumne.courts.ca.gov/zoom",
+      "departments": [],
+      "source_url": "https://www.tuolumne.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Tuolumne County Public Defender",
+      "address": "99 N. Washington St.",
+      "city": "Sonora",
+      "zip": "95370",
+      "phone": "(209) 533-6370",
+      "toll_free": null,
+      "email": null,
+      "hours": "Mon–Fri 8 a.m.–12 p.m., 1–4 p.m.",
+      "url": "https://www.tuolumnecounty.ca.gov/432/Public-Defender",
+      "source_url": "https://www.tuolumnecounty.ca.gov/432/Public-Defender",
+      "verified_on": "2026-10-13",
+      "note": "Fax (209) 532-1185. Court decides indigency at arraignment (financial declaration). Represents adults on misdemeanors/felonies, plus juvenile 602, some dependency and conservatorship cases."
+    },
+    {
+      "name": "Tuolumne County Public Defender — Conflicts Division",
+      "address": null,
+      "city": "Sonora",
+      "zip": "95370",
+      "phone": "(209) 533-6679",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.tuolumnecounty.ca.gov/1814/Conflicts-Division",
+      "source_url": "https://www.tuolumnecounty.ca.gov/1814/Conflicts-Division",
+      "verified_on": "2026-10-13",
+      "note": "Used when the Public Defender has a conflict. Chief Conflict Counsel lines: (209) 533-6679 and (209) 533-6680."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Central California Legal Services — Pro Bono Program (expungement clinic)",
+      "serves": "People with convictions in Fresno, Tulare, Kings, Madera, Merced, Mariposa or Tuolumne County",
+      "what": "Free legal information on criminal record expungement after a prescreen (clinic page dated Nov 2023 and marked archived).",
+      "phone": "(559) 570-1274",
+      "email": "ProBono@CentralCalLegal.org",
+      "url": "https://centralcallegal.org/criminal-record-expungement-clinic/",
+      "source_url": "https://centralcallegal.org/criminal-record-expungement-clinic/",
+      "verified_on": "2026-10-13",
+      "todo": "Page is archived — confirm the clinic is still running before referring"
+    }
+  ],
+  "probation": {
+    "name": "Tuolumne County Probation Department",
+    "address": "465 S. Washington St.",
+    "city": "Sonora",
+    "zip": "95370",
+    "phone": "(209) 533-7500",
+    "hours": "Mon–Fri 8 a.m.–12 p.m., 1–5 p.m.",
+    "url": "https://www.tuolumnecounty.ca.gov/337/Probation-Department",
+    "source_url": "https://www.tuolumnecounty.ca.gov/337/Probation-Department",
+    "verified_on": "2026-10-13",
+    "note": "Fax (209) 533-7564. Adult alternative-sentencing programs line (209) 533-7521."
+  },
+  "programs": [
+    {
+      "id": "recovery-court",
+      "name": "Recovery Court",
+      "type": "collaborative_court",
+      "summary": "Collaborative court for non-violent participants with significant substance-abuse history; intake assessment then enrollment. Referral steps not published.",
+      "phone": null,
+      "url": "https://www.tuolumne.courts.ca.gov/divisions/collaborative-courts/recovery-court",
+      "source_url": "https://www.tuolumne.courts.ca.gov/divisions/collaborative-courts/recovery-court",
+      "verified_on": "2026-10-13",
+      "todo": "Referral process/contact not on page"
+    },
+    {
+      "id": "alt-sentencing",
+      "name": "Adult Alternative Sentencing (Work Program, Community Service, Sheriff's Parole, Electronic Monitoring)",
+      "type": "alternative_sentencing",
+      "summary": "Run by Probation at 465 S. Washington St., Sonora. Enrollment info in the page FAQs.",
+      "phone": "(209) 533-7521",
+      "url": "https://www.tuolumnecounty.ca.gov/339/Alternatives-to-Detention",
+      "source_url": "https://www.tuolumnecounty.ca.gov/339/Alternatives-to-Detention",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "drc",
+      "name": "Day Reporting Center",
+      "type": "reentry",
+      "summary": "Probation program with GEO: cognitive behavioral therapy, MRT, drug treatment and testing, employment help, aftercare. 950 S. Washington St., Sonora.",
+      "phone": "(209) 392-9113",
+      "url": "https://www.tuolumnecounty.ca.gov/339/Alternatives-to-Detention",
+      "source_url": "https://www.tuolumnecounty.ca.gov/339/Alternatives-to-Detention",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "dambacher",
+      "name": "Dambacher Detention Center (Tuolumne County Jail)",
+      "address": null,
+      "city": "Sonora",
+      "zip": "95370",
+      "phone": "(209) 533-5855",
+      "phone_note": "Sheriff's Office Administration (28 N. Lower Sunset Drive, Sonora), Mon–Fri 9 a.m.–4 p.m.; Dispatch 24/7 (209) 533-5815. The jail page lists no direct jail number.",
+      "houses": "both",
+      "visiting_url": "https://tuolumnecountysheriff.com/divisions/dambacher-detention-center/",
+      "commissary_or_money_url": "https://deposits.jailatm.com/webdeposits/",
+      "court_ids": [
+        "justice-center"
+      ],
+      "url": "https://tuolumnecountysheriff.com/divisions/dambacher-detention-center/",
+      "source_url": "https://tuolumnecountysheriff.com/divisions/dambacher-detention-center/",
+      "verified_on": "2026-10-13",
+      "note": "Holds male and female inmates in eight housing units; designed for up to 230. Visits must be scheduled 24h ahead via SmartInmate (https://www.smartinmate.com/). Deposits/gift bags via Jail ATM. court_ids: nearest criminal courthouse, not confirmed.",
+      "todo": "Exact street address not on Sheriff page (county reports place it on Justice Center Dr, Sonora); visiting hours not published"
+    }
+  ],
+  "inmate_lookup_url": "https://tcso-inmatesearch.atimsle.com/",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' (linked from insurance.ca.gov CheckAgntBrkr page) — look up any bail agent's license status. Tuolumne Sheriff jail page gives no bail procedure; call the Sheriff at (209) 533-5855.",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13"
+  }
+}

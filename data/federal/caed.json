@@ -1,0 +1,258 @@
+{
+  "id": "caed",
+  "name": "U.S. District Court — Eastern District of California",
+  "website": "https://www.caed.uscourts.gov/",
+  "case_search": {
+    "pacer": "https://pacer.uscourts.gov/",
+    "courtlistener": "https://www.courtlistener.com/"
+  },
+  "sources": [
+    {
+      "title": "CAED — Courthouse Locations and Directions",
+      "url": "https://www.caed.uscourts.gov/caednew/index.cfm/clerks-office/court-directions/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CAED — Hours of Operations",
+      "url": "https://www.caed.uscourts.gov/caednew/index.cfm/clerks-office/hours-of-operations/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CAED — Court Agency Information",
+      "url": "https://www.caed.uscourts.gov/caednew/index.cfm/attorney-info/court-agency-information/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "fd.org — Federal Public & Community Defender Directory (dated 10/05/2026)",
+      "url": "https://www.fd.org/sites/default/files/public/other-resources/Federal-Defender-Programs/defenderdir_0.pdf",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "U.S. Probation, E.D. Cal.",
+      "url": "https://www.caep.uscourts.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "U.S. Pretrial Services, E.D. Cal.",
+      "url": "https://www.caept.uscourts.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Federal Defender, E.D. Cal. — CJA page",
+      "url": "https://cae-fpd.org/cja.html",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "sacramento",
+      "name": "Robert T. Matsui Federal Courthouse",
+      "division": "Sacramento",
+      "address": "501 I Street, Room 4-200",
+      "city": "Sacramento",
+      "zip": "95814",
+      "phone": "(916) 930-4000",
+      "hours": "Clerk's Office open in Sacramento and Fresno 9:00 a.m.–4:00 p.m. Mon–Fri, closed 11:30 a.m.–12:30 p.m. daily (excluding holidays).",
+      "criminal": true,
+      "note": "'criminal' assumed true for a main district courthouse — todo: confirm duty courtroom.",
+      "departments": [],
+      "source_url": "https://www.caed.uscourts.gov/caednew/index.cfm/clerks-office/court-directions/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "fresno",
+      "name": "Robert E. Coyle Federal Courthouse",
+      "division": "Fresno",
+      "address": "2500 Tulare Street, Room 1501",
+      "city": "Fresno",
+      "zip": "93721",
+      "phone": "(559) 499-5600",
+      "hours": "Clerk's Office open in Sacramento and Fresno 9:00 a.m.–4:00 p.m. Mon–Fri, closed 11:30 a.m.–12:30 p.m. daily (excluding holidays).",
+      "criminal": true,
+      "note": "'criminal' assumed true for a main district courthouse — todo: confirm duty courtroom.",
+      "departments": [],
+      "source_url": "https://www.caed.uscourts.gov/caednew/index.cfm/clerks-office/court-directions/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "redding",
+      "name": "Redding Federal Courthouse",
+      "division": null,
+      "address": "2986 Bechelli Lane",
+      "city": "Redding",
+      "zip": "96002",
+      "phone": "(530) 246-5416",
+      "hours": "For outlying offices (Bakersfield, Redding, Yosemite) the court says to contact the office for public hours.",
+      "criminal": null,
+      "note": "Filings must be submitted in CM/ECF or in Sacramento. todo: division and criminal calendar not stated on page.",
+      "departments": [],
+      "source_url": "https://www.caed.uscourts.gov/caednew/index.cfm/clerks-office/court-directions/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "bakersfield",
+      "name": "Bakersfield Federal Courthouse",
+      "division": null,
+      "address": "510 19th Street, Suite 200",
+      "city": "Bakersfield",
+      "zip": "93301",
+      "phone": "(661) 326-6620",
+      "hours": "For outlying offices (Bakersfield, Redding, Yosemite) the court says to contact the office for public hours.",
+      "criminal": null,
+      "note": "Filings must be submitted in CM/ECF or in Fresno. todo: division and criminal calendar not stated on page.",
+      "departments": [],
+      "source_url": "https://www.caed.uscourts.gov/caednew/index.cfm/clerks-office/court-directions/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "yosemite",
+      "name": "Yosemite Federal Courthouse",
+      "division": null,
+      "address": "9004 Castle Cliff Court",
+      "city": "Yosemite",
+      "zip": "95389",
+      "phone": "(209) 372-0320",
+      "hours": "For outlying offices (Bakersfield, Redding, Yosemite) the court says to contact the office for public hours.",
+      "criminal": null,
+      "note": "Inside Yosemite National Park. Filings must be submitted in CM/ECF or in Fresno. todo: case types (e.g., park violation/petty offense calendar) not stated on page.",
+      "departments": [],
+      "source_url": "https://www.caed.uscourts.gov/caednew/index.cfm/clerks-office/court-directions/",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Federal Defender, Eastern District of California — Sacramento (Main Office)",
+      "address": "801 I Street, 3rd Floor",
+      "city": "Sacramento",
+      "zip": "95814",
+      "phone": "(916) 498-5700",
+      "hours": null,
+      "url": "http://www.cae-fpd.org",
+      "note": "Federal Public Defender: Heather Erica Williams (fd.org directory). Fax (916) 498-5710. Address/phone match the court's agency page.",
+      "source_url": "https://www.caed.uscourts.gov/caednew/index.cfm/attorney-info/court-agency-information/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Federal Defender, Eastern District of California — Fresno Office",
+      "address": "2300 Tulare Street, Suite 330",
+      "city": "Fresno",
+      "zip": "93721",
+      "phone": "(559) 487-5561",
+      "hours": null,
+      "url": "http://www.cae-fpd.org",
+      "note": "Fax (559) 487-5950 (fd.org directory).",
+      "source_url": "https://www.caed.uscourts.gov/caednew/index.cfm/attorney-info/court-agency-information/",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "pretrial": [
+    {
+      "name": "U.S. Pretrial Services, E.D. Cal. — Sacramento",
+      "address": "Robert T. Matsui Federal Courthouse, 501 I Street, 2nd Floor, Sacramento, CA 95814",
+      "phone": "(916) 930-4350",
+      "url": "https://www.caept.uscourts.gov/",
+      "what": "Gathers information for the judge's release/detention decision and supervises people released before trial.",
+      "source_url": "https://www.caed.uscourts.gov/caednew/index.cfm/attorney-info/court-agency-information/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "U.S. Pretrial Services, E.D. Cal. — Fresno",
+      "address": "Robert E. Coyle Federal Courthouse, 2500 Tulare Street, 3rd Floor, Fresno, CA 93721",
+      "phone": "(559) 499-5770",
+      "url": "https://www.caept.uscourts.gov/",
+      "what": "Same as above.",
+      "source_url": "https://www.caed.uscourts.gov/caednew/index.cfm/attorney-info/court-agency-information/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "U.S. Pretrial Services, E.D. Cal. — Bakersfield",
+      "address": "U.S. District Courthouse, 510 19th Street, Bakersfield, CA 93301",
+      "phone": "(661) 321-3812",
+      "url": "https://www.caept.uscourts.gov/",
+      "what": "Listed on the Pretrial Services homepage.",
+      "source_url": "https://www.caept.uscourts.gov/",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "U.S. Probation Office, E.D. Cal. — Sacramento",
+      "address": "501 I Street, Suite 2500, Sacramento, CA 95814",
+      "phone": "(916) 930-4300",
+      "url": "https://www.caep.uscourts.gov/",
+      "what": "Supervises people on federal probation/supervised release; prepares presentence reports.",
+      "source_url": "https://www.caep.uscourts.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "U.S. Probation Office, E.D. Cal. — Fresno",
+      "address": "2500 Tulare St., Suite 3401, Fresno, CA 93721",
+      "phone": "(559) 499-5700",
+      "url": "https://www.caep.uscourts.gov/",
+      "what": "Supervises people on federal probation/supervised release; prepares presentence reports.",
+      "source_url": "https://www.caep.uscourts.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "U.S. Probation Office, E.D. Cal. — Bakersfield",
+      "address": "510 19th Street, Suite 150, Bakersfield, CA 93301",
+      "phone": "(661) 321-3810",
+      "url": "https://www.caep.uscourts.gov/",
+      "what": "Supervises people on federal probation/supervised release; prepares presentence reports.",
+      "source_url": "https://www.caep.uscourts.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "U.S. Probation Office, E.D. Cal. — Modesto",
+      "address": "1200 I Street, Suite 204, Modesto, CA 95354",
+      "phone": "(209) 574-9052",
+      "url": "https://www.caep.uscourts.gov/",
+      "what": "Supervises people on federal probation/supervised release; prepares presentence reports.",
+      "source_url": "https://www.caep.uscourts.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "U.S. Probation Office, E.D. Cal. — Redding",
+      "address": "2986 Bechelli Lane, #203, Redding, CA 96002-1903",
+      "phone": "(530) 224-7216",
+      "url": "https://www.caep.uscourts.gov/",
+      "what": "Supervises people on federal probation/supervised release; prepares presentence reports.",
+      "source_url": "https://www.caep.uscourts.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "U.S. Probation Office, E.D. Cal. — Roseville",
+      "address": "1380 Lead Hill Boulevard, Suite 225, Roseville, CA 95661-2998",
+      "phone": "(916) 786-8508",
+      "url": "https://www.caep.uscourts.gov/",
+      "what": "Supervises people on federal probation/supervised release; prepares presentence reports.",
+      "source_url": "https://www.caep.uscourts.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "U.S. Probation Office, E.D. Cal. — Visalia",
+      "address": "100 Willow Plaza, Suite 101, Visalia, CA 93291",
+      "phone": "(559) 734-0978",
+      "url": "https://www.caep.uscourts.gov/",
+      "what": "Supervises people on federal probation/supervised release; prepares presentence reports.",
+      "source_url": "https://www.caep.uscourts.gov/",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "marshals": {
+    "name": "U.S. Marshals Service — Eastern District of California",
+    "url": "https://www.justice.gov/marshals",
+    "phone": "(916) 930-2030",
+    "note": "Sacramento: 501 I Street, 5th Floor, Sacramento, CA 95814, (916) 930-2030. Fresno: 2500 Tulare Street, 3rd Floor, Fresno, CA 93721, (559) 442-2858. Taken from the court's Court Agency Information page (not usmarshals.gov).",
+    "source_url": "https://www.caed.uscourts.gov/caednew/index.cfm/attorney-info/court-agency-information/",
+    "verified_on": "2026-10-13"
+  },
+  "cja_panel": {
+    "what": "If the court finds a person eligible for appointed counsel, it appoints either the Federal Defender or a private CJA panel attorney. The Federal Defender page says it represents about 75% of financially eligible federal defendants in the district; the rest go to private panel attorneys. Panel training is run by the Federal Defender offices in Sacramento and Fresno.",
+    "url": "https://cae-fpd.org/cja.html",
+    "source_url": "https://cae-fpd.org/cja.html",
+    "note": "The Federal Defender CJA page appears not to have been updated since about 2014 (refers to 2014 training dates). todo: confirm the current CJA Plan general order on caed.uscourts.gov.",
+    "verified_on": "2026-10-13"
+  }
+}

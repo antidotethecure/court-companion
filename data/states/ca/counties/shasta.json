@@ -1,0 +1,192 @@
+{
+  "state": "CA",
+  "county": "Shasta",
+  "slug": "shasta",
+  "court_name": "Superior Court of California, County of Shasta",
+  "court_website": "https://www.shasta.courts.ca.gov/",
+  "case_search_url": "https://portal.shasta.courts.ca.gov/PortalPROD",
+  "case_search_note": "Public Portal linked from Court Case Records. Works without registration (registered users without privileged access see the same as the public). Legacy case index currently disabled; document images currently unavailable online. Some records restricted from remote display (CRC 2.503) can be viewed at Records, 1515 Court St. Not the official record.",
+  "sources": [
+    {
+      "title": "Shasta Superior Court — Locations",
+      "url": "https://www.shasta.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Shasta Superior Court — Criminal Division",
+      "url": "https://www.shasta.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Shasta Superior Court — Traffic",
+      "url": "https://www.shasta.courts.ca.gov/divisions/traffic",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Shasta Superior Court — Court Case Records",
+      "url": "https://www.shasta.courts.ca.gov/online-services/court-case-records",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Shasta Superior Court — Family Law Facilitator / Self Help",
+      "url": "https://www.shasta.courts.ca.gov/self-help/family-law-facilitators-office-self-help",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Shasta County Sheriff — Shasta County Jail (403 to automated fetch; content from search index)",
+      "url": "https://www.shastacounty.gov/sheriff/page/shasta-county-jail",
+      "verified_on": null
+    },
+    {
+      "title": "Shasta County — FAQ (Public Defender contact; 403 to automated fetch; content from search index)",
+      "url": "https://www.shastacounty.gov/faqs/all/2522",
+      "verified_on": null
+    },
+    {
+      "title": "Shasta County Probation (403 to automated fetch; content from search index)",
+      "url": "https://www.shastacounty.gov/probation/page/probation-policies",
+      "verified_on": null
+    },
+    {
+      "title": "Legal Services of Northern California — Redding office",
+      "url": "https://lsnc.net/office/redding",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check an Agent/Broker license",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "redding",
+      "name": "Redding Main Courthouse",
+      "address": "1515 Court Street",
+      "city": "Redding",
+      "zip": "96001",
+      "phone": "(530) 245-6789",
+      "criminal_phone": "(530) 245-6789",
+      "hours": "Criminal & Traffic clerk: 8:30 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Only courthouse listed; Departments 21–64 and Jury Assembly. Hears criminal (felony & misdemeanor arraignments, trials) and traffic. Courtroom doors generally open 8:00 a.m. — go to your assigned courtroom. Criminal email Criminal@shasta.courts.ca.gov; Traffic email Traffic@shasta.courts.ca.gov; fax (530) 999-2003. (530) 245-6789 is listed for both Criminal and Traffic.",
+      "departments": [],
+      "source_url": "https://www.shasta.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13",
+      "todo": "Department-by-department criminal assignments not published on pages loaded"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Shasta County Public Defender",
+      "address": "1815 Yuba Street",
+      "city": "Redding",
+      "zip": null,
+      "phone": "(530) 245-7598",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.shastacounty.gov/public-defender",
+      "source_url": "https://www.shastacounty.gov/faqs/all/2522",
+      "verified_on": null,
+      "todo": "shastacounty.gov blocks automated fetch (403) and browser read; address/phone taken from a search-index summary of the county FAQ page — open the page manually to confirm; ZIP and hours not captured"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Legal Services of Northern California — Redding Office",
+      "serves": "Lassen, Modoc, Shasta, Siskiyou and Tehama counties",
+      "what": "Civil legal aid: housing, public benefits, education rights, health benefits, grandparent guardianship. No criminal defense or record clearance listed. 1370 West Street, Redding, CA 96001. Hours Mon/Tue/Wed/Fri 9–11:45 & 1–4:45, Thu 1–4:45. After-hours intake message line (866) 815-5990.",
+      "phone": "(530) 241-3565",
+      "toll_free": "(800) 822-9687",
+      "email": null,
+      "url": "https://lsnc.net/office/redding",
+      "source_url": "https://lsnc.net/office/redding",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Shasta Superior Court — Family Law Facilitator / Self Help Center",
+      "serves": "Self-represented litigants",
+      "what": "Forms help and general information; Room 320, Main Courthouse. States it does NOT assist with criminal cases (may give outside referrals). Walk-in hours are in a PDF on the page.",
+      "phone": "(530) 245-6900",
+      "email": "selfhelp@shasta.courts.ca.gov",
+      "url": "https://www.shasta.courts.ca.gov/self-help/family-law-facilitators-office-self-help",
+      "source_url": "https://www.shasta.courts.ca.gov/self-help/family-law-facilitators-office-self-help",
+      "verified_on": "2026-10-13",
+      "note": "Phone is message-only."
+    }
+  ],
+  "probation": [
+    {
+      "name": "Shasta County Probation Department",
+      "address": "2684 Radio Lane",
+      "city": "Redding",
+      "zip": "96001",
+      "phone": "(530) 245-6200",
+      "hours": null,
+      "url": "https://www.shastacounty.gov/probation",
+      "source_url": "https://www.shastacounty.gov/probation/page/probation-policies",
+      "verified_on": null,
+      "todo": "shastacounty.gov returned 403; address/phone from a search-index summary of official Probation pages. Hours and any separate adult-services office not confirmed."
+    }
+  ],
+  "programs": [
+    {
+      "id": "aop",
+      "name": "Addicted Offender Program (AOP)",
+      "type": "collaborative_court",
+      "summary": "For repeat offenders with substance abuse problems. DA and Probation set eligibility; admission is at the court's discretion. Participants plead guilty, sign an agreement, attend status hearings and are monitored by a probation officer; graduates have charges dismissed.",
+      "url": "https://www.shasta.courts.ca.gov/divisions/criminal-division",
+      "source_url": "https://www.shasta.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "work-release",
+      "name": "Sheriff's Work Release",
+      "type": "custody_alternative",
+      "summary": "Alternative to continuous jail confinement, ordered by the court at sentencing; the Sheriff decides eligibility — (530) 245-6720.",
+      "url": "https://www.shasta.courts.ca.gov/divisions/criminal-division",
+      "source_url": "https://www.shasta.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "community-service-fines",
+      "name": "Fines converted to community service",
+      "type": "other",
+      "summary": "Court page: fines can be converted to community service at $33.00/hour; court-imposed fees cannot be converted.",
+      "url": "https://www.shasta.courts.ca.gov/divisions/criminal-division",
+      "source_url": "https://www.shasta.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "shasta-county-jail",
+      "name": "Shasta County Jail",
+      "address": "1655 West Street",
+      "city": "Redding",
+      "zip": null,
+      "houses": null,
+      "phone": "(530) 245-6100",
+      "phone_note": "Court's Criminal Division page: call the Sheriff at (530) 245-6100 for jail inmate information.",
+      "url": "https://www.shastacounty.gov/sheriff/page/shasta-county-jail",
+      "visiting_url": "https://www.shastacounty.gov/sheriff/page/shasta-county-jail",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "redding"
+      ],
+      "note": "High-security local detention facility attached to the Justice Center and courts (per search-index summary of the Sheriff page). Visits by request form submitted at least 7 days ahead (no more than 30). That page reportedly noted in-person visits were suspended from Sept 26, 2025 for construction — check current status. court_ids: only courthouse in county.",
+      "source_url": "https://www.shastacounty.gov/sheriff/page/shasta-county-jail",
+      "verified_on": null,
+      "todo": "shastacounty.gov blocked automated + browser reading; address/visiting details from search-index summary only. ZIP, who is housed (men/women), money/commissary vendor, and current visiting status not verified. Juvenile facility not captured."
+    }
+  ],
+  "inmate_lookup_url": null,
+  "inmate_lookup_todo": "No official online inmate search confirmed; call (530) 245-6100 (per court Criminal Division page).",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' — search a bail agent by name or license number for status and discipline history (linked from insurance.ca.gov CheckAgntBrkr page).",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13"
+  }
+}

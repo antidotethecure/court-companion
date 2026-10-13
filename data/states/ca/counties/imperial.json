@@ -1,0 +1,285 @@
+{
+  "state": "CA",
+  "county": "Imperial",
+  "slug": "imperial",
+  "court_name": "Superior Court of California, County of Imperial",
+  "court_website": "https://www.imperial.courts.ca.gov/",
+  "case_search_url": "https://imperialcourt.org/WebCaseSearch/",
+  "case_search_note": "ROA/Case Lookup by case number (linked from the court's ROA/Case Lookup page): public cases only; confidential and sealed cases are not available. Parties and attorneys can request document-level Online Case Access through the court's Public Portal (ecourt.imperial.courts.ca.gov/public-portal) with identity verification.",
+  "sources": [
+    {
+      "title": "ICSC — Locations and Contact Info",
+      "url": "https://www.imperial.courts.ca.gov/general-information/locations-and-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "ICSC — Criminal Division",
+      "url": "https://www.imperial.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "ICSC — Traffic",
+      "url": "https://www.imperial.courts.ca.gov/divisions/traffic",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "ICSC — ROA/Case Lookup",
+      "url": "https://www.imperial.courts.ca.gov/online-services/roacase-lookup",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "ICSC — Online Case Access",
+      "url": "https://www.imperial.courts.ca.gov/online-services/online-case-access",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "ICSC — Self-Help Access Center",
+      "url": "https://www.imperial.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Imperial County Sheriff — Corrections/Jail",
+      "url": "https://icso.imperialcounty.org/jail/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Imperial County Sheriff — Home (addresses)",
+      "url": "https://icso.imperialcounty.org/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Imperial County Public Defender",
+      "url": "https://imperialcounty.org/public-defender/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Imperial County Probation — Administration",
+      "url": "https://probation.imperialcounty.org/administration/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Imperial County Probation — Juvenile Services",
+      "url": "https://probation.imperialcounty.org/juvenile-services/",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "el-centro-criminal",
+      "name": "El Centro Criminal Courthouse",
+      "address": "650 Wake Ave",
+      "city": "El Centro",
+      "zip": "92243",
+      "phone": "(760) 482-2200",
+      "criminal_phone": "(760) 482-2245",
+      "hours": "Mon–Fri 8:00 a.m.–4:00 p.m.; criminal offices open to the public Mon–Fri 8–4; phone and live chat Mon–Fri 8–4",
+      "criminal": true,
+      "note": "Court: the Criminal Division is in this courthouse. Criminal Court Clerk's Office (760) 482-2245, crimrecords@imperial.courts.ca.gov, criminal fax (760) 336-3593.",
+      "departments": [],
+      "source_url": "https://www.imperial.courts.ca.gov/general-information/locations-and-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "el-centro",
+      "name": "El Centro Courthouse (Downtown)",
+      "address": "939 West Main Street",
+      "city": "El Centro",
+      "zip": "92243",
+      "phone": "(760) 482-2200",
+      "criminal_phone": null,
+      "hours": "Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Traffic Division is here (payment window/phone 8–4 Mon–Fri). Also family law self-help, small claims, jury, law library. Court call center (760) 336-3500; remote appearances (760) 482-2273. Adult criminal cases are at the El Centro Criminal Courthouse.",
+      "departments": [],
+      "source_url": "https://www.imperial.courts.ca.gov/general-information/locations-and-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "winterhaven",
+      "name": "Winterhaven Court",
+      "address": "2124 Winterhaven Dr.",
+      "city": "Winterhaven",
+      "zip": "92283",
+      "phone": "(760) 336-3500",
+      "criminal_phone": "(760) 336-3550",
+      "hours": "Tue–Thu 8:00 a.m.–4:00 p.m. (closed 11:00 a.m.–12:00 p.m.); closed Mondays and Fridays",
+      "criminal": true,
+      "note": "Criminal Division page lists a Winterhaven criminal contact: (760) 336-3550. Exact case types heard here not listed.",
+      "departments": [],
+      "source_url": "https://www.imperial.courts.ca.gov/general-information/locations-and-contact-info",
+      "verified_on": "2026-10-13",
+      "todo": "case types heard at Winterhaven not listed on location page"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Imperial County Public Defender",
+      "address": "895 Broadway",
+      "city": "El Centro",
+      "zip": "92243",
+      "phone": "(442) 265-1705",
+      "toll_free": null,
+      "email": null,
+      "hours": "Office closed to the public (per PD page)",
+      "url": "https://imperialcounty.org/public-defender/",
+      "note": "Second listed number: (442) 265-1706.",
+      "verified_on": "2026-10-13",
+      "source_url": "https://imperialcounty.org/public-defender/"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "ICSC Self-Help Access Center",
+      "serves": "Self-represented people",
+      "what": "Court self-help services for family law and certain civil cases (legal information and resources); also guided form filling and law library/Access Center appointments. Criminal record clearance help not listed.",
+      "phone": null,
+      "email": null,
+      "url": "https://www.imperial.courts.ca.gov/self-help",
+      "source_url": "https://www.imperial.courts.ca.gov/self-help",
+      "todo": "No Imperial County record-clearance/expungement legal aid confirmed on an official page",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Imperial County Probation Department",
+      "address": "324 Applestill Road",
+      "city": "El Centro",
+      "zip": "92243",
+      "phone": "(442) 265-2379",
+      "hours": null,
+      "url": "https://probation.imperialcounty.org/",
+      "note": "Press 0 for the front desk. Fax (442) 265-2376. Email icprob@co.imperial.ca.us (listed on Juvenile Services page).",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://probation.imperialcounty.org/administration/"
+    }
+  ],
+  "programs": [
+    {
+      "id": "ability-to-pay",
+      "name": "Ability to pay / MyCitations (infractions)",
+      "type": "info",
+      "summary": "For infractions (including traffic): ask the court to consider ability to pay, a payment plan, more time, or community service — online via MyCitations or in person before fines are fully paid.",
+      "url": "https://www.imperial.courts.ca.gov/divisions/traffic",
+      "source_url": "https://www.imperial.courts.ca.gov/divisions/traffic",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "remote-appearances",
+      "name": "Remote appearances",
+      "type": "info",
+      "summary": "Court says your upcoming hearing may be eligible for remote appearance; remote appearance line (760) 482-2273.",
+      "phone": "(760) 482-2273",
+      "url": "https://www.imperial.courts.ca.gov/divisions/traffic",
+      "source_url": "https://www.imperial.courts.ca.gov/general-information/locations-and-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "criminal-copies",
+      "name": "Criminal record copy requests",
+      "type": "info",
+      "summary": "Request criminal record copies via the court's Contact form, phone or live chat (Mon–Fri 8–4) or crimrecords@imperial.courts.ca.gov. Fees: $0.50/page copies, $40 certification, $15 per search over 10 minutes.",
+      "url": "https://www.imperial.courts.ca.gov/divisions/criminal-division",
+      "source_url": "https://www.imperial.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "sheriff-drc",
+      "name": "Sheriff Day Reporting Center (DRC)",
+      "type": "reentry",
+      "summary": "The Sheriff's Corrections page has a DRC section.",
+      "url": "https://icso.imperialcounty.org/jail/",
+      "todo": "DRC details not extracted",
+      "source_url": "https://icso.imperialcounty.org/jail/",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "radf",
+      "name": "Regional Adult Detention Facility (RADF)",
+      "address": "1328 Sperber Road",
+      "city": "El Centro",
+      "zip": "92243",
+      "phone": "(442) 265-2266",
+      "phone_note": "Jail & inmate information / visitation: (442) 265-2266 (Sheriff). Visiting rules PDF linked from the Sheriff jail page.",
+      "houses": "both",
+      "url": "https://icso.imperialcounty.org/jail/",
+      "visiting_url": "https://icso.imperialcounty.org/wp-content/uploads/2023/04/Visitaion-at-RADF2023.pdf",
+      "commissary_or_money_url": "https://www.gettingout.com/",
+      "court_ids": [
+        "el-centro-criminal"
+      ],
+      "source_url": "https://icso.imperialcounty.org/",
+      "verified_on": "2026-10-13",
+      "note": "Sheriff: everyone is first housed at RADF for medical screening and classification, then may stay or move to OFDF/HHCC; has male and female medical housing units. Address is the Sheriff's inmate mailing address.",
+      "todo": "court_ids: nearest criminal courthouse, not confirmed by Sheriff."
+    },
+    {
+      "id": "hhcc",
+      "name": "Herbert Hughes Correctional Center (HHCC)",
+      "address": "1328 Sperber Road",
+      "city": "El Centro",
+      "zip": "92243",
+      "phone": "(442) 265-2266",
+      "phone_note": "Jail & inmate information / visitation: (442) 265-2266 (Sheriff). Visiting rules PDF linked from the Sheriff jail page. Working, programming sentenced inmates can earn in-person lawn visits.",
+      "houses": null,
+      "url": "https://icso.imperialcounty.org/jail/",
+      "visiting_url": "https://icso.imperialcounty.org/wp-content/uploads/2023/04/Visitaion-at-RADF2023.pdf",
+      "commissary_or_money_url": "https://www.gettingout.com/",
+      "court_ids": [
+        "el-centro-criminal"
+      ],
+      "source_url": "https://icso.imperialcounty.org/",
+      "verified_on": "2026-10-13",
+      "note": "Sheriff: dormitory housing (314 beds), mostly working/programming incarcerated persons. Address is the Sheriff's inmate mailing address.",
+      "todo": "houses (men/women) not stated per facility. court_ids: nearest criminal courthouse, not confirmed by Sheriff."
+    },
+    {
+      "id": "ofdf",
+      "name": "Oren R. Fox Detention Facility (OFDF)",
+      "address": null,
+      "city": null,
+      "zip": null,
+      "phone": "(442) 265-2266",
+      "phone_note": "Jail & inmate information / visitation: (442) 265-2266 (Sheriff). Visiting rules PDF linked from the Sheriff jail page.",
+      "houses": null,
+      "url": "https://icso.imperialcounty.org/jail/",
+      "visiting_url": "https://icso.imperialcounty.org/wp-content/uploads/2023/04/Visitaion-at-RADF2023.pdf",
+      "commissary_or_money_url": "https://www.gettingout.com/",
+      "court_ids": [
+        "el-centro-criminal"
+      ],
+      "source_url": "https://icso.imperialcounty.org/jail/",
+      "verified_on": "2026-10-13",
+      "note": "Sheriff: medium-security facility opened 2018, 274 beds.",
+      "todo": "street address/city not listed on Sheriff pages; houses not stated. court_ids: nearest criminal courthouse, not confirmed by Sheriff."
+    },
+    {
+      "id": "juvenile-hall",
+      "name": "Imperial County Juvenile Hall (Probation)",
+      "address": null,
+      "city": null,
+      "zip": null,
+      "phone": "(442) 265-2450",
+      "phone_note": "Visiting information contact listed on Probation's Juvenile Services page (Probation Department, 324 Applestill Road, El Centro). Juvenile Hall PREA third-party line (442) 265-2425 per Sheriff page.",
+      "houses": "juvenile",
+      "url": "https://probation.imperialcounty.org/juvenile-services/",
+      "visiting_url": "https://probation.imperialcounty.org/juvenile-services/",
+      "commissary_or_money_url": null,
+      "court_ids": [],
+      "source_url": "https://probation.imperialcounty.org/juvenile-services/",
+      "verified_on": "2026-10-13",
+      "todo": "Juvenile Hall street address not listed; juvenile court location not identified on court site"
+    }
+  ],
+  "inmate_lookup_url": null,
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "note": "CA Department of Insurance 'Check a License' — verify any bail agent's license before signing. Imperial Sheriff jail & inmate information line: (442) 265-2266.",
+    "todo": "No Sheriff online inmate lookup or bail-posting page found; inmate_lookup_url left null"
+  }
+}

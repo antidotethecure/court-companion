@@ -1,0 +1,211 @@
+{
+  "state": "CA",
+  "county": "Tehama",
+  "slug": "tehama",
+  "court_name": "Superior Court of California, County of Tehama",
+  "court_website": "https://www.tehama.courts.ca.gov/",
+  "case_search_url": "https://www.tehama.courts.ca.gov/online-services/calendar-portal",
+  "case_search_note": "The court offers an Online Calendar Portal / Court Hearings Portal (hearing calendars), not a confirmed case-index search. Court says it is not the official record and may not reflect the latest filings. Call Criminal (530) 527-3563 for case status.",
+  "sources": [
+    {
+      "title": "Tehama Superior Court — Locations",
+      "url": "https://www.tehama.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tehama Superior Court — Criminal Division",
+      "url": "https://www.tehama.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tehama Superior Court — Calendar Portal",
+      "url": "https://www.tehama.courts.ca.gov/online-services/calendar-portal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tehama Superior Court — Self-Help",
+      "url": "https://www.tehama.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tehama County Sheriff — Visitation",
+      "url": "https://tehamaso.org/visitation/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tehama County Sheriff — Current Inmates",
+      "url": "https://tehamaso.org/current-inmates/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tehama County Sheriff — Contact Us",
+      "url": "https://tehamaso.org/contact-us/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tehama County Probation — Home",
+      "url": "http://www.tehamacoprobation.org",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tehama County Probation — Investigations and Pretrial Services",
+      "url": "http://www.tehamacoprobation.org/adult-investigations.htm",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Tehama County Probation — Juvenile Detention Facility",
+      "url": "http://www.tehamacoprobation.org/juvenile-detentionfacility.htm",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Legal Services of Northern California — Redding office",
+      "url": "https://lsnc.net/office/redding",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check an Agent/Broker license",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "red-bluff",
+      "name": "Tehama County Superior Court",
+      "address": "1740 Walnut Street",
+      "city": "Red Bluff",
+      "zip": "96080",
+      "phone": "(530) 527-3484",
+      "criminal_phone": "(530) 527-3563",
+      "hours": "Mon–Fri 8:30 a.m.–4:30 p.m.",
+      "criminal": true,
+      "note": "Only courthouse; hears all case types including criminal, traffic and juvenile. On your court date check the posted calendar for your name and courtroom; if not listed, report to the Clerk's Office. Appointed counsel is requested from the judge at first appearance (financial declaration required).",
+      "departments": [],
+      "source_url": "https://www.tehama.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Tehama County indigent defense (court-appointed counsel)",
+      "address": null,
+      "city": null,
+      "zip": null,
+      "phone": null,
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": null,
+      "source_url": "https://www.tehama.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13",
+      "todo": "Court Criminal page lists no Public Defender contact (only says to request appointed counsel from the judge); tehama.gov has no Public Defender link. Find official PD/contract-defender contact."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Legal Services of Northern California — Redding Office (serves Tehama)",
+      "serves": "Lassen, Modoc, Shasta, Siskiyou and Tehama counties",
+      "what": "Civil legal aid: housing, public benefits, education rights, health benefits, grandparent guardianship. No criminal defense or record clearance listed. 1370 West Street, Redding, CA 96001. After-hours intake message line (866) 815-5990.",
+      "phone": "(530) 241-3565",
+      "toll_free": "(800) 822-9687",
+      "email": null,
+      "url": "https://lsnc.net/office/redding",
+      "source_url": "https://lsnc.net/office/redding",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Tehama Superior Court — SHARP Self-Help Center",
+      "serves": "Self-represented litigants (need not live in Glenn, Butte or Tehama)",
+      "what": "Workshops and appointments at 1740 Walnut St.; expungement is among the issues listed; free referrals. Hours Mon, Thu, Fri 8:30 a.m.–4:00 p.m. — call to schedule.",
+      "phone": "(530) 527-8649",
+      "email": null,
+      "url": "https://www.tehama.courts.ca.gov/self-help",
+      "source_url": "https://www.tehama.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Tehama County Probation Department — Adult Division",
+      "address": "1840 Walnut Street",
+      "city": "Red Bluff",
+      "zip": "96080",
+      "phone": "(530) 527-4052",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "url": "http://www.tehamacoprobation.org",
+      "source_url": "http://www.tehamacoprobation.org",
+      "verified_on": "2026-10-13",
+      "note": "Mailing: PO Box 99, Red Bluff, CA 96080. Fax (530) 527-1579. Also runs a Day Reporting Center and AB 109 supervision; prepares 1203.4 PC dismissal reports after probation is completed."
+    }
+  ],
+  "programs": [
+    {
+      "id": "pretrial",
+      "name": "Probation Pretrial Release Program",
+      "type": "pretrial",
+      "summary": "Started April 2021. Probation uses a validated pretrial assessment tool and sends a bail report to the court at arraignment (criminal history, community ties, ability to make bail, risk). Released people are monitored through court hearings until plea or dismissal.",
+      "phone": "(530) 527-4052",
+      "url": "http://www.tehamacoprobation.org/adult-investigations.htm",
+      "source_url": "http://www.tehamacoprobation.org/adult-investigations.htm",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "self-help",
+      "name": "SHARP Self-Help Center (incl. expungement)",
+      "type": "self_help",
+      "summary": "Court self-help at 1740 Walnut St., (530) 527-8649; expungement listed among issues served. Court also posts Certificate of Rehabilitation petition forms on its Criminal page.",
+      "url": "https://www.tehama.courts.ca.gov/self-help",
+      "source_url": "https://www.tehama.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "tehama-county-jail",
+      "name": "Tehama County Jail",
+      "address": null,
+      "city": "Red Bluff",
+      "zip": "96080",
+      "houses": "both",
+      "phone": "(530) 529-7910",
+      "phone_note": "Jail line per Sheriff Contact Us; Sheriff main (530) 529-7900. Inmate mail: P.O. Box 490, Red Bluff, CA 96080.",
+      "url": "https://tehamaso.org/current-inmates/",
+      "visiting_url": "https://tehamaso.org/visitation/",
+      "commissary_or_money_url": "http://www.inmatedeposits.com",
+      "court_ids": [
+        "red-bluff"
+      ],
+      "note": "Houses men and women (male and female mainline/PC/separation units on visiting schedule). Non-contact visits 30 min twice weekly; register at least 7 days (max 30) ahead via jailvisitation@tehamaso.org; video visits via icsolutions.com. Deposits online (inmatedeposits.com) or (866) 345-1884; commissary packages tehamacountypackages.com. court_ids: only courthouse in county.",
+      "source_url": "https://tehamaso.org/visitation/",
+      "verified_on": "2026-10-13",
+      "todo": "Jail street address not on Sheriff pages loaded (Sheriff's office is 22840 Antelope Blvd, Red Bluff; mail goes to PO Box 490)"
+    },
+    {
+      "id": "tehama-jdf",
+      "name": "Tehama County Juvenile Detention Facility",
+      "address": "1840 Walnut Street",
+      "city": "Red Bluff",
+      "zip": "96080",
+      "houses": "juvenile",
+      "phone": "(530) 527-4052",
+      "phone_note": "Probation main line.",
+      "url": "http://www.tehamacoprobation.org/juvenile-detentionfacility.htm",
+      "visiting_url": null,
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "red-bluff"
+      ],
+      "note": "Operated by Probation. court_ids: only courthouse in county.",
+      "source_url": "http://www.tehamacoprobation.org/juvenile-detentionfacility.htm",
+      "verified_on": "2026-10-13",
+      "todo": "Visiting info not on facility page"
+    }
+  ],
+  "inmate_lookup_url": "http://inmates.tehamaso.org/inmates/ICURRENT.HTM",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' — search a bail agent by name or license number for status and discipline history (linked from insurance.ca.gov CheckAgntBrkr page).",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13"
+  }
+}

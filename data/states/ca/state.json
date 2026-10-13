@@ -1,12 +1,79 @@
 {
   "state": "CA",
   "name": "California",
-  "counties_available": ["los-angeles", "orange"],
+  "counties_available": [
+    "alameda",
+    "alpine",
+    "amador",
+    "butte",
+    "calaveras",
+    "colusa",
+    "contra-costa",
+    "del-norte",
+    "el-dorado",
+    "fresno",
+    "glenn",
+    "humboldt",
+    "imperial",
+    "inyo",
+    "kern",
+    "kings",
+    "lake",
+    "lassen",
+    "los-angeles",
+    "madera",
+    "marin",
+    "mariposa",
+    "mendocino",
+    "merced",
+    "modoc",
+    "mono",
+    "monterey",
+    "napa",
+    "nevada",
+    "orange",
+    "placer",
+    "plumas",
+    "riverside",
+    "sacramento",
+    "san-benito",
+    "san-bernardino",
+    "san-diego",
+    "san-francisco",
+    "san-joaquin",
+    "san-luis-obispo",
+    "san-mateo",
+    "santa-barbara",
+    "santa-clara",
+    "santa-cruz",
+    "shasta",
+    "sierra",
+    "siskiyou",
+    "solano",
+    "sonoma",
+    "stanislaus",
+    "sutter",
+    "tehama",
+    "trinity",
+    "tulare",
+    "tuolumne",
+    "ventura",
+    "yolo",
+    "yuba"
+  ],
   "federal_districts": [
     {
       "id": "cacd",
       "name": "Central District of California",
-      "counties": ["los-angeles", "orange", "riverside", "san-bernardino", "ventura", "santa-barbara", "san-luis-obispo"]
+      "counties": [
+        "los-angeles",
+        "orange",
+        "riverside",
+        "san-bernardino",
+        "ventura",
+        "santa-barbara",
+        "san-luis-obispo"
+      ]
     }
   ],
   "bail": {
@@ -40,25 +107,92 @@
     "verified_on": "2026-10-10"
   },
   "statewide_help": [
-    {"name": "California State Bar — attorney search", "url": "https://apps.calbar.ca.gov/attorney/LicenseeSearch/QuickSearch", "what": "Verify a lawyer's license and discipline record.", "verified_on": "2026-10-10"},
-    {"name": "LawHelpCA", "url": "https://www.lawhelpca.org/", "what": "Free legal information and a finder for nearby legal aid; maintained by the Legal Aid Association of California.", "verified_on": "2026-10-10"},
-    {"name": "California Courts Self-Help Guide", "url": "https://selfhelp.courts.ca.gov/", "what": "Official step-by-step court information and forms for people handling a case without a lawyer.", "verified_on": "2026-10-10"},
-    {"name": "State Bar certified Lawyer Referral Services — Los Angeles area (incl. Orange)", "url": "https://www.calbar.ca.gov/public/find-legal-professionals/find-lawyer-referral-service/find-los-angeles-lawyer-referral-service", "what": "State Bar-certified referral services. Listed there: LA County Bar Association LRIS (SmartLaw) 213-243-1525 / 866-762-7852; Orange County Bar Association LRIS 949-440-6747 / 877-257-4762. Certified services must show their State Bar certification number or mark in advertising.", "verified_on": "2026-10-10"},
-    {"name": "What a certified Lawyer Referral Service can do for you", "url": "https://www.calbar.ca.gov/public/find-legal-professionals/find-lawyer-referral-service/what-certified-lawyer-referral-service-can-do-you", "what": "State Bar explainer on certified referral services.", "verified_on": "2026-10-10"}
+    {
+      "name": "California State Bar — attorney search",
+      "url": "https://apps.calbar.ca.gov/attorney/LicenseeSearch/QuickSearch",
+      "what": "Verify a lawyer's license and discipline record.",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "LawHelpCA",
+      "url": "https://www.lawhelpca.org/",
+      "what": "Free legal information and a finder for nearby legal aid; maintained by the Legal Aid Association of California.",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "California Courts Self-Help Guide",
+      "url": "https://selfhelp.courts.ca.gov/",
+      "what": "Official step-by-step court information and forms for people handling a case without a lawyer.",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "State Bar certified Lawyer Referral Services — Los Angeles area (incl. Orange)",
+      "url": "https://www.calbar.ca.gov/public/find-legal-professionals/find-lawyer-referral-service/find-los-angeles-lawyer-referral-service",
+      "what": "State Bar-certified referral services. Listed there: LA County Bar Association LRIS (SmartLaw) 213-243-1525 / 866-762-7852; Orange County Bar Association LRIS 949-440-6747 / 877-257-4762. Certified services must show their State Bar certification number or mark in advertising.",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "What a certified Lawyer Referral Service can do for you",
+      "url": "https://www.calbar.ca.gov/public/find-legal-professionals/find-lawyer-referral-service/what-certified-lawyer-referral-service-can-do-you",
+      "what": "State Bar explainer on certified referral services.",
+      "verified_on": "2026-10-10"
+    }
   ],
   "record_clearing": [
-    {"name": "Clean your record (California Courts Self-Help)", "url": "https://selfhelp.courts.ca.gov/clean-your-record", "what": "Official guide with a questionnaire for record-cleaning options. Notes that true expungement does not exist in California. The page does not name PC 1203.4 itself — todo: link the specific dismissal page once confirmed.", "verified_on": "2026-10-10"},
-    {"name": "Record cleaning: arrest with no conviction", "url": "https://selfhelp.courts.ca.gov/clean-your-record/arrest-no-conviction", "what": "Sealing arrest records (form CR-409).", "verified_on": null}
+    {
+      "name": "Clean your record (California Courts Self-Help)",
+      "url": "https://selfhelp.courts.ca.gov/clean-your-record",
+      "what": "Official guide with a questionnaire for record-cleaning options. Notes that true expungement does not exist in California. The page does not name PC 1203.4 itself — todo: link the specific dismissal page once confirmed.",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "Record cleaning: arrest with no conviction",
+      "url": "https://selfhelp.courts.ca.gov/clean-your-record/arrest-no-conviction",
+      "what": "Sealing arrest records (form CR-409).",
+      "verified_on": null
+    }
   ],
   "victim_witness_note": "The app never contacts or relays messages to witnesses or alleged victims; families should route everything through defense counsel.",
   "sources": [
-    {"title": "CDI — Bail Bonds (consumers)", "url": "https://www.insurance.ca.gov/01-consumers/170-bail-bonds/", "verified_on": "2026-10-10"},
-    {"title": "CDI — Tips to Avoid Bail Agent Scams (PDF, Apr 2023)", "url": "https://www.insurance.ca.gov/01-consumers/170-bail-bonds/upload/CDI-Tips-to-Avoid-Bail-Agent-Scams.-4.24-edit.pdf", "verified_on": "2026-10-10"},
-    {"title": "CDI — Check License Status", "url": "https://www.insurance.ca.gov/license-status/", "verified_on": "2026-10-10"},
-    {"title": "CDI — License Number Search", "url": "https://cdicloud.insurance.ca.gov/cal/LicenseNumberSearch", "verified_on": "2026-10-10"},
-    {"title": "CDI — Bail Frequently Asked Questions", "url": "https://www.insurance.ca.gov/0200-industry/0090-faq/Bail-Frequently-Asked-Questions.cfm", "verified_on": "2026-10-10"},
-    {"title": "CDI — Consumer help / complaints", "url": "https://www.insurance.ca.gov/01-consumers/101-help/index.cfm", "verified_on": "2026-10-10"},
-    {"title": "State Bar — Find a Los Angeles Area Lawyer Referral Service", "url": "https://www.calbar.ca.gov/public/find-legal-professionals/find-lawyer-referral-service/find-los-angeles-lawyer-referral-service", "verified_on": "2026-10-10"},
-    {"title": "California Courts Self-Help — Clean your record", "url": "https://selfhelp.courts.ca.gov/clean-your-record", "verified_on": "2026-10-10"}
+    {
+      "title": "CDI — Bail Bonds (consumers)",
+      "url": "https://www.insurance.ca.gov/01-consumers/170-bail-bonds/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "CDI — Tips to Avoid Bail Agent Scams (PDF, Apr 2023)",
+      "url": "https://www.insurance.ca.gov/01-consumers/170-bail-bonds/upload/CDI-Tips-to-Avoid-Bail-Agent-Scams.-4.24-edit.pdf",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "CDI — Check License Status",
+      "url": "https://www.insurance.ca.gov/license-status/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "CDI — License Number Search",
+      "url": "https://cdicloud.insurance.ca.gov/cal/LicenseNumberSearch",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "CDI — Bail Frequently Asked Questions",
+      "url": "https://www.insurance.ca.gov/0200-industry/0090-faq/Bail-Frequently-Asked-Questions.cfm",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "CDI — Consumer help / complaints",
+      "url": "https://www.insurance.ca.gov/01-consumers/101-help/index.cfm",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "State Bar — Find a Los Angeles Area Lawyer Referral Service",
+      "url": "https://www.calbar.ca.gov/public/find-legal-professionals/find-lawyer-referral-service/find-los-angeles-lawyer-referral-service",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "California Courts Self-Help — Clean your record",
+      "url": "https://selfhelp.courts.ca.gov/clean-your-record",
+      "verified_on": "2026-10-10"
+    }
   ]
 }

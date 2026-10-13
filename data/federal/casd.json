@@ -1,0 +1,190 @@
+{
+  "id": "casd",
+  "name": "U.S. District Court — Southern District of California",
+  "website": "https://www.casd.uscourts.gov/",
+  "case_search": {
+    "pacer": "https://pacer.uscourts.gov/",
+    "courtlistener": "https://www.courtlistener.com/"
+  },
+  "sources": [
+    {
+      "title": "CASD — Court Location",
+      "url": "https://www.casd.uscourts.gov/contactus.aspx",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CASD — Clerk's Office",
+      "url": "https://www.casd.uscourts.gov/clerksoffice.aspx",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CASD — Telephone Directory",
+      "url": "https://www.casd.uscourts.gov/clerksoffice/telephone-list.aspx",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CASD — CJA & eVoucher Information",
+      "url": "https://www.casd.uscourts.gov/attorney/cja.aspx",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "fd.org — Federal Public & Community Defender Directory (dated 10/05/2026)",
+      "url": "https://www.fd.org/sites/default/files/public/other-resources/Federal-Defender-Programs/defenderdir_0.pdf",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "U.S. Probation, S.D. Cal. — offices",
+      "url": "https://www.casp.uscourts.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "U.S. Pretrial Services, S.D. Cal. — Contact Us",
+      "url": "https://www.caspt.uscourts.gov/contact-us",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "carter-keep",
+      "name": "James M. Carter & Judith N. Keep United States Courthouse",
+      "division": null,
+      "address": "333 West Broadway, Suite 420 (Clerk's Office)",
+      "city": "San Diego",
+      "zip": "92101",
+      "phone": "(619) 557-5600",
+      "hours": "Clerk's Office 8:30 a.m.–4:30 p.m. Mon–Fri; building business hours 7:00 a.m.–6:00 p.m. Mon–Fri",
+      "criminal": true,
+      "note": "Clerk's Office is here. Jury information (800) 998-9035; interpreter services manager (619) 557-5205. 'criminal' assumed true — todo: confirm magistrate duty courtroom. CASD serves San Diego and Imperial counties.",
+      "departments": [],
+      "source_url": "https://www.casd.uscourts.gov/contactus.aspx",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "schwartz",
+      "name": "Edward J. Schwartz United States Courthouse",
+      "division": null,
+      "address": "221 West Broadway",
+      "city": "San Diego",
+      "zip": "92101",
+      "phone": "(619) 557-5600",
+      "hours": "Business hours 7:00 a.m.–6:00 p.m. Mon–Fri",
+      "criminal": true,
+      "note": "Same main phone as the Clerk's Office. 'criminal' assumed true — todo: confirm which proceedings are held here.",
+      "departments": [],
+      "source_url": "https://www.casd.uscourts.gov/contactus.aspx",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "el-centro",
+      "name": "El Centro United States Courthouse",
+      "division": null,
+      "address": "2003 W. Adams Ave, Ste 220",
+      "city": "El Centro",
+      "zip": "92243",
+      "phone": "(760) 339-4242",
+      "hours": null,
+      "criminal": true,
+      "note": "Serves Imperial County. todo: business hours not stated on the location page; 'criminal' assumed true — confirm.",
+      "departments": [],
+      "source_url": "https://www.casd.uscourts.gov/contactus.aspx",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Federal Defenders of San Diego, Inc. — Main Office",
+      "address": "225 Broadway, Suite 900",
+      "city": "San Diego",
+      "zip": "92101-5030",
+      "phone": "(619) 234-8467",
+      "hours": null,
+      "url": "https://www.fd.org/sites/default/files/public/other-resources/Federal-Defender-Programs/defenderdir_0.pdf",
+      "note": "Community defender organization (not a Federal Public Defender office). Executive Director: Kasha Castillo. Fax (619) 687-2666. todo: own website not verified.",
+      "source_url": "https://www.fd.org/sites/default/files/public/other-resources/Federal-Defender-Programs/defenderdir_0.pdf",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Federal Defenders of San Diego, Inc. — El Centro Office",
+      "address": "1699 W. Main Street, Suite D",
+      "city": "El Centro",
+      "zip": "92243",
+      "phone": "(760) 335-3510",
+      "hours": null,
+      "url": "https://www.fd.org/sites/default/files/public/other-resources/Federal-Defender-Programs/defenderdir_0.pdf",
+      "note": "Fax (760) 335-3610.",
+      "source_url": "https://www.fd.org/sites/default/files/public/other-resources/Federal-Defender-Programs/defenderdir_0.pdf",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "pretrial": [
+    {
+      "name": "U.S. Pretrial Services Office, S.D. Cal. — San Diego",
+      "address": "James M. Carter and Judith N. Keep U.S. Courthouse, 333 West Broadway, Suite 600, San Diego, CA 92101",
+      "phone": "(619) 557-7610",
+      "url": "https://www.caspt.uscourts.gov/",
+      "what": "Gathers information for the judge's release/detention decision and supervises people released before trial, including location monitoring. Fax (619) 557-6729.",
+      "source_url": "https://www.caspt.uscourts.gov/contact-us",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "U.S. Pretrial Services Office, S.D. Cal. — El Centro",
+      "address": "El Centro U.S. Courthouse, 2003 West Adams Ave., Suite 110, El Centro, CA 92243",
+      "phone": "(760) 339-4222",
+      "url": "https://www.caspt.uscourts.gov/",
+      "what": "Fax (760) 353-8922.",
+      "source_url": "https://www.caspt.uscourts.gov/contact-us",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "U.S. Probation Office, S.D. Cal. — San Diego (main)",
+      "address": "101 West Broadway, Suite 700, San Diego, CA 92101-7991",
+      "phone": "(619) 557-5510",
+      "url": "https://www.casp.uscourts.gov/",
+      "what": "Serves San Diego County (North and Central). Investigation Division (619) 557-6650; Supervision Division (619) 557-5739.",
+      "source_url": "https://www.casp.uscourts.gov/offices/san-diego",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "U.S. Probation Office, S.D. Cal. — Schwartz Courthouse",
+      "address": "221 West Broadway, Suite 1100, San Diego, CA 92101 (mail to 101 West Broadway, Suite 700)",
+      "phone": "(619) 557-6650",
+      "url": "https://www.casp.uscourts.gov/",
+      "what": "Investigation Division number.",
+      "source_url": "https://www.casp.uscourts.gov/offices/schwartz-court-house",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "U.S. Probation Office, S.D. Cal. — Chula Vista",
+      "address": "303 H St., Suite 500, Chula Vista, CA 91910",
+      "phone": "(619) 409-5100",
+      "url": "https://www.casp.uscourts.gov/",
+      "what": "Serves San Diego County (South).",
+      "source_url": "https://www.casp.uscourts.gov/offices/chula-vista",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "U.S. Probation Office, S.D. Cal. — El Centro",
+      "address": "2003 West Adams Avenue, Suite 110, El Centro, CA 92243",
+      "phone": "(760) 339-4220",
+      "url": "https://www.casp.uscourts.gov/",
+      "what": "Serves Imperial County.",
+      "source_url": "https://www.casp.uscourts.gov/offices/el-centro",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "marshals": {
+    "name": "U.S. Marshals Service — Southern District of California",
+    "url": "http://www.usmarshals.gov/district/ca-s/index.html",
+    "phone": null,
+    "note": "URL is the link in the CASD website footer. todo: phone not verified from an official page on 2026-10-13."
+  },
+  "cja_panel": {
+    "what": "Criminal Justice Act panel attorneys are private lawyers paid under the CJA when the court appoints counsel for someone who cannot afford a lawyer (and the Federal Defenders cannot take the case). The court's CJA page is mainly billing/eVoucher information for appointed attorneys.",
+    "url": "https://www.casd.uscourts.gov/attorney/cja.aspx",
+    "source_url": "https://www.casd.uscourts.gov/attorney/cja.aspx",
+    "note": "todo: panel structure/application process not described on the page fetched.",
+    "verified_on": "2026-10-13"
+  }
+}

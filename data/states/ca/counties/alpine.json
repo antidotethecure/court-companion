@@ -1,0 +1,168 @@
+{
+  "state": "CA",
+  "county": "Alpine",
+  "slug": "alpine",
+  "court_name": "Superior Court of California, County of Alpine",
+  "court_website": "https://www.alpine.courts.ca.gov/",
+  "case_search_url": null,
+  "case_search_note": "Court says it does not currently offer online access to court records via a public portal, and there is no public access terminal at the courthouse; all searches/copy requests are done by court staff (use the Records Requests page). Automatic record-relief copies are given only at the counter with photo ID — not mailed, faxed or emailed.",
+  "sources": [
+    {
+      "title": "Alpine Superior Court — Locations",
+      "url": "https://alpine.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Alpine Superior Court — Criminal",
+      "url": "https://www.alpine.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Alpine County Sheriff",
+      "url": "https://www.alpinecountyca.gov/204/Sheriff",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Alpine County — Staff/Department Directory",
+      "url": "https://www.alpinecountyca.gov/Directory.aspx",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "El Dorado County Sheriff — Jail Visiting",
+      "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/sheriff/custody/visiting",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "El Dorado County Sheriff — Custody",
+      "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/sheriff/custody",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Calaveras County Sheriff — Adult Detention Facility",
+      "url": "https://sheriff.calaverasgov.us/Detention-Facility",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check Agent/Broker",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "markleeville",
+      "name": "Alpine County Superior Court (Markleeville)",
+      "address": "14777 State Route 89",
+      "city": "Markleeville",
+      "zip": "96120",
+      "phone": "(530) 694-2113",
+      "criminal_phone": null,
+      "hours": "Mon–Fri 8:00 a.m.–4:30 p.m. (excl. holidays/closures)",
+      "criminal": true,
+      "note": "Only courthouse in the county. Criminal calendar is Mondays at 1:30 p.m. for cases filed by the DA; it does not run on court holidays or jury-trial weeks — call the clerk to confirm. Felony arraignments generally require in-person appearance; misdemeanor defendants may sometimes appear remotely. Mailing: P.O. Box 518, Markleeville, CA 96120. Fax (530) 694-2119. Divisions listed: criminal, traffic, civil, family, juvenile, probate, appeals.",
+      "departments": [],
+      "source_url": "https://alpine.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Law Office of Kyle Neddenriep (Alpine County contract criminal defense)",
+      "address": null,
+      "city": null,
+      "zip": null,
+      "phone": "(530) 208-0911",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": null,
+      "source_url": "https://www.alpine.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13",
+      "note": "Alpine County has no public defender office; the court's Criminal page says the county is currently contracted with this law office for criminal defense of people who cannot afford a lawyer. Ask the judge for appointed counsel at your first appearance.",
+      "todo": "Office address/hours not on the court page"
+    }
+  ],
+  "legal_aid": [],
+  "probation": {
+    "name": "Alpine County Probation Department",
+    "address": null,
+    "city": "Markleeville",
+    "zip": "96120",
+    "phone": "(530) 694-2192",
+    "hours": null,
+    "url": null,
+    "source_url": "https://www.alpinecountyca.gov/Directory.aspx",
+    "verified_on": "2026-10-13",
+    "note": "Phone from the official county staff directory (Acting Chief Probation Officer listed under this number).",
+    "todo": "Street address, hours and a dedicated probation web page not found on an official page"
+  },
+  "programs": [],
+  "jails": [
+    {
+      "id": "eldorado-placerville",
+      "name": "El Dorado County Jail — Placerville (contract housing)",
+      "address": "300 Forni Road",
+      "city": "Placerville",
+      "zip": "95667",
+      "phone": "(530) 621-6000",
+      "phone_note": "Number from El Dorado Sheriff visiting page. Alpine County has NO jail; Alpine Sheriff says jail services are contracted to El Dorado and Calaveras Counties.",
+      "houses": null,
+      "visiting_url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/sheriff/custody/visiting",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "markleeville"
+      ],
+      "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/sheriff/custody",
+      "source_url": "https://www.alpinecountyca.gov/204/Sheriff",
+      "verified_on": "2026-10-13",
+      "note": "Capacity 303 inmates + 8 outpatient medical beds per El Dorado Sheriff Custody page. In-person visits listed daily 8–11 a.m. & 1–4 p.m., plus Mon–Thu 7–10 p.m.; video visits via NCIC (videovisit.ncic.com). El Dorado inmate list: https://eldoradosheriff.citizenrims.com/incarcerated-people",
+      "todo": "Which contract jail a given Alpine arrestee goes to, and men/women housing at this facility, are not stated on official pages; court_ids is the Alpine courthouse where Alpine cases are heard — transport route not confirmed"
+    },
+    {
+      "id": "eldorado-south-lake-tahoe",
+      "name": "El Dorado County Jail — South Lake Tahoe (contract housing)",
+      "address": "1051 Al Tahoe Blvd",
+      "city": "South Lake Tahoe",
+      "zip": "96150",
+      "phone": "(530) 573-3030",
+      "phone_note": "Number from El Dorado Sheriff visiting page. Contract facility for Alpine County (Alpine has no jail).",
+      "houses": null,
+      "visiting_url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/sheriff/custody/visiting",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "markleeville"
+      ],
+      "url": "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Safety-Justice/sheriff/custody",
+      "source_url": "https://www.alpinecountyca.gov/204/Sheriff",
+      "verified_on": "2026-10-13",
+      "note": "Capacity up to 158 inmates per El Dorado Sheriff Custody page.",
+      "todo": "Whether Alpine arrestees are held here vs. Placerville not stated; men/women housing not stated; visiting page mentioned a 2026 in-person visiting closure for construction — call ahead"
+    },
+    {
+      "id": "calaveras-san-andreas",
+      "name": "Calaveras County Adult Detention Facility (contract housing)",
+      "address": "1045 Jeff Tuttle Drive",
+      "city": "San Andreas",
+      "zip": "95249",
+      "phone": "(209) 754-6499",
+      "phone_note": "Jail office Mon–Fri 8 a.m.–4 p.m. Contract facility for Alpine County (Alpine has no jail).",
+      "houses": null,
+      "visiting_url": "https://sheriff.calaverasgov.us/Detention-Facility/Visiting-Inmates",
+      "commissary_or_money_url": "https://sheriff.calaverasgov.us/Detention-Facility/Inmate-Commissary",
+      "court_ids": [
+        "markleeville"
+      ],
+      "url": "https://sheriff.calaverasgov.us/Detention-Facility",
+      "source_url": "https://www.alpinecountyca.gov/204/Sheriff",
+      "verified_on": "2026-10-13",
+      "todo": "Men/women housing not stated on the Calaveras Sheriff page; which Alpine arrestees go here not stated"
+    }
+  ],
+  "inmate_lookup_url": null,
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' (linked from insurance.ca.gov CheckAgntBrkr page) — look up any bail agent's license status. Alpine has no jail, so bail is posted where the person is held (El Dorado or Calaveras County jail) — call that facility. Not verified: how Alpine-case bail is handled by the contract jails.",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13"
+  }
+}

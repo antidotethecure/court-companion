@@ -1,0 +1,169 @@
+{
+  "state": "CA",
+  "county": "Calaveras",
+  "slug": "calaveras",
+  "court_name": "Superior Court of California, County of Calaveras",
+  "court_website": "https://www.calaveras.courts.ca.gov/",
+  "case_search_url": null,
+  "case_search_note": "No online case search found on the court's site (Online Services lists court calendars, tentative rulings, traffic payments and eFiling). Use Court Calendars (https://www.calaveras.courts.ca.gov/online-services/court-calendars) or call the clerk.",
+  "sources": [
+    {
+      "title": "Calaveras Superior Court — Location, Hours & Contact",
+      "url": "https://www.calaveras.courts.ca.gov/general-information/location-hours-and-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Calaveras Superior Court — Criminal",
+      "url": "https://www.calaveras.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Calaveras County Public Defender",
+      "url": "https://www.calaverasgov.us/calaveras-county-public-defender",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Calaveras County Probation",
+      "url": "https://probation.calaverasgov.us/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Calaveras Probation — SB 36 Pretrial Risk Assessment",
+      "url": "https://probation.calaverasgov.us/Policies-and-Documents/SB-36-Pretrial-Release-Risk-Assessment-Tools",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Calaveras Sheriff",
+      "url": "https://sheriff.calaverasgov.us/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Calaveras Sheriff — Adult Detention Facility",
+      "url": "https://sheriff.calaverasgov.us/Detention-Facility",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Calaveras Sheriff — Visiting Inmates",
+      "url": "https://sheriff.calaverasgov.us/Detention-Facility/Visiting-Inmates",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Calaveras Sheriff — Inmate Commissary",
+      "url": "https://sheriff.calaverasgov.us/Detention-Facility/Inmate-Commissary",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "LSNC — Auburn Office",
+      "url": "https://lsnc.net/office/auburn",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check Agent/Broker",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "san-andreas",
+      "name": "Calaveras Superior Court (San Andreas)",
+      "address": "400 Government Center Drive",
+      "city": "San Andreas",
+      "zip": "95249",
+      "phone": "(209) 754-9800",
+      "criminal_phone": null,
+      "hours": "Courthouse Mon–Fri 8:00 a.m.–4:00 p.m.; clerk window 8:15 a.m.–3:00 p.m.; clerk phones 8:15 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Only courthouse in the county; hears criminal and traffic. Self-Help Legal Center (209) 754-1443. Unpaid fines may be referred to collections (LGBS 1-844-544-5354 or FTB-COD 1-800-272-9829).",
+      "departments": [],
+      "source_url": "https://www.calaveras.courts.ca.gov/general-information/location-hours-and-contact-info",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Calaveras County Public Defender",
+      "address": "265 W. St. Charles Street, Suite 4",
+      "city": "San Andreas",
+      "zip": "95249",
+      "phone": "(209) 754-4321",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.calaverasgov.us/calaveras-county-public-defender",
+      "source_url": "https://www.calaverasgov.us/calaveras-county-public-defender",
+      "verified_on": "2026-10-13",
+      "note": "Mailing: PO Box 725, San Andreas, CA 95249. Fax (209) 754-4143.",
+      "todo": "Hours not listed on county page"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Legal Services of Northern California — Auburn Office",
+      "serves": "Low-income residents of Amador, Calaveras, El Dorado, Nevada, Placer and Sierra counties",
+      "what": "Free CIVIL legal help — housing and public benefits (CalWORKs, CalFresh, Medi-Cal, General Assistance, SSI/Social Security, unemployment, SDI). Not criminal defense; page does not mention record clearing.",
+      "phone": "(530) 823-7560",
+      "toll_free": "(800) 660-6107",
+      "email": null,
+      "address": "190 Reamer Street, Auburn, CA 95603",
+      "hours": "Intake Mon–Thu 9 a.m.–12 p.m. and 1:15–4 p.m.; no new intakes Fridays",
+      "url": "https://lsnc.net/office/auburn",
+      "source_url": "https://lsnc.net/office/auburn",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": {
+    "name": "Calaveras County Probation Department",
+    "address": "23 E. Saint Charles",
+    "city": "San Andreas",
+    "zip": "95249",
+    "phone": "(209) 754-6466",
+    "hours": "Mon–Fri 8 a.m.–5 p.m.",
+    "url": "https://probation.calaverasgov.us/",
+    "source_url": "https://probation.calaverasgov.us/",
+    "verified_on": "2026-10-13",
+    "note": "Mailing: 891 Mountain Ranch Road, San Andreas, CA 95249. Fax (209) 754-4913. Fines/fees/restitution can be paid online (GovPay)."
+  },
+  "programs": [
+    {
+      "id": "pretrial",
+      "name": "Pretrial Release Risk Assessment (SB 36)",
+      "type": "pretrial",
+      "summary": "Calaveras Probation publishes its SB 36 pretrial release risk-assessment tools policy. The page does not describe check-in rules — follow your release order and ask Probation.",
+      "phone": "(209) 754-6466",
+      "url": "https://probation.calaverasgov.us/Policies-and-Documents/SB-36-Pretrial-Release-Risk-Assessment-Tools",
+      "source_url": "https://probation.calaverasgov.us/",
+      "verified_on": "2026-10-13",
+      "todo": "Collaborative courts: the Judicial Council 2026 fact sheet lists Calaveras but which court types was not readable; no court page found"
+    }
+  ],
+  "jails": [
+    {
+      "id": "calaveras-adf",
+      "name": "Calaveras County Adult Detention Facility",
+      "address": "1045 Jeff Tuttle Drive",
+      "city": "San Andreas",
+      "zip": "95249",
+      "phone": "(209) 754-6499",
+      "phone_note": "Jail office Mon–Fri 8 a.m.–4 p.m. (closed weekends/holidays). Fax (209) 754-6716. Sheriff main (209) 754-6500.",
+      "houses": null,
+      "visiting_url": "https://sheriff.calaverasgov.us/Detention-Facility/Visiting-Inmates",
+      "commissary_or_money_url": "https://sheriff.calaverasgov.us/Detention-Facility/Inmate-Commissary",
+      "court_ids": [
+        "san-andreas"
+      ],
+      "url": "https://sheriff.calaverasgov.us/Detention-Facility",
+      "source_url": "https://sheriff.calaverasgov.us/Detention-Facility",
+      "verified_on": "2026-10-13",
+      "note": "Visits scheduled through Securus (except non-contact glass visits); Sunday visits/new visitor registration due by 2 p.m. the Friday before. Money: SmartDeposit online, Securus, or lobby kiosk during business hours (need arrest number). Also houses Alpine County inmates under contract (per Alpine Sheriff). court_ids: nearest criminal courthouse, not confirmed.",
+      "todo": "Men/women housing not stated on Sheriff pages"
+    }
+  ],
+  "inmate_lookup_url": "https://calaveras.citizenrims.com/",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' (linked from insurance.ca.gov CheckAgntBrkr page) — look up any bail agent's license status. Calaveras Sheriff pages give no bail procedure; call the jail at (209) 754-6499. Daily booking logs: https://sheriff.calaverasgov.us/Press-Releases-Logs",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13"
+  }
+}

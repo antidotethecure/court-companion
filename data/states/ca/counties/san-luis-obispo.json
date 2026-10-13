@@ -1,0 +1,354 @@
+{
+  "state": "CA",
+  "county": "San Luis Obispo",
+  "slug": "san-luis-obispo",
+  "court_name": "Superior Court of California, County of San Luis Obispo",
+  "court_website": "https://www.slo.courts.ca.gov/",
+  "case_search_url": "https://researchca.tylerhost.net/CourtRecordsSearch/Home#!/home",
+  "case_search_note": "re:SearchCA (linked from the court's Online Case Lookup page). Remote access requires registration (eFileCalifornia account); courthouse kiosks do not. Court also offers text message case notifications.",
+  "sources": [
+    {
+      "title": "SLO Superior Court — Location & Contact Info",
+      "url": "https://www.slo.courts.ca.gov/general-information/location-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SLO Superior Court — Criminal Division",
+      "url": "https://www.slo.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SLO Superior Court — Online Case Lookup",
+      "url": "https://www.slo.courts.ca.gov/online-services/online-case-lookup",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SLO Superior Court — Cleaning Your Record",
+      "url": "https://www.slo.courts.ca.gov/self-help/criminal-law/cleaning-your-record",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SLO Superior Court — Warrants",
+      "url": "https://www.slo.courts.ca.gov/self-help/criminal-law/warrants",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SLO Sheriff — Jail Information",
+      "url": "https://www.slosheriff.org/jail-information/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SLO Sheriff — Jail / Custody FAQs",
+      "url": "https://www.slosheriff.org/jail-custody-faqs/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "County of SLO — Public Defender (contract services)",
+      "url": "https://www.slocounty.ca.gov/departments/public-defender",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "San Luis Obispo Defenders — Contact / Expungements",
+      "url": "https://www.slodefend.com/contact-us/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SLO Probation — Contact Us",
+      "url": "https://www.slocounty.ca.gov/Departments/Probation/Contact-Us.aspx",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "criminal-branch",
+      "name": "Criminal Branch",
+      "address": "1050 Monterey Street, Rm 220",
+      "city": "San Luis Obispo",
+      "zip": "93408",
+      "phone": "(805) 706-3600",
+      "criminal_phone": "(805) 706-3600",
+      "hours": "Phones Mon–Fri 8:30 a.m.–12:00 p.m.; counter Mon–Thu 8:30 a.m.–12:00 p.m.",
+      "criminal": true,
+      "note": "Criminal Operations handles non-traffic infractions, misdemeanors and felonies. Court location page lists 1050 Monterey St Rm 220 as the clerk address for the Criminal Branch. Newly arrested people must be arraigned within 48 hours (Sheriff FAQ).",
+      "departments": [],
+      "source_url": "https://www.slo.courts.ca.gov/location/criminal-branch",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "civil-family",
+      "name": "Civil & Family Law Branch",
+      "address": "1050 Monterey Street, Rm 220",
+      "city": "San Luis Obispo",
+      "zip": "93408",
+      "phone": "(805) 706-3600",
+      "criminal_phone": null,
+      "hours": "Phones Mon–Fri 8:30 a.m.–12:00 p.m.; counter Mon–Thu 8:30 a.m.–12:00 p.m.",
+      "criminal": false,
+      "note": "Civil and family law.",
+      "departments": [],
+      "source_url": "https://www.slo.courts.ca.gov/location/civil-family-law-branch",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "grover-beach",
+      "name": "Grover Beach Branch",
+      "address": "214 South 16th Street",
+      "city": "Grover Beach",
+      "zip": "93433",
+      "phone": "(805) 706-3600",
+      "criminal_phone": null,
+      "hours": "Phones Mon–Fri 8:30 a.m.–12:00 p.m.; counter Mon–Thu 8:30 a.m.–12:00 p.m.",
+      "criminal": null,
+      "note": "Case types heard here are not listed on the court's location page.",
+      "departments": [],
+      "source_url": "https://www.slo.courts.ca.gov/location/grover-beach-branch",
+      "verified_on": "2026-10-13",
+      "todo": "case types (criminal/traffic?) not listed"
+    },
+    {
+      "id": "paso-robles",
+      "name": "Paso Robles Branch",
+      "address": "901 Park Street",
+      "city": "Paso Robles",
+      "zip": "93446",
+      "phone": "(805) 706-3600",
+      "criminal_phone": null,
+      "hours": "Phones Mon–Fri 8:30 a.m.–12:00 p.m.; counter Wednesday and Friday 8:30 a.m.–12:00 p.m.",
+      "criminal": null,
+      "note": "Case types heard here are not listed on the court's location page.",
+      "departments": [],
+      "source_url": "https://www.slo.courts.ca.gov/location/paso-robles-branch",
+      "verified_on": "2026-10-13",
+      "todo": "case types (criminal/traffic?) not listed"
+    },
+    {
+      "id": "juvenile",
+      "name": "Juvenile Services Center",
+      "address": "1065 Kansas Avenue",
+      "city": "San Luis Obispo",
+      "zip": "93408",
+      "phone": "(805) 706-3600",
+      "criminal_phone": null,
+      "hours": "Juvenile delinquency calendar Monday mornings at 8:00 a.m.; phones Mon–Fri 8:30 a.m.–12:00 p.m.",
+      "criminal": false,
+      "note": "Juvenile justice (delinquency) hearings are held at 1065 Kansas Avenue; court lists 1050 Monterey Street as the clerk address. Probation lists zip 93401 for 1065 Kansas Ave.",
+      "departments": [],
+      "source_url": "https://www.slo.courts.ca.gov/location/juvenile-services-center",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "veterans-memorial",
+      "name": "Veteran's Memorial Branch",
+      "address": "801 Grand Ave.",
+      "city": "San Luis Obispo",
+      "zip": "93408",
+      "phone": null,
+      "criminal_phone": null,
+      "hours": null,
+      "criminal": false,
+      "note": "Court page: Temporarily Closed.",
+      "departments": [],
+      "source_url": "https://www.slo.courts.ca.gov/location/veterans-memorial-branch",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "San Luis Obispo Defenders (primary contract public defender)",
+      "address": "991 Osos St. Suite A (JP Andrews building, across from the courthouse)",
+      "city": "San Luis Obispo",
+      "zip": "93401",
+      "phone": "(805) 541-5715",
+      "toll_free": null,
+      "email": null,
+      "hours": "Mon–Thu 8:30 a.m.–12:00 p.m. and 1:00–5:00 p.m.; Fri 8:30 a.m.–12:00 p.m. and 1:00–4:00 p.m.",
+      "url": "https://www.slodefend.com/",
+      "source_url": "https://www.slodefend.com/contact-us/",
+      "note": "SLO County has no county PD office; it contracts with three firms (primary, conflict, secondary conflict). County page lists SLO Defenders as primary. Conflict firms are not named on the county page.",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "San Luis Obispo Defenders — Expungements info",
+      "serves": "People convicted in SLO County",
+      "what": "PD page: misdemeanor 1203.4 petitions can be filed yourself with court forms (CR-180/CR-181); for felonies, SLO requires a formal motion — contact the attorney who represented you. Includes an eligibility flow chart.",
+      "phone": "(805) 541-5715",
+      "email": null,
+      "url": "https://www.slodefend.com/expungements/",
+      "source_url": "https://www.slodefend.com/expungements/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "SLO Court — Cleaning Your Record self-help",
+      "serves": "Anyone with an SLO conviction",
+      "what": "Step-by-step table: petition for dismissal (PC 17(b), 1203.4, 1203.4a, 1203.41) for infractions/misdemeanors; early probation termination (PC 1203.3) plus 17(b) reduction plus 1203.4 dismissal for felonies; also pardons and certificates of rehabilitation.",
+      "phone": null,
+      "email": null,
+      "url": "https://www.slo.courts.ca.gov/self-help/criminal-law/cleaning-your-record",
+      "source_url": "https://www.slo.courts.ca.gov/self-help/criminal-law/cleaning-your-record",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "SLO Probation — Adult Services",
+      "address": "1710 Bishop Street",
+      "city": "San Luis Obispo",
+      "zip": "93401",
+      "phone": "(805) 781-5300",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m. (except holidays)",
+      "url": "https://www.slocounty.ca.gov/Departments/Probation.aspx",
+      "note": "Fax (805) 781-1231. Payments: phone (805) 781-4060, online slo.epay-it.com, or mail.",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.slocounty.ca.gov/Departments/Probation/Contact-Us.aspx"
+    },
+    {
+      "name": "SLO Probation — Juvenile Services Center",
+      "address": "1065 Kansas Avenue",
+      "city": "San Luis Obispo",
+      "zip": "93401",
+      "phone": "(805) 781-5352",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m. (except holidays)",
+      "url": "https://www.slocounty.ca.gov/Departments/Probation.aspx",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.slocounty.ca.gov/Departments/Probation/Contact-Us.aspx"
+    }
+  ],
+  "programs": [
+    {
+      "id": "warrants",
+      "name": "Clearing a warrant",
+      "type": "info",
+      "summary": "Options: post bail (if a bail amount is set — at the court or any law enforcement agency), turn yourself in (to SLO County Jail or any CA agency), or calendar a court surrender. Have your name and case number or date of birth ready.",
+      "url": "https://www.slo.courts.ca.gov/self-help/criminal-law/warrants",
+      "source_url": "https://www.slo.courts.ca.gov/self-help/criminal-law/warrants",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "veterans-treatment",
+      "name": "Veterans Treatment Court",
+      "type": "collaborative_court",
+      "summary": "The court site links a 'Veterans' Treatment Video'. No program page with eligibility was found.",
+      "url": "https://www.slo.courts.ca.gov/",
+      "todo": "Program page not found",
+      "source_url": "https://www.slo.courts.ca.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "alternative-sentencing",
+      "name": "Sheriff Alternative Sentencing",
+      "type": "custody_alternative",
+      "summary": "Sheriff's Jail Information section describes alternatives to serving time in the County Jail.",
+      "url": "https://www.slosheriff.org/jail-information/alternative-sentencing/",
+      "source_url": "https://www.slosheriff.org/jail-information/",
+      "todo": "details not loaded",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "cite-release",
+      "name": "Cite release / book & release",
+      "type": "info",
+      "summary": "Sheriff FAQ: people meeting jail criteria are often cite-released on new misdemeanors with a promise to appear (no bail). Anyone arrested for being under the influence stays at least 4 hours. Cite releases after dark need a ride waiting.",
+      "url": "https://www.slosheriff.org/jail-custody-faqs/",
+      "source_url": "https://www.slosheriff.org/jail-custody-faqs/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "ancillary",
+      "name": "Ancillary defense services (self-represented)",
+      "type": "info",
+      "summary": "Self-represented defendants can request reasonably necessary funds for their defense (ancillary services).",
+      "url": "https://www.slo.courts.ca.gov/ancillary-services",
+      "source_url": "https://www.slo.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "slo-jail-men",
+      "name": "San Luis Obispo County Jail — Men's Jail",
+      "address": "1585 Kansas Avenue",
+      "city": "San Luis Obispo",
+      "zip": "93405",
+      "phone": "(805) 781-4600",
+      "phone_note": "On-site visits by appointment only through NCIC (videovisit.ncic.com), 7 days to 48 hours ahead; check in at least 45 minutes early; 2 one-hour on-site visits per week. Remote video visits also via NCIC ($0.19/min). Jail info line (805) 781-4600; Records (805) 781-4588.",
+      "houses": "men",
+      "url": "https://www.slosheriff.org/jail-information/",
+      "visiting_url": "https://www.slosheriff.org/jail-custody-faqs/",
+      "commissary_or_money_url": "https://www.touchpayonline.com/",
+      "court_ids": [
+        "criminal-branch"
+      ],
+      "source_url": "https://www.slosheriff.org/jail-custody-faqs/",
+      "verified_on": "2026-10-13",
+      "note": "Sheriff FAQ gives one physical address for 'the jail' and separate visiting schedules for the men's jail, women's jail and Honor Farm.",
+      "todo": "court_ids: only criminal courthouse in county per court site; not confirmed by Sheriff"
+    },
+    {
+      "id": "slo-jail-women",
+      "name": "San Luis Obispo County Jail — Women's Jail",
+      "address": "1585 Kansas Avenue",
+      "city": "San Luis Obispo",
+      "zip": "93405",
+      "phone": "(805) 781-4600",
+      "phone_note": "On-site visits by appointment only through NCIC (videovisit.ncic.com), 7 days to 48 hours ahead; check in at least 45 minutes early; 2 one-hour on-site visits per week. Remote video visits also via NCIC ($0.19/min). Jail info line (805) 781-4600; Records (805) 781-4588.",
+      "houses": "women",
+      "url": "https://www.slosheriff.org/jail-information/",
+      "visiting_url": "https://www.slosheriff.org/jail-custody-faqs/",
+      "commissary_or_money_url": "https://www.touchpayonline.com/",
+      "court_ids": [
+        "criminal-branch"
+      ],
+      "source_url": "https://www.slosheriff.org/jail-custody-faqs/",
+      "verified_on": "2026-10-13",
+      "todo": "Separate street address for the women's jail not listed (FAQ gives 1585 Kansas Ave for the jail); court_ids not confirmed by Sheriff"
+    },
+    {
+      "id": "slo-honor-farm",
+      "name": "San Luis Obispo County Jail — Honor Farm",
+      "address": null,
+      "city": null,
+      "zip": null,
+      "phone": "(805) 781-4600",
+      "phone_note": "Honor Farm visiting: up to 3 visitors at once; separate Honor Farm rules/hours PDF on the Sheriff FAQ.",
+      "houses": "both",
+      "url": "https://www.slosheriff.org/jail-information/",
+      "visiting_url": "https://www.slosheriff.org/wp-content/uploads/2023/08/HONOR-FARM-VISITOR-RULES-SHERIFFS-WEBSITE.pdf",
+      "commissary_or_money_url": "https://www.touchpayonline.com/",
+      "court_ids": [
+        "criminal-branch"
+      ],
+      "source_url": "https://www.slosheriff.org/jail-custody-faqs/",
+      "verified_on": "2026-10-13",
+      "note": "Sheriff FAQ lists both Male and Female Honor Farm visiting.",
+      "todo": "address not separately listed; court_ids not confirmed"
+    },
+    {
+      "id": "slo-juvenile-hall",
+      "name": "SLO County Juvenile Hall (Probation)",
+      "address": "1065 Kansas Avenue",
+      "city": "San Luis Obispo",
+      "zip": "93401",
+      "phone": "(805) 781-5389",
+      "phone_note": "24-hour facility. Fax (805) 781-1169.",
+      "houses": "juvenile",
+      "url": "https://www.slocounty.ca.gov/Departments/Probation.aspx",
+      "visiting_url": null,
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "juvenile"
+      ],
+      "source_url": "https://www.slocounty.ca.gov/Departments/Probation/Contact-Us.aspx",
+      "verified_on": "2026-10-13",
+      "todo": "visiting info not loaded; court_ids: juvenile delinquency hearings are held at 1065 Kansas Ave per the court"
+    }
+  ],
+  "inmate_lookup_url": "https://www.slosheriff.org/jail-information/whos-in-custody/",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "note": "SLO Sheriff FAQ: unless there is a hold or 'No Bail' status, bail may be posted at the jail for the full amount in U.S. currency, cashier's check, official bank/certified check, or USPS money order payable to San Luis Obispo County Sheriff's Office — no personal checks or credit cards. Bail info for someone in custody: (805) 781-4600. Verify any bail agent's license with the CA Department of Insurance."
+  }
+}

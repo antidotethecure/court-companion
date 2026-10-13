@@ -1,0 +1,414 @@
+{
+  "state": "CA",
+  "county": "Santa Barbara",
+  "slug": "santa-barbara",
+  "court_name": "Superior Court of California, County of Santa Barbara",
+  "court_website": "https://www.santabarbara.courts.ca.gov/",
+  "case_search_url": "https://www.santabarbara.courts.ca.gov/online-services/case-records-search",
+  "case_search_note": "Court's Case Records Search page — you must accept the usage agreement first. Online data is not the official record; some case types are restricted from remote display under CRC 2.503 (view those at the Records department).",
+  "sources": [
+    {
+      "title": "SBSC — Locations",
+      "url": "https://www.santabarbara.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SBSC — Criminal Division",
+      "url": "https://www.santabarbara.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SBSC — Veterans Treatment Court",
+      "url": "https://www.santabarbara.courts.ca.gov/divisions/criminal/veterans-treatment-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SBSC — Case Records Search",
+      "url": "https://www.santabarbara.courts.ca.gov/online-services/case-records-search",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SB Sheriff — Jail Facilities",
+      "url": "https://www.sbsheriff.org/command-and-divisions/custody-operations/south-county-custody-operations-division/jail-facilities/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SB Sheriff — North County Custody Operations",
+      "url": "https://www.sbsheriff.org/command-and-divisions/custody-operations/north-county-custody-operations-division-2/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SB Sheriff — Visit an Inmate",
+      "url": "https://www.sbsheriff.org/command-and-divisions/custody-operations/south-county-custody-operations-division/visit-an-inmate/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SB Sheriff — Inmate Deposit System",
+      "url": "https://www.sbsheriff.org/inmate-deposit-system/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SB Sheriff — Who Is In Custody",
+      "url": "https://www.sbsheriff.org/home/who-is-in-custody/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SB Public Defender — Contact Us",
+      "url": "https://www.countyofsb.org/pd-contact-us",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SB Probation — Locations",
+      "url": "https://www.countyofsb.org/pr-locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SB Probation — Pretrial Services",
+      "url": "https://www.countyofsb.org/pr-pretrial-services",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "figueroa",
+      "name": "Santa Barbara — Figueroa Division",
+      "address": "118 E. Figueroa Street",
+      "city": "Santa Barbara",
+      "zip": "93101",
+      "phone": "(805) 568-3959",
+      "criminal_phone": "(805) 568-3959",
+      "hours": "Building and in-person criminal/traffic service Mon–Fri 8:00 a.m.–3:00 p.m.; criminal/traffic phones 9:00 a.m.–3:00 p.m.; records phones 9:00 a.m.–12:00 p.m.",
+      "criminal": true,
+      "note": "Cases served: Criminal, Traffic, Appeals. Criminal fax (805) 882-4647; misdemeanor/infraction appeals (805) 882-4534.",
+      "departments": [],
+      "source_url": "https://www.santabarbara.courts.ca.gov/location/santa-barbara-figueroa-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "anacapa",
+      "name": "Santa Barbara — Anacapa Division (Historic Courthouse)",
+      "address": "1100 Anacapa Street",
+      "city": "Santa Barbara",
+      "zip": "93101",
+      "phone": "(805) 882-4520",
+      "criminal_phone": null,
+      "hours": "Office 8:00 a.m.–3:00 p.m.; phones 9:00 a.m.–3:00 p.m.",
+      "criminal": true,
+      "note": "Case types listed: Court Administration, Civil, Criminal, Family Law, Juvenile, Probate, Appeals, Small Claims. Mailing: P.O. Box 21107, Santa Barbara 93121-1107. Criminal phone not separately listed — main criminal/traffic clerk is at Figueroa.",
+      "departments": [],
+      "source_url": "https://www.santabarbara.courts.ca.gov/location/santa-barbara-anacapa-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "sm-miller",
+      "name": "Santa Maria — Miller Division (criminal/traffic)",
+      "address": "312-M East Cook St., Building E",
+      "city": "Santa Maria",
+      "zip": "93454",
+      "phone": "(805) 614-6590",
+      "criminal_phone": "(805) 614-6590",
+      "hours": "Building Mon–Fri 8:00 a.m.–3:00 p.m.; phones generally 9:00 a.m.–3:00 p.m.",
+      "criminal": true,
+      "note": "Cases served: Criminal, Traffic, Appeals, North County Administration. Fax (805) 614-6591.",
+      "departments": [],
+      "source_url": "https://www.santabarbara.courts.ca.gov/location/santa-maria-miller-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "lompoc",
+      "name": "Lompoc Courthouse",
+      "address": "115 Civic Center Plaza",
+      "city": "Lompoc",
+      "zip": "93436",
+      "phone": "(805) 737-5452",
+      "criminal_phone": "(805) 737-7789",
+      "hours": "Building Mon–Fri 8:00 a.m.–3:00 p.m.; phones generally 9:00 a.m.–3:00 p.m.",
+      "criminal": true,
+      "note": "Cases served: Criminal, Criminal Appeals, Civil (limited), Unlawful Detainer, Traffic Infractions, Family Law (limited), Restraining Orders. Criminal/traffic line (805) 737-7789.",
+      "departments": [],
+      "source_url": "https://www.santabarbara.courts.ca.gov/location/lompoc",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "sm-cook",
+      "name": "Santa Maria — Cook Division",
+      "address": "312 East Cook Street, Building E",
+      "city": "Santa Maria",
+      "zip": "93454",
+      "phone": "(805) 614-6414",
+      "criminal_phone": null,
+      "hours": "Building Mon–Fri 8:00 a.m.–3:00 p.m.; phones generally 9:00 a.m.–3:00 p.m.",
+      "criminal": false,
+      "note": "Cases served: Appeals, Civil, Domestic Violence, Family Law, Mental Health, Probate, Restraining Orders, Small Claims, Unlawful Detainer. Not criminal. Mailing: 312-C East Cook St.",
+      "departments": [],
+      "source_url": "https://www.santabarbara.courts.ca.gov/location/santa-maria-cook-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "sm-juvenile",
+      "name": "Santa Maria Juvenile Court",
+      "address": "4285-B California Blvd.",
+      "city": "Santa Maria",
+      "zip": "93455",
+      "phone": "(805) 614-6579",
+      "criminal_phone": null,
+      "hours": "Building Mon–Fri 8:00 a.m.–3:00 p.m.",
+      "criminal": false,
+      "note": "Juvenile dependency and delinquency only; no case information given by phone. Fax (805) 614-6581.",
+      "departments": [],
+      "source_url": "https://www.santabarbara.courts.ca.gov/location/santa-maria-juvenile-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "solvang",
+      "name": "Solvang (no hearings)",
+      "address": "115 Civic Center Drive (court page lists Lompoc address)",
+      "city": "Lompoc",
+      "zip": "93436",
+      "phone": null,
+      "criminal_phone": null,
+      "hours": null,
+      "criminal": false,
+      "note": "Court page: since 10/14/14 all Solvang matters are filed at the Lompoc Division; no hearings scheduled at this location. Do not go here — use Lompoc.",
+      "departments": [],
+      "source_url": "https://www.santabarbara.courts.ca.gov/location/solvang",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Santa Barbara County Public Defender — Main Office",
+      "address": "1100 Anacapa",
+      "city": "Santa Barbara",
+      "zip": "93101",
+      "phone": "(805) 568-3470",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.countyofsb.org/pd-public-defender",
+      "note": "Fax (805) 568-3538. The PD 'Find my Lawyer' page lists attorneys by office (Santa Barbara, Santa Maria, Lompoc, Juvenile) with direct phone numbers.",
+      "todo": "Santa Maria / Lompoc PD office addresses not listed on the Contact Us page; hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.countyofsb.org/pd-contact-us"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "SB Public Defender — Legal Assistance / Holistic Defense",
+      "serves": "Santa Barbara County residents",
+      "what": "PD site has 'Need Legal Assistance', Community Resources, a Rehabilitation Services Team and Client Resource Team (holistic defense). Contents of these pages not loaded.",
+      "phone": "(805) 568-3470",
+      "email": null,
+      "url": "https://www.countyofsb.org/pd-legal-assistance",
+      "source_url": "https://www.countyofsb.org/pd-contact-us",
+      "todo": "Whether the PD runs a record-clearance/expungement program was not confirmed",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "SBSC Self-Help",
+      "serves": "Self-represented people",
+      "what": "Court self-help pages (civil, family, restraining orders, traffic self-help, court legal resources).",
+      "phone": null,
+      "email": null,
+      "url": "https://www.santabarbara.courts.ca.gov/self-help",
+      "source_url": "https://www.santabarbara.courts.ca.gov/self-help",
+      "todo": "No criminal record-clearance self-help page found",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "SB Probation — Santa Barbara Adult Services",
+      "address": "117 E Carrillo St",
+      "city": "Santa Barbara",
+      "zip": "93101",
+      "phone": "(805) 882-3700",
+      "hours": null,
+      "url": "https://www.countyofsb.org/pr-probation",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.countyofsb.org/pr-locations"
+    },
+    {
+      "name": "SB Probation — Santa Barbara Juvenile Services",
+      "address": "117 E Carrillo Street",
+      "city": "Santa Barbara",
+      "zip": "93101",
+      "phone": "(805) 882-3700",
+      "hours": null,
+      "url": "https://www.countyofsb.org/pr-probation",
+      "todo": "hours not listed",
+      "note": "Fax 882-3701.",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.countyofsb.org/pr-locations"
+    },
+    {
+      "name": "SB Probation — Santa Barbara Probation Report & Resource Center (PRRC)",
+      "address": "4500 Hollister Ave.",
+      "city": "Santa Barbara",
+      "zip": "93110",
+      "phone": "(805) 692-4890",
+      "hours": null,
+      "url": "https://www.countyofsb.org/pr-probation",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.countyofsb.org/pr-locations"
+    },
+    {
+      "name": "SB Probation — Santa Maria Adult Services",
+      "address": "2121 Centerpointe Pkwy",
+      "city": "Santa Maria",
+      "zip": "93455",
+      "phone": "(805) 803-8500",
+      "hours": null,
+      "url": "https://www.countyofsb.org/pr-probation",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.countyofsb.org/pr-locations"
+    },
+    {
+      "name": "SB Probation — Santa Maria Juvenile Supervision Unit",
+      "address": "4251 California Blvd",
+      "city": "Santa Maria",
+      "zip": "93455",
+      "phone": "(805) 934-6366",
+      "hours": null,
+      "url": "https://www.countyofsb.org/pr-probation",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.countyofsb.org/pr-locations"
+    },
+    {
+      "name": "SB Probation — Santa Maria Probation Report & Resource Center (PRRC)",
+      "address": "124 Carmen Ln",
+      "city": "Santa Maria",
+      "zip": "93458",
+      "phone": "(805) 346-7620",
+      "hours": null,
+      "url": "https://www.countyofsb.org/pr-probation",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.countyofsb.org/pr-locations"
+    },
+    {
+      "name": "SB Probation — Lompoc Adult & Juvenile Services",
+      "address": "415 E Cypress Ave",
+      "city": "Lompoc",
+      "zip": "93436",
+      "phone": "(805) 737-7800",
+      "hours": null,
+      "url": "https://www.countyofsb.org/pr-probation",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.countyofsb.org/pr-locations"
+    }
+  ],
+  "programs": [
+    {
+      "id": "pretrial",
+      "name": "Pretrial Supervised Release Program (Probation)",
+      "type": "pretrial",
+      "summary": "Started July 2017 (funded by the Community Corrections Partnership). Pretrial Compliance Officers supervise people released on supervised release according to risk level, install and monitor GPS, respond to SCRAM alcohol-monitor alerts, and write progress/violation reports; risk is assessed with the VPRAI-R tool.",
+      "url": "https://www.countyofsb.org/pr-pretrial-services",
+      "source_url": "https://www.countyofsb.org/pr-pretrial-services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "veterans-court",
+      "name": "Veterans Treatment Court",
+      "type": "collaborative_court",
+      "summary": "Serves justice-involved military veterans with addiction, serious mental illness or co-occurring disorders; runs in Santa Maria (since 2011), Santa Barbara (2012) and Lompoc (2016) with VA partners and veteran mentors. May help dismiss a case, reduce felonies to misdemeanors, or avoid jail. Optional MIL-100 form tells the court about your service.",
+      "url": "https://www.santabarbara.courts.ca.gov/divisions/criminal/veterans-treatment-court",
+      "source_url": "https://www.santabarbara.courts.ca.gov/divisions/criminal/veterans-treatment-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "criminal-calendar",
+      "name": "Criminal calendar rules (no walk-ins)",
+      "type": "info",
+      "summary": "Clerks cannot extend arraignment/hearing dates but can advance them. Calendars are set a day ahead — no walk-in hearings. If you have a warrant, calendar your case by 12:00 p.m. the day before; other requests need 2 days' notice. Missing court means a warrant.",
+      "url": "https://www.santabarbara.courts.ca.gov/divisions/criminal",
+      "source_url": "https://www.santabarbara.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "prrc",
+      "name": "Probation Report & Resource Centers (PRRC)",
+      "type": "reentry",
+      "summary": "Probation lists PRRCs in Santa Barbara (4500 Hollister Ave., (805) 692-4890) and Santa Maria (124 Carmen Ln, (805) 346-7620).",
+      "url": "https://www.countyofsb.org/pr-locations",
+      "todo": "program description not loaded",
+      "source_url": "https://www.countyofsb.org/pr-locations",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "sb-main-jail",
+      "name": "Santa Barbara County Main Jail",
+      "address": null,
+      "city": "Santa Barbara",
+      "zip": null,
+      "phone": "(805) 681-4260",
+      "phone_note": "Main Jail line from Sheriff 'Who Is In Custody' page. Social visits are non-contact through a window; max 2 per week; schedules PDF on the Visit an Inmate page. Deposits: TouchPayOnline online, by phone 866-232-1899 (Site ID 293110), or 24-hour kiosk in the lobby.",
+      "houses": "both",
+      "url": "https://www.sbsheriff.org/command-and-divisions/custody-operations/south-county-custody-operations-division/jail-facilities/",
+      "visiting_url": "https://www.sbsheriff.org/command-and-divisions/custody-operations/south-county-custody-operations-division/visit-an-inmate/",
+      "commissary_or_money_url": "https://www.sbsheriff.org/inmate-deposit-system/",
+      "court_ids": [
+        "figueroa"
+      ],
+      "source_url": "https://www.sbsheriff.org/command-and-divisions/custody-operations/south-county-custody-operations-division/jail-facilities/",
+      "verified_on": "2026-10-13",
+      "note": "Sheriff: houses male and female inmates, pretrial and sentenced. The Sheriff's visit page also links separate 'IRC' and 'Northwest' visitation-hour sheets for Santa Barbara.",
+      "todo": "street address not shown on Sheriff pages loaded. court_ids: nearest criminal courthouse, not confirmed by Sheriff."
+    },
+    {
+      "id": "nbj",
+      "name": "Northern Branch Jail",
+      "address": "2301 Black Road",
+      "city": "Santa Maria",
+      "zip": null,
+      "phone": "(805) 554-3100",
+      "phone_note": "Visits for this facility are scheduled online (Via Path) and held here Sun–Sat 8:00 a.m.–5:00 p.m., on the hour. Deposit kiosk on site; TouchPayOnline by phone 866-232-1899 (Site ID 293110).",
+      "houses": "both",
+      "url": "https://www.sbsheriff.org/command-and-divisions/custody-operations/north-county-custody-operations-division-2/",
+      "visiting_url": "https://www.sbsheriff.org/command-and-divisions/custody-operations/south-county-custody-operations-division/visit-an-inmate/",
+      "commissary_or_money_url": "https://www.sbsheriff.org/inmate-deposit-system/",
+      "court_ids": [
+        "sm-miller"
+      ],
+      "source_url": "https://www.sbsheriff.org/command-and-divisions/custody-operations/north-county-custody-operations-division-2/",
+      "verified_on": "2026-10-13",
+      "note": "Sheriff: 376-bed facility opened January 2022; houses male and female inmates in medium and high security; 32 medical/mental health beds.",
+      "todo": "zip not listed. court_ids: nearest criminal courthouse, not confirmed by Sheriff."
+    },
+    {
+      "id": "gionfriddo-jjc",
+      "name": "Susan J. Gionfriddo Juvenile Justice Center (Probation)",
+      "address": "4263 California Blvd",
+      "city": "Santa Maria",
+      "zip": "93455",
+      "phone": "(805) 934-6270",
+      "phone_note": "Run by Santa Barbara County Probation.",
+      "houses": "juvenile",
+      "url": "https://www.countyofsb.org/pr-juvenile-justice-center",
+      "visiting_url": null,
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "sm-juvenile"
+      ],
+      "source_url": "https://www.countyofsb.org/pr-locations",
+      "verified_on": "2026-10-13",
+      "todo": "visiting info not loaded; court_ids nearest (Santa Maria Juvenile Court is nearby), not confirmed"
+    }
+  ],
+  "inmate_lookup_url": "https://www.sbsheriff.org/home/who-is-in-custody/",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "note": "SB Sheriff: most inmates are eligible for bail and can use jail phones to arrange it through friends, family or bail agents; a list of bail agents is available in each facility. Verify any bail agent's license with the CA Department of Insurance.",
+    "todo": "Sheriff page on where/how to post cash bail not found"
+  }
+}

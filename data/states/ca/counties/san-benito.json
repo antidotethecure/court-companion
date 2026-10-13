@@ -1,0 +1,181 @@
+{
+  "state": "CA",
+  "county": "San Benito",
+  "slug": "san-benito",
+  "court_name": "Superior Court of California, County of San Benito",
+  "court_website": "https://www.sanbenito.courts.ca.gov/",
+  "case_search_url": "https://portal.sanbenito.courts.ca.gov/public-portal/",
+  "case_search_note": "Public Portal — case/calendar lookup (cases, traffic citations, daily calendar). Remote access has exceptions for some case types (CRC 2.500). Document images only for named parties/attorneys after an ID-verified access request. Questions: PortalAdmin@sanbenitocourt.org.",
+  "sources": [
+    {
+      "title": "San Benito Superior Court — Main Courthouse",
+      "url": "https://www.sanbenito.courts.ca.gov/location/main-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "San Benito Superior Court — Criminal",
+      "url": "https://www.sanbenito.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "San Benito Superior Court — Public Portal",
+      "url": "https://www.sanbenito.courts.ca.gov/home-public-portal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "San Benito Superior Court — Self-Help Center",
+      "url": "https://www.sanbenito.courts.ca.gov/self-help/self-help-center",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "San Benito County Sheriff — Corrections",
+      "url": "https://www.sanbenitocountyca.gov/departments/sheriff-s-office/units-and-divisions/corrections",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "San Benito County Sheriff — Visiting",
+      "url": "https://www.sanbenitocountyca.gov/departments/sheriff-s-office/units-and-divisions/corrections/visiting",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "San Benito County Sheriff — Bail and Deposits",
+      "url": "https://www.sanbenitocountyca.gov/departments/sheriff-s-office/units-and-divisions/corrections/bail-and-deposits",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "San Benito County — Public Defender",
+      "url": "https://www.sanbenitocountyca.gov/departments/public-defender",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "San Benito County Probation",
+      "url": "https://www.sanbenitocountyca.gov/departments/probation-department",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "hollister",
+      "name": "San Benito County Superior Court — Main Courthouse",
+      "address": "450 Fourth Street",
+      "city": "Hollister",
+      "zip": "95023",
+      "phone": "(831) 636-4057",
+      "hours": "Building Mon–Fri 8:00 a.m.–5:00 p.m.; Criminal Division phone 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Only courthouse; hears all case types including criminal, traffic, juvenile delinquency and mental health. Felony & misdemeanor walk-in court Mon–Fri: check in 8:00 a.m.–12:00 p.m., court starts 1:30 p.m. Check the wall calendar for your courtroom.",
+      "departments": [],
+      "source_url": "https://www.sanbenito.courts.ca.gov/location/main-courthouse",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "San Benito Defenders, Inc. (contract public defender — level 1)",
+      "address": "339 7th St., Suite F",
+      "city": "Hollister",
+      "zip": "95023",
+      "phone": "(831) 638-1900",
+      "toll_free": null,
+      "email": null,
+      "hours": "Mon–Fri 8:30 a.m.–12:00 p.m., 1:00–5:00 p.m.",
+      "url": "https://www.sanbenitocountyca.gov/departments/public-defender",
+      "note": "County contracts indigent defense; level 1 contract (Harry Damkar) extended to June 30, 2028.",
+      "source_url": "https://www.sanbenitocountyca.gov/departments/public-defender",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Pamela Brown (contract public defender — level 2 / conflicts)",
+      "address": "390 5th St",
+      "city": "Hollister",
+      "zip": "95023",
+      "phone": "(831) 313-1933",
+      "toll_free": null,
+      "email": null,
+      "hours": "Mon–Fri 9:00 a.m.–12:00 p.m., 1:00–5:00 p.m.",
+      "url": "https://www.sanbenitocountyca.gov/departments/public-defender",
+      "note": "Level 2 representation contract, extended to June 30, 2028.",
+      "todo": "County page lists further contract levels that were not captured",
+      "source_url": "https://www.sanbenitocountyca.gov/departments/public-defender",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "San Benito Superior Court Self-Help Center",
+      "serves": "People without an attorney",
+      "what": "Brief (under 15 min) free guidance and forms for small claims, guardianship, name change, DV/restraining orders, family law, evictions (limited) and more; no representation, no interpreters on site.",
+      "phone": "(831) 636-4057 (leave a message; calls returned within a week)",
+      "email": "self-help@sanbenitocourt.org",
+      "url": "https://www.sanbenito.courts.ca.gov/self-help/self-help-center",
+      "hours": "Mon–Fri 8:00 a.m.–3:30 p.m.",
+      "source_url": "https://www.sanbenito.courts.ca.gov/self-help/self-help-center",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "San Benito County Probation Department",
+      "address": "400 Monterey St",
+      "city": "Hollister",
+      "zip": "95023",
+      "phone": "(831) 636-4070",
+      "hours": null,
+      "url": "https://www.sanbenitocountyca.gov/departments/probation-department",
+      "source_url": "https://www.sanbenitocountyca.gov/departments/probation-department",
+      "note": "Fax (831) 636-5682.",
+      "todo": "Office hours and pretrial program details not published on the pages read",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "programs": [
+    {
+      "id": "san-benito-alternative-sentencing",
+      "name": "Alternative Sentencing (Sheriff)",
+      "type": "jail-alternative",
+      "summary": "Sheriff's Corrections Division lists an Alternative Sentencing unit. Details not captured.",
+      "phone": null,
+      "url": "https://www.sanbenitocountyca.gov/departments/sheriff-s-office/units-and-divisions/corrections/alternative-sentencing",
+      "source_url": "https://www.sanbenitocountyca.gov/departments/sheriff-s-office/units-and-divisions/corrections",
+      "todo": "Program description not read",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "san-benito-walk-in-court",
+      "name": "Felony & Misdemeanor Walk-In Court",
+      "type": "court-access",
+      "summary": "Mon–Fri check in at the clerk window 8:00 a.m.–12:00 p.m. with your case number and reason; court starts at 1:30 p.m.",
+      "phone": "(831) 636-4057",
+      "url": "https://www.sanbenito.courts.ca.gov/divisions/criminal",
+      "source_url": "https://www.sanbenito.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "san-benito-county-jail",
+      "name": "San Benito County Jail (incl. Curtis J. Hill Rehabilitation Center)",
+      "address": "710 Flynn Road",
+      "city": "Hollister",
+      "zip": "95023",
+      "phone": "(831) 636-4060",
+      "phone_note": "Visits must be arranged by phone: (831) 636-4060 or (831) 902-8945 (schedules not posted online); Rehabilitation Center procedures may differ. Account deposits: Access Corrections (accesscorrections.com, 866-345-1884) or lobby kiosk, or mail. Bail may be posted at the jail by cashier's check, certified check, money order or bail bond.",
+      "houses": "both",
+      "visiting_url": "https://www.sanbenitocountyca.gov/departments/sheriff-s-office/units-and-divisions/corrections/visiting",
+      "commissary_or_money_url": "https://www.sanbenitocountyca.gov/departments/sheriff-s-office/units-and-divisions/corrections/bail-and-deposits",
+      "court_ids": [
+        "hollister"
+      ],
+      "court_ids_note": "County's only courthouse; transport not described by the Sheriff.",
+      "url": "https://www.sanbenitocountyca.gov/departments/sheriff-s-office/units-and-divisions/corrections",
+      "source_url": "https://www.sanbenitocountyca.gov/departments/sheriff-s-office/units-and-divisions/corrections",
+      "verified_on": "2026-10-13",
+      "todo": "Corrections page says the jail houses female inmates in two separate units (so both). ZIP: county Visiting page says 95024; 95023 used elsewhere — confirm."
+    }
+  ],
+  "inmate_lookup_url": "https://www.vinelink.com/",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "Before paying a bail agent, check that their license is active using the California Department of Insurance license lookup (search by name or license number). San Benito Superior Court posts its 2025 Felony and Misdemeanor Bail Schedule at https://www.sanbenito.courts.ca.gov/system/files/general/2025-felony-and-misdemeanor-bail-schedule.pdf. Cash-type bail at the jail must be cashier's check, certified check or money order. No county online inmate locator was found; the Sheriff links the California VINE system for custody status. This is information only, not legal advice."
+  }
+}

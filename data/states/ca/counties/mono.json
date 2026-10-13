@@ -1,0 +1,181 @@
+{
+  "state": "CA",
+  "county": "Mono",
+  "slug": "mono",
+  "court_name": "Superior Court of California, County of Mono",
+  "court_website": "https://www.mono.courts.ca.gov/",
+  "case_search_url": null,
+  "case_search_note": "No online case search. Criminal records can be requested in person, by mail (P.O. Box 1037, Mammoth Lakes, CA 93546) or by email to criminal@mono.courts.ca.gov — see Name Searches and Records Requests: https://www.mono.courts.ca.gov/online-services/name-searches-and-records-requests",
+  "sources": [
+    {
+      "title": "Mono Superior Court — Home",
+      "url": "https://www.mono.courts.ca.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Mono Superior Court — Mammoth Lakes Courthouse",
+      "url": "https://www.mono.courts.ca.gov/location/mammoth-lakes-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Mono Superior Court — Bridgeport Courthouse",
+      "url": "https://www.mono.courts.ca.gov/location/bridgeport-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Mono Superior Court — Criminal",
+      "url": "https://www.mono.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Mono County Public Defender",
+      "url": "https://monocounty.ca.gov/2484/Public-Defender",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Mono County Probation",
+      "url": "https://monocounty.ca.gov/2058/Probation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Mono Probation — Pretrial Services",
+      "url": "https://monocounty.ca.gov/2064/Pretrial-Services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Mono Probation — Drug Court",
+      "url": "https://monocounty.ca.gov/2103/Mono-County-Drug-Court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Mono County Sheriff",
+      "url": "https://monocounty.ca.gov/1229/Sheriff",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Mono County Jail",
+      "url": "https://monocounty.ca.gov/1242/Jail",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check Agent/Broker",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "mammoth-lakes",
+      "name": "Mammoth Lakes Courthouse",
+      "address": "100 Thompson Way",
+      "city": "Mammoth Lakes",
+      "zip": "93546",
+      "phone": "(760) 924-5444",
+      "criminal_phone": "(760) 924-5444",
+      "hours": "Building Mon–Thu 8:30 a.m.–4 p.m., Fri 8:30 a.m.–12 p.m.; phones Mon–Fri 9 a.m.–12 p.m.",
+      "criminal": true,
+      "note": "Criminal calendar here on Mondays (arrive 8:30 a.m. to be added to the docket), per Criminal page. Mailing P.O. Box 1037. Criminal email criminal@mono.courts.ca.gov. Location page leaves 'cases served' blank. Hears Bridgeport matters when that courtroom is closed (it was closed Jan–Feb 2026).",
+      "departments": [],
+      "source_url": "https://www.mono.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "bridgeport",
+      "name": "Bridgeport Courthouse",
+      "address": "278 Main St.",
+      "city": "Bridgeport",
+      "zip": "93517",
+      "phone": "(760) 924-5444",
+      "criminal_phone": "(760) 924-5444",
+      "hours": "Tuesdays 9 a.m.–4 p.m.; clerk Tue 9:30 a.m.–3:30 p.m.",
+      "criminal": true,
+      "note": "Criminal calendar here on Tuesdays; location page lists criminal and traffic among cases served. Courtroom was closed Jan–Feb 2026 with proceedings moved to Mammoth Lakes — check current notices.",
+      "departments": [],
+      "source_url": "https://www.mono.courts.ca.gov/location/bridgeport-courthouse",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Mono County Public Defender",
+      "address": "549 Old Mammoth Road, Suite 10, Second Floor",
+      "city": "Mammoth Lakes",
+      "zip": "93546",
+      "phone": "(760) 924-1698",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://monocounty.ca.gov/2484/Public-Defender",
+      "source_url": "https://monocounty.ca.gov/2484/Public-Defender",
+      "verified_on": "2026-10-13",
+      "note": "Mailing PO Box 122. County page: Mono County currently contracts with local attorneys to provide indigent defense; ask the judge to appoint the Public Defender at your first appearance. Does not handle infractions, civil or family law.",
+      "todo": "Hours not listed"
+    }
+  ],
+  "legal_aid": [],
+  "probation": {
+    "name": "Mono County Probation Department",
+    "address": "57 Bryant Street",
+    "city": "Bridgeport",
+    "zip": "93517",
+    "phone": "(760) 932-5570",
+    "hours": "Mon–Thu 8 a.m.–5 p.m., Fri 8 a.m.–4 p.m.",
+    "url": "https://monocounty.ca.gov/2058/Probation",
+    "source_url": "https://monocounty.ca.gov/2058/Probation",
+    "verified_on": "2026-10-13",
+    "note": "Second office: 1290 Tavern Rd, Mammoth Lakes, CA 93546 (same main number). Officers usually reachable Mon/Wed/Thu/Fri in Mammoth and Tue in Bridgeport. Correspondence: P.O. Box 596, Bridgeport. Fax (760) 932-5571. Mono has no juvenile hall (uses El Dorado County Juvenile Treatment Center)."
+  },
+  "programs": [
+    {
+      "id": "pretrial",
+      "name": "Pretrial Services (Mono County Probation)",
+      "type": "pretrial",
+      "summary": "On court referral, Probation screens and interviews arrestees at the jail and investigates community ties, record, failures to appear and danger, to report to the court on own-recognizance release.",
+      "phone": "(760) 932-5570",
+      "url": "https://monocounty.ca.gov/2064/Pretrial-Services",
+      "source_url": "https://monocounty.ca.gov/2064/Pretrial-Services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "drug-court",
+      "name": "Mono County Drug Court",
+      "type": "collaborative_court",
+      "summary": "Collaborative court (Superior Court, Probation, DA, Behavioral Health, Public Defenders) connecting defendants with substantial substance addiction to community treatment, with alternative dispositions. Started with a 2015 grant.",
+      "phone": "(760) 932-5570",
+      "url": "https://monocounty.ca.gov/2103/Mono-County-Drug-Court",
+      "source_url": "https://monocounty.ca.gov/2103/Mono-County-Drug-Court",
+      "verified_on": "2026-10-13",
+      "todo": "Eligibility/referral steps not published"
+    }
+  ],
+  "jails": [
+    {
+      "id": "mono-jail",
+      "name": "Mono County Jail",
+      "address": "25 Emigrant Street",
+      "city": "Bridgeport",
+      "zip": "93517",
+      "phone": "(760) 932-7549",
+      "phone_note": "Number given by the court's Criminal page for in-custody info and by the Jail page for an inmate's future court dates.",
+      "houses": null,
+      "visiting_url": "https://monocounty.ca.gov/1242/Jail",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "bridgeport",
+        "mammoth-lakes"
+      ],
+      "url": "https://monocounty.ca.gov/1242/Jail",
+      "source_url": "https://monocounty.ca.gov/1242/Jail",
+      "verified_on": "2026-10-13",
+      "note": "Visiting (non-contact only): Sun 1–5 p.m., Mon 1–5 p.m., Wed 1–5 p.m., Fri 7–9:30 p.m.; photo ID; no visit if jailed there in last 6 months. Money: cash or cashier's check in the jail lobby, or money orders by mail (P.O. Box 697, Bridgeport, CA 93517). court_ids: Bridgeport is nearest; criminal also heard Mondays in Mammoth Lakes — transport not confirmed.",
+      "todo": "Men/women housing not stated; a new jail is under construction (https://monocounty.ca.gov/2110/Mono-County-Jail-Under-Construction)"
+    }
+  ],
+  "inmate_lookup_url": "https://monosheriff.citizenrims.com/incarcerated-people",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' (linked from insurance.ca.gov CheckAgntBrkr page) — look up any bail agent's license status. Mono Sheriff will not refer any bond agency and only deals with California-licensed agents. Cash bail must be the exact amount; cashier's checks and money orders accepted, no personal checks; cash over $10,000 requires valid ID plus original Social Security card.",
+    "source_url": "https://monocounty.ca.gov/1242/Jail",
+    "verified_on": "2026-10-13"
+  }
+}

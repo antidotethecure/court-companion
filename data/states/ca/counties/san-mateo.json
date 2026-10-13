@@ -1,0 +1,505 @@
+{
+  "state": "CA",
+  "county": "San Mateo",
+  "slug": "san-mateo",
+  "court_name": "Superior Court of California, County of San Mateo",
+  "court_website": "https://sanmateo.courts.ca.gov/",
+  "case_search_url": "https://odyportal-ext.sanmateocourt.org/portal-external",
+  "case_search_note": "Odyssey Public Portal (no registration), linked from sanmateo.courts.ca.gov/online-services/online-case-access/odyssey-portals. Shows the register of actions for non-confidential, non-sealed criminal cases; criminal case DOCUMENTS are not viewable online (documents only for civil, family, probate, small claims, traffic). Juvenile and mental health cases are not online. MIDX index search by case number/party/filing date: https://web.sanmateocourt.org/midx. Traffic payments also through the Odyssey portal.",
+  "sources": [
+    {
+      "title": "SMC Superior Court — Southern Branch: Hall of Justice and Records",
+      "url": "https://sanmateo.courts.ca.gov/location/southern-branch-hall-justice-and-records",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SMC Superior Court — Northern Branch",
+      "url": "https://sanmateo.courts.ca.gov/location/northern-branch-0",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SMC Superior Court — Central Branch",
+      "url": "https://sanmateo.courts.ca.gov/location/central-branch-0",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SMC Superior Court — Juvenile Branch",
+      "url": "https://sanmateo.courts.ca.gov/location/juvenile-branch-0",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SMC Superior Court — Criminal Division",
+      "url": "https://sanmateo.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SMC Superior Court — Directory of Judges",
+      "url": "https://sanmateo.courts.ca.gov/general-information/judges/directory-judges",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SMC Superior Court — Odyssey Portals",
+      "url": "https://sanmateo.courts.ca.gov/online-services/online-case-access/odyssey-portals",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SMC Superior Court — Collaborative Court",
+      "url": "https://sanmateo.courts.ca.gov/divisions/criminal-division/collaborative-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SMC Superior Court — Post Conviction Resources/Programs",
+      "url": "https://sanmateo.courts.ca.gov/divisions/criminal-division/post-conviction-resourcesprograms",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SMC Superior Court — Self-Help Center / Family Law Facilitator",
+      "url": "https://sanmateo.courts.ca.gov/self-help/self-help-center-family-law-facilitator",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "San Mateo County Bar Association — Private Defender Program / Criminal Defense",
+      "url": "https://www.smcba.org/?pg=criminal-defense",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SMC Probation — Office Locations",
+      "url": "https://www.smcgov.org/probation/office-locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SMC Probation — Pretrial Services",
+      "url": "https://www.smcgov.org/probation/pretrial-services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SMC Probation — Home / Contact",
+      "url": "https://www.smcgov.org/probation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SMC Sheriff — Corrections Division",
+      "url": "https://www.smcsheriff.com/corrections-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SMC Sheriff — Inmate Bail FAQ",
+      "url": "https://www.smcsheriff.com/inmate-bail-frequently-asked-questions",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SMC Sheriff — Visitation, Maguire Correctional Facility",
+      "url": "https://www.smcsheriff.com/inmate-visitation-maguire-correctional-facility",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SMC Sheriff — Visitation, Maple Street Correctional Center",
+      "url": "https://www.smcsheriff.com/inmate-visitation-maple-street-correctional-center",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SMC Sheriff — Inmate Mail & Money",
+      "url": "https://www.smcsheriff.com/inmate-mail-money",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check an Agent/Broker License",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "southern",
+      "name": "Southern Branch: Hall of Justice and Records",
+      "address": "400 County Center",
+      "city": "Redwood City",
+      "zip": "94063",
+      "phone": "(650) 261-5100",
+      "criminal_phone": "(650) 261-5100",
+      "hours": "Criminal Division office and phone: Mon–Fri 8:00 a.m.–4:00 p.m. (Criminal Division, 4th Floor). Other clerk offices in the building have different, shorter in-person hours.",
+      "criminal": true,
+      "note": "Main criminal courthouse: felony and misdemeanor calendars, collaborative courts, plus civil, family, probate, small claims, records. Criminal Division fax (650) 261-5050. Departments with a criminal or collaborative assignment from the Directory of Judges as of 2026-10-13; several other trial departments (Depts. 1, 9, 12, 14, 16, 22, 24) are listed only as 'Trial Judge' without saying civil or criminal. Assignments rotate.",
+      "departments": [
+        {
+          "id": "10",
+          "label": "Department 10 (Courtroom 2A)",
+          "type": "Criminal Presiding Judge",
+          "note": null
+        },
+        {
+          "id": "6",
+          "label": "Department 6 (Courtroom 2L)",
+          "type": "Criminal Supervising Judge / Trial",
+          "note": null
+        },
+        {
+          "id": "5",
+          "label": "Department 5 (Courtroom 8D)",
+          "type": "Criminal Law / Restitution Court",
+          "note": null
+        },
+        {
+          "id": "25",
+          "label": "Department 25 (Courtroom 2K)",
+          "type": "MDUI Court / PC 1370 Court / Drug Court & Prop 36 Review / Mental Health Diversion Court / Restitution / Trial",
+          "note": "Also CARE Court and appellate"
+        },
+        {
+          "id": "8",
+          "label": "Department 8 (Courtroom 2E)",
+          "type": "Collaborative Courts Supervising / Veterans Court / Military Diversion Court / Trial",
+          "note": null
+        },
+        {
+          "id": "13",
+          "label": "Department 13 (Courtroom 2C)",
+          "type": "Pathways Mental Health Court",
+          "note": "Also Probate Supervising and LPS proceedings"
+        },
+        {
+          "id": "35",
+          "label": "Department 35 (Courtroom 2M)",
+          "type": "Commissioner — Traffic, Small Claims, Criminal, Family Support",
+          "note": null
+        },
+        {
+          "id": "33",
+          "label": "Department 33 (Courtroom 4B)",
+          "type": "Commissioner — Traffic, Small Claims, Criminal, Unlawful Detainer, Family Support",
+          "note": null
+        }
+      ],
+      "departments_source_url": "https://sanmateo.courts.ca.gov/general-information/judges/directory-judges",
+      "source_url": "https://sanmateo.courts.ca.gov/location/southern-branch-hall-justice-and-records",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "northern",
+      "name": "Northern Branch",
+      "address": "1050 Mission Road",
+      "city": "South San Francisco",
+      "zip": "94080",
+      "phone": "(650) 261-5100",
+      "criminal_phone": "(650) 261-5100",
+      "hours": "In person Mon–Fri 8:00 a.m.–4:00 p.m.; Criminal Division office and phone Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Civil, Criminal and Traffic. Criminal and traffic calendars heard by commissioners in Dept. 31 (Courtroom M) and Dept. 34 (Courtroom P) per Directory of Judges.",
+      "departments": [
+        {
+          "id": "31",
+          "label": "Department 31 (Courtroom M)",
+          "type": "Commissioner — Traffic, Small Claims, Criminal, Unlawful Detainer, Family Support",
+          "note": null
+        },
+        {
+          "id": "34",
+          "label": "Department 34 (Courtroom P)",
+          "type": "Commissioner — Traffic, Small Claims, Criminal, Unlawful Detainer, Family Support",
+          "note": null
+        }
+      ],
+      "departments_source_url": "https://sanmateo.courts.ca.gov/general-information/judges/directory-judges",
+      "source_url": "https://sanmateo.courts.ca.gov/location/northern-branch-0",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "central",
+      "name": "Central Branch",
+      "address": "800 North Humboldt Street",
+      "city": "San Mateo",
+      "zip": "94401",
+      "phone": "(650) 261-5100",
+      "criminal_phone": null,
+      "hours": "Building Mon–Fri 8:00 a.m.–5:00 p.m. (no on-site clerk's office or drop box)",
+      "criminal": false,
+      "note": "Civil only.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://sanmateo.courts.ca.gov/location/central-branch-0",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "juvenile",
+      "name": "Juvenile Branch",
+      "address": "222 Paul Scannell Drive",
+      "city": "San Mateo",
+      "zip": "94402",
+      "phone": "(650) 261-5100",
+      "criminal_phone": null,
+      "hours": "Building Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Juvenile delinquency (and dependency, adoptions) only — not adult criminal. Located at the Youth Services Center; no cell phones, cameras or recording devices allowed. Juvenile traffic court is at the same address per Probation.",
+      "departments": [
+        {
+          "id": "7",
+          "label": "Department 7 (Courtroom A)",
+          "type": "Juvenile Supervising Judge",
+          "note": null
+        },
+        {
+          "id": "19",
+          "label": "Department 19 (Courtroom B)",
+          "type": "Juvenile",
+          "note": null
+        }
+      ],
+      "departments_source_url": "https://sanmateo.courts.ca.gov/general-information/judges/directory-judges",
+      "source_url": "https://sanmateo.courts.ca.gov/location/juvenile-branch-0",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Private Defender Program (San Mateo County's appointed defense — run by the San Mateo County Bar Association)",
+      "address": "333 Bradford Street, Suite 150",
+      "city": "Redwood City",
+      "zip": "94063",
+      "phone": "(650) 298-4000",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.smcba.org/?pg=criminal-defense",
+      "source_url": "https://www.smcba.org/?pg=criminal-defense",
+      "verified_on": "2026-10-13",
+      "todo": "San Mateo County has no county Public Defender office; the PDP is appointed by the Superior Court for financially eligible people. Address shown is the Bar Association's listed address — not confirmed as the PDP intake office. Hours not listed."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "San Mateo County Bar Association — Lawyer Referral Service",
+      "serves": "Anyone seeking a private attorney in San Mateo County",
+      "what": "Referrals to private attorneys; the court's Criminal Division page points people here for legal help (and to the Private Defenders office).",
+      "phone": "(650) 369-4149",
+      "email": null,
+      "url": "https://www.smcba.org/",
+      "source_url": "https://sanmateo.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13",
+      "todo": "Fees and hours not confirmed on smcba.org"
+    },
+    {
+      "name": "Court Post-Conviction Resources (expungement guide, fines, programs)",
+      "serves": "People with San Mateo County convictions",
+      "what": "Court page linking the San Mateo County Law Library expungement guide, Prop 36 and DV treatment program lists, DUI programs, Sheriff's Alternative Sentencing and County Work Program info.",
+      "phone": null,
+      "email": null,
+      "url": "https://sanmateo.courts.ca.gov/divisions/criminal-division/post-conviction-resourcesprograms",
+      "source_url": "https://sanmateo.courts.ca.gov/divisions/criminal-division/post-conviction-resourcesprograms",
+      "verified_on": "2026-10-13",
+      "todo": "No free criminal record-clearance (Clean Slate) clinic was confirmed for San Mateo County"
+    }
+  ],
+  "probation": [
+    {
+      "name": "San Mateo County Probation — Redwood City Adult Probation",
+      "address": "400 County Center, Floor 5",
+      "city": "Redwood City",
+      "zip": "94063",
+      "phone": "(650) 363-4244",
+      "hours": null,
+      "url": "https://www.smcgov.org/probation",
+      "source_url": "https://www.smcgov.org/probation/office-locations",
+      "verified_on": "2026-10-13",
+      "note": "(650) 363-4244 is the number Probation gives to find out which Probation Officer is assigned to your case (Pretrial Services page).",
+      "todo": "Office-specific phone and hours not listed on the Office Locations page"
+    },
+    {
+      "name": "San Mateo County Probation — Pretrial Services",
+      "address": "400 County Center, Floor 1",
+      "city": "Redwood City",
+      "zip": "94063",
+      "phone": "(650) 363-4244",
+      "hours": null,
+      "url": "https://www.smcgov.org/probation/pretrial-services",
+      "source_url": "https://www.smcgov.org/probation/pretrial-services",
+      "verified_on": "2026-10-13",
+      "note": "Phone is the officer-assignment line on the Pretrial Services page.",
+      "todo": "Hours not listed"
+    },
+    {
+      "name": "San Mateo County Probation — South San Francisco",
+      "address": "999 Grand Avenue",
+      "city": "South San Francisco",
+      "zip": "94080",
+      "phone": null,
+      "hours": null,
+      "url": "https://www.smcgov.org/probation",
+      "source_url": "https://www.smcgov.org/probation/office-locations",
+      "verified_on": "2026-10-13",
+      "note": null,
+      "todo": "Phone and hours not listed"
+    },
+    {
+      "name": "San Mateo County Probation — Administrative Offices & Juvenile Probation (Youth Services Center)",
+      "address": "222 Paul Scannell Drive",
+      "city": "San Mateo",
+      "zip": "94402",
+      "phone": "(650) 312-8816",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "url": "https://www.smcgov.org/probation",
+      "source_url": "https://www.smcgov.org/probation",
+      "verified_on": "2026-10-13",
+      "note": "Feedback email: probation_citizenfeedback@smcgov.org."
+    }
+  ],
+  "programs": [
+    {
+      "id": "pretrial",
+      "name": "Probation Pretrial Services (O.R. / Supervised O.R.)",
+      "type": "pretrial",
+      "summary": "Probation investigates people booked into jail and gives the judge a release/non-release recommendation at the in-custody arraignment (O.R., supervised O.R., bail adjustment, or stay in custody). People on supervised/conditional O.R. must stay in regular personal and phone contact with a Pretrial officer; monitoring depends on the court's conditions (e.g., drug testing for substance charges). Officers report compliance to the court.",
+      "phone": "(650) 363-4244",
+      "url": "https://www.smcgov.org/probation/pretrial-services",
+      "source_url": "https://www.smcgov.org/probation/pretrial-services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "drug-court",
+      "name": "Drug Court (incl. Prop 36 (2024))",
+      "type": "collaborative_court",
+      "summary": "Substance abuse recovery program for eligible defendants. Directory of Judges lists Drug Court/Prop 36 review in Dept. 25.",
+      "phone": null,
+      "url": "https://sanmateo.courts.ca.gov/divisions/criminal-division/collaborative-court/drug-court",
+      "source_url": "https://sanmateo.courts.ca.gov/divisions/criminal-division/collaborative-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "military-diversion",
+      "name": "Military Diversion",
+      "type": "diversion",
+      "summary": "Pretrial program for current or past members of any military branch charged with a misdemeanor. Dept. 8.",
+      "phone": null,
+      "url": "https://sanmateo.courts.ca.gov/divisions/criminal-division/collaborative-court/military-diversion",
+      "source_url": "https://sanmateo.courts.ca.gov/divisions/criminal-division/collaborative-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "pathways",
+      "name": "Pathways (Mental Health Court)",
+      "type": "collaborative_court",
+      "summary": "Mental health treatment court that can also provide drug and alcohol treatment and housing help. Dept. 13.",
+      "phone": null,
+      "url": "https://sanmateo.courts.ca.gov/divisions/criminal/collaborative-court/pathways-program",
+      "source_url": "https://sanmateo.courts.ca.gov/divisions/criminal-division/collaborative-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "vtc",
+      "name": "Veterans Treatment Court",
+      "type": "collaborative_court",
+      "summary": "Special court for U.S. military veterans in the criminal justice system. Dept. 8.",
+      "phone": null,
+      "url": "https://sanmateo.courts.ca.gov/divisions/criminal-division/collaborative-court/veterans-treatment-court-vtc",
+      "source_url": "https://sanmateo.courts.ca.gov/divisions/criminal-division/collaborative-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "mdui",
+      "name": "Multiple DUI Court",
+      "type": "collaborative_court",
+      "summary": "Post-plea court for eligible repeat DUI offenders. Participant handbook on the court site; Spanish copy by request to collabcourts@sanmateocourt.org. Dept. 25.",
+      "phone": null,
+      "url": "https://sanmateo.courts.ca.gov/divisions/criminal-division/collaborative-court/multiple-dui-court",
+      "source_url": "https://sanmateo.courts.ca.gov/divisions/criminal-division/collaborative-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "mh-diversion",
+      "name": "Mental Health Diversion Court",
+      "type": "diversion",
+      "summary": "Listed in the Directory of Judges as an assignment of Dept. 25.",
+      "phone": null,
+      "url": "https://sanmateo.courts.ca.gov/general-information/judges/directory-judges",
+      "source_url": "https://sanmateo.courts.ca.gov/general-information/judges/directory-judges",
+      "verified_on": "2026-10-13",
+      "todo": "No dedicated court page describing eligibility was found"
+    },
+    {
+      "id": "alt-sentencing",
+      "name": "Sheriff's Alternative Sentencing Bureau (Work Program, Electronic Monitoring, Work Furlough)",
+      "type": "alternative_sentencing",
+      "summary": "Sheriff's Work Program lets low-risk, minimum-security sentenced people serve time doing manual work instead of full-time jail; also electronic monitoring and work furlough. No program fees since July 1, 2021. 1300 Maple Street, Redwood City.",
+      "phone": "(650) 599-3030",
+      "url": "https://www.smcsheriff.com/corrections-division",
+      "source_url": "https://www.smcsheriff.com/corrections-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "self-help",
+      "name": "Self-Help Center / Family Law Facilitator",
+      "type": "self_help",
+      "summary": "Free legal information for people without lawyers (mainly family law, restraining orders). Hall of Justice, 400 County Center, 6th Floor; contact by LiveChat on the court page before coming in.",
+      "phone": null,
+      "url": "https://sanmateo.courts.ca.gov/self-help/self-help-center-family-law-facilitator",
+      "source_url": "https://sanmateo.courts.ca.gov/self-help/self-help-center-family-law-facilitator",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "maguire",
+      "name": "Maguire Correctional Facility (main jail)",
+      "address": "300 Bradford Street",
+      "city": "Redwood City",
+      "zip": "94063",
+      "phone": "(650) 599-3000",
+      "phone_note": "Primarily houses men, pretrial and sentenced. Cash bail is posted at the cashier's window in the jail lobby (Sheriff Bail FAQ).",
+      "houses": "men",
+      "url": "https://www.smcsheriff.com/corrections-division",
+      "visiting_url": "https://www.smcsheriff.com/inmate-visitation-maguire-correctional-facility",
+      "commissary_or_money_url": "https://www.smcsheriff.com/inmate-mail-money",
+      "court_ids": [
+        "southern"
+      ],
+      "source_url": "https://www.smcsheriff.com/corrections-division",
+      "verified_on": "2026-10-13",
+      "todo": "court_ids = nearest criminal courthouse, not confirmed (Northern Branch also hears criminal). Sheriff says 'primarily' male. Cashier hours not published."
+    },
+    {
+      "id": "mscc",
+      "name": "Maple Street Correctional Center (incl. Men's and Women's Transitional Facilities)",
+      "address": "1300 Maple Street",
+      "city": "Redwood City",
+      "zip": "94063",
+      "phone": "(650) 599-3000",
+      "phone_note": "Houses both men and women, pretrial and sentenced, plus Men's and Women's Transitional Housing (work-oriented, minimum security / work furlough). Video visitation via smartjailmail.com.",
+      "houses": "both",
+      "url": "https://www.smcsheriff.com/corrections-division",
+      "visiting_url": "https://www.smcsheriff.com/inmate-visitation-maple-street-correctional-center",
+      "commissary_or_money_url": "https://www.smcsheriff.com/inmate-mail-money",
+      "court_ids": [
+        "southern"
+      ],
+      "source_url": "https://www.smcsheriff.com/corrections-division",
+      "verified_on": "2026-10-13",
+      "todo": "court_ids = nearest criminal courthouse, not confirmed."
+    },
+    {
+      "id": "ysc-juvenile-hall",
+      "name": "Youth Services Center — Juvenile Hall",
+      "address": "222 Paul Scannell Drive",
+      "city": "San Mateo",
+      "zip": "94402",
+      "phone": "(650) 312-8816",
+      "phone_note": "Probation Administrative Offices / Juvenile Probation main line. Run by Probation, not the Sheriff. Probation also runs the Margaret J. Kemp Camp for Girls.",
+      "houses": "juvenile",
+      "url": "https://www.smcgov.org/probation",
+      "visiting_url": null,
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "juvenile"
+      ],
+      "source_url": "https://www.smcgov.org/probation/office-locations",
+      "verified_on": "2026-10-13",
+      "todo": "Juvenile Hall visiting page not found. Same address as the Juvenile Branch court. Camp Kemp address not collected."
+    }
+  ],
+  "inmate_lookup_url": "https://smc-inmatelocator.org/",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' — look up a bail agent's license status. San Mateo County Sheriff: to post cash bail, bring the amount to the cashier's window in the jail lobby (Sheriff Inmate Bail FAQ); the Sheriff is prohibited by law from referring bail agencies. Court bail schedules: sanmateo.courts.ca.gov/divisions/criminal-division/local-bail-schedules.",
+    "source_url": "https://www.smcsheriff.com/inmate-bail-frequently-asked-questions",
+    "verified_on": "2026-10-13",
+    "todo": "Which jail lobby (Maguire vs Maple Street) and cashier hours are not stated on the FAQ"
+  }
+}

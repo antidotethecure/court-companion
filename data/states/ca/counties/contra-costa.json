@@ -1,0 +1,510 @@
+{
+  "state": "CA",
+  "county": "Contra Costa",
+  "slug": "contra-costa",
+  "court_name": "Superior Court of California, County of Contra Costa",
+  "court_website": "https://contracosta.courts.ca.gov/",
+  "case_search_url": "https://kiosk-cacontracosta.tylertech.cloud/Portal/",
+  "case_search_note": "Court Public Portal (Tyler) linked from the court's Criminal page: 'Smart Search' for court records and hearing search by date range; no registration required. The portal page does not say which case types or documents (e.g., minute orders) are viewable — confirm before relying on it.",
+  "sources": [
+    {
+      "title": "CC Superior Court — Locations",
+      "url": "https://contracosta.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CC Superior Court — Criminal",
+      "url": "https://contracosta.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CC Superior Court — Collaborative Justice Courts",
+      "url": "https://contracosta.courts.ca.gov/general-information/collaborative-justice-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CC Superior Court — Self-Help",
+      "url": "https://contracosta.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CC Superior Court — Public Portal",
+      "url": "https://kiosk-cacontracosta.tylertech.cloud/Portal/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CC Public Defender — Home",
+      "url": "https://www.cocopublicdefenders.org/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CC Public Defender — Clean Slate",
+      "url": "https://www.cocopublicdefenders.org/clean-slate",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CC Probation — Contact Us",
+      "url": "https://contracostaprobation.ca.gov/contat__us.php",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CC Probation — Pretrial Services",
+      "url": "https://contracostaprobation.ca.gov/services/pre_trial_services/index.php",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CC Probation — John A. Davis Juvenile Hall",
+      "url": "https://contracostaprobation.ca.gov/services/john_a_davis_juvenile_hall/index.php",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CC Sheriff — Inmate Information",
+      "url": "https://www.cocosheriff.org/how-do-i/inmate-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CC Sheriff — Deposit Money",
+      "url": "https://www.cocosheriff.org/how-do-i/inmate-information/deposit-money",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CC Sheriff — Martinez Detention Facility",
+      "url": "https://www.cocosheriff.org/bureaus/custody-services/martinez-detention-facility",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CC Sheriff — West County Detention Facility",
+      "url": "https://www.cocosheriff.org/bureaus/custody-services/west-county-detention-facility",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CC Sheriff — WRTH",
+      "url": "https://www.cocosheriff.org/bureaus/custody-services/west-county-reentry-treatment-and-housing",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CC Sheriff — Marsh Creek Detention Facility",
+      "url": "https://www.cocosheriff.org/bureaus/custody-services/marsh-creek-detention-facility",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "LawHelpCA",
+      "url": "https://www.lawhelpca.org/",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "wakefield-taylor",
+      "name": "Wakefield Taylor Courthouse",
+      "address": "725 Court Street",
+      "city": "Martinez",
+      "zip": "94553",
+      "phone": "(925) 608-1000",
+      "criminal_phone": null,
+      "hours": "Building & clerk windows Mon–Fri 8:00 a.m.–4:00 p.m.; court phones 8:00 a.m.–3:00 p.m.",
+      "criminal": true,
+      "note": "Criminal, Civil, Probate. Hears felony and misdemeanor trials, criminal pretrial matters, DUI cases and arraignments; criminal filing/fee payment/file review.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://contracosta.courts.ca.gov/location/wakefield-taylor-courthouse",
+      "verified_on": "2026-10-13",
+      "todo": "Department assignments by courthouse not published on location page"
+    },
+    {
+      "id": "bray",
+      "name": "A.F. Bray Courthouse",
+      "address": "1020 Ward Street",
+      "city": "Martinez",
+      "zip": "94553",
+      "phone": "(925) 608-1000",
+      "criminal_phone": null,
+      "hours": "Building Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "criminal": true,
+      "note": "Criminal, Mental Health, Jury Services. Nine courtrooms where general trials and criminal arraignments are heard. Page also lists Traffic line (925) 875-7800.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://contracosta.courts.ca.gov/location/af-bray-courthouse",
+      "verified_on": "2026-10-13",
+      "todo": "Department assignments by courthouse not published on location page"
+    },
+    {
+      "id": "richmond",
+      "name": "George D. Carroll Courthouse",
+      "address": "100 – 37th Street",
+      "city": "Richmond",
+      "zip": "94805",
+      "phone": "(925) 608-1000",
+      "criminal_phone": null,
+      "hours": "Building Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "criminal": true,
+      "note": "Small Claims, Criminal, Traffic, Landlord/Tenant, DV/Restraining Orders. West County.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://contracosta.courts.ca.gov/location/george-d-carroll-courthouse",
+      "verified_on": "2026-10-13",
+      "todo": "Department assignments by courthouse not published on location page"
+    },
+    {
+      "id": "pittsburg",
+      "name": "Richard E. Arnason Justice Center",
+      "address": "1000 Center Drive",
+      "city": "Pittsburg",
+      "zip": "94565",
+      "phone": "(925) 608-1000",
+      "criminal_phone": null,
+      "hours": "Building Mon–Fri 8:00 a.m.–5:00 p.m.; filing windows 8:00 a.m.–4:00 p.m.; phones 8:00 a.m.–3:00 p.m.",
+      "criminal": true,
+      "note": "Family law, small claims, unlawful detainer, criminal and traffic; some DV and juvenile matters. Seven courtrooms. East County.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://contracosta.courts.ca.gov/location/richard-e-arnason-justice-center",
+      "verified_on": "2026-10-13",
+      "todo": "Department assignments by courthouse not published on location page"
+    },
+    {
+      "id": "walnut-creek",
+      "name": "Walnut Creek Juvenile and Traffic Center",
+      "address": "640 Ygnacio Valley Road",
+      "city": "Walnut Creek",
+      "zip": "94596",
+      "phone": "(925) 608-1000",
+      "criminal_phone": null,
+      "hours": "Building Mon–Fri 8:00 a.m.–5:00 p.m.; clerk windows 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Traffic and Juvenile only (dependency, delinquency, truancy) — no adult criminal cases. Traffic serves Concord, Danville, Martinez, San Ramon and others.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://contracosta.courts.ca.gov/location/walnut-creek-juvenile-and-traffic-center",
+      "verified_on": "2026-10-13",
+      "todo": "Department assignments by courthouse not published on location page"
+    },
+    {
+      "id": "spinetta",
+      "name": "Spinetta Family Law Center",
+      "address": "751 Pine Street",
+      "city": "Martinez",
+      "zip": "94553",
+      "phone": "(925) 608-1000",
+      "criminal_phone": null,
+      "hours": null,
+      "criminal": false,
+      "note": "Family law center.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://contracosta.courts.ca.gov/location/spinetta-family-law-center",
+      "verified_on": "2026-10-13",
+      "todo": "Location page details not loaded; hours not captured"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Contra Costa Public Defender — Main Branch",
+      "address": "800 Ferry Street",
+      "city": "Martinez",
+      "zip": "94553",
+      "phone": "(925) 608-9600",
+      "toll_free": null,
+      "email": "info@pd.cccounty.us",
+      "hours": null,
+      "url": "https://www.cocopublicdefenders.org/",
+      "source_url": "https://www.cocopublicdefenders.org/",
+      "verified_on": "2026-10-13",
+      "todo": "Office hours not listed; TTY 711"
+    },
+    {
+      "name": "Contra Costa Public Defender — Richmond Branch",
+      "address": "3811 Bissell Avenue",
+      "city": "Richmond",
+      "zip": "94805",
+      "phone": "(510) 942-4900",
+      "toll_free": null,
+      "email": "info@pd.cccounty.us",
+      "hours": null,
+      "url": "https://www.cocopublicdefenders.org/",
+      "source_url": "https://www.cocopublicdefenders.org/",
+      "verified_on": "2026-10-13",
+      "todo": "Office hours not listed; TTY 711"
+    },
+    {
+      "name": "Contra Costa Public Defender — Walnut Creek Branch",
+      "address": "2020 N. Broadway, Suite 208",
+      "city": "Walnut Creek",
+      "zip": "94596",
+      "phone": "(925) 608-4400",
+      "toll_free": null,
+      "email": "info@pd.cccounty.us",
+      "hours": null,
+      "url": "https://www.cocopublicdefenders.org/",
+      "source_url": "https://www.cocopublicdefenders.org/",
+      "verified_on": "2026-10-13",
+      "todo": "Office hours not listed; TTY 711"
+    },
+    {
+      "name": "Contra Costa Alternate Defender Office",
+      "address": "627 Ferry Street",
+      "city": "Martinez",
+      "zip": "94553",
+      "phone": "(925) 608-9800",
+      "toll_free": null,
+      "email": "info@pd.cccounty.us",
+      "hours": null,
+      "url": "https://www.cocopublicdefenders.org/",
+      "source_url": "https://www.cocopublicdefenders.org/",
+      "verified_on": "2026-10-13",
+      "todo": "Office hours not listed; TTY 711"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Contra Costa Public Defender — Clean Slate",
+      "serves": "People with prior arrests, convictions or juvenile adjudications in Contra Costa County",
+      "what": "Dismissals (expungement), Prop 47/64 relief, felony-to-misdemeanor reduction, certificates of rehabilitation, juvenile and drug-diversion record sealing, advice on voting/jury rights. Apply via the online intake form linked on the page.",
+      "phone": null,
+      "email": "CleanSlate@pd.cccounty.us",
+      "url": "https://www.cocopublicdefenders.org/clean-slate",
+      "source_url": "https://www.cocopublicdefenders.org/clean-slate",
+      "verified_on": "2026-10-13",
+      "todo": "No dedicated phone listed; use main PD line (925) 608-9600"
+    },
+    {
+      "name": "Contra Costa Superior Court — Self-Help",
+      "serves": "Self-represented people",
+      "what": "Court self-help resources; law library in the Martinez courthouse; online chat with law librarian. Temporary civil self-help line covers landlord/tenant, civil harassment, small claims, name change only.",
+      "phone": "(925) 608-2178",
+      "email": null,
+      "url": "https://contracosta.courts.ca.gov/self-help",
+      "source_url": "https://contracosta.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13",
+      "todo": "No criminal-specific self-help phone listed"
+    },
+    {
+      "name": "LawHelpCA — Find Legal Help",
+      "serves": "Californians",
+      "what": "Statewide legal aid directory maintained by the Legal Aid Association of California; search by city/county/zip.",
+      "phone": null,
+      "email": null,
+      "url": "https://www.lawhelpca.org/find-legal-help",
+      "source_url": "https://www.lawhelpca.org/",
+      "verified_on": "2026-10-13",
+      "todo": null
+    }
+  ],
+  "probation": [
+    {
+      "name": "Contra Costa Probation — Martinez Office (main)",
+      "address": "50 Douglas Dr., Ste 200",
+      "city": "Martinez",
+      "zip": "94553",
+      "phone": "(925) 313-4000",
+      "hours": "Mon–Fri 8 a.m.–5 p.m., closed noon–1 p.m. (department general hours)",
+      "url": "https://contracostaprobation.ca.gov/",
+      "source_url": "https://contracostaprobation.ca.gov/contat__us.php",
+      "verified_on": "2026-10-13",
+      "note": "TTY 711",
+      "todo": "Office-specific hours not listed"
+    },
+    {
+      "name": "Contra Costa Probation — Antioch Office",
+      "address": "4549 Delta Fair Blvd.",
+      "city": "Antioch",
+      "zip": "94509",
+      "phone": "(925) 431-1600",
+      "hours": "Mon–Fri 8 a.m.–5 p.m., closed noon–1 p.m. (department general hours)",
+      "url": "https://contracostaprobation.ca.gov/",
+      "source_url": "https://contracostaprobation.ca.gov/contat__us.php",
+      "verified_on": "2026-10-13",
+      "note": null,
+      "todo": "Office-specific hours not listed"
+    },
+    {
+      "name": "Contra Costa Probation — Richmond Office",
+      "address": "3220 Blume Dr Suite 250",
+      "city": "Richmond",
+      "zip": "94806",
+      "phone": "(510) 942-3400",
+      "hours": "Mon–Fri 8 a.m.–5 p.m., closed noon–1 p.m. (department general hours)",
+      "url": "https://contracostaprobation.ca.gov/",
+      "source_url": "https://contracostaprobation.ca.gov/contat__us.php",
+      "verified_on": "2026-10-13",
+      "note": null,
+      "todo": "Office-specific hours not listed"
+    },
+    {
+      "name": "Contra Costa Probation — Pretrial Services",
+      "address": "1026 Escobar St., Ste. 3A",
+      "city": "Martinez",
+      "zip": "94553",
+      "phone": "(925) 655-4600",
+      "hours": "Mon–Fri 8 a.m.–5 p.m., closed noon–1 p.m. (department general hours)",
+      "url": "https://contracostaprobation.ca.gov/",
+      "source_url": "https://contracostaprobation.ca.gov/contat__us.php",
+      "verified_on": "2026-10-13",
+      "note": null,
+      "todo": "Office-specific hours not listed"
+    }
+  ],
+  "programs": [
+    {
+      "id": "pretrial",
+      "name": "Probation Pretrial Services",
+      "type": "pretrial",
+      "summary": "Run by Contra Costa County Probation. Performs pretrial risk assessments for the court using the Public Safety Assessment (PSA) — scores for failure to appear and new criminal activity (1–6) and a violence flag — and supervises people released to pretrial. Reporting instructions are on a separate Probation page.",
+      "phone": "(925) 655-4600",
+      "url": "https://contracostaprobation.ca.gov/services/pre_trial_services/index.php",
+      "source_url": "https://contracostaprobation.ca.gov/services/pre_trial_services/index.php",
+      "verified_on": "2026-10-13",
+      "todo": "Reporting-instructions page (services/pre_trial_services/reporting_instructions.php) not read"
+    },
+    {
+      "id": "veterans-court",
+      "name": "Veterans Treatment Court / Military Diversion",
+      "type": "collaborative_court",
+      "summary": "For veterans whose cases are affected by service-connected issues (PTSD, TBI, substance use, mental health). Judicial supervision plus treatment, probation and a veteran mentor. VA eligibility required; some offenses excluded under PC 1170.9; judge makes final decision. Department 37, one Friday a month at 10:00 a.m.",
+      "phone": null,
+      "url": "https://contracosta.courts.ca.gov/general-information/collaborative-justice-courts",
+      "source_url": "https://contracosta.courts.ca.gov/general-information/collaborative-justice-courts",
+      "verified_on": "2026-10-13",
+      "todo": "Contacts are email-only on the page"
+    },
+    {
+      "id": "homeless-court",
+      "name": "Community Homeless Court",
+      "type": "collaborative_court",
+      "summary": "Helps people with a history of homelessness clear infraction fines, giving credit for community service or other steps taken. Held at the Concord Adult Homeless Shelter.",
+      "phone": null,
+      "url": "https://www.cchealth.org/services-and-programs/homelessness/cch-homeless-services/adult-services/homeless-court",
+      "source_url": "https://contracosta.courts.ca.gov/general-information/collaborative-justice-courts",
+      "verified_on": "2026-10-13",
+      "todo": "Infractions only; eligibility details not on court page"
+    },
+    {
+      "id": "mh-diversion",
+      "name": "Mental Health Diversion (PC 1001.36)",
+      "type": "diversion",
+      "summary": "The court's Criminal page links a PC 1001.36 Mental Health Diversion packet.",
+      "phone": null,
+      "url": "https://contracosta.courts.ca.gov/divisions/criminal",
+      "source_url": "https://contracosta.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13",
+      "todo": "Packet contents/process not read"
+    },
+    {
+      "id": "ats",
+      "name": "Alternative to Supervision (ATS) — Public Defender",
+      "type": "diversion",
+      "summary": "Public Defender program for people charged with misdemeanor domestic violence offenses.",
+      "phone": "(925) 608-9600",
+      "url": "https://www.cocopublicdefenders.org/alternative-to-supervision",
+      "source_url": "https://www.cocopublicdefenders.org/",
+      "verified_on": "2026-10-13",
+      "todo": "Program page itself not read"
+    }
+  ],
+  "jails": [
+    {
+      "id": "mdf",
+      "name": "Martinez Detention Facility (MDF)",
+      "address": "901 Court Street",
+      "city": "Martinez",
+      "zip": "94553",
+      "houses": null,
+      "phone": "(925) 335-4600",
+      "phone_note": "Maximum security; primary intake point for all arrestees booked in Contra Costa County; pre-sentenced and sentenced. Visiting Mon/Tue/Wed/Sat/Sun 8:30–11 a.m., 1–5 p.m., 7:30–9 p.m.; Thu 8:30–11 a.m., 1–5 p.m.; Fri 7:30–9 p.m. Up to 4 visitors, must be scheduled.",
+      "url": "https://www.cocosheriff.org/bureaus/custody-services/martinez-detention-facility",
+      "visiting_url": "https://www.cocosheriff.org/how-do-i/inmate-information/visiting-an-inmate",
+      "commissary_or_money_url": "https://www.cocosheriff.org/how-do-i/inmate-information/deposit-money",
+      "court_ids": [
+        "wakefield-taylor",
+        "bray"
+      ],
+      "source_url": "https://www.cocosheriff.org/bureaus/custody-services/martinez-detention-facility",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff's page does not state whether MDF houses men, women or both. court_ids = nearest criminal courthouses (same Martinez civic center), not confirmed."
+    },
+    {
+      "id": "wcdf",
+      "name": "West County Detention Facility (WCDF)",
+      "address": "5555 Giant Highway",
+      "city": "Richmond",
+      "zip": "94806",
+      "houses": "both",
+      "phone": "(510) 262-4200",
+      "phone_note": "Direct-supervision, co-educational, program-oriented campus (up to 900 on Main Campus). Visiting Mon–Thu hourly 7 a.m.–2 p.m. (no noon), Sat–Sun 7 a.m.–4 p.m.; up to 3 visitors, must be scheduled.",
+      "url": "https://www.cocosheriff.org/bureaus/custody-services/west-county-detention-facility",
+      "visiting_url": "https://www.cocosheriff.org/how-do-i/inmate-information/visiting-an-inmate",
+      "commissary_or_money_url": "https://www.cocosheriff.org/how-do-i/inmate-information/deposit-money",
+      "court_ids": [
+        "richmond"
+      ],
+      "source_url": "https://www.cocosheriff.org/bureaus/custody-services/west-county-detention-facility",
+      "verified_on": "2026-10-13",
+      "todo": "'both' inferred from sheriff's description 'co-educational'. court_ids = nearest criminal courthouse, not confirmed."
+    },
+    {
+      "id": "wrth",
+      "name": "West County Reentry Treatment and Housing (WRTH)",
+      "address": "5555 Giant Highway",
+      "city": "Richmond",
+      "zip": "94806",
+      "houses": null,
+      "phone": "(510) 262-4200",
+      "phone_note": "Opened 2026 on the WCDF campus; up to 272 people with mental health, medical or security needs; reentry program space and clinic. Visitors check in at the WCDF lobby; same visiting blocks as WCDF.",
+      "url": "https://www.cocosheriff.org/bureaus/custody-services/west-county-reentry-treatment-and-housing",
+      "visiting_url": "https://www.cocosheriff.org/how-do-i/inmate-information/visiting-an-inmate",
+      "commissary_or_money_url": "https://www.cocosheriff.org/how-do-i/inmate-information/deposit-money",
+      "court_ids": [
+        "richmond"
+      ],
+      "source_url": "https://www.cocosheriff.org/bureaus/custody-services/west-county-reentry-treatment-and-housing",
+      "verified_on": "2026-10-13",
+      "todo": "Gender housed not stated. court_ids = nearest criminal courthouse, not confirmed."
+    },
+    {
+      "id": "mcdf",
+      "name": "Marsh Creek Detention Facility (MCDF)",
+      "address": "12000 Marsh Creek Road",
+      "city": "Clayton",
+      "zip": "94517",
+      "houses": null,
+      "phone": "(925) 646-5700",
+      "phone_note": "Minimum security ('the farm'); houses people already sentenced for lesser offenses; average ~70, capacity 154. Visiting Sat & Sun 1:00 and 2:00 p.m.",
+      "url": "https://www.cocosheriff.org/bureaus/custody-services/marsh-creek-detention-facility",
+      "visiting_url": "https://www.cocosheriff.org/how-do-i/inmate-information/visiting-an-inmate",
+      "commissary_or_money_url": "https://www.cocosheriff.org/how-do-i/inmate-information/deposit-money",
+      "court_ids": [
+        "pittsburg"
+      ],
+      "source_url": "https://www.cocosheriff.org/bureaus/custody-services/marsh-creek-detention-facility",
+      "verified_on": "2026-10-13",
+      "todo": "Gender housed not stated. Sentenced population, so court trips are uncommon. court_ids = nearest criminal courthouse by rough distance, not confirmed."
+    },
+    {
+      "id": "john-a-davis-jh",
+      "name": "John A. Davis Juvenile Hall",
+      "address": "202 Glacier Dr.",
+      "city": "Martinez",
+      "zip": "94553",
+      "houses": "juvenile",
+      "phone": "(925) 957-2700",
+      "phone_note": "Probation-run, 270-bed max-security youth facility (youth up to age 25). Weekdays 8–5: 925-957-2700; after hours/weekends: 925-957-2740; special-visit scheduling 925-957-2725. Two hours of visits per week (one weekday, one weekend day).",
+      "url": "https://contracostaprobation.ca.gov/services/john_a_davis_juvenile_hall/index.php",
+      "visiting_url": "https://contracostaprobation.ca.gov/services/john_a_davis_juvenile_hall/index.php",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "walnut-creek"
+      ],
+      "source_url": "https://contracostaprobation.ca.gov/services/john_a_davis_juvenile_hall/index.php",
+      "verified_on": "2026-10-13",
+      "todo": "Juvenile matters are heard at Walnut Creek (and some at Pittsburg); which court youth from JH attend not confirmed."
+    }
+  ],
+  "inmate_lookup_url": "https://inmateinfo.so.cccounty.us/Web/InCustodyLocator",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' to verify a bail agent. The court's Criminal page posts felony and misdemeanor bail schedules (2026 schedules effective 7/8/26). Inmate money (not bail) is accepted only as money orders/cashier's checks payable to 'Office of the Sheriff' with name and booking number, or by card at MDF/WCDF lobby kiosks, (866) 345-1884, or smartdeposit.com.",
+    "source_url": "https://contracosta.courts.ca.gov/divisions/criminal",
+    "verified_on": "2026-10-13",
+    "todo": "Where/how to post cash bail with the Sheriff not found on an official page"
+  }
+}

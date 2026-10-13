@@ -1,0 +1,750 @@
+{
+  "state": "CA",
+  "county": "Kern",
+  "slug": "kern",
+  "court_name": "Superior Court of California, County of Kern",
+  "court_website": "https://www.kern.courts.ca.gov/",
+  "case_search_url": "https://portal.kern.courts.ca.gov",
+  "case_search_note": "Case Information Search: from the court's Case Information Search page choose 'Accept and Enter' to reach the portal. Online data is not the official record. Documents can be requested separately (Request Documents page).",
+  "sources": [
+    {
+      "title": "KSC — Locations & Contact Info",
+      "url": "https://www.kern.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "KSC — Criminal (incl. criminal court locations)",
+      "url": "https://www.kern.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "KSC — Case Information Search",
+      "url": "https://www.kern.courts.ca.gov/online-services/case-information-search",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "KSC — Divisions",
+      "url": "https://www.kern.courts.ca.gov/divisions",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Kern Sheriff — Detentions Bureau directory",
+      "url": "https://www.kernsheriff.org/detentions-bureau",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Kern Sheriff — Lerdo Pre-Trial Facility",
+      "url": "https://www.kernsheriff.org/lerdo-pretrial-section",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Kern Sheriff — Lerdo Justice Facility",
+      "url": "https://www.kernsheriff.org/lerdo-justice-facility-section",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Kern Sheriff — Lerdo Max-Med",
+      "url": "https://www.kernsheriff.org/lerdo-med-max",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Kern Sheriff — Lerdo Minimum",
+      "url": "https://www.kernsheriff.org/lerdo-minimum",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Kern Sheriff — Public Visiting",
+      "url": "https://www.kernsheriff.org/public-visiting",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Kern County Public Defender — Contact",
+      "url": "https://www.kerncounty.com/government/departments/public-defender/contact-public-defender",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Kern County Public Defender — Clean Slate Program",
+      "url": "https://www.kerncounty.com/government/departments/public-defender/clean-slate-program",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Kern Probation — Contacts",
+      "url": "https://www.kernprobation.com/resources/contacts/",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "metro",
+      "name": "Metropolitan Division (Metro Building)",
+      "address": "1415 Truxtun Ave",
+      "city": "Bakersfield",
+      "zip": "93301",
+      "phone": "(661) 610-6000",
+      "criminal_phone": "(661) 610-6000",
+      "hours": "Mon–Thu 8:00 a.m.–4:00 p.m.; Fri 8:00 a.m.–12:00 p.m.",
+      "criminal": true,
+      "note": "Listed first under 'Criminal Court Locations'. For misdemeanors at the Metro Building a Probation Officer is available in person Mon–Thu 8–10 a.m. Misdemeanor Financial Services here (wmfinancialservices@kern.courts.ca.gov). Sheriff runs 'Metro Court Holding' for in-custody court appearances.",
+      "departments": [],
+      "source_url": "https://www.kern.courts.ca.gov/location/metropolitan-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "justice-building",
+      "name": "Metropolitan Division — Justice Building",
+      "address": "1215 Truxtun Ave",
+      "city": "Bakersfield",
+      "zip": "93301",
+      "phone": "(661) 610-6000",
+      "criminal_phone": null,
+      "hours": "Mon–Thu 8:00 a.m.–4:00 p.m.; Fri 8:00 a.m.–12:00 p.m.",
+      "criminal": null,
+      "note": "Court location page gives address/hours only; not listed on the Criminal page's court locations.",
+      "departments": [],
+      "source_url": "https://www.kern.courts.ca.gov/location/metropolitan-division-justice-building",
+      "verified_on": "2026-10-13",
+      "todo": "case types heard here not listed"
+    },
+    {
+      "id": "metro-traffic",
+      "name": "Metropolitan Traffic Division",
+      "address": "3131 Arrow St",
+      "city": "Bakersfield",
+      "zip": "93308",
+      "phone": "(661) 610-7000",
+      "criminal_phone": "(661) 610-7000",
+      "hours": "Lobby Mon–Thu 7:30 a.m.–4:00 p.m., Fri 7:30 a.m.–12:00 p.m.; payment window Mon–Thu 7:30–4, Fri 7:30–3",
+      "criminal": true,
+      "note": "Traffic. If your ticket came from outside the Metropolitan area, go to the branch on your Courtesy Notice.",
+      "departments": [],
+      "source_url": "https://www.kern.courts.ca.gov/location/metropolitan-traffic-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "delano",
+      "name": "Delano",
+      "address": "1122 Jefferson St",
+      "city": "Delano",
+      "zip": "93215",
+      "phone": "(661) 610-7300",
+      "criminal_phone": "(661) 610-7300",
+      "hours": "Mon–Thu 8:00 a.m.–4:00 p.m.; Fri 8:00 a.m.–12:00 p.m.",
+      "criminal": true,
+      "note": "Listed as a criminal court location.",
+      "departments": [],
+      "source_url": "https://www.kern.courts.ca.gov/location/delano",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "lamont",
+      "name": "Lamont",
+      "address": "12022 Main St",
+      "city": "Lamont",
+      "zip": "93241",
+      "phone": "(661) 610-7100",
+      "criminal_phone": "(661) 610-7100",
+      "hours": "Mon–Thu 8:00 a.m.–4:00 p.m.; Fri 8:00 a.m.–12:00 p.m.",
+      "criminal": true,
+      "note": "Listed as a criminal court location.",
+      "departments": [],
+      "source_url": "https://www.kern.courts.ca.gov/location/lamont",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "mojave",
+      "name": "Mojave",
+      "address": "1773 State Highway 58 Business",
+      "city": "Mojave",
+      "zip": "93501",
+      "phone": "(661) 610-7400",
+      "criminal_phone": "(661) 610-7400",
+      "hours": "Mon–Thu 8:00 a.m.–4:00 p.m.; Fri 8:00 a.m.–12:00 p.m.",
+      "criminal": true,
+      "note": "Listed as a criminal court location.",
+      "departments": [],
+      "source_url": "https://www.kern.courts.ca.gov/location/mojave",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "ridgecrest",
+      "name": "Ridgecrest",
+      "address": "132 E Coso Ave",
+      "city": "Ridgecrest",
+      "zip": "93555",
+      "phone": "(661) 610-7450",
+      "criminal_phone": "(661) 610-7450",
+      "hours": "Mon–Thu 8:00 a.m.–4:00 p.m.; Fri 8:00 a.m.–12:00 p.m.",
+      "criminal": true,
+      "note": "Listed as a criminal court location.",
+      "departments": [],
+      "source_url": "https://www.kern.courts.ca.gov/location/ridgecrest",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "shafter",
+      "name": "Shafter",
+      "address": "325 Central Valley Hwy",
+      "city": "Shafter",
+      "zip": "93263",
+      "phone": "(661) 610-7200",
+      "criminal_phone": "(661) 610-7200",
+      "hours": "Mon–Thu 8:00 a.m.–4:00 p.m.; Fri 8:00 a.m.–12:00 p.m.",
+      "criminal": true,
+      "note": "Listed as a criminal court location.",
+      "departments": [],
+      "source_url": "https://www.kern.courts.ca.gov/location/shafter",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "juvenile",
+      "name": "Juvenile Justice Center",
+      "address": "2100 College Ave",
+      "city": "Bakersfield",
+      "zip": "93305",
+      "phone": "(661) 610-6900",
+      "criminal_phone": null,
+      "hours": "Mon–Thu 8:00 a.m.–4:00 p.m.; Fri 8:00 a.m.–12:00 p.m.",
+      "criminal": false,
+      "note": "Juvenile court.",
+      "departments": [],
+      "source_url": "https://www.kern.courts.ca.gov/location/juvenile-justice-center",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Kern County Public Defender — Main Office",
+      "address": "1315 Truxtun Avenue",
+      "city": "Bakersfield",
+      "zip": "93301",
+      "phone": "(661) 868-4799",
+      "toll_free": null,
+      "email": "publicdefender@kerncounty.com",
+      "hours": null,
+      "url": "https://www.kerncounty.com/government/departments/public-defender",
+      "todo": "hours not listed",
+      "note": "Fax (661) 868-4785.",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.kerncounty.com/government/departments/public-defender/contact-public-defender"
+    },
+    {
+      "name": "Kern County Public Defender — Delano Office",
+      "address": "1122 Jefferson St.",
+      "city": "Delano",
+      "zip": "93215",
+      "phone": "(661) 720-5813",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.kerncounty.com/government/departments/public-defender",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.kerncounty.com/government/departments/public-defender/contact-public-defender"
+    },
+    {
+      "name": "Kern County Public Defender — Lamont Office",
+      "address": "12022 Main St.",
+      "city": "Lamont",
+      "zip": "93241",
+      "phone": "(661) 868-5731",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.kerncounty.com/government/departments/public-defender",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.kerncounty.com/government/departments/public-defender/contact-public-defender"
+    },
+    {
+      "name": "Kern County Public Defender — Mojave Office",
+      "address": "1775 Hwy. 58",
+      "city": "Mojave",
+      "zip": "93501",
+      "phone": "(661) 824-7170",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.kerncounty.com/government/departments/public-defender",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.kerncounty.com/government/departments/public-defender/contact-public-defender"
+    },
+    {
+      "name": "Kern County Public Defender — Ridgecrest Office",
+      "address": "400 No. China Lake Blvd.",
+      "city": "Ridgecrest",
+      "zip": "93555",
+      "phone": "(760) 384-5876",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.kerncounty.com/government/departments/public-defender",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.kerncounty.com/government/departments/public-defender/contact-public-defender"
+    },
+    {
+      "name": "Kern County Public Defender — Shafter Office",
+      "address": "325 Central Valley Hwy",
+      "city": "Shafter",
+      "zip": "93263",
+      "phone": "(661) 746-7542",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.kerncounty.com/government/departments/public-defender",
+      "todo": "hours not listed",
+      "note": "Leave a message at this number with questions.",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.kerncounty.com/government/departments/public-defender/contact-public-defender"
+    },
+    {
+      "name": "Kern County Public Defender — Juvenile (Juvenile Justice Center)",
+      "address": "2100 College Avenue",
+      "city": "Bakersfield",
+      "zip": "93305",
+      "phone": "(661) 868-4285",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.kerncounty.com/government/departments/public-defender",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.kerncounty.com/government/departments/public-defender/contact-public-defender"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Kern County Public Defender — Clean Slate Program",
+      "serves": "People with a Kern County criminal record",
+      "what": "Free, confidential PD program to help clean up and expunge criminal records and remove barriers caused by a record.",
+      "phone": "(661) 868-4799",
+      "email": "cleanslate@kerncounty.com",
+      "url": "https://www.kerncounty.com/government/departments/public-defender/clean-slate-program",
+      "source_url": "https://www.kerncounty.com/government/departments/public-defender/clean-slate-program",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "KSC Self-Help",
+      "serves": "Self-represented people",
+      "what": "Court self-help pages and email self-help; topics include court records, traffic, restraining orders, family, evictions.",
+      "phone": null,
+      "email": null,
+      "url": "https://www.kern.courts.ca.gov/self-help/email-self-help",
+      "source_url": "https://www.kern.courts.ca.gov/",
+      "todo": "No criminal record-clearance self-help page confirmed",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Kern Probation — Main Office",
+      "address": "2005 Ridge Rd",
+      "city": "Bakersfield",
+      "zip": "93305",
+      "phone": "(661) 868-4100",
+      "hours": null,
+      "url": "https://www.kernprobation.com/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.kernprobation.com/resources/contacts/"
+    },
+    {
+      "name": "Kern Probation — Adult Office",
+      "address": "1415 Truxtun Avenue",
+      "city": "Bakersfield",
+      "zip": "93301",
+      "phone": "(661) 868-4500",
+      "hours": null,
+      "url": "https://www.kernprobation.com/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.kernprobation.com/resources/contacts/"
+    },
+    {
+      "name": "Kern Probation — Baker Street",
+      "address": "500 Baker Street",
+      "city": "Bakersfield",
+      "zip": "93305",
+      "phone": "(661) 868-5906",
+      "hours": null,
+      "url": "https://www.kernprobation.com/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.kernprobation.com/resources/contacts/"
+    },
+    {
+      "name": "Kern Probation — Bridges Office",
+      "address": "301 East 18th Street",
+      "city": "Bakersfield",
+      "zip": "93305",
+      "phone": "(661) 852-5730",
+      "hours": null,
+      "url": "https://www.kernprobation.com/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.kernprobation.com/resources/contacts/"
+    },
+    {
+      "name": "Kern Probation — Stockdale Office",
+      "address": "5121 Stockdale Hwy. Ste. 100",
+      "city": "Bakersfield",
+      "zip": "93309",
+      "phone": "(661) 396-4560",
+      "hours": null,
+      "url": "https://www.kernprobation.com/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.kernprobation.com/resources/contacts/"
+    },
+    {
+      "name": "Kern Probation — Delano Office",
+      "address": "1122 Jefferson St",
+      "city": "Delano",
+      "zip": "93215",
+      "phone": "(661) 720-5808",
+      "hours": null,
+      "url": "https://www.kernprobation.com/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.kernprobation.com/resources/contacts/"
+    },
+    {
+      "name": "Kern Probation — Lamont Office",
+      "address": "12022 Main Street",
+      "city": "Lamont",
+      "zip": "93241",
+      "phone": "(661) 845-0931",
+      "hours": null,
+      "url": "https://www.kernprobation.com/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.kernprobation.com/resources/contacts/"
+    },
+    {
+      "name": "Kern Probation — Lake Isabella Office",
+      "address": "7046 Lake Isabella Blvd. Ste. 214",
+      "city": "Lake Isabella",
+      "zip": "93240",
+      "phone": "(760) 549-2048",
+      "hours": null,
+      "url": "https://www.kernprobation.com/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.kernprobation.com/resources/contacts/"
+    },
+    {
+      "name": "Kern Probation — Mojave Office",
+      "address": "1775 Highway 58",
+      "city": "Mojave",
+      "zip": "93501",
+      "phone": "(661) 824-7180",
+      "hours": null,
+      "url": "https://www.kernprobation.com/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.kernprobation.com/resources/contacts/"
+    },
+    {
+      "name": "Kern Probation — Ridgecrest Office",
+      "address": "400 N. China Lake Blvd.",
+      "city": "Ridgecrest",
+      "zip": "93555",
+      "phone": "(760) 384-5914",
+      "hours": null,
+      "url": "https://www.kernprobation.com/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.kernprobation.com/resources/contacts/"
+    },
+    {
+      "name": "Kern Probation — Shafter Office",
+      "address": "325 Central Valley Hwy.",
+      "city": "Shafter",
+      "zip": "93263",
+      "phone": "(661) 746-7590",
+      "hours": null,
+      "url": "https://www.kernprobation.com/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.kernprobation.com/resources/contacts/"
+    },
+    {
+      "name": "Kern Probation — Taft Office",
+      "address": "315 Lincoln Street",
+      "city": "Taft",
+      "zip": "93268",
+      "phone": "(661) 763-8595",
+      "hours": null,
+      "url": "https://www.kernprobation.com/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.kernprobation.com/resources/contacts/"
+    },
+    {
+      "name": "Kern Probation — Blanton Office",
+      "address": "300 Truxtun Avenue",
+      "city": "Bakersfield",
+      "zip": "93305",
+      "phone": null,
+      "hours": null,
+      "url": "https://www.kernprobation.com/",
+      "todo": "phone and hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://www.kernprobation.com/resources/contacts/"
+    }
+  ],
+  "programs": [
+    {
+      "id": "arraignment-48h",
+      "name": "In-custody arraignment within 48 hours",
+      "type": "info",
+      "summary": "Court: if in custody you have the right to an arraignment within 48 hours of arrest; the judge explains rights and charges and may raise or lower bail. Misdemeanor trial within 30 days (in custody) or 45 days (out of custody) unless time is waived.",
+      "url": "https://www.kern.courts.ca.gov/divisions/criminal",
+      "source_url": "https://www.kern.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "dvdp",
+      "name": "Domestic Violence Diversion Program (DVDP)",
+      "type": "diversion",
+      "summary": "The court's Criminal page lists DVDP payments through Misdemeanor Financial Services (1415 Truxtun Ave, (661) 610-6000).",
+      "url": "https://www.kern.courts.ca.gov/divisions/criminal",
+      "todo": "Program eligibility page not found",
+      "source_url": "https://www.kern.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "prop47",
+      "name": "Proposition 47 information",
+      "type": "record_relief",
+      "summary": "Court's Criminal page includes a Proposition 47 information section.",
+      "url": "https://www.kern.courts.ca.gov/divisions/criminal",
+      "todo": "section text not extracted",
+      "source_url": "https://www.kern.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "bail-schedule",
+      "name": "Bail Schedules",
+      "type": "info",
+      "summary": "Court posts Kern bail schedules (also linked by the Sheriff).",
+      "url": "https://www.kern.courts.ca.gov/divisions/criminal/bail-schedules",
+      "source_url": "https://www.kern.courts.ca.gov/divisions/criminal/bail-schedules",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "revenue-recovery",
+      "name": "Revenue Recovery (fine payment help)",
+      "type": "info",
+      "summary": "Assists people who cannot pay their entire fine at the time of their hearing. 5555 California Avenue, Suite #100, Bakersfield 93309, (661) 610-7500, Mon–Fri 8–4.",
+      "phone": "(661) 610-7500",
+      "url": "https://www.kern.courts.ca.gov/divisions",
+      "source_url": "https://www.kern.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "lerdo-pretrial",
+      "name": "Lerdo Pre-Trial Facility",
+      "address": "17695 Industrial Farm Road",
+      "city": "Bakersfield",
+      "zip": "93308",
+      "phone": "(661) 391-7900",
+      "phone_note": "Money deposit kiosks at Metro Court Holding, the Max-Med Facility and the Justice Facility (Sheriff). Video visitation through Securus Technologies; see Public Visiting.",
+      "houses": "both",
+      "url": "https://www.kernsheriff.org/lerdo-pretrial-section",
+      "visiting_url": "https://www.kernsheriff.org/public-visiting",
+      "commissary_or_money_url": "https://www.kernsheriff.org/inmate-supplies-commissary",
+      "court_ids": [
+        "metro"
+      ],
+      "source_url": "https://www.kernsheriff.org/lerdo-pretrial-section",
+      "verified_on": "2026-10-13",
+      "note": "Sheriff: largest KCSO detention facility (max 1,232); houses both male and female; holds higher-security incarcerated persons and most state/federal contract inmates. Property releases Mon–Fri 8–5 at the Justice Facility.",
+      "todo": "court_ids: nearest criminal courthouse, not confirmed by Sheriff."
+    },
+    {
+      "id": "lerdo-justice",
+      "name": "Lerdo Justice Facility (incl. Inmate Reception Center)",
+      "address": "17801 Industrial Farm Road",
+      "city": "Bakersfield",
+      "zip": "93308",
+      "phone": "(661) 391-3100",
+      "phone_note": "Money deposit kiosks at Metro Court Holding, the Max-Med Facility and the Justice Facility (Sheriff). Video visitation through Securus Technologies; see Public Visiting.",
+      "houses": null,
+      "url": "https://www.kernsheriff.org/lerdo-justice-facility-section",
+      "visiting_url": "https://www.kernsheriff.org/public-visiting",
+      "commissary_or_money_url": "https://www.kernsheriff.org/inmate-supplies-commissary",
+      "court_ids": [
+        "metro"
+      ],
+      "source_url": "https://www.kernsheriff.org/lerdo-justice-facility-section",
+      "verified_on": "2026-10-13",
+      "note": "Sheriff: holds newly arrested persons and those pending court; the Inmate Reception Center here is the primary facility for receiving arrestees. Type II, 825 medium/maximum beds.",
+      "todo": "houses (men/women) not stated. court_ids: nearest criminal courthouse, not confirmed by Sheriff."
+    },
+    {
+      "id": "lerdo-maxmed",
+      "name": "Lerdo Maximum-Medium (Max-Med) Facility",
+      "address": null,
+      "city": null,
+      "zip": null,
+      "phone": "(661) 391-7865",
+      "phone_note": "Deposit kiosk on site.",
+      "houses": null,
+      "url": "https://www.kernsheriff.org/lerdo-med-max",
+      "visiting_url": "https://www.kernsheriff.org/public-visiting",
+      "commissary_or_money_url": "https://www.kernsheriff.org/inmate-supplies-commissary",
+      "court_ids": [],
+      "source_url": "https://www.kernsheriff.org/detentions-bureau",
+      "verified_on": "2026-10-13",
+      "note": "Sheriff: housing temporarily suspended/under construction; still the booking facility for federal contract inmates (USMS, BOP, State Hospitals).",
+      "todo": "street address not listed; not currently housing anyone"
+    },
+    {
+      "id": "lerdo-minimum",
+      "name": "Lerdo Minimum Facility",
+      "address": null,
+      "city": null,
+      "zip": null,
+      "phone": "(661) 391-7967",
+      "phone_note": null,
+      "houses": "both",
+      "url": "https://www.kernsheriff.org/lerdo-minimum",
+      "visiting_url": "https://www.kernsheriff.org/public-visiting",
+      "commissary_or_money_url": "https://www.kernsheriff.org/inmate-supplies-commissary",
+      "court_ids": [],
+      "source_url": "https://www.kernsheriff.org/detentions-bureau",
+      "verified_on": "2026-10-13",
+      "note": "Sheriff: male section (rated 696) and separate female section (rated 96); directory says currently not housing anyone and under construction.",
+      "todo": "street address not listed; not currently housing anyone"
+    },
+    {
+      "id": "metro-court-holding",
+      "name": "Metro Court Holding",
+      "address": null,
+      "city": null,
+      "zip": null,
+      "phone": "(661) 868-6850",
+      "phone_note": "Money deposit kiosk here.",
+      "houses": null,
+      "url": "https://www.kernsheriff.org/detentions-bureau",
+      "visiting_url": null,
+      "commissary_or_money_url": "https://www.kernsheriff.org/inmate-supplies-commissary",
+      "court_ids": [
+        "metro"
+      ],
+      "source_url": "https://www.kernsheriff.org/detentions-bureau",
+      "verified_on": "2026-10-13",
+      "note": "Sheriff: not housing anyone; used only as a holding facility for court services.",
+      "todo": "address not listed; court_ids inferred from name, not confirmed"
+    },
+    {
+      "id": "mojave-jail",
+      "name": "Mojave Jail",
+      "address": null,
+      "city": "Mojave",
+      "zip": null,
+      "phone": "(661) 824-7141",
+      "phone_note": null,
+      "houses": null,
+      "url": "https://www.kernsheriff.org/detentions-bureau",
+      "visiting_url": "https://www.kernsheriff.org/public-visiting",
+      "commissary_or_money_url": "https://www.kernsheriff.org/inmate-supplies-commissary",
+      "court_ids": [
+        "mojave"
+      ],
+      "source_url": "https://www.kernsheriff.org/detentions-bureau",
+      "verified_on": "2026-10-13",
+      "note": "Sheriff: receives people arrested in the Mojave area; held pending release or transfer to Bakersfield.",
+      "todo": "address and houses not listed. court_ids: nearest criminal courthouse, not confirmed by Sheriff."
+    },
+    {
+      "id": "ridgecrest-jail",
+      "name": "Ridgecrest Jail",
+      "address": null,
+      "city": "Ridgecrest",
+      "zip": null,
+      "phone": "(760) 384-5919",
+      "phone_note": null,
+      "houses": null,
+      "url": "https://www.kernsheriff.org/detentions-bureau",
+      "visiting_url": "https://www.kernsheriff.org/public-visiting",
+      "commissary_or_money_url": "https://www.kernsheriff.org/inmate-supplies-commissary",
+      "court_ids": [
+        "ridgecrest"
+      ],
+      "source_url": "https://www.kernsheriff.org/detentions-bureau",
+      "verified_on": "2026-10-13",
+      "note": "Sheriff: currently not housing anyone; under construction.",
+      "todo": "address not listed"
+    },
+    {
+      "id": "kern-ydc",
+      "name": "Youth Detention Center (Probation)",
+      "address": "1831 Ridge Rd",
+      "city": "Bakersfield",
+      "zip": "93305",
+      "phone": "(661) 868-4300",
+      "phone_note": "Run by Kern County Probation.",
+      "houses": "juvenile",
+      "url": "https://www.kernprobation.com/youth-facilities/youth-detention-center/",
+      "visiting_url": "https://www.kernprobation.com/youth-facilities/youth-detention-center/youth-detention-center-visitation/",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "juvenile"
+      ],
+      "source_url": "https://www.kernprobation.com/resources/contacts/",
+      "verified_on": "2026-10-13",
+      "todo": "court_ids nearest juvenile court, not confirmed"
+    },
+    {
+      "id": "kern-crossroads",
+      "name": "Larry J. Rhoades Kern Crossroads Facility (Probation)",
+      "address": "17824 Quality Rd",
+      "city": "Bakersfield",
+      "zip": "93308",
+      "phone": "(661) 391-2200",
+      "phone_note": "Run by Kern County Probation.",
+      "houses": "juvenile",
+      "url": "https://www.kernprobation.com/youth-facilities/crossroads/",
+      "visiting_url": "https://www.kernprobation.com/youth-facilities/crossroads/crossroads-visitation/",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "juvenile"
+      ],
+      "source_url": "https://www.kernprobation.com/resources/contacts/",
+      "verified_on": "2026-10-13",
+      "todo": "court_ids nearest, not confirmed"
+    },
+    {
+      "id": "camp-owen",
+      "name": "Camp Erwin Owen (Probation)",
+      "address": "14401 Sierra Way",
+      "city": "Kernville",
+      "zip": "93238",
+      "phone": "(760) 376-8500",
+      "phone_note": "Run by Kern County Probation.",
+      "houses": "juvenile",
+      "url": "https://www.kernprobation.com/youth-facilities/camp-owen/",
+      "visiting_url": "https://www.kernprobation.com/youth-facilities/camp-owen/camp-visitation/",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "juvenile"
+      ],
+      "source_url": "https://www.kernprobation.com/resources/contacts/",
+      "verified_on": "2026-10-13",
+      "todo": "court_ids nearest juvenile court (Bakersfield), not confirmed"
+    }
+  ],
+  "inmate_lookup_url": "https://www.kernsheriff.org/inmate-search",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "note": "Kern court posts bail schedules (linked by the Sheriff). Verify any bail agent's license with the CA Department of Insurance.",
+    "todo": "Sheriff page on where/how to post cash bail not found"
+  }
+}

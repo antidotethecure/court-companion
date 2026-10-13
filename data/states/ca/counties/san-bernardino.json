@@ -1,0 +1,669 @@
+{
+  "state": "CA",
+  "county": "San Bernardino",
+  "slug": "san-bernardino",
+  "court_name": "Superior Court of California, County of San Bernardino",
+  "court_website": "https://sanbernardino.courts.ca.gov/",
+  "case_search_url": "https://cap.sb-court.org/",
+  "case_search_note": "'Criminal/Traffic Court Case Information Online' (linked from the court's Criminal division page). Online data is not the official record. Felony/misdemeanor bail schedule (eff. 1/1/26) is posted on the Criminal page.",
+  "sources": [
+    {
+      "title": "SBSC — All Locations",
+      "url": "https://sanbernardino.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SBSC — Criminal Division",
+      "url": "https://sanbernardino.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SBSC — Get In-Person Assistance (Self-Help)",
+      "url": "https://sanbernardino.courts.ca.gov/self-help/get-in-person-assistance",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SBSC — Mental Health",
+      "url": "https://sanbernardino.courts.ca.gov/divisions/mental-health",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SB Sheriff — Corrections / Jails",
+      "url": "https://wp.sbcounty.gov/sheriff/corrections/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SB Sheriff — Inmate General Information",
+      "url": "https://wp.sbcounty.gov/sheriff/corrections/inmate-general-information/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SB Public Defender — Locations and Phone Numbers",
+      "url": "https://pd.sbcounty.gov/about-2/locations/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SB Public Defender — Clear Your Record (Post-Conviction Relief Unit)",
+      "url": "https://pd.sbcounty.gov/pcu/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SB Probation — Office Locations",
+      "url": "https://probation.sbcounty.gov/locations/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SB Probation — JDAC",
+      "url": "https://probation.sbcounty.gov/locations/jdac/",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "sb-criminal",
+      "name": "San Bernardino Justice Center — Criminal Division",
+      "address": "247 West Third Street",
+      "city": "San Bernardino",
+      "zip": "92415",
+      "phone": "(909) 384-1888",
+      "criminal_phone": "(909) 384-1888",
+      "hours": "Building hours Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Cases served: Criminal. Time-critical requests email: TimecriticalrequestsSBJC@sb-court.org. Civil Division is in the same building ((909) 708-8678).",
+      "departments": [],
+      "source_url": "https://sanbernardino.courts.ca.gov/location/criminal-division-san-bernardino-district",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "rancho-cucamonga",
+      "name": "Rancho Cucamonga District (Foothill)",
+      "address": "8303 Haven Avenue",
+      "city": "Rancho Cucamonga",
+      "zip": "91730",
+      "phone": "(909) 350-9764",
+      "criminal_phone": "(909) 350-9764",
+      "hours": "Building hours Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Cases served: Criminal. TDD/TTY (909) 285-3520.",
+      "departments": [],
+      "source_url": "https://sanbernardino.courts.ca.gov/location/rancho-cucamonga-district",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "victorville",
+      "name": "Victorville District",
+      "address": "14455 Civic Drive, Suite 200",
+      "city": "Victorville",
+      "zip": "92392",
+      "phone": "(760) 245-6215",
+      "criminal_phone": "(760) 245-6215",
+      "hours": "Building hours Mon–Fri from 8:00 a.m. (page shows a typo for closing time); Victorville juvenile delinquency page lists clerk's office 8:00 a.m.–4:00 p.m., public phone 8:00 a.m.–3:00 p.m.",
+      "criminal": true,
+      "note": "Cases served: Criminal, Probate, Juvenile. Criminal email: CourtsVictorvilleCriminal@sb-court.org.",
+      "departments": [],
+      "source_url": "https://sanbernardino.courts.ca.gov/location/victorville-district",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "joshua-tree",
+      "name": "Joshua Tree District (Morongo Basin)",
+      "address": "6527 White Feather Road",
+      "city": "Joshua Tree",
+      "zip": "92252",
+      "phone": "(760) 974-3047",
+      "criminal_phone": "(760) 974-3048",
+      "hours": "Building hours Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Cases served: Civil, Criminal, Family Law, Landlord/Tenant, Small Claims, Traffic. Email JoshuaTree@sb-court.org.",
+      "departments": [],
+      "source_url": "https://sanbernardino.courts.ca.gov/location/joshua-tree-district",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "barstow",
+      "name": "Barstow District",
+      "address": "235 East Mountain View Street",
+      "city": "Barstow",
+      "zip": "92311",
+      "phone": "(760) 718-3700",
+      "criminal_phone": null,
+      "hours": "Building hours Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Cases served: Small Claims, Landlord Tenant, Civil Restraining Orders, Family Law, Child Support, Traffic (traffic line (760) 718-3700). Criminal not listed on the location page, though the Sheriff says in-custody video court assignments include Barstow.",
+      "departments": [],
+      "source_url": "https://sanbernardino.courts.ca.gov/location/barstow-district",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "fontana",
+      "name": "Fontana District",
+      "address": "17780 Arrow Boulevard",
+      "city": "Fontana",
+      "zip": "92335",
+      "phone": "(909) 350-9322",
+      "criminal_phone": null,
+      "hours": "Building hours Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Cases served: small claims, landlord/tenant, probate, traffic, civil harassment. Criminal not listed on the location page, though the Sheriff lists Fontana among in-custody video court assignments.",
+      "departments": [],
+      "source_url": "https://sanbernardino.courts.ca.gov/location/fontana-district",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "needles",
+      "name": "Needles District",
+      "address": "1111 Bailey Ave",
+      "city": "Needles",
+      "zip": "92363",
+      "phone": "(760) 269-4962",
+      "criminal_phone": null,
+      "hours": "Building hours Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Cases served: Family Law, Landlord Tenant, Small Claims, Traffic. Not criminal.",
+      "departments": [],
+      "source_url": "https://sanbernardino.courts.ca.gov/location/needles-district",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "big-bear",
+      "name": "Big Bear District",
+      "address": "477 Summit Blvd",
+      "city": "Big Bear Lake",
+      "zip": "92315",
+      "phone": null,
+      "criminal_phone": null,
+      "hours": "Clerk's office open 1st Wednesday of each month 9:30 a.m.–1:30 p.m. (limited services)",
+      "criminal": true,
+      "note": "Traffic, Non-Traffic arraignments and Misdemeanor modifications can be heard at 10:00 a.m. by Remote Video Proceedings — schedule at (760) 974-3020. Most other matters are heard in Barstow.",
+      "departments": [],
+      "source_url": "https://sanbernardino.courts.ca.gov/location/big-bear-district",
+      "verified_on": "2026-10-13",
+      "todo": "main phone not clearly listed for Big Bear itself"
+    },
+    {
+      "id": "sb-juvenile",
+      "name": "San Bernardino Juvenile Delinquency",
+      "address": "900 East Gilbert Street, Bldg. 2",
+      "city": "San Bernardino",
+      "zip": "92415",
+      "phone": "(909) 269-8840",
+      "criminal_phone": null,
+      "hours": "Building hours Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": false,
+      "note": "Juvenile delinquency only. Next to the Central Valley Juvenile Detention and Assessment Center (900 E. Gilbert St.).",
+      "departments": [],
+      "source_url": "https://sanbernardino.courts.ca.gov/location/san-bernardino-juvenile-delinquency",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "mental-health",
+      "name": "Mental Health Court (ARMC Colton)",
+      "address": "Arrowhead Regional Medical Center, Behavioral Health Building, 400 North Pepper Avenue",
+      "city": "Colton",
+      "zip": "92324",
+      "phone": "(909) 498-2296",
+      "criminal_phone": null,
+      "hours": "Court held Tuesday afternoons and Friday mornings; no public access except during hearings",
+      "criminal": false,
+      "note": "LPS/involuntary-treatment hearings (writs, LPS conservatorships) — civil mental health, not a criminal court. Office of the Mental Health Counselors (909) 498-2296.",
+      "departments": [],
+      "source_url": "https://sanbernardino.courts.ca.gov/location/mental-health-court",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "SB Public Defender — Administration",
+      "address": "323 West Court Street, Third Floor",
+      "city": "San Bernardino",
+      "zip": "92401",
+      "phone": "(909) 382-3950",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://pd.sbcounty.gov/",
+      "note": "Oversees all department operations.",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://pd.sbcounty.gov/about-2/locations/"
+    },
+    {
+      "name": "SB Public Defender — Central Division",
+      "address": "323 West Court Street, Second Floor",
+      "city": "San Bernardino",
+      "zip": "92401",
+      "phone": "(909) 387-8373",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://pd.sbcounty.gov/",
+      "note": "Across from the San Bernardino courthouse; handles PD criminal cases from the San Bernardino court.",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://pd.sbcounty.gov/about-2/locations/"
+    },
+    {
+      "name": "SB Public Defender — Rancho Cucamonga / West Valley Division",
+      "address": "8303 Haven Avenue (3rd floor, Foothill Courthouse)",
+      "city": "Rancho Cucamonga",
+      "zip": "91730",
+      "phone": "(909) 948-4669",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://pd.sbcounty.gov/",
+      "note": "Handles PD cases from the Foothill/Rancho court.",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://pd.sbcounty.gov/about-2/locations/"
+    },
+    {
+      "name": "SB Public Defender — Homicide Defense Team",
+      "address": "9411 Haven Avenue",
+      "city": "Rancho Cucamonga",
+      "zip": "91730",
+      "phone": "(909) 476-2250",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://pd.sbcounty.gov/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://pd.sbcounty.gov/about-2/locations/"
+    },
+    {
+      "name": "SB Public Defender — Victorville / Desert Division",
+      "address": "14455 Civic Drive, Suite 600",
+      "city": "Victorville",
+      "zip": "92392",
+      "phone": "(760) 241-0413",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://pd.sbcounty.gov/",
+      "note": "Inside the Victorville courthouse.",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://pd.sbcounty.gov/about-2/locations/"
+    },
+    {
+      "name": "SB Public Defender — Victorville Cajon",
+      "address": "14344 Cajon Street, Suite 201",
+      "city": "Victorville",
+      "zip": "92392",
+      "phone": "(760) 241-0413",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://pd.sbcounty.gov/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://pd.sbcounty.gov/about-2/locations/"
+    },
+    {
+      "name": "SB Public Defender — Joshua Tree",
+      "address": "6527 White Feather Road",
+      "city": "Joshua Tree",
+      "zip": "92252",
+      "phone": "(760) 366-5789",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://pd.sbcounty.gov/",
+      "note": "Represents PD clients in the Morongo Basin court.",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://pd.sbcounty.gov/about-2/locations/"
+    },
+    {
+      "name": "SB Public Defender — Juvenile Unit",
+      "address": "900 East Gilbert Street, Building 5",
+      "city": "San Bernardino",
+      "zip": "92415",
+      "phone": "(909) 387-0569",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://pd.sbcounty.gov/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://pd.sbcounty.gov/about-2/locations/"
+    },
+    {
+      "name": "SB Public Defender — Specialty Litigation Division",
+      "address": "323 West Court Street, Third Floor",
+      "city": "San Bernardino",
+      "zip": "92401",
+      "phone": null,
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://pd.sbcounty.gov/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://pd.sbcounty.gov/about-2/locations/"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "SB Public Defender — Post-Conviction Relief Unit (Clear Your Record)",
+      "serves": "People with San Bernardino County convictions (apply in your county of residence)",
+      "what": "PD staff help clear convictions (PC 1203.4/1203.4a dismissals and other relief) and PC 290 relief, via an online application form. The PD also runs 'Mobile Defense' events with free legal help and expungement events around the county.",
+      "phone": null,
+      "email": null,
+      "url": "https://pd.sbcounty.gov/pcu/",
+      "source_url": "https://pd.sbcounty.gov/pcu/",
+      "todo": "PCU contact page shows a web form only; no direct phone listed",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "SBSC Self-Help Resource Center",
+      "serves": "Self-represented people",
+      "what": "Legal information (not advice): court procedures, review of completed forms, referrals. Case types listed: family law, child support, guardianship, landlord-tenant, small claims, CARE Court — criminal not listed.",
+      "phone": null,
+      "email": null,
+      "url": "https://sanbernardino.courts.ca.gov/self-help/get-in-person-assistance",
+      "source_url": "https://sanbernardino.courts.ca.gov/self-help/get-in-person-assistance",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "SB Probation — Administrative Office",
+      "address": "175 West Fifth Street",
+      "city": "San Bernardino",
+      "zip": "92415",
+      "phone": "(909) 387-5841",
+      "hours": null,
+      "url": "https://probation.sbcounty.gov/",
+      "todo": "hours not listed",
+      "note": "Footer lists 175 W. Fifth St., 4th Floor, phone (909) 387-5874.",
+      "verified_on": "2026-10-13",
+      "source_url": "https://probation.sbcounty.gov/locations/"
+    },
+    {
+      "name": "SB Probation — Central Adult Services",
+      "address": "401 North Arrowhead Avenue",
+      "city": "San Bernardino",
+      "zip": "92415",
+      "phone": "(909) 386-1810",
+      "hours": null,
+      "url": "https://probation.sbcounty.gov/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://probation.sbcounty.gov/locations/"
+    },
+    {
+      "name": "SB Probation — Central Day Reporting & Reentry Services Center",
+      "address": "104 West Fourth Street",
+      "city": "San Bernardino",
+      "zip": "92415",
+      "phone": "(909) 382-7801",
+      "hours": null,
+      "url": "https://probation.sbcounty.gov/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://probation.sbcounty.gov/locations/"
+    },
+    {
+      "name": "SB Probation — Central Juvenile Services",
+      "address": "150 West Fifth Street",
+      "city": "San Bernardino",
+      "zip": "92415",
+      "phone": "(909) 383-2700",
+      "hours": null,
+      "url": "https://probation.sbcounty.gov/",
+      "todo": "hours not listed",
+      "note": "Court says juvenile record-sealing info is available here.",
+      "verified_on": "2026-10-13",
+      "source_url": "https://probation.sbcounty.gov/locations/"
+    },
+    {
+      "name": "SB Probation — Fontana Services (adult supervision; DRRSC)",
+      "address": "17830 Arrow Boulevard",
+      "city": "Fontana",
+      "zip": "92335",
+      "phone": "(909) 356-3411",
+      "hours": null,
+      "url": "https://probation.sbcounty.gov/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://probation.sbcounty.gov/locations/"
+    },
+    {
+      "name": "SB Probation — Adult Transfer Unit",
+      "address": "8303 North Haven Avenue, First Floor",
+      "city": "Rancho Cucamonga",
+      "zip": "91730",
+      "phone": "(909) 945-4353",
+      "hours": null,
+      "url": "https://probation.sbcounty.gov/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://probation.sbcounty.gov/locations/"
+    },
+    {
+      "name": "SB Probation — Victorville Adult Services (DRRSC)",
+      "address": "15480 Ramona Ave",
+      "city": "Victorville",
+      "zip": "92392",
+      "phone": "(760) 243-8269",
+      "hours": null,
+      "url": "https://probation.sbcounty.gov/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://probation.sbcounty.gov/locations/"
+    },
+    {
+      "name": "SB Probation — Victorville Juvenile Services",
+      "address": "15345 Bonanza Road",
+      "city": "Victorville",
+      "zip": "92392",
+      "phone": "(760) 552-6600",
+      "hours": null,
+      "url": "https://probation.sbcounty.gov/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://probation.sbcounty.gov/locations/"
+    },
+    {
+      "name": "SB Probation — Barstow Services",
+      "address": "1300 East Mountain View",
+      "city": "Barstow",
+      "zip": "92311",
+      "phone": "(760) 256-4737",
+      "hours": null,
+      "url": "https://probation.sbcounty.gov/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://probation.sbcounty.gov/locations/"
+    },
+    {
+      "name": "SB Probation — Joshua Tree Services",
+      "address": "63665 Twentynine Palms Hwy",
+      "city": "Joshua Tree",
+      "zip": "92252",
+      "phone": "(760) 366-4130",
+      "hours": null,
+      "url": "https://probation.sbcounty.gov/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://probation.sbcounty.gov/locations/"
+    },
+    {
+      "name": "SB Probation — Needles Office",
+      "address": "1111 Bailey Avenue",
+      "city": "Needles",
+      "zip": "92363",
+      "phone": "(760) 326-9337",
+      "hours": null,
+      "url": "https://probation.sbcounty.gov/",
+      "todo": "hours not listed",
+      "verified_on": "2026-10-13",
+      "source_url": "https://probation.sbcounty.gov/locations/"
+    }
+  ],
+  "programs": [
+    {
+      "id": "arraignment-info",
+      "name": "What happens in a misdemeanor case",
+      "type": "info",
+      "summary": "Court's Criminal page explains arrest, arraignment/plea (not guilty, guilty, no contest), pre-trial, and what to bring to court (ID, citation/papers, proof of compliance, payment). Missing court can mean a warrant.",
+      "url": "https://sanbernardino.courts.ca.gov/divisions/criminal",
+      "source_url": "https://sanbernardino.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "bail-schedule",
+      "name": "Felony/Misdemeanor Bail Schedule",
+      "type": "info",
+      "summary": "Court posts the countywide bail schedule (effective 1/1/26) and a 'Why is my bail or fine so much?' explainer.",
+      "url": "https://sanbernardino.courts.ca.gov/system/files/criminal/felony-misdemeanor-bail-schedule.pdf",
+      "source_url": "https://sanbernardino.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "remote-video",
+      "name": "Remote Video Proceedings (traffic/non-traffic arraignments)",
+      "type": "info",
+      "summary": "Some traffic and non-traffic arraignments (e.g., Big Bear) are heard by remote video; schedule by phone.",
+      "url": "https://sanbernardino.courts.ca.gov/divisions/traffic/remote-video-proceedings",
+      "source_url": "https://sanbernardino.courts.ca.gov/location/big-bear-district",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "collab-treatment-courts",
+      "name": "Collaborative Treatment Courts",
+      "type": "collaborative_court",
+      "summary": "Court news (May 2024) says SBSC has run collaborative treatment courts for 30 years; the court also holds Shelter Court at Veterans Stand Down events. No current program page (eligibility, departments) was found on the court site.",
+      "url": "https://sanbernardino.courts.ca.gov/news/sbsc-celebrates-national-collaborative-treatment-court-month-2024",
+      "todo": "No adult collaborative court program page found; only a juvenile drug court page exists in the sitemap",
+      "source_url": "https://sanbernardino.courts.ca.gov/news/sbsc-celebrates-national-collaborative-treatment-court-month-2024",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "arise",
+      "name": "ARISE Program (Probation)",
+      "type": "reentry",
+      "summary": "Probation program listed at 21101 Dale Evans Parkway, Apple Valley 92307, (760) 961-6701.",
+      "phone": "(760) 961-6701",
+      "url": "https://probation.sbcounty.gov/locations/arise-program/",
+      "source_url": "https://probation.sbcounty.gov/locations/",
+      "todo": "program description page not loaded",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "wvdc",
+      "name": "West Valley Detention Center",
+      "address": "9500 Etiwanda Ave",
+      "city": "Rancho Cucamonga",
+      "zip": "91739",
+      "phone": "(909) 708-8371",
+      "phone_note": "Facility page lists visiting appointments Tue–Sat 8:00 a.m.–5:30 p.m. Visits for all SB County jails: book one day ahead by calling the Visiting Center (909) 887-0364; visiting days Wed–Sat; arrive 30 minutes early (Sheriff Inmate General Information page).",
+      "houses": null,
+      "url": "https://wp.sbcounty.gov/sheriff/corrections/west-valley-detention-center/",
+      "visiting_url": "https://wp.sbcounty.gov/sheriff/corrections/inmate-general-information/",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "sb-criminal",
+        "fontana",
+        "rancho-cucamonga",
+        "victorville",
+        "barstow"
+      ],
+      "source_url": "https://wp.sbcounty.gov/sheriff/corrections/west-valley-detention-center/",
+      "verified_on": "2026-10-13",
+      "note": "Sheriff: mostly pre-trial inmates; court assignments by remote video for San Bernardino, Fontana, Rancho Cucamonga, Chino, Victorville and Barstow courts; Transportation Division moves those who must appear in person.",
+      "todo": "houses (men/women) not stated; commissary/money deposit page not found on Sheriff site"
+    },
+    {
+      "id": "cdc",
+      "name": "Central Detention Center",
+      "address": "630 East Rialto Avenue",
+      "city": "San Bernardino",
+      "zip": "92415",
+      "phone": "(909) 386-0969",
+      "phone_note": "Visits for all SB County jails: book one day ahead by calling the Visiting Center (909) 887-0364; visiting days Wed–Sat; arrive 30 minutes early (Sheriff Inmate General Information page).",
+      "houses": null,
+      "url": "https://wp.sbcounty.gov/sheriff/corrections/central-detention-center/",
+      "visiting_url": "https://wp.sbcounty.gov/sheriff/corrections/inmate-general-information/",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "sb-criminal"
+      ],
+      "source_url": "https://wp.sbcounty.gov/sheriff/corrections/central-detention-center/",
+      "verified_on": "2026-10-13",
+      "note": "Sheriff: primary booking facility for east valley police/sheriff stations; also houses federal (U.S. Marshals) inmates.",
+      "todo": "houses (men/women) not stated; court_ids nearest, not confirmed"
+    },
+    {
+      "id": "hddc",
+      "name": "High Desert Detention Center",
+      "address": "9438 Commerce Way",
+      "city": "Adelanto",
+      "zip": "92301",
+      "phone": "(760) 530-9300",
+      "phone_note": "Facility page lists inmate locator line (909) 708-8371. Visits for all SB County jails: book one day ahead by calling the Visiting Center (909) 887-0364; visiting days Wed–Sat; arrive 30 minutes early (Sheriff Inmate General Information page).",
+      "houses": null,
+      "url": "https://wp.sbcounty.gov/sheriff/corrections/high-desert-detention-center/",
+      "visiting_url": "https://wp.sbcounty.gov/sheriff/corrections/inmate-general-information/",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "victorville"
+      ],
+      "source_url": "https://wp.sbcounty.gov/sheriff/corrections/high-desert-detention-center/",
+      "verified_on": "2026-10-13",
+      "note": "Sheriff: Type II facility, housing for over 2,100.",
+      "todo": "houses (men/women) not stated; court_ids nearest, not confirmed"
+    },
+    {
+      "id": "glen-helen",
+      "name": "Glen Helen Rehabilitation Center (Male & Female Facilities)",
+      "address": "18000 Institution Road",
+      "city": "Devore",
+      "zip": "92407",
+      "phone": "(909) 708-8371",
+      "phone_note": "Visiting appointments Wed–Sat 9:00 a.m.–7:00 p.m., (909) 887-0364. Mailing: P.O. Box 9490.",
+      "houses": "both",
+      "url": "https://wp.sbcounty.gov/sheriff/corrections/glen-helen-rehabilitation-center/",
+      "visiting_url": "https://wp.sbcounty.gov/sheriff/corrections/inmate-general-information/",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "sb-criminal"
+      ],
+      "source_url": "https://wp.sbcounty.gov/sheriff/corrections/glen-helen-rehabilitation-center/",
+      "verified_on": "2026-10-13",
+      "note": "Sheriff: primary facility for male and female inmates sentenced to county commitments; the Female Facility houses pre-trial and sentenced females.",
+      "todo": "court_ids nearest, not confirmed"
+    },
+    {
+      "id": "cvjdac",
+      "name": "Central Valley Juvenile Detention and Assessment Center (Probation)",
+      "address": "900 East Gilbert Street",
+      "city": "San Bernardino",
+      "zip": "92415",
+      "phone": "(909) 383-1769",
+      "phone_note": "Run by San Bernardino County Probation.",
+      "houses": "juvenile",
+      "url": "https://probation.sbcounty.gov/locations/jdac/",
+      "visiting_url": null,
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "sb-juvenile"
+      ],
+      "source_url": "https://probation.sbcounty.gov/locations/",
+      "verified_on": "2026-10-13",
+      "todo": "visiting info is in the Orientation Handbook (not loaded); court_ids nearest (same campus), not confirmed"
+    }
+  ],
+  "inmate_lookup_url": "https://wp.sbcounty.gov/sheriff/corrections/inmate-locator/",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "note": "CA Department of Insurance 'Check a License' — verify a bail agent before signing. SB Sheriff: bail agents may only visit when the arrestee, their attorney, an adult immediate family member, or someone with the inmate's written approval requested bail services; agents may not visit to solicit business. Court posts the countywide felony/misdemeanor bail schedule.",
+    "todo": "Sheriff page on where/how to post cash bail not found"
+  }
+}

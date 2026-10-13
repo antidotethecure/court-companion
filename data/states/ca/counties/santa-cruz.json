@@ -1,0 +1,352 @@
+{
+  "state": "CA",
+  "county": "Santa Cruz",
+  "slug": "santa-cruz",
+  "court_name": "Superior Court of California, County of Santa Cruz",
+  "court_website": "https://www.santacruz.courts.ca.gov/",
+  "case_search_url": "https://portal-casantacruz.tylertech.cloud/Portal",
+  "case_search_note": "'Case Search' portal linked from the Criminal Division page (same portal used for online payments). Online criminal payment only if you already pled guilty and have a payment plan.",
+  "sources": [
+    {
+      "title": "SCZ Superior Court — Locations & Contact Info",
+      "url": "https://www.santacruz.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCZ Superior Court — Criminal Division",
+      "url": "https://www.santacruz.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCZ Superior Court — Watsonville Courthouse",
+      "url": "https://www.santacruz.courts.ca.gov/location/watsonville-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCZ Superior Court — Collaborative Courts",
+      "url": "https://www.santacruz.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCZ Public Defender — Home",
+      "url": "https://www.santacruzdefenders.us/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCZ Public Defender — Contact",
+      "url": "https://www.santacruzdefenders.us/ContactUs.aspx",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCZ Public Defender — Record Clearance",
+      "url": "https://www.santacruzdefenders.us/Clients/RecordClearance.aspx",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCZ Probation — Contact Us",
+      "url": "https://www.santacruzcountyca.gov/Departments/ProbationDepartment/ContactUs.aspx",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCZ Probation — Pretrial Services",
+      "url": "https://www.santacruzcountyca.gov/Departments/ProbationDepartment/Divisions/PretrialServices.aspx",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCZ Sheriff — Home",
+      "url": "https://shf.santacruzcountyca.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCZ Sheriff — Corrections Bureau",
+      "url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections.aspx",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCZ Sheriff — Main Jail",
+      "url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections/SantaCruzMainJail.aspx",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCZ Sheriff — Blaine Street Facility",
+      "url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections/BlaineStFacility.aspx",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCZ Sheriff — Rountree Medium Facility",
+      "url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections/RountreeMediumFacility.aspx",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SCZ Sheriff — Corrections FAQ",
+      "url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections/CorrectionsFAQ.aspx",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "santa-cruz",
+      "name": "Santa Cruz Courthouse",
+      "address": "701 Ocean Street",
+      "city": "Santa Cruz",
+      "zip": "95060",
+      "phone": "(831) 420-2200",
+      "criminal_phone": "(831) 420-2200",
+      "hours": "Clerk's office Mon–Fri 8:00 a.m.–3:00 p.m.; phones answered Mon–Fri 8:00 a.m.–1:00 p.m.",
+      "criminal": true,
+      "note": "All criminal cases (felonies, misdemeanors, some infractions) are filed only here; criminal clerk Room 120. Also traffic. Criminal email criminalinfo@santacruzcourt.org. Check the calendar posted outside Room 120 for your department.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://www.santacruz.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13",
+      "todo": "Court does not publish criminal department numbers on the pages loaded"
+    },
+    {
+      "id": "watsonville",
+      "name": "Watsonville Courthouse",
+      "address": "1 Second Street",
+      "city": "Watsonville",
+      "zip": "95076",
+      "phone": "(831) 786-7200",
+      "criminal_phone": null,
+      "hours": "Clerk's office (Room 300): Tue–Thu 8:00 a.m.–1:00 p.m. and 1:30–3:00 p.m.; closed Mon & Fri (Criminal Division page). Locations page says clerk's offices open 8am–3pm — confirm.",
+      "criminal": true,
+      "note": "Traffic filings/in-person services; accepts traffic fine payments and existing criminal payment plans. Criminal cases are NOT filed here (Santa Cruz only).",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://www.santacruz.courts.ca.gov/location/watsonville-courthouse",
+      "verified_on": "2026-10-13",
+      "todo": "Hours conflict between court pages"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Santa Cruz County Office of the Public Defender — Santa Cruz",
+      "address": "420 May Avenue",
+      "city": "Santa Cruz",
+      "zip": "95060",
+      "phone": "(831) 454-5300",
+      "toll_free": null,
+      "email": "PDO@santacruzcountyca.gov",
+      "hours": null,
+      "url": "https://www.santacruzdefenders.us/",
+      "source_url": "https://www.santacruzdefenders.us/ContactUs.aspx",
+      "verified_on": "2026-10-13",
+      "todo": "Office hours not listed"
+    },
+    {
+      "name": "Santa Cruz County Office of the Public Defender — Watsonville",
+      "address": "315 Main Street Suite 204",
+      "city": "Watsonville",
+      "zip": "95076",
+      "phone": "(831) 454-5300",
+      "toll_free": null,
+      "email": "PDO@santacruzcountyca.gov",
+      "hours": null,
+      "url": "https://www.santacruzdefenders.us/",
+      "source_url": "https://www.santacruzdefenders.us/ContactUs.aspx",
+      "verified_on": "2026-10-13",
+      "todo": "Same phone for both offices; hours not listed"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Santa Cruz County Public Defender — Clean Slate Team",
+      "serves": "People arrested or convicted in Santa Cruz County, on probation there, or registering there",
+      "what": "Record clearance: sealing arrest records, dismissing/expunging convictions, reducing felonies to misdemeanors, Certificate of Rehabilitation. Email an application; team responds within several weeks.",
+      "phone": "(831) 454-5300",
+      "email": "CleanSlate@santacruzcounty.us",
+      "url": "https://www.santacruzdefenders.us/Clients/RecordClearance.aspx",
+      "source_url": "https://www.santacruzdefenders.us/Clients/RecordClearance.aspx",
+      "verified_on": "2026-10-13",
+      "todo": null
+    }
+  ],
+  "probation": [
+    {
+      "name": "Santa Cruz County Probation — Adult Probation / Administrative Offices",
+      "address": "303 Water Street",
+      "city": "Santa Cruz",
+      "zip": "95060",
+      "phone": "(831) 454-2150",
+      "hours": "Weekdays 8 a.m.–5 p.m., closed 12–1 p.m. (general office hours)",
+      "url": "https://www.santacruzcountyca.gov/Departments/Probation.aspx",
+      "source_url": "https://www.santacruzcountyca.gov/Departments/ProbationDepartment/ContactUs.aspx",
+      "verified_on": "2026-10-13",
+      "note": "Mailing: P.O. Box 1812, Santa Cruz, CA 95061-1812. Pretrial notifications email PRBPretrialNotification@Santacruzcounty.us.",
+      "todo": null
+    },
+    {
+      "name": "Santa Cruz County Probation — Watsonville (Adult & Juvenile)",
+      "address": "1430 Freedom Blvd.",
+      "city": "Watsonville",
+      "zip": "95076",
+      "phone": "(831) 763-8070",
+      "hours": null,
+      "url": "https://www.santacruzcountyca.gov/Departments/Probation.aspx",
+      "source_url": "https://www.santacruzcountyca.gov/Departments/ProbationDepartment/ContactUs.aspx",
+      "verified_on": "2026-10-13",
+      "note": null,
+      "todo": "Location-specific hours not stated"
+    }
+  ],
+  "programs": [
+    {
+      "id": "pretrial-services",
+      "name": "Probation Pretrial Services",
+      "type": "pretrial",
+      "summary": "Uses actuarial assessments to release arrested/charged people with the least restrictive monitoring, and monitors those the court finds eligible to stay in the community. County warns of a pretrial/electronic-monitoring scam.",
+      "phone": null,
+      "url": "https://www.santacruzcountyca.gov/Departments/ProbationDepartment/Divisions/PretrialServices.aspx",
+      "source_url": "https://www.santacruzcountyca.gov/Departments/ProbationDepartment/Divisions/PretrialServices.aspx",
+      "verified_on": "2026-10-13",
+      "todo": "No pretrial phone/address published; only email PRBPretrialNotification@Santacruzcounty.us"
+    },
+    {
+      "id": "self-help",
+      "name": "Court Self-Help Center",
+      "type": "self_help",
+      "summary": "Court self-help services; contact by email.",
+      "phone": null,
+      "url": "https://www.santacruz.courts.ca.gov/self-help",
+      "source_url": "https://www.santacruz.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13",
+      "todo": "Self-help location, phone and hours not captured; email selfhelp.information@santacruzcourt.org"
+    },
+    {
+      "id": "behavioral-health-court",
+      "name": "Behavioral Health Court (BHC)",
+      "type": "collaborative_court",
+      "summary": "Post-adjudication court with County Behavioral Health for people with severe mental illness and co-occurring substance use disorders.",
+      "phone": null,
+      "url": "https://www.santacruz.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://www.santacruz.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "No phone; contact collaborativecourt@santacruzcourt.org"
+    },
+    {
+      "id": "intensive-support-court",
+      "name": "Intensive Support Court (ISC)",
+      "type": "diversion",
+      "summary": "Pre-adjudication program for people granted mental health diversion who have mental health and/or substance use issues.",
+      "phone": null,
+      "url": "https://www.santacruz.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://www.santacruz.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "No phone; contact collaborativecourt@santacruzcourt.org"
+    },
+    {
+      "id": "veteran-court",
+      "name": "Veteran Court (VC)",
+      "type": "collaborative_court",
+      "summary": "Alternative sentencing connecting veterans with service-related mental health or substance use issues to treatment.",
+      "phone": null,
+      "url": "https://www.santacruz.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://www.santacruz.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "No phone; contact collaborativecourt@santacruzcourt.org"
+    }
+  ],
+  "jails": [
+    {
+      "id": "main-jail",
+      "name": "Santa Cruz County Main Jail",
+      "address": "259 Water Street",
+      "city": "Santa Cruz",
+      "zip": "95060",
+      "houses": null,
+      "phone": "(831) 454-7800",
+      "phone_note": "Main Jail & Blaine visit scheduling (831) 454-7800, Mon–Thu 8:00 a.m.–3:30 p.m.; weekend non-contact visits only. Cash bail (cash or cashier's check payable to Santa Cruz County Superior Court, with ID) accepted here.",
+      "url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections/SantaCruzMainJail.aspx",
+      "visiting_url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections/SantaCruzMainJail.aspx",
+      "commissary_or_money_url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections/SantaCruzMainJail.aspx",
+      "court_ids": [
+        "santa-cruz"
+      ],
+      "source_url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections/SantaCruzMainJail.aspx",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff pages do not state who the Main Jail houses. Commissary: Aramark CORE trust deposits: lobby kiosks (Main Jail; Rountree pending), touchpayonline.com, or 1-866-232-1899; money orders by mail c/o Sheriff Fiscal, 259 Water St. court_ids: all criminal cases are filed in Santa Cruz (court) and FAQ says the Corrections Bureau transports or video-links people to court — specific courthouse not stated by the sheriff."
+    },
+    {
+      "id": "blaine-street",
+      "name": "Blaine Street Women's Facility",
+      "address": "141 Blaine Street",
+      "city": "Santa Cruz",
+      "zip": "95060",
+      "houses": "women",
+      "phone": "(831) 454-2177",
+      "phone_note": "Visit scheduling via (831) 454-7800. Monthly family contact visits available for people with minor children.",
+      "url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections/BlaineStFacility.aspx",
+      "visiting_url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections/BlaineStFacility.aspx",
+      "commissary_or_money_url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections/BlaineStFacility.aspx",
+      "court_ids": [
+        "santa-cruz"
+      ],
+      "source_url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections/BlaineStFacility.aspx",
+      "verified_on": "2026-10-13",
+      "todo": "'Women's' comes from the Sheriff homepage wording 'Blaine Street Women's Facility'; facility page itself doesn't say. court_ids: only criminal courthouse in county (criminal filed only in Santa Cruz)."
+    },
+    {
+      "id": "rountree-medium",
+      "name": "Rountree Medium Security Facility",
+      "address": "90 Rountree Lane",
+      "city": "Watsonville",
+      "zip": "95076",
+      "houses": null,
+      "phone": "(831) 454-7873",
+      "phone_note": "Rountree & Rehabilitation and Reentry visit scheduling (831) 454-7873.",
+      "url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections/RountreeMediumFacility.aspx",
+      "visiting_url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections/RountreeMediumFacility.aspx",
+      "commissary_or_money_url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections/RountreeMediumFacility.aspx",
+      "court_ids": [
+        "santa-cruz"
+      ],
+      "source_url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections/RountreeMediumFacility.aspx",
+      "verified_on": "2026-10-13",
+      "todo": "Who it houses not stated on Sheriff page. court_ids: only criminal courthouse in county."
+    },
+    {
+      "id": "rehab-reentry",
+      "name": "Rehabilitation and Reentry Facility",
+      "address": "90 Rountree Lane",
+      "city": "Watsonville",
+      "zip": "95076",
+      "houses": null,
+      "phone": "(831) 454-7873",
+      "phone_note": "Overseen by the Rountree Commander; same visit-scheduling line as Rountree. Monthly family contact visits for people with minor children.",
+      "url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections.aspx",
+      "visiting_url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections/RountreeMediumFacility.aspx",
+      "commissary_or_money_url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections/RountreeMediumFacility.aspx",
+      "court_ids": [
+        "santa-cruz"
+      ],
+      "source_url": "https://shf.santacruzcountyca.gov/SheriffHome/OurAgency/Corrections.aspx",
+      "verified_on": "2026-10-13",
+      "todo": "Address is the Sheriff's mailing address for 'Rountree Facilities' — street address of this facility not separately confirmed; who it houses not stated."
+    },
+    {
+      "id": "juvenile-hall",
+      "name": "Santa Cruz County Juvenile Detention Facility (Probation)",
+      "address": "3650 Graham Hill Road",
+      "city": "Felton",
+      "zip": "95018",
+      "houses": "juvenile",
+      "phone": "(831) 454-3800",
+      "phone_note": "Run by Probation.",
+      "url": "https://www.santacruzcountyca.gov/Departments/Probation.aspx",
+      "visiting_url": null,
+      "commissary_or_money_url": null,
+      "court_ids": [],
+      "source_url": "https://www.santacruzcountyca.gov/Departments/ProbationDepartment/ContactUs.aspx",
+      "verified_on": "2026-10-13",
+      "todo": "Visiting page and which courthouse hears juvenile matters not confirmed."
+    }
+  ],
+  "inmate_lookup_url": "http://jailviewer.co.santa-cruz.ca.us/",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "note": "CA Department of Insurance 'Check a License' — look up a bail agent's license status. Santa Cruz Sheriff FAQ: cash bail accepted at the Main Jail (259 Water St., Santa Cruz) in cash or cashier's check payable to Santa Cruz County Superior Court; bring valid DL, ID card or passport. Inmate lookup is the Sheriff's 'Jail Inmate Locator' link (http, not https)."
+  }
+}

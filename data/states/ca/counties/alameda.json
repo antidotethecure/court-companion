@@ -1,0 +1,526 @@
+{
+  "state": "CA",
+  "county": "Alameda",
+  "slug": "alameda",
+  "court_name": "Superior Court of California, County of Alameda",
+  "court_website": "https://alameda.courts.ca.gov/",
+  "case_search_url": "https://publicportal.alameda.courts.ca.gov/publicportal/",
+  "case_search_note": "Criminal Case Portal (linked from alameda.courts.ca.gov/online-services/criminal-case-portal). The court's page does not describe what documents (e.g., minute orders) are viewable, terms, or fees. Civil/family/probate use a separate eportal.",
+  "sources": [
+    {
+      "title": "Alameda Superior Court — Locations",
+      "url": "https://alameda.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Alameda Superior Court — Criminal",
+      "url": "https://alameda.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Alameda Superior Court — Criminal Case Portal",
+      "url": "https://alameda.courts.ca.gov/online-services/criminal-case-portal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Alameda Superior Court — Collaborative Courts",
+      "url": "https://alameda.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Alameda Superior Court — Pretrial Release Program",
+      "url": "https://alameda.courts.ca.gov/general-information/pretrial-release-program",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Alameda County Public Defender — Home / Where to Find Us",
+      "url": "https://publicdefender.acgov.org/index.page",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Alameda County Public Defender — Clean Slate",
+      "url": "https://publicdefender.acgov.org/CleanSlate.page",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Alameda County Probation — Locations",
+      "url": "https://probation.acgov.org/about-us/locations.page",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Alameda County Sheriff — Santa Rita Jail facility directory",
+      "url": "https://www.alamedasheriff.gov/Home/Components/FacilityDirectory/FacilityDirectory/18/33",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Alameda County Sheriff — Santa Rita Jail Visiting",
+      "url": "https://www.alamedasheriff.gov/community/santa-rita-jail-visiting",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Alameda County Sheriff — Inmate Locator",
+      "url": "https://www.alamedasheriff.gov/services/inmate-locator",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "EBCLC — Clean Slate",
+      "url": "https://ebclc.org/need-services/clean-slate/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "LawHelpCA",
+      "url": "https://www.lawhelpca.org/",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "rcd",
+      "name": "René C. Davidson Courthouse",
+      "address": "1225 Fallon Street",
+      "city": "Oakland",
+      "zip": "94612",
+      "phone": "(510) 891-6000",
+      "criminal_phone": "(510) 891-6009",
+      "hours": "Building Mon–Fri 8:30 a.m.–4:30 p.m.; Criminal clerk in person & phone Mon–Fri 8:30 a.m.–3:00 p.m.",
+      "criminal": true,
+      "note": "Listed by the court as a Criminal Court Location (also Appeals, Civil, Mental Health). Location page lists Departments 1–13, 1A, 1B, 1C. Public Defender's main office handles cases heard here.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://alameda.courts.ca.gov/location/oakland-rene-c-davidson-courthouse",
+      "verified_on": "2026-10-13",
+      "todo": "Department-by-department assignments not compiled; see location page"
+    },
+    {
+      "id": "wwm",
+      "name": "Wiley W. Manuel Courthouse",
+      "address": "661 Washington Street",
+      "city": "Oakland",
+      "zip": "94607",
+      "phone": "(510) 627-4700",
+      "criminal_phone": "(510) 627-4702",
+      "hours": "Building Mon–Fri 8:00 a.m.–4:00 p.m.; Criminal clerk in person Mon–Thu 8:30 a.m.–3:00 p.m., Fri 8:30 a.m.–2:00 p.m.; criminal/traffic phone Mon–Fri 8:30 a.m.–3:00 p.m.",
+      "criminal": true,
+      "note": "Criminal Court Location; also Traffic, Civil, Small Claims, Probate, CARE Court. Drug Court, Veterans Treatment Court and Reentry Court are held here (D-106/D-114). Self-help line (510) 272-1393.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://alameda.courts.ca.gov/location/oakland-wiley-w-manuel-courthouse",
+      "verified_on": "2026-10-13",
+      "todo": "Department-by-department assignments not compiled; see location page"
+    },
+    {
+      "id": "fremont",
+      "name": "Fremont Hall of Justice",
+      "address": "39439 Paseo Padre Parkway",
+      "city": "Fremont",
+      "zip": "94538",
+      "phone": "(510) 818-7500",
+      "criminal_phone": "(510) 818-7501",
+      "hours": "Building Mon–Fri 8:00 a.m.–4:00 p.m.; Criminal clerk in person Mon–Thu 8:30 a.m.–3:00 p.m., Fri 8:30 a.m.–2:00 p.m.",
+      "criminal": true,
+      "note": "Criminal and Traffic. Departments 601–608.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://alameda.courts.ca.gov/location/fremont-hall-justice",
+      "verified_on": "2026-10-13",
+      "todo": "Department-by-department assignments not compiled; see location page"
+    },
+    {
+      "id": "dublin-echoj",
+      "name": "East County Hall of Justice",
+      "address": "5151 Gleason Drive",
+      "city": "Dublin",
+      "zip": "94568",
+      "phone": "(925) 227-6700",
+      "criminal_phone": "(925) 227-6792",
+      "hours": "Building Mon–Fri 8:30 a.m.–3:00 p.m. (as posted); Criminal clerk in person Mon–Thu 8:30 a.m.–3:00 p.m., Fri 8:30 a.m.–2:00 p.m.",
+      "criminal": true,
+      "note": "Criminal and Traffic. Departments 701–713.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://alameda.courts.ca.gov/location/dublin-east-county-hall-justice",
+      "verified_on": "2026-10-13",
+      "todo": "Department-by-department assignments not compiled; see location page"
+    },
+    {
+      "id": "hayward",
+      "name": "Hayward Hall of Justice",
+      "address": "24405 Amador Street",
+      "city": "Hayward",
+      "zip": "94544",
+      "phone": "(510) 690-2700",
+      "criminal_phone": "(510) 690-2703",
+      "hours": "Building Mon–Fri 8:30 a.m.–4:30 p.m.",
+      "criminal": false,
+      "note": "Location page lists Civil, Family Law, DV, Restraining Orders, Small Claims, Unlawful Detainer, Appeals. Not on the court's 'Criminal Court Locations' list; the Criminal page lists (510) 690-2703 as a Hayward warrants line.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://alameda.courts.ca.gov/location/hayward-hall-justice",
+      "verified_on": "2026-10-13",
+      "todo": "Department-by-department assignments not compiled; see location page"
+    },
+    {
+      "id": "berkeley",
+      "name": "Berkeley Courthouse",
+      "address": "2120 Martin Luther King, Jr. Way",
+      "city": "Berkeley",
+      "zip": "94704",
+      "phone": "(510) 647-4439",
+      "criminal_phone": null,
+      "hours": "Building Mon–Fri 8:30 a.m.–4:00 p.m.",
+      "criminal": false,
+      "note": "Probate, Conservatorships, Guardianships (Depts 201–202). Not criminal.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://alameda.courts.ca.gov/location/berkeley-courthouse",
+      "verified_on": "2026-10-13",
+      "todo": "Department-by-department assignments not compiled; see location page"
+    },
+    {
+      "id": "alameda-mcdonald",
+      "name": "George E. McDonald Hall of Justice",
+      "address": "2233 Shore Line Drive",
+      "city": "Alameda",
+      "zip": "94501",
+      "phone": "(510) 891-6005",
+      "criminal_phone": null,
+      "hours": "Building Mon–Fri 8:30 a.m.–4:00 p.m.",
+      "criminal": false,
+      "note": "Records Management Unit and Settlement Unit (Depts 301–303). Not a criminal courtroom location.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://alameda.courts.ca.gov/location/alameda-george-e-mcdonald-hall-justice",
+      "verified_on": "2026-10-13",
+      "todo": "Department-by-department assignments not compiled; see location page"
+    },
+    {
+      "id": "jjc",
+      "name": "Juvenile Justice Center",
+      "address": "2500 Fairmont Drive, Suite C3013",
+      "city": "San Leandro",
+      "zip": "94578",
+      "phone": "(510) 618-1106",
+      "criminal_phone": null,
+      "hours": null,
+      "criminal": false,
+      "note": "Juvenile court (Family Treatment Court held here, D-403/404/405). Next to Alameda County Juvenile Hall.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://alameda.courts.ca.gov/location/san-leandro-juvenile-justice-center",
+      "verified_on": "2026-10-13",
+      "todo": "Hours not captured from the location page"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Alameda County Public Defender — Main Office (Lakeside)",
+      "address": "1401 Lakeside Drive, Ste. 400",
+      "city": "Oakland",
+      "zip": "94612",
+      "phone": "(510) 272-6600",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://publicdefender.acgov.org/",
+      "source_url": "https://publicdefender.acgov.org/index.page",
+      "verified_on": "2026-10-13",
+      "todo": "Hours not listed. Handles cases at René C. Davidson Courthouse."
+    },
+    {
+      "name": "Alameda County Public Defender — Oakland Branch",
+      "address": "545 4th Street",
+      "city": "Oakland",
+      "zip": "94607",
+      "phone": "(510) 268-7400",
+      "toll_free": null,
+      "email": null,
+      "hours": "Interviews Mon–Fri 9 a.m.–5 p.m. (call first); walk-in Mon–Fri 2–4 p.m.",
+      "url": "https://publicdefender.acgov.org/",
+      "source_url": "https://publicdefender.acgov.org/index.page",
+      "verified_on": "2026-10-13",
+      "todo": null
+    },
+    {
+      "name": "Alameda County Public Defender — Fremont Branch",
+      "address": "39439 Paseo Padre Parkway, Room 105",
+      "city": "Fremont",
+      "zip": "94538",
+      "phone": "(510) 795-2600",
+      "toll_free": null,
+      "email": null,
+      "hours": "Phone interviews Mon–Fri 9 a.m.–5 p.m.; in-person Mon–Fri 3–4 p.m.",
+      "url": "https://publicdefender.acgov.org/",
+      "source_url": "https://publicdefender.acgov.org/index.page",
+      "verified_on": "2026-10-13",
+      "todo": null
+    },
+    {
+      "name": "Alameda County Public Defender — Dublin Branch (East County Hall of Justice)",
+      "address": "5149 Gleason Drive, #C155",
+      "city": "Dublin",
+      "zip": "94568",
+      "phone": "(925) 551-6863",
+      "toll_free": null,
+      "email": null,
+      "hours": "Interviews Mon–Fri 9–11 a.m. and 2–4 p.m.",
+      "url": "https://publicdefender.acgov.org/",
+      "source_url": "https://publicdefender.acgov.org/index.page",
+      "verified_on": "2026-10-13",
+      "todo": null
+    },
+    {
+      "name": "Alameda County Public Defender — Juvenile Branch",
+      "address": "2500 Fairmont Drive, Suite C-3041",
+      "city": "San Leandro",
+      "zip": "94578",
+      "phone": "(510) 667-4496",
+      "toll_free": null,
+      "email": null,
+      "hours": "No walk-ins; call for interviews Mon–Fri 2–4 p.m.",
+      "url": "https://publicdefender.acgov.org/",
+      "source_url": "https://publicdefender.acgov.org/index.page",
+      "verified_on": "2026-10-13",
+      "todo": null
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Alameda County Public Defender — Clean Slate Program",
+      "serves": "People with Alameda County convictions",
+      "what": "Record relief: felony-to-misdemeanor reductions, Prop 47/64 relief, early probation termination, dismissals, certificates of rehabilitation, human-trafficking vacatur, PC 290 relief. Walk-in clinics at 545 4th St, Oakland, start 9:00 a.m. (intakes stop 11:00 a.m.); 2026 dates posted: 10/22, 11/5, 11/19, 12/3. Most dismissals require no pending case and not on probation/parole.",
+      "phone": "(510) 268-7400",
+      "email": null,
+      "url": "https://publicdefender.acgov.org/CleanSlate.page",
+      "source_url": "https://publicdefender.acgov.org/CleanSlate.page",
+      "verified_on": "2026-10-13",
+      "todo": "Select the Clean Slate option on the 510-268-7400 line"
+    },
+    {
+      "name": "East Bay Community Law Center — Clean Slate",
+      "serves": "People seeking criminal-record remedies (Berkeley/East Bay)",
+      "what": "Clean Slate clinic: intake for record-clearing remedies; occasional Records Remedies court appearances.",
+      "phone": "(510) 548-4040",
+      "email": "info@ebclc.org",
+      "url": "https://ebclc.org/need-services/clean-slate/",
+      "source_url": "https://ebclc.org/need-services/clean-slate/",
+      "verified_on": "2026-10-13",
+      "todo": "Eligibility/intake schedule not detailed on page. Office: 2921 Adeline St, Berkeley 94703."
+    },
+    {
+      "name": "Alameda Superior Court — Self-Help",
+      "serves": "Self-represented people",
+      "what": "Court self-help services (live chat Mon–Thu 9 a.m.–noon; phone Mon–Thu 2–4 p.m., per Hayward location page).",
+      "phone": "(510) 272-1393",
+      "email": null,
+      "url": "https://alameda.courts.ca.gov/self-help",
+      "source_url": "https://alameda.courts.ca.gov/location/hayward-hall-justice",
+      "verified_on": "2026-10-13",
+      "todo": null
+    },
+    {
+      "name": "LawHelpCA — Find Legal Help",
+      "serves": "Californians",
+      "what": "Statewide legal aid directory maintained by the Legal Aid Association of California; search by city/county/zip.",
+      "phone": null,
+      "email": null,
+      "url": "https://www.lawhelpca.org/find-legal-help",
+      "source_url": "https://www.lawhelpca.org/",
+      "verified_on": "2026-10-13",
+      "todo": null
+    }
+  ],
+  "probation": [
+    {
+      "name": "Alameda County Probation — Administration",
+      "address": "1111 Jackson Street, 7th & 8th Floors",
+      "city": "Oakland",
+      "zip": "94607",
+      "phone": "(510) 268-7050",
+      "hours": null,
+      "url": "https://probation.acgov.org/",
+      "source_url": "https://probation.acgov.org/about-us/locations.page",
+      "verified_on": "2026-10-13",
+      "note": null,
+      "todo": "Hours and adult/juvenile service split not listed on the locations page"
+    },
+    {
+      "name": "Alameda County Probation — Probation Center",
+      "address": "1401 Lakeside Dr.",
+      "city": "Oakland",
+      "zip": "94612",
+      "phone": "(510) 268-7050",
+      "hours": null,
+      "url": "https://probation.acgov.org/",
+      "source_url": "https://probation.acgov.org/about-us/locations.page",
+      "verified_on": "2026-10-13",
+      "note": null,
+      "todo": "Hours and adult/juvenile service split not listed on the locations page"
+    },
+    {
+      "name": "Alameda County Probation — East County Hall of Justice",
+      "address": "5149 Gleason Dr., Ste D115",
+      "city": "Dublin",
+      "zip": "94568",
+      "phone": "(925) 551-6878",
+      "hours": null,
+      "url": "https://probation.acgov.org/",
+      "source_url": "https://probation.acgov.org/about-us/locations.page",
+      "verified_on": "2026-10-13",
+      "note": null,
+      "todo": "Hours and adult/juvenile service split not listed on the locations page"
+    },
+    {
+      "name": "Alameda County Probation — Hayward",
+      "address": "24085 Amador Street",
+      "city": "Hayward",
+      "zip": "94544",
+      "phone": "(510) 670-5354",
+      "hours": null,
+      "url": "https://probation.acgov.org/",
+      "source_url": "https://probation.acgov.org/about-us/locations.page",
+      "verified_on": "2026-10-13",
+      "note": null,
+      "todo": "Hours and adult/juvenile service split not listed on the locations page"
+    },
+    {
+      "name": "Alameda County Probation — Juvenile Justice Center",
+      "address": "2500 Fairmont Dr.",
+      "city": "San Leandro",
+      "zip": "94578",
+      "phone": "(510) 667-4970",
+      "hours": null,
+      "url": "https://probation.acgov.org/",
+      "source_url": "https://probation.acgov.org/about-us/locations.page",
+      "verified_on": "2026-10-13",
+      "note": null,
+      "todo": "Hours and adult/juvenile service split not listed on the locations page"
+    }
+  ],
+  "programs": [
+    {
+      "id": "pretrial-release",
+      "name": "Pretrial Release Program (Superior Court Pretrial Services)",
+      "type": "pretrial",
+      "summary": "Run by the Superior Court. Alternatives to cash bail and pretrial detention for people with pending Alameda County criminal cases; services based on court orders, risk assessment and needs, aiming to reduce missed court dates and rearrests. Court warns: Pretrial Services never asks defendants or families for money (scammers impersonate them demanding GPS/ankle-monitor payments).",
+      "phone": "(510) 891-6100",
+      "url": "https://alameda.courts.ca.gov/general-information/pretrial-release-program",
+      "source_url": "https://alameda.courts.ca.gov/general-information/pretrial-release-program",
+      "verified_on": "2026-10-13",
+      "todo": "Email listed: PretrialServices@alameda.courts.ca.gov; office address not listed"
+    },
+    {
+      "id": "drug-court",
+      "name": "Drug Court",
+      "type": "collaborative_court",
+      "summary": "For people with drug/alcohol and co-occurring conditions. Misdemeanor court (Wiley W. Manuel, D-114, 1st & 3rd Mondays) and felony court (Wiley W. Manuel, D-106, Mondays weeks 1–4).",
+      "phone": null,
+      "url": "https://alameda.courts.ca.gov/divisions/collaborative-courts/drug-court",
+      "source_url": "https://alameda.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "Eligibility not stated"
+    },
+    {
+      "id": "veterans-court",
+      "name": "Veterans Treatment Court",
+      "type": "collaborative_court",
+      "summary": "Wiley W. Manuel Courthouse, D-106, 2nd & 4th Fridays.",
+      "phone": null,
+      "url": "https://alameda.courts.ca.gov/divisions/collaborative-courts/veterans-treatment-court",
+      "source_url": "https://alameda.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "Eligibility not stated"
+    },
+    {
+      "id": "reentry-court",
+      "name": "Reentry Court",
+      "type": "collaborative_court",
+      "summary": "Wiley W. Manuel Courthouse, D-106, 1st & 3rd Tuesdays.",
+      "phone": null,
+      "url": "https://alameda.courts.ca.gov/divisions/collaborative-courts/reentry-court",
+      "source_url": "https://alameda.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "Eligibility not stated"
+    },
+    {
+      "id": "eic",
+      "name": "Early Intervention Court (EIC)",
+      "type": "diversion",
+      "summary": "Diversion for low-level (PC 1170(h)) felonies, case-managed by Leaders in Community Alternatives; about one year; completion can lead to dismissal and PC 851.91 relief. Referral by DA agreement; typically excludes gun, DV and PC 290 offenses.",
+      "phone": null,
+      "url": "https://alameda.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://alameda.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": null
+    },
+    {
+      "id": "bhc",
+      "name": "Behavioral Health Court (BHC)",
+      "type": "collaborative_court",
+      "summary": "For people with severe mental illness; case-managed by Alameda County Behavioral Health; about one year. DA offer required; must be Alameda County Medi-Cal eligible with no private insurance; DV and most gun cases excluded.",
+      "phone": null,
+      "url": "https://alameda.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://alameda.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": null
+    },
+    {
+      "id": "ist-dsh-diversion",
+      "name": "1370.01 Calendar and DSH Diversion",
+      "type": "diversion",
+      "summary": "Treatment court for people found incompetent to stand trial: misdemeanor IST cases and selected felony IST cases (DSH Diversion); treatment in community settings.",
+      "phone": null,
+      "url": "https://alameda.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://alameda.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": null
+    }
+  ],
+  "jails": [
+    {
+      "id": "santa-rita",
+      "name": "Santa Rita Jail",
+      "address": "5325 Broder Blvd",
+      "city": "Dublin",
+      "zip": "94568",
+      "houses": "both",
+      "phone": "(925) 551-6500",
+      "phone_note": "Lobby line (per visiting page). In-person visits by appointment only, booked online up to 3 days ahead; video visits via ViaPath (gettingout.com / alamedaca.gtlvisitme.com, support 1-855-208-7349). Professional visits 9 a.m.–4 p.m. and 6–8:30 p.m.",
+      "url": "https://www.alamedasheriff.gov/Home/Components/FacilityDirectory/FacilityDirectory/18/33",
+      "visiting_url": "https://www.alamedasheriff.gov/community/santa-rita-jail-visiting",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "dublin-echoj"
+      ],
+      "source_url": "https://www.alamedasheriff.gov/Home/Components/FacilityDirectory/FacilityDirectory/18/33",
+      "verified_on": "2026-10-13",
+      "todo": "Only county jail currently (Glenn E. Dyer in Oakland closed 2019 per news reports, not on sheriff's directory). 'both' is based on sheriff population statistics postings listing male and female counts (seen via search index; PDF blocked). Official money-deposit/commissary page not found. court_ids: nearest criminal courthouse, not confirmed — people are transported to whichever courthouse holds their case."
+    },
+    {
+      "id": "alameda-juvenile-hall",
+      "name": "Alameda County Juvenile Hall (Juvenile Justice Center)",
+      "address": "2500 Fairmont Dr.",
+      "city": "San Leandro",
+      "zip": "94578",
+      "houses": "juvenile",
+      "phone": "(510) 667-4970",
+      "phone_note": "Probation Department JJC line from Probation locations page.",
+      "url": "https://probation.acgov.org/",
+      "visiting_url": null,
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "jjc"
+      ],
+      "source_url": "https://probation.acgov.org/about-us/locations.page",
+      "verified_on": "2026-10-13",
+      "todo": "Probation locations page lists 'Juvenile Justice Center' but does not explicitly say 'Juvenile Hall'; visiting rules not verified. Juvenile court is in the same complex."
+    }
+  ],
+  "inmate_lookup_url": "https://www.alamedacountyca.gov/sheriff_app/",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' to verify a bail agent's license. The Alameda County Sheriff's homepage warns of scams claiming a Santa Rita inmate can be released early by paying for an ankle monitor — ACSO never calls/texts/emails demanding payment; the court says Pretrial Services never asks for money. Where/how to pay cash bail at Santa Rita was not found on an official page.",
+    "source_url": "https://www.alamedasheriff.gov/",
+    "verified_on": "2026-10-13",
+    "todo": "Official cash-bail payment location/methods not verified; court bail schedule PDF exists at alameda.courts.ca.gov/system/files/general/2024-bail-schedule.pdf (year not confirmed current)"
+  }
+}

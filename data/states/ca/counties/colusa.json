@@ -1,0 +1,253 @@
+{
+  "state": "CA",
+  "county": "Colusa",
+  "slug": "colusa",
+  "court_name": "Superior Court of California, County of Colusa",
+  "court_website": "https://www.colusa.courts.ca.gov/",
+  "case_search_url": null,
+  "case_search_note": "The Criminal page refers to an 'Online Case Index' on the court calendar page, but the court posts that its Online Calendar Portal is temporarily unavailable until further notice and no working link was found. Call the criminal clerk at (530) 458-5149, option 4, for court date, department, fines and warrant status.",
+  "sources": [
+    {
+      "title": "Colusa Superior Court — Home",
+      "url": "https://www.colusa.courts.ca.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Colusa Superior Court — Main Courthouse Dept. 1",
+      "url": "https://www.colusa.courts.ca.gov/location/main-courthouse-dept-1",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Colusa Superior Court — Courthouse Annex Dept. 2",
+      "url": "https://www.colusa.courts.ca.gov/location/courthouse-annex-dept-2",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Colusa Superior Court — Criminal",
+      "url": "https://www.colusa.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Colusa Superior Court — Court Calendar (department schedule)",
+      "url": "https://www.colusa.courts.ca.gov/general-information/court-calendar",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Colusa Superior Court — Self-Help",
+      "url": "https://www.colusa.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "County of Colusa — Jail",
+      "url": "https://countyofcolusaca.gov/158/Jail",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "County of Colusa — Jail Visiting Hours",
+      "url": "https://countyofcolusaca.gov/332/Jail-Visiting-Hours",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "County of Colusa — Bail, Monies & Property",
+      "url": "https://countyofcolusaca.gov/334/Bail-Monies-Property",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "County of Colusa — Sheriff",
+      "url": "https://countyofcolusaca.gov/156/Sheriff",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "County of Colusa — Probation",
+      "url": "https://countyofcolusaca.gov/143/Probation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "County of Colusa — Juvenile Justice Services",
+      "url": "https://countyofcolusaca.gov/871/Juvenile-Justice-Services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Legal Services of Northern California — Chico office (serves Colusa seniors)",
+      "url": "https://lsnc.net/office/chico",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check an Agent/Broker license",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "main-dept-1",
+      "name": "Main Courthouse — Department 1",
+      "address": "547 Market Street",
+      "city": "Colusa",
+      "zip": "95932",
+      "phone": "(530) 458-5149",
+      "criminal_phone": "(530) 458-5149 option 4",
+      "hours": "Building hours Mon–Fri 8:30 a.m.–5:00 p.m.",
+      "criminal": false,
+      "note": "Historic courthouse. Per the court calendar: Mon Title IV-D, limited civil, small claims, and Juvenile (1:00 p.m.); Tue adoptions/guardianships/conservatorships, civil, family, probate; Wed–Fri trials and all other matters. Adult criminal calendars are in Dept. 2. Juvenile delinquency is heard here.",
+      "departments": [
+        {
+          "id": "1",
+          "label": "Department 1",
+          "type": "Civil / Family / Probate / Juvenile",
+          "note": "Juvenile Mondays 1:00 p.m. per court calendar."
+        }
+      ],
+      "departments_source_url": "https://www.colusa.courts.ca.gov/general-information/court-calendar",
+      "source_url": "https://www.colusa.courts.ca.gov/location/main-courthouse-dept-1",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "annex-dept-2",
+      "name": "Courthouse Annex — Department 2",
+      "address": "532 Oak Street",
+      "city": "Colusa",
+      "zip": "95932",
+      "phone": "(530) 458-5149",
+      "criminal_phone": "(530) 458-5149 option 4",
+      "hours": "Building hours Mon–Fri 8:30 a.m.–5:00 p.m.",
+      "criminal": true,
+      "note": "Criminal and traffic courtroom; the Criminal Clerk's Office is at 532 Oak St. Calendar: Tue 8:30 criminal & traffic pro per, Prop 36, misdemeanor/felony arraignments 12:30 p.m.; Wed 8:30 criminal, 10:30 prelims/court trials; 2nd & 4th Mon traffic arraignments and traffic trials. In-custody arraignments are held as needed — call (530) 458-5149 opt. 4 after 9 a.m.; in-custody defendants are often added the morning of court. Walk-in warrant court Tuesdays: check in at the clerk's office before 12:30 p.m. Note: the Self-Help page gives the annex address as '547 Market Street, Courthouse Annex' — conflicting with the location page (532 Oak St).",
+      "departments": [
+        {
+          "id": "2",
+          "label": "Department 2",
+          "type": "Criminal (felony & misdemeanor) / Traffic",
+          "note": "See note for weekly schedule."
+        }
+      ],
+      "departments_source_url": "https://www.colusa.courts.ca.gov/general-information/court-calendar",
+      "source_url": "https://www.colusa.courts.ca.gov/location/courthouse-annex-dept-2",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Colusa County — court-appointed counsel",
+      "address": null,
+      "city": null,
+      "zip": null,
+      "phone": null,
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": null,
+      "source_url": "https://www.colusa.courts.ca.gov/general-information/court-calendar",
+      "verified_on": "2026-10-13",
+      "todo": "No Colusa County Public Defender office page found on countyofcolusaca.gov (not in county directory). Court calendar lists criminal calendars by attorney ('Atty. Williams', 'Atty. Smith', 'Private Counsel'), suggesting contract defenders, but this is not confirmed. Ask for appointed counsel at arraignment; confirm provider."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Legal Services of Northern California — Chico Office",
+      "serves": "Colusa County seniors (LSNC lists Colusa only for its senior program)",
+      "what": "For seniors in Colusa: consumer issues, basic estate planning, powers of attorney, advance health directives, elder abuse. Civil only; page does not list criminal or record-clearing help.",
+      "phone": "(530) 345-9491",
+      "address": "541 Normal Avenue, Chico, CA 95928",
+      "url": "https://lsnc.net/office/chico",
+      "source_url": "https://lsnc.net/office/chico",
+      "verified_on": "2026-10-13",
+      "todo": "No free criminal record-clearing (expungement) provider for Colusa County verified."
+    }
+  ],
+  "probation": [
+    {
+      "name": "Colusa County Probation Department",
+      "address": "532 Oak Street",
+      "city": "Colusa",
+      "zip": "95932",
+      "phone": "(530) 458-5871",
+      "hours": "8:30 a.m.–5:00 p.m.",
+      "url": "https://countyofcolusaca.gov/143/Probation",
+      "source_url": "https://countyofcolusaca.gov/143/Probation",
+      "verified_on": "2026-10-13",
+      "note": "Fax (530) 458-2895. Juveniles arrested in Colusa County are booked at the Probation Department."
+    }
+  ],
+  "programs": [
+    {
+      "id": "prop36",
+      "name": "Prop 36 calendar",
+      "type": "collaborative_court",
+      "summary": "The court calendar lists a 'Criminal Prop 36' calendar Tuesdays 8:30 a.m. in Dept. 2. The court site does not describe the program.",
+      "url": "https://www.colusa.courts.ca.gov/general-information/court-calendar",
+      "source_url": "https://www.colusa.courts.ca.gov/general-information/court-calendar",
+      "verified_on": "2026-10-13",
+      "todo": "No program description found; ask your attorney about eligibility."
+    },
+    {
+      "id": "walk-in-warrant",
+      "name": "Walk-in court for outstanding warrants",
+      "type": "court_procedure",
+      "summary": "Tuesdays. Check in at the Clerk's Office, 532 Oak Street, before 12:30 p.m. — anyone checking in later will not be seen.",
+      "phone": "(530) 458-5149 option 4",
+      "url": "https://www.colusa.courts.ca.gov/divisions/criminal",
+      "source_url": "https://www.colusa.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "self-help",
+      "name": "Self-Help Center",
+      "type": "self_help",
+      "summary": "Free help for unrepresented people (family law, name change, restraining orders, civil harassment, small claims, guardianship) — not criminal defense. Mon–Wed 8:30 a.m.–4:30 p.m.",
+      "phone": "(530) 458-0598",
+      "url": "https://www.colusa.courts.ca.gov/self-help",
+      "source_url": "https://www.colusa.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "colusa-jail",
+      "name": "Colusa County Jail",
+      "address": "929 Bridge Street",
+      "city": "Colusa",
+      "zip": "95932",
+      "phone": "(530) 458-0205",
+      "phone_note": "Jail main line. Visiting info/appointments: (530) 458-0649 (book at least one day ahead). Sheriff's Office (24/7): (530) 458-0200. Jail does not accept incoming calls or take messages.",
+      "houses": "both",
+      "visiting_url": "https://countyofcolusaca.gov/332/Jail-Visiting-Hours",
+      "commissary_or_money_url": "https://countyofcolusaca.gov/334/Bail-Monies-Property",
+      "court_ids": [
+        "annex-dept-2"
+      ],
+      "note": "Holds up to 92 people (pretrial and sentenced). Separate visiting schedules for female and male incarcerated persons; two 30-minute visits/week, government photo ID required. Money: lobby kiosk 24/7 or Access Corrections. Court: criminal arraignments are in Dept. 2 (Courthouse Annex); in-custody arraignments held as needed.",
+      "url": "https://countyofcolusaca.gov/158/Jail",
+      "source_url": "https://countyofcolusaca.gov/158/Jail",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "tri-county-juvenile",
+      "name": "Tri-County Juvenile Rehabilitation Facility (out of county)",
+      "address": "1023 14th St",
+      "city": "Marysville",
+      "zip": "95901",
+      "phone": null,
+      "phone_note": null,
+      "houses": "juvenile",
+      "visiting_url": null,
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "main-dept-1"
+      ],
+      "note": "Colusa Probation's page says arrested youth are booked at Colusa Probation and may then be taken to this facility in Marysville (Yuba County). Juvenile calendar is Dept. 1, Mondays 1:00 p.m. per the court calendar.",
+      "url": "https://countyofcolusaca.gov/871/Juvenile-Justice-Services",
+      "source_url": "https://countyofcolusaca.gov/871/Juvenile-Justice-Services",
+      "verified_on": "2026-10-13",
+      "todo": "Facility phone/visiting not on Colusa pages; see the operating county's site."
+    }
+  ],
+  "inmate_lookup_url": null,
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "note": "CA Department of Insurance license lookup for bail agents (URL carried over from the Orange file; not re-loaded today). Colusa County: bail may be posted at the jail in U.S. currency, cashier's checks or money orders, or through a bail bond agency (County 'Bail, Monies & Property' page). No online inmate locator found — call the jail at (530) 458-0205."
+  },
+  "inmate_lookup_note": "No online inmate lookup found on county pages; the county Correctional Services page mentions the VINE program but no link was loaded. Call (530) 458-0205."
+}

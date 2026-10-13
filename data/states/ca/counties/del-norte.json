@@ -1,0 +1,264 @@
+{
+  "state": "CA",
+  "county": "Del Norte",
+  "slug": "del-norte",
+  "court_name": "Superior Court of California, County of Del Norte",
+  "court_website": "https://www.delnorte.courts.ca.gov/",
+  "case_search_url": "https://cmsportal.dncourt.com/",
+  "case_search_note": "Court 'Case Portal' (sign-in may be required). The court's Court Records page says an online CRIMINAL index is not available at this time, so criminal cases may not be searchable — use the online Criminal Calendar (https://www.delnorte.courts.ca.gov/online-services/criminal-calendar) or call the clerk at (707) 464-8115. Records email: records@delnorte.courts.ca.gov.",
+  "sources": [
+    {
+      "title": "Del Norte Superior Court — Home",
+      "url": "https://www.delnorte.courts.ca.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Del Norte Superior Court — Location & Contact",
+      "url": "https://www.delnorte.courts.ca.gov/general-information/location-contact",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Del Norte Superior Court — Criminal Division",
+      "url": "https://www.delnorte.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Del Norte Superior Court — Court Records",
+      "url": "https://www.delnorte.courts.ca.gov/court-records",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Del Norte Superior Court — Judicial Assignments",
+      "url": "https://www.delnorte.courts.ca.gov/general-information/judicial-assignments",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Del Norte Superior Court — 2026 Department Schedule (PDF)",
+      "url": "https://www.delnorte.courts.ca.gov/system/files/general/2026_department_schedule.pdf",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Del Norte Superior Court — Traffic Division",
+      "url": "https://www.delnorte.courts.ca.gov/divisions/traffic-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Del Norte Superior Court — Juvenile Dependency/Delinquency",
+      "url": "https://www.delnorte.courts.ca.gov/divisions/juvenile-dependencydelinquency",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Del Norte County — Sheriff's Office",
+      "url": "https://www.co.del-norte.ca.us/departments/Sheriff",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Del Norte County Sheriff — Jail",
+      "url": "https://www.co.del-norte.ca.us/departments/sheriff/Jail",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Del Norte County — Probation",
+      "url": "https://www.co.del-norte.ca.us/departments/Probation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Del Norte County Probation — Adult Services Unit",
+      "url": "https://www.co.del-norte.ca.us/departments/Probation/AdultServicesUnit",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Del Norte County Probation — Juvenile Detention",
+      "url": "https://www.co.del-norte.ca.us/departments/Probation/JuvenileDetention",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Del Norte County Probation — Pre-Trial Services",
+      "url": "https://www.co.del-norte.ca.us/departments/Probation/PreTrial",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Del Norte County — Department Directory",
+      "url": "https://www.co.del-norte.ca.us/departments",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Legal Services of Northern California — Eureka Office (serves Del Norte)",
+      "url": "https://lsnc.net/node/54",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check an Agent/Broker license",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "crescent-city",
+      "name": "Del Norte Superior Court (Del Norte County Courthouse)",
+      "address": "450 H Street, Room 209",
+      "city": "Crescent City",
+      "zip": "95531",
+      "phone": "(707) 464-8115",
+      "criminal_phone": "(707) 464-8115",
+      "hours": "Filing counters 8:00 a.m.–4:30 p.m.; phone 8:30 a.m.–4:30 p.m., Mon–Fri (Criminal Division page lists clerk's office hours 8 a.m.–5 p.m.); outside drop box 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "The county's only courthouse. Hears criminal (felony and misdemeanor), traffic, civil, family, juvenile (dependency and delinquency) and probate. Per the 2026 department schedule: in-custody (I/C) arraignments daily at 1:00 p.m. in Dept 3/5; Dept 2 arraignments Mon 1:30 p.m., Thu 9:00 a.m. and Fri 10:30 a.m.; preliminary hearings Tue 10:00 a.m. and Thu 9:30 a.m.; adult traffic court Mon and Thu 1:30 p.m. (Dept 3/5). Schedule can change — check the calendar. The Criminal Division page also lists (707) 465-4005, which the Traffic page identifies as the fax number.",
+      "departments": [
+        {
+          "id": "1",
+          "label": "Department 1",
+          "type": "Felony jury trials, criminal law & motion, sentencing; Drug Court; Integrated Treatment Court; juvenile",
+          "note": "Presiding Judge per judicial assignments page. Drug Court Fri 8:30 a.m.; Integrated Treatment Court Tue 4:00 p.m. (2026 schedule)."
+        },
+        {
+          "id": "2",
+          "label": "Department 2",
+          "type": "Arraignments, pretrials, prelims, misdemeanor and civil jury trials, felony sentencing; Veterans Court; Mental Health Diversion; family/DV; probate",
+          "note": "Veterans Court 3rd Thursday 3:00 p.m.; Mental Health Diversion 3rd Thursday 3:30 p.m. (2026 schedule)."
+        },
+        {
+          "id": "3-5",
+          "label": "Department 3/5",
+          "type": "In-custody arraignments (daily 1:00 p.m.); adult traffic (Mon & Thu 1:30 p.m.); juvenile traffic; family support",
+          "note": "Judicial assignments page lists Dept 3 as Commissioner and/or assigned judge."
+        },
+        {
+          "id": "4",
+          "label": "Department 4",
+          "type": "Assigned judge matters (Tue & Wed 9:00 a.m.)",
+          "note": null
+        }
+      ],
+      "departments_source_url": "https://www.delnorte.courts.ca.gov/system/files/general/2026_department_schedule.pdf",
+      "source_url": "https://www.delnorte.courts.ca.gov/general-information/location-contact",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Court-appointed counsel (Del Norte County contract defense attorneys)",
+      "address": null,
+      "city": "Crescent City",
+      "zip": null,
+      "phone": null,
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": null,
+      "source_url": "https://www.co.del-norte.ca.us/departments",
+      "verified_on": "2026-10-13",
+      "note": "The county's official department directory lists no Public Defender office. Non-official sources (2025 Board of Supervisors meeting coverage and 2026 job postings) indicate the county uses contracted private attorneys for indigent defense and has been recruiting its first appointed Public Defender. Ask the judge for appointed counsel at your first court date, or call the court clerk at (707) 464-8115.",
+      "todo": "Confirm current indigent-defense provider(s), office address and phone from an official county or court source."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Legal Services of Northern California — Eureka Office (serves Del Norte)",
+      "serves": "Low-income residents of Del Norte, Humboldt and Trinity counties (civil legal aid)",
+      "what": "Civil legal aid. Practice areas include 'criminal record remedies' and citation defense for people experiencing homelessness, plus housing, public benefits, education and health coverage. Not criminal defense on open cases.",
+      "phone": "(800) 972-0002",
+      "email": null,
+      "url": "https://lsnc.net/node/54",
+      "source_url": "https://lsnc.net/node/54",
+      "verified_on": "2026-10-13",
+      "note": "Toll-free number listed for Del Norte County callers. Office: 123 Third Street, Eureka, CA 95501, (707) 445-0866. Intake Mon, Tue, Thu, Fri 9–12 and 1–4 (or until full). Evening intake line (866) 815-5990."
+    }
+  ],
+  "probation": [
+    {
+      "name": "Del Norte County Probation Department",
+      "address": "450 H St. #202",
+      "city": "Crescent City",
+      "zip": "95531",
+      "phone": "(707) 464-7215",
+      "email": "probation@co.del-norte.ca.us",
+      "hours": null,
+      "url": "https://www.co.del-norte.ca.us/departments/Probation",
+      "source_url": "https://www.co.del-norte.ca.us/departments/Probation",
+      "verified_on": "2026-10-13",
+      "note": "Department asks you to call (707) 464-7215 before coming to the lobby to get reporting instructions. Online forms for probation-officer contact and travel permits are on the page. Adult Services Unit handles presentence reports and supervises formal probation, PRCS and Mandatory Supervision, with specialized caseloads for Drug Court, Integrated Treatment Court, DV and sex offenses. Juveniles arrested in the county are booked at Probation, then may be held at Humboldt County Juvenile Hall or Shasta County's Juvenile Rehabilitation Facility under contract.",
+      "todo": "office hours not listed"
+    }
+  ],
+  "programs": [
+    {
+      "id": "drug-court",
+      "name": "Drug Court",
+      "type": "collaborative_court",
+      "summary": "Court-supervised treatment program. Court's 2026 department schedule lists Drug Court Fridays at 8:30 a.m. in Department 1; Probation's Adult Services Unit runs a specialized Drug Court caseload. Eligibility rules not published online — ask your attorney.",
+      "url": "https://www.delnorte.courts.ca.gov/system/files/general/2026_department_schedule.pdf",
+      "source_url": "https://www.delnorte.courts.ca.gov/system/files/general/2026_department_schedule.pdf",
+      "verified_on": "2026-10-13",
+      "todo": "No official page describing eligibility/phases found."
+    },
+    {
+      "id": "integrated-treatment-court",
+      "name": "Integrated Treatment Court",
+      "type": "collaborative_court",
+      "summary": "Listed on the court's 2026 schedule Tuesdays at 4:00 p.m. in Department 1; Probation supervises an Integrated Treatment Court caseload. Program details not published online.",
+      "url": "https://www.delnorte.courts.ca.gov/system/files/general/2026_department_schedule.pdf",
+      "source_url": "https://www.delnorte.courts.ca.gov/system/files/general/2026_department_schedule.pdf",
+      "verified_on": "2026-10-13",
+      "todo": "No official description of who qualifies."
+    },
+    {
+      "id": "veterans-court",
+      "name": "Veterans Court",
+      "type": "collaborative_court",
+      "summary": "Listed on the court's 2026 schedule on the 3rd Thursday of the month at 3:00 p.m. in Department 2.",
+      "url": "https://www.delnorte.courts.ca.gov/system/files/general/2026_department_schedule.pdf",
+      "source_url": "https://www.delnorte.courts.ca.gov/system/files/general/2026_department_schedule.pdf",
+      "verified_on": "2026-10-13",
+      "todo": "No official description of eligibility."
+    },
+    {
+      "id": "mental-health-diversion",
+      "name": "Mental Health Diversion",
+      "type": "diversion",
+      "summary": "Court's 2026 schedule lists a Mental Health Diversion calendar on the 3rd Thursday at 3:30 p.m. in Department 2 (state law PC 1001.36). Ask your attorney whether you qualify.",
+      "url": "https://www.delnorte.courts.ca.gov/system/files/general/2026_department_schedule.pdf",
+      "source_url": "https://www.delnorte.courts.ca.gov/system/files/general/2026_department_schedule.pdf",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "pretrial",
+      "name": "Probation Pre-Trial Services",
+      "type": "pretrial",
+      "summary": "Del Norte Probation has a Pre-Trial Services unit; its page only links to the Public Safety Assessment (PSA) risk-tool site (advancingpretrial.org), suggesting the PSA is used. Release conditions depend on the judge's order.",
+      "phone": "(707) 464-7215",
+      "url": "https://www.co.del-norte.ca.us/departments/Probation/PreTrial",
+      "source_url": "https://www.co.del-norte.ca.us/departments/Probation/PreTrial",
+      "verified_on": "2026-10-13",
+      "todo": "Page gives no description of supervision/check-in terms."
+    }
+  ],
+  "jails": [
+    {
+      "id": "dn-jail",
+      "name": "Del Norte County Jail (Sheriff's Office)",
+      "address": "650 Fifth Street",
+      "city": "Crescent City",
+      "zip": "95531",
+      "houses": null,
+      "phone": "(707) 464-4191",
+      "phone_note": "Sheriff's Office main line; fax (707) 464-6527. No separate jail phone published.",
+      "url": "https://www.co.del-norte.ca.us/departments/sheriff/Jail",
+      "visiting_url": null,
+      "commissary_or_money_url": "https://www.accesscorrections.com/V2/home",
+      "court_ids": ["crescent-city"],
+      "note": "Money to an inmate's account: Access Corrections online, by phone at 866-394-0490, or at the kiosk in the lobby (per Sheriff's Jail page). A list of currently incarcerated persons is on the Sheriff's Public Information Portal. Court: in-custody arraignments are held daily at 1:00 p.m. at the courthouse (450 H St.) — nearest, not confirmed as the transport destination (it is the county's only courthouse). Del Norte has no county juvenile hall; youth are held in Humboldt or Shasta County under contract.",
+      "source_url": "https://www.co.del-norte.ca.us/departments/sheriff/Jail",
+      "verified_on": "2026-10-13",
+      "todo": "Official pages give no visiting rules/schedule, no separate jail street address (650 Fifth St. is the Sheriff's Office), and don't say whether the jail houses men, women or both."
+    }
+  ],
+  "inmate_lookup_url": "https://delnorte.citizenrims.com/",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' — look up a bail agent's license status and discipline (linked from insurance.ca.gov). The court posts the Del Norte County Local Bail Schedule (2026 PDF) on its Criminal Division page. How/where to post cash bail at the jail is not published on the Sheriff's site — call (707) 464-4191.",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13"
+  }
+}
