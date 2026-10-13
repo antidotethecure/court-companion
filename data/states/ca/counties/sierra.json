@@ -1,0 +1,183 @@
+{
+  "state": "CA",
+  "county": "Sierra",
+  "slug": "sierra",
+  "court_name": "Superior Court of California, County of Sierra",
+  "court_website": "https://sierra.courts.ca.gov/",
+  "case_search_url": null,
+  "case_search_note": "No online case search is linked on sierra.courts.ca.gov. Call the Criminal Division at (530) 289-3698 (have your case number ready) or check the Court Calendars & Schedule page (https://sierra.courts.ca.gov/general-information/court-calendars-schedule). The court offers text/email hearing reminders through the statewide Hearing Reminder Service (https://www.hrs.courts.ca.gov/sr).",
+  "sources": [
+    {"title": "Sierra Superior Court — Home", "url": "https://sierra.courts.ca.gov/", "verified_on": "2026-10-13"},
+    {"title": "Sierra Superior Court — Locations & Contact Info", "url": "https://sierra.courts.ca.gov/general-information/locations-contact-info", "verified_on": "2026-10-13"},
+    {"title": "Sierra Superior Court — Criminal Division", "url": "https://sierra.courts.ca.gov/divisions/criminal", "verified_on": "2026-10-13"},
+    {"title": "Sierra Superior Court — Collaborative Court (Drug Court)", "url": "https://sierra.courts.ca.gov/divisions/collaborative-court", "verified_on": "2026-10-13"},
+    {"title": "Sierra County — Sheriff-Coroner directory (incl. Temporary Holding Facility)", "url": "https://sierracounty.ca.gov/Directory.aspx?DID=27", "verified_on": "2026-10-13"},
+    {"title": "Sierra County — Probation directory", "url": "https://sierracounty.ca.gov/Directory.aspx?DID=26", "verified_on": "2026-10-13"},
+    {"title": "Nevada County Sheriff — Corrections Division", "url": "https://nevadacountyca.gov/264", "verified_on": "2026-10-13"},
+    {"title": "Nevada County Sheriff — Incarcerated Persons Visitation", "url": "https://nevadacountyca.gov/287/Inmate-Visitation", "verified_on": "2026-10-13"},
+    {"title": "Nevada County Sheriff — Add Money to a Trust or Phone Account", "url": "https://nevadacountyca.gov/271/Add-Money-to-a-Trust-or-Phone-Account", "verified_on": "2026-10-13"},
+    {"title": "Nevada County Sheriff — Truckee Operations", "url": "https://nevadacountyca.gov/255/Truckee-Operations", "verified_on": "2026-10-13"},
+    {"title": "Nevada County Grand Jury 2014-15 — Wayne Brown Correctional Facility report (hosted on nevada.courts.ca.gov)", "url": "https://www.nevada.courts.ca.gov/sites/default/files/nccourt/default/documents/1415-LAW-WayneBrownCorrection.pdf", "verified_on": null},
+    {"title": "Legal Services of Northern California — Auburn Office", "url": "https://lsnc.net/office/auburn", "verified_on": "2026-10-13"},
+    {"title": "California Courts Self-Help — Clean your record", "url": "https://selfhelp.courts.ca.gov/clean-your-record", "verified_on": "2026-10-13"},
+    {"title": "CA Dept. of Insurance — Check an Agent/Broker license", "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm", "verified_on": "2026-10-10"}
+  ],
+  "courthouses": [
+    {
+      "id": "downieville",
+      "name": "Sierra County Superior Court (Downieville Courthouse)",
+      "address": "100 Courthouse Square",
+      "city": "Downieville",
+      "zip": "95936",
+      "phone": "(530) 289-3698",
+      "criminal_phone": "(530) 289-3698",
+      "hours": "Clerk window: Mon–Fri 8:00 a.m.–12:00 p.m. and 1:00–4:00 p.m.; Telephone: Mon–Fri 8:00 a.m.–5:00 p.m. (Criminal Division page lists phone hours 9:00 a.m.–12:00 p.m. and 1:00–4:00 p.m.)",
+      "criminal": true,
+      "note": "The court's only listed location (2nd floor of the county courthouse). All divisions incl. criminal, traffic, juvenile and Drug Court. Since July 1, 2022 misdemeanor and felony appearances are in person; Zoom only for designated hearings — file the Request for Remote Appearance: Criminal at least 10 days before. Mailing: PO Box 476, Downieville, CA 95936. Fax (530) 289-0205. Email superiorcourt@sierracourt.org. Pay fines at sierra.epay-it.com.",
+      "departments": [],
+      "source_url": "https://sierra.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Sierra County appointed counsel (public defender) — provider not published",
+      "address": null,
+      "city": null,
+      "zip": null,
+      "phone": "(530) 289-3698",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://sierra.courts.ca.gov/divisions/criminal",
+      "note": "Sierra County has no public defender office listed in the county directory. The court's pages refer to a 'Public Defender' (Drug Court team; PD fees collected by the Sierra County Treasurer/Tax Collector, (530) 289-3286) but do not name the attorney(s). Ask the judge for appointed counsel at your first appearance, or call the Criminal Division at (530) 289-3698.",
+      "source_url": "https://sierra.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13",
+      "todo": "Identify the current contract public defender(s) — check Sierra County Board of Supervisors agreements or ask the court clerk."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Legal Services of Northern California — Auburn Office",
+      "serves": "Low-income residents of Amador, Calaveras, El Dorado, Nevada, Placer and Sierra counties (civil legal aid)",
+      "what": "Housing and public benefits (CalWORKs, CalFresh, Medi-Cal, General Assistance, Social Security/SSI, unemployment, state disability). Civil only — the office page does not list criminal defense or record clearing. Address: 190 Reamer Street, Auburn, CA 95603; toll-free (800) 660-6107.",
+      "phone": "(530) 823-7560",
+      "email": null,
+      "url": "https://lsnc.net/office/auburn",
+      "source_url": "https://lsnc.net/office/auburn",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "California Courts Self-Help — Clean your record",
+      "serves": "Anyone with a California conviction",
+      "what": "Statewide court self-help guide and questionnaire for dismissals (expungement), reductions and record sealing. Sierra's Criminal Division also takes record-cleaning questions at (530) 289-3698.",
+      "phone": null,
+      "url": "https://selfhelp.courts.ca.gov/clean-your-record",
+      "source_url": "https://selfhelp.courts.ca.gov/clean-your-record",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Sierra County Probation — Downieville Office",
+      "address": "100 Courthouse Square",
+      "city": "Downieville",
+      "zip": "95936",
+      "phone": "(530) 289-3277",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m. (closed 12:00–1:00 p.m.)",
+      "url": "https://sierracounty.ca.gov/Directory.aspx?DID=26",
+      "note": "Mailing: PO Box 67, Downieville, CA 95936. Fax (530) 289-2821. Email probation@sierracounty.ca.gov. County directory shows ZIP 95636 for the physical address — almost certainly a typo for 95936 (used in the mailing address and header).",
+      "source_url": "https://sierracounty.ca.gov/Directory.aspx?DID=26",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Sierra County Probation — Loyalton Office",
+      "address": "105 Beckwith Street",
+      "city": "Loyalton",
+      "zip": "96118",
+      "phone": "(530) 289-3277",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m. (closed 12:00–1:00 p.m.)",
+      "url": "https://sierracounty.ca.gov/Directory.aspx?DID=26",
+      "note": "Mailing: PO Box 1017, Loyalton, CA 96118. Directory lists (530) 993-1922 as this office's fax.",
+      "source_url": "https://sierracounty.ca.gov/Directory.aspx?DID=26",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "programs": [
+    {
+      "id": "drug-court",
+      "name": "Sierra County Drug Court (SCDC)",
+      "type": "collaborative_court",
+      "summary": "Since 2003, an alternative to traditional sentencing for people charged with non-violent drug-related offenses. Five phases: intensive Probation supervision, individual and group counseling, frequent court appearances, random drug/alcohol testing. Sanctions (essays, community service, short 'flash' jail stays, expulsion) and incentives (phase advancement, reduced requirements, gift cards). Completion ends in probation terminated or charges dismissed. Team: Court, DA, Public Defender, Probation, Sheriff, Human Services. Probation lists a Collaborative Court Coordinator at (530) 289-3277.",
+      "phone": "(530) 289-3277",
+      "url": "https://sierra.courts.ca.gov/divisions/collaborative-court",
+      "source_url": "https://sierra.courts.ca.gov/divisions/collaborative-court",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "sierra-thf",
+      "name": "Sierra County Sheriff — Temporary Holding Facility",
+      "address": "100 Courthouse Square",
+      "city": "Downieville",
+      "zip": "95936",
+      "phone": "(530) 289-3700",
+      "phone_note": "Sheriff main line (Mon–Fri 9–5); fax (530) 289-3318. Mailing PO Box 66. Short-term holding only — the county directory states Sierra County contracts with Nevada County for jail services.",
+      "houses": null,
+      "visiting_url": null,
+      "commissary_or_money_url": null,
+      "court_ids": ["downieville"],
+      "court_ids_note": "Same building as the courthouse.",
+      "url": "https://sierracounty.ca.gov/Directory.aspx?DID=27",
+      "source_url": "https://sierracounty.ca.gov/Directory.aspx?DID=27",
+      "verified_on": "2026-10-13",
+      "todo": "Who is held and for how long not published; no visiting/money info (short-term facility)."
+    },
+    {
+      "id": "wayne-brown",
+      "name": "Wayne Brown Correctional Facility (Nevada County jail — holds Sierra County inmates by contract)",
+      "address": "925 Maidu Ave",
+      "city": "Nevada City",
+      "zip": "95959",
+      "phone": "(530) 265-1291",
+      "phone_note": "Sierra court's Criminal Division page gives this number to check whether someone is in custody. Visits by appointment only, arranged by the incarcerated person (non-contact; up to four 30-min visits/week; lobby Tue–Fri). Video visits via gettingout.com. Mailing address per Nevada County: PO Box 9677, Las Vegas, NV 89193.",
+      "houses": "both",
+      "houses_note": "Nevada County pages do not state gender; a 2014-15 Nevada County Grand Jury report (hosted on nevada.courts.ca.gov) reported both male and female inmates. Not confirmed on a current Sheriff page.",
+      "visiting_url": "https://nevadacountyca.gov/287/Inmate-Visitation",
+      "commissary_or_money_url": "https://nevadacountyca.gov/271/Add-Money-to-a-Trust-or-Phone-Account",
+      "money_note": "Trust account: TouchPay (gtlfsonlinepay.com, 866-232-1899, facility locator 295901) or lobby kiosk. Phone account: Telmate (866-516-0115).",
+      "court_ids": ["downieville"],
+      "court_ids_note": "Downieville is Sierra County's only courthouse; the Sheriff staff list includes a 'Reserve Bailiff and Transport' officer, but the transport arrangement is not published — not confirmed.",
+      "url": "https://nevadacountyca.gov/264",
+      "source_url": "https://sierra.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "truckee-jail",
+      "name": "Truckee Jail (Nevada County — booking/temporary holding)",
+      "address": "10879 Donner Pass Rd",
+      "city": "Truckee",
+      "zip": "96161",
+      "phone": "(530) 265-1471",
+      "phone_note": "Nevada County Sheriff main line (no jail-specific number on the Truckee page). Nevada County says the Truckee Jail is an adult-only booking and temporary holding facility that can book Sierra County arrestees and hold them until transport to their county's main jail.",
+      "houses": null,
+      "visiting_url": null,
+      "commissary_or_money_url": null,
+      "court_ids": ["downieville"],
+      "court_ids_note": "Nearest Sierra County criminal courthouse, not confirmed.",
+      "url": "https://nevadacountyca.gov/255/Truckee-Operations",
+      "source_url": "https://nevadacountyca.gov/264",
+      "verified_on": "2026-10-13",
+      "todo": "Adult-only, but men/women housing not stated; county pages list ZIP as 96161 and elsewhere 96160 — confirm."
+    }
+  ],
+  "inmate_lookup_url": "http://reports.nevcounty.net/justice/",
+  "inmate_lookup_note": "Nevada County's in-custody search (covers Wayne Brown, where Sierra County contracts jail services). Sierra County has no online lookup of its own — call the Sheriff at (530) 289-3700. Nevada County will not release booking numbers or release dates; VINE (https://vinelink.vineapps.com/search/CA/Person) gives custody status updates.",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' — verify any bail agent's license and discipline history. The Sierra court's Criminal Division page links the Felony & Misdemeanor Bail Schedule (2023 PDF).",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-10"
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "state": "CA",
+  "county": "Solano",
+  "slug": "solano",
+  "court_name": "Superior Court of California, County of Solano",
+  "court_website": "https://solano.courts.ca.gov/",
+  "case_search_url": "https://portal.solano.courts.ca.gov/",
+  "case_search_note": "Court case portal linked from the Criminal Court page. Court FAQ also refers to searching 'CourtConnect' through the court website. Online data is not the official record; ask the criminal clerk if a case is missing.",
+  "sources": [
+    {
+      "title": "Solano Superior Court — Locations Information",
+      "url": "https://solano.courts.ca.gov/general-information/locations-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Solano Superior Court — Clerk Services (division phones)",
+      "url": "https://solano.courts.ca.gov/general-information/clerk-services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Solano Superior Court — Criminal Court",
+      "url": "https://solano.courts.ca.gov/divisions/criminal-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Solano Superior Court — Setting Guide, Criminal Court",
+      "url": "https://solano.courts.ca.gov/divisions/criminal-court/setting-guide-criminal-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Solano Superior Court — Traffic Court",
+      "url": "https://solano.courts.ca.gov/divisions/traffic/general-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Solano Superior Court — Treatment Courts",
+      "url": "https://solano.courts.ca.gov/divisions/treatment-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Solano County Public Defender",
+      "url": "https://www.solanocounty.gov/government/public-defender",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Solano County PD — Fresh Start",
+      "url": "https://www.solanocounty.gov/government/public-defender/solano-county-fresh-start",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Solano County Probation",
+      "url": "https://www.solanocounty.gov/government/probation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Solano County Probation — Juvenile Detention Facility",
+      "url": "https://www.solanocounty.gov/government/probation/juvenile-detention-facility",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Solano Sheriff — Justice Center Detention Facility",
+      "url": "https://www.solanocounty.gov/government/sheriff-coroner/custody-division/jail-visiting-information/justice-center-detention-facility",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Solano Sheriff — Claybank Detention Facility",
+      "url": "https://www.solanocounty.gov/government/sheriff-coroner/custody-division/jail-visiting-information/claybank-detention-facility",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Solano Sheriff — Stanton Correctional Facility",
+      "url": "https://www.solanocounty.gov/government/sheriff-coroner/custody-division/jail-visiting-information/stanton-correctional-facility",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Solano Sheriff — Jail Commissary / iCare Package",
+      "url": "https://www.solanocounty.gov/government/sheriff-coroner/custody-division/jail-commissary-icare-package",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Solano Sheriff — In-Custody inmate list",
+      "url": "https://shfinmatesearch.solanocounty.com/listofinmates.aspx",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "hall-of-justice",
+      "name": "Fairfield Courthouse — Hall of Justice",
+      "address": "600 Union Ave",
+      "city": "Fairfield",
+      "zip": "94533",
+      "phone": null,
+      "criminal_phone": "(707) 207-7380",
+      "hours": "Courthouse 8:00 a.m.–5:00 p.m.; clerk's offices drop-in 8:00–11:30 a.m. or by appointment 8:00 a.m.–3:00 p.m. Criminal clerk phone line Mon–Fri 8–12 & 1–3.",
+      "criminal": true,
+      "note": "Fairfield Criminal and Traffic clerk's offices are here (Criminal (707) 207-7380; Traffic (707) 207-7360); also Juvenile (707) 207-7345, Family Law, Probate. Courtrooms here per the criminal setting guide: Dept 11 (Presiding Judge; Drug Court / Parole Re-Entry / Mental Health Diversion / Veterans calendars) and Dept 21 (Commissioner; jail arraignments, traffic arraignments/trials, adult truancy). Criminal email: criminaldivision@solano.courts.ca.gov. Assignments rotate — confirm your department.",
+      "departments": [
+        {
+          "id": "11",
+          "label": "Department 11",
+          "type": "Presiding Judge — specialty calendars (Drug Court, Parole Re-Entry, Mental Health Diversion, Veterans Court)",
+          "note": null
+        },
+        {
+          "id": "21",
+          "label": "Department 21",
+          "type": "Commissioner — jail arraignments, traffic arraignments & trials, adult truancy",
+          "note": null
+        }
+      ],
+      "departments_source_url": "https://solano.courts.ca.gov/divisions/criminal-court/setting-guide-criminal-court",
+      "source_url": "https://solano.courts.ca.gov/general-information/locations-information",
+      "verified_on": "2026-10-13",
+      "todo": "No general/main phone listed for this building on the locations page"
+    },
+    {
+      "id": "law-and-justice-center",
+      "name": "Fairfield Courthouse — Law and Justice Center",
+      "address": "530 Union Ave",
+      "city": "Fairfield",
+      "zip": "94533",
+      "phone": null,
+      "criminal_phone": "(707) 207-7380",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.; clerk's offices drop-in 8:00–11:30 a.m. or by appointment 8:00 a.m.–3:00 p.m.",
+      "criminal": true,
+      "note": "Criminal courtrooms (mailing address is the Hall of Justice, 600 Union Ave). Per setting guide: Depts 4 and 6 hear jail (in-custody) arraignments; Depts 9, 15, 23, 25 hear felony arraignments, preliminary hearings and trials; Dept 23 also handles Vallejo felony PTA/bail-bond/cite matters. Criminal phone shown is the Fairfield criminal clerk at the Hall of Justice.",
+      "departments": [
+        {
+          "id": "4",
+          "label": "Department 4",
+          "type": "Criminal — jail arraignments, traffic, motions, trials",
+          "note": null
+        },
+        {
+          "id": "6",
+          "label": "Department 6",
+          "type": "Criminal — jail arraignments, motions, trials",
+          "note": null
+        },
+        {
+          "id": "9",
+          "label": "Department 9",
+          "type": "Criminal — felony arraignments, prelims, trials",
+          "note": null
+        },
+        {
+          "id": "15",
+          "label": "Department 15",
+          "type": "Criminal — felony arraignments, prelims, trials",
+          "note": null
+        },
+        {
+          "id": "23",
+          "label": "Department 23",
+          "type": "Criminal — felony arraignments, prelims, trials; Vallejo felony PTAs/bail bonds/cites",
+          "note": null
+        },
+        {
+          "id": "25",
+          "label": "Department 25",
+          "type": "Criminal — felony arraignments, prelims, trials",
+          "note": null
+        }
+      ],
+      "departments_source_url": "https://solano.courts.ca.gov/divisions/criminal-court/setting-guide-criminal-court",
+      "source_url": "https://solano.courts.ca.gov/general-information/locations-information",
+      "verified_on": "2026-10-13",
+      "todo": "No building phone listed"
+    },
+    {
+      "id": "solano-justice-building",
+      "name": "Vallejo Courthouse — Solano Justice Building",
+      "address": "321 Tuolumne St",
+      "city": "Vallejo",
+      "zip": "94590",
+      "phone": null,
+      "criminal_phone": "(707) 561-7880",
+      "hours": "Courthouse 8:00 a.m.–5:00 p.m.; clerk's offices drop-in 8:00–11:30 a.m. or by appointment 8:00 a.m.–3:00 p.m.",
+      "criminal": true,
+      "note": "Vallejo Criminal clerk (707) 561-7880 and Traffic clerk (707) 561-7860. Criminal courtrooms per setting guide: Depts 2, 5, 12 (felony arraignments, prelims, trials; Dept 12 Drug Court/Parole Re-Entry; Dept 2 Mental Health Diversion/Veterans) and Dept 24 (Commissioner; arraignments/further arraignments, in-custody pretrials & VOPs, traffic). All court activities are on the ground floor. The court does not publish a Fairfield-vs-Vallejo rule by city of offense — check your notice.",
+      "departments": [
+        {
+          "id": "2",
+          "label": "Department 2",
+          "type": "Criminal — felony arraignments, prelims, trials; Mental Health Diversion / Veterans calendars",
+          "note": null
+        },
+        {
+          "id": "5",
+          "label": "Department 5",
+          "type": "Criminal — felony arraignments, prelims, trials",
+          "note": null
+        },
+        {
+          "id": "12",
+          "label": "Department 12",
+          "type": "Criminal — felony arraignments, prelims, trials; Drug Court / Parole Re-Entry",
+          "note": null
+        },
+        {
+          "id": "24",
+          "label": "Department 24",
+          "type": "Commissioner — arraignments, in-custody pretrials & VOP, traffic, adult truancy",
+          "note": null
+        }
+      ],
+      "departments_source_url": "https://solano.courts.ca.gov/divisions/criminal-court/setting-guide-criminal-court",
+      "source_url": "https://solano.courts.ca.gov/general-information/locations-information",
+      "verified_on": "2026-10-13",
+      "todo": "No building main phone listed"
+    },
+    {
+      "id": "old-solano-courthouse",
+      "name": "Fairfield — Old Solano Courthouse",
+      "address": "580 Texas St",
+      "city": "Fairfield",
+      "zip": "94533",
+      "phone": "(707) 207-7300",
+      "criminal_phone": null,
+      "hours": null,
+      "criminal": false,
+      "note": "Civil and Small Claims clerk's offices per Clerk Services page. Not a criminal courthouse. Parking section references 501 Texas Street lot.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://solano.courts.ca.gov/general-information/locations-information",
+      "verified_on": "2026-10-13",
+      "todo": "Hours not listed for this building"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Solano County Public Defender",
+      "address": "675 Texas St., Suite 3500",
+      "city": "Fairfield",
+      "zip": "94533",
+      "phone": "(707) 784-6700",
+      "toll_free": null,
+      "email": "PublicDefender@SolanoCounty.gov",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "url": "https://www.solanocounty.gov/government/public-defender",
+      "source_url": "https://www.solanocounty.gov/government/public-defender",
+      "verified_on": "2026-10-13",
+      "todo": "Only the Fairfield office is listed; any Vallejo office and the Alternate Public Defender's contact info were not verified"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Solano County Public Defender — Fresh Start (record clearance)",
+      "serves": "People with Solano County records",
+      "what": "Felony-to-misdemeanor reductions, dismissals/expungement, sealing arrest and criminal records, Certificates of Rehabilitation; separate help with PC 290 / SB 384 registration relief. Apply online via the Fresh Start 'Apply Here' page; office reports high application volume — urgent needs call (707) 784-6700.",
+      "phone": "(707) 784-6700",
+      "email": "PublicDefender@SolanoCounty.gov",
+      "url": "https://www.solanocounty.gov/government/public-defender/solano-county-fresh-start/apply-here",
+      "source_url": "https://www.solanocounty.gov/government/public-defender/solano-county-fresh-start",
+      "verified_on": "2026-10-13",
+      "todo": "Eligibility criteria not listed on the page"
+    },
+    {
+      "name": "LawHelpCA — Find Legal Help / Record Clearing",
+      "serves": "Statewide, filter by county",
+      "what": "Statewide directory of nonprofit legal aid; criminal record clearing topic page.",
+      "phone": null,
+      "email": null,
+      "url": "https://www.lawhelpca.org/issues/expungement-and-record-clearing",
+      "source_url": "https://www.lawhelpca.org/find-legal-help",
+      "verified_on": "2026-10-13",
+      "todo": "Specific Solano County nonprofit providers for record clearance not verified"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Solano County Probation — Fairfield Office",
+      "address": "475 Union Ave.",
+      "city": "Fairfield",
+      "zip": "94533",
+      "phone": "(707) 784-7600",
+      "hours": null,
+      "url": "https://www.solanocounty.gov/government/probation",
+      "source_url": "https://www.solanocounty.gov/government/probation",
+      "verified_on": "2026-10-13",
+      "note": "Only office listed on the Probation home page. Treatment court pages list a Vallejo probation officer at (707) 553-5531. Payments/balance: /government/probation/administrative-services/make-payment-balance-inquiry.",
+      "todo": "Vallejo/Vacaville office addresses, office hours, and any pretrial services unit not found on official pages"
+    }
+  ],
+  "programs": [
+    {
+      "id": "adult-drug-court",
+      "name": "Adult Drug Court",
+      "type": "collaborative_court",
+      "summary": "Court supervision, case management and long-term treatment instead of jail for Solano residents with a substantial substance-use problem whose felony/misdemeanor charges or probation violations are connected to drugs or alcohol. Must be probation-eligible; acceptance only post-conviction or post-finding of a probation violation (referrals may come before plea from judge, attorney or probation). Not for 1170(h) split sentence only, PRCS or parole.",
+      "phone": "(707) 784-2271",
+      "url": "https://solano.courts.ca.gov/divisions/treatment-courts/adult-drug-court",
+      "source_url": "https://solano.courts.ca.gov/divisions/treatment-courts/adult-drug-court",
+      "verified_on": "2026-10-13",
+      "todo": "Phone is the Fairfield ADC case manager; Vallejo case manager (707) 561-7948"
+    },
+    {
+      "id": "mental-health-diversion",
+      "name": "Mental Health Court / Mental Health Diversion",
+      "type": "diversion",
+      "summary": "Non-adversarial court for Solano residents charged with a felony or misdemeanor who meet DSM criteria for a serious mental illness with severe functional impairment and voluntarily agree to treatment with a licensed provider. Excludes murder, voluntary manslaughter, rape, registrable sex offenses and VC 23152(a)/(b) DUI. Defendant carries the burden of showing eligibility; intake forms for PD/Alternate PD on the page.",
+      "phone": "(707) 207-7559",
+      "url": "https://solano.courts.ca.gov/divisions/treatment-courts/mental-health-diversion-court",
+      "source_url": "https://solano.courts.ca.gov/divisions/treatment-courts/mental-health-diversion-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "veterans-treatment-court",
+      "name": "Veterans Treatment Court",
+      "type": "collaborative_court",
+      "summary": "For Solano-resident veterans with a qualifying service-related diagnosis whose case falls under PC 1170.9 and who are probation-eligible. Referral pre-plea, post-plea or on a probation violation; VA Veterans Justice Outreach verifies service; referral packet and both release forms required.",
+      "phone": "(707) 784-7600",
+      "url": "https://solano.courts.ca.gov/divisions/treatment-courts/veterans-treatment-court",
+      "source_url": "https://solano.courts.ca.gov/divisions/treatment-courts/veterans-treatment-court",
+      "verified_on": "2026-10-13",
+      "todo": "Phone is the Fairfield probation officer listed; Vallejo PO (707) 553-5531; no case-manager phone listed"
+    },
+    {
+      "id": "parole-reentry-court",
+      "name": "Parole Reentry Court",
+      "type": "collaborative_court",
+      "summary": "For Solano-supervised parolees with substance use and/or mental illness who violated parole; intensive treatment as an alternative to jail/prison. Excludes non-revocable parole, <1 year remaining, current serious/violent charge, or people on county probation. Referral by judge, attorney or parole agent.",
+      "phone": "(707) 207-7412",
+      "url": "https://solano.courts.ca.gov/divisions/treatment-courts/parole-reentry-court",
+      "source_url": "https://solano.courts.ca.gov/divisions/treatment-courts/parole-reentry-court",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "jcdf",
+      "name": "Justice Center Detention Facility (JCDF)",
+      "address": "500 Union Ave",
+      "city": "Fairfield",
+      "zip": "94533",
+      "phone": "(707) 784-7100",
+      "phone_note": "Listed as JCDF contact number; also the Solano County Jail inmate-information line. Sheriff's Office main line (707) 784-7000.",
+      "houses": null,
+      "url": "https://www.solanocounty.gov/government/sheriff-coroner/custody-division/jail-visiting-information/justice-center-detention-facility",
+      "visiting_url": "https://www.solanocounty.gov/government/sheriff-coroner/custody-division/jail-visiting-information/justice-center-detention-facility",
+      "commissary_or_money_url": "https://www.solanocounty.gov/government/sheriff-coroner/custody-division/jail-commissary-icare-package",
+      "court_ids": [
+        "law-and-justice-center",
+        "hall-of-justice",
+        "solano-justice-building"
+      ],
+      "source_url": "https://www.solanocounty.gov/government/sheriff-coroner/custody-division/jail-visiting-information/justice-center-detention-facility",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff page does not say whether men, women or both are housed. Court ids: jail (in-custody) arraignments are in Depts 4/6 (Law & Justice Center) and 21 (Hall of Justice) per the court's setting guide; Vallejo in-custody matters in Dept 24 — which facility feeds which court is not stated. Money-deposit (trust account) method not found; commissary page covers iCare packages only."
+    },
+    {
+      "id": "claybank",
+      "name": "Claybank Detention Facility",
+      "address": "2500 Claybank Road",
+      "city": "Fairfield",
+      "zip": "94533",
+      "phone": "(707) 784-7190",
+      "phone_note": null,
+      "houses": null,
+      "url": "https://www.solanocounty.gov/government/sheriff-coroner/custody-division/jail-visiting-information/claybank-detention-facility",
+      "visiting_url": "https://www.solanocounty.gov/government/sheriff-coroner/custody-division/jail-visiting-information/claybank-detention-facility",
+      "commissary_or_money_url": "https://www.solanocounty.gov/government/sheriff-coroner/custody-division/jail-commissary-icare-package",
+      "court_ids": [
+        "law-and-justice-center",
+        "hall-of-justice"
+      ],
+      "source_url": "https://www.solanocounty.gov/government/sheriff-coroner/custody-division/jail-visiting-information/claybank-detention-facility",
+      "verified_on": "2026-10-13",
+      "todo": "Housing (men/women) not stated on sheriff page. court_ids = nearest criminal courthouses, not confirmed."
+    },
+    {
+      "id": "stanton",
+      "name": "Stanton Correctional Facility",
+      "address": "2450 Claybank Road",
+      "city": "Fairfield",
+      "zip": "94533",
+      "phone": "(707) 784-4830",
+      "phone_note": null,
+      "houses": null,
+      "url": "https://www.solanocounty.gov/government/sheriff-coroner/custody-division/jail-visiting-information/stanton-correctional-facility",
+      "visiting_url": "https://www.solanocounty.gov/government/sheriff-coroner/custody-division/jail-visiting-information/stanton-correctional-facility",
+      "commissary_or_money_url": "https://www.solanocounty.gov/government/sheriff-coroner/custody-division/jail-commissary-icare-package",
+      "court_ids": [
+        "law-and-justice-center",
+        "hall-of-justice"
+      ],
+      "source_url": "https://www.solanocounty.gov/government/sheriff-coroner/custody-division/jail-visiting-information/stanton-correctional-facility",
+      "verified_on": "2026-10-13",
+      "todo": "Housing (men/women) not stated on sheriff page. court_ids = nearest criminal courthouses, not confirmed."
+    },
+    {
+      "id": "juvenile-detention",
+      "name": "Solano County Juvenile Detention Facility (Probation)",
+      "address": "740 Beck Ave.",
+      "city": "Fairfield",
+      "zip": "94533",
+      "phone": "(707) 784-6570",
+      "phone_note": "Page also lists (707) 784-6571 without saying which line is which.",
+      "houses": "juvenile",
+      "url": "https://www.solanocounty.gov/government/probation/juvenile-detention-facility",
+      "visiting_url": null,
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "hall-of-justice"
+      ],
+      "source_url": "https://www.solanocounty.gov/government/probation/juvenile-detention-facility",
+      "verified_on": "2026-10-13",
+      "todo": "Visiting info not on page. Juvenile Court clerk is at the Hall of Justice; courtroom for detained youth not confirmed (nearest, not confirmed)."
+    }
+  ],
+  "inmate_lookup_url": "https://shfinmatesearch.solanocounty.com/listofinmates.aspx",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "note": "CA Department of Insurance license lookup for bail agents. Solano Sheriff: official pages found do not describe where/how to post cash bail; call the Solano County Jail at (707) 784-7100 (inmate info line) or the Justice Center Detention Facility, 500 Union Ave, Fairfield.",
+    "todo": "Sheriff bail-posting location, hours and payment methods not found on official pages"
+  }
+}

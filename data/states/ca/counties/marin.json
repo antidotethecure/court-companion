@@ -1,0 +1,230 @@
+{
+  "state": "CA",
+  "county": "Marin",
+  "slug": "marin",
+  "court_name": "Superior Court of California, County of Marin",
+  "court_website": "https://www.marin.courts.ca.gov/",
+  "case_search_url": "https://webportal.marin.courts.ca.gov/PublicPortal/",
+  "case_search_note": "ePortal (linked from marin.courts.ca.gov/online-services/ecourt-online-portal). Public users can search general case info and the court calendar (parties, list of filed documents, past and future hearings) but cannot view minute orders or documents online; parties/attorneys can request remote document access. A public kiosk in Room 113 shows documents for publicly available cases. The court page does not say explicitly whether criminal cases are included. Traffic/infractions have a separate site: https://apps.marin.courts.ca.gov/MarinTrafficWeb/TrafficMain.aspx",
+  "sources": [
+    {
+      "title": "Marin Superior Court — Marin County Superior Court location",
+      "url": "https://www.marin.courts.ca.gov/location/marin-county-superior-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Marin Superior Court — Contact Us",
+      "url": "https://www.marin.courts.ca.gov/general-information/contact-us",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Marin Superior Court — Criminal Division",
+      "url": "https://www.marin.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Marin Superior Court — Traffic Division",
+      "url": "https://www.marin.courts.ca.gov/divisions/traffic",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Marin Superior Court — ePortal",
+      "url": "https://www.marin.courts.ca.gov/online-services/ecourt-online-portal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Marin Superior Court — Collaborative Justice Courts",
+      "url": "https://www.marin.courts.ca.gov/general-information/collaborative-justice-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Marin County Sheriff — Custody Division",
+      "url": "https://marinsheriff.gov/about-us/detention-bureau/custody-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Marin County Sheriff — Contact",
+      "url": "https://marinsheriff.gov/contact",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Marin County Sheriff — FAQ",
+      "url": "https://marinsheriff.gov/services/faq",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "County of Marin — Clean Slate Program press release (2022)",
+      "url": "https://www.marincounty.org/main/county-press-releases/press-releases/2022/pubdef-cleanslate-020822",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "hall-of-justice",
+      "name": "Marin County Superior Court — Hall of Justice (Civic Center)",
+      "address": "3501 Civic Center Drive",
+      "city": "San Rafael",
+      "zip": "94903",
+      "phone": "(415) 444-7000",
+      "criminal_phone": "(415) 444-7070",
+      "hours": "Building Mon–Fri 8:00 a.m.–4:00 p.m., closed 12–1 p.m. Clerk offices 8:00 a.m.–12:00 p.m. and 1:00–4:00 p.m. Criminal phone line 9:00 a.m.–12:00 p.m. and 1:00–2:00 p.m.",
+      "criminal": true,
+      "note": "Court's only location; hears all case types including felony, misdemeanor and traffic. Criminal clerk: (415) 444-7070, criminal@marin.courts.ca.gov. Traffic: (415) 448-8230 per the Traffic Division page (Contact Us page lists (415) 444-7180 — conflicting). Room conflict: Criminal and Traffic listed in Room 113 on Contact Us/Criminal/Traffic pages but Room C-10 on the location page. Mailing: P.O. Box 4988, San Rafael, CA 94913. Legal Self-Help Center Room C-44, (415) 444-7130.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://www.marin.courts.ca.gov/location/marin-county-superior-court",
+      "verified_on": "2026-10-13",
+      "todo": "No official courtroom/department list found on the court site; confirm current Traffic phone (448-8230 vs 444-7180) and Criminal clerk room (113 vs C-10)."
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Marin County Public Defender",
+      "address": "3501 Civic Center Drive, Suite 139",
+      "city": "San Rafael",
+      "zip": "94903",
+      "phone": "(415) 473-6321",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.marincounty.gov/departments/public-defender",
+      "source_url": "https://www.marincounty.org/main/county-press-releases/press-releases/2022/pubdef-cleanslate-020822",
+      "verified_on": "2026-10-13",
+      "todo": "Address/phone taken from a 2022 County of Marin press release; the department page (marincounty.gov/departments/public-defender) blocks automated access (403) so hours, current room and email are unverified. A third-party listing says Room 127."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Marin County Public Defender — Clean Slate Program",
+      "serves": "People with arrests or convictions in Marin County",
+      "what": "Record clearance help (dismissals/expungement and related relief) run by the Public Defender's Office; has held walk-in community events.",
+      "phone": "(415) 473-6321",
+      "email": null,
+      "url": "https://www.marincounty.org/main/county-press-releases/press-releases/2022/pubdef-cleanslate-020822",
+      "source_url": "https://www.marincounty.org/main/county-press-releases/press-releases/2022/pubdef-cleanslate-020822",
+      "verified_on": "2026-10-13",
+      "todo": "Program email (cleanslate@marincounty.org) appears only on a third-party (Code for America) page — not verified; current program page on marincounty.gov blocked to automated fetch."
+    },
+    {
+      "name": "Marin Superior Court — Legal Self-Help Center",
+      "serves": "People without a lawyer (forms and procedures, incl. record-clearance petitions CR-180/CR-181)",
+      "what": "Court self-help center in Room C-44, Hall of Justice. In person Tue–Thu 8:30 a.m.–12:00 p.m.; phone Mon–Fri 8:30 a.m.–12:00 p.m. and 1:00–3:00 p.m. (Contact Us page). Not legal representation.",
+      "phone": "(415) 444-7130",
+      "email": "selfhelp@marin.courts.ca.gov",
+      "url": "https://www.marin.courts.ca.gov/general-information/contact-us",
+      "source_url": "https://www.marin.courts.ca.gov/general-information/contact-us",
+      "verified_on": "2026-10-13",
+      "todo": "Location page and Contact Us page give slightly different self-help hours; confirm before visiting."
+    }
+  ],
+  "probation": [
+    {
+      "name": "Marin County Probation — Adult Services",
+      "address": "3501 Civic Center Drive, Suite 265",
+      "city": "San Rafael",
+      "zip": "94903",
+      "phone": "(415) 473-6599",
+      "hours": "Mon–Fri 8:00 a.m.–4:00 p.m. (county flyer)",
+      "url": "https://www.marincounty.gov/departments/probation",
+      "source_url": "https://www.marin.courts.ca.gov/general-information/collaborative-justice-courts",
+      "verified_on": "2026-10-13",
+      "note": "Phone (415) 473-6599 confirmed on the court's Collaborative Justice Courts page (STAR Court contact = Probation Department).",
+      "todo": "Suite number and hours come from a county PDF flyer seen only in search results (another source says Suite 259); marincounty.gov probation page blocks automated access. No pretrial-services contact verified."
+    }
+  ],
+  "programs": [
+    {
+      "id": "adult-drug-court",
+      "name": "Adult Drug Court",
+      "type": "collaborative_court",
+      "summary": "Post-plea program with intensive supervision and treatment for people with substance use disorders: regular court appearances, meetings with probation officer/case manager, drug testing; four phases, typically about 12 months. Contact Marin County Behavioral Health and Recovery Services.",
+      "phone": "(415) 473-3497",
+      "url": "https://www.marin.courts.ca.gov/general-information/collaborative-justice-courts",
+      "source_url": "https://www.marin.courts.ca.gov/general-information/collaborative-justice-courts",
+      "verified_on": "2026-10-13",
+      "todo": "Court day/department not published."
+    },
+    {
+      "id": "star-court",
+      "name": "STAR (Mental Health) Court",
+      "type": "collaborative_court",
+      "summary": "Post-plea, court-supervised alternative to traditional probation for defendants with serious mental illness; links to treatment, housing, employment. Three phases of ~6 months each, averaging about 18 months.",
+      "phone": "(415) 473-6599",
+      "url": "https://www.marin.courts.ca.gov/general-information/collaborative-justice-courts",
+      "source_url": "https://www.marin.courts.ca.gov/general-information/collaborative-justice-courts",
+      "verified_on": "2026-10-13",
+      "todo": "Court day/department not published."
+    },
+    {
+      "id": "veterans-court",
+      "name": "Veterans Treatment Court",
+      "type": "collaborative_court",
+      "summary": "Post-plea program for military veterans facing criminal charges who have substance use disorder and/or serious mental illness; community treatment plus intensive supervision.",
+      "phone": "(415) 444-7020",
+      "url": "https://www.marin.courts.ca.gov/general-information/collaborative-justice-courts",
+      "source_url": "https://www.marin.courts.ca.gov/general-information/collaborative-justice-courts",
+      "verified_on": "2026-10-13",
+      "todo": "Court day/department not published."
+    },
+    {
+      "id": "self-help-center",
+      "name": "Legal Self-Help Center",
+      "type": "self_help",
+      "summary": "Room C-44, Hall of Justice. Help with forms for people without a lawyer. selfhelp@marin.courts.ca.gov.",
+      "phone": "(415) 444-7130",
+      "url": "https://www.marin.courts.ca.gov/general-information/contact-us",
+      "source_url": "https://www.marin.courts.ca.gov/general-information/contact-us",
+      "verified_on": "2026-10-13",
+      "todo": null
+    }
+  ],
+  "jails": [
+    {
+      "id": "marin-county-jail",
+      "name": "Marin County Jail",
+      "address": "13 Peter Behr Drive",
+      "city": "San Rafael",
+      "zip": "94903",
+      "phone": "(415) 473-7316",
+      "phone_note": "Jail info line per Sheriff FAQ (arrest, charges, bail). Sheriff's Contact page lists the jail at (415) 473-6655; Custody Division page lists housing sergeant (415) 499-7316. Prisoner Services (mental-illness visiting help): (415) 473-7268.",
+      "houses": "both",
+      "visiting_url": "https://marincountyca.gtlvisitme.com/app",
+      "commissary_or_money_url": "https://www.accesscorrections.com/",
+      "court_ids": [
+        "hall-of-justice"
+      ],
+      "url": "https://marinsheriff.gov/about-us/detention-bureau/custody-division",
+      "source_url": "https://marinsheriff.gov/about-us/detention-bureau/custody-division",
+      "verified_on": "2026-10-13",
+      "note": "County's only adult jail, on the Civic Center grounds. Houses men and women (no one under 18 except as required by law). Visits must be booked 24 hours ahead (no walk-ups): 1 onsite (30 min) + 1 video (25 min) per day, max 3 visitors. Deposits: AccessCorrections.com, phone 1-866-345-1884, lobby kiosk, or money order to 'Marin County Jail'. Commissary packages: https://www.marinpackages.com/. Court link: the Hall of Justice is the county's only courthouse.",
+      "todo": "Three different jail phone numbers on official Sheriff pages (473-7316, 473-6655, 499-7316) — confirm which is current."
+    },
+    {
+      "id": "marin-juvenile-hall",
+      "name": "Marin County Juvenile Hall (Probation Department)",
+      "address": null,
+      "city": "San Rafael",
+      "zip": null,
+      "phone": null,
+      "phone_note": null,
+      "houses": "juvenile",
+      "visiting_url": null,
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "hall-of-justice"
+      ],
+      "url": "https://www.marincounty.gov/departments/probation",
+      "source_url": "https://www.marincounty.gov/departments/probation",
+      "verified_on": "2026-10-13",
+      "note": "Juvenile cases are handled by the court's Juvenile division ((415) 444-7045) at the Hall of Justice — nearest, not confirmed as the hearing location for detained youth.",
+      "todo": "Probation's juvenile hall page could not be loaded (marincounty.gov returns 403 to automated fetch); address, phone, city and visiting rules not verified."
+    }
+  ],
+  "inmate_lookup_url": "http://apps.marincounty.org/BookingLog/",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "note": "CA Department of Insurance 'Check a License' — look up a bail agent's license status by name or number. Marin Sheriff: bail accepted 24 hours a day at the Marin County Jail for people in custody (or held elsewhere on a Marin warrant) — cash, postal/bank money order payable to the Clerk of the Court, or surety bond from a California-based company; credit-card cash advance via GovPay 888-604-7888 / govpaynet.com. Personal checks never accepted. Source for jail bail info: https://marinsheriff.gov/about-us/detention-bureau/custody-division"
+  }
+}

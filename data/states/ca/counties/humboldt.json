@@ -1,0 +1,378 @@
+{
+  "state": "CA",
+  "county": "Humboldt",
+  "slug": "humboldt",
+  "court_name": "Superior Court of California, County of Humboldt",
+  "court_website": "https://www.humboldt.courts.ca.gov/",
+  "case_search_url": "https://cms.humboldt.courts.ca.gov/",
+  "case_search_note": "Court's 'public portal' for online case access, linked from the court homepage and Criminal Division page. Daily courtroom calendars (with remote-appearance info) are at https://www.humboldt.courts.ca.gov/general-information/judicial-assignmentscalendars; the court says to call Court Operations at (707) 445-7256 if you can't find your case. Which criminal documents are viewable online was not confirmed (the portal blocked automated checks).",
+  "sources": [
+    {
+      "title": "Humboldt Superior Court — Home",
+      "url": "https://www.humboldt.courts.ca.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Humboldt Superior Court — Contact Us/Locations",
+      "url": "https://www.humboldt.courts.ca.gov/general-information/contact-uslocations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Humboldt Superior Court — Criminal Division",
+      "url": "https://www.humboldt.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Humboldt Superior Court — Judicial Assignments/Calendars (remote appearance by courtroom)",
+      "url": "https://www.humboldt.courts.ca.gov/general-information/judicial-assignmentscalendars",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Humboldt Superior Court — Court Divisions and Self-Help",
+      "url": "https://www.humboldt.courts.ca.gov/court-divisions-and-self-help",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Humboldt County — Public Defender",
+      "url": "https://humboldtgov.org/1345/Public-Defender",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Humboldt County — Conflict Counsel directory",
+      "url": "https://humboldtgov.org/Directory.aspx?DID=4",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Humboldt County — Probation Department",
+      "url": "https://humboldtgov.org/145/Probation-Department",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Humboldt County Probation — Adult Probation Services (incl. Supervised Release Program)",
+      "url": "https://humboldtgov.org/149/Adult-Probation-Services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Humboldt County Probation — Adult Drug Court",
+      "url": "https://humboldtgov.org/157/Adult-Drug-Court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Humboldt County Probation — Detention Services (Juvenile Hall)",
+      "url": "https://humboldtgov.org/160/Detention-Services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Humboldt County FAQ — Where is Juvenile Delinquency Court held?",
+      "url": "https://humboldtgov.org/Faq.aspx?QID=60",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Humboldt County Sheriff — Custody Services Division",
+      "url": "https://humboldtgov.org/2999/Jail-Information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Humboldt County Sheriff — Visiting Inmates",
+      "url": "https://humboldtgov.org/312/Visiting-Inmates",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Humboldt County Sheriff — Inmate Funds",
+      "url": "https://humboldtgov.org/261/Inmate-Funds",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Humboldt County Sheriff — Inmate Information (mail)",
+      "url": "https://humboldtgov.org/255/Inmate-Information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Humboldt County Sheriff — Jail Reports",
+      "url": "https://humboldtgov.org/331/Jail-Reports",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Humboldt County Sheriff — Bail",
+      "url": "https://humboldtgov.org/257/Bail",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Legal Services of Northern California — Eureka Office",
+      "url": "https://lsnc.net/node/54",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check an Agent/Broker license",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "eureka",
+      "name": "Humboldt County Courthouse",
+      "address": "825 5th Street",
+      "city": "Eureka",
+      "zip": "95501",
+      "phone": "(707) 445-7256",
+      "criminal_phone": "(707) 445-7256",
+      "hours": "Court begins at 8:30 a.m. (calendars are not called before 8:30). Clerk business is at 421 I Street, 9:00 a.m.–2:00 p.m.",
+      "criminal": true,
+      "note": "The county's only courthouse with courtrooms. Hears adult criminal (felony and misdemeanor), traffic, civil, family and juvenile matters. Criminal Division: check the calendar posted at the courthouse for your name and department; if you're not listed, go to the Criminal Division clerk at 421 I Street. Criminal & Traffic phone: (707) 445-7256 option 1, or toll-free (866) 608-1804, answered 9 a.m.–2 p.m. Remote-appearance (Zoom) info for each courtroom is on the calendars page. Self-Help Center is Room 305.",
+      "departments": [
+        {
+          "id": "1",
+          "label": "Courtroom / Department 1",
+          "type": "Criminal",
+          "note": "Calendars page lists 'Criminal - Courtroom 1'; judicial directory lists Department 1. Assignments change."
+        },
+        {
+          "id": "2",
+          "label": "Courtroom / Department 2",
+          "type": "Criminal",
+          "note": "Calendars page lists 'Criminal - Courtroom 2'."
+        },
+        {
+          "id": "3",
+          "label": "Courtroom / Department 3",
+          "type": "Criminal",
+          "note": "Calendars page lists 'Criminal - Courtroom 3'."
+        },
+        {
+          "id": "4",
+          "label": "Courtroom / Department 4",
+          "type": "Civil / Criminal",
+          "note": "Calendars page lists 'Civil/Criminal - Courtroom 4'."
+        },
+        {
+          "id": "5",
+          "label": "Courtroom / Department 5",
+          "type": "Criminal",
+          "note": "Calendars page lists 'Criminal - Courtroom 5'."
+        },
+        {
+          "id": "6",
+          "label": "Courtroom / Department 6",
+          "type": "Family / Juvenile",
+          "note": null
+        },
+        {
+          "id": "7",
+          "label": "Courtroom / Department 7",
+          "type": "Family / Juvenile",
+          "note": null
+        },
+        {
+          "id": "8",
+          "label": "Courtroom / Department 8",
+          "type": "Criminal / Traffic / Family Support / Small Claims",
+          "note": "Commissioner's department per judicial directory."
+        }
+      ],
+      "departments_source_url": "https://www.humboldt.courts.ca.gov/general-information/judicial-assignmentscalendars",
+      "source_url": "https://www.humboldt.courts.ca.gov/general-information/contact-uslocations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "clerk-421-i",
+      "name": "Clerk's Office (Criminal & Traffic and other divisions)",
+      "address": "421 I Street",
+      "city": "Eureka",
+      "zip": "95501",
+      "phone": "(707) 445-7256",
+      "criminal_phone": "(707) 445-7256",
+      "hours": "Office: 9:00 a.m.–2:00 p.m.; drop box 8:00 a.m.–4:00 p.m.",
+      "criminal": false,
+      "note": "Clerk counter only, no courtrooms: case inquiries, filings and payments for Criminal & Traffic (phone option 1), Civil, Family/Juvenile, Probate and Small Claims. The Criminal Division page sends people here for in-person questions about their case.",
+      "departments": [],
+      "source_url": "https://www.humboldt.courts.ca.gov/general-information/contact-uslocations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "regional-facility",
+      "name": "Juvenile Delinquency Court — Northern California Regional Facility conference room",
+      "address": "2002 Harrison Avenue (behind the Probation Department)",
+      "city": "Eureka",
+      "zip": "95501",
+      "phone": "(707) 445-7401",
+      "criminal_phone": null,
+      "hours": "Most delinquency cases: Mon–Thu beginning 1:30 p.m.",
+      "criminal": false,
+      "note": "Juvenile delinquency only (no adult criminal). Per the county Probation FAQ, most Juvenile Delinquency Court cases are heard here; delinquency matters calendared for 8:30 a.m. are heard on the 2nd floor of the courthouse at 825 5th St. Phone listed is the Probation Department main line, not a court clerk.",
+      "departments": [],
+      "source_url": "https://humboldtgov.org/Faq.aspx?QID=60",
+      "verified_on": "2026-10-13",
+      "todo": "Confirm with the court that this location is still in use; the court's own Contact/Locations page does not list it."
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Humboldt County Public Defender",
+      "address": "1001 4th St.",
+      "city": "Eureka",
+      "zip": "95501",
+      "phone": "(707) 445-7634",
+      "toll_free": null,
+      "email": "Shared_PublicDefender@co.humboldt.ca.us",
+      "hours": "Open to the public Mon–Thu 9:00 a.m.–4:00 p.m. (closed 12–1). Phones: Mon–Thu 9–4 (closed 12–1), Fri 9 a.m.–12 p.m.",
+      "url": "https://humboldtgov.org/1345/Public-Defender",
+      "source_url": "https://humboldtgov.org/1345/Public-Defender",
+      "verified_on": "2026-10-13",
+      "note": "Appointed by the court at your first appearance if you qualify as indigent. Represents adults charged with crimes, juveniles in delinquency cases, and conservatorship cases; does not handle family, traffic or civil. The email is for submitting documents to your attorney. Fax (707) 445-7320."
+    },
+    {
+      "name": "Humboldt County Conflict Counsel (second public defender office)",
+      "address": "515 J Street",
+      "city": "Eureka",
+      "zip": "95501",
+      "phone": "(707) 445-7475",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://humboldtgov.org/Directory.aspx?DID=4",
+      "source_url": "https://humboldtgov.org/Directory.aspx?DID=4",
+      "verified_on": "2026-10-13",
+      "note": "County says there are 2 separate public defender offices; if your attorney isn't listed under Public Defender, check Conflict Counsel. Fax (707) 445-7507.",
+      "todo": "hours not listed"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Legal Services of Northern California — Eureka Office",
+      "serves": "Low-income residents of Del Norte, Humboldt and Trinity counties (civil legal aid)",
+      "what": "Civil legal aid. Practice areas listed include 'criminal record remedies' and citation defense for people experiencing homelessness, plus housing, public benefits, education and health coverage. Not criminal defense on open cases. Call to confirm what record help is available.",
+      "phone": "(707) 445-0866",
+      "email": null,
+      "url": "https://lsnc.net/node/54",
+      "source_url": "https://lsnc.net/node/54",
+      "verified_on": "2026-10-13",
+      "note": "123 Third Street, Eureka, CA 95501. Intake Mon, Tue, Thu, Fri 9–12 and 1–4 (or until full). Evening intake line (866) 815-5990."
+    },
+    {
+      "name": "Humboldt Superior Court — Self-Help Center",
+      "serves": "Anyone without a lawyer in Humboldt County",
+      "what": "Court self-help (forms and procedure). Cannot give legal advice and does not represent you in a criminal case.",
+      "phone": "(707) 445-7256 ext. 1750",
+      "email": "Court.selfhelp@humboldtcourt.ca.gov",
+      "url": "https://www.humboldt.courts.ca.gov/court-divisions-and-self-help",
+      "source_url": "https://www.humboldt.courts.ca.gov/general-information/contact-uslocations",
+      "verified_on": "2026-10-13",
+      "note": "Room 305, 825 5th St. Walk-in Mon, Tue, Wed, Fri 9 a.m.–12 p.m.; appointments Mon–Fri 1–4 p.m. (The Divisions page lists ext. 1321 instead of 1750.)"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Humboldt County Probation — Administration / Juvenile",
+      "address": "2002 Harrison Ave.",
+      "city": "Eureka",
+      "zip": "95501",
+      "phone": "(707) 445-7401",
+      "hours": "Mon–Fri 8:00 a.m.–12:00 p.m., 1:00–4:30 p.m.",
+      "url": "https://humboldtgov.org/145/Probation-Department",
+      "source_url": "https://humboldtgov.org/145/Probation-Department",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Humboldt County Probation — Adult Probation Services",
+      "address": "555 H St., Suite D",
+      "city": "Eureka",
+      "zip": "95501",
+      "phone": "(707) 444-0600",
+      "hours": "Mon–Fri 8:00 a.m.–12:00 p.m., 1:00–4:30 p.m.",
+      "url": "https://humboldtgov.org/149/Adult-Probation-Services",
+      "source_url": "https://humboldtgov.org/149/Adult-Probation-Services",
+      "verified_on": "2026-10-13",
+      "note": "Adult intake (pre-sentence reports), adult field supervision, interstate/inter-county transfers."
+    },
+    {
+      "name": "Humboldt County Probation — Community Corrections Resource Center (CCRC)",
+      "address": "404 H St.",
+      "city": "Eureka",
+      "zip": "95501",
+      "phone": "(707) 267-9320",
+      "hours": "Mon–Fri 8:00 a.m.–12:00 p.m., 1:00–4:30 p.m.",
+      "url": "https://humboldtgov.org/145/Probation-Department",
+      "source_url": "https://humboldtgov.org/145/Probation-Department",
+      "verified_on": "2026-10-13",
+      "note": "Adult Probation page places Post Release Community Supervision (PRCS) and the pretrial Supervised Release Program (SRP) at 404 H Street."
+    }
+  ],
+  "programs": [
+    {
+      "id": "srp",
+      "name": "Supervised Release Program (SRP)",
+      "type": "pretrial",
+      "summary": "Probation supervises unsentenced defendants (misdemeanor or felony) released by the court. The court first asks Probation for an eligibility/suitability report using the ORAS Pretrial Assessment Tool. Not eligible if: pending serious/violent charges, already on probation or parole, refuse to participate, held on another matter or detainer, or terminated from SRP in the last 6 months. Participants keep office and field contact with a probation officer, get court-reminder calls and transportation to court, may get treatment referrals, and may be ordered onto an electronic monitor.",
+      "phone": "(707) 444-0600",
+      "url": "https://humboldtgov.org/149/Adult-Probation-Services",
+      "source_url": "https://humboldtgov.org/149/Adult-Probation-Services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "drug-court",
+      "name": "Adult Drug Court",
+      "type": "collaborative_court",
+      "summary": "Collaboration of Probation, the Superior Court and local treatment providers for felony offenders: alcohol/drug assessment, treatment, drug testing (1–3 times a week at first), supervision and weekly court appearances that taper to monthly in the final phase. Graduates may petition for early termination of probation. Felony drug court calendar is called Fridays at 2:30 p.m.",
+      "phone": "(707) 444-0600",
+      "url": "https://humboldtgov.org/157/Adult-Drug-Court",
+      "source_url": "https://humboldtgov.org/157/Adult-Drug-Court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "batterers-intervention",
+      "name": "Approved Batterer's Intervention (Domestic Violence) Programs",
+      "type": "court_ordered_program",
+      "summary": "Probation publishes a list of approved domestic-violence programs for people ordered to complete one.",
+      "url": "https://humboldtgov.org/DocumentCenter/View/121401/HUMBOLDT-COUNTY-PROBATION-DEPARTMENT-APPROVED-DOMESTIC-VIOLENCE-PROGRAMS-May-2023",
+      "source_url": "https://humboldtgov.org/149/Adult-Probation-Services",
+      "verified_on": "2026-10-13",
+      "todo": "List is dated May 2023; contents not reviewed."
+    }
+  ],
+  "jails": [
+    {
+      "id": "hccf",
+      "name": "Humboldt County Correctional Facility (HCCF)",
+      "address": "901 5th St.",
+      "city": "Eureka",
+      "zip": "95501",
+      "houses": null,
+      "phone": "(707) 441-5159",
+      "phone_note": "Facility line (custody status, housing location for visiting). Sheriff's Office main line (707) 445-7251 at 826 Fourth St. The Jail Reports page lists the facility at 826 4th St., but the visiting and mail pages give 901 5th St. for the public lobby — use 901 5th St. for visits and mail.",
+      "url": "https://humboldtgov.org/2999/Jail-Information",
+      "visiting_url": "https://humboldtgov.org/312/Visiting-Inmates",
+      "commissary_or_money_url": "https://humboldtgov.org/261/Inmate-Funds",
+      "court_ids": ["eureka"],
+      "note": "Board-rated capacity 417; adjacent to the County Courthouse. Visits: first come, first served, fill out a Visitor Request Form in the lobby at least 30 min before the session; visiting times depend on housing unit. Money: lobby kiosk 7:30 a.m.–10 p.m. daily, Access Secure Deposits online or 1-866-345-1884, or U.S. Postal money order by mail. Starting Oct 14, 2026 personal mail goes to a digital-mail address (Humboldt County Correctional Facility, CA, name, booking number, P.O. Box 247, Phoenix, MD 21131); only legal mail, approved checks/money orders and retailer soft-cover books go to 901 5th St. Court: the courthouse is next door (Sheriff says 'adjacent to the County Courthouse'); nearest, not confirmed as the transport destination.",
+      "source_url": "https://humboldtgov.org/312/Visiting-Inmates",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff pages don't say whether HCCF houses men, women or both (news reports mention female housing units) — confirm and set 'houses'."
+    },
+    {
+      "id": "juvenile-hall",
+      "name": "Humboldt County Juvenile Hall (Probation)",
+      "address": "2002 Harrison Ave.",
+      "city": "Eureka",
+      "zip": "95501",
+      "houses": "juvenile",
+      "phone": "(707) 445-7401",
+      "phone_note": "Probation Department main line, given on the Detention Services page for questions about a detained child.",
+      "url": "https://humboldtgov.org/160/Detention-Services",
+      "visiting_url": "https://humboldtgov.org/160/Detention-Services",
+      "commissary_or_money_url": null,
+      "court_ids": ["regional-facility"],
+      "note": "Visiting: Wednesdays 5–6 p.m., Saturdays 12:15–1:15 p.m.; other visits arranged through the assigned probation officer. Also houses detained youth from Del Norte County under contract. Delinquency court is held in the Regional Facility conference room behind Probation (Mon–Thu 1:30 p.m.), per county FAQ.",
+      "source_url": "https://humboldtgov.org/160/Detention-Services",
+      "verified_on": "2026-10-13",
+      "todo": "Detention Services page gives no street address; 2002 Harrison Ave. is the Probation Department address — confirm the Hall's own address."
+    }
+  ],
+  "inmate_lookup_url": "https://vinelink.vineapps.com/search/CA/Person",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' — look up a bail agent's license status and discipline (linked from insurance.ca.gov). Humboldt Sheriff: cash bail can be posted by anyone, including the inmate, as cash, traveler's checks, money orders or certified checks in the exact amount, made out to 'Humboldt Superior Court'; no personal or business checks. The jail will never contact you to collect a bail payment. The Sheriff does not recommend bail agents. Daily booking/release lists: https://humboldtgov.org/331/Jail-Reports.",
+    "source_url": "https://humboldtgov.org/257/Bail",
+    "verified_on": "2026-10-13"
+  }
+}

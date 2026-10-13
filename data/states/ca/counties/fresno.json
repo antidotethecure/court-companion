@@ -1,0 +1,396 @@
+{
+  "state": "CA",
+  "county": "Fresno",
+  "slug": "fresno",
+  "court_name": "Superior Court of California, County of Fresno",
+  "court_website": "https://www.fresno.courts.ca.gov/",
+  "case_search_url": "https://publicportal.fresno.courts.ca.gov/",
+  "case_search_note": "Court's online Case Management and Information System (linked from the Case Information page). Shows only information the public may view; parties in non-public cases must go to the courthouse. The court has posted a notice of a case management system upgrade.",
+  "sources": [
+    {
+      "title": "Fresno Superior Court — Locations & Contact Info",
+      "url": "https://www.fresno.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Fresno Superior Court — Case Information",
+      "url": "https://www.fresno.courts.ca.gov/online-services/case-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Fresno Superior Court — Collaborative Courts Division",
+      "url": "https://www.fresno.courts.ca.gov/divisions/collaborative-courts-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Fresno Superior Court — Criminal",
+      "url": "https://www.fresno.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Fresno Superior Court — ACTION Center",
+      "url": "https://www.fresno.courts.ca.gov/divisions/criminal/action-center",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Fresno Superior Court — Self-Help",
+      "url": "https://www.fresno.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Fresno County Sheriff — Jail General Information",
+      "url": "https://fresnosheriff.org/jail/general-information.html",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Fresno County Sheriff — Visiting Schedule",
+      "url": "https://fresnosheriff.org/jail/visiting/visiting-schedule.html",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Fresno County Sheriff — Money & Property",
+      "url": "https://fresnosheriff.org/jail/money-property.html",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Fresno County Sheriff — West Annex Jail opens",
+      "url": "https://fresnosheriff.org/media-relations/new-west-annex-jail-opens.html",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Fresno County Public Defender — Contact",
+      "url": "https://www.fresnocountyca.gov/Departments/Public-Defender/Contacting-the-Public-Defender-Office",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Fresno County Public Defender — Clean Slate",
+      "url": "https://fresnocountyca.gov/Departments/Public-Defender/Post-Conviction-Assistance/Clean-Slate",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Fresno County Probation",
+      "url": "https://www.fresnocountyca.gov/Departments/Probation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Fresno County Probation — Pretrial Release Program",
+      "url": "https://www.fresnocountyca.gov/Departments/Probation/Adult-and-Realignment-Services/Pretrial-Release-Program",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "downtown",
+      "name": "Fresno Superior Courthouse — Downtown Location",
+      "address": "1100 Van Ness Avenue",
+      "city": "Fresno",
+      "zip": "93724-0002",
+      "phone": "(559) 457-2000",
+      "hours": "Clerk's Office 8:00 a.m.–4:00 p.m.; building Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "criminal": true,
+      "note": "Court lists case types as Criminal and Juvenile Dependency. Main downtown criminal courthouse. Court notes Drug Court is currently heard at the M Street Courthouse.",
+      "departments": [],
+      "source_url": "https://www.fresno.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "jail-annex",
+      "name": "Jail Annex — Criminal Courts Departments 95 & 96",
+      "address": "1265 M Street",
+      "city": "Fresno",
+      "zip": "93721",
+      "phone": "(559) 457-2000",
+      "hours": "Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Court lists case types as Criminal and Domestic Violence. Same street address the Sheriff gives for the North Annex Jail. Court advises arranging childcare if you have business here.",
+      "departments": [],
+      "source_url": "https://www.fresno.courts.ca.gov/location/jail-annex-criminal-courts-departments-95-96",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "m-street",
+      "name": "\"M\" Street Courthouse",
+      "address": "2317 Tuolumne Street",
+      "city": "Fresno",
+      "zip": "93721-1220",
+      "phone": "(559) 457-1700",
+      "hours": "Clerk's Office Mon–Fri 8:00 a.m.–4:00 p.m.; building Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "criminal": true,
+      "note": "Court lists criminal infractions and traffic infractions. Drug Court is currently heard here (per the Downtown listing).",
+      "departments": [],
+      "source_url": "https://www.fresno.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "action-center",
+      "name": "ACTION Center (After Criminal One-Stop Network)",
+      "address": "1100 Van Ness Avenue (first-floor room behind Jury Assembly Room)",
+      "city": "Fresno",
+      "zip": "93724-0002",
+      "phone": "(559) 457-2000",
+      "hours": "Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Not a courtroom: post-sentencing service window. Processes criminal sentencing orders — Adult Offender Work Program, Adult Theft Diversion, anger management, batterer's treatment, DV review, community service, drug testing, DUI classes, electronic monitoring, fines.",
+      "departments": [],
+      "source_url": "https://www.fresno.courts.ca.gov/divisions/criminal/action-center",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "juvenile",
+      "name": "Juvenile Justice Court",
+      "address": "3333 East American Avenue, Suite A",
+      "city": "Fresno",
+      "zip": "93725",
+      "phone": "(559) 457-4810",
+      "hours": "Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": false,
+      "note": "Juvenile delinquency (misdemeanor and felony) and juvenile drug court only — not adult criminal.",
+      "departments": [],
+      "source_url": "https://www.fresno.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "sisk",
+      "name": "B. F. Sisk Courthouse",
+      "address": "1130 O Street",
+      "city": "Fresno",
+      "zip": "93721-2220",
+      "phone": "(559) 457-2000",
+      "hours": "Clerk's Office Mon–Thu 8:00 a.m.–3:00 p.m., Fri 8:00 a.m.–12:00 p.m.",
+      "criminal": false,
+      "note": "Civil, probate, family law, restraining orders, small claims, unlawful detainer, Self-Help Center. Not criminal.",
+      "departments": [],
+      "source_url": "https://www.fresno.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "archives",
+      "name": "Archives Facility",
+      "address": "1963 \"E\" Street",
+      "city": "Fresno",
+      "zip": "93706",
+      "phone": "(559) 457-4903",
+      "hours": "Clerk: Mon & Wed 8:00 a.m.–3:00 p.m., Fri 8:00 a.m.–12:00 p.m.",
+      "criminal": false,
+      "note": "Records storage and old case files; no hearings.",
+      "departments": [],
+      "source_url": "https://www.fresno.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Fresno County Public Defender — Main Office",
+      "address": "2135 Fresno Street, Suite 100",
+      "city": "Fresno",
+      "zip": "93721",
+      "phone": "(559) 600-3546",
+      "toll_free": null,
+      "email": "publicdefender@fresnocountyca.gov",
+      "hours": null,
+      "url": "https://www.fresnocountyca.gov/Departments/Public-Defender",
+      "source_url": "https://www.fresnocountyca.gov/Departments/Public-Defender/Contacting-the-Public-Defender-Office",
+      "todo": "Office hours not listed on the contact page (a search summary said Mon–Fri 8–5 closed 12–1; not confirmed)",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Fresno County Public Defender — Juvenile Delinquency Office",
+      "address": "3333 East American Avenue, Building 701, Suite E",
+      "city": "Fresno",
+      "zip": "93725",
+      "phone": "(559) 600-6155",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.fresnocountyca.gov/Departments/Public-Defender",
+      "source_url": "https://www.fresnocountyca.gov/Departments/Public-Defender/Contacting-the-Public-Defender-Office",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Fresno County Public Defender — Clean Slate Program",
+      "serves": "People with Fresno County convictions (or probation transferred to and completed in Fresno County), off probation/parole, with no open cases",
+      "what": "Free post-conviction record relief: dismissals/expungement, felony reductions, Prop 47 and Prop 64. Requires a DOJ Live Scan record first; apply online or on paper; appointment-only, no walk-ins; review can take up to 12 months.",
+      "phone": null,
+      "email": "cleanslate@fresnocountyca.gov",
+      "url": "https://fresnocountyca.gov/Departments/Public-Defender/Post-Conviction-Assistance/Clean-Slate",
+      "address": "2135 Fresno Street, Suite 100, Fresno, CA 93721 (lobby 8–12 and 1–4)",
+      "todo": "PD contact page instead lists 'Clean Slate Program @ Fresno EOC', 1805 E California Ave, (559) 263-8915, cleanslate@co.fresno.ca.us — conflicts with the Clean Slate page; confirm before going",
+      "source_url": "https://fresnocountyca.gov/Departments/Public-Defender/Post-Conviction-Assistance/Clean-Slate",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Fresno Superior Court Self-Help Service Center (Centro de Recursos Legales)",
+      "serves": "Self-represented litigants (English/Spanish; some Hmong-speaking staff)",
+      "what": "Forms help and information mainly for civil/family cases; gives information, not legal advice. Walk-in Mon 9–2, Tue & Wed 9–1; phone/email Thu & Fri 9–3.",
+      "phone": "(559) 457-2143",
+      "email": null,
+      "url": "https://www.fresno.courts.ca.gov/self-help",
+      "address": "1130 O Street, First Floor, Fresno, CA 93724",
+      "source_url": "https://www.fresno.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Fresno County Probation — Main Line",
+      "address": null,
+      "city": null,
+      "zip": null,
+      "phone": "(559) 600-9900",
+      "hours": null,
+      "url": "https://www.fresnocountyca.gov/Departments/Probation",
+      "source_url": "https://www.fresnocountyca.gov/Departments/Probation",
+      "note": "Department main telephone. No single main office address is listed.",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Fresno County Probation — Adult Field Supervision / AOWP / Domestic Violence",
+      "address": "200 W. Pontiac Way, Building 4",
+      "city": "Clovis",
+      "zip": "93612",
+      "phone": "(559) 600-1705",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "url": "https://www.fresnocountyca.gov/Departments/Probation/Adult-Services/Field-Supervision",
+      "source_url": "https://www.fresnocountyca.gov/Departments/Probation/Adult-Services/Field-Supervision",
+      "note": "Probation's main page says AOWP and other adult cases moved to this Clovis address. The location list there still shows 2048 N. Fine St., Fresno 93727, and the Field Supervision FAQ also lists (559) 600-6040.",
+      "todo": "Confirm current reporting address with your officer",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Fresno County Probation — AB 109 / Realignment & Pretrial Monitoring Unit (Airport Office)",
+      "address": "2171 N. Fine Ave.",
+      "city": "Fresno",
+      "zip": "93727",
+      "phone": "(559) 600-7399",
+      "hours": "8:00 a.m.–12:00 p.m. and 1:00–5:00 p.m.",
+      "url": "https://www.fresnocountyca.gov/Departments/Probation/Adult-and-Realignment-Services/Pretrial-Release-Program",
+      "source_url": "https://www.fresnocountyca.gov/Departments/Probation/Adult-and-Realignment-Services/Pretrial-Release-Program",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Fresno County Probation — Pretrial Assessment Unit (Downtown Office)",
+      "address": "2135 Fresno Street, Suite 101",
+      "city": "Fresno",
+      "zip": "93721",
+      "phone": "(559) 600-9920",
+      "hours": "8:00 a.m.–12:00 p.m. and 1:00–5:00 p.m.",
+      "url": "https://www.fresnocountyca.gov/Departments/Probation/Adult-and-Realignment-Services/Pretrial-Release-Program",
+      "source_url": "https://www.fresnocountyca.gov/Departments/Probation/Adult-and-Realignment-Services/Pretrial-Release-Program",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "programs": [
+    {
+      "id": "fresno-pretrial-release",
+      "name": "Pretrial Release Program (Probation)",
+      "type": "pretrial",
+      "summary": "Probation uses a validated risk tool to help the court decide release at arraignment, then monitors released people so they make court dates. Can refer to free services (Day Reporting Center, substance use and mental health treatment, CBT classes, transitional housing, job training). No cost; GPS only if ordered by the court or at Probation's discretion.",
+      "phone": "(559) 600-9920",
+      "url": "https://www.fresnocountyca.gov/Departments/Probation/Adult-and-Realignment-Services/Pretrial-Release-Program",
+      "source_url": "https://www.fresnocountyca.gov/Departments/Probation/Adult-and-Realignment-Services/Pretrial-Release-Program",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "fresno-collaborative-courts",
+      "name": "Collaborative (Treatment) Courts",
+      "type": "collaborative-court",
+      "summary": "Court says it runs seven treatment courts combining judicial oversight, regular hearings, intensive supervision and sanctions/incentives. Pages listed include Behavioral Health Court, DUI Court, Mental Health (AB 1810) Court, Unity Court, Veterans Treatment Court, Family Behavioral Health Court and the CARE Act. Ask your attorney about eligibility.",
+      "phone": null,
+      "url": "https://www.fresno.courts.ca.gov/divisions/collaborative-courts-division",
+      "source_url": "https://www.fresno.courts.ca.gov/divisions/collaborative-courts-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "fresno-mental-health-diversion",
+      "name": "Mental Health Diversion (AB 1810 / SB 215)",
+      "type": "diversion",
+      "summary": "The court's Criminal page notes people with qualifying mental disorders may be eligible for Mental Health Diversion if they meet the statutory criteria. Raise it with your attorney.",
+      "phone": null,
+      "url": "https://www.fresno.courts.ca.gov/divisions/criminal",
+      "source_url": "https://www.fresno.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "fresno-action-center",
+      "name": "ACTION Center",
+      "type": "post-sentencing",
+      "summary": "Go here if the court ordered you to complete a program (work program, theft diversion, anger management, batterer's treatment, community service, drug testing, DUI classes, electronic monitoring) or pay a fine. 1100 Van Ness Ave, first floor behind Jury Assembly Room; Mon–Fri 8–4.",
+      "phone": "(559) 457-2000",
+      "url": "https://www.fresno.courts.ca.gov/divisions/criminal/action-center",
+      "source_url": "https://www.fresno.courts.ca.gov/divisions/criminal/action-center",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "main-jail",
+      "name": "Fresno County Main Jail",
+      "address": "1225 M Street",
+      "city": "Fresno",
+      "zip": "93721",
+      "phone": "(559) 600-8600",
+      "phone_note": "Inmate Info (559) 600-8600 or (559) 475-9491 (Jail Information Office); Jail Watch Commander (559) 600-8440. Live Scan in the Main Jail lobby. Requests to release an inmate's funds are made at the Main Jail Lobby.",
+      "houses": null,
+      "visiting_url": "https://fresnosheriff.org/jail/visiting/visiting-schedule.html",
+      "commissary_or_money_url": "https://fresnosheriff.org/jail/money-property.html",
+      "court_ids": [
+        "jail-annex",
+        "downtown"
+      ],
+      "court_ids_note": "Nearest criminal courtrooms (Depts 95 & 96 at 1265 M St, and 1100 Van Ness). Not confirmed which court in-custody defendants are taken to.",
+      "url": "https://fresnosheriff.org/jail.html",
+      "source_url": "https://fresnosheriff.org/jail/general-information.html",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff's pages do not say whether this jail houses men, women or both"
+    },
+    {
+      "id": "north-annex",
+      "name": "Fresno County North Annex Jail",
+      "address": "1265 M Street",
+      "city": "Fresno",
+      "zip": "93721",
+      "phone": "(559) 600-8600",
+      "phone_note": "Same inmate info lines as Main Jail. Court's Departments 95 & 96 list the same street address.",
+      "houses": null,
+      "visiting_url": "https://fresnosheriff.org/jail/visiting/visiting-schedule.html",
+      "commissary_or_money_url": "https://fresnosheriff.org/jail/money-property.html",
+      "court_ids": [
+        "jail-annex",
+        "downtown"
+      ],
+      "court_ids_note": "Courtrooms 95 & 96 share this address; not confirmed which court in-custody defendants are taken to.",
+      "url": "https://fresnosheriff.org/jail.html",
+      "source_url": "https://fresnosheriff.org/jail/general-information.html",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff's pages do not say whether this jail houses men, women or both"
+    },
+    {
+      "id": "west-annex",
+      "name": "Fresno County West Annex Jail",
+      "address": "2208 Merced Street",
+      "city": "Fresno",
+      "zip": "93721",
+      "phone": "(559) 600-8600",
+      "phone_note": "300-bed jail opened Dec 2024, replacing the South Annex Jail (closed Dec 14, 2024). Visiting 8:15 a.m.–5:15 p.m., 7 days, by floor.",
+      "houses": null,
+      "visiting_url": "https://fresnosheriff.org/jail/visiting/visiting-schedule.html",
+      "commissary_or_money_url": "https://fresnosheriff.org/jail/money-property.html",
+      "court_ids": [
+        "jail-annex",
+        "downtown"
+      ],
+      "court_ids_note": "Nearest criminal courtrooms; not confirmed.",
+      "url": "https://fresnosheriff.org/jail.html",
+      "source_url": "https://fresnosheriff.org/jail/general-information.html",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff's pages do not say whether this jail houses men, women or both"
+    }
+  ],
+  "inmate_lookup_url": "https://publicinfo.fresnosheriff.org/inmateinfocenter/incustody",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "Before paying a bail agent, check that their license is active using the California Department of Insurance license lookup (search by name or license number). Fresno Superior Court posts its bail schedules at https://www.fresno.courts.ca.gov/divisions/criminal/bail-schedules. Inmate account deposits go only through TouchPay (jail lobby kiosks, touchpaydirect.com, or 1-866-232-1899; facility number 293721 plus booking number); checks and money orders are not accepted. For custody status call (559) 600-8600 or (559) 475-9491. This is information only, not legal advice."
+  }
+}

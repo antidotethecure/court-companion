@@ -1,0 +1,360 @@
+{
+  "state": "CA",
+  "county": "Napa",
+  "slug": "napa",
+  "court_name": "Superior Court of California, County of Napa",
+  "court_website": "https://www.napa.courts.ca.gov/",
+  "case_search_url": "https://www.napa.courts.ca.gov/case-lookup-and-self-service",
+  "case_search_note": "The court's 'Lookup a Case' option leads to its Case Information Access Portal via https://www.napa.courts.ca.gov/attorney-resources/case-lookuppay-traffic-tickets (terms of use apply). The court page does not state what case types or details the public can see. Traffic tickets: https://www.napa.courts.ca.gov/online-services/case-lookuppay-traffic-tickets (citations can take up to 3 weeks to reach the court). Daily calendar: https://www.napa.courts.ca.gov/online-services/daily-court-calendar",
+  "sources": [
+    {
+      "title": "Napa Superior Court — Locations",
+      "url": "https://www.napa.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Napa Superior Court — Criminal Courthouse",
+      "url": "https://www.napa.courts.ca.gov/location/criminal-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Napa Superior Court — Criminal Division",
+      "url": "https://www.napa.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Napa Superior Court — Traffic Division",
+      "url": "https://www.napa.courts.ca.gov/divisions/traffic-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Napa Superior Court — Juvenile",
+      "url": "https://www.napa.courts.ca.gov/divisions/juvenile",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Napa Superior Court — Case Lookup and Self Service",
+      "url": "https://www.napa.courts.ca.gov/case-lookup-and-self-service",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Napa County Corrections — Facilities",
+      "url": "https://www.napacounty.gov/252/Facilities",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Napa County Corrections — Visitation",
+      "url": "https://www.napacounty.gov/317/Visitation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Napa County Corrections — Deposit Funds",
+      "url": "https://www.napacounty.gov/311/Deposit-Funds",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Napa County Corrections — Bail Bonds",
+      "url": "https://www.napacounty.gov/315/Bail-Bonds",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Napa County Corrections — FAQ",
+      "url": "https://www.napacounty.gov/m/faq?cat=62",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Napa County Public Defender — Locations",
+      "url": "https://www.napacounty.gov/1807/Locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Napa County Public Defender — When a Loved One is in Custody",
+      "url": "https://www.napacounty.gov/1846/When-a-Loved-One-is-in-Custody",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Napa County Public Defender — Dismissal & Expungement",
+      "url": "https://www.napacounty.gov/1871/Dismissal-Expungement",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Napa County DA — Expungement Clinic",
+      "url": "https://www.napacounty.gov/2992/Expungement-Clinic",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "criminal-courthouse",
+      "name": "Criminal Courthouse",
+      "address": "1111 Third Street",
+      "city": "Napa",
+      "zip": "94559",
+      "phone": "(707) 299-1100",
+      "criminal_phone": "(707) 299-1180",
+      "hours": "Mon–Fri 8:00 a.m.–4:00 p.m., including the noon hour. Drop box for same-day filings/payments until 5:00 p.m.",
+      "criminal": true,
+      "note": "Criminal Division (felony and misdemeanor, incl. in-custody arraignments in Dept. 1) and Traffic Division (First Floor, (707) 299-1160). Departments per Criminal Division page as of 2026-10-13 — assignments rotate.",
+      "departments": [
+        {
+          "id": "1",
+          "label": "Department 1",
+          "type": "Master calendar — motions, prelims, arraignments, in-custody arraignments, readiness conferences, jury assignments, PC 1001.36 mental health diversion",
+          "note": null
+        },
+        {
+          "id": "3",
+          "label": "Department 3",
+          "type": "Misdemeanor arraignments, settlement conferences, review/sentencing, motions, Drug Court, financial evaluations, Prop 36, misdemeanor DEJ/PC 1001.36 hearings",
+          "note": null
+        },
+        {
+          "id": "4",
+          "label": "Department 4",
+          "type": "Trials assigned from Dept. 1; settlement conferences (Thursdays 8:30 a.m.)",
+          "note": null
+        },
+        {
+          "id": "5",
+          "label": "Department 5",
+          "type": "Trials assigned from Dept. 1; Mental Health Court; mental health diversion review",
+          "note": null
+        }
+      ],
+      "departments_source_url": "https://www.napa.courts.ca.gov/divisions/criminal",
+      "source_url": "https://www.napa.courts.ca.gov/locations",
+      "verified_on": "2026-10-13",
+      "todo": null
+    },
+    {
+      "id": "historic-courthouse",
+      "name": "Historic Courthouse",
+      "address": "825 Brown Street",
+      "city": "Napa",
+      "zip": "94559",
+      "phone": "(707) 299-1100",
+      "criminal_phone": null,
+      "hours": "Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": false,
+      "note": "Civil, family and probate (clerk (707) 299-1130); court administration. The county PD 'Locations' page lists the physical address as 810 Coombs Street with 825 Brown Street as mailing address. Also the mailing address for the Juvenile Hall Courthouse.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://www.napa.courts.ca.gov/locations",
+      "verified_on": "2026-10-13",
+      "todo": "Courtroom list not loaded."
+    },
+    {
+      "id": "juvenile-hall-courthouse",
+      "name": "Juvenile Hall Courthouse",
+      "address": "2350 Old Sonoma Road",
+      "city": "Napa",
+      "zip": "94559",
+      "phone": "(707) 299-1100",
+      "criminal_phone": "(707) 299-1291",
+      "hours": "Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Juvenile delinquency (602) calendars and detention hearings Mon & Wed 1:30 p.m. Juvenile filing clerk (707) 299-1291. No mail accepted here — send to 825 Brown St.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://www.napa.courts.ca.gov/divisions/juvenile",
+      "verified_on": "2026-10-13",
+      "todo": null
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Napa County Public Defender",
+      "address": "1125 Third Street, Second Floor",
+      "city": "Napa",
+      "zip": "94559",
+      "phone": "(707) 253-4442",
+      "toll_free": null,
+      "email": null,
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "url": "https://www.countyofnapa.org/493/Public-Defender",
+      "source_url": "https://www.napacounty.gov/1807/Locations",
+      "verified_on": "2026-10-13",
+      "todo": "Address changed July 14, 2025 per county page. Email link is a web form, not a published address."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Napa County DA — Expungement Clinic (online)",
+      "serves": "People convicted of a crime in Napa County",
+      "what": "Free online portal to check eligibility and submit expungement forms (CR-180, CR-181, CR-131) by email; DA pays associated court costs; Probation, DA and Court review; expect about 90 days. The page refers questions to a private attorney or the Public Defender (707) 253-4442. Run by the prosecutor's office.",
+      "phone": "(707) 253-4211",
+      "email": null,
+      "url": "https://www.napacounty.gov/2992/Expungement-Clinic",
+      "source_url": "https://www.napacounty.gov/2992/Expungement-Clinic",
+      "verified_on": "2026-10-13",
+      "todo": "Clinic email address is linked but obfuscated on the page — not recorded."
+    },
+    {
+      "name": "Napa County Public Defender — Dismissal & Expungement info",
+      "serves": "Napa County residents with convictions",
+      "what": "Plain-language guide to PC 1203.4 dismissals, wobbler reductions, juvenile record sealing; notes Napa fees are at or under $120. Information only, not representation.",
+      "phone": "(707) 253-4442",
+      "email": null,
+      "url": "https://www.napacounty.gov/1871/Dismissal-Expungement",
+      "source_url": "https://www.napacounty.gov/1871/Dismissal-Expungement",
+      "verified_on": "2026-10-13",
+      "todo": null
+    },
+    {
+      "name": "Napa Superior Court — Self Help Center",
+      "serves": "People without a lawyer",
+      "what": "Court self-help center for forms and procedures.",
+      "phone": "(707) 299-1137",
+      "email": null,
+      "url": "https://www.napa.courts.ca.gov/self-help",
+      "source_url": "https://www.napa.courts.ca.gov/locations",
+      "verified_on": "2026-10-13",
+      "todo": "Self-help center hours/location not loaded."
+    }
+  ],
+  "probation": [
+    {
+      "name": "Napa County Adult Probation",
+      "address": "555 Gateway Drive, Suite P",
+      "city": "Napa",
+      "zip": "94558",
+      "phone": "(707) 253-4431",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "url": "https://www.napacounty.gov/1636/Probation",
+      "source_url": "https://www.napacounty.gov/1807/Locations",
+      "verified_on": "2026-10-13",
+      "note": "Fax (707) 253-4178.",
+      "todo": null
+    },
+    {
+      "name": "Napa County Juvenile Probation — Juvenile Justice Center",
+      "address": "212 Walnut Street",
+      "city": "Napa",
+      "zip": "94559",
+      "phone": "(707) 253-4361",
+      "hours": null,
+      "url": "https://www.napacounty.gov/1636/Probation",
+      "source_url": "https://www.napacounty.gov/1807/Locations",
+      "verified_on": "2026-10-13",
+      "note": "Fax (707) 253-6098.",
+      "todo": "Hours not on the locations page."
+    }
+  ],
+  "programs": [
+    {
+      "id": "drug-court",
+      "name": "Drug Court",
+      "type": "collaborative_court",
+      "summary": "Fridays 10:30 a.m. in Department 3, Criminal Courthouse. Participant handbook: https://www.napa.courts.ca.gov/system/files/handbook-team-revision-9-23-2016-3.pdf",
+      "phone": "(707) 299-1180",
+      "url": "https://www.napa.courts.ca.gov/divisions/criminal",
+      "source_url": "https://www.napa.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13",
+      "todo": null
+    },
+    {
+      "id": "mental-health-court",
+      "name": "Mental Health Court",
+      "type": "collaborative_court",
+      "summary": "4th Thursday of the month, 2:00 p.m., Department 5.",
+      "phone": "(707) 299-1180",
+      "url": "https://www.napa.courts.ca.gov/divisions/criminal",
+      "source_url": "https://www.napa.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13",
+      "todo": null
+    },
+    {
+      "id": "pc1001-36",
+      "name": "Mental Health Diversion (PC 1001.36)",
+      "type": "diversion",
+      "summary": "Eligibility, suitability and termination hearings in Departments 1 and 3; review hearings in Departments 1, 3 and 5.",
+      "phone": "(707) 299-1180",
+      "url": "https://www.napa.courts.ca.gov/divisions/criminal",
+      "source_url": "https://www.napa.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13",
+      "todo": null
+    },
+    {
+      "id": "misdemeanor-dej",
+      "name": "General Misdemeanor Deferred Entry of Judgment (DEJ)",
+      "type": "diversion",
+      "summary": "Listed on the Department 3 calendar.",
+      "phone": "(707) 299-1180",
+      "url": "https://www.napa.courts.ca.gov/divisions/criminal",
+      "source_url": "https://www.napa.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13",
+      "todo": "Eligibility details not published on the court page."
+    },
+    {
+      "id": "prop-36",
+      "name": "Prop. 36 Hearings",
+      "type": "collaborative_court",
+      "summary": "First Monday of the month, 10:00 a.m., Department 3.",
+      "phone": "(707) 299-1180",
+      "url": "https://www.napa.courts.ca.gov/divisions/criminal",
+      "source_url": "https://www.napa.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13",
+      "todo": null
+    },
+    {
+      "id": "court-ordered-programs",
+      "name": "Court Ordered Programs line",
+      "type": "other",
+      "summary": "Court division line for court-ordered programs. DUI program referenced by the court: Alternatives for Better Living (https://www.a4bl.org/).",
+      "phone": "(707) 299-1181",
+      "url": "https://www.napa.courts.ca.gov/locations",
+      "source_url": "https://www.napa.courts.ca.gov/locations",
+      "verified_on": "2026-10-13",
+      "todo": null
+    }
+  ],
+  "jails": [
+    {
+      "id": "napa-county-jail",
+      "name": "Napa County Department of Corrections (Napa County Jail)",
+      "address": "2210 Napa Vallejo Highway",
+      "city": "Napa",
+      "zip": "94558",
+      "phone": "(707) 253-4401",
+      "phone_note": "Main Corrections line; also for bail-bond info and to verify visiting hours. Deposits by phone: 888-277-2535.",
+      "houses": "both",
+      "visiting_url": "https://www.napacounty.gov/317/Visitation",
+      "commissary_or_money_url": "https://www.napacounty.gov/311/Deposit-Funds",
+      "court_ids": [
+        "criminal-courthouse"
+      ],
+      "url": "https://www.napacounty.gov/2109/Corrections",
+      "source_url": "https://www.napacounty.gov/252/Facilities",
+      "verified_on": "2026-10-13",
+      "note": "Run by the Napa County Department of Corrections (not the Sheriff); houses pre-sentenced and sentenced people. Visits: two 30-minute in-person visits per week by housing unit (sign up 30 min before; 8:00–10:30 a.m. and 1:30–4:30 p.m.), free video visits in the lobby (6 stations, book 24h ahead) or paid remote via Smartinmate.com. Deposits: Smartinmate.com, phone, or lobby kiosk; commissary packages via MyCarePack. Mail goes to the PO box in Seminole, FL listed on the FAQ. court_ids: Criminal Courthouse is the county's only adult criminal courthouse — nearest, not confirmed as transport destination.",
+      "todo": "County page does not explicitly say it houses both men and women ('both' inferred as the only adult jail) — confirm."
+    },
+    {
+      "id": "napa-juvenile-hall",
+      "name": "Napa County Juvenile Hall (Juvenile Justice Center)",
+      "address": "212 Walnut Street",
+      "city": "Napa",
+      "zip": "94559",
+      "phone": "(707) 253-4361",
+      "phone_note": "Juvenile Probation / Juvenile Justice Center line. County FAQ directs visiting questions to (707) 253-4431.",
+      "houses": "juvenile",
+      "visiting_url": "https://www.napacounty.gov/1714/Visitation-Hours-Guidelines",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "juvenile-hall-courthouse"
+      ],
+      "url": "https://www.napacounty.gov/1636/Probation",
+      "source_url": "https://www.napacounty.gov/1807/Locations",
+      "verified_on": "2026-10-13",
+      "note": "Run by Probation. Delinquency detention hearings are held at the Juvenile Hall Courthouse (2350 Old Sonoma Rd) per the court's Juvenile page. Visits: two one-hour visits per week by parents/legal guardians/grandparents approved by the probation officer (county FAQ, seen via search).",
+      "todo": "Visitation page content was seen only in search snippets, not loaded directly."
+    }
+  ],
+  "inmate_lookup_url": "https://services.countyofnapa.org/cjnetweb/Public/InCustodyReport",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "note": "CA Department of Insurance 'Check a License' — look up a bail agent's license status by name or number. Napa Corrections: a list of licensed bail bond companies is posted at the jail's public entrances and in a Bail Bond List PDF on napacounty.gov/315/Bail-Bonds; call (707) 253-4401. Booking, In Custody and Release reports: services.countyofnapa.org/cjnetweb/Public/. Cash-bail payment method/location at the jail not published on the pages loaded."
+  }
+}

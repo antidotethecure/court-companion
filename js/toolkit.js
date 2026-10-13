@@ -172,7 +172,7 @@ function lookupBtns(p){
 }
 
 /* ───────── views ───────── */
-const TABS = [["deadlines","Deadlines"],["help","Find help"],["library","Library"],["records","Records"],["lawyer","My lawyer"],["discovery","Discovery"],["timeline","Timeline"],["research","Research"],["proper","Pro per"],["notebook","Notebook"],["plan","Emergency plan"]];
+const TABS = [["deadlines","Deadlines"],["help","Find help"],["jails","Jails & prisons"],["library","Library"],["records","Records"],["lawyer","My lawyer"],["discovery","Discovery"],["timeline","Timeline"],["research","Research"],["proper","Pro per"],["notebook","Notebook"],["plan","Emergency plan"]];
 CC.VIEWS.toolkit = () => {
   const tab = CC.tkTab || "deadlines";
   const mine = !CC.profile.sample;
@@ -193,6 +193,8 @@ const SUB = {}, WIRE = {};
 SUB.deadlines = () => window.CCdl ? window.CCdl.view() : "";
 WIRE.deadlines = v => window.CCdl && window.CCdl.wire(v);
 window.CCtk = { items: k => items(k) };
+SUB.jails = () => window.CCjails ? window.CCjails.view() : "";
+WIRE.jails = v => window.CCjails && window.CCjails.wire(v);
 /* Records */
 SUB.records = () => {
   const counties = Object.entries(CC.data.counties||{});
@@ -267,10 +269,10 @@ async function judgeLookup(name){
 }
 
 /* My lawyer */
-SUB.lawyer = () => { const s = CC.lawSub || "requests";
-  return `<div class="seg">${[["requests","My requests"],["comms","Contact log"],["offers","Plea offers"],["letters","Letters to sign"]].map(([k,l])=>`<button data-lsub="${k}" class="${s===k?"on":""}">${l}</button>`).join("")}</div>`
-   + (s==="letters" ? lettersView() : listMod(s, MODS[s])); };
-WIRE.lawyer = v => { $$("[data-lsub]",v).forEach(b=>b.onclick=()=>{ CC.lawSub=b.dataset.lsub; CC.render(); }); };
+SUB.lawyer = () => { const s = CC.lawSub || "duties";
+  return `<div class="seg">${[["duties","First court date to-do"],["requests","My requests"],["comms","Contact log"],["offers","Plea offers"],["letters","Letters to sign"]].map(([k,l])=>`<button data-lsub="${k}" class="${s===k?"on":""}">${l}</button>`).join("")}</div>`
+   + (s==="letters" ? lettersView() : s==="duties" ? (window.CCduty?window.CCduty.view():"") : listMod(s, MODS[s])); };
+WIRE.lawyer = v => { $$("[data-lsub]",v).forEach(b=>b.onclick=()=>{ CC.lawSub=b.dataset.lsub; CC.render(); }); if ((CC.lawSub||"duties")==="duties" && window.CCduty) window.CCduty.wire(v); };
 const LETTERS = [
   {id:"tk-decisions", title:"My decisions as the client", what:"Puts in writing the decisions that belong to you: whether to plead, whether to testify, jury or no jury, and that you maintain your innocence.", body:"To: [attorney name]\nRe: [case number]\nDate: [date]\n\nI am writing so my decisions are clear and on record. These decisions are mine to make as the client:\n\n1. Plea: I do not want to plead guilty or accept a plea offer at this time. Please tell me about every offer in writing, and do not accept any offer for me.\n2. Trial: I want a [jury / court] trial.\n3. Testifying: I will decide whether to testify after we discuss it.\n4. Speedy trial: I [do / do not] agree to waive time.\n\nPlease confirm in writing that you received this letter.\n\nThank you,"},
   {id:"tk-discovery", title:"Request for my discovery", what:"Asks your lawyer for copies of (or a time to review) the evidence, and to tell you if a protective order limits copies.", body:"To: [attorney name]\nRe: [case number]\nDate: [date]\n\nPlease send me copies of the discovery in my case, or set a time for me to review it, including:\n- [police reports]\n- [video / bodycam / audio recordings, with dates]\n- [other items]\n\nIf a protective order limits what I can have, please tell me what it covers and how I can review the items.\n\nPlease let me know by [date] when I can expect them.\n\nThank you,"},
@@ -468,10 +470,11 @@ const TOUR = {
  settings:["Settings","Switch between the sample and your own case, export or erase your data, and replay these tips."],
  toolkit:["Toolkit","Your workbench: find help, the case-law library, your records and transcripts, your lawyer's to-do list, evidence, research and the pro per guide. The tabs across the top switch sections."],
  "tk-deadlines":["Deadlines","Your speedy-trial clock, appeal deadlines and motion deadlines counting down. Anything within 14 days says URGENT. If you waived time, it tells you plainly and how to restart the clock."],
+ "tk-jails":["Jails & prisons","Every county jail (men's and women's), which courthouse people held there go to, visiting and sending money — plus California state prisons (CDCR) and federal prisons."],
  "tk-help":["Find help","Pick what you need — a free lawyer, a private lawyer, legal aid, bail, a ticket, clearing your record — and it walks you through it with the official links."],
  "tk-library":["Library","The app's built-in brain: hundreds of the most-cited court decisions by topic, already downloaded. Search it or browse by topic, and save cases to your research."],
  "tk-records":["Records","Find your case by number, keep transcripts and papers on your phone and search every page, look up the professionals on your case, and check your own record."],
- "tk-lawyer":["My lawyer","Track what you asked your lawyer for and whether it got done, every call and whether they replied, every plea offer and your answer, and letters you can sign on screen."],
+ "tk-lawyer":["My lawyer","Starts with the first-court-date to-do list for your lawyer — mark each item and text it to your family — and what ineffective assistance really means. Then: Track what you asked your lawyer for and whether it got done, every call and whether they replied, every plea offer and your answer, and letters you can sign on screen."],
  "tk-discovery":["Discovery","The evidence in your case and whether you've actually seen it. Anything you haven't seen shows in red."],
  "tk-timeline":["Timeline","Write down what happened the day it happens. A dated record beats memory later. Download it any time."],
  "tk-research":["Research","Live searches of new court decisions on the laws in your case. It checks again each day you open it, marks what's new, and lets you save cases as helps or hurts."],
@@ -614,4 +617,96 @@ CC.sendSigned = async (title, body, img, name, when) => {
   _.download(f.name, f, "application/pdf");
   modal(`<h3>${icon("doc")}Send to your attorney</h3><p class="small">The signed PDF was saved. Your email will open — attach the PDF and send.</p><div class="acts"><a class="btn" href="mailto:${esc(a?.email||"")}?subject=${enc(subj)}&body=${enc("Please read the attached and confirm you received it.\n\n"+body.slice(0,1500))}">${icon("doc")}Email ${esc(a?.name||"my attorney")}</a><button class="btn ghost" data-close>Close</button></div>`); };
 window.CCdl = {view, wire};
+})();
+/* ───────── Jails & prisons: every county jail (men's / women's) with the court it feeds, CDCR prisons, federal BOP ───────── */
+(function(){
+const CC = window.CC, _ = CC._, { $, $$, esc, enc } = _;
+let X = null;
+async function extra(){ if (X) return X; X = {};
+  for (const [k,p] of [["cdcr","data/states/ca/cdcr.json"],["bop","data/federal/ca_bop.json"]]){ try{ X[k] = (CC.inline && CC.inline[p]) || await (await fetch(p)).json(); }catch(e){ X[k] = null; } }
+  return X; }
+const lk = (u,l) => u ? `<a class="btn ghost small" href="${esc(u)}" target="_blank" rel="noopener">${icon("link")}${esc(l)}</a>` : "";
+function jailCard(j, c){ const courts = (j.court_ids||[]).map(id=>(c.courthouses||[]).find(h=>h.id===id)).filter(Boolean);
+  return `<div class="card flat" style="padding:10px"><b>${esc(j.name)}</b> <span class="chip ${j.houses==="women"?"attorney":""}">${esc({men:"Men",women:"Women",both:"Men & women",juvenile:"Juvenile"}[j.houses]||"—")}</span>
+   <div class="small">${esc([j.address,j.city,j.zip].filter(Boolean).join(", "))}</div>
+   ${courts.length?`<div class="small"><b>Goes to court at:</b> ${courts.map(h=>esc(h.name)+(h.address?" — "+esc(h.address+", "+(h.city||"")):"")).join("; ")}${j.court_note?" ("+esc(j.court_note)+")":""}</div>`:""}
+   <div class="acts" style="margin-top:6px">${_.actBtns({phone:j.phone, address:[j.address,j.city].filter(Boolean).join(", "), sms:false})}${lk(j.visiting_url,"Visiting")}${lk(j.commissary_or_money_url,"Send money")}${lk(j.url||j.source_url,"Official page")}</div></div>`; }
+function view(){ const C = CC.data.counties||{}, sel = CC.jCounty || CC.profile.home?.county || Object.keys(C)[0], who = CC.jWho || "all";
+  const c = C[sel]||{}; const J = (c.jails||[]).filter(j=>who==="all"||j.houses===who||j.houses==="both");
+  return `<p class="small">Find where someone is held, how to visit or send money, and which courthouse they'll be taken to. Always confirm with the official inmate locator first.</p>
+   <div class="fgrid two"><div><label for="jc">County</label><select id="jc">${Object.entries(C).sort((a,b)=>(a[1].county||a[0]).localeCompare(b[1].county||b[0])).map(([id,x])=>`<option value="${esc(id)}" ${id===sel?"selected":""}>${esc(x.county||id)}</option>`).join("")}</select></div>
+   <div><label for="jw">Housing</label><select id="jw">${[["all","All"],["men","Men"],["women","Women"],["juvenile","Juvenile"]].map(([k,l])=>`<option value="${k}" ${who===k?"selected":""}>${l}</option>`).join("")}</select></div></div>
+   <div class="acts" style="margin:10px 0">${lk(c.inmate_lookup_url,"County inmate locator (official)")}</div>
+   ${J.map(j=>jailCard(j,c)).join("")||`<p class="small muted">No facilities listed for this county yet.</p>`}
+   <div id="jx"><p class="small muted">Loading state and federal prisons…</p></div>`; }
+async function wire(v){
+  $("#jc",v).onchange = e => { CC.jCounty = e.target.value; CC.render(); };
+  $("#jw",v).onchange = e => { CC.jWho = e.target.value; CC.render(); };
+  const x = await extra(), box = $("#jx",v); if (!box) return; let h = "";
+  if (x.cdcr){ const I = (x.cdcr.institutions||[]).filter(i=>CC.jWho!=="men"&&CC.jWho!=="women"||i.houses===CC.jWho);
+    h += `<h3 style="margin-top:16px">${icon("courthouse")}California state prisons (CDCR)</h3><div class="acts">${lk(x.cdcr.inmate_locator_url,"CDCR inmate locator")}${lk(x.cdcr.visiting_info_url,"Visiting rules")}${lk(x.cdcr.sending_money_url,"Sending money")}${lk(x.cdcr.family_resources_url,"Family resources")}</div>
+     ${I.map(i=>`<details class="card flat" style="padding:10px"><summary><b>${esc(i.name)}</b> <span class="small">(${esc(i.acronym||"")}) · ${esc(i.city||"")}</span> <span class="chip ${i.houses==="women"?"attorney":""}">${esc(i.houses==="women"?"Women":"Men")}</span>${i.reception_center?' <span class="chip">Reception center</span>':""}</summary>
+       <div class="small" style="margin-top:6px">${esc([i.address,i.city,i.zip].filter(Boolean).join(", "))}${i.local_court?"<br><b>Local court:</b> "+esc(i.local_court):""}${i.note?"<br>"+esc(i.note):""}</div>
+       <div class="acts" style="margin-top:6px">${_.actBtns({phone:i.phone, address:[i.address,i.city].filter(Boolean).join(", "), sms:false})}${lk(i.visiting_url,"Visiting")}${lk(i.url,"Official page")}</div></details>`).join("")}`; }
+  if (x.bop){ h += `<h3 style="margin-top:16px">${icon("courthouse")}Federal prisons in California (BOP)</h3><div class="acts">${lk(x.bop.inmate_locator_url,"BOP inmate locator")}</div>
+     ${(x.bop.facilities||x.bop.institutions||[]).map(i=>`<div class="card flat" style="padding:10px"><b>${esc(i.name)}</b> <span class="small">${esc(i.status||"")}</span><div class="small">${esc([i.address,i.city,i.zip].filter(Boolean).join(", "))}</div><div class="acts" style="margin-top:6px">${_.actBtns({phone:i.phone, sms:false})}${lk(i.url,"Official page")}</div></div>`).join("")}`; }
+  box.innerHTML = h || "";
+}
+window.CCjails = {view, wire};
+})();
+/* ───────── First court date: what your lawyer (public defender or private) is supposed to do, shareable to family;
+   and what "ineffective assistance of counsel" really means. Information, not legal advice. ───────── */
+(function(){
+const CC = window.CC, _ = CC._, { $, $$, esc, enc, modal, toast } = _;
+const DUTIES = [
+ ["talk","Talk with me before or at the first court date and explain the charges and what I'm facing.","Cal. Rules of Professional Conduct, rule 1.4 (duty to communicate); Bus. & Prof. Code § 6068(m).","An ethics violation you can report to the State Bar, and a reason to ask for a Marsden hearing. It becomes ineffective assistance only if it hurt the result (Strickland)."],
+ ["plea","Enter a NOT GUILTY plea unless I decide otherwise. The plea is my decision.","Cal. Rules of Prof. Conduct, rule 1.2(a); McCoy v. Louisiana, 584 U.S. 414 (2018).","A lawyer who pleads for you or concedes guilt over your objection violates your Sixth Amendment rights (McCoy) — that error doesn't require showing prejudice."],
+ ["release","Ask for my release or lower bail, and tell the judge what I can afford.","In re Humphrey (2021) 11 Cal.5th 135 (ability to pay); federal: 18 U.S.C. § 3142(f) detention hearing.","Ask your lawyer on the record to request a bail review. Not arguing release when there's a basis can be raised with the court."],
+ ["time","Ask me before waiving time. Don't waive my speedy-trial rights without explaining it to me.","Penal Code § 1382; federal: 18 U.S.C. § 3161. (In California a court may allow counsel to waive time over objection for the client's benefit — Townsend v. Superior Court (1975) 15 Cal.3d 774.)","If you don't want to waive time, say \"I object, I do not waive time\" in court yourself so it's on the record."],
+ ["discovery","Request the discovery (police reports, video, evidence) and show it to me.","Penal Code § 1054.1 and § 1054.5(b); Brady v. Maryland, 373 U.S. 83 (1963); federal: Fed. R. Crim. P. 16.","Failing to get and review the evidence can be deficient performance under Strickland if it affected the outcome."],
+ ["investigate","Investigate my case: witnesses I name for the defense, the scene, video, records.","Strickland v. Washington, 466 U.S. 668 (1984): counsel must make reasonable investigations or make a reasonable decision that one isn't needed.","The most common basis for an ineffective-assistance claim: a failure to investigate that a reasonable lawyer wouldn't make, and that likely changed the result."],
+ ["offers","Tell me about every plea offer, in writing if I ask, and the deadline.","Missouri v. Frye, 566 U.S. 134 (2012); Lafler v. Cooper, 566 U.S. 156 (2012).","Not telling you about a formal offer — or giving bad advice that made you reject a good one — is recognized ineffective assistance."],
+ ["immigration","If I'm not a U.S. citizen: tell me the immigration consequences of any plea.","Padilla v. Kentucky, 559 U.S. 356 (2010); Penal Code § 1016.3; § 1473.7.","Failing to advise is ineffective assistance, and in California a plea can later be challenged under § 1473.7."],
+ ["prelim","Felony in custody: hold the preliminary hearing on time unless I agree to waive.","Penal Code § 859b (10 court days after arraignment/plea, 60 days at most, unless waived).","Missing the deadline without your waiver can lead to dismissal — ask your lawyer to move to dismiss."],
+ ["status","Answer my reasonable questions about my case within a reasonable time.","Bus. & Prof. Code § 6068(m); Cal. Rules of Prof. Conduct, rule 1.4.","An ethics violation (State Bar complaint). Keep your Contact log — it's your proof."],
+ ["confidential","Keep what I say confidential.","Bus. & Prof. Code § 6068(e); Evidence Code § 954 (attorney-client privilege).","A serious ethics violation; report it to the State Bar and tell the judge."],
+ ["file","If I change lawyers: hand over my complete file promptly.","Cal. Rules of Prof. Conduct, rule 1.16(e).","Ethics violation; the new lawyer or the court can order it."],
+];
+const ST = {done:"Done ✅", not:"NOT done ❌", unk:"Don't know yet ❓"};
+const K = () => { try{ return JSON.parse(localStorage.getItem("cc:duty:"+CC.profile.id)||"{}"); }catch(e){ return {}; } };
+function text(){ const k = K(), P = CC.profile, nc = (CC.deadlineItems?CC.deadlineItems():[]).filter(x=>x.due).slice(0,1)[0];
+  return `${P.person?.name||"My"} — what my lawyer should do after my first court date${(P.cases||[])[0]?" ("+P.cases[0].number+")":""}:\n\n`+
+   DUTIES.map(([id,d],i)=>`${i+1}. ${d}\n   Status: ${ST[k[id]]||ST.unk}`).join("\n")+
+   `\n\nIf something stays "NOT done", I'll ask my lawyer in writing, and the app explains my options.\nPlease don't discuss my case on jail calls. Don't contact anyone involved in the case.\n(From Court Companion — information, not legal advice.)`; }
+function view(){ const k = K(), H = window.CCtk ? window.CCtk.items("helpers") : [];
+  const nots = DUTIES.filter(([id])=>k[id]==="not");
+  return `<div class="card" style="border-color:var(--gold)"><b>The first to-do list for your lawyer</b><div class="small">After the first court date (arraignment), your lawyer — public defender or private — should be doing these things. Mark each one, then send the list to your family so everyone knows what's supposed to happen.</div></div>
+   ${DUTIES.map(([id,d,law,ifnot],i)=>`<div class="card flat" style="padding:10px"><div class="row between"><b>${i+1}. ${esc(d)}</b></div><div class="small muted">${esc(law)}</div>
+     <div class="seg" style="margin:8px 0 0">${Object.entries(ST).map(([s,l])=>`<button data-duty="${id}:${s}" class="${k[id]===s?"on":""}">${esc(l)}</button>`).join("")}</div>
+     ${k[id]==="not"?`<div class="notice warn" style="margin-top:8px">${icon("alert")}<div class="small"><b>If it isn't done:</b> ${esc(ifnot)}</div></div>`:""}</div>`).join("")}
+   ${nots.length?`<div class="notice warn">${icon("alert")}<div><b>${nots.length} not done.</b> Step 1: ask your lawyer in writing (My lawyer → Letters → "Please call me"). Step 2: log it in My requests. Step 3: read "Ineffective assistance — what it means" below before anything else.</div></div>`:""}
+   <div class="card"><h3>${icon("users")}Send this to my family</h3><div class="acts">
+     <button class="btn" id="du-share">${icon("link")}Share…</button><button class="btn ghost" id="du-copy">${icon("doc")}Copy text</button>
+     ${H.filter(h=>h.phone).map(h=>`<a class="btn ghost" href="sms:${esc(_.digits(h.phone))}?&body=${enc(text())}">${icon("phone")}Text ${esc(h.name)}</a>`).join("")}</div>
+     ${H.some(h=>h.phone)?"":`<p class="small muted">Add family in Emergency plan → My helpers to get one-tap text buttons.</p>`}</div>
+   ${iac()}`; }
+function iac(){ return `<div class="card"><h3>${icon("scales")}Ineffective assistance of counsel — what it means</h3>
+  <p class="small">You have a right to a lawyer who actually does the job (Sixth Amendment). When a lawyer's work falls below that standard and it hurts your case, that's called <b>ineffective assistance of counsel</b>.</p>
+  <p class="small"><b>The test (Strickland v. Washington, 466 U.S. 668 (1984)) has two parts — you need both:</b></p>
+  <ol class="small" style="padding-left:18px"><li><b>Deficient performance:</b> the lawyer did something (or failed to do something) no reasonable lawyer would do. Courts give lawyers a lot of room for <i>strategy</i> — a choice you disagree with isn't automatically ineffective.</li>
+   <li><b>Prejudice:</b> there's a reasonable probability the result would have been different without the mistake.</li></ol>
+  <p class="small"><b>Exceptions where harm is presumed:</b> no lawyer at a critical stage, or a lawyer who completely fails to test the prosecution's case (United States v. Cronic, 466 U.S. 648 (1984)); a lawyer admitting your guilt over your objection (McCoy v. Louisiana).</p>
+  <p class="small"><b>Recognized examples:</b> not telling you about a plea offer (Frye); bad advice that made you reject a good offer (Lafler); not warning a non-citizen about deportation (Padilla); failing to investigate a defense (Strickland, Wiggins v. Smith, 539 U.S. 510 (2003)).</p>
+  <p class="small"><b>Not the same thing:</b> breaking an <i>ethics rule</i> (not returning calls, not keeping you informed) is reported to the State Bar. It's ineffective assistance only when it hurt the outcome.</p>
+  <p class="small"><b>What you can do, in order:</b></p>
+  <ol class="small" style="padding-left:18px"><li>Ask in writing and keep proof (Letters, Contact log, My requests).</li><li>Appointed lawyer in California: ask the judge for a <b>Marsden hearing</b> to replace them (People v. Marsden (1970) 2 Cal.3d 118). Federal: ask the court for new counsel.</li>
+   <li>Ethics problems: file a complaint with the State Bar of California.</li><li>After a conviction: ineffective assistance is usually raised in a motion for new trial, on appeal, or in a habeas corpus petition — deadlines are strict.</li><li>Or decide to represent yourself (see Pro per).</li></ol>
+  <div class="acts">${_.searchBtns("Strickland v. Washington ineffective assistance",["cl","scholar"])}<a class="btn ghost small" href="https://www.calbar.ca.gov/" target="_blank" rel="noopener">${icon("link")}State Bar of California</a></div>
+  <p class="small muted">General information, not legal advice about your case.</p></div>`; }
+function wire(v){
+  $$("[data-duty]",v).forEach(b=>b.onclick=()=>{ const [id,s] = b.dataset.duty.split(":"); const k = K(); k[id] = s; try{ localStorage.setItem("cc:duty:"+CC.profile.id, JSON.stringify(k)); }catch(e){} CC.render(); });
+  $("#du-copy",v).onclick = async () => { try{ await navigator.clipboard.writeText(text()); toast("Copied — paste it into a text."); }catch(e){ modal(`<textarea style="min-height:240px">${esc(text())}</textarea><button class="btn" data-close>Close</button>`); } };
+  $("#du-share",v).onclick = async () => { if (navigator.share){ try{ await navigator.share({title:"My lawyer's to-do list", text:text()}); return; }catch(e){ if (e.name==="AbortError") return; } } location.href = "sms:?&body="+enc(text()); };
+}
+window.CCduty = {view, wire, text};
 })();

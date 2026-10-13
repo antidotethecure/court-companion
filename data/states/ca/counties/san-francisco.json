@@ -1,0 +1,605 @@
+{
+  "state": "CA",
+  "county": "San Francisco",
+  "slug": "san-francisco",
+  "court_name": "Superior Court of California, County of San Francisco",
+  "court_website": "https://sf.courts.ca.gov/",
+  "case_search_url": "https://webapps.sftc.org/crimportal/crimportal.dll",
+  "case_search_note": "Criminal case portal (linked from sf.courts.ca.gov/online-services/case-information): search by case number, defendant name or attorney name; shows calendar and register of actions. Per CRC 2.503(c) criminal documents cannot be viewed or downloaded remotely — request copies from the Criminal Clerk, Hall of Justice Room 101. A Cumulative Criminal Index (updated weekly) is at https://webapps.sftc.org/crimindex/crimindex.dll. Upcoming hearings by date: Case Calendars search at webapps.sftc.org/cc/CaseCalendar.dll.",
+  "sources": [
+    {
+      "title": "SF Superior Court — Locations & Contact Info",
+      "url": "https://sf.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SF Superior Court — Hall of Justice",
+      "url": "https://sf.courts.ca.gov/location/hall-justice",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SF Superior Court — Civic Center Courthouse",
+      "url": "https://sf.courts.ca.gov/location/civic-center-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SF Superior Court — Juvenile Justice Center",
+      "url": "https://sf.courts.ca.gov/location/juvenile-justice-center",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SF Superior Court — Polk Street Annex",
+      "url": "https://sf.courts.ca.gov/location/polk-street-annex",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SF Superior Court — Judicial Assignments 2026",
+      "url": "https://sf.courts.ca.gov/general-information/judicial-assignments-2026",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SF Superior Court — Case Information",
+      "url": "https://sf.courts.ca.gov/online-services/case-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SF Superior Court — Collaborative Courts",
+      "url": "https://sf.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SF Public Defender — Contact",
+      "url": "https://sfpublicdefender.org/contact/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SF Adult Probation Department",
+      "url": "https://www.sf.gov/departments--adult-probation-department",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SF Juvenile Probation — Contact",
+      "url": "https://www.sf.gov/location--contact-juvenile-probation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SF Pretrial Diversion Project",
+      "url": "https://www.sfpretrial.org/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SF Sheriff — Jail services",
+      "url": "https://sfsheriff.com/services/jail-services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SF Sheriff — County Jail #2",
+      "url": "https://sfsheriff.com/services/jail-services/jails/county-jail-2",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SF Sheriff — County Jail #3",
+      "url": "https://sfsheriff.com/services/jail-services/jails/county-jail-3",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SF Sheriff — Intake and Release Center",
+      "url": "https://sfsheriff.com/services/jail-services/getting-released-jail/intake-and-release-center",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SF Sheriff — Jail visiting information",
+      "url": "https://sfsheriff.com/services/jail-services/jail-visiting-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "SF Sheriff — Deposit money into an incarcerated person's account",
+      "url": "https://sfsheriff.com/services/jail-services/deposit-money-incarcerated-persons-account",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Bar Association of San Francisco — Lawyer Referral & Information Service",
+      "url": "https://www.sfbar.org/lris/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check an Agent/Broker License",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "hoj",
+      "name": "Hall of Justice",
+      "address": "850 Bryant St.",
+      "city": "San Francisco",
+      "zip": "94103",
+      "phone": "(415) 551-0651",
+      "criminal_phone": "(415) 551-0651",
+      "hours": "Building Mon–Fri 8:30 a.m.–4:00 p.m. Criminal Division (Room 101) phone hours 8:30 a.m.–4:00 p.m., closed 12–1 p.m. and holidays.",
+      "criminal": true,
+      "note": "All adult criminal cases: felony and misdemeanor arraignments, preliminary hearings, trials, collaborative courts (Dept. 15 Behavioral Health Court/Mental Health Diversion, Dept. 24 Veterans Justice Court). Criminal Clerk Room 101 (415) 551-0651, fax (415) 551-8085. Traffic Division Room 145 (415) 551-8540. A court notice dated 2026-08-14 proposes reduced clerk's-office hours (8:30 a.m.–12:30 p.m. with drop boxes after) — confirm hours before going. Department list from Judicial Assignments 2026; assignments rotate.",
+      "departments": [
+        {
+          "id": "9",
+          "label": "Department 9",
+          "type": "Preliminary Hearings / Arraignments",
+          "note": null
+        },
+        {
+          "id": "10",
+          "label": "Department 10",
+          "type": "Trials / Motions to Suppress / 995 Motions",
+          "note": null
+        },
+        {
+          "id": "11",
+          "label": "Department 11",
+          "type": "Preliminary Hearings / Arraignments",
+          "note": null
+        },
+        {
+          "id": "12",
+          "label": "Department 12",
+          "type": "Preliminary Hearings / Arraignments",
+          "note": null
+        },
+        {
+          "id": "13",
+          "label": "Department 13",
+          "type": "Trials / Pitchess-Brady Motions / Expungements",
+          "note": null
+        },
+        {
+          "id": "14",
+          "label": "Department 14",
+          "type": "Domestic Violence / Felony Arraignments",
+          "note": null
+        },
+        {
+          "id": "15",
+          "label": "Department 15",
+          "type": "Mental Health Court / Behavioral Health Court / Mental Health Diversion",
+          "note": null
+        },
+        {
+          "id": "16",
+          "label": "Department 16",
+          "type": "Trials / Return of Property",
+          "note": null
+        },
+        {
+          "id": "17",
+          "label": "Department 17",
+          "type": "Misdemeanor Master Calendar / Misdemeanor Arraignments",
+          "note": null
+        },
+        {
+          "id": "18",
+          "label": "Department 18",
+          "type": "Long Cause Preliminary Hearings",
+          "note": null
+        },
+        {
+          "id": "19",
+          "label": "Department 19",
+          "type": "Trials / MTR Calendar / Racial Justice Act",
+          "note": null
+        },
+        {
+          "id": "20",
+          "label": "Department 20",
+          "type": "Preliminary Hearings and Arraignments",
+          "note": null
+        },
+        {
+          "id": "21",
+          "label": "Department 21",
+          "type": "Trials / MTR Calendar / Racial Justice Act",
+          "note": null
+        },
+        {
+          "id": "22",
+          "label": "Department 22",
+          "type": "Criminal Master Calendar (Supervising Criminal Judge)",
+          "note": null
+        },
+        {
+          "id": "23",
+          "label": "Department 23",
+          "type": "Trials / Parole Court / Parole Revocation Hearings",
+          "note": null
+        },
+        {
+          "id": "24",
+          "label": "Department 24",
+          "type": "Criminal Trials / Veterans Justice Court",
+          "note": null
+        },
+        {
+          "id": "25",
+          "label": "Department 25",
+          "type": "Trials / 1170 PC Hearings / Restitution",
+          "note": null
+        },
+        {
+          "id": "26",
+          "label": "Department 26",
+          "type": "Felony Settlements",
+          "note": null
+        },
+        {
+          "id": "27",
+          "label": "Department 27",
+          "type": "Criminal Trials",
+          "note": null
+        },
+        {
+          "id": "28",
+          "label": "Department 28",
+          "type": "Criminal Trials / Racial Justice Act",
+          "note": null
+        },
+        {
+          "id": "29",
+          "label": "Department 29",
+          "type": "Trials / Fugitive and Parole Arraignments",
+          "note": null
+        },
+        {
+          "id": "30",
+          "label": "Department 30",
+          "type": "Misdemeanor Settlements",
+          "note": null
+        }
+      ],
+      "departments_source_url": "https://sf.courts.ca.gov/general-information/judicial-assignments-2026",
+      "source_url": "https://sf.courts.ca.gov/location/hall-justice",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "civic-center",
+      "name": "Civic Center Courthouse",
+      "address": "400 McAllister Street",
+      "city": "San Francisco",
+      "zip": "94102",
+      "phone": "(415) 551-4000",
+      "criminal_phone": null,
+      "hours": "Building open to the public Mon–Fri 8:15 a.m.–5:00 p.m.; filing clerk offices (Rooms 103 and 402) 8:30 a.m.–4:00 p.m., closed 12–1 p.m.",
+      "criminal": false,
+      "note": "Civil, Unified Family Court, Traffic and the ACCESS (Legal Self-Help) Center (415) 551-0605. The court's page lists a Traffic Division line (415) 551-8550 here; no criminal division is listed.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://sf.courts.ca.gov/location/civic-center-courthouse",
+      "verified_on": "2026-10-13",
+      "todo": "Department list not collected (non-criminal courthouse)"
+    },
+    {
+      "id": "jjc",
+      "name": "Juvenile Justice Center",
+      "address": "375 Woodside Ave.",
+      "city": "San Francisco",
+      "zip": "94127",
+      "phone": null,
+      "criminal_phone": null,
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "criminal": true,
+      "note": "Juvenile justice (delinquency) and juvenile traffic only — not adult criminal. Juvenile Hall and Juvenile Probation are in the same complex.",
+      "departments": [
+        {
+          "id": "2",
+          "label": "Department 2",
+          "type": "Trials / Special Setting",
+          "note": null
+        },
+        {
+          "id": "3",
+          "label": "Department 3",
+          "type": "Delinquency",
+          "note": null
+        },
+        {
+          "id": "4",
+          "label": "Department 4",
+          "type": "Delinquency",
+          "note": null
+        }
+      ],
+      "departments_source_url": "https://sf.courts.ca.gov/general-information/judicial-assignments-2026",
+      "source_url": "https://sf.courts.ca.gov/location/juvenile-justice-center",
+      "verified_on": "2026-10-13",
+      "todo": "Court's location page lists no phone number for this courthouse"
+    },
+    {
+      "id": "polk-annex",
+      "name": "Polk Street Annex",
+      "address": "575 Polk St.",
+      "city": "San Francisco",
+      "zip": "94102",
+      "phone": null,
+      "criminal_phone": null,
+      "hours": null,
+      "criminal": false,
+      "note": "Listed on the court's Locations page; its location page lists no cases served, services, hours or phone.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://sf.courts.ca.gov/location/polk-street-annex",
+      "verified_on": "2026-10-13",
+      "todo": "What this building is used for (and whether any criminal/collaborative calendars sit here) not stated on the court site"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "San Francisco Public Defender — Adult & Immigration Defender (Downtown)",
+      "address": "555 7th Street",
+      "city": "San Francisco",
+      "zip": "94103",
+      "phone": "(415) 553-1671",
+      "toll_free": null,
+      "email": null,
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.; closed weekends and most major holidays",
+      "url": "https://sfpublicdefender.org/",
+      "source_url": "https://sfpublicdefender.org/contact/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "San Francisco Public Defender — Youth Defender",
+      "address": "375 Woodside Ave",
+      "city": "San Francisco",
+      "zip": "94127",
+      "phone": "(415) 753-7601",
+      "toll_free": null,
+      "email": null,
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "url": "https://sfpublicdefender.org/",
+      "source_url": "https://sfpublicdefender.org/contact/",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "SF Public Defender — Clean Slate Program",
+      "serves": "People with San Francisco convictions/arrests",
+      "what": "Record clean-up (expungement/dismissal and related relief) run by the SF Public Defender. Contact by voicemail or email.",
+      "phone": "(415) 553-9337",
+      "email": "PDR-CleanSlate@sfgov.org",
+      "url": "https://sfpublicdefender.org/contact/",
+      "source_url": "https://sfpublicdefender.org/contact/",
+      "verified_on": "2026-10-13",
+      "todo": "Exact list of Clean Slate remedies not confirmed from a program page"
+    },
+    {
+      "name": "Bar Association of San Francisco — Lawyer Referral & Information Service",
+      "serves": "Anyone seeking a private attorney in San Francisco",
+      "what": "Referrals to private lawyers, including Criminal Law. Free or reduced-cost services for those who qualify. Phone lines weekdays 9:00 a.m.–1:00 p.m. and 1:30–4:30 p.m. No walk-ins.",
+      "phone": "(415) 989-1616",
+      "email": null,
+      "url": "https://www.sfbar.org/lris/",
+      "source_url": "https://www.sfbar.org/lris/",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "San Francisco Adult Probation Department — Main Office",
+      "address": "945 Bryant St.",
+      "city": "San Francisco",
+      "zip": "94103",
+      "phone": "(628) 652-2100",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "url": "https://www.sf.gov/departments--adult-probation-department",
+      "source_url": "https://www.sf.gov/departments--adult-probation-department",
+      "verified_on": "2026-10-13",
+      "note": "Contact form at sfgov.org/adultprobation/contact; no public email listed."
+    },
+    {
+      "name": "SF Adult Probation — Community Assessment and Services Center (CASC)",
+      "address": "564 6th St.",
+      "city": "San Francisco",
+      "zip": "94103",
+      "phone": "(415) 241-4260",
+      "hours": null,
+      "url": "https://www.sf.gov/departments--adult-probation-department",
+      "source_url": "https://www.sf.gov/departments--adult-probation-department",
+      "verified_on": "2026-10-13",
+      "note": "Behavioral-health-focused one-stop reentry center.",
+      "todo": "CASC hours not listed"
+    },
+    {
+      "name": "San Francisco Juvenile Probation Department",
+      "address": "375 Woodside Avenue",
+      "city": "San Francisco",
+      "zip": "94127",
+      "phone": "(415) 753-7800",
+      "hours": null,
+      "url": "https://www.sf.gov/departments--juvenile-probation-department",
+      "source_url": "https://www.sf.gov/location--contact-juvenile-probation",
+      "verified_on": "2026-10-13",
+      "note": "General inquiries: JUV-generalinquiry@sfgov.org. Juvenile Probation, Juvenile Hall and Juvenile Court share this address.",
+      "todo": "Hours not confirmed"
+    }
+  ],
+  "programs": [
+    {
+      "id": "sf-pretrial",
+      "name": "San Francisco Pretrial Diversion Project (pretrial release & diversion)",
+      "type": "pretrial",
+      "summary": "Nonprofit that runs San Francisco's pretrial release and diversion programs: judges may release recently arrested people to its supervision; offers court-date reminders, outreach/escorts to court, and links to behavioral health, benefits and housing. Your release order sets your conditions.",
+      "phone": "(415) 626-4995",
+      "url": "https://www.sfpretrial.org/",
+      "source_url": "https://www.sfpretrial.org/",
+      "verified_on": "2026-10-13",
+      "todo": "Program-by-program details (sfpretrial.org/what-we-do/our-programs/) not loaded. Office: 1200 Folsom St (at 8th St)."
+    },
+    {
+      "id": "bhc",
+      "name": "Behavioral Health Court",
+      "type": "collaborative_court",
+      "summary": "For people with serious, persistent mental illness; supports reintegration and self-sufficiency. Judicial Assignments 2026 list it in Dept. 15, Hall of Justice.",
+      "phone": null,
+      "url": "https://sf.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://sf.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "mhd",
+      "name": "Mental Health Diversion",
+      "type": "diversion",
+      "summary": "Statutory pretrial diversion for people with an eligible DSM-5 mental health diagnosis, with individualized clinical treatment. Dept. 15, Hall of Justice per Judicial Assignments 2026.",
+      "phone": null,
+      "url": "https://sf.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://sf.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "cjc",
+      "name": "Community Justice Center",
+      "type": "collaborative_court",
+      "summary": "Restorative justice and treatment-focused court for cases from the Tenderloin, Civic Center, Union Square and South of Market.",
+      "phone": null,
+      "url": "https://sf.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://sf.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "Current location/department not stated on the collaborative courts page"
+    },
+    {
+      "id": "drug-court",
+      "name": "Drug Court",
+      "type": "collaborative_court",
+      "summary": "Links nonviolent defendants with substance use disorders to outpatient or residential treatment.",
+      "phone": null,
+      "url": "https://sf.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://sf.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "Department not stated"
+    },
+    {
+      "id": "vjc",
+      "name": "Veterans Justice Court",
+      "type": "collaborative_court",
+      "summary": "For veterans facing criminal charges; social service, education and vocational support. Dept. 24, Hall of Justice per Judicial Assignments 2026.",
+      "phone": null,
+      "url": "https://sf.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://sf.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "yac",
+      "name": "Young Adult Court",
+      "type": "collaborative_court",
+      "summary": "For transitional-age adults 18–25, including some violent cases.",
+      "phone": null,
+      "url": "https://sf.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://sf.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "Department not stated"
+    },
+    {
+      "id": "isc",
+      "name": "Intensive Supervision Court",
+      "type": "collaborative_court",
+      "summary": "For high-risk, high-needs probationers as a last chance at community supervision instead of state prison.",
+      "phone": null,
+      "url": "https://sf.courts.ca.gov/divisions/collaborative-courts",
+      "source_url": "https://sf.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "access-center",
+      "name": "ACCESS (Legal Self-Help) Center",
+      "type": "self_help",
+      "summary": "Court self-help center at the Civic Center Courthouse, 400 McAllister St. Phone and in-person help limited to Monday, Tuesday and Thursday mornings.",
+      "phone": "(415) 551-0605",
+      "url": "https://sf.courts.ca.gov/location/civic-center-courthouse",
+      "source_url": "https://sf.courts.ca.gov/location/civic-center-courthouse",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "irc",
+      "name": "Intake and Release Center",
+      "address": "425 - 7th Street",
+      "city": "San Francisco",
+      "zip": "94103",
+      "phone": "(415) 558-4443",
+      "phone_note": "Mon–Fri 8 a.m.–5 p.m.; all other times incl. weekends/holidays (415) 553-1444. Booking after arrest; no visits here.",
+      "houses": "both",
+      "url": "https://sfsheriff.com/services/jail-services/getting-released-jail/intake-and-release-center",
+      "visiting_url": null,
+      "commissary_or_money_url": "https://sfsheriff.com/services/jail-services/deposit-money-incarcerated-persons-account",
+      "court_ids": [
+        "hoj"
+      ],
+      "source_url": "https://sfsheriff.com/services/jail-services/getting-released-jail/intake-and-release-center",
+      "verified_on": "2026-10-13",
+      "todo": "Booking/intake for everyone arrested (houses='both' reflects intake, not long-term housing). court_ids = nearest criminal courthouse, not confirmed."
+    },
+    {
+      "id": "cj2",
+      "name": "County Jail #2",
+      "address": "425 - 7th Street",
+      "city": "San Francisco",
+      "zip": "94103",
+      "phone": "(415) 554-7225",
+      "phone_note": "Mon–Fri 8 a.m.–5 p.m.; other times incl. weekends/holidays (415) 553-1444. Visit scheduling (415) 553-1430 or sf.gtlvisitme.com/app. Up to 392 people.",
+      "houses": "women",
+      "url": "https://sfsheriff.com/services/jail-services/jails/county-jail-2",
+      "visiting_url": "https://sfsheriff.com/services/jail-services/jail-visiting-information",
+      "commissary_or_money_url": "https://sfsheriff.com/services/jail-services/deposit-money-incarcerated-persons-account",
+      "court_ids": [
+        "hoj"
+      ],
+      "source_url": "https://sfsheriff.com/services/jail-services/jails/county-jail-2",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff says CJ#2 is the only SF jail that houses women; whether it also houses men is not stated. court_ids = nearest criminal courthouse, not confirmed."
+    },
+    {
+      "id": "cj3",
+      "name": "County Jail #3 (formerly County Jail #5)",
+      "address": "1 Moreland Drive",
+      "city": "San Bruno",
+      "zip": "94066",
+      "phone": null,
+      "phone_note": "Located in San Bruno (San Mateo County) but run by the SF Sheriff. Largest SF jail, up to 768 people. Flywheel visitor transport: (855) 359-2420. Visit scheduling (415) 553-1430 or sf.gtlvisitme.com/app. Cash-only deposit kiosk for registered visitors during visiting hours.",
+      "houses": "men",
+      "url": "https://sfsheriff.com/services/jail-services/jails/county-jail-3",
+      "visiting_url": "https://sfsheriff.com/services/jail-services/jail-visiting-information",
+      "commissary_or_money_url": "https://sfsheriff.com/services/jail-services/deposit-money-incarcerated-persons-account",
+      "court_ids": [
+        "hoj"
+      ],
+      "source_url": "https://sfsheriff.com/services/jail-services/jails/county-jail-3",
+      "verified_on": "2026-10-13",
+      "todo": "No direct phone on the jail's page. houses='men' is inferred from the Sheriff saying CJ#2 is the only jail that houses women. court_ids = SF's only adult criminal courthouse, transport not confirmed."
+    },
+    {
+      "id": "juvenile-hall",
+      "name": "San Francisco Juvenile Hall",
+      "address": "375 Woodside Avenue",
+      "city": "San Francisco",
+      "zip": "94127",
+      "phone": "(415) 753-7800",
+      "phone_note": "Juvenile Probation Department main line; front desk takes questions about arrests, court hearings, probation or Juvenile Hall.",
+      "houses": "juvenile",
+      "url": "https://www.sf.gov/departments--juvenile-probation-department",
+      "visiting_url": null,
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "jjc"
+      ],
+      "source_url": "https://www.sf.gov/location--contact-juvenile-probation",
+      "verified_on": "2026-10-13",
+      "todo": "Visiting rules page not located. Same complex as the Juvenile Justice Center courthouse."
+    }
+  ],
+  "inmate_lookup_url": "https://sfsheriff.com/find-person-jail",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' — look up a bail agent's license status by name or license number. The SF Sheriff's site has no page explaining where or how to post cash bail (checked jail services, Getting released, Intake & Release Center pages on 2026-10-13); call the Intake & Release Center at (415) 558-4443 (weekdays 8–5) or (415) 553-1444 (other times). The 24-hour lobby kiosks at 425 7th Street are for inmate account deposits, not bail.",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "todo": "Official SF cash-bail posting location/hours not published on sfsheriff.com"
+  }
+}

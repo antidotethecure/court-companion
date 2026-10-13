@@ -1,0 +1,171 @@
+{
+  "state": "CA",
+  "county": "Lake",
+  "slug": "lake",
+  "court_name": "Superior Court of California, County of Lake",
+  "court_website": "https://www.lake.courts.ca.gov/",
+  "case_search_url": "http://portal.lake.courts.ca.gov/public-portal/",
+  "case_search_note": "Linked from the court's Online Case Information & Court Calendar page: 'Search and view case information or view the current court calendar.' The page says nothing specific about criminal case access or whether documents are viewable.",
+  "sources": [
+    {"title": "Lake Superior Court — General Information", "url": "https://www.lake.courts.ca.gov/general-information", "verified_on": "2026-10-13"},
+    {"title": "Lake Superior Court — Lakeport Courthouse", "url": "https://www.lake.courts.ca.gov/location/lakeport-courthouse", "verified_on": "2026-10-13"},
+    {"title": "Lake Superior Court — Clearlake Branch", "url": "https://www.lake.courts.ca.gov/location/clearlake-branch", "verified_on": "2026-10-13"},
+    {"title": "Lake Superior Court — Courtrooms & Holidays", "url": "https://www.lake.courts.ca.gov/general-information/courtrooms-and-holidays", "verified_on": "2026-10-13"},
+    {"title": "Lake Superior Court — Criminal Division", "url": "https://www.lake.courts.ca.gov/divisions/criminal-division", "verified_on": "2026-10-13"},
+    {"title": "Lake Superior Court — Traffic Division", "url": "https://www.lake.courts.ca.gov/divisions/traffic-division", "verified_on": "2026-10-13"},
+    {"title": "Lake Superior Court — Online Case Information & Court Calendar", "url": "https://www.lake.courts.ca.gov/online-services/online-case-information-court-calendar", "verified_on": "2026-10-13"},
+    {"title": "Lake County — Public Defender", "url": "https://www.lakecountyca.gov/1651/Public-Defender", "verified_on": "2026-10-13"},
+    {"title": "Lake County Probation — Adult Division", "url": "https://www.lakecountyca.gov/349/Adult-Division", "verified_on": "2026-10-13"},
+    {"title": "Lake County Sheriff — Jail (Hill Road Correctional Facility)", "url": "https://www.lakecountyca.gov/566/Jail", "verified_on": "2026-10-13"},
+    {"title": "Lake County Sheriff — Visiting Hours", "url": "https://www.lakecountyca.gov/960/Visiting-Hours", "verified_on": "2026-10-13"},
+    {"title": "Lake County Sheriff — In Custody", "url": "https://www.lakecountyca.gov/953/In-Custody", "verified_on": "2026-10-13"},
+    {"title": "Lake County Sheriff — Inmate Accounts", "url": "https://www.lakecountyca.gov/954/Inmate-Accounts", "verified_on": "2026-10-13"},
+    {"title": "Lake County Sheriff — Bail Information", "url": "https://www.lakecountyca.gov/952/Bail-Information", "verified_on": "2026-10-13"},
+    {"title": "Lake County 2005/2006 Grand Jury Report (jail houses men and women; dated)", "url": "https://lakecountyca.gov/ArchiveCenter/ViewFile/Item/523", "verified_on": "2026-10-13"},
+    {"title": "Legal Services of Northern California — Ukiah office (serves Lake County)", "url": "https://lsnc.net/office/ukiah", "verified_on": "2026-10-13"},
+    {"title": "CA Dept. of Insurance — Check an Agent/Broker license", "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm", "verified_on": "2026-10-13"}
+  ],
+  "courthouses": [
+    {
+      "id": "lakeport",
+      "name": "Lakeport Courthouse (Lakeport Division)",
+      "address": "675 Lakeport Blvd.",
+      "city": "Lakeport",
+      "zip": "95453",
+      "phone": "(707) 263-2374",
+      "criminal_phone": "(707) 263-2374",
+      "hours": "Building, counter and telephone: Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Main courthouse (new building at 675 Lakeport Blvd.; older court pages still show 255 N. Forbes St.). Hears felony and misdemeanor criminal matters, in-custody arraignments (Dept. 3), juvenile, family, civil, probate, mental health. Veterans Court is held in Lakeport 1st and 3rd Wednesdays. Department assignments from the court's Courtrooms page as of 2026-10-13 — they rotate.",
+      "departments": [
+        {"id": "1", "label": "Department 1", "type": "Civil / Family Law", "note": "Ext. 2232."},
+        {"id": "2", "label": "Department 2", "type": "Felony (prelims, sentencing, law & motion, settlements); misdemeanor evidentiary hearings and settlements", "note": "Ext. 2282."},
+        {"id": "3", "label": "Department 3", "type": "In-custody arraignments; juvenile detention; probate/LPS/guardianship; civil harassment", "note": "Ext. 2231."},
+        {"id": "4", "label": "Department 4", "type": "Misdemeanor arraignments and law & motion; warrant returns without attorney; juvenile dependency/delinquency; mental health (firearms relief, CARE)", "note": "Ext. 2282."}
+      ],
+      "departments_source_url": "https://www.lake.courts.ca.gov/general-information/courtrooms-and-holidays",
+      "source_url": "https://www.lake.courts.ca.gov/location/lakeport-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "clearlake",
+      "name": "Clearlake Branch",
+      "address": "7000-A South Center Drive",
+      "city": "Clearlake",
+      "zip": "95422",
+      "phone": "(707) 994-6598",
+      "criminal_phone": null,
+      "hours": "Counter and telephone: Mon–Fri 8:00 a.m.–4:00 p.m. (excluding holidays)",
+      "criminal": true,
+      "note": "Traffic and non-traffic infractions (incl. traffic trials), small claims, unlawful detainer, DCSS child support, and Drug Court (Commissioner). No misdemeanor/felony calendars listed here. Drug Court day conflicts on the court's own page (Clearlake Tue 4 p.m. vs. Lakeport Wed 4 p.m.).",
+      "departments": [],
+      "source_url": "https://www.lake.courts.ca.gov/location/clearlake-branch",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Lake County Public Defender",
+      "address": "55 First Street",
+      "city": "Lakeport",
+      "zip": "95453",
+      "phone": "(707) 263-0133",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.lakecountyca.gov/1651/Public-Defender",
+      "source_url": "https://www.lakecountyca.gov/1651/Public-Defender",
+      "verified_on": "2026-10-13",
+      "note": "County office established by the Board of Supervisors in 2023 (previously indigent defense was contracted to private attorneys). Mailing: 55 First Street, Box D; administrative office 255 N. Forbes St. The court's Criminal Division page still lists 255 N. Forbes St.",
+      "todo": "Hours, email, and the current conflict-counsel arrangement (alternate defender/contract) not published"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Legal Services of Northern California — Ukiah Office (serves Lake County)",
+      "serves": "Low-income residents of Lake and Mendocino counties (civil legal aid)",
+      "what": "Civil legal aid; services list includes Clean Slate (criminal record clean-up such as expungement). Not criminal defense on open cases.",
+      "phone": "(707) 462-1471",
+      "toll_free": "(877) 529-7700",
+      "address": "421 North Oak Street, Ukiah, CA 95482",
+      "url": "https://lsnc.net/office/ukiah",
+      "source_url": "https://lsnc.net/office/ukiah",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Lake County Probation — Lakeport Office (Adult Division incl. Pre-Trial Supervision)",
+      "address": "201 S. Smith Street",
+      "city": "Lakeport",
+      "zip": "95453",
+      "phone": "(707) 262-4285",
+      "email": "probation@lakecountyca.gov",
+      "hours": null,
+      "url": "https://www.lakecountyca.gov/349/Adult-Division",
+      "source_url": "https://www.lakecountyca.gov/349/Adult-Division",
+      "verified_on": "2026-10-13",
+      "note": "Pre-Trial Supervision Unit monitors people ordered onto supervision by the Superior Court while awaiting trial. Administrative office: 255 N. Forbes St., Lakeport.",
+      "todo": "Hours not listed; county directory also mentions Lower Lake (9055 Hwy 53) and Clearlake offices — not confirmed on the Adult Division page"
+    }
+  ],
+  "programs": [
+    {
+      "id": "pretrial-supervision",
+      "name": "Probation Pre-Trial Supervision",
+      "type": "pretrial",
+      "summary": "Probation's Pre-Trial Supervision Unit monitors people the court orders onto supervision while awaiting trial. Conditions depend on your release order.",
+      "phone": "(707) 262-4285",
+      "url": "https://www.lakecountyca.gov/349/Adult-Division",
+      "source_url": "https://www.lakecountyca.gov/349/Adult-Division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "drug-court",
+      "name": "Drug Court",
+      "type": "collaborative_court",
+      "summary": "Listed on the court's Courtrooms page under the Clearlake Commissioner's calendar (Tuesdays 4 p.m.); the same page's 'About Calendars' section says Lakeport, Wednesdays 4 p.m. Confirm with the court. Eligibility details not published.",
+      "url": "https://www.lake.courts.ca.gov/general-information/courtrooms-and-holidays",
+      "source_url": "https://www.lake.courts.ca.gov/general-information/courtrooms-and-holidays",
+      "verified_on": "2026-10-13",
+      "todo": "Resolve day/location conflict; eligibility not published"
+    },
+    {
+      "id": "veterans-court",
+      "name": "Veterans Court",
+      "type": "collaborative_court",
+      "summary": "Held in Lakeport on the 1st and 3rd Wednesdays of the month per the court's Courtrooms page. Eligibility details not published.",
+      "url": "https://www.lake.courts.ca.gov/general-information/courtrooms-and-holidays",
+      "source_url": "https://www.lake.courts.ca.gov/general-information/courtrooms-and-holidays",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "hill-road",
+      "name": "Hill Road Correctional Facility (Lake County Jail)",
+      "address": "4913 Helbush Drive, Lakeport, CA 95453",
+      "city": "Lakeport",
+      "zip": "95453",
+      "houses": "both",
+      "houses_note": "Sheriff's jail pages do not state it; the county's 2005/2006 Grand Jury report (lakecountyca.gov archive) says the jail houses both men and women with a female dorm. Dated source.",
+      "phone": "(707) 262-4240",
+      "phone_note": "Visit reservations (Housing Unit B and Booking, non-contact, 24h ahead): (707) 262-4240 ext. 6, Mon–Fri 8:00 a.m.–3:30 p.m. Other pods have fixed visiting days by pod. Sheriff main line (707) 262-4200.",
+      "visiting_url": "https://www.lakecountyca.gov/960/Visiting-Hours",
+      "commissary_or_money_url": "https://www.accesscorrections.com/",
+      "money_note": "Access Corrections online/app, phone 866-345-1884, or 24/7 kiosk in the Jail Booking Lobby (cash or card). Money orders not accepted.",
+      "court_ids": ["lakeport"],
+      "court_ids_note": "Court's Courtrooms page puts in-custody arraignments in Dept. 3, Lakeport; the Sheriff does not state transport routing.",
+      "url": "https://www.lakecountyca.gov/566/Jail",
+      "source_url": "https://www.lakecountyca.gov/566/Jail",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "inmate_lookup_url": "https://lakecounty.citizenrims.com/",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' — verify any bail agent's license. Lake County Sheriff's Bail Information page: bail may be posted in full cash or through a licensed bail agent; bail amounts and court dates appear on the booking sheet from the inmate search. The page does not state the payment location or hours.",
+    "source_url": "https://www.lakecountyca.gov/952/Bail-Information",
+    "verified_on": "2026-10-13"
+  }
+}

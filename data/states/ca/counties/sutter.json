@@ -1,0 +1,178 @@
+{
+  "state": "CA",
+  "county": "Sutter",
+  "slug": "sutter",
+  "court_name": "Superior Court of California, County of Sutter",
+  "court_website": "https://www.sutter.courts.ca.gov/",
+  "case_search_url": "https://portal-casutter.tylertech.cloud/Portal",
+  "case_search_note": "Tyler public portal linked from the court's Online Case Access page. No registration required; current cases and completed cases back to 2008; shows case details and upcoming hearing dates; can pay criminal/traffic fines. Confidential cases are not online — you must search for those in person at the courthouse. Public computers are also available at the courthouse.",
+  "sources": [
+    {"title": "Sutter Superior Court — Location & Contact Info", "url": "https://www.sutter.courts.ca.gov/general-information/location-contact-info", "verified_on": "2026-10-13"},
+    {"title": "Sutter Superior Court — Online Case Access", "url": "https://www.sutter.courts.ca.gov/online-services/online-case-access", "verified_on": "2026-10-13"},
+    {"title": "Sutter Superior Court — Criminal Division", "url": "https://www.sutter.courts.ca.gov/divisions/criminal", "verified_on": "2026-10-13"},
+    {"title": "Sutter Superior Court — Self-Help", "url": "https://www.sutter.courts.ca.gov/self-help", "verified_on": "2026-10-13"},
+    {"title": "Sutter County — Public Defender (page blocks automated fetch; details from search index of the official page)", "url": "https://www.sutter.gov/government/county-departments/public-defender", "verified_on": "2026-10-13"},
+    {"title": "Sutter County — Probation (page blocks automated fetch; details from search index of the official page)", "url": "https://www.sutter.gov/government/county-departments/probation", "verified_on": "2026-10-13"},
+    {"title": "Sutter County Probation — Pretrial Risk Assessment (SB 36 / AB 3364)", "url": "https://www.sutter.gov/government/county-departments/probation/sb-36-and-ab-3364", "verified_on": "2026-10-13"},
+    {"title": "Sutter County Sheriff — Jail Division (page blocks automated fetch)", "url": "https://www.suttersheriff.gov/divisions/jail-division", "verified_on": "2026-10-13"},
+    {"title": "Sutter County Sheriff — Incarcerated Person Visiting Hours", "url": "https://www.suttersheriff.gov/divisions/jail-division/corrections-section/inmate-custody-services/visiting-hours", "verified_on": "2026-10-13"},
+    {"title": "Sutter County Sheriff — Incarcerated Person Commissary", "url": "https://www.suttersheriff.gov/divisions/jail-division/corrections-section/inmate-custody-services/commissary", "verified_on": "2026-10-13"},
+    {"title": "Sutter County Sheriff — Incarcerated Person Custody Status", "url": "https://www.suttersheriff.gov/divisions/jail-division/corrections-section/inmate-custody-services/custody-status", "verified_on": "2026-10-13"},
+    {"title": "Yuba County Probation — Tri-County Youth Rehabilitation Campus (serves Yuba, Sutter, Colusa)", "url": "https://www.yuba.gov/departments/probation/youth_campus/index.php", "verified_on": "2026-10-13"},
+    {"title": "Yuba County Probation — Youth Campus Visits & Mail", "url": "https://www.yuba.gov/departments/probation/youth_campus/visits_mails.php", "verified_on": "2026-10-13"},
+    {"title": "CRLA — Marysville office", "url": "https://crla.org/locations/marysville", "verified_on": "2026-10-13"},
+    {"title": "CA Dept. of Insurance — Check an Agent/Broker license", "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm", "verified_on": "2026-10-13"}
+  ],
+  "courthouses": [
+    {
+      "id": "sutter-courthouse",
+      "name": "Sutter County Superior Courthouse",
+      "address": "1175 Civic Center Blvd.",
+      "city": "Yuba City",
+      "zip": "95993",
+      "phone": "(530) 822-3300",
+      "criminal_phone": "(530) 822-3306",
+      "hours": "Mon–Fri 8:30 a.m.–4:30 p.m.",
+      "criminal": true,
+      "note": "The court's only listed location — handles criminal (felony and misdemeanor), traffic, juvenile, civil, family, probate and small claims. Traffic line (530) 822-3303 (Traffic/Criminal Processing, 8:30–4:30). In-custody arraignments are heard daily at 3:00 p.m. per the Criminal Division page. Self-Help (530) 822-3305; self-help computers in the lobby outside Room 120.",
+      "departments": [],
+      "source_url": "https://www.sutter.courts.ca.gov/general-information/location-contact-info",
+      "verified_on": "2026-10-13",
+      "todo": "Department/courtroom list not compiled — see https://www.sutter.courts.ca.gov/general-information/judicial-officers"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Sutter County Public Defender",
+      "address": "604 B Street, Suite 1",
+      "city": "Yuba City",
+      "zip": "95991",
+      "phone": "(530) 822-7355",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.sutter.gov/government/county-departments/public-defender",
+      "source_url": "https://www.sutter.gov/government/county-departments/public-defender",
+      "verified_on": "2026-10-13",
+      "note": "Represents people charged with crimes in Sutter County who can't afford a lawyer, including juveniles; request appointment at your first court appearance. The court page says appointed counsel may be the Public Defender or Conflict Counsel.",
+      "todo": "sutter.gov returns 403 to automated fetches; address/phone taken from search-index text of the official page — confirm in a browser. Hours not found."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "California Rural Legal Assistance (CRLA) — Marysville office",
+      "serves": "Low-income residents (office is in neighboring Marysville, Yuba County)",
+      "what": "Civil legal aid; CRLA's site lists 'Criminal Record Clearing' among its help categories. Office page does not list which counties it serves or detail record-clearing services. Not criminal defense on open cases.",
+      "phone": "(530) 742-5191",
+      "url": "https://crla.org/locations/marysville",
+      "source_url": "https://crla.org/locations/marysville",
+      "verified_on": "2026-10-13",
+      "note": "511 D St, Marysville, CA 95901. Tue & Thu 9–12, 1–5; Mon/Wed/Fri by phone or appointment only.",
+      "todo": "Confirm CRLA Marysville serves Sutter County residents and does record clearing there."
+    },
+    {
+      "name": "Sutter Superior Court Self-Help Center",
+      "serves": "Self-represented people in Sutter County",
+      "what": "Free help with family law, child support, guardianship, small claims and CARE Act petitions. Its page says it helps with non-criminal problems — does not mention record clearing.",
+      "phone": "(530) 822-3305",
+      "url": "https://www.sutter.courts.ca.gov/self-help",
+      "source_url": "https://www.sutter.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13",
+      "note": "Mon–Fri 8:30 a.m.–3:30 p.m. (in person and phone)."
+    }
+  ],
+  "probation": [
+    {
+      "name": "Sutter County Probation — Adult Probation & Adult Resource Center",
+      "address": "595 Boyd Street",
+      "city": "Yuba City",
+      "zip": "95991",
+      "phone": "(530) 822-7320",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m. (except holidays)",
+      "url": "https://www.sutter.gov/government/county-departments/probation",
+      "source_url": "https://www.sutter.gov/government/county-departments/probation",
+      "verified_on": "2026-10-13",
+      "note": "Fax (530) 822-7470. Monthly reports may be emailed to suttermonthlyreports@sutter.gov. Juvenile probation is separate: 430 Center Street, (530) 822-4371.",
+      "todo": "sutter.gov returns 403 to automated fetches; details from search-index text of the official page — confirm in a browser."
+    }
+  ],
+  "programs": [
+    {
+      "id": "pretrial",
+      "name": "Pretrial Services (Sutter County Probation)",
+      "type": "pretrial",
+      "summary": "Probation runs a Pretrial Services Program (started 2013) and, per its SB 36/AB 3364 compliance page, uses the Public Safety Assessment (PSA) risk tool and gives that information to the court for release decisions.",
+      "phone": "(530) 822-7320",
+      "url": "https://www.sutter.gov/government/county-departments/probation/sb-36-and-ab-3364",
+      "source_url": "https://www.sutter.gov/government/county-departments/probation/sb-36-and-ab-3364",
+      "verified_on": "2026-10-13",
+      "todo": "Page blocked automated fetch; check-in conditions not published."
+    },
+    {
+      "id": "adult-drug-court",
+      "name": "Adult Drug Court / Prop 36 Supervision",
+      "type": "collaborative_court",
+      "summary": "Sutter County Probation lists an Adult Drug Court and Proposition 36 Supervision among its specialized programs. The court's own website does not describe a drug court. Ask your attorney about eligibility.",
+      "url": "https://www.sutter.gov/government/county-departments/probation",
+      "source_url": "https://www.sutter.gov/government/county-departments/probation",
+      "verified_on": "2026-10-13",
+      "todo": "Found only in search-index text of Sutter County pages (blocked to direct fetch); eligibility, schedule and contact unconfirmed."
+    },
+    {
+      "id": "self-help",
+      "name": "Court Self-Help Center",
+      "type": "self_help",
+      "summary": "Free information for people without a lawyer (family, child support, guardianship, small claims, CARE Act). Not for criminal defense.",
+      "phone": "(530) 822-3305",
+      "url": "https://www.sutter.courts.ca.gov/self-help",
+      "source_url": "https://www.sutter.courts.ca.gov/self-help",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "sutter-main-jail",
+      "name": "Sutter County Jail (Main Jail)",
+      "address": "1077 Civic Center Blvd., Yuba City, CA 95993",
+      "city": "Yuba City",
+      "zip": "95993",
+      "houses": "both",
+      "phone": "(530) 822-7300",
+      "phone_note": "Jail Division main line. Commissary packages via Access Securepak 1-800-546-6283. Phone account deposits 1-800-844-6591 (24/7).",
+      "visiting_url": "https://www.suttersheriff.gov/divisions/jail-division/corrections-section/inmate-custody-services/visiting-hours",
+      "commissary_or_money_url": "https://www.suttersheriff.gov/divisions/jail-division/corrections-section/inmate-custody-services/commissary",
+      "court_ids": ["sutter-courthouse"],
+      "url": "https://www.suttersheriff.gov/divisions/jail-division",
+      "source_url": "https://www.suttersheriff.gov/divisions/jail-division/corrections-section/inmate-custody-services/visiting-hours",
+      "verified_on": "2026-10-13",
+      "note": "Visiting schedule lists both Male and Female General Population (houses both). Visits are non-contact, 30 minutes, sign up in person before visiting hours. Jail accepts money for an incarcerated person's account 24 hours a day. The county has only one courthouse, so in-custody cases are heard there (custody arraignments daily 3:00 p.m.).",
+      "todo": "suttersheriff.gov returns 403 to automated fetches; details from search-index text of official pages — confirm in a browser."
+    },
+    {
+      "id": "tri-county-ydc",
+      "name": "Tri-County Youth Development Center (Tri-County Youth Rehabilitation Campus)",
+      "address": "938 14th Street, Marysville, CA 95901",
+      "city": "Marysville",
+      "zip": "95901",
+      "houses": "juvenile",
+      "phone": "(530) 741-6371",
+      "phone_note": "Ext. 2 Juvenile Hall, ext. 3 Camp Singer.",
+      "visiting_url": "https://www.yuba.gov/departments/probation/youth_campus/visits_mails.php",
+      "commissary_or_money_url": null,
+      "court_ids": ["sutter-courthouse"],
+      "url": "https://www.yuba.gov/departments/probation/youth_campus/index.php",
+      "source_url": "https://www.yuba.gov/departments/probation/youth_campus/index.php",
+      "verified_on": "2026-10-13",
+      "note": "Run by Yuba County Probation; campus serves Yuba, Sutter and Colusa counties (32-bed secure detention). Located in Yuba County. Court mapping is nearest, not confirmed — Sutter juvenile cases are Sutter Superior Court cases."
+    }
+  ],
+  "inmate_lookup_url": "https://www.suttersheriff.gov/divisions/jail-division/corrections-section/inmate-custody-services/custody-status",
+  "inmate_lookup_note": "Sheriff's 'Incarcerated Person Search' (charges, bail, visiting schedule) is linked from this page; VINELink (vinelink.com → California → Sutter County) also shows custody status and offers alerts.",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "Use the CA Department of Insurance license check to confirm any bail agent is licensed. Court bail schedules: https://www.sutter.courts.ca.gov/forms-filing/bail-schedules. The judge may raise, lower or set bail at arraignment. Where/how to post cash bail at the Sutter County Jail was not confirmed from an official page.",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "todo": "Confirm Sutter jail cash-bail posting hours/payment types."
+  }
+}

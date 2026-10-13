@@ -1,0 +1,253 @@
+{
+  "state": "CA",
+  "county": "Siskiyou",
+  "slug": "siskiyou",
+  "court_name": "Superior Court of California, County of Siskiyou",
+  "court_website": "https://www.siskiyou.courts.ca.gov/",
+  "case_search_url": "https://caseportal.siskiyou.courts.ca.gov/",
+  "case_search_note": "Court 'Case Information' portal, linked from the court home page and from the County Public Defender page. Which criminal documents are viewable online was not confirmed.",
+  "sources": [
+    {
+      "title": "Siskiyou Superior Court — Home",
+      "url": "https://www.siskiyou.courts.ca.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Siskiyou Superior Court — Locations",
+      "url": "https://www.siskiyou.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Siskiyou Superior Court — Siskiyou County Superior Court location page",
+      "url": "https://www.siskiyou.courts.ca.gov/location/siskiyou-county-superior-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Siskiyou Superior Court — Criminal Division",
+      "url": "https://www.siskiyou.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Siskiyou Superior Court — Collaborative Courts",
+      "url": "https://www.siskiyou.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Siskiyou County — Public Defender's Office",
+      "url": "https://www.siskiyoucounty.gov/public-defender",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Siskiyou County — Probation",
+      "url": "https://www.siskiyoucounty.gov/probation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Siskiyou County — Probation Contact Information",
+      "url": "https://www.siskiyoucounty.gov/probation/custom-contact-page/probation-contact-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Siskiyou County Sheriff — Contact Information",
+      "url": "https://www.siskiyoucounty.gov/police/custom-contact-page/police-contact-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Siskiyou County Sheriff — Custody Division (Jail)",
+      "url": "https://www.siskiyoucounty.gov/custodydivision",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Siskiyou County Sheriff — Jail Visitation Schedule",
+      "url": "https://www.siskiyoucounty.gov/custodydivision/page/jail-visitation-schedule",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Siskiyou County Sheriff — Commissary (Access Securepak)",
+      "url": "https://www.siskiyoucounty.gov/custodydivision/page/commissary-access-securepak",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Siskiyou County Sheriff — Inmate Orientation Manual (updated 3/5/25, .docx)",
+      "url": "https://www.siskiyoucounty.gov/sites/default/files/fileattachments/custody_division/page/1481/inmate_orientation_manual-accessible.docx",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Legal Services of Northern California — Redding office",
+      "url": "https://lsnc.net/office/redding",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check an Agent/Broker license",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "yreka",
+      "name": "Siskiyou County Superior Court (Yreka Courthouse)",
+      "address": "411 Fourth Street",
+      "city": "Yreka",
+      "zip": "96097",
+      "phone": "(530) 842-0411",
+      "criminal_phone": null,
+      "hours": "Office: Mon–Fri 8:00 a.m.–12:00 p.m. and 1:00–5:00 p.m. Phones generally 8–12 and 1–4 (Traffic phones 10–12 and 1–3).",
+      "criminal": true,
+      "note": "The only courthouse location the court lists. Divisions: Criminal, Traffic & Other Infractions, Civil, Family Law, Small Claims, Collaborative Courts. Criminal arraignments, misdemeanor, felony and traffic matters are all handled here.",
+      "departments": [],
+      "source_url": "https://www.siskiyou.courts.ca.gov/location/siskiyou-county-superior-court",
+      "verified_on": "2026-10-13",
+      "todo": "No separate criminal clerk phone on the official site (a third-party directory lists (530) 842-8182 — not verified). Department numbers/assignments not published on pages loaded."
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Siskiyou County Public Defender's Office",
+      "address": "320 South Oregon Street",
+      "city": "Yreka",
+      "zip": "96097",
+      "phone": "(530) 842-8105",
+      "toll_free": null,
+      "email": null,
+      "hours": "Mon–Fri 8:00 a.m.–12:00 p.m. and 1:00–4:00 p.m.",
+      "url": "https://www.siskiyoucounty.gov/public-defender",
+      "source_url": "https://www.siskiyoucounty.gov/public-defender",
+      "verified_on": "2026-10-13",
+      "note": "County-run office. Represents indigent adults charged with felonies or misdemeanors and juveniles, on appointment by the judge (ask at your first court appearance; you fill out a financial form). Does not handle infractions, civil or family law. Fax (530) 842-0135. Public Defender: Lael Kayfetz."
+    },
+    {
+      "name": "Siskiyou County Conflict Panel (private attorneys)",
+      "address": null,
+      "city": null,
+      "zip": null,
+      "phone": null,
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.siskiyoucounty.gov/public-defender",
+      "source_url": "https://www.siskiyoucounty.gov/public-defender",
+      "verified_on": "2026-10-13",
+      "note": "When the Public Defender has a conflict, the case goes to the Conflict Panel of local private attorneys, assigned by the Conflict Administrator.",
+      "todo": "Conflict Administrator contact not published on the county page"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Legal Services of Northern California — Redding Office",
+      "serves": "Low-income residents of Lassen, Modoc, Shasta, Siskiyou and Tehama counties",
+      "what": "Civil legal aid: housing, public benefits, education rights, health benefits, grandparent guardianship. The Redding office page does NOT list criminal record remedies or criminal defense.",
+      "phone": "(530) 241-3565",
+      "url": "https://lsnc.net/office/redding",
+      "source_url": "https://lsnc.net/office/redding",
+      "verified_on": "2026-10-13",
+      "note": "1370 West Street, Redding, CA 96001. Toll-free (800) 822-9687. Evening intake message line (866) 815-5990."
+    },
+    {
+      "name": "Siskiyou County Bar — Private Attorneys list",
+      "serves": "Anyone",
+      "what": "Link to private attorneys, provided on the County Public Defender page. Fees apply.",
+      "phone": null,
+      "url": "http://www.sisqlawbar.org/home-page.html",
+      "source_url": "https://www.siskiyoucounty.gov/public-defender",
+      "verified_on": "2026-10-13",
+      "todo": "Bar site itself not loaded/verified"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Siskiyou County Probation — Adult Division",
+      "address": "269 Sharps Road",
+      "city": "Yreka",
+      "zip": "96097",
+      "phone": "(530) 841-4155",
+      "hours": null,
+      "url": "https://www.siskiyoucounty.gov/probation",
+      "source_url": "https://www.siskiyoucounty.gov/probation/custom-contact-page/probation-contact-information",
+      "verified_on": "2026-10-13",
+      "note": "New address since Dec 29, 2025; the old adult office at 805 Juvenile Lane closed Dec 26, 2025 (contact page 'Directions' still shows the old address). Fax (530) 841-4157.",
+      "todo": "Office hours not listed on the county probation pages"
+    },
+    {
+      "name": "Siskiyou County Probation — Juvenile Division",
+      "address": "269 Sharps Road",
+      "city": "Yreka",
+      "zip": "96097",
+      "phone": "(530) 841-4180",
+      "hours": null,
+      "url": "https://www.siskiyoucounty.gov/probation",
+      "source_url": "https://www.siskiyoucounty.gov/probation/custom-contact-page/probation-contact-information",
+      "verified_on": "2026-10-13",
+      "note": "Fax (530) 841-4188. Juvenile Day Reporting Center ('Charlie's Place').",
+      "todo": "Office hours not listed"
+    }
+  ],
+  "programs": [
+    {
+      "id": "adult-drug-court",
+      "name": "Adult Drug Court / Adult Recovery Court",
+      "type": "collaborative_court",
+      "summary": "Alternative to incarceration for eligible defendants through a partnership of the court, probation, behavioral health, legal and law enforcement agencies. The court page says eligibility criteria apply but does not list them.",
+      "url": "https://www.siskiyou.courts.ca.gov/divisions/collaborative-courts/adult-drug-court-or-adult-recovery-court",
+      "source_url": "https://www.siskiyou.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "mental-health-court",
+      "name": "Mental Health Court",
+      "type": "collaborative_court",
+      "summary": "Treatment and rehabilitative services for defendants with mental illness as an alternative to the traditional court process.",
+      "url": "https://www.siskiyou.courts.ca.gov/divisions/collaborative-courts/mental-health-court",
+      "source_url": "https://www.siskiyou.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "veterans-court",
+      "name": "Veterans Court",
+      "type": "collaborative_court",
+      "summary": "Resolves veterans' criminal cases through treatment and support, with frequent meetings with a judicial officer, other veterans, providers and mentors.",
+      "url": "https://www.siskiyou.courts.ca.gov/divisions/collaborative-courts/veterans-court",
+      "source_url": "https://www.siskiyou.courts.ca.gov/divisions/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "drc-alt-sentencing",
+      "name": "Sheriff's Day Reporting Center / Alternative Sentencing (Alternative Work Program)",
+      "type": "alternative_sentencing",
+      "summary": "The Sheriff's Custody Division lists a Day Reporting Center and Alternative Sentencing page and a Sheriff's Alternative Work Program application. Eligibility not summarized here — ask your attorney or the jail.",
+      "url": "https://www.siskiyoucounty.gov/custodydivision/page/day-reporting-center-and-alternative-sentencing",
+      "source_url": "https://www.siskiyoucounty.gov/custodydivision",
+      "verified_on": "2026-10-13",
+      "todo": "DRC page content itself not loaded"
+    }
+  ],
+  "jails": [
+    {
+      "id": "siskiyou-county-jail",
+      "name": "Siskiyou County Jail",
+      "address": "315 South Oregon Street, Yreka, CA 96097",
+      "city": "Yreka",
+      "zip": "96097",
+      "phone": "(530) 842-8157",
+      "phone_note": "Jail line per Custody Division page. Sheriff HQ (305 Butte St.): (530) 842-8300; Records (530) 842-8301 / 8303.",
+      "houses": "both",
+      "url": "https://www.siskiyoucounty.gov/custodydivision",
+      "visiting_url": "https://www.siskiyoucounty.gov/custodydivision/page/jail-visitation-schedule",
+      "commissary_or_money_url": "https://www.siskiyoucounty.gov/custodydivision/page/commissary-access-securepak",
+      "court_ids": [
+        "yreka"
+      ],
+      "note": "County's only adult jail (104 beds; holds pre-trial felons and sentenced misdemeanor and felony inmates). 'both' is based on the Sheriff's Inmate Orientation Manual, which has separate Women/Female and Men/Male worker sections. Visits are non-contact in room V-1, by housing unit; 18+ (immediate family minors with an adult). Money deposits via JailATM (http://www.JailATM.com, linked by the Sheriff); commissary packages via Access Securepak. Court is the only courthouse in the county (nearest, not confirmed by the Sheriff). Juveniles needing detention are held at the Tehama County Juvenile Detention Facility in Red Bluff per Siskiyou Probation.",
+      "source_url": "https://www.siskiyoucounty.gov/custodydivision",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "inmate_lookup_url": "https://www.siskiyoucounty.gov/custodydivision/webform/custody-information",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' — look up a bail agent's license status before signing anything. Siskiyou Sheriff pages loaded do not describe where/how to post cash bail; call the jail at (530) 842-8157.",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "todo": "Sheriff bail-posting procedure not published on pages loaded"
+  }
+}

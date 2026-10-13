@@ -1,0 +1,190 @@
+{
+  "state": "CA",
+  "county": "Lassen",
+  "slug": "lassen",
+  "court_name": "Superior Court of California, County of Lassen",
+  "court_website": "https://www.lassen.courts.ca.gov/",
+  "case_search_url": "https://cms.lassencourt.ca.gov/fullcourtweb/start.do",
+  "case_search_note": "Case Index & Calendar Portal (linked from https://www.lassen.courts.ca.gov/online-services/case-index-calendar-portal). Covers non-confidential cases filed after about 1994, including criminal and traffic; shows calendars, docket (Register of Actions), fines owed. Court says it is for reference only, not the official record, and may lag several days. Most in-custody defendants are added to the calendar the morning of court and may not appear online.",
+  "sources": [
+    {
+      "title": "Lassen Superior Court — Home",
+      "url": "https://www.lassen.courts.ca.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Lassen Superior Court — Locations",
+      "url": "https://www.lassen.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Lassen Superior Court — Criminal Division",
+      "url": "https://www.lassen.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Lassen Superior Court — Case Index & Calendar Portal",
+      "url": "https://www.lassen.courts.ca.gov/online-services/case-index-calendar-portal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Lassen Superior Court — Legal Resources",
+      "url": "https://www.lassen.courts.ca.gov/self-help/legal-resources",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Lassen County — Sheriff's Office",
+      "url": "https://www.lassencounty.gov/386/Sheriffs-Office",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Lassen County — Adult Detention Facility (Jail)",
+      "url": "https://www.lassencounty.gov/388/Adult-Detention-Facility-Jail",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Lassen County — Departments",
+      "url": "https://www.lassencounty.gov/31/Departments",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Lassen County — Probation",
+      "url": "https://www.lassencounty.gov/373/Probation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Lassen County — Probation directory entry",
+      "url": "https://www.lassencounty.gov/m/directory/department?did=67",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Lassen County — Department directory",
+      "url": "https://www.lassencounty.gov/Directory.aspx",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Legal Services of Northern California — Redding office",
+      "url": "https://lsnc.net/office/redding",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check an Agent/Broker license",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "hall-of-justice",
+      "name": "Hall of Justice",
+      "address": "2610 Riverside Drive",
+      "city": "Susanville",
+      "zip": "96130",
+      "phone": "(530) 251-8205",
+      "criminal_phone": "(530) 251-8205",
+      "hours": "Building: Mon–Fri 8:00 a.m.–4:00 p.m. Phone: Mon–Fri 8:00 a.m.–12:00 p.m. and 1:00–4:00 p.m.",
+      "criminal": true,
+      "note": "Only courthouse in Lassen County; hears all case types including criminal (felony/misdemeanor), traffic, juvenile, family, civil, probate. For criminal clerk press 1 (case information) then 2 (Criminal). In-custody arraignments held daily as needed here. Warrant clear calendars Mondays and Fridays (times on the court's Law & Motion Calendars page). Staff will not look up criminal records by phone.",
+      "departments": [],
+      "source_url": "https://www.lassen.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13",
+      "todo": "Department/courtroom list not published on pages loaded."
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Lassen County Public Defender (court-appointed counsel)",
+      "address": null,
+      "city": "Susanville",
+      "zip": null,
+      "phone": null,
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://co.lassen.ca.us/dept/public-defender/public-defender-home",
+      "note": "Court's Criminal Division page: a public defender may be appointed for eligible defendants who cannot afford an attorney; ask the judge at your first appearance and complete a financial declaration; a reimbursement hearing at the end of the case decides whether you repay costs. Ability-to-pay questions: Office of Recovery & Reimbursement (530) 251-8227. Public Defender is NOT listed on the current lassencounty.gov Departments page, and the court's link to the old co.lassen.ca.us PD page fails (bad certificate).",
+      "source_url": "https://www.lassen.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13",
+      "todo": "Confirm whether Lassen uses a county PD office or contract attorneys, plus address/phone. A third-party directory (Justia) lists 220 S Lassen St Ste 1, (530) 251-8312 — NOT verified on an official page."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Legal Services of Northern California — Redding Office (Shasta Regional)",
+      "serves": "Lassen, Modoc, Shasta, Siskiyou and Tehama counties (civil legal aid)",
+      "what": "Civil legal aid: housing, public benefits, education rights, healthcare benefits, guardianship help for grandparents 55+. Office page does not list criminal defense or record clearing.",
+      "phone": "(530) 241-3565",
+      "toll_free": "(800) 822-9687",
+      "address": "1370 West Street, Redding, CA 96001",
+      "hours": "Intake Mon, Tue, Wed, Fri 9:00–11:45 a.m. and 1:00–4:45 p.m.",
+      "url": "https://lsnc.net/office/redding",
+      "source_url": "https://lsnc.net/office/redding",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "California Courts Self-Help — Clean Your Record",
+      "serves": "Anyone with a California conviction",
+      "what": "Statewide guide to expungement (PC 1203.4, forms CR-180/CR-181) and certificates of rehabilitation; linked from the Lassen court's Criminal Division page.",
+      "phone": null,
+      "url": "https://selfhelp.courts.ca.gov/clean-your-record",
+      "source_url": "https://www.lassen.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Lassen County Probation Department",
+      "address": "2950 Riverside Dr, Suite 101",
+      "city": "Susanville",
+      "zip": "96130",
+      "phone": "(530) 251-8212",
+      "fax": "(530) 257-9160",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.; closed Sat–Sun",
+      "url": "https://www.lassencounty.gov/373/Probation",
+      "note": "Supervises adult offenders; county page says Probation also operates the county's juvenile detention/residential treatment facilities and home supervision program (no address given). Court lists 'Probation Pretrial Resources' under Justice Partners but that page is login-only.",
+      "source_url": "https://www.lassencounty.gov/m/directory/department?did=67",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "programs": [
+    {
+      "id": "ability-to-pay",
+      "name": "Ability to Pay / Financial Hardship (traffic & criminal fines)",
+      "type": "fines",
+      "summary": "If you cannot pay fines in full within 7 business days, report to the Office of Recovery & Reimbursement ((530) 251-8227). Court has a Financial Hardship page under Traffic.",
+      "phone": "(530) 251-8227",
+      "url": "https://www.lassen.courts.ca.gov/divisions/traffic/financial-hardship",
+      "source_url": "https://www.lassen.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "lassen-adf",
+      "name": "Lassen County Adult Detention Facility (Jail)",
+      "address": "1415 Sheriff Cady Lane",
+      "city": "Susanville",
+      "zip": "96130",
+      "phone": "(530) 251-5245",
+      "phone_note": "Jail / inmate information line (per court Criminal page and Sheriff's Office page). Sheriff's Office: (530) 251-8013. Dispatch: (530) 257-6121.",
+      "houses": null,
+      "visiting_url": null,
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "hall-of-justice"
+      ],
+      "note": "Holds pre-trial and sentenced adults; rated capacity 156. Only criminal courthouse in county is the Hall of Justice (in-custody arraignments held there daily as needed).",
+      "url": "https://www.lassencounty.gov/388/Adult-Detention-Facility-Jail",
+      "source_url": "https://www.lassencounty.gov/388/Adult-Detention-Facility-Jail",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff page does not say whether men, women or both are housed, and publishes no visiting, money/commissary or inmate-lookup info — confirm by calling (530) 251-5245. Juvenile facility run by Probation: name/address not published."
+    }
+  ],
+  "inmate_lookup_url": null,
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "note": "CA Department of Insurance license lookup for bail agents. Lassen court publishes the Uniform Bail and Penalty Schedules at https://www.lassen.courts.ca.gov/forms-filing/uniform-bail-and-penalty-schedules. Bail may be set or lowered at arraignment, or release on own recognizance requested. todo: Sheriff publishes no bail-payment instructions or online inmate lookup; call the jail (530) 251-5245."
+  }
+}

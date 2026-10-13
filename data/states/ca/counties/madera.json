@@ -1,0 +1,167 @@
+{
+  "state": "CA",
+  "county": "Madera",
+  "slug": "madera",
+  "court_name": "Superior Court of California, County of Madera",
+  "court_website": "https://www.madera.courts.ca.gov/",
+  "case_search_url": "https://madera-prod-portal.ecourt.com/public-portal/",
+  "case_search_note": "Public Portal linked from the court's 'eFiling, DV/GV Petition & Online Case Information' page; searches case data from the court's case management system. Expanded access for parties/attorneys by request at (559) 416-5599. Next-day calendars by department are posted on the same page around 4 p.m.",
+  "sources": [
+    {
+      "title": "Madera Superior Court — Locations & Contact Info",
+      "url": "https://www.madera.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Madera Superior Court — Criminal",
+      "url": "https://www.madera.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Madera Superior Court — Online Case Information",
+      "url": "https://www.madera.courts.ca.gov/online-services/efiling-dvgv-petition-online-case-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Madera Superior Court — Fee & Bail Schedules",
+      "url": "https://www.madera.courts.ca.gov/forms-filing/fee-bail-schedules",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Madera County Jail (Sheriff's Office – Jail)",
+      "url": "https://www.maderacounty.com/government/corrections",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Madera County Jail — Business/Visiting Hours",
+      "url": "https://www.maderacounty.com/government/corrections/business-visiting-hours",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Madera County Jail — Visiting Information",
+      "url": "https://www.maderacounty.com/government/corrections/visiting-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Madera County Jail — Deposit Incarcerated Person Funds",
+      "url": "https://www.maderacounty.com/government/corrections/deposit-inmate-funds",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Madera County Probation — Adult Services Division",
+      "url": "https://www.maderacounty.com/government/probation/adult-services-division",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "madera",
+      "name": "Madera Superior Court",
+      "address": "200 South G Street",
+      "city": "Madera",
+      "zip": "93637",
+      "phone": "(559) 416-5599",
+      "hours": "Clerk's windows 8:00 a.m.–3:00 p.m.; drop boxes 3:00–4:00 p.m.; phones 8:00 a.m.–3:00 p.m.; Mon–Fri except court holidays",
+      "criminal": true,
+      "note": "The court lists one courthouse. Criminal Division (559) 416-5550; Traffic (559) 416-5555; Juvenile (559) 416-5580; Self-Help Center (559) 416-5520. Felony and misdemeanor cases and traffic are handled here. The court posted a 'New Location for the Juvenile Division' notice that was not readable.",
+      "departments": [],
+      "source_url": "https://www.madera.courts.ca.gov/location/madera-superior-court",
+      "verified_on": "2026-10-13",
+      "todo": "Juvenile Division's new address not captured"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Madera County public defender (court-appointed counsel)",
+      "address": null,
+      "city": null,
+      "zip": null,
+      "phone": null,
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": null,
+      "source_url": "https://www.madera.courts.ca.gov/divisions/criminal",
+      "note": "The court's Criminal page says an attorney is appointed at arraignment if you qualify, and Madera County Revenue Services then decides whether you must pay part of the fees.",
+      "todo": "No public defender office page found on maderacounty.com; Madera appears to provide indigent defense by contract — office name, address and phone not verified",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Madera Superior Court Self-Help Center",
+      "serves": "Self-represented people",
+      "what": "Court self-help (forms and information, not legal advice). The court's Criminal page explains 1203.4 expungement motions and links local forms.",
+      "phone": "(559) 416-5520",
+      "email": null,
+      "url": "https://www.madera.courts.ca.gov/self-help",
+      "source_url": "https://www.madera.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Madera County Probation — Adult Services Division",
+      "address": "300 S. G Street, Suite 100",
+      "city": "Madera",
+      "zip": "93637",
+      "phone": "(559) 675-2488",
+      "hours": null,
+      "url": "https://www.maderacounty.com/government/probation",
+      "source_url": "https://www.maderacounty.com/government/probation/adult-services-division",
+      "note": "Contact block shown on the Adult Services Division page. Fax (559) 661-0040.",
+      "todo": "Office hours and pretrial unit details not found",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "programs": [
+    {
+      "id": "madera-mycitations",
+      "name": "MyCitations — Ability to Pay",
+      "type": "fines",
+      "summary": "Online tool (linked from the court's Criminal page) to ask for a payment plan, more time, community service, or a reduced fine on infractions if you have a financial hardship.",
+      "phone": null,
+      "url": "https://mycitations.courts.ca.gov/home",
+      "source_url": "https://www.madera.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "madera-ccctp",
+      "name": "Correctional Community Transitional Program",
+      "type": "reentry",
+      "summary": "Jail reentry program listed on the Madera County Jail site. Details not reviewed.",
+      "phone": null,
+      "url": "https://www.maderacounty.com/government/corrections/correctional-community-transitional-program",
+      "source_url": "https://www.maderacounty.com/government/corrections",
+      "todo": "Program description not read",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "madera-county-jail",
+      "name": "Madera County Jail",
+      "address": "195 Tozer St.",
+      "city": "Madera",
+      "zip": "93638",
+      "phone": "(559) 675-7951",
+      "phone_note": "Fax (559) 675-7991. Administration Mon–Fri 8:00 a.m.–5:00 p.m. Run by the Madera County Sheriff's Office – Jail Division. Visiting 7 days a week 8:00 a.m.–4:30 p.m. (weekends closed 12–1) through the JailATM.com video platform; on-site visits are scheduled in the front lobby. Mail goes to P.O. Box 16120, Jonesboro, AR 72401 with name and booking number.",
+      "houses": null,
+      "visiting_url": "https://www.maderacounty.com/government/corrections/visiting-information",
+      "commissary_or_money_url": "https://www.maderacounty.com/government/corrections/deposit-inmate-funds",
+      "court_ids": [
+        "madera"
+      ],
+      "court_ids_note": "Only courthouse in the county; not confirmed by the Sheriff.",
+      "url": "https://www.maderacounty.com/government/corrections",
+      "source_url": "https://www.maderacounty.com/government/corrections",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff's page does not state whether men, women or both are housed (it appears to be the county's only adult jail). Older third-party listings give 14191 Road 28 — the county page now shows 195 Tozer St."
+    }
+  ],
+  "inmate_lookup_url": null,
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "Before paying a bail agent, check that their license is active using the California Department of Insurance license lookup (search by name or license number). Madera Superior Court's felony bail schedule (including specified misdemeanors) is on its Fee & Bail Schedules page: https://www.madera.courts.ca.gov/forms-filing/fee-bail-schedules. Cash bail refunds are processed automatically on court order and take about 6–8 weeks. Inmate accounts are funded through JailATM (lobby kiosk at 195 Tozer St. or JailATM.com). This is information only, not legal advice."
+  }
+}

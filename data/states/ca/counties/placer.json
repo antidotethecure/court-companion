@@ -1,0 +1,359 @@
+{
+  "state": "CA",
+  "county": "Placer",
+  "slug": "placer",
+  "court_name": "Superior Court of California, County of Placer",
+  "court_website": "https://www.placer.courts.ca.gov/",
+  "case_search_url": "https://webportal.placerco.org/eCourtPublic",
+  "case_search_note": "Online Portal linked from placer.courts.ca.gov/online-services/online-case-access. Covers Criminal, Civil, Traffic and Family Law by case/citation number. You must accept a disclaimer; the court says the most current filings may not be in the system and you should verify against your court paperwork.",
+  "sources": [
+    {"title": "Placer Superior Court — Locations & Contact Info", "url": "https://www.placer.courts.ca.gov/general-information/locations-contact-info", "verified_on": "2026-10-13"},
+    {"title": "Placer Superior Court — Hours and Holidays", "url": "https://www.placer.courts.ca.gov/general-information/hours-and-holidays", "verified_on": "2026-10-13"},
+    {"title": "Placer Superior Court — Judicial Assignments", "url": "https://www.placer.courts.ca.gov/general-information/judicial-assignments", "verified_on": "2026-10-13"},
+    {"title": "Placer Superior Court — Criminal Division", "url": "https://www.placer.courts.ca.gov/divisions/criminal", "verified_on": "2026-10-13"},
+    {"title": "Placer Superior Court — Online Case Access", "url": "https://www.placer.courts.ca.gov/online-services/online-case-access", "verified_on": "2026-10-13"},
+    {"title": "Placer Superior Court — Jail Courtroom FAQs", "url": "https://www.placer.courts.ca.gov/general-information/locations-contact-info/jail-courtroom-faqs", "verified_on": "2026-10-13"},
+    {"title": "Placer Superior Court — Self-Help Center", "url": "https://www.placer.courts.ca.gov/self-help/self-help-center", "verified_on": "2026-10-13"},
+    {"title": "Placer County Sheriff — Corrections", "url": "https://www.placer.ca.gov/2480/Corrections", "verified_on": "2026-10-13"},
+    {"title": "Placer County Sheriff — Auburn Jail", "url": "https://www.placer.ca.gov/2482/Auburn-Jail", "verified_on": "2026-10-13"},
+    {"title": "Placer County Sheriff — South Placer Jail", "url": "https://www.placer.ca.gov/2483/South-Placer-Jail", "verified_on": "2026-10-13"},
+    {"title": "Placer County Sheriff — Our Jails (visiting)", "url": "https://www.placer.ca.gov/2527/Our-Jails", "verified_on": "2026-10-13"},
+    {"title": "Placer County Sheriff — Personal Visitors", "url": "https://www.placer.ca.gov/2525/Personal-Visitors", "verified_on": "2026-10-13"},
+    {"title": "Placer County Sheriff — Inmate Rules & Information (funds)", "url": "https://www.placer.ca.gov/2486/Inmate-Rules-Information", "verified_on": "2026-10-13"},
+    {"title": "Placer County Sheriff — Posting Bail", "url": "https://www.placer.ca.gov/2492/Posting-Bail", "verified_on": "2026-10-13"},
+    {"title": "Placer County FAQ — Placer Dispute Resolution location (mentions Public Defender's offices)", "url": "https://www.placer.ca.gov/m/FAQ#question-1764", "verified_on": "2026-10-13"},
+    {"title": "Placer County FAQ — Public Defender billing", "url": "https://www.placer.ca.gov/FAQ.aspx?QID=596", "verified_on": "2026-10-13"},
+    {"title": "Placer County FAQ — Assigned Counsel Program", "url": "https://www.placer.ca.gov/FAQ.aspx?QID=1054", "verified_on": "2026-10-13"},
+    {"title": "Placer County Probation — Contact Us", "url": "https://www.placer.ca.gov/7297/Contact-Us", "verified_on": "2026-10-13"},
+    {"title": "Placer County Probation — Pre-Trial", "url": "https://www.placer.ca.gov/7432/Pre-Trial", "verified_on": "2026-10-13"},
+    {"title": "Placer County Probation — Collaborative Court", "url": "https://www.placer.ca.gov/11072/Collaborative-Court", "verified_on": "2026-10-13"},
+    {"title": "Placer County Probation — Adult Court Services", "url": "https://www.placer.ca.gov/7435/Adult-Court-Services", "verified_on": "2026-10-13"},
+    {"title": "Placer County Probation — Juvenile Detention", "url": "https://www.placer.ca.gov/7425/Juvenile-Detention", "verified_on": "2026-10-13"},
+    {"title": "Legal Services of Northern California — Auburn office", "url": "https://lsnc.net/office/auburn", "verified_on": "2026-10-13"},
+    {"title": "CA Dept. of Insurance — Check an Agent/Broker license", "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm", "verified_on": "2026-10-13"}
+  ],
+  "courthouses": [
+    {
+      "id": "gibson",
+      "name": "Hon. Howard G. Gibson Courthouse (Main Courthouse)",
+      "address": "10820 Justice Center Drive",
+      "city": "Roseville",
+      "zip": "95678",
+      "phone": "(916) 408-6000",
+      "criminal_phone": "(916) 408-6000 option 4",
+      "hours": "Clerk's Office Mon–Fri 8:00 a.m.–4:00 p.m.; building 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Main courthouse (Santucci Justice Center). Departments 30–44. Per the Judicial Assignments page: Dept. 30 traffic, criminal misdemeanor (odd/even days) and non-traffic infractions; Dept. 31 felony/trials, misdemeanor and felony DV, felony L&M, Veterans Court (2nd Fri); Dept. 32 criminal misdemeanor/trials; Dept. 33 misdemeanor DUI, Recovery Court & Prop 36 (1st/3rd/4th Fri), CARE Court; Dept. 43 and 44 trials/criminal, Community Court (Dept. 44, 1st & 3rd Fri); Depts. 40–42 family law. Self-Help Center is here. Assignments rotate.",
+      "departments": [
+        {"id": "30", "label": "Department 30", "type": "Traffic / Criminal misdemeanor / Non-traffic infractions", "note": "Mon–Tue traffic; Wed criminal; Thu misd. odd; Fri misd. even (per assignments page)."},
+        {"id": "31", "label": "Department 31", "type": "Criminal felony / DV / Trials", "note": "Includes felony L&M (1st, 3rd, 4th & 5th) and Veterans Court (2nd)."},
+        {"id": "32", "label": "Department 32", "type": "Criminal misdemeanor / Trials", "note": null},
+        {"id": "33", "label": "Department 33", "type": "Criminal misdemeanor DUI / Recovery Court / Prop 36", "note": "1st & 3rd CARE Court; 1st, 3rd & 4th Recovery Court & Prop 36."},
+        {"id": "43", "label": "Department 43", "type": "Trials / Criminal", "note": "3rd: appeal hearings."},
+        {"id": "44", "label": "Department 44", "type": "Trials / Criminal", "note": "1st & 3rd Friday Community Court."}
+      ],
+      "departments_source_url": "https://www.placer.courts.ca.gov/general-information/judicial-assignments",
+      "source_url": "https://www.placer.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "jail-courtroom",
+      "name": "Superior Court Jail Courtroom (Department 20)",
+      "address": "11801 Go For Broke Road",
+      "city": "Roseville",
+      "zip": "95678",
+      "phone": "(916) 408-6000",
+      "criminal_phone": "(916) 408-6000 option 4",
+      "hours": "Building 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Department 20 hears criminal matters every weekday, split by the last digit of the case number (Mon 0&1, Tue 2&3, Wed 4&5, Thu 6&7, Fri 8&9). Same street address the Sheriff lists for the South Placer Jail. No clerk's office here — file at Gibson, Historic or Tahoe courthouse.",
+      "departments": [
+        {"id": "20", "label": "Department 20", "type": "Criminal (in-custody calendar by case-number ending)", "note": null}
+      ],
+      "departments_source_url": "https://www.placer.courts.ca.gov/general-information/judicial-assignments",
+      "source_url": "https://www.placer.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "historic",
+      "name": "Historic Courthouse",
+      "address": "101 Maple Street",
+      "city": "Auburn",
+      "zip": "95603",
+      "phone": "(916) 408-6000",
+      "criminal_phone": null,
+      "hours": "Clerk's Office Mon–Fri 8:00 a.m.–4:00 p.m.; building 8:00 a.m.–4:00 p.m.",
+      "criminal": false,
+      "note": "Departments 1–6 and a Clerk's Office. Assignments page lists these as Civil, Family Support and 'Trials' (type of trial not stated) plus adult truancy and Juvenile Drug Court in Dept. 1 — no regular criminal arraignment calendar listed. Criminal jury trials may be sent here; confirm with the court.",
+      "departments": [],
+      "source_url": "https://www.placer.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13",
+      "todo": "Confirm whether 'Trials' in Depts. 2–4 include criminal jury trials."
+    },
+    {
+      "id": "tahoe",
+      "name": "Superior Court Tahoe Courthouse (Department 14)",
+      "address": "2501 N. Lake Blvd",
+      "city": "Tahoe City",
+      "zip": "96145",
+      "phone": "(530) 584-3460",
+      "criminal_phone": null,
+      "hours": "Clerk's Office Mon–Fri 8:00 a.m.–4:00 p.m.; building 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Dept. 14: Wednesday criminal misdemeanor/traffic, Thursday criminal felony, Friday family/civil; jury trials 2nd Mon/Tue; Drug Court 1st Thursday (per assignments page).",
+      "departments": [
+        {"id": "14", "label": "Department 14", "type": "Criminal misdemeanor/traffic (Wed), felony (Thu), family/civil (Fri)", "note": null}
+      ],
+      "departments_source_url": "https://www.placer.courts.ca.gov/general-information/judicial-assignments",
+      "source_url": "https://www.placer.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "juvenile",
+      "name": "Superior Court Juvenile Courthouse (Department 12)",
+      "address": "11270 B Avenue",
+      "city": "Auburn",
+      "zip": "95603",
+      "phone": "(530) 745-2100",
+      "criminal_phone": null,
+      "hours": "Clerk's window and building 8:00 a.m.–12:00 p.m. and 1:00–4:00 p.m.",
+      "criminal": false,
+      "note": "Juvenile justice (delinquency) and dependency only; no adult criminal cases.",
+      "departments": [
+        {"id": "12", "label": "Department 12", "type": "Juvenile Justice / Dependency", "note": null}
+      ],
+      "departments_source_url": "https://www.placer.courts.ca.gov/general-information/judicial-assignments",
+      "source_url": "https://www.placer.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "dept-50-rocklin",
+      "name": "Superior Court Temporary Courtroom (Department 50)",
+      "address": "Placer County Elections Office, 3715 Atherton Rd.",
+      "city": "Rocklin",
+      "zip": "95765",
+      "phone": "(916) 408-6000",
+      "criminal_phone": null,
+      "hours": null,
+      "criminal": false,
+      "note": "Temporary courtroom; no clerk's office. Judicial Assignments page does not list Dept. 50, so its case types are unknown.",
+      "departments": [],
+      "source_url": "https://www.placer.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13",
+      "todo": "Case types heard in Dept. 50 not published; hours not listed for this site."
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Placer County Public Defender (county-contracted)",
+      "address": "3785 Placer Corporate Drive",
+      "city": "Rocklin",
+      "zip": "95765",
+      "phone": null,
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": null,
+      "source_url": "https://www.placer.ca.gov/m/FAQ#question-1764",
+      "verified_on": "2026-10-13",
+      "note": "Placer County provides public defense through contracts (a primary Public Defender plus conflict firms, and an Assigned Counsel Program when those can't take a case). The county says court-appointed counsel is not free in Placer — you may be billed and can ask for a reduction with pay stubs/financial form.",
+      "todo": "Address comes from a county FAQ naming 'the Placer County Public Defender's offices' (no suite). No official phone or website found; a third-party directory lists Suite 550 and (916) 644-1100 — not verified, left null. Current contractor name not confirmed."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Legal Services of Northern California — Auburn office",
+      "serves": "Low-income residents of Amador, Calaveras, El Dorado, Nevada, Placer and Sierra counties",
+      "what": "Civil legal aid: housing and public benefits (CalWORKs, CalFresh, Medi-Cal, GA, Social Security/SSI, unemployment, SDI). Does not list criminal defense. Office 190 Reamer Street, Auburn 95603. Intake Mon–Thu 9–12 and 1:15–4; evening intake message line (866) 815-5990.",
+      "phone": "(530) 823-7560",
+      "toll_free": "(800) 660-6107",
+      "email": "auburn-office@lsnc.net",
+      "url": "https://lsnc.net/office/auburn",
+      "source_url": "https://lsnc.net/office/auburn",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Placer Superior Court Self-Help Center",
+      "serves": "Self-represented people with cases in, or living in, Placer County",
+      "what": "Free legal and procedural information and help with forms (not legal advice, not confidential). Mostly family, support, evictions, small claims, guardianships and restraining orders, but will try to point you in the right direction on any case type. In person at the Gibson Courthouse, Roseville; phone/video by appointment; email CIC@placer.courts.ca.gov with 'ATTN: Self-Help'.",
+      "phone": "(916) 408-6000",
+      "email": "CIC@placer.courts.ca.gov",
+      "url": "https://www.placer.courts.ca.gov/self-help/self-help-center",
+      "source_url": "https://www.placer.courts.ca.gov/self-help/self-help-center",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Placer County Probation — Auburn (Auburn Justice Center)",
+      "address": "2929 Richardson Drive, Suite B",
+      "city": "Auburn",
+      "zip": "95603",
+      "phone": "(530) 889-7900",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m. (excluding county holidays)",
+      "url": "https://www.placer.ca.gov/1834/Probation-Department",
+      "source_url": "https://www.placer.ca.gov/7297/Contact-Us",
+      "verified_on": "2026-10-13",
+      "note": "Contact page labels this a mailing address."
+    },
+    {
+      "name": "Placer County Probation — Roseville (South Placer Justice Center)",
+      "address": "10810 Justice Center Drive, Suite 170",
+      "city": "Roseville",
+      "zip": "95678",
+      "phone": "(916) 543-7400",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m. (excluding county holidays)",
+      "url": "https://www.placer.ca.gov/1834/Probation-Department",
+      "source_url": "https://www.placer.ca.gov/7297/Contact-Us",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Placer County Probation — Tahoe",
+      "address": "7252 N. Lake Blvd",
+      "city": "Tahoe Vista",
+      "zip": "96148",
+      "phone": "(530) 546-1960",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m. (excluding county holidays)",
+      "url": "https://www.placer.ca.gov/2038/Tahoe-Office",
+      "source_url": "https://www.placer.ca.gov/7297/Contact-Us",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "programs": [
+    {
+      "id": "pretrial",
+      "name": "Probation Pre-Trial Division",
+      "type": "pretrial",
+      "summary": "Probation gives the court jail-release recommendations using a validated pretrial risk tool (VPRAI-R) and supervises pretrial cases assigned by the court; supervision may include GPS or alcohol monitoring.",
+      "url": "https://www.placer.ca.gov/7432/Pre-Trial",
+      "source_url": "https://www.placer.ca.gov/7432/Pre-Trial",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "recovery-court",
+      "name": "Recovery Court",
+      "type": "collaborative_court",
+      "summary": "Alternative sentencing for Placer residents with significant substance use issues who want support in recovery. Court lists it in Dept. 33 (1st, 3rd & 4th Fridays). Court protocol PDF linked from the Criminal Division page.",
+      "url": "https://www.placer.courts.ca.gov/divisions/criminal",
+      "source_url": "https://www.placer.ca.gov/11072/Collaborative-Court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "veterans-court",
+      "name": "Veterans Treatment Court",
+      "type": "collaborative_court",
+      "summary": "Treatment-focused program for justice-involved veterans whose service may have contributed to substance use, mental health or other issues. Court lists it in Dept. 31 (2nd Friday).",
+      "url": "https://www.placer.courts.ca.gov/divisions/criminal",
+      "source_url": "https://www.placer.ca.gov/11072/Collaborative-Court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "mental-health-court",
+      "name": "Mental Health Court",
+      "type": "collaborative_court",
+      "summary": "Intensive case management for people on formal probation diagnosed with a mental health disorder.",
+      "url": "https://www.placer.courts.ca.gov/divisions/criminal",
+      "source_url": "https://www.placer.ca.gov/11072/Collaborative-Court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "community-court",
+      "name": "Community Court",
+      "type": "collaborative_court",
+      "summary": "Listed by the court as a collaborative court (protocol PDF on Criminal Division page); held 1st & 3rd Fridays in Dept. 44 per the assignments page.",
+      "url": "https://www.placer.courts.ca.gov/divisions/criminal",
+      "source_url": "https://www.placer.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13",
+      "todo": "Eligibility not summarized — protocol PDF not read."
+    },
+    {
+      "id": "prop36",
+      "name": "Prop 36 Treatment Court",
+      "type": "collaborative_court",
+      "summary": "Collaboration of Probation, Public Defender, DA and Health & Human Services under the Superior Court; Dept. 33 per assignments page.",
+      "url": "https://www.placer.courts.ca.gov/divisions/criminal",
+      "source_url": "https://www.placer.ca.gov/11072/Collaborative-Court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "pc1000",
+      "name": "PC 1000 Drug Diversion",
+      "type": "diversion",
+      "summary": "Statutory diversion for certain eligible drug offenses: no admission of guilt, bail exonerated, charges dismissed on successful completion; a probation officer tracks progress.",
+      "url": "https://www.placer.ca.gov/7435/Adult-Court-Services",
+      "source_url": "https://www.placer.ca.gov/7435/Adult-Court-Services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "self-help-center",
+      "name": "Court Self-Help Center",
+      "type": "self_help",
+      "summary": "Free forms and procedural help at the Gibson Courthouse, by phone/video appointment, or by email (CIC@placer.courts.ca.gov).",
+      "url": "https://www.placer.courts.ca.gov/self-help/self-help-center",
+      "source_url": "https://www.placer.courts.ca.gov/self-help/self-help-center",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "south-placer-jail",
+      "name": "South Placer Jail",
+      "address": "11801 Go For Broke Road, Roseville, CA 95678",
+      "city": "Roseville",
+      "zip": "95678",
+      "phone": "(916) 409-8100",
+      "phone_note": "Visiting info line. Bail bonds accepted 24/7; call first if posting after 7 p.m. Minimum-security visiting center is at 11701 Go For Broke Road. Most South Placer inmates (not minimum) visit by on-site video (free, schedule 24h ahead) or remote video ($9.99/30 min).",
+      "houses": null,
+      "visiting_url": "https://www.placer.ca.gov/2527/Our-Jails",
+      "commissary_or_money_url": "https://www.placer.ca.gov/2486/Inmate-Rules-Information",
+      "court_ids": ["jail-courtroom"],
+      "court_ids_note": "Dept. 20 jail courtroom shares this street address (court locations page); Dept. 20 hears the daily criminal calendar.",
+      "url": "https://www.placer.ca.gov/2483/South-Placer-Jail",
+      "source_url": "https://www.placer.ca.gov/2483/South-Placer-Jail",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff pages don't say whether men, women or both are housed here — houses left null."
+    },
+    {
+      "id": "auburn-jail",
+      "name": "Auburn Jail",
+      "address": "2775 Richardson Drive, Auburn, CA 95603",
+      "city": "Auburn",
+      "zip": "95603",
+      "phone": "(530) 745-8500",
+      "phone_note": "Visiting times via In-Custody report or this number; visitation center is on Atwood Road in Auburn (no street number given); check in 35–45 min early. Bail bonds accepted 24/7.",
+      "houses": null,
+      "visiting_url": "https://www.placer.ca.gov/2527/Our-Jails",
+      "commissary_or_money_url": "https://www.placer.ca.gov/2486/Inmate-Rules-Information",
+      "court_ids": ["jail-courtroom"],
+      "court_ids_note": "nearest, not confirmed — Dept. 20 (Roseville) runs the daily criminal calendar; no official statement of where Auburn Jail inmates are taken.",
+      "url": "https://www.placer.ca.gov/2482/Auburn-Jail",
+      "source_url": "https://www.placer.ca.gov/2482/Auburn-Jail",
+      "verified_on": "2026-10-13",
+      "todo": "Men/women housing not stated on Sheriff pages; court transport destination not confirmed."
+    },
+    {
+      "id": "juvenile-detention",
+      "name": "Placer County Juvenile Detention Facility (Probation)",
+      "address": "11260 B Avenue, Auburn, CA 95603",
+      "city": "Auburn",
+      "zip": "95603",
+      "phone": "(530) 886-4875",
+      "phone_note": "Run by Probation, not the Sheriff. 78-bed secure facility at DeWitt Center.",
+      "houses": "juvenile",
+      "visiting_url": "https://www.placer.ca.gov/7425/Juvenile-Detention",
+      "commissary_or_money_url": null,
+      "court_ids": ["juvenile"],
+      "court_ids_note": "nearest, not confirmed — Juvenile Courthouse (Dept. 12) is next door at 11270 B Avenue.",
+      "url": "https://www.placer.ca.gov/7425/Juvenile-Detention",
+      "source_url": "https://www.placer.ca.gov/7297/Contact-Us",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "inmate_lookup_url": "https://placer-inmatesearch.atimsle.com/",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' — look up a bail agent's license status. Placer Sheriff: bail accepted 24/7 at South Placer Jail and Auburn Jail as exact cash, or cashier's/certified check or money order payable to Placer Trial Court; bail bonds only via a licensed bail agent. Call the jail first if posting after 7 p.m. Bail schedules are on the court's Fee Schedule page.",
+    "source_url": "https://www.placer.ca.gov/2492/Posting-Bail",
+    "verified_on": "2026-10-13"
+  }
+}

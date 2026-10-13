@@ -1,0 +1,216 @@
+{
+  "state": "CA",
+  "county": "Modoc",
+  "slug": "modoc",
+  "court_name": "Superior Court of California, County of Modoc",
+  "court_website": "https://www.modoc.courts.ca.gov/",
+  "case_search_url": "http://portal.modoc.courts.ca.gov/public-portal",
+  "case_search_note": "Public Case Portal: basic case info — recent filings, hearing schedule, parties. Court page does not say whether criminal cases are included. Documents by request: call (530) 233-6516. Weekly calendars: https://www.modoc.courts.ca.gov/general-information/court-calendar.",
+  "sources": [
+    {
+      "title": "Modoc Superior Court — Home",
+      "url": "https://www.modoc.courts.ca.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Modoc Superior Court — Location & Contact Information",
+      "url": "https://www.modoc.courts.ca.gov/general-information/location-and-contact-information",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Modoc Superior Court — Criminal Division",
+      "url": "https://www.modoc.courts.ca.gov/divisions/criminal-division",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Modoc Superior Court — Public Case Portal",
+      "url": "https://www.modoc.courts.ca.gov/online-services/public-case-portal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Modoc Superior Court — Self-Represented Resources",
+      "url": "https://www.modoc.courts.ca.gov/self-help/self-represented-resources",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Modoc County — Public Defender",
+      "url": "https://www.countyofmodoc.gov/698/Public-Defender",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Modoc County — Probation",
+      "url": "https://www.countyofmodoc.gov/598/Probation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Modoc County — Probation directory",
+      "url": "https://www.countyofmodoc.gov/m/directory/department?did=26",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Modoc County — Sheriff",
+      "url": "https://www.countyofmodoc.gov/709/Sheriff---DHP",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Modoc County — Jail Visitation",
+      "url": "https://www.countyofmodoc.gov/737/Visitation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Modoc County — Sheriff directory",
+      "url": "https://www.countyofmodoc.gov/m/directory/department?did=41",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Legal Services of Northern California — Redding office",
+      "url": "https://lsnc.net/office/redding",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check an Agent/Broker license",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "barclay-justice-center",
+      "name": "Robert A. Barclay Justice Center (Modoc Superior Court)",
+      "address": "205 S. East Street",
+      "city": "Alturas",
+      "zip": "96101",
+      "phone": "(530) 233-6516",
+      "criminal_phone": null,
+      "hours": "Mon–Fri 8:30 a.m.–4:30 p.m. (excluding holidays and court closures)",
+      "criminal": true,
+      "note": "Only courthouse in Modoc County; hears criminal, traffic, juvenile, civil, family, probate, small claims. Clerk email Clerk@modoc.courts.ca.gov; fax (530) 233-6500. Zoom appearances available (court's Zoom page). Staff won't look up records by phone.",
+      "departments": [],
+      "source_url": "https://www.modoc.courts.ca.gov/general-information/location-and-contact-information",
+      "verified_on": "2026-10-13",
+      "todo": "No separate criminal clerk phone on official pages (a search summary cited (530) 233-6515 — not verified). Department list not published."
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Modoc County Public Defender — Law Office of Jacob Levin",
+      "address": "County of Modoc Courthouse, 204 South Court Street",
+      "city": "Alturas",
+      "zip": "96101",
+      "phone": "(530) 248-2700",
+      "toll_free": null,
+      "email": null,
+      "hours": "Mon–Fri 8:30 a.m.–5:00 p.m. (closed 12–1) — county department hours",
+      "url": "https://www.countyofmodoc.gov/698/Public-Defender",
+      "note": "County Public Defender page lists two attorneys by name with their own law-office phone numbers (i.e., attorneys under the Public Defender department, emails obfuscated). County courthouse main line: (530) 233-7660. Address shown is the county courthouse on the PD page, not necessarily the attorney's office.",
+      "source_url": "https://www.countyofmodoc.gov/698/Public-Defender",
+      "verified_on": "2026-10-13",
+      "todo": "Confirm whether these are contract attorneys and their office addresses. Court's Self-Represented Resources page still lists an older name (Stephen King, (530) 233-4444) — likely outdated."
+    },
+    {
+      "name": "Modoc County Public Defender — Law Office of Jessica Ryan Keeney",
+      "address": "County of Modoc Courthouse, 204 South Court Street",
+      "city": "Alturas",
+      "zip": "96101",
+      "phone": "(530) 906-0255",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.countyofmodoc.gov/698/Public-Defender",
+      "source_url": "https://www.countyofmodoc.gov/698/Public-Defender",
+      "verified_on": "2026-10-13",
+      "todo": "Office address and hours of this attorney not published."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Legal Services of Northern California — Redding Office (Shasta Regional)",
+      "serves": "Lassen, Modoc, Shasta, Siskiyou and Tehama counties (civil legal aid)",
+      "what": "Civil legal aid: housing, public benefits, education rights, healthcare benefits, guardianship help for grandparents 55+. Office page does not list criminal defense or record clearing. Modoc court's resource page lists the toll-free line (800) 822-9687.",
+      "phone": "(530) 241-3565",
+      "toll_free": "(800) 822-9687",
+      "address": "1370 West Street, Redding, CA 96001",
+      "hours": "Intake Mon, Tue, Wed, Fri 9:00–11:45 a.m. and 1:00–4:45 p.m.",
+      "url": "https://lsnc.net/office/redding",
+      "source_url": "https://lsnc.net/office/redding",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Modoc County Victim Witness",
+      "serves": "Crime victims in Modoc County",
+      "what": "Victim advocacy and restitution information (not defense).",
+      "phone": "(530) 233-3311",
+      "address": "204 S. Court Street, Room 108, Alturas",
+      "url": null,
+      "source_url": "https://www.modoc.courts.ca.gov/self-help/self-represented-resources",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Modoc County Probation Department",
+      "address": "326 S. Main Street",
+      "city": "Alturas",
+      "zip": "96101",
+      "phone": "(530) 233-6324",
+      "fax": "(530) 233-6363",
+      "hours": "Mon–Fri 8:30 a.m.–5:00 p.m.; closed 12:00–1:00 p.m.; closed weekends",
+      "url": "https://www.countyofmodoc.gov/598/Probation",
+      "note": "Adult and juvenile supervision, pre-sentence reports, electronic monitoring (GPS/home detention) as alternative to incarceration, Batterer's Intervention Program. Online 'Find My Supervisor' map linked from the directory. No pretrial program described.",
+      "source_url": "https://www.countyofmodoc.gov/m/directory/department?did=26",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "programs": [
+    {
+      "id": "electronic-monitoring",
+      "name": "Electronic Monitoring (GPS / home detention)",
+      "type": "alternative_to_custody",
+      "summary": "Probation provides GPS or home-detention monitoring for approved cases as an alternative to incarceration.",
+      "phone": "(530) 233-6324",
+      "url": "https://www.countyofmodoc.gov/598/Probation",
+      "source_url": "https://www.countyofmodoc.gov/598/Probation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "batterers-intervention",
+      "name": "Batterer's Intervention Program",
+      "type": "court_ordered_treatment",
+      "summary": "Court-mandated domestic-violence prevention treatment run through Probation.",
+      "phone": "(530) 233-6324",
+      "url": "https://www.countyofmodoc.gov/598/Probation",
+      "source_url": "https://www.countyofmodoc.gov/598/Probation",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "modoc-jail",
+      "name": "Modoc County Jail (Sheriff's Office)",
+      "address": "102 S. Court Street",
+      "city": "Alturas",
+      "zip": "96101",
+      "phone": "(530) 233-4416",
+      "phone_note": "Sheriff main/after-hours line; court lists this number for custody/inmate information. Fax (530) 233-4971.",
+      "houses": "both",
+      "visiting_url": "https://www.countyofmodoc.gov/737/Visitation",
+      "visiting_note": "In person Wednesdays and Saturdays: women check in 9:45–9:55 a.m. (visit 10–11), men 1:45–1:55 p.m. (visit 2–3), protective custody 2:45–2:55 p.m. (visit 3–4). Late arrivals denied. Bring ID. People on probation/parole need a signed letter. Video visits via CIDNet (customer.cidnet.net/register).",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "barclay-justice-center"
+      ],
+      "note": "Houses both: visitation page has separate women's and men's visiting times. Court is the county's only courthouse; transport route not stated (nearest, not confirmed).",
+      "url": "https://www.countyofmodoc.gov/709/Sheriff---DHP",
+      "source_url": "https://www.countyofmodoc.gov/737/Visitation",
+      "verified_on": "2026-10-13",
+      "todo": "No official money/commissary deposit info or online inmate lookup found. No juvenile hall found in county."
+    }
+  ],
+  "inmate_lookup_url": null,
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "note": "CA Department of Insurance license lookup for bail agents. todo: Modoc Sheriff publishes no bail-payment instructions; call (530) 233-4416."
+  }
+}

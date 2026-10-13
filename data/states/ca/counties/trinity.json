@@ -1,0 +1,164 @@
+{
+  "state": "CA",
+  "county": "Trinity",
+  "slug": "trinity",
+  "court_name": "Superior Court of California, County of Trinity",
+  "court_website": "https://www.trinity.courts.ca.gov/",
+  "case_search_url": null,
+  "case_search_note": "No online case search was found on the court's site. The court publishes a next-business-day master calendar at https://www.trinity.courts.ca.gov/online-services/court-calendars. For case questions call the Clerk's Office at (530) 623-1208. todo: confirm whether any online case index exists.",
+  "sources": [
+    {
+      "title": "Trinity Superior Court — Home",
+      "url": "https://www.trinity.courts.ca.gov/",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Trinity Superior Court — Locations & Contact Info",
+      "url": "https://www.trinity.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Trinity Superior Court — Criminal",
+      "url": "https://www.trinity.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Trinity Superior Court — Online Services",
+      "url": "https://www.trinity.courts.ca.gov/online-services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Trinity County — Directory: Sheriff's Office (incl. Correctional Facility)",
+      "url": "https://www.trinitycounty.ca.gov/Directory.aspx?did=27",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Trinity County — Directory: Probation",
+      "url": "https://www.trinitycounty.ca.gov/Directory.aspx?did=25",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Trinity County Sheriff — Justice Involved Persons Handbook (revised May 2023, PDF)",
+      "url": "https://www.trinitycounty.ca.gov/DocumentCenter/View/2764/New-Inmate-Handbook-PDF",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Trinity County — 2024 RFP, Public Defender services (PDF; returned 404 on 2026-10-13)",
+      "url": "https://www.trinitycounty.org/sites/default/files/RFP_Attachments/2024-RFP_Trinity_Public_Defender-FINAL.pdf",
+      "verified_on": null
+    },
+    {
+      "title": "Legal Services of Northern California — Eureka office",
+      "url": "https://lsnc.net/office/eureka",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check an Agent/Broker license",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "weaverville",
+      "name": "Trinity County Superior Court — Main Courthouse",
+      "address": "11 Court Street",
+      "city": "Weaverville",
+      "zip": "96093",
+      "phone": "(530) 623-1208",
+      "criminal_phone": "(530) 623-1208",
+      "hours": "All divisions and Collections: Mon–Fri 8:00 a.m.–4:00 p.m. (Jury Services closed 12–1)",
+      "criminal": true,
+      "note": "The only courthouse the court lists. Criminal, traffic, juvenile, civil, family and probate are all handled here. Clerk email courtclerks@trinitycounty.org. Mailing: PO Box 1258, Weaverville, CA 96093. Fines can also be paid at Trinity County Probation/Collections, 333 Tom Bell Road.",
+      "departments": [],
+      "source_url": "https://www.trinity.courts.ca.gov/locations",
+      "verified_on": "2026-10-13",
+      "todo": "Department numbers not published on pages loaded; no collaborative/treatment court page found (/divisions/collaborative-courts returns 404), so programs is empty"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Trinity County Public Defender (contract counsel)",
+      "address": null,
+      "city": "Weaverville",
+      "zip": null,
+      "phone": null,
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": null,
+      "source_url": "https://www.trinity.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13",
+      "note": "Trinity County has no county Public Defender department in its official directory. It contracts indigent defense: the county's 2024 RFP sought a firm/consortium to provide primary public defense plus at least two levels of conflict counsel in felony, misdemeanor and juvenile cases. The court's Criminal page: ask the judge at arraignment to appoint the Public Defender; the judge decides how much (if any) of the fee you must repay.",
+      "todo": "Current contract holder, office address and phone not found on an official page (2024 RFP PDF now 404s; web search budget exhausted). Call the court clerk (530) 623-1208."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Legal Services of Northern California — Eureka Office",
+      "serves": "Low-income residents of Del Norte, Humboldt and Trinity counties",
+      "what": "Civil legal aid including criminal record remedies (record clearing), citation defense for people experiencing homelessness, housing, public benefits, health, education. Not criminal defense on open cases.",
+      "phone": "(707) 445-0866",
+      "url": "https://lsnc.net/office/eureka",
+      "source_url": "https://lsnc.net/office/eureka",
+      "verified_on": "2026-10-13",
+      "note": "123 Third Street, Eureka, CA 95501. Evening intake message line (866) 815-5990."
+    }
+  ],
+  "probation": [
+    {
+      "name": "Trinity County Probation — Weaverville",
+      "address": "333 Tom Bell Road",
+      "city": "Weaverville",
+      "zip": "96093",
+      "phone": "(530) 623-1204",
+      "hours": "Mon–Fri 9:00 a.m.–12:00 p.m. and 1:00–4:00 p.m.",
+      "url": "https://www.trinitycounty.ca.gov/Directory.aspx?did=25",
+      "source_url": "https://www.trinitycounty.ca.gov/Directory.aspx?did=25",
+      "verified_on": "2026-10-13",
+      "note": "Fax (530) 623-1237. Also houses the Collections Department (court fines)."
+    },
+    {
+      "name": "Trinity County Probation — Hayfork Office",
+      "address": "154 Tule Creek Road (Hayfork Community Center)",
+      "city": "Hayfork",
+      "zip": "96041",
+      "phone": "(530) 628-5622 ext. 4",
+      "hours": "By appointment only",
+      "url": "https://www.trinitycounty.ca.gov/Directory.aspx?did=25",
+      "source_url": "https://www.trinitycounty.ca.gov/Directory.aspx?did=25",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "programs": [],
+  "jails": [
+    {
+      "id": "trinity-county-correctional-facility",
+      "name": "Trinity County Correctional Facility (Detention Facility)",
+      "address": "701 Tom Bell Road, Weaverville, CA 96093",
+      "city": "Weaverville",
+      "zip": "96093",
+      "phone": "(530) 623-8124",
+      "phone_note": "Fax (530) 623-3926. Mail for people inside: PO Box 1119, Weaverville, CA 96093. Sheriff Records Lobby (101 Memorial Dr.): (530) 623-2611.",
+      "houses": "both",
+      "url": "https://www.trinitycounty.ca.gov/Directory.aspx?did=27",
+      "visiting_url": "https://www.trinitycounty.ca.gov/DocumentCenter/View/2764/New-Inmate-Handbook-PDF",
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "weaverville"
+      ],
+      "note": "County's only adult jail. 'both' is based on the Sheriff's handbook classification plan, which assigns housing by sex (among other factors). Visits are non-contact, twice weekly per unit (A: Wed 2:30–4:30 & Sat 7–9 p.m.; B: Mon 2:30–4:30 & Thu 7–9; C: Thu 2:30–4:30 & Sun 7–9; D: Tue 2:30–4:30 & Fri 7–9; Holding: Wed 7–9 & Sun 2:30–4:30) per handbook revised May 2023; max 2 visitors, photo ID. Video visits are free from the jail lobby. Handbook says new arrests usually go to court within two court days, typically in the afternoon. Weaverville is the county's only courthouse (nearest, not confirmed as the transport destination by the Sheriff).",
+      "source_url": "https://www.trinitycounty.ca.gov/Directory.aspx?did=27",
+      "verified_on": "2026-10-13",
+      "todo": "Commissary/money-deposit vendor not named on official pages (handbook says phone minutes can be bought by the public). Juvenile detention location not found. No official online inmate lookup found on trinitycounty.ca.gov — call the jail."
+    }
+  ],
+  "inmate_lookup_url": null,
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' — look up a bail agent's license before signing. Trinity Sheriff pages loaded do not describe how to post cash bail; call the jail at (530) 623-8124.",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "todo": "Sheriff bail-posting procedure not published"
+  }
+}

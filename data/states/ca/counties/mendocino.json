@@ -1,0 +1,225 @@
+{
+  "state": "CA",
+  "county": "Mendocino",
+  "slug": "mendocino",
+  "court_name": "Superior Court of California, County of Mendocino",
+  "court_website": "https://www.mendocino.courts.ca.gov/",
+  "case_search_url": "https://www.mendocino.courts.ca.gov/portal",
+  "case_search_note": "Court's 'Case Info, Hearings, Online Payments' portal (linked from the court home page). The Criminal Division page says you can search by citation number, case number, or name and birthdate. Whether criminal minute orders/documents are viewable online was not confirmed.",
+  "sources": [
+    {"title": "Mendocino Superior Court — Home", "url": "https://www.mendocino.courts.ca.gov/", "verified_on": "2026-10-13"},
+    {"title": "Mendocino Superior Court — Ukiah, Mendocino County Courthouse", "url": "https://www.mendocino.courts.ca.gov/location/ukiah-mendocino-county-courthouse", "verified_on": "2026-10-13"},
+    {"title": "Mendocino Superior Court — Fort Bragg, Ten Mile Branch", "url": "https://www.mendocino.courts.ca.gov/location/fort-bragg-ten-mile-branch", "verified_on": "2026-10-13"},
+    {"title": "Mendocino Superior Court — Criminal Division", "url": "https://www.mendocino.courts.ca.gov/divisions/criminal-division", "verified_on": "2026-10-13"},
+    {"title": "Mendocino Superior Court — Adult Drug Court", "url": "https://www.mendocino.courts.ca.gov/divisions/collaborative-courts/adult-drug-court", "verified_on": "2026-10-13"},
+    {"title": "Mendocino Superior Court — Behavioral Health Court", "url": "https://www.mendocino.courts.ca.gov/divisions/collaborative-courts/behavioral-health-court", "verified_on": "2026-10-13"},
+    {"title": "Mendocino Superior Court — Veterans Court", "url": "https://www.mendocino.courts.ca.gov/divisions/collaborative-courts/veterans-court", "verified_on": "2026-10-13"},
+    {"title": "Mendocino County Sheriff — Corrections", "url": "https://mendocinosheriff.org/corrections/", "verified_on": "2026-10-13"},
+    {"title": "Mendocino County Sheriff — Jail Policy Manual (PDF, 2020; housing description)", "url": "https://mendocinosheriff.org/wp-content/uploads/2025/09/Jail-Policy-Manual-Entire-20200114.pdf", "verified_on": "2026-10-13"},
+    {"title": "Mendocino County — Public Defender (page blocked automated fetch; details from search index of this official page)", "url": "https://www.mendocinocounty.gov/government/mendocino-public-defender", "verified_on": "2026-10-13"},
+    {"title": "Mendocino County — Alternate Defender (page blocked automated fetch; details from search index of this official page)", "url": "https://www.mendocinocounty.gov/departments/alternate-defender", "verified_on": "2026-10-13"},
+    {"title": "Mendocino County — Probation Contact Information (page blocked automated fetch; details from search index of this official page)", "url": "https://www.mendocinocounty.gov/government/probation/contact-information", "verified_on": "2026-10-13"},
+    {"title": "Legal Services of Northern California — Ukiah office", "url": "https://lsnc.net/office/ukiah", "verified_on": "2026-10-13"},
+    {"title": "CA Dept. of Insurance — Check an Agent/Broker license", "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm", "verified_on": "2026-10-13"}
+  ],
+  "courthouses": [
+    {
+      "id": "ukiah",
+      "name": "Ukiah — Mendocino County Courthouse",
+      "address": "100 North State Street (Criminal clerk: Room 107)",
+      "city": "Ukiah",
+      "zip": "95482",
+      "phone": "(707) 463-4664",
+      "criminal_phone": "(707) 463-4661",
+      "hours": "Clerk's office public counter and telephone: Mon–Fri 8:30 a.m.–3:30 p.m. (excluding judicial holidays)",
+      "criminal": true,
+      "note": "Main courthouse: criminal, traffic (707) 463-4660, civil, family, juvenile, probate, small claims, and the collaborative courts (Adult Drug Court, Behavioral Health Court, Veterans Court). (707) 463-4664 is Administration. The court site does not list criminal department numbers or say where in-custody arraignments are held.",
+      "departments": [],
+      "source_url": "https://www.mendocino.courts.ca.gov/location/ukiah-mendocino-county-courthouse",
+      "verified_on": "2026-10-13",
+      "todo": "Department list and in-custody arraignment courtroom not published on court site"
+    },
+    {
+      "id": "ten-mile",
+      "name": "Fort Bragg — Ten Mile Branch",
+      "address": "700 South Franklin Street",
+      "city": "Fort Bragg",
+      "zip": "95437",
+      "phone": "(707) 468-2003",
+      "criminal_phone": "(707) 463-4661",
+      "hours": "Clerk's office counter and phone: Mon–Fri 8:30 a.m.–12:00 p.m. and 1:00–3:30 p.m.",
+      "criminal": true,
+      "note": "Coast branch. The Criminal Division page lists the Ten Mile Branch as a criminal clerk's office location, and the branch page lists Criminal (707) 463-4661 and Traffic (707) 463-4660 clerk lines; (707) 468-2003 is the Civil/Juvenile/Family Law clerk. The branch page's 'Cases Served' section is blank, so which criminal calendars are heard here is not confirmed.",
+      "departments": [],
+      "source_url": "https://www.mendocino.courts.ca.gov/location/fort-bragg-ten-mile-branch",
+      "verified_on": "2026-10-13",
+      "todo": "Confirm which criminal/traffic calendars are heard at Ten Mile"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Mendocino County Public Defender",
+      "address": "175 South School Street",
+      "city": "Ukiah",
+      "zip": "95482",
+      "phone": "(707) 234-6950",
+      "toll_free": null,
+      "email": "PublicDefender@mendocinocounty.gov",
+      "hours": null,
+      "url": "https://www.mendocinocounty.gov/government/mendocino-public-defender",
+      "source_url": "https://www.mendocinocounty.gov/government/mendocino-public-defender",
+      "verified_on": "2026-10-13",
+      "todo": "County site returned 403 to direct fetch; address/phone/email taken from the search index of the county's own Public Defender page and business directory. Hours and any Fort Bragg office not confirmed."
+    },
+    {
+      "name": "Mendocino County Alternate Defender (conflict office)",
+      "address": "776 S. State Street, Ste. 101",
+      "city": "Ukiah",
+      "zip": "95482",
+      "phone": "(707) 234-6990",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.mendocinocounty.gov/departments/alternate-defender",
+      "source_url": "https://www.mendocinocounty.gov/departments/alternate-defender",
+      "verified_on": "2026-10-13",
+      "note": "County page: appointed when the Public Defender's Office has a conflict (e.g., co-defendants needing separate counsel).",
+      "todo": "County site returned 403 to direct fetch; details from search index of the official page. Hours not confirmed."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Legal Services of Northern California — Ukiah Office",
+      "serves": "Low-income residents of Mendocino and Lake counties (civil legal aid)",
+      "what": "Civil legal aid; the office's services list includes Clean Slate (criminal record clean-up such as expungement). Not criminal defense on open cases.",
+      "phone": "(707) 462-1471",
+      "toll_free": "(877) 529-7700",
+      "address": "421 North Oak Street, Ukiah, CA 95482",
+      "hours": "Mon, Wed, Thu 9 a.m.–12 p.m. and 1–3 p.m.; Tue 9 a.m.–12 p.m.; closed to the public Fridays",
+      "url": "https://lsnc.net/office/ukiah",
+      "source_url": "https://lsnc.net/office/ukiah",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Mendocino County Probation — Adult Probation (Ukiah)",
+      "address": "585 Low Gap Road",
+      "city": "Ukiah",
+      "zip": "95482",
+      "phone": "(707) 234-6900",
+      "hours": null,
+      "url": "https://www.mendocinocounty.gov/government/probation/adult-probation",
+      "source_url": "https://www.mendocinocounty.gov/government/probation/contact-information",
+      "verified_on": "2026-10-13",
+      "todo": "County pages disagree: probation page says 585 Low Gap Road, contact page says 589 Low Gap Road — confirm. Hours not confirmed. County site blocked direct fetch; details from search index of official pages."
+    },
+    {
+      "name": "Mendocino County Probation — Adult Pretrial (Ukiah)",
+      "address": "579 Low Gap Road",
+      "city": "Ukiah",
+      "zip": "95482",
+      "phone": "(707) 234-6900",
+      "hours": null,
+      "url": "https://www.mendocinocounty.gov/government/probation/contact-information",
+      "source_url": "https://www.mendocinocounty.gov/government/probation/contact-information",
+      "verified_on": "2026-10-13",
+      "note": "Fax (707) 234-6928.",
+      "todo": "Hours not confirmed; details from search index of the official page."
+    },
+    {
+      "name": "Mendocino County Probation — Adult Probation (Fort Bragg)",
+      "address": "700 S. Franklin Street, Room 107",
+      "city": "Fort Bragg",
+      "zip": "95437",
+      "phone": "(707) 234-6900",
+      "hours": null,
+      "url": "https://www.mendocinocounty.gov/government/probation/contact-information",
+      "source_url": "https://www.mendocinocounty.gov/government/probation/contact-information",
+      "verified_on": "2026-10-13",
+      "todo": "Hours not confirmed; details from search index of the official page."
+    },
+    {
+      "name": "Mendocino County Probation — Adult Probation (Willits)",
+      "address": "125 E. Commercial Street, Suite 230",
+      "city": "Willits",
+      "zip": "95490",
+      "phone": "(707) 234-6900",
+      "hours": null,
+      "url": "https://www.mendocinocounty.gov/government/probation/contact-information",
+      "source_url": "https://www.mendocinocounty.gov/government/probation/contact-information",
+      "verified_on": "2026-10-13",
+      "todo": "Hours not confirmed; details from search index of the official page."
+    }
+  ],
+  "programs": [
+    {
+      "id": "drug-court",
+      "name": "Adult Drug Court",
+      "type": "collaborative_court",
+      "summary": "Voluntary, post-plea, 18-month-minimum multi-phase program for people charged with non-violent offenses found eligible by the Drug Court team. Referral to Behavioral Health's SUDT OPTIONS Program (1120 South Dora Street, Ukiah); individual treatment plan, groups, regular court appearances, weekly and random drug/alcohol testing, 12-step meetings. Charges may be dismissed after completing all phases, paying fees/fines and Probation confirming no new offenses. Meeting days/times not published.",
+      "phone": "(707) 463-4661",
+      "url": "https://www.mendocino.courts.ca.gov/divisions/collaborative-courts/adult-drug-court",
+      "source_url": "https://www.mendocino.courts.ca.gov/divisions/collaborative-courts/adult-drug-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "behavioral-health-court",
+      "name": "Behavioral Health Court",
+      "type": "collaborative_court",
+      "summary": "Voluntary program for defendants whose serious mental illness is a primary cause of their justice involvement; certain violent crimes excluded. Individualized treatment plan (case management, medication, psychiatric rehab, supportive living, substance treatment) with regular judicial status hearings at the Ukiah courthouse. Length not published.",
+      "phone": "(707) 463-4661",
+      "url": "https://www.mendocino.courts.ca.gov/divisions/collaborative-courts/behavioral-health-court",
+      "source_url": "https://www.mendocino.courts.ca.gov/divisions/collaborative-courts/behavioral-health-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "veterans-court",
+      "name": "Veterans Court",
+      "type": "collaborative_court",
+      "summary": "For veterans with service-related mental health issues and pending criminal cases, where military service is a primary cause of the justice involvement; certain violent crimes excluded. Voluntary; may be offered as military diversion without a plea or, with the judge's approval, post-conviction as a probation condition. Case management by a Veterans Services Officer, treatment, testing and status hearings. Schedule not published.",
+      "url": "https://www.mendocino.courts.ca.gov/divisions/collaborative-courts/veterans-court",
+      "source_url": "https://www.mendocino.courts.ca.gov/divisions/collaborative-courts/veterans-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "home-detention-work-release",
+      "name": "Sheriff Home Detention & Work Release",
+      "type": "custody_alternative",
+      "summary": "Sheriff's Corrections page posts applications for Home Detention and Work Release; questions (707) 463-4092. Work Furlough is run by Probation, (707) 463-4271.",
+      "phone": "(707) 463-4092",
+      "url": "https://mendocinosheriff.org/corrections/",
+      "source_url": "https://mendocinosheriff.org/corrections/",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "mendocino-county-jail",
+      "name": "Mendocino County Jail (Sheriff's Corrections main jail facility)",
+      "address": "951 Low Gap Road, Ukiah, CA 95482",
+      "city": "Ukiah",
+      "zip": "95482",
+      "houses": "both",
+      "phone": "(707) 463-4411",
+      "phone_note": "Sheriff's main Ukiah line (listed in the Corrections page header). Inmate Services: (707) 234-2136. Home Detention/Work Release: (707) 463-4092. Sheriff says people are scheduled for court within 72 hours of booking (excluding weekends/holidays) but exact court dates are not released by the jail — ask the court clerk or attorney. No releases 10 p.m.–8:30 a.m.",
+      "visiting_url": "https://mendocinosheriff.org/corrections/",
+      "visiting_note": "In-person visiting handled on-site; remote video visits through IC Solutions at gettingout.com (helpline 1-866-516-0115).",
+      "commissary_or_money_url": "http://www.mycarepack.com/",
+      "money_note": "Online deposits via mycarepack.com or the 24-hour lobby kiosk (up to 72 hours to post). Cash/money orders by mail not accepted. Commissary deposits by 11 a.m. Tuesday for Wednesday commissary.",
+      "court_ids": ["ukiah"],
+      "court_ids_note": "nearest, not confirmed — Sheriff/court pages do not say which courthouse in-custody defendants are taken to.",
+      "houses_note": "Sheriff's Jail Policy Manual (2020, hosted on mendocinosheriff.org): Building One houses males; Building Two houses minimum/special-needs males and female inmates of all security levels.",
+      "url": "https://mendocinosheriff.org/corrections/",
+      "source_url": "https://mendocinosheriff.org/corrections/",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "inmate_lookup_url": "http://50.230.66.240/NewWorld.InmateInquiry/Mendocino",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' — verify any bail agent's license. Mendocino Sheriff: bail accepted as full cash, certified check, money order (payable to the court of jurisdiction) or bail bond; no personal checks. Bail schedules (felony/misdemeanor PDFs) are posted on the Sheriff's Corrections page.",
+    "source_url": "https://mendocinosheriff.org/corrections/",
+    "verified_on": "2026-10-13"
+  }
+}

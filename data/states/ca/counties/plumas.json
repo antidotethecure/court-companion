@@ -1,0 +1,299 @@
+{
+  "state": "CA",
+  "county": "Plumas",
+  "slug": "plumas",
+  "court_name": "Superior Court of California, County of Plumas",
+  "court_website": "https://www.plumas.courts.ca.gov/",
+  "case_search_url": null,
+  "case_search_note": "No online criminal case index found on plumas.courts.ca.gov. Records are requested in person at the Clerk's Office (Room 104; photo ID required, max 10 cases per request) or through the court's Online Record Request eForm (https://plumas.courts.ca.gov/online-services/record-searches/online-record-request-eform); processing 5–7 court days; mail requests carry a $15 per-case research fee. The jail will not give out court dates — call the Clerk's Office at (530) 283-6232.",
+  "todo": "Confirm there is truly no online criminal case portal (none linked as of 2026-10-13).",
+  "sources": [
+    {
+      "title": "Plumas Superior Court — Plumas County Courthouse",
+      "url": "https://plumas.courts.ca.gov/location/plumas-county-courthouse",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Plumas Superior Court — Locations",
+      "url": "https://plumas.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Plumas Superior Court — Record Searches",
+      "url": "https://plumas.courts.ca.gov/online-services/record-searches",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Plumas Superior Court — Criminal Division",
+      "url": "https://plumas.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Plumas Superior Court — Collaborative Court (CARE Court)",
+      "url": "https://plumas.courts.ca.gov/self-help/collaborative-court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Plumas County — Jail",
+      "url": "https://www.plumascounty.us/2170/Jail",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Plumas County — Jail Visitation",
+      "url": "https://www.plumascounty.us/2514/Visitation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Plumas County — Commissary Deposit",
+      "url": "https://www.plumascounty.us/2520/Commissary-Deposit",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Plumas County — Attorneys (current public defenders)",
+      "url": "https://www.plumascounty.us/2519/Attorneys",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Plumas County — Sheriff/Coroner",
+      "url": "https://www.plumascounty.us/587/SheriffCoroner",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Plumas County — Probation",
+      "url": "https://www.plumascounty.us/90/Probation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Plumas County Probation — Drug Court",
+      "url": "https://www.plumascounty.us/1972/Drug-Court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Plumas County Probation — Proposition 36",
+      "url": "https://www.plumascounty.us/1973/Proposition-36",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Plumas County Probation — Alternate Sentencing (House Arrest / Electronic Monitoring)",
+      "url": "https://www.plumascounty.us/1974/Alternate-Sentencing-Programs---House-Ar",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Legal Services of Northern California — Chico Office",
+      "url": "https://lsnc.net/office/chico",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check an Agent/Broker license",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-10"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "quincy",
+      "name": "Plumas County Courthouse",
+      "address": "520 Main Street, Room 104 (Clerk's Office)",
+      "city": "Quincy",
+      "zip": "95971",
+      "phone": "(530) 283-6232",
+      "criminal_phone": "(530) 283-6232",
+      "hours": "Building: Mon–Fri 8:00 a.m.–3:00 p.m.; Telephone: Mon–Fri 8:30 a.m.–3:00 p.m.",
+      "criminal": true,
+      "note": "The court's only listed location. Criminal and traffic (main line (530) 283-6232); civil (530) 283-6305; fax (530) 283-6415. On your court date, report to the Clerk's Office (Room 104, first door on the right past security). Department 1 is on the 3rd floor; Departments 2 and 3 on the 1st floor. The court's pages do not say which department hears arraignments.",
+      "departments": [
+        {
+          "id": "1",
+          "label": "Department 1",
+          "type": null,
+          "note": "3rd floor. Case types not published."
+        },
+        {
+          "id": "2",
+          "label": "Department 2",
+          "type": null,
+          "note": "1st floor. Case types not published."
+        },
+        {
+          "id": "3",
+          "label": "Department 3",
+          "type": null,
+          "note": "1st floor. Case types not published."
+        }
+      ],
+      "source_url": "https://plumas.courts.ca.gov/locations",
+      "verified_on": "2026-10-13",
+      "todo": "Confirm which department hears criminal arraignments / felony and misdemeanor calendars."
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Plumas County contract public defender — Craig Osborne",
+      "address": "PO Box 449",
+      "city": "Quincy",
+      "zip": "95971",
+      "phone": "(530) 414-1997",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.plumascounty.us/2519/Attorneys",
+      "note": "Plumas County has no institutional Public Defender office; the county lists private attorneys under contract as its 'Current Public Defenders'. Ask the judge for appointed counsel at your first appearance (financial declaration required; you may be ordered to repay costs at the end of the case).",
+      "source_url": "https://www.plumascounty.us/2519/Attorneys",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Plumas County contract public defender — Alison Bermant",
+      "address": "10098 Jibboom St., Ste. 102",
+      "city": "Truckee",
+      "zip": "96161",
+      "phone": "(530) 550-0529",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.plumascounty.us/2519/Attorneys",
+      "source_url": "https://www.plumascounty.us/2519/Attorneys",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Plumas County contract public defender — Robert Zernich",
+      "address": "447 Main Street",
+      "city": "Quincy",
+      "zip": "95971",
+      "phone": "(530) 283-1010",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.plumascounty.us/2519/Attorneys",
+      "source_url": "https://www.plumascounty.us/2519/Attorneys",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Plumas County contract public defender — Jude Koenig",
+      "address": "11260 Donner Pass Rd., Ste. C-3444",
+      "city": "Truckee",
+      "zip": "96161",
+      "phone": "(530) 608-2182",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.plumascounty.us/2519/Attorneys",
+      "source_url": "https://www.plumascounty.us/2519/Attorneys",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "Plumas County contract public defender — Alyssa Thompson",
+      "address": null,
+      "city": null,
+      "zip": null,
+      "phone": "(530) 280-6886",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.plumascounty.us/2519/Attorneys",
+      "source_url": "https://www.plumascounty.us/2519/Attorneys",
+      "verified_on": "2026-10-13",
+      "todo": "address not listed on county page"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Legal Services of Northern California — Chico Office",
+      "serves": "Low-income residents and seniors in Butte, Colusa, Glenn and Plumas counties (civil legal aid)",
+      "what": "Housing and public benefits (CalWORKs, CalFresh, Medi-Cal, General Assistance, SSI, unemployment); for seniors: consumer issues, basic estate planning, powers of attorney, advance directives, elder abuse. Civil only — the office page does not list criminal defense or record clearing. Address: 541 Normal Avenue, Chico, CA 95928; toll-free (800) 345-9491; email chico-office@lsnc.net.",
+      "phone": "(530) 345-9491",
+      "email": "chico-office@lsnc.net",
+      "url": "https://lsnc.net/office/chico",
+      "source_url": "https://lsnc.net/office/chico",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "name": "California Courts Self-Help — Cleaning Your Record",
+      "serves": "Anyone with a California conviction",
+      "what": "Statewide court self-help guide to dismissals (expungement), reductions and record sealing, with forms.",
+      "phone": null,
+      "url": "https://selfhelp.courts.ca.gov/clean-your-record",
+      "source_url": "https://selfhelp.courts.ca.gov/clean-your-record",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Plumas County Probation Department (Adult & Juvenile)",
+      "address": "270 County Hospital Road, Suite 128",
+      "city": "Quincy",
+      "zip": "95971",
+      "phone": "(530) 283-6200",
+      "hours": null,
+      "url": "https://www.plumascounty.us/90/Probation",
+      "note": "Fax (530) 283-6165. Probation fines/fees/restitution are paid through the county's GovPayNet link (https://www.plumascounty.us/2172/GovPayNet).",
+      "source_url": "https://www.plumascounty.us/90/Probation",
+      "verified_on": "2026-10-13",
+      "todo": "office hours not listed"
+    }
+  ],
+  "programs": [
+    {
+      "id": "drug-court",
+      "name": "Plumas County Drug Court",
+      "type": "collaborative_court",
+      "summary": "Alternative to straight jail time for eligible substance-abusing offenders: supervision, frequent drug testing, treatment, recovery meetings and regular court appearances with sanctions and incentives. On graduation the offense may be dismissed, reduced or set aside, or a lesser penalty given. Eligibility and length are not published — ask your attorney or Probation.",
+      "phone": "(530) 283-6200",
+      "url": "https://www.plumascounty.us/1972/Drug-Court",
+      "source_url": "https://www.plumascounty.us/1972/Drug-Court",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "prop36",
+      "name": "Proposition 36 (probation + drug treatment)",
+      "type": "diversion",
+      "summary": "Probation's page describes the 2000 Prop 36 program: probation and drug treatment instead of incarceration for certain non-violent drug offenses; Probation screens and refers to treatment and reports compliance to the court; charges can be dismissed on completion. Note: the page describes the 2000 law; California voters passed a different Prop 36 in Nov 2024 — ask your attorney what applies to your case.",
+      "phone": "(530) 283-6200",
+      "url": "https://www.plumascounty.us/1973/Proposition-36",
+      "source_url": "https://www.plumascounty.us/1973/Proposition-36",
+      "verified_on": "2026-10-13",
+      "todo": "County page may be outdated; confirm current program status."
+    },
+    {
+      "id": "electronic-monitoring",
+      "name": "Electronic Monitoring / House Arrest",
+      "type": "alternative_sentencing",
+      "summary": "At the direction of the court, sentenced defendants may serve house arrest on a GPS ankle monitor with two-way voice, allowing them to keep working. Eligibility and fees not published. The jail page also links an Alternative Custody application (mail with money order or drop off at the Sheriff's Office, 1400 East Main Street, Quincy).",
+      "phone": "(530) 283-6200",
+      "url": "https://www.plumascounty.us/1974/Alternate-Sentencing-Programs---House-Ar",
+      "source_url": "https://www.plumascounty.us/1974/Alternate-Sentencing-Programs---House-Ar",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "pccf",
+      "name": "Plumas County Correctional Facility",
+      "address": "56 Abernethy Lane",
+      "city": "Quincy",
+      "zip": "95971",
+      "phone": "(530) 283-6267",
+      "phone_note": "Jail line; also used to schedule visits (by appointment only). Fax (530) 283-6154. Officers release only charges and bail amounts — not court dates or release info. Sheriff's Office: 1400 East Main Street, Quincy, (530) 283-6375.",
+      "houses": "both",
+      "houses_note": "Visitation schedule lists separate Female and Male visiting times (plus PC and AdSeg).",
+      "visiting_url": "https://www.plumascounty.us/2514/Visitation",
+      "commissary_or_money_url": "https://www.plumascounty.us/2520/Commissary-Deposit",
+      "money_note": "Deposits via accesscorrections.com or 1-866-345-1884 (up to 24 h to post). Pre-approved commissary packages: plumascountypackages.com or 1-800-546-6283. Jail page notes over-the-counter money was not accepted (COVID-era notice).",
+      "court_ids": [
+        "quincy"
+      ],
+      "court_ids_note": "Only courthouse in the county; jail page directs court questions to the Plumas Superior Court Clerk.",
+      "url": "https://www.plumascounty.us/2170/Jail",
+      "source_url": "https://www.plumascounty.us/2170/Jail",
+      "verified_on": "2026-10-13",
+      "todo": "Some county pages give 50 Abernethy Lane (correspondence page) vs 56 on the jail page — confirm mailing vs street address."
+    }
+  ],
+  "inmate_lookup_url": null,
+  "inmate_lookup_note": "No official online inmate lookup found on plumascounty.us. Call the jail at (530) 283-6267.",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' — verify any bail agent's license and discipline history. For bail amounts, call the Plumas County Correctional Facility at (530) 283-6267 (officers will release charges and bail amounts).",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-10"
+  }
+}

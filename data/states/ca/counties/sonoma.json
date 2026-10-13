@@ -1,0 +1,400 @@
+{
+  "state": "CA",
+  "county": "Sonoma",
+  "slug": "sonoma",
+  "court_name": "Superior Court of California, County of Sonoma",
+  "court_website": "https://sonoma.courts.ca.gov/",
+  "case_search_url": "https://sonoma.courts.ca.gov/portal-disclaimer",
+  "case_search_note": "Odyssey case portal (linked from /online-services/case-portal); registration plus a separate access request is required per the court's public portal guide. The Criminal Division page separately says the court does not provide case information via the Internet and offers public terminals at the Hall of Justice, 625 Administration Dr. If you can't find a case call the criminal clerk (707) 521-6620.",
+  "sources": [
+    {
+      "title": "Sonoma Superior Court — Locations",
+      "url": "https://sonoma.courts.ca.gov/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sonoma Superior Court — Hall of Justice",
+      "url": "https://sonoma.courts.ca.gov/location/hall-justice",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sonoma Superior Court — Juvenile Justice Center",
+      "url": "https://sonoma.courts.ca.gov/location/juvenile-justice-center",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sonoma Superior Court — Empire College Annex",
+      "url": "https://sonoma.courts.ca.gov/location/empire-college-annex",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sonoma Superior Court — Criminal Division",
+      "url": "https://sonoma.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sonoma Superior Court — Case Portal",
+      "url": "https://sonoma.courts.ca.gov/online-services/case-portal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sonoma Superior Court — Collaborative Courts",
+      "url": "https://sonoma.courts.ca.gov/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sonoma Superior Court — Community Services",
+      "url": "https://sonoma.courts.ca.gov/self-help/community-services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sonoma County Public Defender — About/Contact",
+      "url": "https://sonomacounty.gov/justice-services/public-defender/about-our-office",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sonoma County Public Defender — Post-Conviction Relief",
+      "url": "https://sonomacounty.gov/justice-services/public-defender/post-conviction-relief",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sonoma County Probation — Contact Us",
+      "url": "https://sonomacounty.gov/justice-services/probation/contact-us",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sonoma County Probation — Pretrial Services",
+      "url": "https://sonomacounty.gov/justice-services/probation/adult-division/pretrial-services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sonoma Sheriff — Locations",
+      "url": "https://www.sonomasheriff.org/locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sonoma Sheriff — Facilities",
+      "url": "https://www.sonomasheriff.org/facilities",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sonoma Sheriff — Detention Visitation Information",
+      "url": "https://www.sonomasheriff.org/detention-visitation-hours",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sonoma Sheriff — Depositing Money to an Account",
+      "url": "https://www.sonomasheriff.org/depositing-money-to-account",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sonoma Sheriff — Incarcerated Person Search",
+      "url": "https://www.sonomasheriff.org/incarcerated-person-search",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "hall-of-justice",
+      "name": "Hall of Justice",
+      "address": "625 Administration Drive",
+      "city": "Santa Rosa",
+      "zip": "95403",
+      "phone": "(707) 521-6500",
+      "criminal_phone": "(707) 521-6620",
+      "hours": "Building Mon–Fri 8:00 a.m.–3:30 p.m. Criminal clerk office 8:00 a.m.–3:30 p.m.; criminal phone line staffed 8:00 a.m.–noon.",
+      "criminal": true,
+      "note": "Cases served: Criminal, Traffic, Juvenile Dependency, Mental Health. Felony, misdemeanor and certain infraction matters heard Mon–Fri; daily calendars posted on the first floor. Records Dept (707) 521-6670. The court relocated clerk's offices and courtrooms to 625 Administration Dr. in summer 2026 — older forms/pages still show 600 Administration Dr.; confirm your courtroom before going.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://sonoma.courts.ca.gov/location/hall-justice",
+      "verified_on": "2026-10-13",
+      "todo": "Department/courtroom list for criminal calendars after the 2026 relocation not captured; relocation-updates page returned 403"
+    },
+    {
+      "id": "civil-family-law",
+      "name": "Civil and Family Law Courthouse",
+      "address": "3055 Cleveland Avenue",
+      "city": "Santa Rosa",
+      "zip": "95403",
+      "phone": "(707) 521-6500",
+      "criminal_phone": null,
+      "hours": null,
+      "criminal": false,
+      "note": "Civil/family courthouse; Civil Self-Help Center is here (civil matters only — criminal and traffic are outside its walk-in scope).",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://sonoma.courts.ca.gov/locations",
+      "verified_on": "2026-10-13",
+      "todo": "Hours not captured"
+    },
+    {
+      "id": "empire-college-annex",
+      "name": "Empire College Annex",
+      "address": "3035 Cleveland Avenue",
+      "city": "Santa Rosa",
+      "zip": "95403",
+      "phone": "(707) 521-6500",
+      "criminal_phone": null,
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m. (Courtrooms 16–17)",
+      "criminal": null,
+      "note": "Houses Courtrooms 16–17. The court's page lists no case types.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://sonoma.courts.ca.gov/location/empire-college-annex",
+      "verified_on": "2026-10-13",
+      "todo": "Case types heard here not listed — criminal status unknown"
+    },
+    {
+      "id": "juvenile-justice-center",
+      "name": "Juvenile Justice Center",
+      "address": "7425 Rancho Los Guilicos Road",
+      "city": "Santa Rosa",
+      "zip": "95409",
+      "phone": "(707) 521-6700",
+      "criminal_phone": null,
+      "hours": "Building Mon–Fri 8:00 a.m.–3:30 p.m.; office 8:00 a.m.–noon and 1:00–3:30 p.m.",
+      "criminal": false,
+      "note": "Juvenile delinquency and juvenile dependency. Same campus as Probation's Juvenile Hall.",
+      "departments": [],
+      "departments_source_url": null,
+      "source_url": "https://sonoma.courts.ca.gov/location/juvenile-justice-center",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Sonoma County Public Defender — Main Office",
+      "address": "600 Administration Drive, First Floor, Room 111J",
+      "city": "Santa Rosa",
+      "zip": "95403",
+      "phone": "(707) 565-2791",
+      "toll_free": null,
+      "email": null,
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "url": "https://sonomacounty.gov/justice-services/public-defender",
+      "source_url": "https://sonomacounty.gov/justice-services/public-defender/about-our-office",
+      "verified_on": "2026-10-13",
+      "todo": "No general office email listed. Juvenile Unit (707) 565-6304; CA Relay 711."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Sonoma County Public Defender — Post-Conviction Relief",
+      "serves": "People with Sonoma County convictions",
+      "what": "Dismissal (expungement-type) petitions, PC 17(b) felony-to-misdemeanor reductions, PC 1473.7 immigration vacatur, Racial Justice Act (PC 745), SB 483 enhancement repeal, PC 1170.91 veterans resentencing, youthful offender parole. Call first if you think you qualify; page also explains self-filing CR-180/CR-181.",
+      "phone": "(707) 565-2791",
+      "email": null,
+      "url": "https://sonomacounty.gov/justice-services/public-defender/post-conviction-relief",
+      "source_url": "https://sonomacounty.gov/justice-services/public-defender/post-conviction-relief",
+      "verified_on": "2026-10-13",
+      "todo": "Page still gives the old clerk filing address (600 Administration Dr., Room 105-J); criminal clerk is now at 625 Administration Dr."
+    },
+    {
+      "name": "Sonoma County Legal Services Foundation",
+      "serves": "Sonoma County residents",
+      "what": "Sliding-scale legal services; monthly low-cost workshops including cleaning up criminal records (per the court's Community Services list).",
+      "phone": "(707) 546-2924",
+      "email": null,
+      "url": null,
+      "source_url": "https://sonoma.courts.ca.gov/self-help/community-services",
+      "verified_on": "2026-10-13",
+      "todo": "Website not listed on court page; not verified"
+    },
+    {
+      "name": "Sonoma County Bar Association Lawyer Referral Service",
+      "serves": "Anyone seeking a private attorney",
+      "what": "Lawyer referral; initial consultation $50 for all cases (per court's Community Services list).",
+      "phone": "(707) 546-5297",
+      "email": null,
+      "url": null,
+      "source_url": "https://sonoma.courts.ca.gov/self-help/community-services",
+      "verified_on": "2026-10-13",
+      "todo": "Website not listed on court page"
+    }
+  ],
+  "probation": [
+    {
+      "name": "Sonoma County Probation — Adult Services / Pretrial Services",
+      "address": "600 Administration Drive, Room 104J",
+      "city": "Santa Rosa",
+      "zip": "95403",
+      "phone": "(707) 565-2149",
+      "hours": null,
+      "url": "https://sonomacounty.gov/justice-services/probation",
+      "source_url": "https://sonomacounty.gov/justice-services/probation/contact-us",
+      "verified_on": "2026-10-13",
+      "note": "Pretrial Services page lists the same address and phone. Chemical testing line (707) 565-2520.",
+      "todo": "Office hours not listed"
+    },
+    {
+      "name": "Sonoma County Probation — Day Reporting Center",
+      "address": "2400-A County Center Drive",
+      "city": "Santa Rosa",
+      "zip": "95403",
+      "phone": "(707) 565-8041",
+      "hours": null,
+      "url": "https://sonomacounty.gov/justice-services/probation",
+      "source_url": "https://sonomacounty.gov/justice-services/probation/contact-us",
+      "verified_on": "2026-10-13",
+      "note": null,
+      "todo": "Hours not listed"
+    },
+    {
+      "name": "Sonoma County Probation — Juvenile Services",
+      "address": "7425 Rancho Los Guilicos Rd., Dept. B",
+      "city": "Santa Rosa",
+      "zip": "95409",
+      "phone": "(707) 565-6229",
+      "hours": null,
+      "url": "https://sonomacounty.gov/justice-services/probation",
+      "source_url": "https://sonomacounty.gov/justice-services/probation/contact-us",
+      "verified_on": "2026-10-13",
+      "note": null,
+      "todo": "Hours not listed"
+    }
+  ],
+  "programs": [
+    {
+      "id": "pretrial-services",
+      "name": "Pretrial Services (Probation)",
+      "type": "pretrial",
+      "summary": "Probation-run pretrial release supervision intended to maximize public safety and court appearance rates and provide a safer alternative to detention. Conditions depend on your release order.",
+      "phone": "(707) 565-2149",
+      "url": "https://sonomacounty.gov/justice-services/probation/adult-division/pretrial-services",
+      "source_url": "https://sonomacounty.gov/justice-services/probation/adult-division/pretrial-services",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "mental-health-diversion",
+      "name": "Mental Health Diversion Court (MHD)",
+      "type": "diversion",
+      "summary": "Mental health treatment before a plea is entered.",
+      "phone": null,
+      "url": "https://sonoma.courts.ca.gov/divisions/mental-health-court/mental-health-diversion-court-mhd",
+      "source_url": "https://sonoma.courts.ca.gov/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "Eligibility and contact not captured"
+    },
+    {
+      "id": "dui-court",
+      "name": "DUI Court",
+      "type": "collaborative_court",
+      "summary": "Treatment-based alternative sentence for repeat DUI offenders.",
+      "phone": null,
+      "url": "https://sonoma.courts.ca.gov/collaborative-courts",
+      "source_url": "https://sonoma.courts.ca.gov/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "Contact not captured"
+    },
+    {
+      "id": "adult-drug-court",
+      "name": "Adult Drug Court",
+      "type": "collaborative_court",
+      "summary": "Listed on the court's Collaborative Courts page (no description there).",
+      "phone": null,
+      "url": "https://sonoma.courts.ca.gov/divisions/mental-health-court/drug-and-alcohol-court",
+      "source_url": "https://sonoma.courts.ca.gov/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "Description/eligibility not captured"
+    },
+    {
+      "id": "fact-court",
+      "name": "FACT Court",
+      "type": "collaborative_court",
+      "summary": "Adult mental health treatment after a plea.",
+      "phone": null,
+      "url": "https://sonoma.courts.ca.gov/collaborative-courts",
+      "source_url": "https://sonoma.courts.ca.gov/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "valor-court",
+      "name": "VALOR Court (Veterans)",
+      "type": "collaborative_court",
+      "summary": "Treatment for veterans after a plea.",
+      "phone": null,
+      "url": "https://sonoma.courts.ca.gov/divisions/mental-health-court/veterans-court",
+      "source_url": "https://sonoma.courts.ca.gov/collaborative-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "military-diversion",
+      "name": "Military Diversion",
+      "type": "diversion",
+      "summary": "Listed on the court's Collaborative Courts page (no description there).",
+      "phone": null,
+      "url": "https://sonoma.courts.ca.gov/collaborative-courts",
+      "source_url": "https://sonoma.courts.ca.gov/collaborative-courts",
+      "verified_on": "2026-10-13",
+      "todo": "Description not captured (likely PC 1001.80) — not verified"
+    }
+  ],
+  "jails": [
+    {
+      "id": "madf",
+      "name": "Main Adult Detention Facility (MADF)",
+      "address": "2777 Ventura Ave",
+      "city": "Santa Rosa",
+      "zip": "95403",
+      "phone": "(707) 565-1400",
+      "phone_note": "Main lobby / visit scheduling (Tue–Fri 3–9 p.m., no same-day). Sheriff Central Information Bureau (707) 565-2511.",
+      "houses": null,
+      "url": "https://www.sonomasheriff.org/facilities",
+      "visiting_url": "https://www.sonomasheriff.org/detention-visitation-hours",
+      "commissary_or_money_url": "https://www.sonomasheriff.org/depositing-money-to-account",
+      "court_ids": [
+        "hall-of-justice"
+      ],
+      "source_url": "https://www.sonomasheriff.org/locations",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff describes MADF as medium/maximum security, pretrial and sentenced, in the Hall of Justice complex, but does not say men/women/both. court_ids = nearest criminal courthouse (same complex), not confirmed. Money: Inmate Canteen (inmatecanteen.com, 1-667-265-8182, TouchPay kiosk in MADF lobby); phone/tablet account via ViaPath."
+    },
+    {
+      "id": "ncdf",
+      "name": "North County Detention Facility (NCDF)",
+      "address": "2254 Ordinance Road",
+      "city": "Santa Rosa",
+      "zip": "95403",
+      "phone": "(707) 565-1400",
+      "phone_note": "Same main lobby/visit line as MADF per Sheriff Locations page.",
+      "houses": null,
+      "url": "https://www.sonomasheriff.org/facilities",
+      "visiting_url": "https://www.sonomasheriff.org/detention-visitation-hours",
+      "commissary_or_money_url": "https://www.sonomasheriff.org/depositing-money-to-account",
+      "court_ids": [
+        "hall-of-justice"
+      ],
+      "source_url": "https://www.sonomasheriff.org/locations",
+      "verified_on": "2026-10-13",
+      "todo": "Population/sex housed not stated by Sheriff. court_ids = nearest criminal courthouse, not confirmed."
+    },
+    {
+      "id": "juvenile-hall",
+      "name": "Sonoma County Juvenile Hall (Probation)",
+      "address": "7425 Rancho Los Guilicos Rd., Dept. A",
+      "city": "Santa Rosa",
+      "zip": "95409",
+      "phone": "(707) 565-6300",
+      "phone_note": null,
+      "houses": "juvenile",
+      "url": "https://sonomacounty.gov/justice-services/probation",
+      "visiting_url": null,
+      "commissary_or_money_url": null,
+      "court_ids": [
+        "juvenile-justice-center"
+      ],
+      "source_url": "https://sonomacounty.gov/justice-services/probation/contact-us",
+      "verified_on": "2026-10-13",
+      "todo": "Visiting info not captured. court_ids = Juvenile Justice Center on the same campus (nearest, not confirmed)."
+    }
+  ],
+  "inmate_lookup_url": "https://inmatesearch.sonomasheriff.org/JailInmateSearch/Home/",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-13",
+    "note": "CA Department of Insurance license lookup for bail agents. Sonoma Sheriff: Detention Specialists 'process bonds, citations and releases', but official pages found do not describe where/how to post cash bail; call MADF main lobby (707) 565-1400.",
+    "todo": "Sheriff bail-posting location, hours and payment methods not found on official pages"
+  }
+}

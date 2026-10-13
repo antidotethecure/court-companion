@@ -1,0 +1,186 @@
+{
+  "state": "CA",
+  "county": "Yuba",
+  "slug": "yuba",
+  "court_name": "Superior Court of California, County of Yuba",
+  "court_website": "https://www.yuba.courts.ca.gov/",
+  "case_search_url": "https://portal-cayuba.tylertech.cloud/Portal",
+  "case_search_note": "Tyler public portal linked from the court's Online Case Access page. No registration required; view case info, scheduled hearings and the register of actions for current cases and completed cases back to 1999; pay criminal/traffic fines. Confidential cases need party-level access (Party Designee Access Request Form + ID, up to 7 days). Public computer at the courthouse Information Center Mon–Fri 8–5.",
+  "sources": [
+    {"title": "Yuba Superior Court — Locations & Contact Info", "url": "https://www.yuba.courts.ca.gov/general-information/locations-contact-info", "verified_on": "2026-10-13"},
+    {"title": "Yuba Superior Court — Online Case Access", "url": "https://www.yuba.courts.ca.gov/online-services/online-case-access", "verified_on": "2026-10-13"},
+    {"title": "Yuba Superior Court — Criminal Division", "url": "https://www.yuba.courts.ca.gov/divisions/criminal", "verified_on": "2026-10-13"},
+    {"title": "Yuba Superior Court — Self-Help Center", "url": "https://www.yuba.courts.ca.gov/self-help/self-help-center", "verified_on": "2026-10-13"},
+    {"title": "Yuba County DA — FAQs (Important Phone Numbers incl. Public Defender)", "url": "https://www.yuba.gov/departments/district_attorney/faqs.php", "verified_on": "2026-10-13"},
+    {"title": "Yuba County Probation Department", "url": "https://yuba.gov/departments/probation/index.php", "verified_on": "2026-10-13"},
+    {"title": "Yuba County Probation — Adult Division", "url": "https://www.yuba.gov/departments/probation/adult/index.php", "verified_on": "2026-10-13"},
+    {"title": "Yuba County Probation — Youth Campus", "url": "https://www.yuba.gov/departments/probation/youth_campus/index.php", "verified_on": "2026-10-13"},
+    {"title": "Yuba County Probation — Youth Campus Visits & Mail", "url": "https://www.yuba.gov/departments/probation/youth_campus/visits_mails.php", "verified_on": "2026-10-13"},
+    {"title": "Yuba County Sheriff — Jail Division", "url": "https://www.yuba.gov/departments/sheriff_coroner/jail/index.php", "verified_on": "2026-10-13"},
+    {"title": "Yuba County Sheriff — Jail Visitations", "url": "https://www.yuba.gov/departments/sheriff_coroner/jail/visitations.php", "verified_on": "2026-10-13"},
+    {"title": "Yuba County Sheriff — Inmate Funds & Posting Bail", "url": "https://www.yuba.gov/departments/sheriff_coroner/jail/inmate_services/inmate_funds_posting_bail.php", "verified_on": "2026-10-13"},
+    {"title": "Yuba County Sheriff — Contact Us", "url": "https://www.yuba.gov/departments/sheriff_coroner/about/contact_us.php", "verified_on": "2026-10-13"},
+    {"title": "Yuba County Jail — Final PREA Audit Report (houses women and men)", "url": "https://www.yuba.gov/Documents/Departments/Departments%20L%20to%20Z/Sheriff%20Coroner/Jail/Prison%20Rape%20Elimination%20Act%20PREA/Yuba%20County%20Jail%20Final%20PREA%20Audit%20Report.pdf", "verified_on": "2026-10-13"},
+    {"title": "CRLA — Marysville office", "url": "https://crla.org/locations/marysville", "verified_on": "2026-10-13"},
+    {"title": "CA Dept. of Insurance — Check an Agent/Broker license", "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm", "verified_on": "2026-10-13"}
+  ],
+  "courthouses": [
+    {
+      "id": "yuba-courthouse",
+      "name": "Yuba County Courthouse",
+      "address": "215 Fifth Street, Suite 200",
+      "city": "Marysville",
+      "zip": "95901",
+      "phone": "(530) 740-1800",
+      "criminal_phone": "(530) 740-1800 ext. 4",
+      "hours": "Criminal clerk: Mon–Fri 8:30 a.m.–4:30 p.m. (Locations page lists court hours Mon–Fri 8:00 a.m.–4:30 p.m.)",
+      "criminal": true,
+      "note": "The court's only listed location — handles criminal (felony and misdemeanor), adult and juvenile traffic (ext. 3), juvenile (ext. 8), civil, family, probate, small claims. In-custody arraignments generally Mon–Fri 3:00 p.m.; calendar posted in the 2nd-floor lobby. Sick felony defendants are expected to appear by Zoom unless hospitalized. Free parking at 4th & C Streets.",
+      "departments": [],
+      "source_url": "https://www.yuba.courts.ca.gov/general-information/locations-contact-info",
+      "verified_on": "2026-10-13",
+      "todo": "Department/courtroom list not compiled."
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Yuba County Public Defender's Office",
+      "address": null,
+      "city": "Marysville",
+      "zip": null,
+      "phone": "(530) 741-2331",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": null,
+      "source_url": "https://www.yuba.gov/departments/district_attorney/faqs.php",
+      "verified_on": "2026-10-13",
+      "note": "Phone listed on an official Yuba County page. County Board agenda material describes public defense as a contract with a private attorney (contracted Public Defender) rather than a county department.",
+      "todo": "No official page gives the office street address or hours (directories list 303 6th Street, Marysville — unverified). Confirm current contractor."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "California Rural Legal Assistance (CRLA) — Marysville office",
+      "serves": "Low-income residents (Marysville office)",
+      "what": "Civil legal aid; CRLA's site lists 'Criminal Record Clearing' among its help categories. Office page does not list counties served or detail record-clearing services. Not criminal defense on open cases.",
+      "phone": "(530) 742-5191",
+      "url": "https://crla.org/locations/marysville",
+      "source_url": "https://crla.org/locations/marysville",
+      "verified_on": "2026-10-13",
+      "note": "511 D St, Marysville, CA 95901. Tue & Thu 9–12, 1–5; Mon/Wed/Fri by phone or appointment only.",
+      "todo": "Confirm record-clearing services are offered from this office."
+    },
+    {
+      "name": "Yuba Superior Court Self-Help Center",
+      "serves": "Self-represented people in Yuba County",
+      "what": "Workshops (family law), computer lab to complete and print forms. Page does not mention criminal record clearing.",
+      "phone": "(530) 740-1850",
+      "url": "https://www.yuba.courts.ca.gov/self-help/self-help-center",
+      "source_url": "https://www.yuba.courts.ca.gov/self-help/self-help-center",
+      "verified_on": "2026-10-13",
+      "note": "3rd floor, 215 Fifth Street, Suite 318, Marysville. Mon–Fri 8:30 a.m.–4:30 p.m."
+    }
+  ],
+  "probation": [
+    {
+      "name": "Yuba County Probation Department",
+      "address": "215 5th Street, Suite 154",
+      "city": "Marysville",
+      "zip": "95901",
+      "phone": "(530) 749-7550",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "url": "https://yuba.gov/departments/probation/index.php",
+      "source_url": "https://yuba.gov/departments/probation/index.php",
+      "verified_on": "2026-10-13",
+      "note": "Fax (530) 749-7364. Adult Division handles court investigations, pretrial services, collaborative courts and supervision (formal probation, mandatory supervision, PRCS)."
+    }
+  ],
+  "programs": [
+    {
+      "id": "pretrial",
+      "name": "Pretrial Services (Yuba County Probation)",
+      "type": "pretrial",
+      "summary": "Probation does risk assessments (Ohio Risk Assessment System) on eligible people booked into the Yuba County Jail and recommends release or detention to the court. Released people may be supervised with court reminders, home visits, referrals and drug testing — conditions depend on the release order.",
+      "phone": "(530) 749-7550",
+      "url": "https://www.yuba.gov/departments/probation/adult/index.php",
+      "source_url": "https://www.yuba.gov/departments/probation/adult/index.php",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "collaborative-courts",
+      "name": "Collaborative Courts — Behavioral Health Court, Drug Court, Prop 36",
+      "type": "collaborative_court",
+      "summary": "Yuba Probation's Adult Division manages Behavioral Health Court, Drug Court and Proposition 36 programs: judicial supervision, intensive probation supervision, drug treatment/testing and/or mental health services. Ask your attorney about eligibility.",
+      "url": "https://www.yuba.gov/departments/probation/adult/index.php",
+      "source_url": "https://www.yuba.gov/departments/probation/adult/index.php",
+      "verified_on": "2026-10-13",
+      "todo": "Court schedule and eligibility criteria not published on the court site."
+    },
+    {
+      "id": "dui-program-referral",
+      "name": "DUI Program Referral",
+      "type": "other",
+      "summary": "You may self-refer to a DUI school/program. For a judge referral on a misdemeanor, call or visit the Criminal Division one week ahead to be put on the walk-in calendar; felony cases go through your attorney.",
+      "phone": "(530) 740-1800 ext. 4",
+      "url": "https://www.yuba.courts.ca.gov/divisions/criminal",
+      "source_url": "https://www.yuba.courts.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "self-help",
+      "name": "Court Self-Help Center",
+      "type": "self_help",
+      "summary": "Free help for people without a lawyer; workshops and a forms computer lab. Not for criminal defense.",
+      "phone": "(530) 740-1850",
+      "url": "https://www.yuba.courts.ca.gov/self-help/self-help-center",
+      "source_url": "https://www.yuba.courts.ca.gov/self-help/self-help-center",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "yuba-county-jail",
+      "name": "Yuba County Jail",
+      "address": "215 5th Street, Suite 150, Marysville, CA 95901",
+      "city": "Marysville",
+      "zip": "95901",
+      "houses": "both",
+      "phone": "(530) 749-7740",
+      "phone_note": "Recorded jail info (530) 749-7777 ext. 1; Records (530) 749-7778. Address is the jail's mailing address (non-inmate mail); the jail is on the north side of the courthouse on Sixth Street between B and C Streets.",
+      "visiting_url": "https://www.yuba.gov/departments/sheriff_coroner/jail/visitations.php",
+      "commissary_or_money_url": "https://www.yuba.gov/departments/sheriff_coroner/jail/inmate_services/inmate_funds_posting_bail.php",
+      "court_ids": ["yuba-courthouse"],
+      "url": "https://www.yuba.gov/departments/sheriff_coroner/jail/index.php",
+      "source_url": "https://www.yuba.gov/departments/sheriff_coroner/jail/index.php",
+      "verified_on": "2026-10-13",
+      "note": "PREA audit says the population includes women and men. Visiting daily; 2 visits/week (one on a weekend); register with the visiting clerk before the period starts; day/time depends on cell assignment (schedule PDF on visiting page). Money: GTL/TouchPay (TouchPayOnline.com, Site ID 795901, 1-866-232-1899) or lobby kiosk; cashier windows closed. Jail is attached to the county's only courthouse."
+    },
+    {
+      "id": "tri-county-ydc",
+      "name": "Tri-County Youth Development Center (Tri-County Youth Rehabilitation Campus)",
+      "address": "938 14th Street, Marysville, CA 95901",
+      "city": "Marysville",
+      "zip": "95901",
+      "houses": "juvenile",
+      "phone": "(530) 741-6371",
+      "phone_note": "Ext. 2 Juvenile Hall, ext. 3 Camp Singer.",
+      "visiting_url": "https://www.yuba.gov/departments/probation/youth_campus/visits_mails.php",
+      "commissary_or_money_url": null,
+      "court_ids": ["yuba-courthouse"],
+      "url": "https://www.yuba.gov/departments/probation/youth_campus/index.php",
+      "source_url": "https://www.yuba.gov/departments/probation/youth_campus/index.php",
+      "verified_on": "2026-10-13",
+      "note": "Serves Yuba, Sutter and Colusa counties; 32-bed secure detention plus Camp Singer (60 beds) and Secure Youth Resilience Program (16 beds). Visiting six days a week; parents/guardians/approved persons; appointments by phone. Court mapping is nearest, not confirmed."
+    }
+  ],
+  "inmate_lookup_url": "https://yubacounty.citizenrims.com/map",
+  "inmate_lookup_note": "Linked as 'Inmate Search Lookup' from the Sheriff's Inmate Services page. Court page says you can also call the jail at (530) 749-7740 to check custody.",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "Use the CA Department of Insurance license check to confirm any bail agent is licensed. Yuba Sheriff: cash bail is posted with the control room deputy in the Jail Lobby — U.S. currency, cashier's checks or money orders payable to 'Yuba County Jail'; Sheriff only takes bail for the full amount. Bail schedules are linked from the court's Criminal Division page.",
+    "source_url": "https://www.yuba.gov/departments/sheriff_coroner/jail/inmate_services/inmate_funds_posting_bail.php",
+    "verified_on": "2026-10-13",
+    "todo": "Hours for posting bail at the jail lobby not listed."
+  }
+}

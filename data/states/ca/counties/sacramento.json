@@ -1,0 +1,452 @@
+{
+  "state": "CA",
+  "county": "Sacramento",
+  "slug": "sacramento",
+  "court_name": "Superior Court of California, County of Sacramento",
+  "court_website": "https://www.saccourt.ca.gov/",
+  "case_search_url": "https://prod-portal-ecourt-jcft-sacramento-ca.journaltech.com/public-portal/",
+  "case_search_note": "Criminal Case Portal (linked as 'Criminal Case Search' from saccourt.ca.gov/online-services/case-search). The court launched a new criminal case management system effective August 10, 2026; see the Criminal Portal Public Users Guide. Traffic cases use separate searches at services.saccourt.ca.gov/PublicCaseAccess/Traffic (by license, citation or case number).",
+  "sources": [
+    {
+      "title": "Sacramento Superior Court — Court Locations",
+      "url": "https://www.saccourt.ca.gov/general-information/court-locations",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sacramento Superior Court — Carol Miller Justice Center",
+      "url": "https://www.saccourt.ca.gov/Home/Components/FacilityDirectory/FacilityDirectory/2/85?widgetId=286",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sacramento Superior Court — Juvenile Courthouse",
+      "url": "https://www.saccourt.ca.gov/Home/Components/FacilityDirectory/FacilityDirectory/4/85?widgetId=286",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sacramento Superior Court — Lorenzo Patiño Hall of Justice",
+      "url": "https://www.saccourt.ca.gov/Home/Components/FacilityDirectory/FacilityDirectory/6/85?widgetId=286",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sacramento Superior Court — Tani G. Cantil-Sakauye Sacramento County Courthouse",
+      "url": "https://www.saccourt.ca.gov/Home/Components/FacilityDirectory/FacilityDirectory/8/85?widgetId=286",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sacramento Superior Court — Criminal Division",
+      "url": "https://www.saccourt.ca.gov/divisions/criminal",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sacramento Superior Court — Case Search",
+      "url": "https://www.saccourt.ca.gov/online-services/case-search",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sacramento Superior Court — Collaborative & Specialized Courts",
+      "url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sacramento Superior Court — Expungement self-help",
+      "url": "https://www.saccourt.ca.gov/self-help/expungement",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sacramento County Sheriff — Main Jail",
+      "url": "https://www.sacsheriff.com/pages/main_jail.php",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sacramento County Sheriff — Main Jail Visitation",
+      "url": "https://www.sacsheriff.com/pages/main_jail_inmate_visitation.php",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sacramento County Sheriff — Main Jail Inmate Funds",
+      "url": "https://www.sacsheriff.com/pages/main_jail_inmate_funds.php",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sacramento County Sheriff — Rio Cosumnes Correctional Center",
+      "url": "https://www.sacsheriff.com/pages/rccc.php",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sacramento County Sheriff — RCCC Visitation",
+      "url": "https://www.sacsheriff.com/pages/rccc_inmate_visitation.php",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sacramento County Sheriff — Inmate Information",
+      "url": "https://www.sacsheriff.com/inmateinformation",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sacramento County Public Defender — Contact Our Department",
+      "url": "https://publicdefender.saccounty.gov/content/pd/us/en/contact-our-department.html",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sacramento County Probation — Adult Court Services",
+      "url": "https://saccoprobation.saccounty.gov/content/probation/us/en/adult-court-services.html",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sacramento County Probation — Find Your Probation Officer",
+      "url": "https://saccoprobation.saccounty.gov/content/probation/us/en/resources/find-your-probation-officer.html",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Legal Services of Northern California — Sacramento office",
+      "url": "https://lsnc.net/office/sacramento",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "title": "Sacramento County Public Law Library — Pardons and Expungement",
+      "url": "https://saclaw.org/legal_topic/pardons-and-expungement-sealing-criminal-record/",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "cantil-sakauye",
+      "name": "Tani G. Cantil-Sakauye Sacramento County Courthouse",
+      "address": "500 G St.",
+      "city": "Sacramento",
+      "zip": "95814",
+      "phone": "(916) 874-5522",
+      "hours": "Building: Mon–Fri 7:00 a.m.–5:00 p.m. Criminal clerk: Mon–Fri 8:30 a.m.–4:00 p.m. ((916) 874-5522 option 1). Civil Self-Help (2nd floor, Room 250): Mon/Tue/Wed/Fri 8:30–12:00 and 1:30–4:00; Thu 8:30–12:00.",
+      "criminal": true,
+      "note": "Main criminal courthouse: felony and misdemeanor trials, criminal pretrial matters, DUI cases and arraignments, plus felony/misdemeanor filing, fees and case processing. 53 courtrooms on floors 3–17; courtroom names give floor + position (e.g. 3A = west side of 3rd floor). Replaced the Gordon D. Schaber courthouse at 720 9th St (no longer on the court's location list). Phone option 1 = Criminal, 3 = Civil, 4 = Jury.",
+      "departments": [],
+      "source_url": "https://www.saccourt.ca.gov/Home/Components/FacilityDirectory/FacilityDirectory/8/85?widgetId=286",
+      "verified_on": "2026-10-13",
+      "todo": "Per-department criminal assignments not published on the location page; departments left empty."
+    },
+    {
+      "id": "patino",
+      "name": "Lorenzo Patiño Hall of Justice",
+      "address": "651 I Street",
+      "city": "Sacramento",
+      "zip": "95814",
+      "phone": null,
+      "hours": "Mon–Fri (except court holidays) 8:30 a.m.–12:30 p.m. and 1:30–4:00 p.m.",
+      "criminal": true,
+      "note": "Same building as the Sacramento County Main Jail. Houses the Criminal Division's felony and misdemeanor pretrial 'Home Court' departments, two of which also serve as the Domestic Violence Court and Drug Court. Departments 60–63 (first floor).",
+      "departments": [
+        {
+          "id": "60",
+          "label": "Department 60",
+          "type": "Criminal pretrial (Home Court)",
+          "note": "Court lists Depts 60–63 here; which two are DV Court and Drug Court not stated"
+        },
+        {
+          "id": "61",
+          "label": "Department 61",
+          "type": "Criminal pretrial (Home Court)",
+          "note": null
+        },
+        {
+          "id": "62",
+          "label": "Department 62",
+          "type": "Criminal pretrial (Home Court)",
+          "note": null
+        },
+        {
+          "id": "63",
+          "label": "Department 63",
+          "type": "Criminal pretrial (Home Court)",
+          "note": null
+        }
+      ],
+      "source_url": "https://www.saccourt.ca.gov/Home/Components/FacilityDirectory/FacilityDirectory/6/85?widgetId=286",
+      "verified_on": "2026-10-13",
+      "todo": "No phone published for this location; use (916) 874-5522 option 1 (Criminal) — not confirmed as covering this building."
+    },
+    {
+      "id": "carol-miller",
+      "name": "Carol Miller Justice Center",
+      "address": "301 Bicentennial Circle",
+      "city": "Sacramento",
+      "zip": "95826",
+      "phone": "(916) 669-5712",
+      "hours": "Mon–Thu 7:00 a.m.–5:00 p.m.; closed Fridays and court holidays. Traffic call center: Mon–Fri 4 a.m.–9 p.m., Sat–Sun 6 a.m.–3 p.m. Night Court 2nd Wednesday of each month 5:15–6:15 p.m.",
+      "criminal": true,
+      "note": "Traffic misdemeanors and infractions (arraignment, pretrial hearings, trials — adults), juvenile traffic infractions, small claims and unlawful detainer. Departments 81–84 (1st floor) and 86–88 (3rd floor). Phone shown is the Traffic Division Call Center; Small Claims/UD: (916) 875-7746.",
+      "departments": [],
+      "source_url": "https://www.saccourt.ca.gov/Home/Components/FacilityDirectory/FacilityDirectory/2/85?widgetId=286",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "juvenile",
+      "name": "Juvenile Courthouse",
+      "address": "9605 Kiefer Boulevard",
+      "city": "Sacramento",
+      "zip": "95827",
+      "phone": "(916) 876-7753",
+      "hours": "Building Mon–Fri 8:00 a.m.–5:00 p.m.; business hours Mon–Fri 8:10 a.m.–12:00 p.m. and 1:00–4:00 p.m.",
+      "criminal": false,
+      "note": "Juvenile Dependency and Juvenile Justice (delinquency) — Departments 90–97. Not an adult criminal court.",
+      "departments": [],
+      "source_url": "https://www.saccourt.ca.gov/Home/Components/FacilityDirectory/FacilityDirectory/4/85?widgetId=286",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "ridgeway",
+      "name": "William R. Ridgeway Family Relations Courthouse",
+      "address": "3341 Power Inn Road",
+      "city": "Sacramento",
+      "zip": "95826",
+      "phone": "(916) 875-3400",
+      "hours": null,
+      "criminal": false,
+      "note": "Family law courthouse; not a criminal court.",
+      "departments": [],
+      "source_url": "https://www.saccourt.ca.gov/general-information/court-locations",
+      "verified_on": "2026-10-13",
+      "todo": "Hours not loaded from the facility detail page."
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Sacramento County Public Defender — Main Office (Felony, Major Crimes & Misdemeanor Divisions)",
+      "address": "700 H Street, Suite 0270",
+      "city": "Sacramento",
+      "zip": "95814",
+      "phone": "(916) 874-6411",
+      "toll_free": null,
+      "email": "PDWebMail@saccounty.gov",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m. (except holidays)",
+      "url": "https://publicdefender.saccounty.gov/",
+      "source_url": "https://publicdefender.saccounty.gov/content/pd/us/en/contact-our-department.html",
+      "verified_on": "2026-10-13",
+      "note": "Office is on the ground floor; enter on the first floor and take stairs/elevator down."
+    },
+    {
+      "name": "Sacramento County Public Defender — Juvenile Division",
+      "address": "9310 Tech Center Drive, Suite 205",
+      "city": "Sacramento",
+      "zip": "95826",
+      "phone": "(916) 875-5077",
+      "toll_free": null,
+      "email": "PDWebMail@saccounty.gov",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m. (except holidays)",
+      "url": "https://publicdefender.saccounty.gov/",
+      "source_url": "https://publicdefender.saccounty.gov/content/pd/us/en/contact-our-department.html",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Sacramento County Public Defender — Expungement assistance",
+      "serves": "Adults with Sacramento County convictions who have completed probation (or were discharged early) and are not serving a sentence or on probation for another offense",
+      "what": "Help with PC 1203.4 expungement petitions; walk-in Tuesdays 2:00–4:00 p.m. at 700 H Street, Suite 0270, first-come first-served. Requires mitigation documents (including a personal statement) before a petition is filed.",
+      "phone": "(916) 875-1835",
+      "email": "PublicDefender-Expungement@saccounty.gov",
+      "url": "https://publicdefender.saccounty.gov/",
+      "source_url": "https://publicdefender.saccounty.gov/Pages/ClearingaCriminalRecord.aspx",
+      "verified_on": "2026-10-13",
+      "todo": "Details confirmed via search snippet of the official PD page; direct fetch returned 404 (site migrated). Re-verify hours/phone on the new PD site."
+    },
+    {
+      "name": "Sacramento Superior Court — Civil Self-Help Services",
+      "serves": "Self-represented people in Sacramento County",
+      "what": "Court self-help center; expungement of criminal convictions is among its listed topics. The court's Expungement self-help page explains PC 1203.4 dismissal.",
+      "phone": "(916) 874-1421",
+      "email": "civilselfhelp@saccourt.ca.gov",
+      "url": "https://www.saccourt.ca.gov/self-help/expungement",
+      "source_url": "https://www.saccourt.ca.gov/Home/Components/FacilityDirectory/FacilityDirectory/8/85?widgetId=286",
+      "verified_on": "2026-10-13",
+      "note": "Location (500 G St., 2nd floor, Room 250) and hours from the court's courthouse page; phone/email from the Sacramento County Public Law Library expungement page (saclaw.org)."
+    },
+    {
+      "name": "Legal Services of Northern California — Sacramento Office",
+      "serves": "Low-income residents of Sacramento County",
+      "what": "Free civil legal aid (housing, public benefits incl. CalWorks, CalFresh, Medi-Cal, GA, SSI, unemployment, SDI). Does not list criminal or record-clearance work.",
+      "phone": "(916) 551-2150",
+      "email": null,
+      "url": "https://lsnc.net/office/sacramento",
+      "source_url": "https://lsnc.net/office/sacramento",
+      "verified_on": "2026-10-13",
+      "note": "515 12th Street, Sacramento 95814. Intake Mon/Tue/Thu/Fri 8:30–12 and 1–5; after-hours intake line (866) 815-5990."
+    }
+  ],
+  "probation": [
+    {
+      "name": "Sacramento County Probation — Adult Office (reporting / find your officer)",
+      "address": "8745 Folsom Boulevard",
+      "city": "Sacramento",
+      "zip": "95826",
+      "phone": "(916) 875-0300",
+      "hours": "Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "url": "https://saccoprobation.saccounty.gov/",
+      "source_url": "https://saccoprobation.saccounty.gov/content/probation/us/en/resources/find-your-probation-officer.html",
+      "verified_on": "2026-10-13",
+      "note": "Call (916) 875-0300 for reporting instructions. To find your probation officer, call (916) 874-PROB (7762) with your X-reference number (touch-tone)."
+    },
+    {
+      "name": "Sacramento County Probation — Adult Court Services (incl. Pretrial)",
+      "address": "711 E Street",
+      "city": "Sacramento",
+      "zip": "95814",
+      "phone": "(916) 874-1500",
+      "hours": null,
+      "url": "https://saccoprobation.saccounty.gov/content/probation/us/en/adult-court-services.html",
+      "source_url": "https://saccoprobation.saccounty.gov/content/probation/us/en/adult-court-services.html",
+      "verified_on": "2026-10-13",
+      "todo": "Hours not listed on the page."
+    }
+  ],
+  "programs": [
+    {
+      "id": "sac-pretrial",
+      "name": "Probation Pretrial Unit (pretrial monitoring)",
+      "type": "pretrial",
+      "summary": "Created in 2019. Probation assesses people booked into custody and monitors people the Superior Court releases to Pretrial, at no cost to them. Monitoring may include court reminder calls, office visits, community visits and GPS monitoring.",
+      "phone": "(916) 874-1500",
+      "url": "https://saccoprobation.saccounty.gov/content/probation/us/en/adult-court-services.html",
+      "source_url": "https://saccoprobation.saccounty.gov/content/probation/us/en/adult-court-services.html",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "sac-recovery-court",
+      "name": "Adult Recovery Court",
+      "type": "collaborative-court",
+      "summary": "Residential and outpatient treatment for people charged with non-violent drug possession, drug-related probation violations and certain other drug-related and property crimes; monitored and tested by Probation.",
+      "url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "source_url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "sac-mhtc",
+      "name": "Mental Health Treatment Court (MHTC)",
+      "type": "collaborative-court",
+      "summary": "Post-plea program for defendants with qualifying mental health or co-occurring disorders; DA reviews referrals and approves acceptance. Individualized treatment plan with close court monitoring.",
+      "url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "source_url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "sac-mhd",
+      "name": "Mental Health Diversion (PC 1001.36)",
+      "type": "diversion",
+      "summary": "For people charged with a misdemeanor or felony whose treatable mental disorder played a significant part in the charged offense.",
+      "url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "source_url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "sac-drug-diversion",
+      "name": "Drug Diversion (PC 1000)",
+      "type": "diversion",
+      "summary": "For first-time simple drug possession: 40 hours of drug education, monthly meetings, support groups, 6 months of drug testing; monitored by Probation.",
+      "url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "source_url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "sac-military-diversion",
+      "name": "Military Diversion Program (PC 1001.80)",
+      "type": "diversion",
+      "summary": "For current/former U.S. military members charged with misdemeanors or felonies who may suffer from service-related trauma, TBI, PTSD, substance abuse or mental health problems.",
+      "url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "source_url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "sac-duitc",
+      "name": "DUI Treatment Court (DUITC)",
+      "type": "collaborative-court",
+      "summary": "For people charged with DUI who have three prior DUI misdemeanor convictions within 10 years; mandatory in-custody period, Probation supervision and treatment.",
+      "url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "source_url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "sac-reset",
+      "name": "ReSET Court (Reducing Sexual Exploitation and Trafficking)",
+      "type": "collaborative-court",
+      "summary": "For people charged with prostitution or prostitution-related offenses; initial referral to Community Against Sexual Harm (CASH).",
+      "url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "source_url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "sac-dv-court",
+      "name": "Domestic Violence Court",
+      "type": "specialty-calendar",
+      "summary": "Dedicated courtroom; people charged with DV or related offenses are automatically set for pretrial hearings here. Also handles Batterer's Treatment compliance.",
+      "url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "source_url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "sac-loaves-fishes",
+      "name": "Loaves and Fishes Court",
+      "type": "specialty-calendar",
+      "summary": "For unhoused defendants with low-level traffic and some misdemeanor offenses who cannot pay fines/fees; community service at Loaves and Fishes works off fines (does not dismiss the case).",
+      "url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "source_url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "verified_on": "2026-10-13"
+    },
+    {
+      "id": "sac-heap",
+      "name": "HEAP Expungement Calendar",
+      "type": "record-clearance",
+      "summary": "Expedited expungement calendar for unhoused people who completed probation, with the Public Defender and DA; contact the Public Defender.",
+      "url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "source_url": "https://www.saccourt.ca.gov/divisions/criminal/collaborative-specialized-courts",
+      "verified_on": "2026-10-13"
+    }
+  ],
+  "jails": [
+    {
+      "id": "sac-main-jail",
+      "name": "Sacramento County Main Jail",
+      "address": "651 I Street, Sacramento, CA 95814",
+      "city": "Sacramento",
+      "zip": "95814",
+      "phone": "(916) 874-6752",
+      "phone_note": "Main Jail line (also inmate info and SIRENS release-notification registration). Public hours 7:00 a.m.–11:00 p.m. daily. Non-emergency (916) 874-5115. Family emergencies: Main Jail Social Worker (916) 874-6345.",
+      "houses": null,
+      "visiting_url": "https://www.sacsheriff.com/pages/main_jail_inmate_visitation.php",
+      "commissary_or_money_url": "https://www.sacsheriff.com/pages/main_jail_inmate_funds.php",
+      "court_ids": [
+        "patino",
+        "cantil-sakauye"
+      ],
+      "court_ids_note": "The Lorenzo Patiño Hall of Justice courtrooms (Depts 60–63) are in the same building as the Main Jail; Cantil-Sakauye is the main criminal courthouse two blocks away. Nearest, not confirmed as the transport destination.",
+      "url": "https://www.sacsheriff.com/pages/main_jail.php",
+      "source_url": "https://www.sacsheriff.com/pages/main_jail.php",
+      "verified_on": "2026-10-13",
+      "todo": "Sheriff's page does not say whether the Main Jail houses men, women or both. Money: TouchPay kiosk in lobby, (866) 232-1899, gtlfsonlinepay.com; facility number 257501."
+    },
+    {
+      "id": "rccc",
+      "name": "Rio Cosumnes Correctional Center (RCCC)",
+      "address": "12500 Bruceville Road, Elk Grove, CA 95757",
+      "city": "Elk Grove",
+      "zip": "95757",
+      "phone": "(916) 874-1927",
+      "phone_note": "RCCC public line. Primary custody facility for people sentenced to county jail; also holds pre-sentence detainees, federal and reciprocal prisoners, and parole violators. Inmate phones: Securus 1-800-844-6591.",
+      "houses": "both",
+      "visiting_url": "https://www.sacsheriff.com/pages/rccc_inmate_visitation.php",
+      "commissary_or_money_url": "https://www.sacsheriff.com/pages/rccc_inmate_funds.php",
+      "court_ids": [
+        "cantil-sakauye",
+        "patino"
+      ],
+      "court_ids_note": "Nearest criminal courthouses, not confirmed. The RCCC page does not name a court destination.",
+      "url": "https://www.sacsheriff.com/pages/rccc.php",
+      "source_url": "https://www.sacsheriff.com/pages/rccc.php",
+      "verified_on": "2026-10-13",
+      "note": "Visiting schedule lists male general population, male protective custody and female population units (houses: both)."
+    }
+  ],
+  "inmate_lookup_url": "https://www.sacsheriff.com/inmateinformation",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "Before paying a bail agent, check their license with the California Department of Insurance license lookup. The court's Felony and Misdemeanor Bail Schedule is linked from saccourt.ca.gov/divisions/criminal (https://www.saccourt.ca.gov/home/showpublisheddocument/407/639123699099530000). For custody status call the Main Jail at (916) 874-6752. This is information only, not legal advice."
+  }
+}
