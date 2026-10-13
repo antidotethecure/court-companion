@@ -735,6 +735,7 @@ VIEWS.settings = () => {
    ${CC.profile.sample?"":`<p class="small" style="margin-top:8px">Cases in this profile: ${(CC.profile.cases||[]).map(c=>esc(c.number)).join(" · ")||"none"}</p>`}</div>
   <div class="card"><h3>${icon("info")}Walkthrough tips</h3><p class="small">A short explanation pops up the first time you open each section.</p><button class="btn ghost" onclick="CC.tourReset()">Show the tips again</button></div>
   <div class="card"><h3>${icon("folder")}Your data</h3><p class="small">${CC.profile.persist===false?"Private mode: your case data lives only inside the encrypted page. Only done-checkmarks are remembered on this device.":"Everything you add stays in this browser on this device. Nothing is uploaded."}</p>
+   ${CC.profile.sample||CC.profile.persist===false?"":`<div class="row"><button class="btn ghost" id="lkset">${icon("key")}${(()=>{try{return localStorage.getItem("cc:lock")}catch(e){return null}})()?"Change or remove password":"Set a password lock"}</button></div>`}
    <div class="row"><button class="btn" id="bk">${icon("download")}Save my case (backup file)</button><button class="btn ghost" id="rs">${icon("folder")}Restore a backup</button></div>
    <p class="small">${(()=>{try{const t=localStorage.getItem("cc:lastBackup");return t?"Last backup: "+new Date(t).toLocaleString():"No backup yet. Save one now, and again after big changes."}catch(e){return ""}})()} The backup holds every case, note, list and transcript, so you can move to a new phone or let family restore it.</p>
    <div class="row"><button class="btn ghost" id="exp">${icon("download")}Export my data (JSON)</button><button class="btn ghost" id="ics2">${icon("calendar")}Calendar (.ics)</button><button class="btn ghost" id="wipe">${icon("x")}Erase from this device</button></div></div>
@@ -751,6 +752,7 @@ VIEWS.settings.wire = () => {
   $("#mycase").onclick = () => { let has=null; try{ has=localStorage.getItem("cc:profile:mine"); }catch(e){} if (CC.profile.sample && has) CC.useMine(); else CC.intake(); };
   if ($("#demo")) $("#demo").onclick = () => CC.useDemo();
   if ($("#addcase")) $("#addcase").onclick = () => CC.addCase();
+  if ($("#lkset")) $("#lkset").onclick = () => CC.lockSettings();
   $("#bk").onclick = () => CC.backup(); $("#rs").onclick = () => CC.restore();
   $("#exp").onclick = () => download("court-companion-data.json", JSON.stringify({exported:new Date().toISOString(), events:S.events, contacts:S.contacts, questions:S.questions, notes:S.notes, nocontact:S.nocontact}, null, 2), "application/json");
   $("#ics2").onclick = () => CC.exportICS();

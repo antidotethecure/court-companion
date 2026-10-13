@@ -1,5 +1,5 @@
 /* Offline cache: app shell + all JSON data. Network-first for data so fresh source updates win when online. */
-const V = "cc-v3-2";
+const V = "cc-v3-3";
 const CORE = ["./","index.html","css/app.css","js/icons.js","js/app.js","js/toolkit.js","js/i18n.js","manifest.webmanifest","icons/icon.svg","icons/icon-192.png",
   "data/guardrails.json","data/states/ca/state.json","data/states/ca/counties/los-angeles.json","data/states/ca/counties/orange.json",
   "data/federal/cacd.json","data/guides/ca.json","data/brain/library.json","data/demo/jordan-reyes.json","data/demo/brand-golden-gate.json"];

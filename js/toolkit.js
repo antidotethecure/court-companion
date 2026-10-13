@@ -502,6 +502,8 @@ function intake(){
     <label for="in-atty">My lawyer (name)</label><input id="in-atty">
     <div class="fgrid two"><div><label for="in-aph">Lawyer phone</label><input id="in-aph" type="tel"></div><div><label for="in-aem">Lawyer email</label><input id="in-aem" type="email"></div></div>
     <label for="in-nc">People I'm ordered not to contact (one per line)</label><textarea id="in-nc" placeholder="The app will block reminders, contacts and notes about them."></textarea>
+    <label for="in-pw">Password to lock my case (optional)</label><input id="in-pw" type="password" autocomplete="new-password" placeholder="Only people you give it to can open it">
+    <label for="in-pw2">Type the password again</label><input id="in-pw2" type="password" autocomplete="new-password">
     <div class="row" style="margin-top:12px"><button class="btn" id="in-go">${icon("check")}Create my case</button><button class="btn ghost" data-close>Cancel</button></div>`);
   $("#in-go",md).onclick = () => {
     const g = id => $("#"+id,md).value.trim(); const sys = g("in-sys"), cnty = CC.data.counties[sys];
@@ -513,8 +515,10 @@ function intake(){
       cases:[k], nocontact: g("in-nc").split("\n").map(s=>s.trim()).filter(Boolean), events:[], contacts:[], release_conditions:[] };
     if (g("in-date")) p.events.push({id:"e1", kind:"court", title:"Court date", date:g("in-date"), time:g("in-time")||"", dept:g("in-dept"), caseId:"c1", caseLabel:k.number});
     if (g("in-atty")) p.contacts.push({id:"a1", role:"attorney", name:g("in-atty"), phone:g("in-aph"), email:g("in-aem"), caseId:"c1"});
+    if (g("in-pw") || g("in-pw2")){ if (g("in-pw") !== g("in-pw2")) return toast("The two passwords don't match."); if (g("in-pw").length < 6) return toast("Use at least 6 characters for the password."); }
     try{ localStorage.setItem("cc:profile:mine", JSON.stringify(p)); localStorage.setItem("cc:active","mine"); }catch(e){ return toast("This browser blocked saving. Try a normal (not private) window."); }
-    location.hash = "#home"; location.reload(); };
+    const go = () => { location.hash = "#home"; location.reload(); };
+    if (g("in-pw")) LK.set(g("in-pw")).then(go, go); else go(); };
 }
 CC.intake = intake;
 /* Add another case to MY profile (several cases at once: e.g. a federal and a state case). */
@@ -552,20 +556,28 @@ CC.backup = async () => {
   let files=[]; try{ const db=await new Promise((res,rej)=>{ const r=indexedDB.open("cc-files",1); r.onupgradeneeded=()=>r.result.createObjectStore("files",{keyPath:"id"}); r.onsuccess=()=>res(r.result); r.onerror=()=>rej(r.error); });
     files=await new Promise(res=>{ try{ const q=db.transaction("files").objectStore("files").getAll(); q.onsuccess=()=>res(q.result||[]); q.onerror=()=>res([]); }catch(e){ res([]); } });
     files=await Promise.all(files.map(async f=>{ const o={...f}; for (const [k,v] of Object.entries(o)) if (v instanceof Blob){ o[k]={__blob:true,type:v.type,data:await new Promise(r=>{const fr=new FileReader();fr.onload=()=>r(fr.result);fr.readAsDataURL(v);})}; } return o; })); }catch(e){}
-  const out={app:"court-companion",version:1,saved:new Date().toISOString(),keys,files};
-  _.download("court-companion-backup-"+new Date().toISOString().slice(0,10)+".json", JSON.stringify(out), "application/json");
+  delete keys["cc:lock"];
+  let out=JSON.stringify({app:"court-companion",version:1,saved:new Date().toISOString(),keys,files});
+  if (LK.get()){ const pw = prompt("Enter your password to encrypt this backup. Anyone who opens it will need this password."); if (pw === null) return;
+    if (!(await LK.check(pw))) return toast("Wrong password. Backup not saved.");
+    out = JSON.stringify(await LK.seal(pw, out)); }
+  _.download("court-companion-backup-"+new Date().toISOString().slice(0,10)+(LK.get()?"-locked":"")+".json", out, "application/json");
   try{ localStorage.setItem("cc:lastBackup", new Date().toISOString()); }catch(e){}
   toast("Backup saved. Keep the file somewhere safe (Files, iCloud Drive or email it to yourself).");
 };
 CC.restore = () => {
   const inp=document.createElement("input"); inp.type="file"; inp.accept="application/json,.json";
   inp.onchange = async () => { const f=inp.files[0]; if (!f) return; let d; try{ d=JSON.parse(await f.text()); }catch(e){ return toast("That file isn't a Court Companion backup."); }
+    let bpw=null;
+    if (d.app==="court-companion" && d.locked){ bpw = prompt("This backup is password protected. Enter its password:"); if (bpw === null) return;
+      try{ d = JSON.parse(await LK.open(bpw, d)); }catch(e){ return toast("Wrong password for this backup."); } }
     if (d.app!=="court-companion"||!d.keys) return toast("That file isn't a Court Companion backup.");
     if (!confirm("Restore this backup? It replaces what's saved in this browser.")) return;
     try{ Object.entries(d.keys).forEach(([k,v])=>{ if (k.startsWith("cc:")) localStorage.setItem(k,v); }); }catch(e){ return toast("This browser blocked saving."); }
     try{ if ((d.files||[]).length){ const db=await new Promise((res,rej)=>{ const r=indexedDB.open("cc-files",1); r.onupgradeneeded=()=>r.result.createObjectStore("files",{keyPath:"id"}); r.onsuccess=()=>res(r.result); r.onerror=()=>rej(r.error); });
       const tx=db.transaction("files","readwrite"), st=tx.objectStore("files");
       for (const f of d.files){ const o={...f}; for (const [k,v] of Object.entries(o)) if (v&&v.__blob){ o[k]=await (await fetch(v.data)).blob(); } st.put(o); } } }catch(e){}
+    if (bpw){ await LK.set(bpw); }
     toast("Restored."); setTimeout(()=>location.reload(),600); };
   inp.click();
 };
@@ -573,7 +585,54 @@ try{ navigator.storage && navigator.storage.persist && navigator.storage.persist
 CC.useDemo = () => { try{ localStorage.setItem("cc:active","demo"); }catch(e){} location.reload(); };
 CC.useMine = () => { try{ localStorage.setItem("cc:active","mine"); }catch(e){} location.reload(); };
 
+/* ───────── Password lock (optional, set at sign-up or in Settings) ─────────
+   cc:lock = {salt, hash}: PBKDF2-SHA256 check of the password; asked every time the app opens (per browser session).
+   Backups made while a password is set are AES-GCM encrypted with it, so the file + password can be shared with family or a lawyer. */
+const LK = {
+  b64: u => btoa(String.fromCharCode(...new Uint8Array(u))), u8: s => Uint8Array.from(atob(s), c => c.charCodeAt(0)),
+  async key(pw, salt, usage){ const km = await crypto.subtle.importKey("raw", new TextEncoder().encode(pw), "PBKDF2", false, ["deriveKey","deriveBits"]);
+    return usage === "bits" ? crypto.subtle.deriveBits({name:"PBKDF2", salt, iterations:210000, hash:"SHA-256"}, km, 256)
+      : crypto.subtle.deriveKey({name:"PBKDF2", salt, iterations:210000, hash:"SHA-256"}, km, {name:"AES-GCM", length:256}, false, ["encrypt","decrypt"]); },
+  get(){ try{ return JSON.parse(localStorage.getItem("cc:lock")||"null"); }catch(e){ return null; } },
+  async set(pw){ const salt = crypto.getRandomValues(new Uint8Array(16)); const h = await this.key(pw, salt, "bits");
+    localStorage.setItem("cc:lock", JSON.stringify({salt:this.b64(salt), hash:this.b64(h)})); try{ sessionStorage.setItem("cc:unlocked","1"); }catch(e){} },
+  async check(pw){ const L = this.get(); if (!L) return true; const h = await this.key(pw, this.u8(L.salt), "bits"); return this.b64(h) === L.hash; },
+  async seal(pw, text){ const salt = crypto.getRandomValues(new Uint8Array(16)), iv = crypto.getRandomValues(new Uint8Array(12)); const k = await this.key(pw, salt);
+    const c = await crypto.subtle.encrypt({name:"AES-GCM", iv}, k, new TextEncoder().encode(text)); return {app:"court-companion", locked:true, s:this.b64(salt), i:this.b64(iv), c:this.b64(c)}; },
+  async open(pw, o){ const k = await this.key(pw, this.u8(o.s)); return new TextDecoder().decode(await crypto.subtle.decrypt({name:"AES-GCM", iv:this.u8(o.i)}, k, this.u8(o.c))); }
+};
+CC.lock = LK;
+function lockGate(){
+  if (!LK.get() || CC.profile.sample || CC.profile.persist === false) return Promise.resolve();
+  try{ if (sessionStorage.getItem("cc:unlocked")) return Promise.resolve(); }catch(e){}
+  return new Promise(res => {
+    const d = document.createElement("div"); d.id = "cc-lockgate";
+    d.style.cssText = "position:fixed;inset:0;z-index:9999;background:var(--bg,#0b1220);display:flex;align-items:center;justify-content:center;padding:16px";
+    d.innerHTML = `<form class="card" style="max-width:360px;width:100%"><h3>${icon("key")}Court Companion is locked</h3><p class="small">Enter the password set for this case.</p>
+      <input type="password" id="lk-pw" autocomplete="current-password" style="width:100%;font-size:17px;padding:10px"><p class="small" id="lk-err" style="color:#d64545;min-height:18px"></p>
+      <button class="btn" style="width:100%">Unlock</button></form>`;
+    document.body.appendChild(d); setTimeout(() => $("#lk-pw", d).focus(), 50);
+    $("form", d).onsubmit = async e => { e.preventDefault(); if (await LK.check($("#lk-pw", d).value)){ try{ sessionStorage.setItem("cc:unlocked","1"); }catch(e){} d.remove(); res(); } else $("#lk-err", d).textContent = "Wrong password."; };
+  });
+}
+CC.lockSettings = () => {
+  const has = !!LK.get();
+  const md = modal(`<h3>${icon("key")}Password lock</h3><p class="small">${has ? "A password is set. The app asks for it every time it opens, and backups are encrypted with it." : "Set a password so only people you give it to can open your case on this device, and so your backup file is encrypted."}</p>
+    ${has ? `<label for="lk-old">Current password</label><input id="lk-old" type="password" autocomplete="current-password">` : ""}
+    <label for="lk-new">${has ? "New password (leave blank to remove the lock)" : "Password"}</label><input id="lk-new" type="password" autocomplete="new-password">
+    <label for="lk-new2">Type it again</label><input id="lk-new2" type="password" autocomplete="new-password">
+    <p class="small">Write it down somewhere safe. If it's lost, the app can't recover it.</p>
+    <div class="row" style="margin-top:10px"><button class="btn" id="lk-go">${icon("check")}Save</button><button class="btn ghost" data-close>Cancel</button></div>`);
+  $("#lk-go", md).onclick = async () => {
+    const g = id => ($("#"+id, md)||{value:""}).value;
+    if (has && !(await LK.check(g("lk-old")))) return toast("Current password is wrong.");
+    if (g("lk-new") !== g("lk-new2")) return toast("The two passwords don't match.");
+    if (!g("lk-new")){ if (has){ localStorage.removeItem("cc:lock"); md.hidden = true; toast("Password lock removed."); CC.render(); } return; }
+    if (g("lk-new").length < 6) return toast("Use at least 6 characters.");
+    await LK.set(g("lk-new")); md.hidden = true; toast("Password set."); CC.render(); };
+};
 CC.onStart = async () => {
+  await lockGate();
   tload();
   // Letter templates join the shared documents list so the existing sign-and-send flow handles them.
   setTimeout(() => { const h = (location.hash||"#home").slice(1); tour(h); }, 600);
