@@ -1,0 +1,13 @@
+{
+  "_note": "FICTIONAL white-label demo. Golden Gate Bail Bonds is not a real business; the license and 555 number are placeholders.",
+  "name": "Golden Gate Bail Bonds",
+  "sub": "SAMPLE · client app",
+  "tagline": "Fictional bail agency used to demonstrate white-label mode. Not a real business.",
+  "accent": "#5E1A1A",
+  "gold": "#C9A24A",
+  "license": "SAMPLE-0000000 (placeholder — verify real agents with the Department of Insurance)",
+  "phone": "(555) 010-7777 (SAMPLE)",
+  "hours": "24 hours (SAMPLE)",
+  "sample": true,
+  "contact": {"id": "gg", "sample": true, "role": "bondsman", "name": "Golden Gate Bail Bonds (SAMPLE)", "phone": "(555) 010-7777", "note": "License SAMPLE-0000000 · fictional"}
+}

@@ -1,0 +1,1166 @@
+{
+  "state": "CA",
+  "county": "Orange",
+  "slug": "orange",
+  "court_name": "Superior Court of California, County of Orange",
+  "court_website": "https://www.occourts.org/",
+  "case_search_url": "https://visionpublic.occourts.org/",
+  "case_search_note": "Criminal and Traffic Case Access (linked from occourts.org/online-services/case-access/criminal-traffic-cases). Must accept terms of use; court says online data is not the official record. Whether minute orders themselves are viewable online was not confirmed.",
+  "sources": [
+    {
+      "title": "OCSC — Locations & Contact Info",
+      "url": "https://www.occourts.org/general-information/locations-contact-info",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OCSC — Criminal & Traffic Case Access",
+      "url": "https://www.occourts.org/online-services/case-access/criminal-traffic-cases",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OCSC — Central Justice Center",
+      "url": "https://www.occourts.org/location/central-justice-center",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OCSC — North Justice Center",
+      "url": "https://www.occourts.org/location/north-justice-center",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OCSC — Stephen K. Tamura West Justice Center",
+      "url": "https://www.occourts.org/location/stephen-k-tamura-west-justice-center",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OCSC — Harbor Justice Center (Newport Beach)",
+      "url": "https://www.occourts.org/location/harbor-justice-center-newport-beach",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OCSC — Lamoreaux Justice Center",
+      "url": "https://www.occourts.org/location/lamoreaux-justice-center",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OCSC — Department CJ1 (OC Men's Jail)",
+      "url": "https://www.occourts.org/location/department-cj1-orange-county-mens-jail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OCSC — Community Court",
+      "url": "https://www.occourts.org/location/community-court",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OCSC — Judicial Officers (department directory)",
+      "url": "https://www.occourts.org/general-information/judicial-officers",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OCSC — Collaborative Courts",
+      "url": "https://www.occourts.org/divisions/collaborative-courts",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OCSC — Criminal Division",
+      "url": "https://www.occourts.org/divisions/criminal",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OCSC — Alcohol and Drug Program Information",
+      "url": "https://www.occourts.org/divisions/criminal/alcohol-and-drug-program-information",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OC Public Defender — Directory",
+      "url": "https://www.ocpubdef.gov/directory.aspx",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OC Public Defender — Contact",
+      "url": "https://www.ocpubdef.gov/166/Contact",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OC Public Defender — Programs (Clean Slate)",
+      "url": "https://www.ocpubdef.gov/101/Programs",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OC Probation — PARS",
+      "url": "https://prob.oc.gov/page/pretrial-assessment-release-service-program",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OC Probation — Contact Us",
+      "url": "https://prob.oc.gov/communications/contact-us",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OC Probation — Santa Ana Office",
+      "url": "https://prob.oc.gov/location/santa-ana-office",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OC Probation — North County Field Services",
+      "url": "https://prob.oc.gov/location/north-county-field-services-office",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OC Probation — West County Field Services",
+      "url": "https://prob.oc.gov/location/west-county-field-services-office",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OC Probation — South County Field Services",
+      "url": "https://prob.oc.gov/location/south-county-field-services-office",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OC Sheriff — Cashier & Bail Information",
+      "url": "https://www.ocsheriff.gov/node/9756",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OC Sheriff — Inmate Records",
+      "url": "https://ocsheriff.gov/location/inmate-records",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OC Sheriff — Central Men's & Women's Jails visiting",
+      "url": "https://www.ocsheriff.gov/commands-divisions/custody-operations-command/central-mens-womens-jails/visiting-hours-information",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OC Sheriff — IRC visiting",
+      "url": "https://www.ocsheriff.gov/commands-divisions/custody-operations-command/irc-transportation/visiting-hours-information",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OC Sheriff — Theo Lacy visiting",
+      "url": "https://www.ocsheriff.gov/commands-divisions/custody-operations-command/theo-lacy-facility/visiting-hours-information",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OC Sheriff — James A. Musick visiting",
+      "url": "https://www.ocsheriff.gov/commands-divisions/custody-operations-command/james-musick-facility/visiting-hours-information",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "Community Legal Aid SoCal — Expungement",
+      "url": "https://www.communitylegalsocal.org/programs-services/areas-of-law/expungement/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "Public Law Center — I Need Help",
+      "url": "https://www.publiclawcenter.org/need-help/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "CA Dept. of Insurance — Check an Agent/Broker license",
+      "url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OC District Attorney — Grassi v. Superior Court (PC 1001.95 / DUI) press release, 2022-03-17",
+      "url": "https://ocdistrictattorney.gov/?p=33855",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "OC Board of Supervisors agenda document — Court/Probation PARS MOU (PDF; text not machine-verified)",
+      "url": "https://ocagendaext.oc.gov/ExtDocViewer/746a3af1-28fa-4568-8c2f-b88d565d0789",
+      "verified_on": null
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "cjc",
+      "name": "Central Justice Center",
+      "address": "700 Civic Center Drive West",
+      "city": "Santa Ana",
+      "zip": "92701",
+      "phone": "(657) 622-6878",
+      "criminal_phone": "(657) 622-8459",
+      "hours": "Criminal (felony & misdemeanor) clerk: Mon–Fri 8:00 a.m.–4:00 p.m. (Self-Help: Mon–Thu 8–4, Fri 8–3)",
+      "criminal": true,
+      "note": "Handles traffic, minor offenses, criminal, civil, small claims and mental health. Main felony courthouse. Felony/misdemeanor line (657) 622-8459. Department list from the court's Judicial Officers directory as of 2026-10-10 — assignments rotate.",
+      "departments": [
+        {
+          "id": "C05",
+          "label": "Department C05",
+          "type": "Felony — Supervising Judge, Felony Panel",
+          "note": null
+        },
+        {
+          "id": "C26",
+          "label": "Department C26",
+          "type": "Felony Panel",
+          "note": null
+        },
+        {
+          "id": "C30",
+          "label": "Department C30",
+          "type": "Felony Panel",
+          "note": null
+        },
+        {
+          "id": "C35",
+          "label": "Department C35",
+          "type": "Felony Panel",
+          "note": null
+        },
+        {
+          "id": "C36",
+          "label": "Department C36",
+          "type": "Felony Panel",
+          "note": null
+        },
+        {
+          "id": "C38",
+          "label": "Department C38",
+          "type": "Felony Panel",
+          "note": null
+        },
+        {
+          "id": "C39",
+          "label": "Department C39",
+          "type": "Felony Panel",
+          "note": null
+        },
+        {
+          "id": "C40",
+          "label": "Department C40",
+          "type": "Felony Panel",
+          "note": null
+        },
+        {
+          "id": "C41",
+          "label": "Department C41",
+          "type": "Felony Panel",
+          "note": null
+        },
+        {
+          "id": "C42",
+          "label": "Department C42",
+          "type": "Felony Panel",
+          "note": null
+        },
+        {
+          "id": "C43",
+          "label": "Department C43",
+          "type": "Felony Panel",
+          "note": null
+        },
+        {
+          "id": "C45",
+          "label": "Department C45",
+          "type": "Felony Panel",
+          "note": null
+        },
+        {
+          "id": "C46",
+          "label": "Department C46",
+          "type": "Felony Panel — Collaborative Courts Supervising Judge",
+          "note": "Court lists Military Diversion (PC 1001.80) motions in Dept. C46."
+        },
+        {
+          "id": "C58",
+          "label": "Department C58",
+          "type": "Collaborative Courts",
+          "note": null
+        },
+        {
+          "id": "C01",
+          "label": "Department C01",
+          "type": "Young Adult Court (collaborative)",
+          "note": "Per the Collaborative Courts page: alternating Fridays, Dept. C1, Central Justice Center; ages 18–25 with eligible felony.",
+          "source_url": "https://www.occourts.org/divisions/collaborative-courts"
+        },
+        {
+          "id": "C56",
+          "label": "Department C56",
+          "type": "Central Panel — Supervising Judge",
+          "note": "Court's judicial officer directory labels this 'Central Panel - Supervising Judge'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "C29",
+          "label": "Department C29",
+          "type": "Central Panel",
+          "note": "Court's judicial officer directory labels this 'Central Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "C37",
+          "label": "Department C37",
+          "type": "Central Panel",
+          "note": "Court's judicial officer directory labels this 'Central Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "C48",
+          "label": "Department C48",
+          "type": "Central Panel",
+          "note": "Court's judicial officer directory labels this 'Central Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "C49",
+          "label": "Department C49",
+          "type": "Central Panel",
+          "note": "Court's judicial officer directory labels this 'Central Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "C50",
+          "label": "Department C50",
+          "type": "Central Panel",
+          "note": "Court's judicial officer directory labels this 'Central Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "C51",
+          "label": "Department C51",
+          "type": "Central Panel",
+          "note": "Court's judicial officer directory labels this 'Central Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "C52",
+          "label": "Department C52",
+          "type": "Central Panel",
+          "note": "Court's judicial officer directory labels this 'Central Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "C53",
+          "label": "Department C53",
+          "type": "Central Panel",
+          "note": "Court's judicial officer directory labels this 'Central Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "C54",
+          "label": "Department C54",
+          "type": "Central Panel",
+          "note": "Court's judicial officer directory labels this 'Central Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "C55",
+          "label": "Department C55",
+          "type": "Central Panel",
+          "note": "Court's judicial officer directory labels this 'Central Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "C57",
+          "label": "Department C57",
+          "type": "Central Panel",
+          "note": "Court's judicial officer directory labels this 'Central Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "C60",
+          "label": "Department C60",
+          "type": "Central Panel",
+          "note": "Court's judicial officer directory labels this 'Central Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "C62",
+          "label": "Department C62",
+          "type": "Central Panel",
+          "note": "Court's judicial officer directory labels this 'Central Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        }
+      ],
+      "departments_source_url": "https://www.occourts.org/general-information/judicial-officers",
+      "source_url": "https://www.occourts.org/location/central-justice-center",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "cj1",
+      "name": "Department CJ1 — Orange County Men's Jail",
+      "address": "Building 50, 550 N. Flower St.",
+      "city": "Santa Ana",
+      "zip": "92703",
+      "phone": "(657) 622-6878",
+      "criminal_phone": "(657) 622-8459",
+      "hours": "Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": true,
+      "note": "Courtroom inside the Men's Central Jail complex; entrance off 6th Street. Hears misdemeanor arraignments, misdemeanor probation violations and felony complaint arraignments for select CJC, Harbor and North matters. Use the Sheriff's inmate lookup to see where a specific defendant will be heard.",
+      "departments": [
+        {
+          "id": "CJ1",
+          "label": "Department CJ1",
+          "type": "Arraignments (Central Panel)",
+          "note": "Court page: misdemeanor arraignments, misdemeanor probation violations, felony complaint arraignments."
+        }
+      ],
+      "source_url": "https://www.occourts.org/location/department-cj1-orange-county-mens-jail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "community",
+      "name": "Community Court",
+      "address": "909 N. Main St.",
+      "city": "Santa Ana",
+      "zip": "92701",
+      "phone": "(657) 622-5800",
+      "criminal_phone": "(657) 622-8459",
+      "hours": "Mon–Fri 8:00 a.m.–4:00 p.m.; closed 12:00–1:30 p.m.",
+      "criminal": true,
+      "note": "Home of most adult collaborative courts: Drug Court (Thu 8 a.m.), DUI Court (Thu, alternate weeks), Veterans Court (Tue 1:30 p.m.), WIT Court (Mon 9 a.m.), Recovery Court (1st/3rd Wed 8 a.m.), Opportunity Court (2nd/4th Wed 8 a.m.), Homeless Outreach Court (Wed 3 p.m.) — schedule per court page.",
+      "departments": [
+        {
+          "id": "CCB1",
+          "label": "Department CCB1",
+          "type": "Felony Panel",
+          "note": null
+        }
+      ],
+      "source_url": "https://www.occourts.org/location/community-court",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "njc",
+      "name": "North Justice Center",
+      "address": "1275 N. Berkeley Ave.",
+      "city": "Fullerton",
+      "zip": "92832",
+      "phone": "(657) 622-5600",
+      "criminal_phone": "(657) 622-8459",
+      "hours": "Criminal clerk: Mon–Fri 8:00 a.m.–4:00 p.m. (Self-Help: Mon–Thu 8–4, Fri 8–3)",
+      "criminal": true,
+      "note": "Traffic, minor offenses, criminal, some civil. Serves Anaheim, Brea, Buena Park, Fullerton, La Habra, La Palma, Placentia, Yorba Linda.",
+      "departments": [
+        {
+          "id": "N13",
+          "label": "Department N13",
+          "type": "Felony Panel",
+          "note": null
+        },
+        {
+          "id": "N04",
+          "label": "Department N04",
+          "type": "North Panel — Supervising Judge",
+          "note": "Court's judicial officer directory labels this 'North Panel - Supervising Judge'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "N01",
+          "label": "Department N01",
+          "type": "North Panel",
+          "note": "Court's judicial officer directory labels this 'North Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "N03",
+          "label": "Department N03",
+          "type": "North Panel",
+          "note": "Court's judicial officer directory labels this 'North Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "N05",
+          "label": "Department N05",
+          "type": "North Panel",
+          "note": "Court's judicial officer directory labels this 'North Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "N06",
+          "label": "Department N06",
+          "type": "North Panel",
+          "note": "Court's judicial officer directory labels this 'North Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "N07",
+          "label": "Department N07",
+          "type": "North Panel",
+          "note": "Court's judicial officer directory labels this 'North Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "N09",
+          "label": "Department N09",
+          "type": "North Panel",
+          "note": "Court's judicial officer directory labels this 'North Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "N10",
+          "label": "Department N10",
+          "type": "North Panel",
+          "note": "Court's judicial officer directory labels this 'North Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "N11",
+          "label": "Department N11",
+          "type": "North Panel",
+          "note": "Court's judicial officer directory labels this 'North Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "N12",
+          "label": "Department N12",
+          "type": "North Panel",
+          "note": "Court's judicial officer directory labels this 'North Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        }
+      ],
+      "departments_source_url": "https://www.occourts.org/general-information/judicial-officers",
+      "source_url": "https://www.occourts.org/location/north-justice-center",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "wjc",
+      "name": "Stephen K. Tamura West Justice Center",
+      "address": "8141 13th St.",
+      "city": "Westminster",
+      "zip": "92683",
+      "phone": "(657) 622-5900",
+      "criminal_phone": "(657) 622-8459",
+      "hours": "Criminal clerk: Mon–Fri 8:00 a.m.–4:00 p.m. (Self-Help: Mon–Thu 8–4, Fri 8–3)",
+      "criminal": true,
+      "note": "Traffic, minor offenses, criminal, some civil.",
+      "departments": [
+        {
+          "id": "W09",
+          "label": "Department W09",
+          "type": "Felony Panel",
+          "note": null
+        },
+        {
+          "id": "W14",
+          "label": "Department W14",
+          "type": "West Panel — Supervising Judge",
+          "note": "Court's judicial officer directory labels this 'West Panel - Supervising Judge'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "W03",
+          "label": "Department W03",
+          "type": "West Panel",
+          "note": "Court's judicial officer directory labels this 'West Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "W04",
+          "label": "Department W04",
+          "type": "West Panel",
+          "note": "Court's judicial officer directory labels this 'West Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "W06",
+          "label": "Department W06",
+          "type": "West Panel",
+          "note": "Court's judicial officer directory labels this 'West Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "W07",
+          "label": "Department W07",
+          "type": "West Panel",
+          "note": "Court's judicial officer directory labels this 'West Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "W10",
+          "label": "Department W10",
+          "type": "West Panel",
+          "note": "Court's judicial officer directory labels this 'West Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "W12",
+          "label": "Department W12",
+          "type": "West Panel",
+          "note": "Court's judicial officer directory labels this 'West Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "W13",
+          "label": "Department W13",
+          "type": "West Panel",
+          "note": "Court's judicial officer directory labels this 'West Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "W16",
+          "label": "Department W16",
+          "type": "West Panel",
+          "note": "Court's judicial officer directory labels this 'West Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "W17",
+          "label": "Department W17",
+          "type": "West Panel",
+          "note": "Court's judicial officer directory labels this 'West Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "W18",
+          "label": "Department W18",
+          "type": "West Panel",
+          "note": "Court's judicial officer directory labels this 'West Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        }
+      ],
+      "departments_source_url": "https://www.occourts.org/general-information/judicial-officers",
+      "source_url": "https://www.occourts.org/location/stephen-k-tamura-west-justice-center",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "hjc",
+      "name": "Harbor Justice Center — Newport Beach",
+      "address": "4601 Jamboree Rd.",
+      "city": "Newport Beach",
+      "zip": "92660",
+      "phone": "(657) 622-5400",
+      "criminal_phone": "(657) 622-8459",
+      "hours": null,
+      "criminal": true,
+      "note": "Traffic, minor offenses and criminal matters. todo: court page lists only Traffic hours (Mon–Fri 8:00 a.m.–4:00 p.m.); criminal clerk hours not published on the location page — confirm.",
+      "departments": [
+        {
+          "id": "H10",
+          "label": "Department H10",
+          "type": "Harbor Panel — Supervising Judge",
+          "note": "Court's judicial officer directory labels this 'Harbor Panel - Supervising Judge'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "H01",
+          "label": "Department H01",
+          "type": "Harbor Panel",
+          "note": "Court's judicial officer directory labels this 'Harbor Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "H02",
+          "label": "Department H02",
+          "type": "Harbor Panel",
+          "note": "Court's judicial officer directory labels this 'Harbor Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "H03",
+          "label": "Department H03",
+          "type": "Harbor Panel",
+          "note": "Court's judicial officer directory labels this 'Harbor Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "H05",
+          "label": "Department H05",
+          "type": "Harbor Panel",
+          "note": "Court's judicial officer directory labels this 'Harbor Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "H06",
+          "label": "Department H06",
+          "type": "Harbor Panel",
+          "note": "Court's judicial officer directory labels this 'Harbor Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "H07",
+          "label": "Department H07",
+          "type": "Harbor Panel",
+          "note": "Court's judicial officer directory labels this 'Harbor Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "H08",
+          "label": "Department H08",
+          "type": "Harbor Panel",
+          "note": "Court's judicial officer directory labels this 'Harbor Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "H09",
+          "label": "Department H09",
+          "type": "Harbor Panel",
+          "note": "Court's judicial officer directory labels this 'Harbor Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "H11",
+          "label": "Department H11",
+          "type": "Harbor Panel",
+          "note": "Court's judicial officer directory labels this 'Harbor Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "H12",
+          "label": "Department H12",
+          "type": "Harbor Panel",
+          "note": "Court's judicial officer directory labels this 'Harbor Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        },
+        {
+          "id": "H14",
+          "label": "Department H14",
+          "type": "Harbor Panel",
+          "note": "Court's judicial officer directory labels this 'Harbor Panel'; the directory does not state which case types this panel hears. Assignments change; check https://www.occourts.org/general-information/judicial-officers."
+        }
+      ],
+      "departments_source_url": "https://www.occourts.org/general-information/judicial-officers",
+      "source_url": "https://www.occourts.org/location/harbor-justice-center-newport-beach",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "ljc",
+      "name": "Lamoreaux Justice Center",
+      "address": "341 The City Drive South",
+      "city": "Orange",
+      "zip": "92868",
+      "phone": "(657) 622-6878",
+      "criminal_phone": null,
+      "hours": "Juvenile Court: Mon–Fri 8:00 a.m.–4:00 p.m.",
+      "criminal": false,
+      "note": "Juvenile, Family Law and Domestic Violence. Juvenile court (incl. delinquency) only — adult criminal cases are not heard here. Court page does not separately say 'delinquency'.",
+      "departments": [
+        {
+          "id": "L21",
+          "label": "Department L21",
+          "type": "Juvenile — Presiding Judge, Juvenile Panel",
+          "note": null
+        },
+        {
+          "id": "L22",
+          "label": "Department L22",
+          "type": "Juvenile Panel",
+          "note": "Directory does not separate delinquency from dependency departments."
+        },
+        {
+          "id": "L23",
+          "label": "Department L23",
+          "type": "Juvenile Panel",
+          "note": "Directory does not separate delinquency from dependency departments."
+        },
+        {
+          "id": "L31",
+          "label": "Department L31",
+          "type": "Juvenile Panel",
+          "note": "Directory does not separate delinquency from dependency departments."
+        },
+        {
+          "id": "L32",
+          "label": "Department L32",
+          "type": "Juvenile Panel",
+          "note": "Directory does not separate delinquency from dependency departments."
+        },
+        {
+          "id": "L33",
+          "label": "Department L33",
+          "type": "Juvenile Panel",
+          "note": "Directory does not separate delinquency from dependency departments."
+        },
+        {
+          "id": "L34",
+          "label": "Department L34",
+          "type": "Juvenile Panel",
+          "note": "Directory does not separate delinquency from dependency departments."
+        },
+        {
+          "id": "L41",
+          "label": "Department L41",
+          "type": "Juvenile Panel",
+          "note": "Directory does not separate delinquency from dependency departments."
+        },
+        {
+          "id": "L42",
+          "label": "Department L42",
+          "type": "Juvenile Panel",
+          "note": "Directory does not separate delinquency from dependency departments."
+        },
+        {
+          "id": "L44",
+          "label": "Department L44",
+          "type": "Juvenile Panel",
+          "note": "Directory does not separate delinquency from dependency departments."
+        }
+      ],
+      "departments_source_url": "https://www.occourts.org/general-information/judicial-officers",
+      "source_url": "https://www.occourts.org/location/lamoreaux-justice-center",
+      "verified_on": "2026-10-10"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Orange County Public Defender — Main Office",
+      "address": "801 Civic Center Drive West, Suite 400",
+      "city": "Santa Ana",
+      "zip": "92701",
+      "phone": "(657) 251-6090",
+      "toll_free": "(866) 634-6224",
+      "email": null,
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "url": "https://www.ocpubdef.gov/",
+      "source_url": "https://www.ocpubdef.gov/Directory.aspx?DID=18",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "Orange County Public Defender — Central Court",
+      "address": "801 Civic Center Drive West, Suite 300",
+      "city": "Santa Ana",
+      "zip": "92701",
+      "phone": "(657) 251-6460",
+      "toll_free": "(866) 572-7271",
+      "email": null,
+      "hours": null,
+      "url": "https://www.ocpubdef.gov/Directory.aspx?DID=12",
+      "source_url": "https://www.ocpubdef.gov/Directory.aspx?DID=12",
+      "verified_on": "2026-10-10",
+      "todo": "hours not listed"
+    },
+    {
+      "name": "Orange County Public Defender — North Court",
+      "address": "1440 Harbor Boulevard, 4th Floor",
+      "city": "Fullerton",
+      "zip": null,
+      "phone": "(657) 251-6472",
+      "toll_free": "(877) 484-7788",
+      "email": null,
+      "hours": null,
+      "url": "https://www.ocpubdef.gov/Directory.aspx?DID=14",
+      "source_url": "https://www.ocpubdef.gov/Directory.aspx?DID=14",
+      "verified_on": "2026-10-10",
+      "todo": "official page shows ZIP 92701 (a Santa Ana ZIP) for a Fullerton address — likely a typo; confirm ZIP and hours"
+    },
+    {
+      "name": "Orange County Public Defender — West Court",
+      "address": "14120 Beach Boulevard, Suite 200",
+      "city": "Westminster",
+      "zip": "92683",
+      "phone": "(657) 251-6562",
+      "toll_free": "(866) 634-6225",
+      "email": null,
+      "hours": null,
+      "url": "https://www.ocpubdef.gov/Directory.aspx?DID=13",
+      "source_url": "https://www.ocpubdef.gov/Directory.aspx?DID=13",
+      "verified_on": "2026-10-10",
+      "todo": "hours not listed"
+    },
+    {
+      "name": "Orange County Public Defender — Harbor Court",
+      "address": "4601 Jamboree Road, Suite 101",
+      "city": "Newport Beach",
+      "zip": null,
+      "phone": "(657) 251-6553",
+      "toll_free": "(866) 634-6221",
+      "email": null,
+      "hours": null,
+      "url": "https://www.ocpubdef.gov/Directory.aspx?DID=17",
+      "source_url": "https://www.ocpubdef.gov/Directory.aspx?DID=17",
+      "verified_on": "2026-10-10",
+      "todo": "official page shows ZIP 92680, but the courthouse at 4601 Jamboree is 92660 per occourts.org — confirm; hours not listed"
+    },
+    {
+      "name": "Orange County Public Defender — Juvenile Court",
+      "address": "341 City Drive South, Suite 307",
+      "city": "Orange",
+      "zip": "92868",
+      "phone": "(657) 251-6718",
+      "toll_free": null,
+      "email": null,
+      "hours": null,
+      "url": "https://www.ocpubdef.gov/Directory.aspx?DID=16",
+      "source_url": "https://www.ocpubdef.gov/Directory.aspx?DID=16",
+      "verified_on": "2026-10-10",
+      "todo": "hours not listed"
+    },
+    {
+      "name": "Orange County Public Defender — Mental Health",
+      "address": "200 W. Santa Ana Boulevard, Suite 800",
+      "city": "Santa Ana",
+      "zip": "92701",
+      "phone": "(657) 251-6414",
+      "toll_free": "(877) 494-7788",
+      "email": null,
+      "hours": null,
+      "url": "https://www.ocpubdef.gov/Directory.aspx?DID=15",
+      "source_url": "https://www.ocpubdef.gov/Directory.aspx?DID=15",
+      "verified_on": "2026-10-10",
+      "todo": "hours not listed"
+    },
+    {
+      "name": "OC Public Defender — Alternate Defender (conflict office)",
+      "address": "200 W. Santa Ana Boulevard, Suite 600",
+      "city": "Santa Ana",
+      "zip": "92701",
+      "phone": "(657) 251-6730",
+      "toll_free": "(866) 634-6200",
+      "email": null,
+      "hours": null,
+      "url": "https://www.ocpubdef.gov/166/Contact",
+      "source_url": "https://www.ocpubdef.gov/166/Contact",
+      "verified_on": "2026-10-10",
+      "todo": "hours not listed"
+    },
+    {
+      "name": "OC Public Defender — Associate Defender (conflict office)",
+      "address": "200 W. Santa Ana Boulevard, Suite 900",
+      "city": "Santa Ana",
+      "zip": "92701",
+      "phone": "(657) 251-6662",
+      "toll_free": "(866) 634-6223",
+      "email": null,
+      "hours": null,
+      "url": "https://www.ocpubdef.gov/166/Contact",
+      "source_url": "https://www.ocpubdef.gov/166/Contact",
+      "verified_on": "2026-10-10",
+      "todo": "hours not listed"
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "OC Public Defender — Clean Slate / Recidivism Reduction Unit",
+      "serves": "People with Orange County convictions",
+      "what": "Post-conviction record relief: PC 1203.4 dismissals, felony/misdemeanor reductions (PC 17(b)), Prop 47 and Prop 64 relief, sealing adult arrest and juvenile records, early probation termination, certificates of rehabilitation, 365→364-day sentence modification, vacatur; also re-entry services. Not a substitute for your appointed attorney on an open case.",
+      "phone": "(657) 251-6090",
+      "email": null,
+      "url": "https://www.ocpubdef.gov/101/Programs",
+      "source_url": "https://www.ocpubdef.gov/101/Programs",
+      "verified_on": "2026-10-10",
+      "todo": "Program email (reported as CleanSlate@ocpubdef.gov in a search summary) is obfuscated on the page — not verified, left null"
+    },
+    {
+      "name": "Community Legal Aid SoCal (formerly Legal Aid Society of Orange County)",
+      "serves": "Low-income Orange County residents (civil legal aid)",
+      "what": "Civil legal aid. Its expungement team does record analysis/background-check error review, expungement and record sealing, employment/licensing barriers from a record, and restoring driver's licenses/ID; runs expungement clinics. Does NOT do criminal defense on open cases.",
+      "phone": "(714) 571-5200",
+      "url": "https://www.communitylegalsocal.org/programs-services/areas-of-law/expungement/",
+      "source_url": "https://www.communitylegalsocal.org/programs-services/areas-of-law/expungement/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "Public Law Center",
+      "serves": "Low-income Orange County residents (civil legal aid)",
+      "what": "Free civil legal aid only. States plainly it does NOT provide help on criminal cases and refers criminal matters to the Public Defender. Listed here so users don't waste a call.",
+      "phone": "(714) 541-1010",
+      "url": "https://www.publiclawcenter.org/",
+      "source_url": "https://www.publiclawcenter.org/need-help/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "Orange County Bar Association — Lawyer Referral & Information Service",
+      "serves": "Anyone in Orange County",
+      "what": "Referral to private attorneys (fees apply). Number taken from Public Law Center's referral text, not verified on lrisoc.org directly.",
+      "phone": "(949) 440-6747",
+      "url": "https://www.lrisoc.org/",
+      "source_url": "https://www.publiclawcenter.org/need-help/",
+      "verified_on": "2026-10-10",
+      "todo": "verify phone and services directly on lrisoc.org"
+    }
+  ],
+  "probation": [
+    {
+      "name": "OC Probation — Administrative Office / General & After Hours (PARS unit line)",
+      "address": "1055 N. Main Street",
+      "city": "Santa Ana",
+      "zip": "92701",
+      "phone": "(714) 569-2000",
+      "hours": null,
+      "url": "https://prob.oc.gov/",
+      "source_url": "https://prob.oc.gov/communications/contact-us",
+      "verified_on": "2026-10-10",
+      "note": "(714) 569-2000 is listed as 'General and After Hours' on Contact Us and as the PARS unit number on the PARS page. House arrest (SEC) applications: (714) 569-2015. Records requests: (714) 937-4736.",
+      "todo": "Administrative Office hours are on a separate page not loaded"
+    },
+    {
+      "name": "OC Probation — Santa Ana Office",
+      "address": "909 N. Main Street",
+      "city": "Santa Ana",
+      "zip": "92701",
+      "phone": "(714) 569-2000",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m. (closed county holidays)",
+      "url": "https://prob.oc.gov/location/santa-ana-office",
+      "source_url": "https://prob.oc.gov/location/santa-ana-office",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "OC Probation — North County Field Services Office",
+      "address": "1535 E. Orangewood Avenue",
+      "city": "Anaheim",
+      "zip": "92805",
+      "phone": "(714) 937-4500",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m. (closed county holidays)",
+      "url": "https://prob.oc.gov/location/north-county-field-services-office",
+      "source_url": "https://prob.oc.gov/location/north-county-field-services-office",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "OC Probation — West County Field Services Office",
+      "address": "14180 Beach Blvd.",
+      "city": "Westminster",
+      "zip": "92683",
+      "phone": "(714) 896-7500",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m.",
+      "url": "https://prob.oc.gov/location/west-county-field-services-office",
+      "source_url": "https://prob.oc.gov/location/west-county-field-services-office",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "OC Probation — South County Field Services Office",
+      "address": "23271 Verdugo Drive",
+      "city": "Laguna Hills",
+      "zip": "92653",
+      "phone": "(949) 206-4160",
+      "hours": "Mon–Fri 8:00 a.m.–5:00 p.m. (closed county holidays)",
+      "url": "https://prob.oc.gov/location/south-county-field-services-office",
+      "source_url": "https://prob.oc.gov/location/south-county-field-services-office",
+      "verified_on": "2026-10-10"
+    }
+  ],
+  "programs": [
+    {
+      "id": "pars",
+      "name": "Pretrial Assessment and Release Supervision (PARS)",
+      "type": "pretrial",
+      "summary": "Pretrial release program. OC Probation's site calls it the 'Pretrial Assessment Release Service Program' and lists the PARS unit at (714) 569-2000. County agenda documents describe it as a Court–Probation partnership (pilot began 2016): the court's Pretrial Services Officers interview and score in-custody defendants with the VPRAI risk tool, Probation prepares the risk report/recommendation for the judge, and people released onto PARS are monitored by Probation based on their risk score and the judge's specific orders, with progress and non-compliance reports to the court. Exact check-in method and frequency depend on your release order — read it and ask your PARS officer. Probation will not give case-specific info by email.",
+      "phone": "(714) 569-2000",
+      "url": "https://prob.oc.gov/page/pretrial-assessment-release-service-program",
+      "source_url": "https://prob.oc.gov/page/pretrial-assessment-release-service-program",
+      "verified_on": "2026-10-10",
+      "todo": "Court/Probation role details come from an OC agenda PDF (ocagendaext.oc.gov/ExtDocViewer/746a3af1-...) whose text was not machine-verified; Probation's PARS page itself gives no description. Typical check-in conditions (phone/office/EM) not published — not filled in."
+    },
+    {
+      "id": "drug-court",
+      "name": "Adult Drug Court",
+      "type": "collaborative_court",
+      "summary": "Voluntary, 5-phase program of at least 18 months: supervision, counseling, drug testing and regular court appearances for seriously addicted, high-risk/high-need offenders. Partners: Probation, Health Care Agency, PD, DA, Sheriff. Held at Community Court (Thursdays 8 a.m. per court page).",
+      "url": "https://www.occourts.org/divisions/collaborative-courts",
+      "source_url": "https://www.occourts.org/divisions/collaborative-courts",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "dui-court",
+      "name": "DUI Court",
+      "type": "collaborative_court",
+      "summary": "For repeat DUI offenders: felony cases at least 18 months/5 phases; 2nd- and 3rd-time misdemeanor cases at least 12 months/3 phases. Partners include Probation, HCA, PD, DA, Sheriff, MADD.",
+      "url": "https://www.occourts.org/divisions/collaborative-courts",
+      "source_url": "https://www.occourts.org/divisions/collaborative-courts",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "veterans-court",
+      "name": "Veterans Treatment Court",
+      "type": "collaborative_court",
+      "summary": "5-phase program of at least 18 months for justice-involved veterans/military needing mental health treatment (e.g., PTSD, TBI). VA case manager, Probation high-control supervision; HCA for vets not eligible for VA services. Community Court, Tuesdays 1:30 p.m. per court page.",
+      "url": "https://www.occourts.org/divisions/collaborative-courts",
+      "source_url": "https://www.occourts.org/divisions/collaborative-courts",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "military-diversion",
+      "name": "Military Diversion (PC 1001.80)",
+      "type": "diversion",
+      "summary": "Pre-plea diversion up to 2 years for current/former U.S. military members with service-related conditions (PTSD, TBI, substance use, etc.); assessment from VA, HCA or other agency required; charges dismissed on successful completion. Heard in Dept. C46. Coordinator: MDmotions@occourts.org.",
+      "url": "https://www.occourts.org/system/files/criminal/guidelinesmilitarydiversion.pdf",
+      "source_url": "https://www.occourts.org/divisions/collaborative-courts",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "wit-court",
+      "name": "Whatever It Takes (WIT) Court",
+      "type": "collaborative_court",
+      "summary": "Voluntary program of at least 18 months for offenders with chronic, persistent mental illness (schizophrenia, bipolar, major depressive disorder) who are homeless or at risk; counseling, psychiatric care, housing, peer mentoring. Community Court, Mondays 9 a.m. per court page.",
+      "url": "https://www.occourts.org/divisions/collaborative-courts",
+      "source_url": "https://www.occourts.org/divisions/collaborative-courts",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "recovery-court",
+      "name": "Recovery Court",
+      "type": "collaborative_court",
+      "summary": "Voluntary 5-phase program of at least 18 months for offenders with chronic and persistent mental illness; Probation supervision plus HCA PACT or other treatment.",
+      "url": "https://www.occourts.org/divisions/collaborative-courts",
+      "source_url": "https://www.occourts.org/divisions/collaborative-courts",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "opportunity-court",
+      "name": "Opportunity Court (Co-Occurring Disorders)",
+      "type": "collaborative_court",
+      "summary": "Voluntary 5-phase program of at least 18 months on the Drug Court model for offenders diagnosed with schizophrenia, bipolar disorder or major depressive disorder.",
+      "url": "https://www.occourts.org/divisions/collaborative-courts",
+      "source_url": "https://www.occourts.org/divisions/collaborative-courts",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "assisted-intervention",
+      "name": "Assisted Intervention (AI) Court",
+      "type": "collaborative_court",
+      "summary": "Voluntary program of at least 18 months with immediate treatment for offenders with severe and persistent mental health diagnoses and lower criminogenic risk.",
+      "url": "https://www.occourts.org/divisions/collaborative-courts",
+      "source_url": "https://www.occourts.org/divisions/collaborative-courts",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "homeless-outreach-court",
+      "name": "Homeless Outreach Court",
+      "type": "collaborative_court",
+      "summary": "Resolves outstanding infractions, quality-of-life misdemeanors and warrants for homeless individuals while connecting them to housing and health services. Community Court, Wednesdays 3 p.m. per court page.",
+      "url": "https://www.occourts.org/divisions/collaborative-courts",
+      "source_url": "https://www.occourts.org/divisions/collaborative-courts",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "young-adult-court",
+      "name": "Young Adult Court",
+      "type": "collaborative_court",
+      "summary": "For defendants ages 18–25 charged with an eligible felony who meet program criteria; alternating Fridays in Dept. C1, Central Justice Center. Referrals by email (YAC@occourts.onmicrosoft.com).",
+      "url": "https://www.occourts.org/system/files/youngadultcourtsummary.pdf",
+      "source_url": "https://www.occourts.org/divisions/collaborative-courts",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "prop36",
+      "name": "Prop 36 Treatment Program",
+      "type": "collaborative_court",
+      "summary": "Court-supervised substance use treatment (case management, drug testing, progress reviews) for people charged with certain drug possession offenses.",
+      "url": "https://www.occourts.org/divisions/collaborative-courts",
+      "source_url": "https://www.occourts.org/divisions/collaborative-courts",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "pc1001-36",
+      "name": "Mental Health Diversion (PC 1001.36)",
+      "type": "diversion",
+      "summary": "Pre-plea diversion for defendants with a mental health disorder diagnosed or treated within the last 5 years. Defendant pleads not guilty, waives time and files a motion with a proposed treatment plan. Treatment up to 1 year (misdemeanor) or 2 years (felony); charges dismissed on satisfactory completion. Coordinator: MentalHealthDiversion@occourts.org.",
+      "url": "https://www.occourts.org/system/files/general/procedural_guidelines_mental_health_diversion_program.pdf",
+      "source_url": "https://www.occourts.org/divisions/collaborative-courts",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "pc1000",
+      "name": "PC 1000 Drug Diversion",
+      "type": "diversion",
+      "summary": "The court's Alcohol and Drug Program page lists 'PC1000 Providers' (Orange County Health Care Agency provider list) — i.e., the court may order a PC 1000 drug program. The page itself does not describe eligibility; ask your attorney whether PC 1000 applies to your charge.",
+      "url": "https://www.occourts.org/divisions/criminal/alcohol-and-drug-program-information",
+      "source_url": "https://www.occourts.org/divisions/criminal/alcohol-and-drug-program-information",
+      "verified_on": "2026-10-10",
+      "todo": "No OC-specific page describing PC 1000 eligibility/process found; statute text on leginfo returned 403"
+    },
+    {
+      "id": "pc1001-95",
+      "name": "Misdemeanor Diversion (PC 1001.95)",
+      "type": "diversion",
+      "summary": "State law (effective Jan 1, 2021) lets a judge offer diversion on many misdemeanors, even over the prosecutor's objection. In Orange County, the published appellate decision Grassi v. Superior Court (2021) held DUI defendants are NOT eligible (Vehicle Code 23640); the CA Supreme Court denied review in 2022.",
+      "url": "https://ocdistrictattorney.gov/?p=33855",
+      "source_url": "https://ocdistrictattorney.gov/?p=33855",
+      "verified_on": "2026-10-10",
+      "todo": "No occourts.org page on PC 1001.95 procedure found; source is the OC DA press release (prosecution framing). Statute text on leginfo returned 403 — not independently loaded."
+    }
+  ],
+  "jails": [
+    {
+      "name": "Intake Release Center (IRC)",
+      "address": "550 N. Flower St., Santa Ana, CA 92703",
+      "phone": "(714) 647-6085",
+      "phone_note": "Jail cashier/bail line; open 24 hours for cashiering and bail bonds. Visit scheduling: (714) 647-6050. Inmate Records: (714) 647-4666.",
+      "url": "https://www.ocsheriff.gov/commands-divisions/custody-operations-command/irc-transportation",
+      "source_url": "https://www.ocsheriff.gov/node/9756",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "Central Men's & Women's Jails",
+      "address": "550 N. Flower St., Santa Ana, CA 92703",
+      "phone": "(714) 647-4543",
+      "phone_note": "Visit scheduling line (Mon–Fri 7 a.m.–4 p.m., book 24h ahead). Address is the Men's Central Jail complex per occourts.org CJ1 page and Sheriff Inmate Records page; Sheriff jail page itself lists no street address.",
+      "url": "https://www.ocsheriff.gov/commands-divisions/custody-operations-command/central-mens-womens-jails",
+      "source_url": "https://www.ocsheriff.gov/commands-divisions/custody-operations-command/central-mens-womens-jails/visiting-hours-information",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "Theo Lacy Facility",
+      "address": "501 The City Drive South, Orange, CA 92868",
+      "phone": "(714) 935-6905",
+      "phone_note": "Jail cashier (daily 8–5; bail bonds 8–2). Visit scheduling: (714) 935-6202.",
+      "url": "https://www.ocsheriff.gov/commands-divisions/custody-operations-command/theo-lacy-facility",
+      "source_url": "https://www.ocsheriff.gov/node/9756",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "James A. Musick Facility",
+      "address": null,
+      "phone": "(949) 249-5059",
+      "phone_note": "Facility visiting information line.",
+      "url": "https://www.ocsheriff.gov/commands-divisions/custody-operations-command/james-musick-facility",
+      "source_url": "https://www.ocsheriff.gov/commands-divisions/custody-operations-command/james-musick-facility/visiting-hours-information",
+      "verified_on": "2026-10-10",
+      "todo": "street address not listed on Sheriff pages loaded"
+    }
+  ],
+  "inmate_lookup_url": "https://www.ocsheriff.gov/landing-page/inmate-information-system",
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "CA Department of Insurance 'Check a License' — search by name or license number for status and discipline history of a bail agent (linked from insurance.ca.gov CheckAgntBrkr page). The older interactive.web.insurance.ca.gov name-search URL returned 404 on 2026-10-10. OC Sheriff: bail can be paid 24/7 at the IRC cashier (550 N. Flower St., (714) 647-6085); bonds accepted at IRC 24h and Theo Lacy daily 8 a.m.–2 p.m. The Sheriff will not recommend any bail agent.",
+    "source_url": "https://www.insurance.ca.gov/0150-seniors/0200beforebuy/CheckAgntBrkr.cfm",
+    "verified_on": "2026-10-10"
+  }
+}

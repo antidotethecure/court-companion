@@ -1,0 +1,222 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Court Companion//v1//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Court Companion
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d1@court-companion
+DTSTAMP:20261010T223303Z
+DTSTART;TZID=America/Los_Angeles:20261012T103000
+DTEND;TZID=America/Los_Angeles:20261012T113000
+SUMMARY:Pretrial supervision office visit
+LOCATION:Pretrial office (see your paperwork)
+DESCRIPTION:SAMPLE-26CF00000\nReminder from Court Companion. Information 
+ only\, not legal advice. Confirm dates with the court or your attorney.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pretrial supervision office visit
+TRIGGER:-PT1440M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pretrial supervision office visit
+TRIGGER:-PT120M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pretrial supervision office visit
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2@court-companion
+DTSTAMP:20261010T223303Z
+DTSTART;TZID=America/Los_Angeles:20261013T130000
+DTEND;TZID=America/Los_Angeles:20261013T140000
+SUMMARY:Meet with the public defender
+LOCATION:Public Defender — Central Court office
+DESCRIPTION:SAMPLE-26CF00000\nReminder from Court Companion. Information 
+ only\, not legal advice. Confirm dates with the court or your attorney.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Meet with the public defender
+TRIGGER:-PT1440M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Meet with the public defender
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3@court-companion
+DTSTAMP:20261010T223303Z
+DTSTART;TZID=America/Los_Angeles:20261015T083000
+DTEND;TZID=America/Los_Angeles:20261015T093000
+SUMMARY:Pretrial hearing
+LOCATION:Dept C05 · Central Justice Center — 700 Civic Center Drive West\
+ , Santa Ana\, CA 92701
+DESCRIPTION:SAMPLE-26CF00000\nReminder from Court Companion. Information 
+ only\, not legal advice. Confirm dates with the court or your attorney.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pretrial hearing
+TRIGGER:-PT1440M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pretrial hearing
+TRIGGER:-PT120M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d4@court-companion
+DTSTAMP:20261010T223303Z
+DTSTART;TZID=America/Los_Angeles:20261029T083000
+DTEND;TZID=America/Los_Angeles:20261029T093000
+SUMMARY:Preliminary hearing
+LOCATION:Dept C05 · Central Justice Center — 700 Civic Center Drive West\
+ , Santa Ana\, CA 92701
+DESCRIPTION:SAMPLE-26CF00000\nReminder from Court Companion. Information 
+ only\, not legal advice. Confirm dates with the court or your attorney.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Preliminary hearing
+TRIGGER:-PT4320M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Preliminary hearing
+TRIGGER:-PT1440M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Preliminary hearing
+TRIGGER:-PT120M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d5@court-companion
+DTSTAMP:20261010T223303Z
+DTSTART;TZID=America/Los_Angeles:20261010T070000
+DTEND;TZID=America/Los_Angeles:20261010T080000
+RRULE:FREQ=DAILY
+SUMMARY:Charge ankle monitor
+DESCRIPTION:Reminder from Court Companion. Information only\, not legal a
+ dvice. Confirm dates with the court or your attorney.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Charge ankle monitor
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d6@court-companion
+DTSTAMP:20261010T223303Z
+DTSTART;TZID=America/Los_Angeles:20261010T190000
+DTEND;TZID=America/Los_Angeles:20261010T200000
+RRULE:FREQ=DAILY
+SUMMARY:Charge ankle monitor (evening)
+DESCRIPTION:Reminder from Court Companion. Information only\, not legal a
+ dvice. Confirm dates with the court or your attorney.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Charge ankle monitor (evening)
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d7@court-companion
+DTSTAMP:20261010T223303Z
+DTSTART;TZID=America/Los_Angeles:20261010T063000
+DTEND;TZID=America/Los_Angeles:20261010T073000
+RRULE:FREQ=DAILY
+SUMMARY:Call the drug-test color line
+DESCRIPTION:Reminder from Court Companion. Information only\, not legal a
+ dvice. Confirm dates with the court or your attorney.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Call the drug-test color line
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d8@court-companion
+DTSTAMP:20261010T223303Z
+DTSTART;TZID=America/Los_Angeles:20261014T180000
+DTEND;TZID=America/Los_Angeles:20261014T190000
+RRULE:FREQ=WEEKLY;UNTIL=20261208T235959Z
+SUMMARY:Life-skills class (SAMPLE program)
+LOCATION:Community center (SAMPLE)
+DESCRIPTION:Reminder from Court Companion. Information only\, not legal a
+ dvice. Confirm dates with the court or your attorney.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Life-skills class (SAMPLE program)
+TRIGGER:-PT1440M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Life-skills class (SAMPLE program)
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d9@court-companion
+DTSTAMP:20261010T223303Z
+DTSTART;TZID=America/Los_Angeles:20261016T080000
+DTEND;TZID=America/Los_Angeles:20261016T090000
+RRULE:FREQ=WEEKLY;UNTIL=20261123T235959Z
+SUMMARY:Community service shift — food bank (SAMPLE)
+DESCRIPTION:Reminder from Court Companion. Information only\, not legal a
+ dvice. Confirm dates with the court or your attorney.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Community service shift — food bank (SAMPLE)
+TRIGGER:-PT1440M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Community service shift — food bank (SAMPLE)
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d10@court-companion
+DTSTAMP:20261010T223303Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+RRULE:FREQ=MONTHLY
+SUMMARY:Pay monitoring fee (SAMPLE)
+DESCRIPTION:Reminder from Court Companion. Information only\, not legal a
+ dvice. Confirm dates with the court or your attorney.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pay monitoring fee (SAMPLE)
+TRIGGER:-PT4320M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pay monitoring fee (SAMPLE)
+TRIGGER:-PT1440M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

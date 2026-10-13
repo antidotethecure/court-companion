@@ -1,0 +1,2088 @@
+{
+  "state": "CA",
+  "county": "Los Angeles",
+  "slug": "los-angeles",
+  "court_name": "Superior Court of California, County of Los Angeles",
+  "court_website": "https://www.lacourt.ca.gov/",
+  "case_search_url": "https://www.lacourt.ca.gov/pages/lp/access-a-case/tp/find-case-information/cp/os-criminal-case-access",
+  "sources": [
+    {
+      "title": "LA Superior Court - Court Locations (courthouse directory)",
+      "url": "https://www.lacourt.ca.gov/apps/courthouse",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "LA Superior Court - Courthouse detail pages (e.g. Clara Shortridge Foltz CJC)",
+      "url": "https://www.lacourt.ca.gov/apps/courthouse/CCB/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "LA Superior Court - Criminal Division",
+      "url": "https://www.lacourt.ca.gov/pages/lp/criminal",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "LA Superior Court - Search for a Criminal Case",
+      "url": "https://www.lacourt.ca.gov/pages/lp/criminal/tp/search-for-a-criminal-case",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "LA Superior Court - Criminal Case Access (case summary by case number)",
+      "url": "https://www.lacourt.ca.gov/pages/lp/access-a-case/tp/find-case-information/cp/os-criminal-case-access",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "LA Superior Court - Criminal name search (Public Access Online Services, fee per search)",
+      "url": "https://www.lacourt.ca.gov/paos/v2web3/CriminalIndex",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "LA Superior Court - Get Assistance with My Criminal Case",
+      "url": "https://www.lacourt.ca.gov/pages/lp/criminal/tp/get-assistance-with-my-criminal-case",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "LA Superior Court - Clear My Criminal Record",
+      "url": "https://www.lacourt.ca.gov/pages/lp/criminal/cp/clearing-your-criminal-record",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "LA Superior Court - Bail Schedules",
+      "url": "https://www.lacourt.ca.gov/pages/lp/criminal/cp/bail-schedule",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "California Courts Hearing Reminder Service - Los Angeles",
+      "url": "https://hrs.courts.ca.gov/la",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "LA County Public Defender - Treatment Courts",
+      "url": "https://pubdef.lacounty.gov/treatment-courts",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "LA County Public Defender - Home (Community Outreach Court, Record Clearing)",
+      "url": "https://pubdef.lacounty.gov/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "LA County Alternate Public Defender - Office and Court Locations",
+      "url": "https://apd.lacounty.gov/office-and-court-locations/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "LA County Probation - Locations",
+      "url": "https://probation.lacounty.gov/locations/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "LA County Probation - Pretrial Services",
+      "url": "https://probation.lacounty.gov/pretrial-services-division/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "LASD Manual 2-00/010.00 Inmate Housing Locations",
+      "url": "https://pars.lasd.org/Viewer/Manuals/14249/Content/14196",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "LASD FAQ (Inmate Information Line)",
+      "url": "https://lasd.org/faq/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "Legal Aid Foundation of Los Angeles - Record Clearing",
+      "url": "https://lafla.org/get-help/expungement/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "NLSLA - Clean Slate Initiatives",
+      "url": "https://nlsla.org/services/clean-slate/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "A New Way of Life - Legal Services",
+      "url": "https://anewwayoflife.org/expungement/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "California Department of Insurance - License Status Inquiry",
+      "url": "https://cdicloud.insurance.ca.gov/cal",
+      "verified_on": "2026-10-10"
+    }
+  ],
+  "courthouses": [
+    {
+      "id": "ccb",
+      "name": "Clara Shortridge Foltz Criminal Justice Center",
+      "address": "210 West Temple Street",
+      "city": "Los Angeles",
+      "zip": "90012",
+      "phone": "(213) 628-7700",
+      "hours": "The courthouse is open from 7:00 a.m. to 5:00 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Criminal. No main courthouse number is published; phone shown is the Criminal Clerk's Office (2nd Floor, Room M6, 8:30 a.m.-4:30 p.m.). Public Defender at this courthouse: (213) 974-2811 (Felonies); (213) 974-3085 (Misdemeanors). Alternate Public Defender at this courthouse: (213) 974-6626. Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "30",
+          "label": "Department 30",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 5-307; Floor 5; Dept phone (213) 628-7730"
+        },
+        {
+          "id": "31",
+          "label": "Department 31",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 3-314; Floor 3; Dept phone (213) 628-7731"
+        },
+        {
+          "id": "32",
+          "label": "Department 32",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 3-319; Floor 3; Dept phone (213) 628-7732"
+        },
+        {
+          "id": "33",
+          "label": "Department 33",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 3-317; Floor 3; Dept phone (213) 628-7733"
+        },
+        {
+          "id": "34",
+          "label": "Department 34",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 3-313; Floor 3; Dept phone (213) 628-7734"
+        },
+        {
+          "id": "35",
+          "label": "Department 35",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 3-311; Floor 3; Dept phone (213) 628-7735"
+        },
+        {
+          "id": "36",
+          "label": "Department 36",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 3-307; Floor 3; Dept phone (213) 628-7736"
+        },
+        {
+          "id": "37",
+          "label": "Department 37",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 3-305; Floor 3; Dept phone (213) 628-7737"
+        },
+        {
+          "id": "38",
+          "label": "Department 38",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 3-303; Floor 3; Dept phone (213) 628-7738"
+        },
+        {
+          "id": "40",
+          "label": "Department 40",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 5-309; Floor 5; Dept phone (213) 628-7740"
+        },
+        {
+          "id": "41",
+          "label": "Department 41",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 5-312; Floor 3; Dept phone (213) 628-7741"
+        },
+        {
+          "id": "42",
+          "label": "Department 42",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 3-310; Floor 3; Dept phone (213) 628-7742"
+        },
+        {
+          "id": "43",
+          "label": "Department 43",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 3-304; Floor 3; Dept phone (213) 628-7743"
+        },
+        {
+          "id": "44",
+          "label": "Department 44",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 3-302; Floor 3; Dept phone (213) 680-7644"
+        },
+        {
+          "id": "45",
+          "label": "Department 45",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 7-312; Floor 7; Dept phone (213) 628-7745"
+        },
+        {
+          "id": "46",
+          "label": "Department 46",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 7-310; Floor 7; Dept phone (213) 628-7746"
+        },
+        {
+          "id": "47",
+          "label": "Department 47",
+          "type": "Criminal-General Felony, Criminal-Limited Felony, Criminal-Misdemeanor",
+          "note": "Room 7-304; Floor 7; Dept phone (213) 628-7747"
+        },
+        {
+          "id": "48",
+          "label": "Department 48",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 7-302; Floor 7; Dept phone (213) 628-7748"
+        },
+        {
+          "id": "50",
+          "label": "Department 50",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 5-312; Floor 5; Dept phone (213) 628-7750"
+        },
+        {
+          "id": "51",
+          "label": "Department 51",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 7-313; Floor 7; Dept phone (213) 628-7751"
+        },
+        {
+          "id": "52",
+          "label": "Department 52",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 7-311; Floor 7; Dept phone (213) 628-7752"
+        },
+        {
+          "id": "53",
+          "label": "Department 53",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 7-309; Floor 7; Dept phone (213) 628-7753"
+        },
+        {
+          "id": "54",
+          "label": "Department 54",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 7-307; Floor 7; Dept phone (213) 628-7754"
+        },
+        {
+          "id": "56",
+          "label": "Department 56",
+          "type": "Criminal-Limited Felony, Criminal-Misdemeanor",
+          "note": "Room 7-303; Floor 7; Dept phone (213) 628-7756"
+        },
+        {
+          "id": "100",
+          "label": "Department 100",
+          "type": "Criminal-General Felony",
+          "note": "Room 13-307; Floor 13; Dept phone (213) 628-7400"
+        },
+        {
+          "id": "101",
+          "label": "Department 101",
+          "type": "Criminal-General Felony",
+          "note": "Room 9-303; Floor 9; Dept phone (213) 628-7401"
+        },
+        {
+          "id": "103",
+          "label": "Department 103",
+          "type": "Criminal-General Felony",
+          "note": "Room 9-307; Floor 9; Dept phone (213) 628-7403"
+        },
+        {
+          "id": "104",
+          "label": "Department 104",
+          "type": "Criminal-General Felony",
+          "note": "Room 9-309; Floor 9; Dept phone (213) 628-7404"
+        },
+        {
+          "id": "105",
+          "label": "Department 105",
+          "type": "Criminal-General Felony",
+          "note": "Room 9-311; Floor 9; Dept phone (213) 628-7405"
+        },
+        {
+          "id": "106",
+          "label": "Department 106",
+          "type": "Criminal-General Felony",
+          "note": "Room 9-313; Floor 9; Dept phone (213) 628-7406"
+        },
+        {
+          "id": "107",
+          "label": "Department 107",
+          "type": "Criminal-General Felony",
+          "note": "Room 9-312; Floor 9; Dept phone (213) 628-7407"
+        },
+        {
+          "id": "108",
+          "label": "Department 108",
+          "type": "Criminal-General Felony",
+          "note": "Room 9-310; Floor 9; Dept phone (213) 628-7408"
+        },
+        {
+          "id": "109",
+          "label": "Department 109",
+          "type": "Criminal-General Felony",
+          "note": "Room 9-304; Floor 9; Dept phone (213) 628-7409"
+        },
+        {
+          "id": "110",
+          "label": "Department 110",
+          "type": "Criminal-General Felony",
+          "note": "Room 9-302; Floor 9; Dept phone (213) 628-7410"
+        },
+        {
+          "id": "111",
+          "label": "Department 111",
+          "type": "Criminal-General Felony",
+          "note": "Room 11-314; Floor 11; Dept phone (213) 628-7411"
+        },
+        {
+          "id": "112",
+          "label": "Department 112",
+          "type": "Criminal-General Felony",
+          "note": "Room 11-312; Floor 11; Dept phone (213) 628-7412"
+        },
+        {
+          "id": "113",
+          "label": "Department 113",
+          "type": "Criminal-General Felony",
+          "note": "Room 11-303; Floor 11; Dept phone (213) 628-7413"
+        },
+        {
+          "id": "114",
+          "label": "Department 114",
+          "type": "Criminal-General Felony, Criminal-Limited Felony",
+          "note": "Room 11-305; Floor 11; Dept phone (213) 628-7414"
+        },
+        {
+          "id": "115",
+          "label": "Department 115",
+          "type": "Criminal-General Felony",
+          "note": "Room 11-307; Floor 11; Dept phone (213) 628-7415"
+        },
+        {
+          "id": "116",
+          "label": "Department 116",
+          "type": "Criminal-General Felony",
+          "note": "Room 11-309; Floor 11; Dept phone (213) 628-7416"
+        },
+        {
+          "id": "117",
+          "label": "Department 117",
+          "type": "Criminal-General Felony",
+          "note": "Room 11-311; Floor 11; Dept phone (213) 628-7417"
+        },
+        {
+          "id": "118",
+          "label": "Department 118",
+          "type": "Criminal-General Felony",
+          "note": "Room 11-313; Floor 11; Dept phone (213) 628-7418"
+        },
+        {
+          "id": "119",
+          "label": "Department 119",
+          "type": "Criminal-General Felony",
+          "note": "Room 13-312; Floor 13; Dept phone (213) 628-7249"
+        },
+        {
+          "id": "120",
+          "label": "Department 120",
+          "type": "Criminal-General Felony",
+          "note": "Room 13-310; Floor 13; Dept phone (213) 628-7420"
+        },
+        {
+          "id": "121",
+          "label": "Department 121",
+          "type": "Criminal-General Felony",
+          "note": "Room 13-304; Floor 13; Dept phone (213) 628-7421"
+        },
+        {
+          "id": "122",
+          "label": "Department 122",
+          "type": "Criminal-General Felony",
+          "note": "Room 13-302; Floor 13; Dept phone (213) 628-7422"
+        },
+        {
+          "id": "123",
+          "label": "Department 123",
+          "type": "Criminal-General Felony",
+          "note": "Room 13-309; Floor 13; Dept phone (213) 628-7423"
+        },
+        {
+          "id": "124",
+          "label": "Department 124",
+          "type": "Criminal-General Felony",
+          "note": "Room 13-313; Floor 13; Dept phone (213) 628-7424"
+        },
+        {
+          "id": "125",
+          "label": "Department 125",
+          "type": "Criminal-General Felony",
+          "note": "Room 15-312; Floor 15; Dept phone (213) 628-7425"
+        },
+        {
+          "id": "126",
+          "label": "Department 126",
+          "type": "Criminal-General Felony",
+          "note": "Room 15-310; Floor 15; Dept phone (213) 628-7426"
+        },
+        {
+          "id": "128",
+          "label": "Department 128",
+          "type": "Criminal-General Felony",
+          "note": "Room 15-302; Floor 15; Dept phone (213) 628-7428"
+        },
+        {
+          "id": "129",
+          "label": "Department 129",
+          "type": "Criminal-General Felony",
+          "note": "Room 15-303; Floor 15; Dept phone (213) 628-7429"
+        },
+        {
+          "id": "130",
+          "label": "Department 130",
+          "type": "Criminal-General Felony",
+          "note": "Room 15-305; Floor 15; Dept phone (213) 628-7430"
+        },
+        {
+          "id": "131",
+          "label": "Department 131",
+          "type": "Criminal-General Felony",
+          "note": "Room 15-307; Floor 15; Dept phone (213) 628-7431"
+        },
+        {
+          "id": "132",
+          "label": "Department 132",
+          "type": "Criminal-General Felony",
+          "note": "Room 15-309; Floor 15; Dept phone (213) 628-7432"
+        },
+        {
+          "id": "133",
+          "label": "Department 133",
+          "type": "Criminal-General Felony",
+          "note": "Room 15-311; Floor 15; Dept phone (213) 628-7433"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/CCB/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "cac",
+      "name": "Central Arraignment Courthouse",
+      "address": "429 Bauchet St.",
+      "city": "Los Angeles",
+      "zip": "90012",
+      "phone": "(213) 617-5600",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Criminal. Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "80",
+          "label": "Department 80",
+          "type": "Criminal-AB109",
+          "note": "Room 201; Floor 2; Dept phone (213) 617-5680"
+        },
+        {
+          "id": "81",
+          "label": "Department 81",
+          "type": "Criminal-AB109",
+          "note": "Room 207; Floor 2; Dept phone (213) 617-5681"
+        },
+        {
+          "id": "82",
+          "label": "Department 82",
+          "type": "Criminal-AB109",
+          "note": "Room 214; Floor 2; Dept phone (213) 617-5682"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/CAC/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "met",
+      "name": "Metropolitan Courthouse",
+      "address": "1945 South Hill Street",
+      "city": "Los Angeles",
+      "zip": "90007",
+      "phone": "(213) 745-3200",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Criminal, Family Law, Traffic. Public Defender at this courthouse: (213) 744-4121. Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "62",
+          "label": "Department 62",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 600; Floor 6; Dept phone (213) 745-1862"
+        },
+        {
+          "id": "66",
+          "label": "Department 66",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 509; Floor 5; Dept phone (213) 745-1866"
+        },
+        {
+          "id": "71",
+          "label": "Department 71",
+          "type": "Criminal, Criminal-General Felony, Criminal-Misdemeanor",
+          "note": "Room 601; Floor 6; Dept phone (213) 745-1871"
+        },
+        {
+          "id": "72",
+          "label": "Department 72",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 712; Floor 7; Dept phone (213) 745-1872"
+        },
+        {
+          "id": "74",
+          "label": "Department 74",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 700; Floor 7; Dept phone (213) 745-1874"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/MET/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "lax",
+      "name": "Airport Courthouse",
+      "address": "11701 S. La Cienega",
+      "city": "Los Angeles",
+      "zip": "90045",
+      "phone": "(310) 725-3000",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Criminal. Public Defender at this courthouse: (310) 727-6200. Alternate Public Defender at this courthouse: (310) 727-6569. Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "30",
+          "label": "Department 30",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 302; Floor 3; Dept phone (310) 725-3040"
+        },
+        {
+          "id": "31",
+          "label": "Department 31",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 311; Floor 3; Dept phone (310) 725-3041"
+        },
+        {
+          "id": "70",
+          "label": "Department 70",
+          "type": "Criminal-General Felony",
+          "note": "Room 701; Floor 7; Dept phone (310) 725-3096"
+        },
+        {
+          "id": "71",
+          "label": "Department 71",
+          "type": "Criminal-Limited Felony, Criminal-Misdemeanor",
+          "note": "Room 703; Floor 7; Dept phone (310) 725-3097"
+        },
+        {
+          "id": "73",
+          "label": "Department 73",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 710; Floor 7; Dept phone (310) 725-3043"
+        },
+        {
+          "id": "80",
+          "label": "Department 80",
+          "type": "Criminal-General Felony",
+          "note": "Room 801; Floor 8; Dept phone (310) 725-3015"
+        },
+        {
+          "id": "81",
+          "label": "Department 81",
+          "type": "Criminal-General Felony",
+          "note": "Room 803; Floor 8; Dept phone (310) 725-3090"
+        },
+        {
+          "id": "83",
+          "label": "Department 83",
+          "type": "Criminal-General Felony",
+          "note": "Room 810; Floor 8; Dept phone (310) 725-3091"
+        },
+        {
+          "id": "90",
+          "label": "Department 90",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 901; Floor 9; Dept phone (310) 725-3044"
+        },
+        {
+          "id": "92",
+          "label": "Department 92",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 908; Floor 9; Dept phone (310) 725-3046"
+        },
+        {
+          "id": "93",
+          "label": "Department 93",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 910; Floor 9; Dept phone (310) 725-3047"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/LAX/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "alh",
+      "name": "Alhambra Courthouse",
+      "address": "150 West Commonwealth",
+      "city": "Alhambra",
+      "zip": "91801",
+      "phone": "(626) 293-2100",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Civil, Criminal. Public Defender at this courthouse: (626) 308-5324. Alternate Public Defender at this courthouse: (626) 308-7070. Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "1",
+          "label": "Department 1",
+          "type": "Criminal-General Felony",
+          "note": "Room 200; Floor 2; Dept phone (626) 293-2101"
+        },
+        {
+          "id": "2",
+          "label": "Department 2",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 210; Floor 2; Dept phone (626) 293-2102"
+        },
+        {
+          "id": "4",
+          "label": "Department 4",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 310; Floor 3; Dept phone (626) 293-2104"
+        },
+        {
+          "id": "5",
+          "label": "Department 5",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 320; Floor 3; Dept phone (626) 293-2105"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/ALH/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "lc",
+      "name": "Bellflower Courthouse",
+      "address": "10025 East Flower Street",
+      "city": "Bellflower",
+      "zip": "90706",
+      "phone": "(562) 345-3300",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Criminal, Small Claims. Public Defender at this courthouse: (562) 804-8083. Alternate Public Defender at this courthouse: (562) 804-8238. Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "4",
+          "label": "Department 4",
+          "type": "Criminal-Limited Felony, Criminal-Limited Felony, Criminal-Misdemeanor",
+          "note": "Room 346; Floor 3; Dept phone (562) 345-3304"
+        },
+        {
+          "id": "5",
+          "label": "Department 5",
+          "type": "Criminal-Limited Felony, Criminal-Misdemeanor",
+          "note": "Room 441; Floor 4; Dept phone (562) 345-3305"
+        },
+        {
+          "id": "6",
+          "label": "Department 6",
+          "type": "Criminal-Limited Felony, Criminal-Misdemeanor",
+          "note": "Room 446; Floor 4; Dept phone (562) 345-3306"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/LC/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "bur",
+      "name": "Burbank Courthouse",
+      "address": "300 East Olive",
+      "city": "Burbank",
+      "zip": "91502",
+      "phone": "(818) 260-8400",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Civil, Criminal. Public Defender at this courthouse: (818) 557-3537. Alternate Public Defender at this courthouse: (818) 557-3488. Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "2",
+          "label": "Department 2",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 102; Floor 1; Dept phone (818) 260-8402"
+        },
+        {
+          "id": "3",
+          "label": "Department 3",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 103; Floor 1; Dept phone (818) 260-8403"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/BUR/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "cat",
+      "name": "Catalina Courthouse",
+      "address": "215 Sumner Avenue",
+      "city": "Avalon",
+      "zip": "90704",
+      "phone": "(562) 256-3100",
+      "hours": "The courthouse is open from 8:30 a.m. to 1:00 p.m. one Friday a month. Please view <a href=\"https://lascpubstorage.blob.core.windows.net/cpw/LIBSVCCourtroomSupport-74-CatalinaCourthouseSchedule2026.pdf\" target=\"_blank\">the calendar</a> for available dates.",
+      "criminal": true,
+      "note": "Divisions per court directory: Criminal. The court's online directory lists no criminal department assignments for this courthouse; check the courtroom list at https://www.lacourt.ca.gov/apps/courthouse/CAT/detail or your court notice.",
+      "departments": [],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/CAT/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "com",
+      "name": "Compton Courthouse",
+      "address": "200 West Compton Blvd.",
+      "city": "Compton",
+      "zip": "90220",
+      "phone": "(310) 761-4300",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Civil, Criminal, Family Law, Juvenile Dependency, Juvenile Justice, Small Claims, Traffic, Unlawful Detainer. Public Defender at this courthouse: (310) 603-7271. Alternate Public Defender at this courthouse: (310) 603-3115. Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "4",
+          "label": "Department 4",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 508; Floor 5; Dept phone (310) 761-4304"
+        },
+        {
+          "id": "5",
+          "label": "Department 5",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 604; Floor 6; Dept phone (310) 761-4305"
+        },
+        {
+          "id": "8",
+          "label": "Department 8",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 500; Floor 5; Dept phone (310) 761-4308"
+        },
+        {
+          "id": "9",
+          "label": "Department 9",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 607; Floor 6; Dept phone (310) 761-4309"
+        },
+        {
+          "id": "10",
+          "label": "Department 10",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 606; Floor 6; Dept phone (310) 761-4310"
+        },
+        {
+          "id": "14",
+          "label": "Department 14",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 507; Floor 5; Dept phone (310) 761-4326"
+        },
+        {
+          "id": "C",
+          "label": "Department C",
+          "type": "Criminal-General Felony",
+          "note": "Room 900; Floor 9; Dept phone (310) 761-4332"
+        },
+        {
+          "id": "D",
+          "label": "Department D",
+          "type": "Criminal-General Felony",
+          "note": "Room 1006; Floor 10; Dept phone (310) 761-4323"
+        },
+        {
+          "id": "F",
+          "label": "Department F",
+          "type": "Criminal-General Felony",
+          "note": "Room 1011; Floor 10; Dept phone (310) 761-4313"
+        },
+        {
+          "id": "H",
+          "label": "Department H",
+          "type": "Criminal-General Felony",
+          "note": "Room 1106; Floor 11; Dept phone (310) 761-4324"
+        },
+        {
+          "id": "J",
+          "label": "Department J",
+          "type": "Criminal-General Felony",
+          "note": "Room 1104; Floor 11; Dept phone (310) 761-4325"
+        },
+        {
+          "id": "K",
+          "label": "Department K",
+          "type": "Criminal-General Felony",
+          "note": "Room 1110; Floor 11; Dept phone (310) 761-4315"
+        },
+        {
+          "id": "L",
+          "label": "Department L",
+          "type": "Criminal-General Felony",
+          "note": "Room 1100; Floor 11; Dept phone (310) 761-4335"
+        },
+        {
+          "id": "Q",
+          "label": "Department Q",
+          "type": "Criminal-General Felony",
+          "note": "Room 1213; Floor 12; Dept phone (310) 761-4307"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/COM/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "dow",
+      "name": "Downey Courthouse",
+      "address": "7500 East Imperial Highway",
+      "city": "Downey",
+      "zip": "90242",
+      "phone": "(562) 658-0500",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Criminal, Traffic. Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "2",
+          "label": "Department 2",
+          "type": "Criminal-Limited Felony, Criminal-Misdemeanor",
+          "note": "Room 201; Floor 2; Dept phone (562) 803-7012"
+        },
+        {
+          "id": "3",
+          "label": "Department 3",
+          "type": "Criminal-Limited Felony, Criminal-Misdemeanor",
+          "note": "Room 229; Floor 2; Dept phone (562) 803-7015"
+        },
+        {
+          "id": "4",
+          "label": "Department 4",
+          "type": "Criminal-Limited Felony, Criminal-Misdemeanor",
+          "note": "Room 301; Floor 3; Dept phone (562) 803-7018"
+        },
+        {
+          "id": "5",
+          "label": "Department 5",
+          "type": "Criminal-Limited Felony, Criminal-Misdemeanor",
+          "note": "Room 328; Floor 3; Dept phone (562) 803-7021"
+        },
+        {
+          "id": "7",
+          "label": "Department 7",
+          "type": "Criminal-Limited Felony, Criminal-Misdemeanor",
+          "note": "Room 421; Floor 4; Dept phone (562) 803-7027"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/DOW/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "elm",
+      "name": "El Monte Courthouse",
+      "address": "11234 East Valley Blvd.",
+      "city": "El Monte",
+      "zip": "91731",
+      "phone": "(626) 401-2200",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Criminal, Traffic. Public Defender at this courthouse: (626) 575-4174. Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "1",
+          "label": "Department 1",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 102; Floor 1; Dept phone (626) 401-2201"
+        },
+        {
+          "id": "2",
+          "label": "Department 2",
+          "type": "Criminal-Limited Felony, Criminal-Misdemeanor",
+          "note": "Room 106; Floor 1; Dept phone (626) 401-2202"
+        },
+        {
+          "id": "3",
+          "label": "Department 3",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 200; Floor 2; Dept phone (626) 401-2203"
+        },
+        {
+          "id": "4",
+          "label": "Department 4",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 204; Floor 2; Dept phone (626) 401-2204"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/ELM/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "gln",
+      "name": "Glendale Courthouse",
+      "address": "600 East Broadway",
+      "city": "Glendale",
+      "zip": "91206",
+      "phone": "(818) 265-6400",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Civil, Criminal, Family Law, Traffic. Public Defender at this courthouse: (818) 500-3561. Alternate Public Defender at this courthouse: (818) 500-3434. Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "1",
+          "label": "Department 1",
+          "type": "Criminal-Limited Felony, Criminal-Misdemeanor",
+          "note": "Room 142; Floor 1; Dept phone (818) 265-6401"
+        },
+        {
+          "id": "2",
+          "label": "Department 2",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 102; Floor 1; Dept phone (818) 265-6402"
+        },
+        {
+          "id": "3",
+          "label": "Department 3",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 210; Floor 2; Dept phone (818) 265-6403"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/GLN/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "lb",
+      "name": "Governor George Deukmejian Courthouse",
+      "address": "275 Magnolia",
+      "city": "Long Beach",
+      "zip": "90802",
+      "phone": "(562) 256-3100",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Civil, Criminal, Family Law, Juvenile Justice, Small Claims, Traffic, Unlawful Detainer. Public Defender at this courthouse: (562) 247-2500. Alternate Public Defender at this courthouse: (562) 247-2400. Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "S01",
+          "label": "Department S01",
+          "type": "Criminal-General Felony, Criminal-Limited Felony",
+          "note": "Room 1900; Floor 1; Dept phone (562) 256-1410"
+        },
+        {
+          "id": "S02",
+          "label": "Department S02",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 1700; Floor 1; Dept phone (562) 256-1415"
+        },
+        {
+          "id": "S05",
+          "label": "Department S05",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 2500; Floor 2; Dept phone (562) 256-1430"
+        },
+        {
+          "id": "S06",
+          "label": "Department S06",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 2400; Floor 2; Dept phone (562) 256-1435"
+        },
+        {
+          "id": "S07",
+          "label": "Department S07",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 2300; Floor 2; Dept phone (562) 256-1440"
+        },
+        {
+          "id": "S08",
+          "label": "Department S08",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 2200; Floor 2; Dept phone (562) 256-1445"
+        },
+        {
+          "id": "S17",
+          "label": "Department S17",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 4900; Floor 4; Dept phone (562) 256-1490"
+        },
+        {
+          "id": "S18",
+          "label": "Department S18",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 4800; Floor 4; Dept phone (562) 256-1495"
+        },
+        {
+          "id": "S19",
+          "label": "Department S19",
+          "type": "Criminal-General Felony, Criminal-Limited Felony",
+          "note": "Room 4700; Floor 4; Dept phone (562) 256-1502"
+        },
+        {
+          "id": "S21",
+          "label": "Department S21",
+          "type": "Criminal-General Felony",
+          "note": "Room 4500; Floor 4; Dept phone (562) 256-1512"
+        },
+        {
+          "id": "S22",
+          "label": "Department S22",
+          "type": "Criminal-General Felony, Criminal-Limited Felony",
+          "note": "Room 4400; Floor 4; Dept phone (562) 256-2202"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/LB/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "ing",
+      "name": "Inglewood Courthouse",
+      "address": "1 Regent Street",
+      "city": "Inglewood",
+      "zip": "90301",
+      "phone": "(310) 419-1300",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Civil, Criminal, Small Claims, Traffic, Unlawful Detainer. Public Defender at this courthouse: (310) 419-5249 (Adult). Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "1",
+          "label": "Department 1",
+          "type": "Criminal-General Felony, Criminal-Misdemeanor",
+          "note": "Room 200; Floor 2; Dept phone (310) 419-1301"
+        },
+        {
+          "id": "2",
+          "label": "Department 2",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 503; Floor 5; Dept phone (310) 419-1302"
+        },
+        {
+          "id": "3",
+          "label": "Department 3",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 500; Floor 5; Dept phone (310) 419-1303"
+        },
+        {
+          "id": "6",
+          "label": "Department 6",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 203; Floor 2; Dept phone (310) 419-1306"
+        },
+        {
+          "id": "O",
+          "label": "Department O",
+          "type": "Criminal-General Felony",
+          "note": "Room 300; Floor 3; Dept phone (310) 419-1316"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/ING/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "atp",
+      "name": "Michael Antonovich Antelope Valley Courthouse",
+      "address": "42011 4th Street West",
+      "city": "Lancaster",
+      "zip": "93534",
+      "phone": "(661) 483-5500",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Civil, Criminal, Family Law, Juvenile Justice, Probate, Small Claims, Traffic, Unlawful Detainer. Public Defender at this courthouse: (661) 974-7400. Alternate Public Defender at this courthouse: (661) 974-7484. Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "A01",
+          "label": "Department A01",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room L410; Floor B; Dept phone (661) 483-5501"
+        },
+        {
+          "id": "A02",
+          "label": "Department A02",
+          "type": "Criminal-Limited Felony",
+          "note": "Room L610; Floor B; Dept phone (661) 483-5502"
+        },
+        {
+          "id": "A04",
+          "label": "Department A04",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 2010; Floor 2; Dept phone (661) 483-5504"
+        },
+        {
+          "id": "A05",
+          "label": "Department A05",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 2210; Floor 2; Dept phone (661) 483-5505"
+        },
+        {
+          "id": "A06",
+          "label": "Department A06",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 2410; Floor 2; Dept phone (661) 483-5506"
+        },
+        {
+          "id": "A07",
+          "label": "Department A07",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 2610; Floor 2; Dept phone (661) 483-5507"
+        },
+        {
+          "id": "A16",
+          "label": "Department A16",
+          "type": "Criminal-General Felony, Criminal-Limited Felony",
+          "note": "Room 4010; Floor 4; Dept phone (661) 483-5516"
+        },
+        {
+          "id": "A18",
+          "label": "Department A18",
+          "type": "Criminal-General Felony, Criminal-Limited Felony",
+          "note": "Room 4410; Floor 4; Dept phone (661) 483-5518"
+        },
+        {
+          "id": "A19",
+          "label": "Department A19",
+          "type": "Criminal-General Felony",
+          "note": "Room 4510; Floor 4; Dept phone (661) 483-5519"
+        },
+        {
+          "id": "A20",
+          "label": "Department A20",
+          "type": "Criminal-General Felony",
+          "note": "Room 4810; Floor 4; Dept phone (661) 483-5520"
+        },
+        {
+          "id": "A21",
+          "label": "Department A21",
+          "type": "Criminal-General Felony",
+          "note": "Room 4910; Floor 4; Dept phone (661) 483-5521"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/ATP/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "se",
+      "name": "Norwalk Courthouse",
+      "address": "12720 Norwalk Blvd.",
+      "city": "Norwalk",
+      "zip": "90650",
+      "phone": "(562) 345-3700",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Civil, Criminal, Mental Health, Unlawful Detainer. Public Defender at this courthouse: (562) 345-3900. Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "G",
+          "label": "Department G",
+          "type": "Criminal-General Felony, Criminal-Limited Felony",
+          "note": "Room 406; Floor 4; Dept phone (562) 345-3704"
+        },
+        {
+          "id": "H",
+          "label": "Department H",
+          "type": "Criminal-General Felony, Criminal-Limited Felony",
+          "note": "Room 404; Floor 4; Dept phone (562) 345-3714"
+        },
+        {
+          "id": "J",
+          "label": "Department J",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 401; Floor 4; Dept phone (562) 345-3715"
+        },
+        {
+          "id": "K",
+          "label": "Department K",
+          "type": "Criminal-General Felony, Criminal-Misdemeanor",
+          "note": "Room 403; Floor 4; Dept phone (562) 345-3725"
+        },
+        {
+          "id": "M",
+          "label": "Department M",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 504; Floor 5; Dept phone (562) 345-3706"
+        },
+        {
+          "id": "N",
+          "label": "Department N",
+          "type": "Criminal-General Felony, Criminal-Misdemeanor",
+          "note": "Room 501; Floor 5; Dept phone (562) 345-3716"
+        },
+        {
+          "id": "S",
+          "label": "Department S",
+          "type": "Criminal-General Felony, Criminal-Misdemeanor",
+          "note": "Room 604; Floor 6; Dept phone (562) 345-3707"
+        },
+        {
+          "id": "T",
+          "label": "Department T",
+          "type": "Criminal-General Felony",
+          "note": "Room 601; Floor 6; Dept phone (562) 345-3708"
+        },
+        {
+          "id": "W",
+          "label": "Department W",
+          "type": "Criminal-General Felony, Criminal-Misdemeanor",
+          "note": "Room 603; Floor 6; Dept phone (562) 345-3729"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/SE/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "pas",
+      "name": "Pasadena Courthouse",
+      "address": "300 East Walnut St.",
+      "city": "Pasadena",
+      "zip": "91101",
+      "phone": "(626) 396-3300",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Civil, Criminal, Family Law, Small Claims, Traffic, Unlawful Detainer. Public Defender at this courthouse: (626) 356-5481. Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "B",
+          "label": "Department B",
+          "type": "Criminal-General Felony",
+          "note": "Room 400B; Floor 4; Dept phone (626) 396-3312"
+        },
+        {
+          "id": "C",
+          "label": "Department C",
+          "type": "Criminal-General Felony, Criminal-Limited Felony",
+          "note": "Room 401B; Floor 4; Dept phone (626) 396-3322"
+        },
+        {
+          "id": "D",
+          "label": "Department D",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 510B; Floor 5; Dept phone (626) 396-3303"
+        },
+        {
+          "id": "E",
+          "label": "Department E",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 500B; Floor 5; Dept phone (626) 396-3313"
+        },
+        {
+          "id": "F",
+          "label": "Department F",
+          "type": "Criminal-General Felony",
+          "note": "Room 501B; Floor 5; Dept phone (626) 396-3323"
+        },
+        {
+          "id": "G",
+          "label": "Department G",
+          "type": "Criminal-General Felony, Criminal-Misdemeanor",
+          "note": "Room 613B; Floor 6; Dept phone (626) 396-3304"
+        },
+        {
+          "id": "H",
+          "label": "Department H",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 600B; Floor 6; Dept phone (626) 396-3314"
+        },
+        {
+          "id": "J",
+          "label": "Department J",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 601B; Floor 6; Dept phone (626) 396-3305"
+        },
+        {
+          "id": "N",
+          "label": "Department N",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 147; Floor 1; Dept phone (626) 396-3316"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/PAS/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "ea",
+      "name": "Pomona Courthouse South",
+      "address": "400 Civic Center Plaza",
+      "city": "Pomona",
+      "zip": "91766",
+      "phone": "(909) 802-1100",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Civil, Criminal, Family Law, Juvenile Dependency, Juvenile Justice. Public Defender at this courthouse: (909) 868-6400. The court's online directory lists no criminal department assignments for this courthouse; check the courtroom list at https://www.lacourt.ca.gov/apps/courthouse/EA/detail or your court notice.",
+      "departments": [],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/EA/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "las",
+      "name": "San Fernando Courthouse",
+      "address": "900 Third Street",
+      "city": "San Fernando",
+      "zip": "91340",
+      "phone": "(818) 256-1800",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Civil, Criminal, Traffic. Public Defender at this courthouse: (818) 898-2440. Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "A",
+          "label": "Department A",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 2123; Floor 2; Dept phone (818) 256-1802"
+        },
+        {
+          "id": "B",
+          "label": "Department B",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 2107; Floor 2; Dept phone (818) 256-1812"
+        },
+        {
+          "id": "C",
+          "label": "Department C",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 2142; Floor 2; Dept phone (818) 256-1822"
+        },
+        {
+          "id": "D",
+          "label": "Department D",
+          "type": "Criminal-General Felony",
+          "note": "Room 2129; Floor 2; Dept phone (818) 256-1803"
+        },
+        {
+          "id": "E",
+          "label": "Department E",
+          "type": "Criminal-General Felony",
+          "note": "Room 3149; Floor 3; Dept phone (818) 256-1823"
+        },
+        {
+          "id": "F",
+          "label": "Department F",
+          "type": "Criminal-General Felony",
+          "note": "Room 3130; Floor 3; Dept phone (818) 256-1813"
+        },
+        {
+          "id": "G",
+          "label": "Department G",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 3121; Floor 3; Dept phone (818) 256-1814"
+        },
+        {
+          "id": "H",
+          "label": "Department H",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 3099; Floor 3; Dept phone (818) 256-1824"
+        },
+        {
+          "id": "I",
+          "label": "Department I",
+          "type": "Criminal-General Felony",
+          "note": "Room 4076; Floor 4; Dept phone (818) 256-1804"
+        },
+        {
+          "id": "J",
+          "label": "Department J",
+          "type": "Criminal-General Felony",
+          "note": "Room 4092; Floor 4; Dept phone (818) 256-1825"
+        },
+        {
+          "id": "N",
+          "label": "Department N",
+          "type": "Criminal-General Felony",
+          "note": "Room 4049; Floor 4; Dept phone (818) 256-1806"
+        },
+        {
+          "id": "S",
+          "label": "Department S",
+          "type": "Criminal-Limited Felony, Criminal-Misdemeanor",
+          "note": "Room 1076; Floor 1; Dept phone (818) 256-1807"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/LAS/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "new",
+      "name": "Santa Clarita Courthouse",
+      "address": "23747 West Valencia Blvd",
+      "city": "Santa Clarita",
+      "zip": "91355",
+      "phone": "(661) 253-5600",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Criminal, Traffic. Alternate Public Defender at this courthouse: (661) 253-7239. Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "1",
+          "label": "Department 1",
+          "type": "Criminal-Misdemeanor",
+          "note": "Floor 1; Dept phone (661) 253-5601"
+        },
+        {
+          "id": "2",
+          "label": "Department 2",
+          "type": "Criminal-Misdemeanor",
+          "note": "Floor 1; Dept phone (661) 253-5602"
+        },
+        {
+          "id": "3",
+          "label": "Department 3",
+          "type": "Criminal-Misdemeanor",
+          "note": "Floor 1; Dept phone (661) 253-5603"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/NEW/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "sba",
+      "name": "Torrance Courthouse",
+      "address": "825 Maple Ave.",
+      "city": "Torrance",
+      "zip": "90503",
+      "phone": "(310) 787-3700",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Civil, Criminal, Family Law, Traffic. Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "2",
+          "label": "Department 2",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 200; Floor 2; Dept phone (310) 787-3702"
+        },
+        {
+          "id": "3",
+          "label": "Department 3",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 240; Floor 2; Dept phone (310) 787-3703"
+        },
+        {
+          "id": "4",
+          "label": "Department 4",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 220; Floor 2; Dept phone (310) 787-3704"
+        },
+        {
+          "id": "5",
+          "label": "Department 5",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 260; Floor 2; Dept phone (310) 787-3705"
+        },
+        {
+          "id": "8",
+          "label": "Department 8",
+          "type": "Criminal-General Felony",
+          "note": "Room 520; Floor 5; Dept phone (310) 787-3725"
+        },
+        {
+          "id": "C",
+          "label": "Department C",
+          "type": "Criminal-General Felony",
+          "note": "Room 320; Floor 3; Dept phone (310) 787-3732"
+        },
+        {
+          "id": "F",
+          "label": "Department F",
+          "type": "Criminal-General Felony",
+          "note": "Room 550; Floor 5; Dept phone (310) 787-3723"
+        },
+        {
+          "id": "G",
+          "label": "Department G",
+          "type": "Criminal-General Felony",
+          "note": "Room 420; Floor 4; Dept phone (310) 787-3714"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/SBA/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "lav",
+      "name": "Van Nuys Courthouse West",
+      "address": "14400 Erwin Street Mall",
+      "city": "Van Nuys",
+      "zip": "91401",
+      "phone": "(818) 989-6900",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Civil, Criminal, Traffic. Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "105",
+          "label": "Department 105",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 610; Floor 6; Dept phone (818) 989-6805"
+        },
+        {
+          "id": "112",
+          "label": "Department 112",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 810; Floor 8; Dept phone (818) 989-6812"
+        },
+        {
+          "id": "113",
+          "label": "Department 113",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 710; Floor 7; Dept phone (818) 989-6813"
+        },
+        {
+          "id": "115",
+          "label": "Department 115",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 704; Floor 7; Dept phone (818) 989-6815"
+        },
+        {
+          "id": "119",
+          "label": "Department 119",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 702; Floor 7; Dept phone (818) 989-6819"
+        },
+        {
+          "id": "120",
+          "label": "Department 120",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 802; Floor 8; Dept phone (818) 989-6820"
+        },
+        {
+          "id": "121",
+          "label": "Department 121",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 708; Floor 7; Dept phone (818) 989-6821"
+        },
+        {
+          "id": "122",
+          "label": "Department 122",
+          "type": "Criminal-Misdemeanor",
+          "note": "Room 604; Floor 6; Dept phone (818) 989-6822"
+        },
+        {
+          "id": "E",
+          "label": "Department E",
+          "type": "Criminal-General Felony, Criminal-Misdemeanor",
+          "note": "Room 602; Floor 6; Dept phone (818) 989-6823"
+        },
+        {
+          "id": "F",
+          "label": "Department F",
+          "type": "Criminal-Limited Felony",
+          "note": "Room 804; Floor 8; Dept phone (818) 989-6833"
+        },
+        {
+          "id": "G",
+          "label": "Department G",
+          "type": "Criminal-General Felony, Criminal-Misdemeanor",
+          "note": "Room 908; Floor 9; Dept phone (818) 989-6814"
+        },
+        {
+          "id": "N",
+          "label": "Department N",
+          "type": "Criminal-General Felony, Criminal-Misdemeanor",
+          "note": "Room 910; Floor 9; Dept phone (818) 989-6806"
+        },
+        {
+          "id": "R",
+          "label": "Department R",
+          "type": "Criminal-General Felony",
+          "note": "Room 808; Floor 8; Dept phone (818) 989-6817"
+        },
+        {
+          "id": "S",
+          "label": "Department S",
+          "type": "Criminal-General Felony",
+          "note": "Room 902; Floor 9; Dept phone (818) 989-6827"
+        },
+        {
+          "id": "V",
+          "label": "Department V",
+          "type": "Criminal-General Felony",
+          "note": "Room V; Floor 9; Dept phone (818) 989-6818"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/LAV/detail",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "cit",
+      "name": "West Covina Courthouse",
+      "address": "1427 West Covina Parkway",
+      "city": "West Covina",
+      "zip": "91790",
+      "phone": "(626) 430-2600",
+      "hours": "The courthouse is open from 8:00 a.m. to 4:30 p.m. and the Clerk's Office is open from 8:30 a.m. to 4:30 p.m., Monday through Friday, Except Court Holidays.",
+      "criminal": true,
+      "note": "Divisions per court directory: Civil, Criminal, Small Claims, Traffic, Unlawful Detainer. Public Defender at this courthouse: (626) 813-3460. Departments listed are those with a criminal judicial officer assigned in the court's online directory; assignments change, so confirm on your notice or the official courtroom directory.",
+      "departments": [
+        {
+          "id": "4",
+          "label": "Department 4",
+          "type": "Criminal-Limited Felony",
+          "note": "Floor 1; Dept phone (626) 430-2504"
+        },
+        {
+          "id": "5",
+          "label": "Department 5",
+          "type": "Criminal-General Felony, Criminal-Limited Felony",
+          "note": "Floor 1; Dept phone (626) 430-2505"
+        },
+        {
+          "id": "7",
+          "label": "Department 7",
+          "type": "Criminal-Misdemeanor",
+          "note": "Floor 1; Dept phone (626) 430-2507"
+        },
+        {
+          "id": "8",
+          "label": "Department 8",
+          "type": "Criminal",
+          "note": "Floor 1; Dept phone (626) 430-2508"
+        },
+        {
+          "id": "9",
+          "label": "Department 9",
+          "type": "Criminal-Misdemeanor",
+          "note": "Floor 1; Dept phone (626) 430-2509"
+        },
+        {
+          "id": "10",
+          "label": "Department 10",
+          "type": "Criminal-Limited Felony",
+          "note": "Floor 1; Dept phone (626) 430-2510"
+        },
+        {
+          "id": "11",
+          "label": "Department 11",
+          "type": "Criminal-General Felony, Criminal-Limited Felony, Criminal-Misdemeanor",
+          "note": "Floor 1; Dept phone (626) 430-2511"
+        }
+      ],
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/CIT/detail",
+      "verified_on": "2026-10-10"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Los Angeles County Public Defender — Clara Shortridge Foltz CJC office (19th Floor)",
+      "address": "210 West Temple Street, 19th Floor",
+      "city": "Los Angeles",
+      "zip": "90012",
+      "phone": "(213) 974-2811 (Felonies); (213) 974-3085 (Misdemeanors)",
+      "email": null,
+      "hours": null,
+      "url": "https://pubdef.lacounty.gov/",
+      "source_url": "https://www.lacourt.ca.gov/apps/courthouse/CCB/detail",
+      "verified_on": "2026-10-10",
+      "todo": "pubdef.lacounty.gov contact page had no address/phone/hours content on 2026-10-10; location and phones taken from the court's Foltz CJC directory. Confirm headquarters address and office hours. Each criminal courthouse's PD phone is in that courthouse's note."
+    },
+    {
+      "name": "Los Angeles County Alternate Public Defender — Main Office",
+      "address": "Clara Shortridge Foltz CJC, 210 West Temple St., Suite 18-709",
+      "city": "Los Angeles",
+      "zip": "90012",
+      "phone": "(213) 974-6626",
+      "email": null,
+      "hours": null,
+      "url": "https://apd.lacounty.gov/",
+      "source_url": "https://apd.lacounty.gov/office-and-court-locations/",
+      "verified_on": "2026-10-10",
+      "todo": "Office hours not listed on the APD locations page."
+    }
+  ],
+  "legal_aid": [
+    {
+      "name": "Legal Aid Foundation of Los Angeles (LAFLA) — Record Clearing",
+      "serves": "Eligible individuals in LA County (pre-screening and registration required)",
+      "what": "Free record clearing: expungement and Prop 47 petitions, plus help with Fair Chance Hiring / Ban the Box violations. Does NOT provide criminal defense on open cases.",
+      "phone": "(800) 399-4529",
+      "url": "https://lafla.org/get-help/expungement/",
+      "source_url": "https://lafla.org/get-help/expungement/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "Neighborhood Legal Services of Los Angeles County (NLSLA) — Clean Slate Initiatives",
+      "serves": "Antelope Valley residents referred through the LA County D.O.O.R.S. program only",
+      "what": "Record clearing and removing legal barriers from criminal records. As of 2026-10-10 the page says the team is NOT currently accepting new applications. Not criminal defense.",
+      "phone": "1-800-433-6251",
+      "url": "https://nlsla.org/services/clean-slate/",
+      "source_url": "https://nlsla.org/services/clean-slate/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "A New Way of Life Reentry Project — Legal Services",
+      "serves": null,
+      "what": "Free expungement clinics / record clearing services (clinics two to three Wednesday evenings a month) plus reentry support. Not criminal defense.",
+      "phone": "(323) 563-3575",
+      "url": "https://anewwayoflife.org/expungement/",
+      "source_url": "https://anewwayoflife.org/expungement/",
+      "verified_on": "2026-10-10",
+      "todo": "Service area (counties) not stated on the legal services page."
+    },
+    {
+      "name": "Los Angeles County Public Defender — Record Clearing",
+      "serves": "Los Angeles County",
+      "what": "The Public Defender lists a Record Clearing service; the court's Clear My Criminal Record page also refers people to the Public Defender, Alternate Public Defender, Independent Defense Counsel Office and LAFLA for help with record-clearing forms.",
+      "phone": null,
+      "url": "https://pubdef.lacounty.gov/events/",
+      "source_url": "https://www.lacourt.ca.gov/pages/lp/criminal/cp/clearing-your-criminal-record",
+      "verified_on": "2026-10-10",
+      "todo": "No dedicated phone number published for the PD record clearing unit."
+    }
+  ],
+  "probation": [
+    {
+      "name": "LA County Probation — Downey Headquarters (Probation Information Center)",
+      "address": "9150 E. Imperial Hwy.",
+      "city": "Downey",
+      "zip": "90242",
+      "phone": "(866) 931-2222",
+      "hours": "Monday-Friday 8am – 5pm",
+      "url": "https://probation.lacounty.gov/",
+      "source_url": "https://probation.lacounty.gov/locations/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "LA County Probation — Pretrial Services Bureau (Firestone-MLK Area Office)",
+      "address": "12021 South Wilmington Ave.",
+      "city": "Los Angeles",
+      "zip": "90059",
+      "phone": "(213) 351-0373",
+      "hours": "8:00 AM – 5 PM, Monday through Friday (except holidays)",
+      "url": "https://probation.lacounty.gov/pretrial-services-division/",
+      "source_url": "https://probation.lacounty.gov/pretrial-services-division/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "LA County Probation — Firestone Area Adult Office",
+      "address": "12021 S. Wilmington Ave, Bldg 18, Ste B001A",
+      "city": "Los Angeles",
+      "zip": "90059",
+      "phone": "(424) 454-5810",
+      "hours": "Monday-Friday 8am – 5pm",
+      "url": "https://probation.lacounty.gov/",
+      "source_url": "https://probation.lacounty.gov/locations/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "LA County Probation — Alhambra Area Office",
+      "address": "200 W. Woodard Ave.",
+      "city": "Alhambra",
+      "zip": "91801",
+      "phone": "(626) 308-5542",
+      "hours": "Monday-Friday 8am – 5pm",
+      "url": "https://probation.lacounty.gov/",
+      "source_url": "https://probation.lacounty.gov/locations/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "LA County Probation — Antelope Valley Sub Office",
+      "address": "42011 4th St. West, Suite 1900",
+      "city": "Lancaster",
+      "zip": "93534",
+      "phone": "(661) 974-7600",
+      "hours": "Monday-Friday 8am – 5pm",
+      "url": "https://probation.lacounty.gov/",
+      "source_url": "https://probation.lacounty.gov/locations/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "LA County Probation — Centinela Area Office",
+      "address": "1330 W. Imperial Highway",
+      "city": "Los Angeles",
+      "zip": "90044",
+      "phone": "(323) 241-5800",
+      "hours": "Monday-Friday 8am – 5pm; after hours 2nd Tuesday of every month 5pm – 7pm",
+      "url": "https://probation.lacounty.gov/",
+      "source_url": "https://probation.lacounty.gov/locations/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "LA County Probation — East Los Angeles Area Office",
+      "address": "4849 Civic Center Way",
+      "city": "Los Angeles",
+      "zip": "90022",
+      "phone": "(323) 780-2185",
+      "hours": "Monday-Friday 8am – 5pm; after hours 2nd Monday of every month 5pm – 7pm",
+      "url": "https://probation.lacounty.gov/",
+      "source_url": "https://probation.lacounty.gov/locations/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "LA County Probation — East San Fernando Valley Office",
+      "address": "14414 Delano St.",
+      "city": "Van Nuys",
+      "zip": "91401",
+      "phone": "(818) 374-2000",
+      "hours": "Monday-Friday 8am – 5pm; after hours 2nd Tuesday of every month 5pm – 7pm",
+      "url": "https://probation.lacounty.gov/",
+      "source_url": "https://probation.lacounty.gov/locations/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "LA County Probation — Foothill Area Office",
+      "address": "300 E. Walnut Street, Room 200",
+      "city": "Pasadena",
+      "zip": "91101",
+      "phone": "(626) 356-5281",
+      "hours": "Monday-Friday 8am – 5pm",
+      "url": "https://probation.lacounty.gov/",
+      "source_url": "https://probation.lacounty.gov/locations/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "LA County Probation — Harbor Area Office",
+      "address": "3221 Torrance Bl.",
+      "city": "Torrance",
+      "zip": "90503",
+      "phone": "(310) 222-2672",
+      "hours": "Monday-Friday 8am – 5pm",
+      "url": "https://probation.lacounty.gov/",
+      "source_url": "https://probation.lacounty.gov/locations/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "LA County Probation — Long Beach Area Office",
+      "address": "George Deukmejian Courthouse, 275 Magnolia Ave, Suite 1985",
+      "city": "Long Beach",
+      "zip": "90802",
+      "phone": "(562) 247-2200",
+      "hours": "Monday-Friday 8am – 5pm",
+      "url": "https://probation.lacounty.gov/",
+      "source_url": "https://probation.lacounty.gov/locations/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "LA County Probation — Pomona Valley Area Office",
+      "address": "1660 W. Mission Blvd.",
+      "city": "Pomona",
+      "zip": "91766",
+      "phone": "(909) 469-4507",
+      "hours": "Monday-Friday 8am – 5pm; after hours 2nd Tuesday of every month 5pm – 7pm",
+      "url": "https://probation.lacounty.gov/",
+      "source_url": "https://probation.lacounty.gov/locations/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "LA County Probation — Rio Hondo Area Office",
+      "address": "8240 S. Broadway",
+      "city": "Whittier",
+      "zip": "90606",
+      "phone": "(562) 908-3119",
+      "hours": "Monday-Friday 8am – 5pm; after hours 1st Tuesday of every month 5pm – 7:30pm",
+      "url": "https://probation.lacounty.gov/",
+      "source_url": "https://probation.lacounty.gov/locations/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "LA County Probation — Riverview Area Office",
+      "address": "12310 Lower Azusa Rd.",
+      "city": "Arcadia",
+      "zip": "91006",
+      "phone": "(626) 579-8506",
+      "hours": "Monday-Friday 8am – 5pm; after hours 1st Wednesday of every month 5pm – 7pm",
+      "url": "https://probation.lacounty.gov/",
+      "source_url": "https://probation.lacounty.gov/locations/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "LA County Probation — San Gabriel Valley Area Office",
+      "address": "11234 E. Valley Bl, Suite 302",
+      "city": "El Monte",
+      "zip": "91731",
+      "phone": "(626) 575-4059",
+      "hours": "Monday-Friday 8am – 4:30pm; after hours 1st Monday of every month 4:30pm – 6pm",
+      "url": "https://probation.lacounty.gov/",
+      "source_url": "https://probation.lacounty.gov/locations/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "LA County Probation — Santa Monica Sub Office (Airport Courthouse)",
+      "address": "11701 S. La Cienega Blvd., Room 201",
+      "city": "Los Angeles",
+      "zip": "90045",
+      "phone": "(310) 727-6153",
+      "hours": "Monday-Friday 8am – 5pm",
+      "url": "https://probation.lacounty.gov/",
+      "source_url": "https://probation.lacounty.gov/locations/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "LA County Probation — South Central Area Office",
+      "address": "200 W. Compton Bl., Suite 300",
+      "city": "Compton",
+      "zip": "90220",
+      "phone": "(310) 603-7311",
+      "hours": "Monday-Friday 8am – 5pm",
+      "url": "https://probation.lacounty.gov/",
+      "source_url": "https://probation.lacounty.gov/locations/",
+      "verified_on": "2026-10-10"
+    }
+  ],
+  "programs": [
+    {
+      "id": "la-probation-pretrial-services",
+      "name": "LA County Probation Pretrial Services",
+      "type": "pretrial",
+      "summary": "Probation's Pretrial Services gives judges background information and release recommendations, and staff work in most LA County courthouses. Programs it lists include Own Recognizance (OR) release, Electronic Monitoring and Drug Court. Note: the Pretrial Services Bauchet office closed Oct 1, 2025; call the Probation Information Center at (866) 931-2222.",
+      "url": "https://probation.lacounty.gov/pretrial-services-division/",
+      "source_url": "https://probation.lacounty.gov/pretrial-services-division/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "la-community-collaborative-courts",
+      "name": "Community Collaborative Courts (CCC)",
+      "type": "collaborative-court",
+      "summary": "Treatment-based court for people charged with felonies or facing felony probation violations who have mental illness or substance use disorder, veterans, survivors of sex trafficking and at-risk young adults. If accepted, the person is placed on probation for 3-5 years with a treatment plan, and may earn a dismissal under PC 1203.4 on completion. Held at the Central, Van Nuys, Compton and Long Beach courthouses.",
+      "url": "https://pubdef.lacounty.gov/treatment-courts",
+      "source_url": "https://pubdef.lacounty.gov/treatment-courts",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "la-veterans-court",
+      "name": "Veterans Court",
+      "type": "collaborative-court",
+      "summary": "Alternative sentencing court for veterans charged with felonies or felony probation violations. It is run jointly by the Court, Public Defender, Alternate Public Defender, District Attorney, the VA and Public Counsel.",
+      "url": "https://pubdef.lacounty.gov/treatment-courts",
+      "source_url": "https://pubdef.lacounty.gov/treatment-courts",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "la-womens-reentry-court",
+      "name": "Second Chance Women's Re-Entry Court",
+      "type": "collaborative-court",
+      "summary": "Alternative sentencing program for women, including mothers, who are charged with felonies and facing incarceration. It offers gender-responsive, trauma-informed treatment.",
+      "url": "https://pubdef.lacounty.gov/treatment-courts",
+      "source_url": "https://pubdef.lacounty.gov/treatment-courts",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "la-co-occurring-disorders-court",
+      "name": "Co-Occurring Disorders Court (CODC)",
+      "type": "collaborative-court",
+      "summary": "For people charged with felonies who have both mental illness and substance use disorder. Charges must be Prop 36-eligible (PC 1210) and/or non-violent.",
+      "url": "https://pubdef.lacounty.gov/treatment-courts",
+      "source_url": "https://pubdef.lacounty.gov/treatment-courts",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "la-sentenced-offender-drug-court",
+      "name": "Sentenced Offender Drug Court (SODC)",
+      "type": "treatment",
+      "summary": "Post-conviction substance use treatment program offered as an alternative to prison for felony clients with substance use disorder.",
+      "url": "https://pubdef.lacounty.gov/treatment-courts",
+      "source_url": "https://pubdef.lacounty.gov/treatment-courts",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "la-odr-housing",
+      "name": "Office of Diversion and Reentry (ODR) Permanent Supportive Housing",
+      "type": "diversion",
+      "summary": "County diversion program, started in 2016, that connects eligible people in criminal cases to supportive housing. It is run jointly by the Superior Court's Criminal Division, the Public Defender, the Alternate Public Defender and the District Attorney.",
+      "url": "https://pubdef.lacounty.gov/treatment-courts",
+      "source_url": "https://pubdef.lacounty.gov/treatment-courts",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "la-community-outreach-court",
+      "name": "Community Outreach Court (COC)",
+      "type": "collaborative-court",
+      "summary": "Joint program of the LA City Attorney, LA County Public Defender, LA County Alternate Public Defender and the LA Mayor's Office of Community Safety.",
+      "url": "https://pubdef.lacounty.gov/",
+      "source_url": "https://pubdef.lacounty.gov/",
+      "verified_on": "2026-10-10",
+      "todo": "Eligibility and locations are not described on the PD homepage; find the official COC page."
+    },
+    {
+      "id": "ca-pc-1001-36-mental-health-diversion",
+      "name": "Mental Health Diversion (Penal Code 1001.36)",
+      "type": "diversion",
+      "summary": "California law (applies in LA) that lets a judge pause a misdemeanor or felony case for mental health treatment when a diagnosed mental disorder played a significant part in the offense. Diversion lasts up to 2 years for a felony or 1 year for a misdemeanor, and the charges are dismissed if it is completed successfully. Ask your attorney whether you qualify.",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=1001.36",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=1001.36",
+      "verified_on": null,
+      "todo": "leginfo.legislature.ca.gov blocked automated loading (bot check) on 2026-10-10. Time limits were confirmed only from other CA courts' published guidelines. No LA-specific court page found; verify the statute text and LA procedure."
+    },
+    {
+      "id": "ca-pc-1000-drug-diversion",
+      "name": "Drug Pretrial Diversion (Penal Code 1000)",
+      "type": "diversion",
+      "summary": "California law that allows pretrial diversion for certain drug possession offenses. If completed, the charges are dismissed. Ask your attorney whether you qualify.",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=1000",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=1000",
+      "verified_on": null,
+      "todo": "Not verified on 2026-10-10 (leginfo bot check). Confirm program length and the eligible offenses, including any changes after Prop 36 (2024)."
+    },
+    {
+      "id": "ca-pc-1001-95-misdemeanor-diversion",
+      "name": "Judge-Ordered Misdemeanor Diversion (Penal Code 1001.95)",
+      "type": "diversion",
+      "summary": "California law that lets a judge offer diversion in many misdemeanor cases, with some offenses excluded. The charges are dismissed if the person completes the conditions. Ask your attorney whether you qualify.",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=1001.95",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=1001.95",
+      "verified_on": null,
+      "todo": "Not verified on 2026-10-10 (leginfo bot check). Confirm the maximum period and the excluded offenses."
+    }
+  ],
+  "jails": [
+    {
+      "name": "LASD Inmate Information Center (inmate locator)",
+      "address": null,
+      "phone": "(213) 473-6100",
+      "url": "https://app5.lasd.org/iic/"
+    },
+    {
+      "name": "Men's Central Jail (MCJ)",
+      "address": "441 Bauchet St., Los Angeles, CA 90012",
+      "phone": "(213) 974-4916",
+      "url": "https://pars.lasd.org/Viewer/Manuals/14249/Content/14196"
+    },
+    {
+      "name": "Twin Towers Correctional Facility (TTCF)",
+      "address": "450 Bauchet St., Los Angeles, CA 90012",
+      "phone": "(213) 893-5100",
+      "url": "https://pars.lasd.org/Viewer/Manuals/14249/Content/14196"
+    },
+    {
+      "name": "Century Regional Detention Facility (CRDF)",
+      "address": "11705 S. Alameda, Lynwood, CA 90262",
+      "phone": "(323) 357-5100",
+      "url": "https://pars.lasd.org/Viewer/Manuals/14249/Content/14196"
+    },
+    {
+      "name": "Pitchess Detention Center - North Facility",
+      "address": "29320 The Old Road, Castaic, CA 91384",
+      "phone": "(661) 295-8840",
+      "url": "https://pars.lasd.org/Viewer/Manuals/14249/Content/14196"
+    },
+    {
+      "name": "Pitchess Detention Center - South Facility",
+      "address": "29330 The Old Road, Castaic, CA 91384",
+      "phone": "(661) 295-8853",
+      "url": "https://pars.lasd.org/Viewer/Manuals/14249/Content/14196"
+    },
+    {
+      "name": "Pitchess Detention Center - East Facility",
+      "address": "29310 The Old Road, Castaic, CA 91384",
+      "phone": "(661) 295-8815",
+      "url": "https://pars.lasd.org/Viewer/Manuals/14249/Content/14196"
+    },
+    {
+      "name": "North County Correctional Facility (NCCF)",
+      "address": "29340 The Old Road, Castaic, CA 91384",
+      "phone": "(661) 295-7810",
+      "url": "https://pars.lasd.org/Viewer/Manuals/14249/Content/14196"
+    },
+    {
+      "name": "Mira Loma Detention Facility",
+      "address": "45100 N. 60th St. West, Lancaster, CA 93536",
+      "phone": "(661) 949-3811",
+      "url": "https://pars.lasd.org/Viewer/Manuals/14249/Content/14196"
+    },
+    {
+      "name": "LAC+USC Medical Center Jail Ward",
+      "address": "2051 Marengo St., Los Angeles, CA 90033",
+      "phone": "(323) 409-4563",
+      "url": "https://pars.lasd.org/Viewer/Manuals/14249/Content/14196"
+    }
+  ],
+  "bail": {
+    "doi_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "note": "Before paying a bail agent, check that their license is active using the California Department of Insurance License Status Inquiry (search by name or license number; see also https://www.insurance.ca.gov/license-status/). The court's felony, misdemeanor and infraction bail schedules are at https://www.lacourt.ca.gov/pages/lp/criminal/cp/bail-schedule. At the Clara Shortridge Foltz CJC, the Bail/Bond office is on the 5th Floor, Room 5-305, (213) 628-7700, 8:30 a.m.-4:30 p.m. Phone numbers listed for jails are LASD's 24-hour facility lines. For custody status, call the LASD Inmate Information Line at (213) 473-6100. This is information only, not legal advice."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "_how": "No-contact screen reused from the Family Clerk (~/command-center/legal/lifeline/clerk/blocklist.json topic_patterns). Names are never stored here: each user adds the people they are ordered not to contact on their own device (or the private build injects them, encrypted). A match blocks creating reminders, contacts or family notes; the app never relays messages to anyone.",
+  "topic_patterns": [
+    "\\bwitness(es)?\\b(?!\\s+tampering)",
+    "\\btestif(y|ies|ied|ying)\\b",
+    "\\b(alleged )?victims?\\b",
+    "\\bv[ií]ctima\\b",
+    "\\btestigos?\\b",
+    "\\bhis brother('s)? case\\b",
+    "\\bco-?defendants?\\b",
+    "\\bprotected (party|person)\\b"
+  ]
+}

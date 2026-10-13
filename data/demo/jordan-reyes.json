@@ -1,0 +1,497 @@
+{
+  "id": "demo-jordan-reyes",
+  "sample": true,
+  "mode_label": "Sample",
+  "_note": "ENTIRELY FICTIONAL. Jordan Reyes, every person, phone number (555 numbers) and case number here is made up and marked SAMPLE. Dates are relative to today (+N days).",
+  "person": {
+    "name": "Jordan Reyes",
+    "label": "SAMPLE client"
+  },
+  "home": {
+    "state": "CA",
+    "county": "orange"
+  },
+  "cases": [
+    {
+      "id": "k1",
+      "sample": true,
+      "caption": "People v. Reyes (SAMPLE)",
+      "number": "SAMPLE-26CF00000",
+      "court_label": "Orange County Superior Court",
+      "county": "orange",
+      "courthouse": "cjc",
+      "dept": "C05",
+      "charge": "One felony count (SAMPLE — fictional)",
+      "status": "Arraigned; pleaded not guilty; public defender appointed (SAMPLE)",
+      "release": "Released on pretrial supervision with GPS monitoring (SAMPLE)",
+      "defense": "Deputy Public Defender A. Morgan (SAMPLE)",
+      "public_lookup": "Real cases can be checked on the court's official case search."
+    }
+  ],
+  "release_conditions": [
+    "Report to pretrial supervision as directed (SAMPLE)",
+    "Wear and charge the GPS ankle monitor (SAMPLE)",
+    "No contact with the protected person named in the order (SAMPLE)",
+    "Random drug testing (SAMPLE)",
+    "Stay in California unless the court gives permission (SAMPLE)"
+  ],
+  "nocontact": [
+    "Casey Doe"
+  ],
+  "nocontact_display": [
+    "Casey Doe (SAMPLE protected person)"
+  ],
+  "monitor": {
+    "enabled": true,
+    "charge_times": [
+      "07:00",
+      "19:00"
+    ],
+    "minutes": 60,
+    "vendor_note": "Vendor and 24-hour line: see your monitoring paperwork."
+  },
+  "events": [
+    {
+      "id": "d1",
+      "sample": true,
+      "kind": "pars",
+      "title": "Pretrial supervision office visit",
+      "date": "+2",
+      "time": "10:30",
+      "where": "Pretrial office (see your paperwork)",
+      "caseId": "k1",
+      "caseLabel": "SAMPLE-26CF00000",
+      "remind": [
+        1440,
+        120,
+        60
+      ]
+    },
+    {
+      "id": "d2",
+      "sample": true,
+      "kind": "attorney",
+      "title": "Meet with the public defender",
+      "date": "+3",
+      "time": "13:00",
+      "where": "Public Defender — Central Court office",
+      "caseId": "k1",
+      "caseLabel": "SAMPLE-26CF00000",
+      "remind": [
+        1440,
+        60
+      ]
+    },
+    {
+      "id": "d3",
+      "sample": true,
+      "kind": "court",
+      "title": "Pretrial hearing",
+      "date": "+5",
+      "time": "08:30",
+      "county": "orange",
+      "courthouse": "cjc",
+      "dept": "C05",
+      "caseId": "k1",
+      "caseLabel": "SAMPLE-26CF00000",
+      "remind": [
+        1440,
+        120
+      ]
+    },
+    {
+      "id": "d4",
+      "sample": true,
+      "kind": "court",
+      "title": "Preliminary hearing",
+      "date": "+19",
+      "time": "08:30",
+      "county": "orange",
+      "courthouse": "cjc",
+      "dept": "C05",
+      "caseId": "k1",
+      "caseLabel": "SAMPLE-26CF00000",
+      "remind": [
+        4320,
+        1440,
+        120
+      ]
+    },
+    {
+      "id": "d5",
+      "sample": true,
+      "kind": "monitor",
+      "title": "Charge ankle monitor",
+      "date": "+0",
+      "time": "07:00",
+      "repeat": "daily",
+      "minutes": 60,
+      "remind": [
+        0
+      ]
+    },
+    {
+      "id": "d6",
+      "sample": true,
+      "kind": "monitor",
+      "title": "Charge ankle monitor (evening)",
+      "date": "+0",
+      "time": "19:00",
+      "repeat": "daily",
+      "minutes": 60,
+      "remind": [
+        0
+      ]
+    },
+    {
+      "id": "d7",
+      "sample": true,
+      "kind": "drugtest",
+      "title": "Call the drug-test color line",
+      "date": "+0",
+      "time": "06:30",
+      "repeat": "daily",
+      "remind": [
+        0
+      ]
+    },
+    {
+      "id": "d8",
+      "sample": true,
+      "kind": "class",
+      "title": "Life-skills class (SAMPLE program)",
+      "date": "+4",
+      "time": "18:00",
+      "repeat": "weekly",
+      "until": "+60",
+      "where": "Community center (SAMPLE)",
+      "remind": [
+        1440,
+        60
+      ]
+    },
+    {
+      "id": "d9",
+      "sample": true,
+      "kind": "service",
+      "title": "Community service shift — food bank (SAMPLE)",
+      "date": "+6",
+      "time": "08:00",
+      "repeat": "weekly",
+      "until": "+45",
+      "remind": [
+        1440,
+        60
+      ]
+    },
+    {
+      "id": "d10",
+      "sample": true,
+      "kind": "fee",
+      "title": "Pay monitoring fee (SAMPLE)",
+      "date": "+12",
+      "time": null,
+      "repeat": "monthly",
+      "remind": [
+        4320,
+        1440
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "p1",
+      "sample": true,
+      "role": "pd",
+      "name": "A. Morgan, Deputy Public Defender (SAMPLE)",
+      "phone": "(555) 010-2001",
+      "note": "Assigned to SAMPLE-26CF00000",
+      "email": "sample-pd@example.com"
+    },
+    {
+      "id": "p2",
+      "sample": true,
+      "role": "probation",
+      "name": "R. Lee, Pretrial Officer (SAMPLE)",
+      "phone": "(555) 010-2002",
+      "note": "Check-ins Tuesdays"
+    },
+    {
+      "id": "p3",
+      "sample": true,
+      "role": "family",
+      "name": "Maria Reyes — mother (SAMPLE)",
+      "phone": "(555) 010-2003",
+      "note": "Rides to court"
+    },
+    {
+      "id": "p4",
+      "sample": true,
+      "role": "family",
+      "name": "Luis Reyes — brother (SAMPLE)",
+      "phone": "(555) 010-2004",
+      "note": "Employer letter contact"
+    },
+    {
+      "id": "p5",
+      "sample": true,
+      "role": "program",
+      "name": "Life-skills class coordinator (SAMPLE)",
+      "phone": "(555) 010-2005"
+    },
+    {
+      "id": "p6",
+      "sample": true,
+      "role": "bondsman",
+      "name": "Sample Bail Agent (SAMPLE)",
+      "phone": "(555) 010-2006",
+      "note": "License # SAMPLE — verify on the CDI lookup"
+    }
+  ],
+  "access": [
+    {
+      "who": "Jordan Reyes (client)",
+      "can": "Everything, including the attorney-only area",
+      "level": "Owner"
+    },
+    {
+      "who": "Maria Reyes (SAMPLE)",
+      "can": "Dates, places, family contacts — no attorney-only area",
+      "level": "Family code"
+    },
+    {
+      "who": "A. Morgan, DPD (SAMPLE)",
+      "can": "Attorney-only area and the PDF packet",
+      "level": "Attorney code"
+    }
+  ],
+  "family_area": {
+    "notes": [
+      "Court on the pretrial date: Maria drives, leave 7:15 AM (SAMPLE)"
+    ]
+  },
+  "attorney_area": {
+    "demo_code": "SAMPLE-4821",
+    "code_sha256": "5321c849241c0e409527c9a8e9f97693ddd11dd7643ac3a013efb055171c0990",
+    "timeline": [
+      {
+        "date": "-21",
+        "text": "Arrested; booked at the county jail (SAMPLE)."
+      },
+      {
+        "date": "-19",
+        "text": "Arraigned; not guilty plea entered; public defender appointed; released on pretrial supervision with GPS (SAMPLE)."
+      },
+      {
+        "date": "-12",
+        "text": "First pretrial supervision check-in completed on time (SAMPLE)."
+      },
+      {
+        "date": "-5",
+        "text": "Enrolled in weekly life-skills class (SAMPLE)."
+      }
+    ],
+    "documents": [
+      {
+        "title": "Notice to Appear / release paperwork (SAMPLE)",
+        "date": "-19",
+        "status": "have copy"
+      },
+      {
+        "title": "Minute order from arraignment (SAMPLE)",
+        "date": "-19",
+        "status": "requested"
+      },
+      {
+        "title": "Pay stubs, last 3 months (SAMPLE)",
+        "status": "have copy"
+      },
+      {
+        "title": "Class enrollment confirmation (SAMPLE)",
+        "date": "-5",
+        "status": "have copy"
+      }
+    ],
+    "mitigation": [
+      {
+        "title": "Employer letter (SAMPLE)",
+        "detail": "Full-time job since 2022; supervisor willing to write — route through the defense team.",
+        "status": "to gather"
+      },
+      {
+        "title": "Family support letters (SAMPLE)",
+        "detail": "Mother and brother; sent to the attorney, not the court.",
+        "status": "to gather"
+      },
+      {
+        "title": "Program progress (SAMPLE)",
+        "detail": "Attendance log from the life-skills class.",
+        "status": "ready"
+      },
+      {
+        "title": "Supervision compliance (SAMPLE)",
+        "detail": "Every check-in and drug test on time, from this app's done-checks.",
+        "status": "ready"
+      }
+    ],
+    "research": [
+      {
+        "cite": "Example: a published opinion on the same statute (SAMPLE placeholder)",
+        "why": "Possible similar facts — for the attorney to evaluate.",
+        "verified": false,
+        "theory": "Diversion and alternatives (SAMPLE)"
+      },
+      {
+        "cite": "California Penal Code § 1001.95 (misdemeanor diversion)",
+        "why": "General reference the client wants to ask about; eligibility is for the attorney to decide.",
+        "verified": true,
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=1001.95.",
+        "q": "Penal Code 1001.95",
+        "theory": "Diversion and alternatives (SAMPLE)"
+      }
+    ],
+    "questions": [
+      "What happens at the pretrial hearing, and do I need to bring anything? (SAMPLE)",
+      "Can the class I'm taking help my case? (SAMPLE)",
+      "Who should my employer send the letter to? (SAMPLE)"
+    ]
+  },
+  "research_terms": [
+    "\"Penal Code section 459\" knowledge",
+    "\"Penal Code section 1538.5\" vehicle search"
+  ],
+  "toolkit": {
+    "requests": [
+      {
+        "id": "r1",
+        "what": "Get the arresting officer's bodycam video (SAMPLE)",
+        "case": "k1",
+        "asked": "2026-09-20",
+        "how": "Email",
+        "status": "open"
+      },
+      {
+        "id": "r2",
+        "what": "File a motion to suppress the car search (SAMPLE)",
+        "case": "k1",
+        "asked": "2026-09-22",
+        "how": "In person",
+        "status": "declined",
+        "reason": "Attorney says it's better after the prelim; will revisit (SAMPLE)"
+      },
+      {
+        "id": "r3",
+        "what": "Send me a copy of the police report (SAMPLE)",
+        "case": "k1",
+        "asked": "2026-09-15",
+        "how": "Phone call",
+        "status": "verified",
+        "proof": "PDF received 09/18 (SAMPLE)"
+      }
+    ],
+    "comms": [
+      {
+        "id": "m1",
+        "date": "2026-09-20",
+        "dir": "me",
+        "how": "Email",
+        "about": "Asked for bodycam and a call back (SAMPLE)",
+        "replied": ""
+      },
+      {
+        "id": "m2",
+        "date": "2026-09-15",
+        "dir": "me",
+        "how": "Phone call",
+        "about": "Asked for police report (SAMPLE)",
+        "replied": "2026-09-17"
+      }
+    ],
+    "offers": [
+      {
+        "id": "o1",
+        "date": "2026-09-25",
+        "case": "k1",
+        "from": "Attorney by phone (SAMPLE)",
+        "offer": "Plead to a misdemeanor, 12 months probation (SAMPLE — fictional)",
+        "deadline": "2026-10-30",
+        "answer": "",
+        "note": "Asked for it in writing (SAMPLE)"
+      }
+    ],
+    "discovery": [
+      {
+        "id": "v1",
+        "what": "Police report (SAMPLE)",
+        "case": "k1",
+        "requested": "2026-09-15",
+        "status": "copy",
+        "received": "2026-09-18"
+      },
+      {
+        "id": "v2",
+        "what": "Bodycam — arresting officer (SAMPLE)",
+        "case": "k1",
+        "requested": "2026-09-20",
+        "status": "missing"
+      },
+      {
+        "id": "v3",
+        "what": "Store surveillance video (SAMPLE)",
+        "case": "k1",
+        "status": "lawyer"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "t1",
+        "date": "2026-09-12",
+        "time": "21:40",
+        "case": "k1",
+        "what": "Arrested after traffic stop; car searched (SAMPLE)."
+      },
+      {
+        "id": "t2",
+        "date": "2026-09-14",
+        "case": "k1",
+        "what": "Arraigned; pleaded not guilty; released on supervision (SAMPLE)."
+      }
+    ],
+    "notebook": [
+      {
+        "id": "n1",
+        "title": "The search of the car wasn't allowed (SAMPLE)",
+        "case": "k1",
+        "say": "I never agreed to the search and there was no warrant (SAMPLE).",
+        "support": "Save cases from Research and list them here.",
+        "against": "They'll say I consented — the bodycam will show I didn't (SAMPLE).",
+        "motion": "Motion to suppress (PC 1538.5)"
+      }
+    ],
+    "people": [
+      {
+        "id": "pp1",
+        "role": "attorney",
+        "name": "A. Morgan (SAMPLE)",
+        "phone": "(555) 010-2001",
+        "email": "sample-pd@example.com",
+        "case": "k1"
+      },
+      {
+        "id": "pp2",
+        "role": "judge",
+        "name": "Judge Sample (SAMPLE)",
+        "case": "k1"
+      }
+    ],
+    "helpers": [
+      {
+        "id": "h1",
+        "name": "Maria Reyes (SAMPLE)",
+        "rel": "Mom",
+        "phone": "(555) 010-3001",
+        "does": "Rides to court; keeps the paper folder (SAMPLE)"
+      }
+    ]
+  }
+}

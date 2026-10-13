@@ -1,0 +1,176 @@
+{
+  "id": "cacd",
+  "name": "U.S. District Court — Central District of California",
+  "website": "https://www.cacd.uscourts.gov/",
+  "case_search": {
+    "pacer": "https://pacer.uscourts.gov/",
+    "courtlistener": "https://www.courtlistener.com/"
+  },
+  "sources": [
+    {"title": "CACD — Court Locations", "url": "https://www.cacd.uscourts.gov/locations", "verified_on": "2026-10-10"},
+    {"title": "CACD — Ronald Reagan Federal Building and U.S. Courthouse", "url": "https://www.cacd.uscourts.gov/locations/santa-ana-courthouse", "verified_on": "2026-10-10"},
+    {"title": "CACD — Edward R. Roybal Federal Building and United States Courthouse", "url": "https://www.cacd.uscourts.gov/locations/edward-r-roybal-federal-building-and-united-states-courthouse", "verified_on": "2026-10-10"},
+    {"title": "CACD — Felicitas and Gonzalo Mendez United States Courthouse", "url": "https://www.cacd.uscourts.gov/locations/felicitas-and-gonzalo-mendez-united-states-courthouse", "verified_on": "2026-10-10"},
+    {"title": "CACD — George E. Brown, Jr. Federal Building and United States Courthouse", "url": "https://www.cacd.uscourts.gov/locations/george-e-brown-jr-federal-building-and-united-states-courthouse", "verified_on": "2026-10-10"},
+    {"title": "CACD — Records Department Contact Us", "url": "https://www.cacd.uscourts.gov/records/contact-us", "verified_on": "2026-10-10"},
+    {"title": "CACD — Recruitment Notice for CJA Trial Attorney Panel", "url": "https://www.cacd.uscourts.gov/node/166655", "verified_on": "2026-10-10"},
+    {"title": "Federal Public Defender, C.D. Cal. — Contact", "url": "https://fpdcdca.org/contact/", "verified_on": "2026-10-10"},
+    {"title": "FPD — Los Angeles Office", "url": "https://fpdcdca.org/contact/los-angeles/", "verified_on": "2026-10-10"},
+    {"title": "FPD — Santa Ana Office", "url": "https://fpdcdca.org/contact/santa-ana/", "verified_on": "2026-10-10"},
+    {"title": "FPD — Riverside Office", "url": "https://fpdcdca.org/contact/riverside/", "verified_on": "2026-10-10"},
+    {"title": "U.S. Probation and Pretrial Services, C.D. Cal. — Home", "url": "https://www.cacp.uscourts.gov/", "verified_on": "2026-10-10"},
+    {"title": "U.S. Probation and Pretrial Services — Pretrial", "url": "https://www.cacp.uscourts.gov/pretrial", "verified_on": "2026-10-10"},
+    {"title": "U.S. Probation and Pretrial Services — Santa Ana Office", "url": "https://www.cacp.uscourts.gov/offices/santa-ana", "verified_on": "2026-10-10"},
+    {"title": "U.S. Probation and Pretrial Services — Los Angeles Roybal Office", "url": "https://www.cacp.uscourts.gov/offices/los-angeles-roybal-federal-courthouse", "verified_on": "2026-10-10"},
+    {"title": "U.S. Probation and Pretrial Services — Riverside Office", "url": "https://www.cacp.uscourts.gov/offices/riverside", "verified_on": "2026-10-10"}
+  ],
+  "courthouses": [
+    {
+      "id": "santa-ana",
+      "name": "Ronald Reagan Federal Building and U.S. Courthouse",
+      "division": "Southern Division",
+      "address": "411 W. Fourth St., Room 1053",
+      "city": "Santa Ana",
+      "zip": "92701",
+      "phone": "(714) 338-4750",
+      "hours": "Clerk's office: 9:00 a.m.–4:00 p.m. Mon–Fri; building: 7:00 a.m.–6:00 p.m. Mon–Fri (excluding court-observed holidays)",
+      "criminal": true,
+      "note": "Room 1053 is the clerk's office. Records Dept. (Southern Division): (714) 338-4746. The court publishes no fixed duty courtroom; magistrate courtrooms vary by daily calendar — check the court's Criminal Duty Calendar or ask defense counsel.",
+      "departments": [],
+      "source_url": "https://www.cacd.uscourts.gov/locations/santa-ana-courthouse",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "roybal",
+      "name": "Edward R. Roybal Federal Building and U.S. Courthouse",
+      "division": "Western Division",
+      "address": "255 E. Temple St.",
+      "city": "Los Angeles",
+      "zip": "90012",
+      "phone": "(213) 894-1565",
+      "hours": "Clerk's office: 9:00 a.m.–4:00 p.m. Mon–Fri; building: 7:00 a.m.–6:00 p.m. Mon–Fri (excluding court-observed holidays)",
+      "criminal": true,
+      "note": "Western Division criminal duty has historically been held at Roybal (per court notices), but the location page lists no duty courtroom. Records Dept. (Western Division): (213) 894-3863. One-hour metered parking on Temple and San Pedro Streets 9 a.m.–6 p.m.",
+      "departments": [],
+      "source_url": "https://www.cacd.uscourts.gov/locations/edward-r-roybal-federal-building-and-united-states-courthouse",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "first-street",
+      "name": "Felicitas and Gonzalo Mendez United States Courthouse",
+      "division": "Western Division",
+      "address": "350 W. 1st St., Suite 4311",
+      "city": "Los Angeles",
+      "zip": "90012",
+      "phone": "(213) 894-1565",
+      "hours": "Clerk's office: 9:00 a.m.–4:00 p.m. Mon–Fri; building: 7:00 a.m.–6:00 p.m. Mon–Fri (excluding court-observed holidays)",
+      "criminal": true,
+      "note": "This is the building at 350 W. 1st St. commonly called the First Street U.S. Courthouse; the court's site now lists it under the Mendez name. 'criminal' assumed true for a district courthouse — todo: confirm which criminal proceedings are held here.",
+      "departments": [],
+      "source_url": "https://www.cacd.uscourts.gov/locations/felicitas-and-gonzalo-mendez-united-states-courthouse",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "riverside",
+      "name": "George E. Brown, Jr. Federal Building and United States Courthouse",
+      "division": "Eastern Division",
+      "address": "3470 Twelfth St.",
+      "city": "Riverside",
+      "zip": "92501",
+      "phone": "(951) 328-4450",
+      "hours": "Clerk's office: 9:00 a.m.–4:00 p.m. Mon–Fri; building: 7:00 a.m.–6:00 p.m. Mon–Fri (excluding court-observed holidays)",
+      "criminal": true,
+      "note": "Parking available at 3535 Twelfth St. Records Dept. (Eastern Division): (951) 328-4450.",
+      "departments": [],
+      "source_url": "https://www.cacd.uscourts.gov/locations/george-e-brown-jr-federal-building-and-united-states-courthouse",
+      "verified_on": "2026-10-10"
+    }
+  ],
+  "public_defenders": [
+    {
+      "name": "Federal Public Defender, Central District of California — Los Angeles Office",
+      "address": "321 E. 2nd St.",
+      "city": "Los Angeles",
+      "zip": "90012",
+      "phone": "(213) 894-2854",
+      "hours": "8:00 a.m.–6:00 p.m. Mon–Fri, excluding holidays",
+      "url": "https://fpdcdca.org/contact/los-angeles/",
+      "source_url": "https://fpdcdca.org/contact/los-angeles/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "Federal Public Defender, Central District of California — Santa Ana Office",
+      "address": "411 W. Fourth St., Suite 7110",
+      "city": "Santa Ana",
+      "zip": "92701",
+      "phone": "(714) 338-4500",
+      "hours": "8:00 a.m.–5:00 p.m., excluding holidays",
+      "url": "https://fpdcdca.org/contact/santa-ana/",
+      "source_url": "https://fpdcdca.org/contact/santa-ana/",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "Federal Public Defender, Central District of California — Riverside Office",
+      "address": "3801 University Ave., Suite 700",
+      "city": "Riverside",
+      "zip": "92501",
+      "phone": "(951) 276-6346",
+      "hours": "8:00 a.m.–5:00 p.m. Mon–Fri, excluding holidays",
+      "url": "https://fpdcdca.org/contact/riverside/",
+      "source_url": "https://fpdcdca.org/contact/riverside/",
+      "verified_on": "2026-10-10"
+    }
+  ],
+  "pretrial": [
+    {
+      "name": "U.S. Pretrial Services — Central District of California (Santa Ana office)",
+      "address": "411 W. Fourth St., Suite 4170, Santa Ana, CA 92701",
+      "phone": "(714) 338-2900",
+      "url": "https://www.cacp.uscourts.gov/pretrial",
+      "what": "Interviews the defendant and checks records to help the judge decide release; if released, supervises release conditions (incl. location monitoring) and court attendance before trial. Combined U.S. Probation and Pretrial Services Office.",
+      "source_url": "https://www.cacp.uscourts.gov/offices/santa-ana",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "U.S. Pretrial Services — Central District of California (Los Angeles – Roybal office)",
+      "address": "255 E. Temple St., Suite 1410, Los Angeles, CA 90012",
+      "phone": "(213) 894-3600",
+      "url": "https://www.cacp.uscourts.gov/pretrial",
+      "what": "Same combined Probation and Pretrial Services office; 213-894-3600 is also listed as the headquarters number.",
+      "source_url": "https://www.cacp.uscourts.gov/offices/los-angeles-roybal-federal-courthouse",
+      "verified_on": "2026-10-10"
+    },
+    {
+      "name": "U.S. Pretrial Services — Central District of California (Riverside office)",
+      "address": "3470 Twelfth St., Suite 145, Riverside, CA 92501",
+      "phone": "(951) 328-4494",
+      "url": "https://www.cacp.uscourts.gov/pretrial",
+      "what": "Same combined Probation and Pretrial Services office.",
+      "source_url": "https://www.cacp.uscourts.gov/offices/riverside",
+      "verified_on": "2026-10-10"
+    }
+  ],
+  "probation": [
+    {
+      "name": "U.S. Probation Office, C.D. Cal. (U.S. Probation and Pretrial Services Office)",
+      "address": null,
+      "phone": "(213) 894-3600",
+      "url": "https://www.cacp.uscourts.gov/",
+      "what": "Probation and pretrial are one combined office in this district (same offices as listed under pretrial). Headquarters is at the Los Angeles Federal Building — todo: headquarters street address not captured. Other offices: Hawthorne, Lancaster, Long Beach, Ventura, West Covina, Whittier, Woodland Hills.",
+      "source_url": "https://www.cacp.uscourts.gov/",
+      "verified_on": "2026-10-10"
+    }
+  ],
+  "marshals": {
+    "name": "U.S. Marshals Service — Central District of California",
+    "url": "https://www.usmarshals.gov/local-districts/central-district-of-california",
+    "phone": null,
+    "note": "todo: usmarshals.gov returned HTTP 403 to automated fetch on 2026-10-10; phone not verified from the official page."
+  },
+  "cja_panel": {
+    "what": "Criminal Justice Act (CJA) Trial Attorney Panel: private attorneys appointed in cases where the Office of the Federal Public Defender has a conflict of interest or cannot otherwise accept the appointment. Serves the Western (LA), Southern (Santa Ana) and Eastern (Riverside) Divisions.",
+    "url": "https://www.cacd.uscourts.gov/node/166655",
+    "source_url": "https://www.cacd.uscourts.gov/node/166655",
+    "verified_on": "2026-10-10"
+  }
+}

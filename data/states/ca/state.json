@@ -1,0 +1,64 @@
+{
+  "state": "CA",
+  "name": "California",
+  "counties_available": ["los-angeles", "orange"],
+  "federal_districts": [
+    {
+      "id": "cacd",
+      "name": "Central District of California",
+      "counties": ["los-angeles", "orange", "riverside", "san-bernardino", "ventura", "santa-barbara", "san-luis-obispo"]
+    }
+  ],
+  "bail": {
+    "regulator": "California Department of Insurance (bail agents are licensed by CDI)",
+    "license_lookup_url": "https://cdicloud.insurance.ca.gov/cal",
+    "how_to_verify": [
+      "Ask the bail agent for their CDI license number and their Bail Identification card (CDI issues one to every individual bail licensee).",
+      "Open CDI's 'Check a License' tool at https://cdicloud.insurance.ca.gov/cal (use Edge, Chrome, Safari or Firefox).",
+      "Choose 'License Number Search' and enter the 6–8 character license number with no spaces — or use 'Individual Name Search' / 'Business Name Search'.",
+      "Open the result and confirm the license is active and shows a bail license type; check the discipline history on the record.",
+      "Active status is only valid if the licensee also has a valid bail bond and surety appointment on file — the record's appointment details should show this.",
+      "Questions about a bail license: CDI Bail Unit, (916) 492-3035, sac.bail@insurance.ca.gov."
+    ],
+    "consumer_tips": [
+      "Each surety company must file its bail rates with CDI, and agents for that surety must charge the filed rate. The cost is most commonly 10% of the bond amount plus actual, necessary and reasonable expenses; an agent may charge less by rebating (Prop. 103).",
+      "Bail premiums are nonrefundable, even if charges are dropped or never filed. Exception: if the defendant is surrendered, the fee is refundable minus administrative costs (CCR Title 10 §2090).",
+      "Charging a renewal premium is illegal since January 1, 2022 (Penal Code 1276.1).",
+      "Bail agents cannot surrender a defendant back into custody for nonpayment of premium.",
+      "Collateral and liens are not released until the bail is paid, the case is settled and the bond is exonerated (see CCR Title 10 §§2088.2, 2088.3, 2089). todo: CDI pages loaded did not address written receipts — confirm receipt rules before stating them.",
+      "Bail agents may not solicit business; you (the arrestee, their attorney, or an adult friend/family member) must contact them. Solicitation inside courts, jails and police stations is prohibited — avoid agents who approach you there or inmates who push a specific agent.",
+      "Watch for fake jail or government websites set up by bail agents; double-check the URL before entering defendant information.",
+      "File a complaint or ask questions with CDI: 1-800-927-4357."
+    ],
+    "complaint_url": "https://cdiapps.insurance.ca.gov/CP/login/",
+    "consumer_hotline": "1-800-927-4357",
+    "rate_lookup_url": "https://interactive.web.insurance.ca.gov/apex_extprd/f?p=186:",
+    "county_active_list_url": "https://cdicloud.insurance.ca.gov/brcc/",
+    "verified_listings": [],
+    "verified_listings_note": "No bail businesses listed. CDI's license lookup and county active-bail-licensee report are both protected by bot checks (reCAPTCHA / Cloudflare Turnstile), so on 2026-10-10 no specific Orange County or Los Angeles business's license could be verified through the official lookup. todo: a person should look up any candidate agent at https://cdicloud.insurance.ca.gov/cal before adding it.",
+    "source_url": "https://www.insurance.ca.gov/01-consumers/170-bail-bonds/",
+    "verified_on": "2026-10-10"
+  },
+  "statewide_help": [
+    {"name": "California State Bar — attorney search", "url": "https://apps.calbar.ca.gov/attorney/LicenseeSearch/QuickSearch", "what": "Verify a lawyer's license and discipline record.", "verified_on": "2026-10-10"},
+    {"name": "LawHelpCA", "url": "https://www.lawhelpca.org/", "what": "Free legal information and a finder for nearby legal aid; maintained by the Legal Aid Association of California.", "verified_on": "2026-10-10"},
+    {"name": "California Courts Self-Help Guide", "url": "https://selfhelp.courts.ca.gov/", "what": "Official step-by-step court information and forms for people handling a case without a lawyer.", "verified_on": "2026-10-10"},
+    {"name": "State Bar certified Lawyer Referral Services — Los Angeles area (incl. Orange)", "url": "https://www.calbar.ca.gov/public/find-legal-professionals/find-lawyer-referral-service/find-los-angeles-lawyer-referral-service", "what": "State Bar-certified referral services. Listed there: LA County Bar Association LRIS (SmartLaw) 213-243-1525 / 866-762-7852; Orange County Bar Association LRIS 949-440-6747 / 877-257-4762. Certified services must show their State Bar certification number or mark in advertising.", "verified_on": "2026-10-10"},
+    {"name": "What a certified Lawyer Referral Service can do for you", "url": "https://www.calbar.ca.gov/public/find-legal-professionals/find-lawyer-referral-service/what-certified-lawyer-referral-service-can-do-you", "what": "State Bar explainer on certified referral services.", "verified_on": "2026-10-10"}
+  ],
+  "record_clearing": [
+    {"name": "Clean your record (California Courts Self-Help)", "url": "https://selfhelp.courts.ca.gov/clean-your-record", "what": "Official guide with a questionnaire for record-cleaning options. Notes that true expungement does not exist in California. The page does not name PC 1203.4 itself — todo: link the specific dismissal page once confirmed.", "verified_on": "2026-10-10"},
+    {"name": "Record cleaning: arrest with no conviction", "url": "https://selfhelp.courts.ca.gov/clean-your-record/arrest-no-conviction", "what": "Sealing arrest records (form CR-409).", "verified_on": null}
+  ],
+  "victim_witness_note": "The app never contacts or relays messages to witnesses or alleged victims; families should route everything through defense counsel.",
+  "sources": [
+    {"title": "CDI — Bail Bonds (consumers)", "url": "https://www.insurance.ca.gov/01-consumers/170-bail-bonds/", "verified_on": "2026-10-10"},
+    {"title": "CDI — Tips to Avoid Bail Agent Scams (PDF, Apr 2023)", "url": "https://www.insurance.ca.gov/01-consumers/170-bail-bonds/upload/CDI-Tips-to-Avoid-Bail-Agent-Scams.-4.24-edit.pdf", "verified_on": "2026-10-10"},
+    {"title": "CDI — Check License Status", "url": "https://www.insurance.ca.gov/license-status/", "verified_on": "2026-10-10"},
+    {"title": "CDI — License Number Search", "url": "https://cdicloud.insurance.ca.gov/cal/LicenseNumberSearch", "verified_on": "2026-10-10"},
+    {"title": "CDI — Bail Frequently Asked Questions", "url": "https://www.insurance.ca.gov/0200-industry/0090-faq/Bail-Frequently-Asked-Questions.cfm", "verified_on": "2026-10-10"},
+    {"title": "CDI — Consumer help / complaints", "url": "https://www.insurance.ca.gov/01-consumers/101-help/index.cfm", "verified_on": "2026-10-10"},
+    {"title": "State Bar — Find a Los Angeles Area Lawyer Referral Service", "url": "https://www.calbar.ca.gov/public/find-legal-professionals/find-lawyer-referral-service/find-los-angeles-lawyer-referral-service", "verified_on": "2026-10-10"},
+    {"title": "California Courts Self-Help — Clean your record", "url": "https://selfhelp.courts.ca.gov/clean-your-record", "verified_on": "2026-10-10"}
+  ]
+}
