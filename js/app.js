@@ -723,6 +723,7 @@ VIEWS.settings = () => {
    <ul class="small" style="padding-left:18px">${ob.map(o=>`<li><b>${esc(new Date(o.send_at).toLocaleString())}</b> — ${esc(o.text)}</li>`).join("")||"<li>Nothing due.</li>"}</ul></div>
   <div class="card"><h3>${icon("key")}Whose case</h3><p class="small">${CC.profile.sample?"You're looking at the sample case.":"You're using your own case, saved on this device."}</p>
    <div class="row"><button class="btn ${CC.profile.sample?"":"ghost"}" id="mycase">${icon("plus")}${(()=>{try{return localStorage.getItem("cc:profile:mine")}catch(e){return null}})()?(CC.profile.sample?"Open my case":"Start over with a new case"):"Set up my case"}</button>${CC.profile.sample?"":`<button class="btn ghost" id="demo">See the sample case</button>`}</div></div>
+  <div class="card"><h3>${icon("info")}Walkthrough tips</h3><p class="small">A short explanation pops up the first time you open each section.</p><button class="btn ghost" onclick="CC.tourReset()">Show the tips again</button></div>
   <div class="card"><h3>${icon("folder")}Your data</h3><p class="small">${CC.profile.persist===false?"Private mode: your case data lives only inside the encrypted page. Only done-checkmarks are remembered on this device.":"Everything you add stays in this browser on this device. Nothing is uploaded."}</p>
    <div class="row"><button class="btn ghost" id="exp">${icon("download")}Export my data (JSON)</button><button class="btn ghost" id="ics2">${icon("calendar")}Calendar (.ics)</button><button class="btn ghost" id="wipe">${icon("x")}Erase from this device</button></div></div>
   <div class="card"><h3>${icon("shield")}Ground rules</h3><ul class="small" style="padding-left:18px;margin:0">
@@ -765,7 +766,7 @@ function disclaimer(){
   modal(`<h3>${icon("scales")}Before you start</h3><p><b>${esc(CC.brand.name)}</b> keeps your court dates, obligations and contacts in one place and reminds you about them.</p>
    <ul class="small" style="padding-left:18px"><li>It is <b>information and reminders only — not legal advice</b>. Ask your attorney about your case.</li><li>It is <b>not affiliated with any court or government agency</b>. Always confirm dates with the court.</li><li>It will <b>never contact or pass messages</b> to witnesses or alleged victims.</li><li><b>Jail calls are recorded.</b> Don't discuss your case on them.</li></ul>
    <button class="btn block" id="agree">I understand</button>`);
-  $("#agree").onclick = () => { S.seenDisclaimer = new Date().toISOString(); save(); $("#modal").hidden = true; };
+  $("#agree").onclick = () => { S.seenDisclaimer = new Date().toISOString(); save(); $("#modal").hidden = true; if (CC.tour) setTimeout(()=>CC.tour((location.hash||"#home").slice(1)), 200); };
 }
 /* Hooks for add-on modules (js/toolkit.js): views, nav and shared helpers. */
 CC.VIEWS = VIEWS; CC.render = () => render();

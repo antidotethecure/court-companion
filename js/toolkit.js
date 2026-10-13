@@ -172,21 +172,21 @@ function lookupBtns(p){
 }
 
 /* ───────── views ───────── */
-const TABS = [["records","Records"],["lawyer","My lawyer"],["discovery","Discovery"],["timeline","Timeline"],["research","Research"],["proper","Pro per"],["notebook","Notebook"],["plan","Emergency plan"]];
+const TABS = [["help","Find help"],["library","Library"],["records","Records"],["lawyer","My lawyer"],["discovery","Discovery"],["timeline","Timeline"],["research","Research"],["proper","Pro per"],["notebook","Notebook"],["plan","Emergency plan"]];
 CC.VIEWS.toolkit = () => {
-  const tab = CC.tkTab || "records";
+  const tab = CC.tkTab || "help";
   const mine = !CC.profile.sample;
   const head = `<div class="pagehead">${icon("key","lg")}<div><h1>Toolkit</h1><p>Your records, your lawyer's to-do list, the evidence, research and the pro per guide — all in one place. Information and organization only, not legal advice.</p></div></div>
     ${CC.profile.sample?`<div class="card" style="border-color:var(--gold)"><div class="row between"><div><b>This is a sample case.</b><div class="small">Set up your own case to start your own records. Your data stays on your phone.</div></div><button class="btn gold" data-intake>${icon("plus")}Set up my case</button></div></div>`:""}
     <div class="seg">${TABS.map(([k,l])=>`<button data-tktab="${k}" class="${tab===k?"on":""}">${l}</button>`).join("")}</div>`;
-  return head + `<div id="tkbody">${(SUB[tab]||SUB.records)()}</div>`;
+  return head + `<div id="tkbody">${(SUB[tab]||SUB.help)()}</div>`;
 };
 CC.VIEWS.toolkit.wire = () => {
   const v = $("#view");
   $$("[data-tktab]",v).forEach(b=>b.onclick=()=>{ CC.tkTab=b.dataset.tktab; CC.render(); });
   $$("[data-intake]",v).forEach(b=>b.onclick=intake);
   wireList(v);
-  (WIRE[CC.tkTab||"records"]||(()=>{}))(v);
+  (WIRE[CC.tkTab||"help"]||(()=>{}))(v); tour("tk-"+(CC.tkTab||"help"));
 };
 
 const SUB = {}, WIRE = {};
@@ -400,6 +400,88 @@ WIRE.plan = v => {
     document.body.classList.add("printing"); const done=()=>{document.body.classList.remove("printing"); window.removeEventListener("afterprint",done)}; window.addEventListener("afterprint",done); setTimeout(()=>window.print(),50); };
 };
 
+
+/* ───────── Find help: guided lookups (lawyers, free lawyers, legal aid, bail, tickets, record clearing) ───────── */
+const HELP = [
+ ["free","I can't afford a lawyer", st => [
+   "At your first court date (arraignment), tell the judge you can't afford a lawyer and ask for the public defender. You'll fill out a short financial form.",
+   "Federal case: you'll get the Federal Public Defender or a CJA panel lawyer the same way.",
+   "Your county's public defender office and phone number are in the Directory tab."], st => [["#directory","Public defender — your county (Directory)"]]],
+ ["hire","Hire a private lawyer", st => [
+   "Use a State Bar–certified lawyer referral service: they screen lawyers and the first consult is usually low-cost.",
+   "Before you pay anyone, look up their license and discipline record (type their name below).",
+   "Ask: How many cases like mine have you tried? Who will actually handle my case? Flat fee or hourly — and what does it include (motions, trial)? How fast do you return calls?",
+   "Get the fee agreement in writing. In California, most fee agreements over $1,000 must be in writing."], st => (st.statewide_help||[]).filter(x=>/Referral|attorney search/i.test(x.name)).map(x=>[x.url,x.name]), true],
+ ["aid","Free legal aid (non-criminal problems too)", st => [
+   "Legal aid groups help with housing, benefits, family law, record clearing and more, for free if you qualify.",
+   "The courts' self-help centers help you fill out forms yourself."], st => (st.statewide_help||[]).filter(x=>/LawHelp|Self-Help/i.test(x.name)).map(x=>[x.url,x.name])],
+ ["bail","Bail / a bail bondsman", st => [...(st.bail?.how_to_verify||[]), "Get every payment in writing with a receipt, and read the contract before signing. Ask what happens to the premium and collateral when the case ends."],
+   st => [[st.bail?.license_lookup_url,"Check a bail agent's license (CDI)"],[st.bail?.rate_lookup_url,"Check filed bail rates (CDI)"],["#directory","Jails and bail info — your county"]].filter(x=>x[0])],
+ ["ticket","A traffic ticket", st => [
+   "Read the date on the ticket. Missing it can add a failure-to-appear charge and a license hold.",
+   "You can usually pay, ask for traffic school, fight it in court, or fight it by written declaration. You can ask the court to lower the fine based on your ability to pay.",
+   "The court's self-help guide walks you through each option."], st => [["https://selfhelp.courts.ca.gov/","California Courts Self-Help"]]],
+ ["record","Clearing my record", st => [
+   "Many convictions can be dismissed or reduced after probation, which helps with jobs and housing.",
+   "Answer the court's questionnaire to see which option fits; legal aid groups often help for free."], st => (st.record_clearing||[]).map(x=>[x.url,x.name])],
+ ["self","Representing myself", st => ["Read the Pro per tab first: the steps, the questions the judge will ask, and the cases.", "Use the court's self-help center for forms and procedure."], st => [["#toolkit:proper","Pro per guide"],["https://selfhelp.courts.ca.gov/","California Courts Self-Help"]]],
+];
+SUB.help = () => { const st = CC.data.state||{}, pick = CC.helpPick;
+  return `<p class="small">Pick what you need. Each one walks you through it step by step, with the official place to go.</p>
+   <div class="grid two">${HELP.map(([k,l])=>`<button class="btn ${pick===k?"":"ghost"}" data-help="${k}" style="justify-content:flex-start">${icon(k==="bail"?"bond":k==="ticket"?"flag":k==="record"?"shield":"users")}${esc(l)}</button>`).join("")}</div>
+   ${pick ? (()=>{ const h = HELP.find(x=>x[0]===pick); return card(esc(h[1]),"info",`<ol class="small" style="padding-left:18px">${h[2](st).map(x=>`<li>${esc(x)}</li>`).join("")}</ol>
+     ${h[4]?`<label for="hp-name">Look up a lawyer by name or bar number</label><div class="row"><input id="hp-name" style="flex:1" placeholder="e.g. Jane Smith or 123456"><button class="btn" id="hp-go">${icon("search")}Look up</button></div>`:""}
+     <div class="acts" style="margin-top:10px">${h[3](st).map(([u,l])=>u.startsWith("#")?`<a class="btn ghost small" href="${u.split(":")[0]}" ${u.includes(":")?`data-gotk="${u.split(":")[1]}"`:""}>${icon("link")}${esc(l)}</a>`:linkBtn(u,l)).join("")}</div>`); })() : ""}`; };
+WIRE.help = v => { $$("[data-help]",v).forEach(b=>b.onclick=()=>{ CC.helpPick=b.dataset.help; CC.render(); });
+  $$("[data-gotk]",v).forEach(a=>a.onclick=e=>{ e.preventDefault(); CC.tkTab=a.dataset.gotk; CC.render(); });
+  const go = $("#hp-go",v); if (go) go.onclick = () => { const n = $("#hp-name",v).value.trim(); if (!n) return; window.open("https://apps.calbar.ca.gov/attorney/LicenseeSearch/QuickSearch?FreeText="+enc(n),"_blank","noopener"); }; };
+
+/* ───────── Library: the built-in "brain" of free case law (works offline once loaded) ───────── */
+let LIB = null;
+async function lib(){ if (LIB) return LIB; const p = "data/brain/library.json";
+  try{ LIB = (CC.inline && CC.inline[p]) || await (await fetch(p)).json(); }catch(e){ LIB = {topics:[]}; } return LIB; }
+SUB.library = () => `<p class="small">A built-in library of the most-cited court decisions on criminal cases, traffic tickets, appeals and civil-rights suits — already downloaded, so it works without searching. Tap any case to read the full opinion free on CourtListener. Information only — read the case and confirm it's still good law.</p>
+  <label for="lb-q">Search the library</label><input id="lb-q" type="search" placeholder="e.g. Miranda, bail, speedy trial, 1512, DUI" value="${esc(CC.libQ||"")}">
+  <div id="lb-out" style="margin-top:10px"><p class="small muted">Loading the library…</p></div>`;
+WIRE.library = async v => { const L = await lib(), out = $("#lb-out",v), q = $("#lb-q",v); if (!out) return;
+  const draw = () => { const qq = (CC.libQ = q.value.trim()).toLowerCase(); const total = L.topics.reduce((a,t)=>a+t.cases.length,0);
+    if (!qq){ const areas = [...new Set(L.topics.map(t=>t.area))];
+      out.innerHTML = `<p class="small muted">${L.topics.length} topics · ${total} cases · updated ${esc(L.built||"")}</p>` + areas.map(a=>`<h4 style="margin:14px 0 6px">${esc(a)}</h4>${L.topics.filter(t=>t.area===a).map(t=>`<details class="card flat" style="padding:10px"><summary><b>${esc(t.label)}</b> <span class="small muted">(${t.cases.length})</span><div class="small">${esc(t.what)}</div></summary>${t.cases.map(caseRow).join("")}</details>`).join("")}`).join(""); }
+    else { const hits = []; for (const t of L.topics) for (const c of t.cases) if ([t.label,t.what,c.name,c.cite,c.snip].join(" ").toLowerCase().includes(qq)) hits.push([t,c]);
+      out.innerHTML = `<p class="small"><b>${hits.length}</b> case${hits.length===1?"":"s"}</p>` + hits.slice(0,120).map(([t,c])=>caseRow(c, t.label)).join("") + `<div class="acts" style="margin-top:8px">${_.searchBtns(q.value.trim(),["cl","scholar"])}</div>`; }
+    $$("[data-lsave]",out).forEach(b=>b.onclick=()=>{ const c = JSON.parse(b.dataset.lsave); if (T.saved.some(s=>s.url===c.url)) return toast("Already saved."); T.saved.push({id:uid(), ...c, verdict:"unsure", added:now()}); tsave(); toast("Saved to Research."); }); };
+  let t; q.oninput = () => { clearTimeout(t); t = setTimeout(draw, 200); }; draw(); };
+function caseRow(c, topic){ return `<div style="border-top:1px solid var(--line);padding:8px 0"><a href="${esc(c.url)}" target="_blank" rel="noopener"><b>${esc(c.name)}</b></a><div class="small">${esc([c.cite,c.court,(c.date||"").slice(0,4),c.cites?c.cites+" later cases cite it":"",topic].filter(Boolean).join(" · "))}</div>${c.snip?`<div class="small muted">${esc(c.snip)}</div>`:""}
+  <button class="btn ghost small" style="margin-top:4px" data-lsave="${esc(JSON.stringify({name:c.name,cite:c.cite,court:c.court,date:c.date,url:c.url,term:topic||""}))}">${icon("plus")}Save</button></div>`; }
+
+/* ───────── Walkthrough: the first time someone opens each section, explain what it's for ───────── */
+const TOUR = {
+ home:["Home","Your next court date, what's due this week, and the ground rules. Tap \"Add to calendar\" so your phone reminds you."],
+ court:["Court","Find your courthouse and courtroom: address, parking, what to bring and how to check in."],
+ tasks:["Reminders","Every obligation in one list — court, probation, ankle monitor, drug tests, classes, fees. Add your own and they'll remind you."],
+ directory:["Directory","Phone numbers and addresses for the public defender, legal aid, probation, programs, jails and bail in your county. Tap to call, text, email or map."],
+ guides:["Guides","Motions at each stage of a case, what happens if you lose, and how appeals and record clearing work."],
+ case:["My case","Your case at a glance, a family area, a private attorney-only area, documents to sign, and a PDF packet for your lawyer."],
+ settings:["Settings","Switch between the sample and your own case, export or erase your data, and replay these tips."],
+ toolkit:["Toolkit","Your workbench: find help, the case-law library, your records and transcripts, your lawyer's to-do list, evidence, research and the pro per guide. The tabs across the top switch sections."],
+ "tk-help":["Find help","Pick what you need — a free lawyer, a private lawyer, legal aid, bail, a ticket, clearing your record — and it walks you through it with the official links."],
+ "tk-library":["Library","The app's built-in brain: hundreds of the most-cited court decisions by topic, already downloaded. Search it or browse by topic, and save cases to your research."],
+ "tk-records":["Records","Find your case by number, keep transcripts and papers on your phone and search every page, look up the professionals on your case, and check your own record."],
+ "tk-lawyer":["My lawyer","Track what you asked your lawyer for and whether it got done, every call and whether they replied, every plea offer and your answer, and letters you can sign on screen."],
+ "tk-discovery":["Discovery","The evidence in your case and whether you've actually seen it. Anything you haven't seen shows in red."],
+ "tk-timeline":["Timeline","Write down what happened the day it happens. A dated record beats memory later. Download it any time."],
+ "tk-research":["Research","Live searches of new court decisions on the laws in your case. It checks again each day you open it, marks what's new, and lets you save cases as helps or hurts."],
+ "tk-proper":["Pro per","If you're thinking about representing yourself: the steps, what people will say to scare you and the truthful answer, and the cases — with sources."],
+ "tk-notebook":["Notebook","Your own defense points: what you'd say, what supports it, and what the other side will say back."],
+ "tk-plan":["Emergency plan","What your family should do if you're arrested or can't be reached — who to call, where papers are, what not to do. Print it for them."],
+};
+let TS = {}; try{ TS = JSON.parse(localStorage.getItem("cc:tour")||"{}"); }catch(e){}
+function tour(k){ const t = TOUR[k]; if (!t || TS[k] || !$("#modal").hidden) return; TS[k] = 1; try{ localStorage.setItem("cc:tour", JSON.stringify(TS)); }catch(e){}
+  modal(`<div class="eyebrow small" style="color:var(--gold);font-weight:700;letter-spacing:.08em;text-transform:uppercase">Quick tour</div><h3>${icon("info")}${esc(t[0])}</h3><p>${esc(t[1])}</p><div class="row"><button class="btn" data-close>Got it</button><button class="btn ghost small" id="tour-off">Turn off tips</button></div>`);
+  $("#tour-off").onclick = () => { for (const x in TOUR) TS[x] = 1; try{ localStorage.setItem("cc:tour", JSON.stringify(TS)); }catch(e){} $("#modal").hidden = true; }; }
+CC.tour = tour;
+CC.tourReset = () => { TS = {}; try{ localStorage.removeItem("cc:tour"); }catch(e){} toast("Tips will show again as you open each section."); };
+window.addEventListener("hashchange", () => setTimeout(() => tour((location.hash||"#home").slice(1)), 150));
 /* ───────── intake: set up my own case ───────── */
 function intake(){
   const counties = Object.entries(CC.data.counties||{});
@@ -434,6 +516,7 @@ CC.useMine = () => { try{ localStorage.setItem("cc:active","mine"); }catch(e){} 
 CC.onStart = async () => {
   tload();
   // Letter templates join the shared documents list so the existing sign-and-send flow handles them.
+  setTimeout(() => { const h = (location.hash||"#home").slice(1); tour(h); }, 600);
   if (CC.data.guides){ CC.data.guides.documents ||= []; for (const d of LETTERS) if (!CC.data.guides.documents.some(x=>x.id===d.id)) CC.data.guides.documents.push({...d, kind:"sign"}); }
 };
 })();
