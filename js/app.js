@@ -208,6 +208,8 @@ VIEWS.home = () => {
   return `${P.sample?`<div class="notice warn">${icon("info")}<div><b>Sample data.</b> Jordan Reyes and every case number here are fictional and marked SAMPLE.</div></div>
   <div class="card" style="border-color:var(--gold)"><div class="row between"><div><b>Ready to use it for your own case?</b><div class="small">Court dates, your lawyer's to-do list, your transcripts (searchable), evidence tracker, case-law research and a pro per guide. Saved only on your phone.</div></div><button class="btn gold" onclick="CC.intake()">${icon("plus")}Set up my case</button></div></div>`:""}
   ${hero}
+  ${(()=>{ const L = CC.deadlineItems ? CC.deadlineItems() : []; const u = L.filter(x=>!x.due || daysUntil(x.due) <= 14); if (!L.length) return "";
+    return `<div class="card" style="border-color:${u.length?"var(--bad)":"var(--line)"}"><div class="row between"><h3>${icon("flag")}Deadlines</h3><a class="small" href="#toolkit" onclick="CC.tkTab='deadlines'">All →</a></div>${L.slice(0,4).map(x=>`<div class="small" style="margin:4px 0"><b>${esc(x.title)}</b> — ${x.due?(daysUntil(x.due)<0?`<b style="color:var(--bad)">OVERDUE</b>`:daysUntil(x.due)<=14?`<b style="color:var(--bad)">URGENT · ${daysUntil(x.due)} days</b>`:daysUntil(x.due)+" days"):`<b style="color:var(--bad)">TIME WAIVED</b>`}</div>`).join("")}</div>`; })()}
   <div class="notice navy">${icon("ear")}<div><b>Jail calls are recorded.</b> Every jail phone call, video visit and tablet message is recorded or read, except legal calls with your lawyer. Never discuss the case on them.</div></div>
   <div class="card"><div class="row between"><h3>${icon("bell")}Next 7 days</h3><a class="small" href="#tasks">All reminders →</a></div><p class="small" style="margin:0">Next time each one is due. Daily items repeat — see Reminders for the full schedule.</p>
     ${occ.length?`<ul class="list">${occ.map(o=>itemRow(o)).join("")}</ul>`:`<p class="muted">Nothing in the next week.</p>`}</div>
@@ -625,7 +627,7 @@ function docList(){
      ${d.docusign_url?`<a class="btn ghost small" href="${esc(d.docusign_url)}" target="_blank" rel="noopener">${icon("link")}Sign in DocuSign</a>`:""}</div></div></li>`).join("")}</ul>
    <p class="small">DocuSign: add a document's <code>docusign_url</code> to show a "Sign in DocuSign" button. This app never creates envelopes or sends anything by itself.</p></div>`;
 }
-function findDoc(id){ return [...(CC.profile.documents||[]), ...(CC.data.guides?.documents||[])].find(d=>d.id===id); }
+function findDoc(id){ if (id==="tk-first" && CC.firstDoc) return CC.firstDoc(); return [...(CC.profile.documents||[]), ...(CC.data.guides?.documents||[])].find(d=>d.id===id); }
 function signForm(id, viewOnly){
   const d = findDoc(id); if (!d) return;
   if (viewOnly){ modal(`<h3>${icon("doc")}${esc(d.title)}</h3><pre class="docbody">${esc(d.body||"")}</pre><div class="row"><button class="btn" data-sign2="${esc(id)}">Sign &amp; send</button><button class="btn ghost" data-close>Close</button></div>`);
@@ -646,7 +648,14 @@ function signForm(id, viewOnly){
   setTimeout(fit, 0);
   $("#sg-clear",md).onclick = () => { strokes=[]; signedAt=""; paint(); };
   const ready = () => { const name=$("#sg-name").value.trim(), body=$("#sg-body").value; if (!name || !strokes.length){ toast("Add your name and signature."); return null; }
-    if (!guardOK(body, name)) return null; return {name, body}; };
+    // Letters go to the client's own attorney, so talking about testifying is fine; only blocked names and passwords stop them.
+    for (const t of [body, name]){ const c = screen(t); if (c === "blocked_person" || c === "credentials"){ guardOK(t); return null; } }
+    return {name, body}; };
+  if (CC.sendSigned){ const when = () => signedAt||new Date().toLocaleString();
+    $("#sg-pdf",md).onclick = async () => { const r = ready(); if (!r) return; await CC.signedPDF(d.title, r.body, c.toDataURL("image/png"), r.name, when()); toast("Signed PDF saved."); };
+    $("#sg-share",md).innerHTML = icon("doc")+"Send to my attorney";
+    $("#sg-share",md).onclick = async () => { const r = ready(); if (!r) return; await CC.sendSigned(d.title, r.body, c.toDataURL("image/png"), r.name, when()); };
+    return; }
   $("#sg-pdf",md).onclick = () => { const r = ready(); if (!r) return; const img = c.toDataURL("image/png");
     $("#print").innerHTML = `<h1>${esc(d.title)}</h1><pre class="docbody">${esc(r.body)}</pre><div style="margin-top:18pt"><img src="${img}" style="height:60pt"><div style="border-top:1px solid #000;width:3.5in">${esc(r.name)} — signed electronically ${esc(signedAt||new Date().toLocaleString())}</div></div>
       <div class="disc">Created with Court Companion. Information and reminders only — not legal advice. Not affiliated with any court or government agency.</div>`;

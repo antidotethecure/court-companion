@@ -172,24 +172,27 @@ function lookupBtns(p){
 }
 
 /* ───────── views ───────── */
-const TABS = [["help","Find help"],["library","Library"],["records","Records"],["lawyer","My lawyer"],["discovery","Discovery"],["timeline","Timeline"],["research","Research"],["proper","Pro per"],["notebook","Notebook"],["plan","Emergency plan"]];
+const TABS = [["deadlines","Deadlines"],["help","Find help"],["library","Library"],["records","Records"],["lawyer","My lawyer"],["discovery","Discovery"],["timeline","Timeline"],["research","Research"],["proper","Pro per"],["notebook","Notebook"],["plan","Emergency plan"]];
 CC.VIEWS.toolkit = () => {
-  const tab = CC.tkTab || "help";
+  const tab = CC.tkTab || "deadlines";
   const mine = !CC.profile.sample;
   const head = `<div class="pagehead">${icon("key","lg")}<div><h1>Toolkit</h1><p>Your records, your lawyer's to-do list, the evidence, research and the pro per guide — all in one place. Information and organization only, not legal advice.</p></div></div>
     ${CC.profile.sample?`<div class="card" style="border-color:var(--gold)"><div class="row between"><div><b>This is a sample case.</b><div class="small">Set up your own case to start your own records. Your data stays on your phone.</div></div><button class="btn gold" data-intake>${icon("plus")}Set up my case</button></div></div>`:""}
     <div class="seg">${TABS.map(([k,l])=>`<button data-tktab="${k}" class="${tab===k?"on":""}">${l}</button>`).join("")}</div>`;
-  return head + `<div id="tkbody">${(SUB[tab]||SUB.help)()}</div>`;
+  return head + `<div id="tkbody">${(SUB[tab]||SUB.deadlines)()}</div>`;
 };
 CC.VIEWS.toolkit.wire = () => {
   const v = $("#view");
   $$("[data-tktab]",v).forEach(b=>b.onclick=()=>{ CC.tkTab=b.dataset.tktab; CC.render(); });
   $$("[data-intake]",v).forEach(b=>b.onclick=intake);
   wireList(v);
-  (WIRE[CC.tkTab||"help"]||(()=>{}))(v); tour("tk-"+(CC.tkTab||"help"));
+  (WIRE[CC.tkTab||"deadlines"]||(()=>{}))(v); tour("tk-"+(CC.tkTab||"deadlines"));
 };
 
 const SUB = {}, WIRE = {};
+SUB.deadlines = () => window.CCdl ? window.CCdl.view() : "";
+WIRE.deadlines = v => window.CCdl && window.CCdl.wire(v);
+window.CCtk = { items: k => items(k) };
 /* Records */
 SUB.records = () => {
   const counties = Object.entries(CC.data.counties||{});
@@ -276,7 +279,7 @@ const LETTERS = [
   {id:"tk-contact", title:"Please call me — update request", what:"A polite, dated request for a phone call and a status update.", body:"To: [attorney name]\nRe: [case number]\nDate: [date]\n\nI have tried to reach you on [dates] by [phone / text / email]. Please call me at [phone] by [date] for an update on:\n- [motions I asked about]\n- [discovery]\n- [next court date]\n\nI would prefer a phone call to an in-person meeting.\n\nThank you,"},
   {id:"tk-assistant", title:"Authorization for my legal assistant / helper", what:"Lets your lawyer talk to a named helper about scheduling and paperwork. Ask your lawyer how it affects privilege before you sign.", body:"I, [client name], authorize my attorney, [attorney name], to communicate with [helper name], [relationship], phone [phone], about court dates, scheduling, documents and logistics in case [case number].\n\nThis does not authorize sharing strategy or privileged communications unless I say so in writing. Any document my helper prepares must be approved by me before it is signed or sent. I may revoke this at any time in writing."}
 ];
-function lettersView(){ return `<p class="small">Fill in the [brackets], sign on the screen, and send the PDF by email or text. Keep a copy, and log it in the Contact log.</p>` +
+function lettersView(){ return `<div class="card" style="border-color:var(--bad,#b3261e)"><b>${icon("alert")}READ THIS FIRST — me and my attorney</b><div class="small">Your speedy-trial status, urgent deadlines and open requests on one page, with a line for your attorney to sign that they read it. Sign it and send it to your attorney in one tap.</div><div class="acts" style="margin-top:6px"><button class="btn small" data-sign="tk-first">${icon("check")}Sign &amp; send to my attorney</button><button class="btn ghost small" data-docview="tk-first">Read it</button></div></div><p class="small">Fill in the [brackets], sign on the screen, and send the PDF by email or text. Keep a copy, and log it in the Contact log.</p>` +
   LETTERS.map(d=>`<div class="card flat"><b>${esc(d.title)}</b><div class="small">${esc(d.what)}</div><div class="acts" style="margin-top:6px"><button class="btn small" data-sign="${d.id}">${icon("check")}Fill &amp; sign</button><button class="btn ghost small" data-docview="${d.id}">Read it</button></div></div>`).join(""); }
 
 SUB.discovery = () => listMod("discovery", MODS.discovery);
@@ -464,6 +467,7 @@ const TOUR = {
  case:["My case","Your case at a glance, a family area, a private attorney-only area, documents to sign, and a PDF packet for your lawyer."],
  settings:["Settings","Switch between the sample and your own case, export or erase your data, and replay these tips."],
  toolkit:["Toolkit","Your workbench: find help, the case-law library, your records and transcripts, your lawyer's to-do list, evidence, research and the pro per guide. The tabs across the top switch sections."],
+ "tk-deadlines":["Deadlines","Your speedy-trial clock, appeal deadlines and motion deadlines counting down. Anything within 14 days says URGENT. If you waived time, it tells you plainly and how to restart the clock."],
  "tk-help":["Find help","Pick what you need — a free lawyer, a private lawyer, legal aid, bail, a ticket, clearing your record — and it walks you through it with the official links."],
  "tk-library":["Library","The app's built-in brain: hundreds of the most-cited court decisions by topic, already downloaded. Search it or browse by topic, and save cases to your research."],
  "tk-records":["Records","Find your case by number, keep transcripts and papers on your phone and search every page, look up the professionals on your case, and check your own record."],
@@ -519,4 +523,95 @@ CC.onStart = async () => {
   setTimeout(() => { const h = (location.hash||"#home").slice(1); tour(h); }, 600);
   if (CC.data.guides){ CC.data.guides.documents ||= []; for (const d of LETTERS) if (!CC.data.guides.documents.some(x=>x.id===d.id)) CC.data.guides.documents.push({...d, kind:"sign"}); }
 };
+})();
+/* ───────── Deadlines: speedy-trial clocks, time waivers, urgent motions; "Read this first"; signed PDFs to the attorney ───────── */
+(function(){
+const CC = window.CC, _ = CC._, { $, $$, esc, enc, modal, toast } = _;
+const DAY = 864e5, addD = (s,n) => _.ymd(new Date(_.parseD(s).getTime()+n*DAY)), left = s => Math.round((_.parseD(s) - _.today())/DAY);
+function K(){ try{ return JSON.parse(localStorage.getItem("cc:dl:"+CC.profile.id)||"{}"); }catch(e){ return {}; } }
+function KS(o){ try{ localStorage.setItem("cc:dl:"+CC.profile.id, JSON.stringify(o)); }catch(e){} }
+const D = () => Object.assign({}, CC.profile.deadlines||{}, K());
+/* Each rule: what starts the clock, how many days, the law. The user enters the dates from their paperwork. */
+const RULES = {
+ "ca-felony":   {label:"California felony", clocks:[["arraign_info","Arraignment on the information (after the prelim)",60,"Trial must start within 60 days unless you waive time (Penal Code § 1382(a)(2))."],["complaint","Arraignment on the complaint",10,"Preliminary hearing within 10 court days (Penal Code § 859b) unless you waive — counted here as calendar days; confirm with your lawyer."]]},
+ "ca-misd-in":  {label:"California misdemeanor — in custody", clocks:[["arraign","Arraignment",30,"Trial within 30 days if you're in custody (Penal Code § 1382(a)(3))."]]},
+ "ca-misd-out": {label:"California misdemeanor — out of custody", clocks:[["arraign","Arraignment",45,"Trial within 45 days (Penal Code § 1382(a)(3))."]]},
+ "federal":     {label:"Federal", clocks:[["arrest","Arrest / complaint",30,"Indictment within 30 days of arrest (18 U.S.C. § 3161(b))."],["indict","Indictment or first appearance (whichever is later)",70,"Trial within 70 days, minus excluded time (18 U.S.C. § 3161(c)(1), (h)). Ask your lawyer which days were excluded."]]}
+};
+const AFTER = [["sentence_ca_felony","California felony judgment/sentence",60,"Notice of appeal due (Cal. Rules of Court 8.308)."],["sentence_ca_misd","California misdemeanor judgment",30,"Notice of appeal due (Cal. Rules of Court 8.853)."],["sentence_fed","Federal judgment entered",14,"Notice of appeal due (Fed. R. App. P. 4(b))."]];
+function items(){ const d = D(), out = [];
+  const R = RULES[d.type]; if (R) for (const [k,lab,n,law] of R.clocks) if (d[k]){
+    const waived = d.waived && d.waived_on && d.waived_on >= d[k];
+    let due = addD(d[k], n), why = law;
+    if (waived && d.waiver_end) { due = addD(d.waiver_end, d.type==="federal"?0:10); why = "Limited time waiver: trial within 10 days after "+d.waiver_end+" (Penal Code § 1382(a)(2)(B)). "+law; }
+    else if (waived && d.withdrawn) { due = addD(d.withdrawn, 60); why = "You withdrew your time waiver: trial within 60 days of that date (Penal Code § 1382(a)(2)(B)). "+law; }
+    out.push({title:(k==="complaint"?"Preliminary hearing clock":k==="arrest"?"Indictment clock":"Speedy trial clock"), from:lab+" "+d[k], due: (waived && !d.waiver_end && !d.withdrawn) ? null : due, why, waived}); }
+  for (const [k,lab,n,law] of AFTER) if (d[k]) out.push({title:"Appeal deadline", from:lab+" "+d[k], due:addD(d[k],n), why:law});
+  for (const m of (d.motions||[])) if (m.due) out.push({title:m.name, from:"Set by "+(m.by||"the court"), due:m.due, why:m.why||"", motion:true});
+  return out.sort((a,b)=>String(a.due||"9").localeCompare(String(b.due||"9"))); }
+function badge(it){ if (!it.due) return `<span class="chip fee">TIME WAIVED — clock stopped</span>`; const n = left(it.due);
+  return n < 0 ? `<span class="chip fee">OVERDUE ${-n} days</span>` : n <= 14 ? `<span class="chip fee">URGENT · ${n} day${n===1?"":"s"} left</span>` : `<span class="chip">${n} days left</span>`; }
+CC.deadlineItems = items;
+function view(){ const d = D(), L = items();
+  return `${d.waived?`<div class="notice warn">${icon("alert")}<div><b>You waived time${d.waived_on?" on "+esc(d.waived_on):""}${d.waiver_end?" (limited to "+esc(d.waiver_end)+")":" (general waiver)"}.</b> Your speedy-trial clock is stopped. To restart it you must withdraw the waiver in court — say "I withdraw my time waiver" on the record — and the clock restarts.</div></div>`:""}
+  <p class="small">Enter the dates from your paperwork. Every clock counts down here and on Home; anything within 14 days is marked <b>URGENT</b>. Courts can extend or exclude time — confirm every date with your lawyer.</p>
+  <div class="card"><label for="dl-type">Type of case</label><select id="dl-type"><option value="">Choose…</option>${Object.entries(RULES).map(([k,r])=>`<option value="${k}" ${d.type===k?"selected":""}>${esc(r.label)}</option>`).join("")}</select>
+   <div id="dl-dates">${(RULES[d.type]?.clocks||[]).map(([k,lab])=>`<label for="dl-${k}">${esc(lab)}</label><input type="date" id="dl-${k}" data-dk="${k}" value="${esc(d[k]||"")}">`).join("")}</div>
+   <label class="row small" style="gap:6px;margin-top:10px;font-weight:600"><input type="checkbox" id="dl-waived" style="width:auto;min-height:0" ${d.waived?"checked":""}> I waived time (speedy trial)</label>
+   <div class="fgrid two"><div><label for="dl-waived_on">Date I waived</label><input type="date" id="dl-waived_on" data-dk="waived_on" value="${esc(d.waived_on||"")}"></div><div><label for="dl-waiver_end">Limited waiver — until (blank = general)</label><input type="date" id="dl-waiver_end" data-dk="waiver_end" value="${esc(d.waiver_end||"")}"></div></div>
+   <label for="dl-withdrawn">Date I withdrew my waiver in court (if I did)</label><input type="date" id="dl-withdrawn" data-dk="withdrawn" value="${esc(d.withdrawn||"")}">
+   <details style="margin-top:8px"><summary class="small"><b>After a conviction — appeal deadlines</b></summary>${AFTER.map(([k,lab])=>`<label for="dl-${k}">${esc(lab)}</label><input type="date" id="dl-${k}" data-dk="${k}" value="${esc(d[k]||"")}">`).join("")}</details>
+   <h4 style="margin-top:12px">Motions with a deadline in my case</h4>
+   ${(d.motions||[]).map((m,i)=>`<div class="row small" style="gap:6px;margin:4px 0">${esc(m.name)} — due ${esc(m.due)} <button class="btn ghost small" data-mdel="${i}">${icon("x")}</button></div>`).join("")}
+   <div class="fgrid two"><div><label for="dl-mname">Motion</label><input id="dl-mname" placeholder="e.g. Motion to suppress (PC 1538.5)"></div><div><label for="dl-mdue">Due / hearing date</label><input type="date" id="dl-mdue"></div></div>
+   <div class="row" style="margin-top:10px"><button class="btn" id="dl-save">${icon("check")}Save dates</button></div></div>
+  ${L.map(it=>`<div class="card flat"><div class="row between"><b>${esc(it.title)}</b>${badge(it)}</div><div class="small">${esc(it.from)}${it.due?" → due "+esc(_.fmtLong(it.due)):""}</div><div class="small muted">${esc(it.why)}</div></div>`).join("")||""}`; }
+function wire(v){
+  $("#dl-type",v).onchange = e => { const o = K(); o.type = e.target.value; KS(o); CC.render(); };
+  $$("[data-mdel]",v).forEach(b=>b.onclick=()=>{ const o = K(); o.motions = (o.motions||[]); o.motions.splice(+b.dataset.mdel,1); KS(o); CC.render(); });
+  $("#dl-save",v).onclick = () => { const o = K(); $$("[data-dk]",v).forEach(i=>{ o[i.dataset.dk] = i.value; }); o.waived = $("#dl-waived",v).checked;
+    const mn = $("#dl-mname",v).value.trim(), md = $("#dl-mdue",v).value; if (mn && md){ (o.motions ||= []).push({name:mn, due:md}); }
+    KS(o); toast("Saved."); CC.render(); };
+}
+/* "Read this first" — one page for the client AND the attorney, with an acknowledgment the attorney signs. */
+function firstHTML(){ const d = D(), L = items(), P = CC.profile, T = window.CCtk;
+  const asks = T ? T.items("requests").filter(r=>!r.status||r.status==="open") : [];
+  return `READ THIS FIRST — for me and my attorney
+Client: ${P.person?.name||""}
+Case(s): ${(P.cases||[]).map(k=>k.number+" ("+(k.court_label||"")+")").join("; ")}
+Date: ${new Date().toLocaleDateString()}
+
+1. SPEEDY TRIAL: ${d.waived?`I waived time${d.waived_on?" on "+d.waived_on:""}${d.waiver_end?", limited to "+d.waiver_end:" (general)"}.${d.withdrawn?" I withdrew the waiver on "+d.withdrawn+".":""}`:"I have NOT waived time. Do not waive time for me without talking to me first."}
+
+2. URGENT DEADLINES:
+${L.map(it=>`- ${it.title}: ${it.due?("due "+it.due+" ("+(left(it.due)<0?"OVERDUE":left(it.due)+" days left")+")"):"clock stopped (time waived)"} — ${it.why}`).join("\n")||"- (none entered)"}
+
+3. WHAT I'M WAITING ON FROM MY ATTORNEY:
+${asks.map(r=>`- ${r.what} (asked ${r.asked||""})`).join("\n")||"- (none)"}
+
+4. MY DECISIONS: Plea offers, testifying, and jury or no jury are my decisions. Tell me about every offer in writing.
+
+ATTORNEY ACKNOWLEDGMENT: I have read this page and the deadlines above.
+Attorney name: ______________________  Signature: ______________________  Date: __________`; }
+CC.firstDoc = () => ({id:"tk-first", title:"Read this first — me and my attorney", kind:"sign", what:"One page with your speedy-trial status, urgent deadlines and open requests, with a line for your attorney to sign that they read it.", body:firstHTML()});
+
+/* Signed PDF (drawn signature) + one-tap send to the attorney. */
+let jsPDFp = null;
+const loadPDF = () => jsPDFp ||= new Promise((res,rej)=>{ const s = document.createElement("script"); s.src = "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"; s.onload = () => res(window.jspdf.jsPDF); s.onerror = rej; document.head.appendChild(s); });
+async function signedPDF(title, body, sigImg, name, when){
+  const J = await loadPDF(), doc = new J({unit:"pt", format:"letter"}), W = 612, M = 54; let y = M;
+  doc.setFont("helvetica","bold"); doc.setFontSize(15); doc.text(title, M, y); y += 24; doc.setFont("helvetica","normal"); doc.setFontSize(11);
+  for (const line of doc.splitTextToSize(body, W-2*M)){ if (y > 700){ doc.addPage(); y = M; } doc.text(line, M, y); y += 15; }
+  if (y > 640){ doc.addPage(); y = M; } y += 10; doc.addImage(sigImg, "PNG", M, y, 180, 60); y += 66; doc.line(M, y, M+260, y); y += 14;
+  doc.setFontSize(9); doc.text(`${name} — signed electronically ${when}`, M, y); y += 24;
+  doc.setTextColor(110); doc.text("Created with Court Companion. Information and organization only — not legal advice.", M, 760);
+  return new File([doc.output("blob")], title.replace(/[^\w\- ]+/g,"").slice(0,60)+".pdf", {type:"application/pdf"}); }
+function attorney(){ const c = [...(CC.profile.contacts||[]), ...((window.CCtk?.items("people"))||[])].find(x=>/attorney|pd/.test(x.role||"") && x.email); return c||null; }
+CC.signedPDF = async (title, body, img, name, when) => { const f = await signedPDF(title, body, img, name, when); _.download(f.name, f, "application/pdf"); };
+CC.sendSigned = async (title, body, img, name, when) => {
+  const f = await signedPDF(title, body, img, name, when), a = attorney(), subj = title+" — "+_.caseRef(null);
+  if (navigator.canShare && navigator.canShare({files:[f]})){ try{ await navigator.share({files:[f], title:subj, text:(a?`To ${a.name}: `:"")+"Please read and confirm you received this."}); return; }catch(e){ if (e.name==="AbortError") return; } }
+  _.download(f.name, f, "application/pdf");
+  modal(`<h3>${icon("doc")}Send to your attorney</h3><p class="small">The signed PDF was saved. Your email will open — attach the PDF and send.</p><div class="acts"><a class="btn" href="mailto:${esc(a?.email||"")}?subject=${enc(subj)}&body=${enc("Please read the attached and confirm you received it.\n\n"+body.slice(0,1500))}">${icon("doc")}Email ${esc(a?.name||"my attorney")}</a><button class="btn ghost" data-close>Close</button></div>`); };
+window.CCdl = {view, wire};
 })();
