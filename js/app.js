@@ -731,9 +731,12 @@ VIEWS.settings = () => {
   <div class="card"><h3>${icon("phone")}Text / Telegram reminder outbox (preview)</h3><p class="small">Not connected. Nothing is ever sent from this app. When a server is added, these are the messages it would send (next 72 hours):</p>
    <ul class="small" style="padding-left:18px">${ob.map(o=>`<li><b>${esc(new Date(o.send_at).toLocaleString())}</b> — ${esc(o.text)}</li>`).join("")||"<li>Nothing due.</li>"}</ul></div>
   <div class="card"><h3>${icon("key")}Whose case</h3><p class="small">${CC.profile.sample?"You're looking at the sample case.":"You're using your own case, saved on this device."}</p>
-   <div class="row"><button class="btn ${CC.profile.sample?"":"ghost"}" id="mycase">${icon("plus")}${(()=>{try{return localStorage.getItem("cc:profile:mine")}catch(e){return null}})()?(CC.profile.sample?"Open my case":"Start over with a new case"):"Set up my case"}</button>${CC.profile.sample?"":`<button class="btn ghost" id="demo">See the sample case</button>`}</div></div>
+   <div class="row"><button class="btn ${CC.profile.sample?"":"ghost"}" id="mycase">${icon("plus")}${(()=>{try{return localStorage.getItem("cc:profile:mine")}catch(e){return null}})()?(CC.profile.sample?"Open my case":"Start over with a new case"):"Set up my case"}</button>${CC.profile.sample?"":`<button class="btn ghost" id="addcase">${icon("plus")}Add another case</button><button class="btn ghost" id="demo">See the sample case</button>`}</div>
+   ${CC.profile.sample?"":`<p class="small" style="margin-top:8px">Cases in this profile: ${(CC.profile.cases||[]).map(c=>esc(c.number)).join(" · ")||"none"}</p>`}</div>
   <div class="card"><h3>${icon("info")}Walkthrough tips</h3><p class="small">A short explanation pops up the first time you open each section.</p><button class="btn ghost" onclick="CC.tourReset()">Show the tips again</button></div>
   <div class="card"><h3>${icon("folder")}Your data</h3><p class="small">${CC.profile.persist===false?"Private mode: your case data lives only inside the encrypted page. Only done-checkmarks are remembered on this device.":"Everything you add stays in this browser on this device. Nothing is uploaded."}</p>
+   <div class="row"><button class="btn" id="bk">${icon("download")}Save my case (backup file)</button><button class="btn ghost" id="rs">${icon("folder")}Restore a backup</button></div>
+   <p class="small">${(()=>{try{const t=localStorage.getItem("cc:lastBackup");return t?"Last backup: "+new Date(t).toLocaleString():"No backup yet. Save one now, and again after big changes."}catch(e){return ""}})()} The backup holds every case, note, list and transcript, so you can move to a new phone or let family restore it.</p>
    <div class="row"><button class="btn ghost" id="exp">${icon("download")}Export my data (JSON)</button><button class="btn ghost" id="ics2">${icon("calendar")}Calendar (.ics)</button><button class="btn ghost" id="wipe">${icon("x")}Erase from this device</button></div></div>
   <div class="card"><h3>${icon("shield")}Ground rules</h3><ul class="small" style="padding-left:18px;margin:0">
    <li><b>Not legal advice.</b> Court Companion gives information and reminders. Only a licensed attorney who knows your case can advise you.</li>
@@ -747,6 +750,8 @@ VIEWS.settings.wire = () => {
   $$("[data-role]").forEach(b=>b.onclick=()=>{ CC.role=b.dataset.role; S.role=CC.role; if(CC.role==="family") CC.attyOpen=false; save(); render(); toast("Viewing as "+b.textContent+"."); });
   $("#mycase").onclick = () => { let has=null; try{ has=localStorage.getItem("cc:profile:mine"); }catch(e){} if (CC.profile.sample && has) CC.useMine(); else CC.intake(); };
   if ($("#demo")) $("#demo").onclick = () => CC.useDemo();
+  if ($("#addcase")) $("#addcase").onclick = () => CC.addCase();
+  $("#bk").onclick = () => CC.backup(); $("#rs").onclick = () => CC.restore();
   $("#exp").onclick = () => download("court-companion-data.json", JSON.stringify({exported:new Date().toISOString(), events:S.events, contacts:S.contacts, questions:S.questions, notes:S.notes, nocontact:S.nocontact}, null, 2), "application/json");
   $("#ics2").onclick = () => CC.exportICS();
   $("#wipe").onclick = () => { if (confirm("Erase everything this app saved on this device?")){ try{localStorage.removeItem(KEY)}catch(e){} load(); buildGuard(); render(); toast("Erased."); } };

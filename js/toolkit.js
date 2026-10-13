@@ -517,6 +517,59 @@ function intake(){
     location.hash = "#home"; location.reload(); };
 }
 CC.intake = intake;
+/* Add another case to MY profile (several cases at once: e.g. a federal and a state case). */
+function addCase(){
+  let p=null; try{ p=JSON.parse(localStorage.getItem("cc:profile:mine")||"null"); }catch(e){}
+  if (!p) return intake();
+  const counties = Object.entries(CC.data.counties||{});
+  const md = modal(`<h3>${icon("plus")}Add another case</h3><p class="small">Adds a case to ${esc(p.person?.name||"your profile")} (you have ${(p.cases||[]).length}). Each case gets its own number, court, lawyer and dates.</p>
+    <label for="ac-sys">Court</label><select id="ac-sys"><option value="federal">Federal court</option>${counties.map(([id,c])=>`<option value="${esc(id)}">${esc(c.name||id)} Superior Court (California)</option>`).join("")}</select>
+    <label for="ac-num">Case number</label><input id="ac-num" placeholder="From your paperwork">
+    <label for="ac-chg">Charge(s) and code sections</label><input id="ac-chg">
+    <div class="fgrid two"><div><label for="ac-date">Next court date</label><input id="ac-date" type="date"></div><div><label for="ac-time">Time</label><input id="ac-time" type="time"></div></div>
+    <label for="ac-dept">Courtroom / department</label><input id="ac-dept">
+    <label for="ac-atty">Lawyer on this case</label><input id="ac-atty">
+    <div class="fgrid two"><div><label for="ac-aph">Lawyer phone</label><input id="ac-aph" type="tel"></div><div><label for="ac-aem">Lawyer email</label><input id="ac-aem" type="email"></div></div>
+    <div class="row" style="margin-top:12px"><button class="btn" id="ac-go">${icon("check")}Add this case</button><button class="btn ghost" data-close>Cancel</button></div>`);
+  $("#ac-go",md).onclick = () => {
+    const g = id => $("#"+id,md).value.trim(); const sys=g("ac-sys"), cnty=CC.data.counties[sys];
+    if (!g("ac-num")) return toast("Add the case number.");
+    if ((p.cases||[]).some(c=>c.number===g("ac-num"))) return toast("That case is already in your profile.");
+    if (!_.guardOK(g("ac-atty"), g("ac-dept"), g("ac-chg"))) return;
+    p.cases ||= []; p.events ||= []; p.contacts ||= [];
+    const cid = "c"+(p.cases.length+1)+"-"+uid().slice(0,4), last=(p.person?.name||"").split(" ").slice(-1)[0];
+    const k = {id:cid, caption:(sys==="federal"?"United States v. ":"People v. ")+last, number:g("ac-num"), court_label: sys==="federal"?"U.S. District Court":(cnty?.name||sys)+" Superior Court", county:sys, charge:g("ac-chg"), defense:g("ac-atty"), status:"", release:""};
+    p.cases.push(k);
+    if (g("ac-date")) p.events.push({id:"e"+uid(), kind:"court", title:"Court date", date:g("ac-date"), time:g("ac-time")||"", dept:g("ac-dept"), caseId:cid, caseLabel:k.number});
+    if (g("ac-atty")) p.contacts.push({id:"a"+uid(), role:"attorney", name:g("ac-atty"), phone:g("ac-aph"), email:g("ac-aem"), caseId:cid});
+    try{ localStorage.setItem("cc:profile:mine", JSON.stringify(p)); localStorage.setItem("cc:active","mine"); }catch(e){ return toast("This browser blocked saving."); }
+    toast("Case added."); location.hash="#home"; location.reload(); };
+}
+CC.addCase = addCase;
+/* Save everything (all cases, notes, toolkit lists, transcripts) to one backup file, and restore it on any phone. */
+CC.backup = async () => {
+  const keys={}; try{ for (let i=0;i<localStorage.length;i++){ const k=localStorage.key(i); if (k && k.startsWith("cc:")) keys[k]=localStorage.getItem(k); } }catch(e){}
+  let files=[]; try{ const db=await new Promise((res,rej)=>{ const r=indexedDB.open("cc-files",1); r.onupgradeneeded=()=>r.result.createObjectStore("files",{keyPath:"id"}); r.onsuccess=()=>res(r.result); r.onerror=()=>rej(r.error); });
+    files=await new Promise(res=>{ try{ const q=db.transaction("files").objectStore("files").getAll(); q.onsuccess=()=>res(q.result||[]); q.onerror=()=>res([]); }catch(e){ res([]); } });
+    files=await Promise.all(files.map(async f=>{ const o={...f}; for (const [k,v] of Object.entries(o)) if (v instanceof Blob){ o[k]={__blob:true,type:v.type,data:await new Promise(r=>{const fr=new FileReader();fr.onload=()=>r(fr.result);fr.readAsDataURL(v);})}; } return o; })); }catch(e){}
+  const out={app:"court-companion",version:1,saved:new Date().toISOString(),keys,files};
+  _.download("court-companion-backup-"+new Date().toISOString().slice(0,10)+".json", JSON.stringify(out), "application/json");
+  try{ localStorage.setItem("cc:lastBackup", new Date().toISOString()); }catch(e){}
+  toast("Backup saved. Keep the file somewhere safe (Files, iCloud Drive or email it to yourself).");
+};
+CC.restore = () => {
+  const inp=document.createElement("input"); inp.type="file"; inp.accept="application/json,.json";
+  inp.onchange = async () => { const f=inp.files[0]; if (!f) return; let d; try{ d=JSON.parse(await f.text()); }catch(e){ return toast("That file isn't a Court Companion backup."); }
+    if (d.app!=="court-companion"||!d.keys) return toast("That file isn't a Court Companion backup.");
+    if (!confirm("Restore this backup? It replaces what's saved in this browser.")) return;
+    try{ Object.entries(d.keys).forEach(([k,v])=>{ if (k.startsWith("cc:")) localStorage.setItem(k,v); }); }catch(e){ return toast("This browser blocked saving."); }
+    try{ if ((d.files||[]).length){ const db=await new Promise((res,rej)=>{ const r=indexedDB.open("cc-files",1); r.onupgradeneeded=()=>r.result.createObjectStore("files",{keyPath:"id"}); r.onsuccess=()=>res(r.result); r.onerror=()=>rej(r.error); });
+      const tx=db.transaction("files","readwrite"), st=tx.objectStore("files");
+      for (const f of d.files){ const o={...f}; for (const [k,v] of Object.entries(o)) if (v&&v.__blob){ o[k]=await (await fetch(v.data)).blob(); } st.put(o); } } }catch(e){}
+    toast("Restored."); setTimeout(()=>location.reload(),600); };
+  inp.click();
+};
+try{ navigator.storage && navigator.storage.persist && navigator.storage.persist(); }catch(e){}
 CC.useDemo = () => { try{ localStorage.setItem("cc:active","demo"); }catch(e){} location.reload(); };
 CC.useMine = () => { try{ localStorage.setItem("cc:active","mine"); }catch(e){} location.reload(); };
 
