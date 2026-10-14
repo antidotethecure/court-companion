@@ -1,0 +1,607 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Courtroom Practice</title><meta name="description" content="Practice saying it the way the court needs to hear it. A Court Companion demo.">
+<link rel="icon" href="../icons/icon-192.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;700&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f2e9;--card:#fffdf8;--ink:#0b1f3a;--muted:#5b6474;--line:#e3dccd;--accent:#1b2a4a;--tag:#efe7d6;--risk:#b42318;--riskbg:#fdf0ee;--gold:#c9a24a}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1526;--card:#14203a;--ink:#eef1f7;--muted:#9aa6bb;--line:#24324f;--accent:#e8b04b;--tag:#1c2a47;--risk:#ff8a7a;--riskbg:#2a1715}}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 Inter,-apple-system,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:16px 16px 40px}.muted{color:var(--muted)}
+.hero{padding:18px 0 6px}.hero h1{font:700 32px/1.1 "EB Garamond",Georgia,serif;margin:0 0 6px}.hero p{margin:0 0 8px}
+.note{font-size:13px;border:1px solid var(--line);border-radius:12px;padding:10px 12px;background:var(--card)}
+a{color:var(--accent)}
+/* 🎯 Courtroom practice game */
+.drill{margin:10px 0 18px}
+.dr-box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:10px 0}
+.dr-chips{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.dr-chip{border:1.5px solid var(--line);background:var(--card);color:var(--ink);border-radius:20px;padding:7px 12px;font-size:14px}
+.dr-chip.on{border-color:var(--accent);background:var(--tag);color:var(--accent);font-weight:600}
+.dr-btn{display:block;width:100%;font-size:16px;font-weight:600;padding:12px;margin:8px 0;border-radius:12px;border:0;background:var(--accent);color:#fff}
+.dr-btn.alt{background:transparent;color:var(--accent);border:1.5px solid var(--accent)}
+.dr-who{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.dr-say{font-family:"EB Garamond",Georgia,serif;font-size:21px;line-height:1.35;margin:6px 0 10px}
+.dr-box textarea{width:100%;min-height:110px;font:16px/1.4 inherit;padding:10px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+.dr-row{display:flex;gap:8px}.dr-row .dr-btn{flex:1}
+.dr-v{font-size:22px;font-weight:800;text-align:center;padding:12px;border-radius:12px;margin:4px 0 10px}
+.dr-v.ok{background:#e3f6ea;color:#14713b}.dr-v.no{background:var(--riskbg);color:var(--risk)}
+@media (prefers-color-scheme:dark){.dr-v.ok{background:#13281b;color:#6fdc98}}
+.dr-need{list-style:none;padding:0;margin:6px 0}.dr-need li{padding:3px 0}
+.dr-model{border-left:4px solid var(--accent);padding:8px 12px;background:var(--tag);border-radius:8px;margin:8px 0}
+.dr-ch{display:block;width:100%;text-align:left;font-size:15px;padding:11px;margin:6px 0;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+.dr-bar{height:8px;background:var(--line);border-radius:6px;overflow:hidden;margin:6px 0}.dr-bar i{display:block;height:100%;background:var(--accent)}
+
+/* 🏛 Courtroom view (practice game) */
+#drRoom{position:fixed;inset:0;z-index:55;background:#120d09;color:#f3ede4;overflow:auto;-webkit-overflow-scrolling:touch}
+#drRoom .rm-top{position:sticky;top:0;z-index:2;background:#120d09;padding-top:env(safe-area-inset-top)}
+#rmScene svg{display:block;width:100%;max-width:720px;margin:0 auto;height:auto}
+.rm-cap{max-width:720px;margin:0 auto;padding:6px 12px;font:600 13px/1.3 -apple-system,sans-serif;letter-spacing:.05em;text-transform:uppercase;color:#e9c46a;min-height:24px}
+.rm-ctl{max-width:720px;margin:0 auto;display:flex;gap:8px;padding:0 12px 8px}
+.rm-ctl button{flex:1;font-size:13px;padding:7px;border-radius:16px;border:1px solid #5a4632;background:#1d1610;color:#f3ede4}
+#drRoom .dr-box{background:#1d1610;border-color:#3d2f22;color:#f3ede4}
+#drRoom .dr-box textarea{background:#120d09;color:#f3ede4;border-color:#3d2f22}
+#drRoom .muted,#drRoom .dr-who{color:#b9a993}
+#drRoom .dr-model{background:#2a2016;border-left-color:#e9c46a}
+#drRoom .dr-ch{background:#120d09;color:#f3ede4;border-color:#3d2f22}
+#drRoom .dr-btn{background:#b8892f;color:#120d09}#drRoom .dr-btn.alt{background:transparent;color:#e9c46a;border-color:#e9c46a}
+#drRoom .dr-chip{background:#1d1610;color:#f3ede4;border-color:#5a4632}
+#rmScene .mouth{transform-box:fill-box;transform-origin:center}
+#rmScene .talk .mouth{animation:rmMouth .16s infinite alternate}
+@keyframes rmMouth{to{transform:scaleY(3.2)}}
+#rmScene .talk .halo{opacity:1}
+#rmScene .halo{opacity:0;transition:opacity .2s}
+#rmScene .mad .brow{transform-box:fill-box;transform-origin:center}
+#rmScene .mad .brow.l{transform:rotate(18deg)}#rmScene .mad .brow.r{transform:rotate(-18deg)}
+#rmScene .bob{animation:rmBob 6s ease-in-out infinite}
+@keyframes rmBob{50%{transform:translateY(1px)}}
+
+#rmScene .fly{animation:rmFly 2.6s ease-out forwards}
+@keyframes rmFly{to{transform:translate(var(--dx),-240px) rotate(var(--r));opacity:0}}
+#rmScene .hd{animation:none}
+#rmScene .cheer .hd{animation:rmCheer .35s ease-in-out infinite alternate}
+@keyframes rmCheer{to{transform:translateY(-7px)}}
+#rmScene .tear{animation:rmTear 1.4s linear infinite}
+@keyframes rmTear{from{transform:translateY(0);opacity:.9}to{transform:translateY(14px);opacity:0}}
+#rmScene .cry .hd{transform:translateY(3px)}
+#rmScene .walk{animation:rmWalk 3.2s ease-in forwards}
+@keyframes rmWalk{to{transform:translate(-190px,70px)}}
+.rm-out{font:800 26px/1.15 Georgia,serif;text-align:center;padding:14px;border-radius:14px;margin:8px 0}
+.rm-out.win{background:#13281b;color:#6fdc98}.rm-out.loss{background:#2a1715;color:#ff8a7a}.rm-out.mid{background:#2a2412;color:#e9c46a}
+
+#rmScene .rm-photo{position:relative;width:100%;max-width:720px;margin:0 auto;aspect-ratio:4/3;overflow:hidden;background:#000}
+#rmScene .rm-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .35s ease}
+#rmScene .rm-photo img.kb{animation:rmKB 14s ease-in-out infinite alternate}
+@keyframes rmKB{from{transform:scale(1.02)}to{transform:scale(1.09) translate(-1%,-1%)}}
+#rmScene .rm-load{position:absolute;inset:auto 0 8px 0;text-align:center;font-size:12px;color:#e9c46a;text-shadow:0 1px 2px #000}
+
+.dr-drawer{overflow:hidden;max-height:0;transition:max-height .45s ease;border-radius:12px;background:linear-gradient(#5a3d27,#3b2716);box-shadow:inset 0 6px 12px rgba(0,0,0,.45)}
+.dr-drawer.open{max-height:1200px}
+.dr-closet{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;padding:8px}
+.dr-closet button{border:2px solid transparent;border-radius:10px;padding:0;background:#1d1610;color:#f3ede4;font-size:13px;font-weight:600;overflow:hidden;text-align:left}
+.dr-closet button img{display:block;width:100%;aspect-ratio:1;object-fit:cover}
+.dr-closet button span{display:block;padding:4px 6px;font-size:11px;line-height:1.2}
+.dr-closet button.on{border-color:#e9c46a}
+
+</style></head><body>
+<div class="wrap">
+ <div class="hero"><p class="muted" style="font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:12px">⚖️ Court Companion · Demo</p>
+ <h1>Courtroom Practice</h1>
+ <p>Step into a real-feeling courtroom. The judge asks, the prosecutor objects, and you answer out loud: fast, clear and in the words the court needs to hear. Every card comes from a real case on the public record, mixed together; at the end you see how those cases really ended.</p></div>
+ <div class="drill" id="drill"></div>
+ <p class="note">🎓 <b>Practice and education only, not legal advice.</b> Cases and quotes come from public court opinions; characters are fictional. Talk to a lawyer about your own case. <a href="../">← Court Companion</a></p>
+</div>
+<div id="drRoom" hidden><div class="rm-top"><div id="rmScene"></div><div class="rm-cap" id="rmCap"></div><div class="rm-ctl"><button id="rmLook" onclick="drLook()">👀 Look back at the gallery</button><button onclick="drLeave()">🚪 Leave courtroom</button></div></div><div id="rmPanel" class="wrap" style="padding-top:4px"></div></div>
+
+<script src="cases.js"></script>
+<script>
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function toast(m){const t=document.createElement("div");t.textContent=m;
+  t.style.cssText="position:fixed;left:12px;right:12px;bottom:12px;z-index:60;background:#1c2333;color:#fff;border:1px solid #3a4560;border-radius:14px;padding:14px;font-size:15px;box-shadow:0 6px 24px rgba(0,0,0,.35)";
+  document.body.appendChild(t);setTimeout(()=>t.remove(),7000);}
+
+const TTS=window.speechSynthesis;let TQ=[],TSPK=false,RATE=+(localStorage.getItem("ttsRate")||1);
+function bestVoice(){const v=TTS?TTS.getVoices().filter(x=>/^en[-_]US/i.test(x.lang)):[];
+  return v.find(x=>/premium|enhanced/i.test(x.name))||v.find(x=>/samantha|ava|allison|google us/i.test(x.name))||v.find(x=>x.localService)||v[0]||null;}
+function chunks(t){t=t.replace(/[‹›↗🔊]/g," ").replace(/\s+/g," ").trim();const out=[];
+  (t.match(/[^.!?]+[.!?]*\s*/g)||[t]).forEach(p=>{while(p.length>220){let k=p.lastIndexOf(",",220);if(k<80)k=p.lastIndexOf(" ",220);if(k<1)k=220;out.push(p.slice(0,k+1));p=p.slice(k+1);}if(p.trim())out.push(p);});return out;}
+function ttsNext(){if(!TQ.length){TSPK=false;ttsUI();return;}
+  const u=new SpeechSynthesisUtterance(TQ.shift());const v=bestVoice();if(v)u.voice=v;u.lang="en-US";u.rate=RATE;u.volume=1;
+  u.onend=ttsNext;u.onerror=ttsNext;TTS.speak(u);}
+function ttsSay(text){if(!TTS){toast("This browser can't read aloud.");return;}TTS.cancel();TQ=chunks(text);TSPK=true;ttsUI();ttsNext();}
+function ttsStop(){TQ=[];TSPK=false;if(TTS)TTS.cancel();if(typeof voStop==="function")voStop();ttsUI();}
+function ttsPause(){if(!TTS)return;if(TTS.paused){TTS.resume()}else{TTS.pause()}ttsUI();}
+function ttsUI(){const p=document.getElementById("ttsP");if(!p)return;p.style.display=TSPK?"":"none";
+  document.getElementById("ttsS").style.display=TSPK?"":"none";p.textContent=TTS&&TTS.paused?"▶ Resume":"⏸ Pause";}
+
+function ttsUI(){}
+/* ───── 🎯 Courtroom practice: judge / AUSA / DA / my lawyer say a line, I answer, graded on what the court needs to hear ───── */
+const DRW={judge:"👩‍⚖️ The judge",ausa:"🏛 The AUSA (prosecutor)",da:"🏛 The DA",pd:"👔 My public defender",cja:"👔 My federal lawyer",quiz:"⏱ Deadline quiz"};
+const DRDECKS=[["all","All"],["fed","Federal court"],["state","State court"],["lawyer","My lawyer"],["quiz","Deadlines"]];
+let DR=null;
+function drLS(k,v){try{if(v===undefined)return JSON.parse(localStorage.getItem("drill:"+k)||"null");localStorage.setItem("drill:"+k,JSON.stringify(v));}catch(e){return null;}}
+function drDeck(c,d){if(d==="all")return true;if(d==="lawyer")return c.who==="pd"||c.who==="cja";if(d==="quiz")return c.who==="quiz";
+  return c.who!=="pd"&&c.who!=="cja"&&c.who!=="quiz"&&(c.case===d||c.case==="both");}
+function drWireRx(list){return list.map(p=>{try{return new RegExp(p,"im")}catch(e){return null}}).filter(Boolean);}
+function drGrade(c,t){const need=c.need.map(g=>({k:g.k,hit:drWireRx(g.any).some(r=>r.test(t))}));
+  const bad=(c.avoid||[]).filter(a=>drWireRx(a.any).some(r=>r.test(t)));return {need,bad,pass:need.every(x=>x.hit)&&!bad.length};}
+function drillWire(root){root.querySelectorAll(".drill").forEach(el=>{const it=DATA.sections.find(x=>x.id===el.dataset.s).items[+el.dataset.i];
+  DR={el,cards:it.cards,cases:it.cases||[],art:it.art||null,deck:drLS("deck")||"all",mode:"home"};drHome();});}
+function drMix(mine,cs){const out=mine.slice();cs.forEach(k=>k.cards.forEach(c=>out.push({...c,_case:k.name,_cite:k.cite,_real:k.real,_cast:k.cast})));return out;}
+function drShuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function drSrcBar(){const r=DR.src==="random";return `<div class="dr-chips" style="margin:0 0 6px"><button class="dr-chip${r?"":" on"}" onclick="DR.src='mine';drLS('src','mine');drHome()">📁 Practice deck</button><button class="dr-chip${r?" on":""}" onclick="DR.src='random';drLS('src','random');drHome()">🎲 Random case${DR.cases.length?` (${DR.cases.length})`:""}</button></div>`;}
+function drRandomHome(){const cs=DR.cases;DR.caseObj=null;
+  DR.el.innerHTML=drSrcBar()+`<div class="dr-box"><div class="dr-who">Real cases from the public record</div>
+  <p style="margin:6px 0">You play the defendant in a real case. Say the right words and you can win the motion, get it dismissed or get acquitted. Blow it and the judge hands down the max. Afterward you see what really happened.</p>
+  ${cs.length?`<button class="dr-btn" onclick="drBrief(${Math.floor(Math.random()*cs.length)})">🎲 Deal me a random case</button>
+  ${cs.map((c,i)=>`<button class="dr-ch" onclick="drBrief(${i})"><b>${esc(c.name)}</b>${c.verify?" <span class='muted'>(verify)</span>":""}<br><span class="muted">${esc(c.cite||"")} · ${esc(c.charge||"")}</span></button>`).join("")}`:`<p class="muted">Case library is still being built.</p>`}</div>`;}
+function drBrief(i){const c=DR.cases[i];DR.caseObj=c;
+  DR.el.innerHTML=drSrcBar()+`<div class="dr-box"><div class="dr-who">🎲 Case file</div><div class="dr-say" style="font-size:24px">${esc(c.name)}</div>
+  <p class="muted" style="margin:0 0 8px">${esc(c.cite||"")} · ${esc(c.court||"")}${c.verify?" · <b>cite not yet verified</b>":""}</p>
+  <p><b>Charge:</b> ${esc(c.charge||"")}</p><p>${esc(c.setup||"")}</p><p><b>Your role:</b> ${esc(c.role||"You are the defendant.")}</p>
+  <button class="dr-btn" onclick="drStartCase('practice')">▶ Enter the courtroom (practice)</button>
+  <button class="dr-btn alt" onclick="drStartCase('test')">🎓 Play it for real (no hints)</button>
+  <button class="dr-chip" onclick="drRandomHome()">‹ Pick a different case</button></div>`;}
+function drStartCase(mode){voUnlock();const c=DR.caseObj;DR.mode=mode;DR.mood=0;DR.moodLog=[];DR.morning=null;DR.q=c.cards.slice();DR.i=0;DR.score=0;DR.miss=[];const go=()=>{if(drRoomOn())drEnter(mode);else drCard();};if(drMorningOn())drMorning(go);else go();}
+function drHome(){if(window.TTS)ttsStop();if(DR.tick)drStop();DR.src=DR.src||drLS("src")||"mine";if(DR.src==="random")return drRandomHome();DR.caseObj=null;
+  const n=DR.cards.filter(c=>drDeck(c,DR.deck)).length,best=drLS("best:"+DR.deck);
+  DR.el.innerHTML=drSrcBar()+`<div class="dr-box"><div class="dr-who">Pick a deck</div><div class="dr-chips">${DRDECKS.map(([k,l])=>`<button class="dr-chip${k===DR.deck?" on":""}" onclick="drSetDeck('${k}')">${l}</button>`).join("")}</div>
+  <p class="muted" style="margin:4px 0">${n} cards${best?` · best test score <b>${best.pct}%</b> (${esc(best.on)})${best.pct>=80?" · ✅ READY FOR COURT":""}`:""}</p>
+  <button class="dr-chip${drRoomOn()?" on":""}" onclick="drLS('room',!drRoomOn());drHome()">🏛 Courtroom view: ${drRoomOn()?"on":"off"}</button>
+  <button class="dr-chip${drMorningOn()?" on":""}" onclick="drLS('morning',!drMorningOn());drHome()">⏰ Morning rush: ${drMorningOn()?"on":"off"}</button>
+  <button class="dr-chip${drLS("speak")===false?"":" on"}" onclick="drLS('speak',drLS('speak')===false);drHome()">🎤 Say it out loud: ${drLS("speak")===false?"off":"on"}</button>
+  <button class="dr-chip${drLS("timer")===false?"":" on"}" onclick="drLS('timer',drLS('timer')===false);drHome()">⏱ Response clock: ${drLS("timer")===false?"off":"on"}</button>
+  <button class="dr-btn" onclick="drStart('practice')">▶ Practice (hints on, retry until you get it)</button>
+  <button class="dr-btn alt" onclick="drStart('test')">🎓 Take the test (${Math.min(10,n)} random cards, no hints, 80% = ready for court)</button></div>`;}
+function drSetDeck(k){DR.deck=k;drLS("deck",k);drHome();}
+function drStart(mode){voUnlock();const pool=DR.cards.filter(c=>drDeck(c,DR.deck));DR.mode=mode;DR.mood=0;DR.moodLog=[];DR.morning=null;DR.q=mode==="test"?drShuffle(pool).slice(0,10):pool.slice();DR.i=0;DR.score=0;DR.miss=[];const go=()=>{if(drRoomOn())drEnter(mode);else drCard();};if(drMorningOn())drMorning(go);else go();}
+function drCard(){if(window.TTS)ttsStop();if(DR.tick)drStop();if(DR.i>=DR.q.length)return drEnd();const c=DR.q[DR.i];DR.tries=0;
+  if(DR.inRoom&&rmPhotoOn()){DR.look=false;document.getElementById("rmLook").textContent="👀 Look back at the gallery";rmShot(artFace(drCourt(c),c.who==="quiz"?"clerk":c.who,drMoodState()[1],false));rmMurmur(0.03);document.getElementById("drRoom").scrollTop=0;}
+  else if(DR.inRoom){DR.look=false;document.getElementById("rmLook").textContent="👀 Look back at the gallery";document.getElementById("rmScene").innerHTML=rmScene(c.case,c.who==="pd"||c.who==="cja");rmFace(drMoodState()[1]);rmMurmur(0.03);document.getElementById("drRoom").scrollTop=0;}
+  drTarget().innerHTML=`<div class="dr-bar"><i style="width:${Math.round(100*DR.i/DR.q.length)}%"></i></div>
+  <div class="dr-box"><div class="dr-who">${DRW[c.who]||""} · ${esc(c.stage)} · ${c.case==="fed"?"Federal":c.case==="state"?"State":"Both cases"} · ${DR.i+1}/${DR.q.length}</div>
+  ${c._case?`<div class="muted" style="font-size:12px;margin:2px 0">📜 From the record: <b>${esc(c._case)}</b> · ${esc(c._cite||"")}</div>`:""}
+  <div id="drMood" style="display:flex;align-items:center;font-size:13px;margin:4px 0 8px"></div>
+  <div class="dr-say">“${esc(c.say)}”</div>${c.say_real?`<div class="muted" style="font-size:12px;margin:-6px 0 8px">📜 Real words from the record: ${esc(c.say_src||"")}</div>`:""}
+  ${drTimerOn()?`<div class="dr-bar" style="height:12px"><i id="drT" style="width:100%;background:#1f9d55;transition:width .25s linear"></i></div><div id="drTl" class="muted" style="font-size:13px"></div>`:""}
+  <button class="dr-chip" onclick="voSay(DR.q[DR.i].say,DR.q[DR.i].who)">🔊 Hear it</button>
+  <p style="margin:12px 0 6px"><b>Your answer</b> <span class="muted">(type it, or tap 🎤 and talk)</span></p>
+  <textarea id="drA" placeholder="Your Honor, …"></textarea>
+  <div class="dr-row"><button class="dr-btn" onclick="drSubmit()">Answer</button><button class="dr-btn alt" style="flex:0 0 64px" onclick="drMic(this)" aria-label="Talk">🎤</button></div>
+  <div class="dr-row">${DR.mode==="practice"?`<button class="dr-btn alt" onclick="drHint()">💡 What do they need?</button>`:""}<button class="dr-btn alt" onclick="drChoices()">Show choices</button></div>
+  <div id="drX"></div></div>${DR.inRoom?"":`<button class="dr-chip" onclick="drHome()">‹ Quit to decks</button>`}`;
+  drMoodUI();setTimeout(()=>drVoice(c.say,c.who),150);drClock(c);}
+function drHint(){const c=DR.q[DR.i];document.getElementById("drX").innerHTML=`<div class="dr-model"><b>The court needs to hear:</b><ul class="dr-need">${c.need.map(g=>`<li>• ${esc(g.k)}</li>`).join("")}</ul></div>`;}
+function drChoices(){const c=DR.q[DR.i];const ch=drShuffle(c.choices.map((x,k)=>({...drChoiceObj(x),k})));
+  document.getElementById("drX").innerHTML=ch.map(x=>`<button class="dr-ch" onclick="drPick(${x.k})">${esc(x.text)}</button>`).join("");}
+function drPick(k){if(drHush())return;const c=DR.q[DR.i],x=drChoiceObj(c.choices[k]);document.getElementById("drA").value=x.text;DR.picked=x;
+  const go=d=>{DR.delivery=d;drResult(drGrade(c,x.text),x.ok?null:((c.trap||{})[String(k)]||x.why||null),x.ok===1);};
+  if(drSpeakOn()){DR.pauseClock=drStop();drSpeakStep(x.text,go);}else go(null);}
+function drHush(){if(!DR.inRoom||!(DR.speaking||(DR.t0&&Date.now()<DR.t0)))return false;DR.lim=Math.max(10,DR.lim-5);drMood(-10,"Spoke while the court was talking");
+  rmMurmur(0.07);setTimeout(()=>rmMurmur(0.03),1500);rmSpeak("Quiet in the courtroom. Wait until the court addresses you.","bailiff",()=>{DR.t0=Date.now();});toast("🤫 You spoke while the court was talking. −5 seconds.");return true;}
+function drSubmit(){if(drHush())return;const t=(document.getElementById("drA").value||"").trim();if(!t){toast("Say or type your answer first.");return;}drResult(drGrade(DR.q[DR.i],t));}
+function drResult(g,trap,forced){const c=DR.q[DR.i];let secs=drStop();if(secs==null&&DR.pauseClock!=null)secs=DR.pauseClock;DR.pauseClock=null;let pass=forced!==undefined?forced&&g.pass:g.pass;DR.tries++;
+  const dv=DR.delivery,dg=drDeliveryGrade(dv);DR.delivery=null;const pk=DR.picked;DR.picked=null;
+  const said=(dv&&dv.heard)||((document.getElementById("drA")||{}).value||""),story=!["pd","cja","quiz"].includes(c.who)&&c.seat!=="witness"&&drStory(said);
+  if(story){pass=false;}
+  let mv=null;if(DR.tries===1){if(pass)DR.score++;else DR.miss.push(c);mv=drMoodScore(c,g,secs,(document.getElementById("drA")||{}).value||"",pass);}
+  const box=document.getElementById("drX");
+  if(story&&DR.tries===1)drMood(-15,"Told your story instead of the law");
+  box.innerHTML=`${story?drStoryHtml():""}<div class="dr-v ${pass?"ok":"no"}">${pass?"✅ "+esc(c.win):"❌ "+esc(c.lose)}</div>
+   <b>${pass?"You hit everything the court needed:":"What the court needed to hear:"}</b>
+   <ul class="dr-need">${g.need.map(n=>`<li>${n.hit?"✅":"❌"} ${esc(n.k)}</li>`).join("")}</ul>
+   ${secs!=null?`<p class="muted">⏱ You answered in ${secs}s of ${DR.lim}s.${secs>DR.lim*0.66?" <b style='color:var(--risk)'>Too slow: in court the judge was already losing patience. Have this one ready word for word.</b>":secs<=DR.lim*0.33?" Sharp. That's how it sounds when you're ready.":""}</p>`:""}
+   ${drDeliveryHtml(dv,dg)}${pk&&pk.src?`<p class="muted" style="font-size:13px">That answer: <b>${esc(pk.src)}</b>${pk.why?" · "+esc(pk.why):""}</p>`:""}
+   ${mv?`<p style="font-size:14px">${mv.d>=0?"⬆️":"⬇️"} Judge's mood ${mv.d>=0?"+":""}${mv.d}${mv.why.length?" ("+esc(mv.why.join(", "))+")":""} → <b>${drMoodState()[2]}</b></p>`:""}
+   ${g.bad.map(b=>`<p style="color:var(--risk)">⚠️ ${esc(b.why)}</p>`).join("")}${trap?`<p style="color:var(--risk)">⚠️ ${esc(trap)}</p>`:""}
+   <div class="dr-model"><b>Say it like this:</b><br>${esc(c.model)} <button class="dr-chip" onclick="voSay(DR.q[DR.i].model,'coach')">🔊</button></div>
+   <p><b>Why:</b> ${esc(c.why)}</p>${c.cite?`<p class="muted">${esc(c.cite)}${c.verify?" · <b>verify this cite before using it</b>":""}</p>`:""}
+   <div class="dr-row">${!pass&&DR.mode==="practice"?`<button class="dr-btn alt" onclick="drRetry()">↺ Try again</button>`:""}<button class="dr-btn" onclick="DR.i++;drCard()">Next ›</button></div>`;
+  if(dg&&DR.tries===1){drMood(dg.delta,"Delivery "+dg.grade);}
+  if(story){if(DR.inRoom){rmGavel(1);rmSpeak(c.case==="state"?"Objection, Your Honor. The defendant is testifying. He's not under oath.":"Objection, Your Honor. The defendant is testifying. He's not under oath.",c.case==="state"?"da":"ausa",()=>rmSpeak("Sustained. Mr. Defendant, you are not under oath. Argue the facts in the record and the law, not your story.","judge"));}
+    else if(window.TTS)ttsSay("Objection. The defendant is testifying. Sustained. Argue the record and the law, not your story.");}
+  else
+  if(DR.inRoom&&dg&&dg.issues.length){rmSpeak(dg.issues[0][1],c.who==="ausa"||c.who==="da"?"judge":c.who==="quiz"?"judge":c.who,()=>{});}
+  else if(DR.inRoom){if(!pass)rmGavel(1);rmSpeak(pass?(c.who==="pd"||c.who==="cja"?"Okay. I'll do that.":c.who==="quiz"?"Correct.":c.win.charAt(0)+c.win.slice(1).toLowerCase()+"."):(c.who==="pd"||c.who==="cja"?"I hear you, but I'm going to handle it my way.":c.who==="quiz"?"Incorrect.":c.lose.charAt(0)+c.lose.slice(1).toLowerCase()+"."),c.who==="ausa"||c.who==="da"?"judge":c.who);}
+  else if(window.TTS)ttsSay((pass?c.win+". ":c.lose+". ")+(pass?"":"Say it like this. "+c.model));
+  box.scrollIntoView({behavior:"smooth",block:"start"});}
+function drRetry(){document.getElementById("drA").value="";document.getElementById("drX").innerHTML="";document.getElementById("drA").focus();drClock(DR.q[DR.i]);}
+/* Response clock: starts after they finish their line. Court cards 30s, lawyer 45s, quiz 20s. At 2/3 the judge
+   prompts "Mr. Defendant?"; at zero the request is denied and the court moves on. Test mode always runs the clock. */
+function drTimerOn(){return DR.mode==="test"||drLS("timer")!==false;}
+const DRTO={judge:"Nothing, Mr. Defendant? Then it's denied. Next matter.",ausa:"Hearing no response, the objection is sustained. Move on.",da:"Hearing no response, the objection is sustained. Move on.",pd:"Okay, I'll go ahead and handle it the way I think is best.",cja:"Okay, just come by the office sometime.",quiz:"Time's up."};
+function drStop(){clearInterval(DR.tick);DR.tick=null;if(!DR.t0)return null;const s=Math.max(0,Math.round((Date.now()-DR.t0)/1000));DR.t0=null;return drTimerOn()?s:null;}
+function drClock(c){clearInterval(DR.tick);DR.lim=c.who==="quiz"?20:(c.who==="pd"||c.who==="cja")?45:30;
+  const grace=Math.min(12,Math.ceil(c.say.length/14));DR.t0=Date.now()+grace*1000;DR.nudged=false;if(!drTimerOn())return;
+  DR.tick=setInterval(()=>{const bar=document.getElementById("drT"),lab=document.getElementById("drTl");if(!bar){clearInterval(DR.tick);return;}
+    const el=(Date.now()-DR.t0)/1000;if(el<0){lab.textContent="Listen…";return;}
+    const left=Math.max(0,DR.lim-el),f=left/DR.lim;bar.style.width=(100*f)+"%";bar.style.background=f>.5?"#1f9d55":f>.25?"#d99a00":"#d64545";
+    lab.textContent=f>.5?`${Math.ceil(left)}s to answer`:f>.25?`${Math.ceil(left)}s · they're waiting…`:`${Math.ceil(left)}s · losing patience`;
+    if(DR.inRoom&&f<=.5)rmMurmur(f<=.25?0.09:0.06);
+    if(f<=.34&&!DR.nudged&&c.who!=="quiz"){DR.nudged=true;const j=document.getElementById("sp-judge");if(j)j.classList.add("mad");drVoice(c.who==="pd"||c.who==="cja"?"Hello? You there?":"Mr. Defendant? The court is waiting.",c.who==="ausa"||c.who==="da"?"judge":c.who);}
+    if(left<=0)drTimeout();},250);}
+function drTimeout(){const c=DR.q[DR.i];clearInterval(DR.tick);DR.tick=null;DR.t0=null;DR.tries++;if(DR.tries===1){DR.miss.push(c);drMood(-25,"Ran out the clock");}
+  const box=document.getElementById("drX");
+  box.innerHTML=`<div class="dr-v no">⏰ TIME'S UP · ${esc(c.lose)}</div><p><i>“${esc(drTitle(DRTO[c.who]||"Time's up."))}”</i></p>
+   <p>In court, a long silence reads as "no objection" or "nothing to add." Know the first sentence cold so you can start talking right away.</p>
+   <div class="dr-model"><b>Say it like this:</b><br>${esc(c.model)} <button class="dr-chip" onclick="voSay(DR.q[DR.i].model,'coach')">🔊</button></div>
+   <p><b>Why:</b> ${esc(c.why)}</p>
+   <div class="dr-row">${DR.mode==="practice"?`<button class="dr-btn alt" onclick="drRetry()">↺ Try again</button>`:""}<button class="dr-btn" onclick="DR.i++;drCard()">Next ›</button></div>`;
+  if(DR.inRoom){rmGavel(2);rmMurmur(0.03);}drVoice(DRTO[c.who]||"Time's up.",c.who==="ausa"||c.who==="da"?"judge":c.who);box.scrollIntoView({behavior:"smooth",block:"start"});}
+function drMic(btn){const R=window.SpeechRecognition||window.webkitSpeechRecognition;const ta=document.getElementById("drA");
+  if(!R){toast("Tap the text box, then the 🎤 on your keyboard to talk.");ta.focus();return;}
+  try{const r=new R();r.lang="en-US";r.interimResults=true;r.continuous=false;const base=ta.value?ta.value+" ":"";btn.textContent="⏺";
+   r.onresult=e=>{ta.value=base+Array.from(e.results).map(x=>x[0].transcript).join("");};r.onend=()=>{btn.textContent="🎤";};r.onerror=()=>{btn.textContent="🎤";toast("Mic didn't work. Use the keyboard 🎤 instead.");};r.start();}
+  catch(e){toast("Tap the text box, then the 🎤 on your keyboard to talk.");ta.focus();}}
+function drEnd(){const n=DR.q.length,pct=n?Math.round(100*DR.score/n):0;
+  const kase=DR.q.filter(c=>c.case==="state").length>DR.q.length/2?"state":"fed",fin=Math.round(0.7*pct+0.3*(((DR.mood||0)+100)/2)),o=drOutcome(fin,kase);
+  if(DR.mode==="test"){const b=drLS("best:"+DR.deck);if(!b||pct>=b.pct)drLS("best:"+DR.deck,{pct,on:new Date().toLocaleDateString("en-US",{month:"short",day:"numeric"})});}
+  drTarget().innerHTML=`<div class="rm-out ${o.k}">${esc(o.big)}<div style="font:500 14px/1.4 -apple-system,sans-serif;margin-top:6px">${esc(o.sub)}</div></div>
+  <p class="muted" style="font-size:12px;text-align:center">Score ${pct}% · judge's mood ${drMoodState()[2]} → final ${fin}. Game outcome, not a prediction of your real case.</p>${DR.inRoom?`<button class="dr-chip" onclick="rmVerdict(drOutcome(${fin},'${kase}'),'${kase}')">↺ Replay the verdict</button>`:""}<div class="dr-box"><div class="dr-v ${pct>=80?"ok":"no"}">${DR.score}/${n} right on the first try · ${pct}%</div>
+  <p style="text-align:center;font-weight:700">${pct>=80?"✅ READY FOR COURT on this deck. Run it again the morning of.":"Keep practicing. You need 80% to be ready."}</p>
+  ${(()=>{if(DR.caseObj)return "";const seen=[...new Map(DR.q.filter(c=>c._case).map(c=>[c._case,c])).values()];return seen.length?`<div class="dr-model"><b>How the real cases you played turned out:</b>${seen.map(c=>`<p style="margin:6px 0"><b>${esc(c._case)}</b> (${esc(c._cite||"")}): ${esc(c._real||"")}</p>`).join("")}</div>`:"";})()}
+  ${DR.caseObj?`<div class="dr-model"><b>What really happened in ${esc(DR.caseObj.name)}:</b><br>${esc(DR.caseObj.real||"")}<br><br><b>Lesson:</b> ${esc(DR.caseObj.lesson||"")}</div>`:""}
+  ${DR.miss.length?`<b>Practice these again:</b><ul class="dr-need">${DR.miss.map(c=>`<li>❌ ${esc(c.say)}</li>`).join("")}</ul><button class="dr-btn" onclick="drRedo()">▶ Practice just the ones I missed</button>`:""}
+  <button class="dr-btn alt" onclick="${DR.inRoom?"drLeave()":"drHome()"}">‹ Back to decks</button></div>`;
+  if(DR.inRoom){document.getElementById("drRoom").scrollTop=0;rmVerdict(o,kase);}else if(window.TTS)ttsSay(pct>=80?"Ready for court.":"Keep practicing.");}
+function drRedo(){DR.mode="practice";DR.q=DR.miss.slice();DR.i=0;DR.score=0;DR.miss=[];drCard();}
+
+
+
+/* ───── Judge's mood: fast clean answers win her over; hesitating, "um/uh", stutters, misses and talking over the court
+   push her toward furious. Verdict = 70% score + 30% mood. Faces/art read DR.mood through drMoodState(). ───── */
+const DRMOODS=[[40,"happy","😊 On your side"],[-20,"neutral","😐 Listening"],[-55,"stern","😠 Losing patience"],[-101,"furious","🤬 Furious"]];
+function drMoodState(m){m=m===undefined?(DR?DR.mood||0:0):m;return DRMOODS.find(x=>m>=x[0]);}
+function drFillers(t){const f=(t.match(/\b(u+m+|u+h+|e+r+m*|hmm+|like,|you know|i mean|kinda|sorta)\b/gi)||[]).length;
+  const r=(t.match(/\b(\w+)[\s,.-]+\1\b/gi)||[]).filter(x=>!/^(that that|had had)$/i.test(x)).length;return {f,r};}
+function drMood(delta,why){if(!DR)return;const before=drMoodState()[1];DR.mood=Math.max(-100,Math.min(100,(DR.mood||0)+delta));
+  if(why)(DR.moodLog=DR.moodLog||[]).push([delta,why]);drMoodUI();const after=drMoodState()[1];
+  if(after!==before&&window.rmFace)rmFace(after);}
+function drMoodUI(){const el=document.getElementById("drMood");if(!el)return;const st=drMoodState(),pct=Math.round(((DR.mood||0)+100)/2);
+  el.innerHTML=`<span>⚖ Judge: <b>${st[2]}</b></span><span class="dr-bar" style="flex:1;height:8px;margin:0 0 0 8px"><i style="width:${pct}%;background:${pct>=70?"#1f9d55":pct>=40?"#d99a00":"#d64545"}"></i></span>`;}
+function drMoodScore(c,g,secs,text,pass){let d=pass?12:-15;const why=[];
+  if(secs!=null){if(secs<=DR.lim*0.33){d+=10;why.push("fast answer");}else if(secs<=DR.lim*0.66){d+=3;}else{d-=8;why.push("slow answer");}}
+  if(text){const {f,r}=drFillers(text);const pen=Math.min(16,4*(f+r));if(pen){d-=pen;why.push((f?f+" filler word"+(f>1?"s":""):"")+(f&&r?", ":"")+(r?r+" repeated word"+(r>1?"s":""):""));}}
+  drMood(d,(pass?"Hit the key words":"Missed the key words")+(why.length?" · "+why.join(", "):""));return {d,why};}
+
+
+/* ───── Photo courtroom (Higgsfield renders): wide shot from my seat + close-up coverage per speaker, mood faces,
+   talking frames. Art keys: "<court>.<who>.<state>" (see drills/art/build_art.py). Falls back to the drawn scene. ───── */
+const ARTC={};
+async function artUrl(k){if(ARTC[k])return ARTC[k];const a=DR&&DR.art&&DR.art[k];if(!a)return null;
+  if(typeof a==="string"||a.src){return ARTC[k]=a.src||a;}
+  const r=await fetch("m/"+a.m);if(!r.ok)throw new Error("art "+r.status);const b=new Uint8Array(await r.arrayBuffer());
+  const pt=await crypto.subtle.decrypt({name:"AES-GCM",iv:b.slice(0,12)},KEY,b.slice(12));
+  return ARTC[k]=URL.createObjectURL(new Blob([pt],{type:a.mime||"image/webp"}));}
+function artHas(k){return !!(DR&&DR.art&&DR.art[k]);}
+async function artPreload(court,onp){const ks=Object.keys(DR.art||{}).filter(k=>(k.startsWith(court+".")||k.startsWith("any."))&&(!/\.(loop_|clip\.)/.test(k)||k===court+".judge.loop_neutral"));let n=0;
+  await Promise.all(ks.map(k=>artUrl(k).catch(()=>null).then(()=>{n++;if(onp)onp(n,ks.length);})));return ks.length;}
+function drCourt(c){if(c&&c._cast&&DR&&DR.art&&DR.art[c._cast+".wide"])return c._cast;return (c&&c.case)==="state"?"state":"fed";}
+function artHasAny(k){return artHas(k)||!!loopKey(k);}
+function artFace(court,who,mood,talk){/* -> art key for this speaker in this mood */
+  const m=mood||"neutral";
+  if(who==="judge"){const k=talk?`${court}.judge.talk_${m==="happy"?"happy":m==="neutral"?"neutral":"angry"}`:`${court}.judge.${m}`;return artHasAny(k)?k:`${court}.judge.neutral`;}
+  const cur=DR&&DR.q&&DR.q[DR.i];if((who==="ausa"||who==="da")&&cur&&(cur.seat==="witness"||/testif|on the stand|cross-exam/i.test(cur.stage||""))&&artHas(court+".witness.neutral"))return court+".witness.neutral";
+  if(who==="ausa"||who==="da"||who==="pros"){const k=talk?`${court}.pros.talk`:`${court}.pros.${m==="happy"?"frustrated":(m==="stern"||m==="furious")?"smug":"neutral"}`;return artHasAny(k)?k:`${court}.pros.neutral`;}
+  if(who==="pd"||who==="cja"){const k=`${court}.pd.${talk?"talk":"neutral"}`;return artHasAny(k)?k:`${court}.wide`;}
+  if(who==="quiz"||who==="clerk"){const k=`${court}.clerk.${talk?"talk":"neutral"}`;return artHasAny(k)?k:`${court}.wide`;}
+  if(who==="bailiff"){const k=`${court}.bailiff.${talk?"talk":m==="angry"?"angry":"neutral"}`;return artHasAny(k)?k:`${court}.wide`;}
+  return `${court}.wide`;}
+function rmPhotoOn(){return !!(DR&&DR.art&&DR.inRoom&&artHas(drCourt(DR.q&&DR.q[DR.i]||DR.q&&DR.q[0])+".wide"));}
+function rmPhotoMount(){const sc=document.getElementById("rmScene");if(sc.querySelector(".rm-photo"))return;
+  sc.innerHTML=`<div class="rm-photo"><img id="rmA" alt="" class="kb"><img id="rmB" alt="" class="kb" style="opacity:0"><video id="rmV" muted playsinline loop preload="auto" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;display:none"></video><div class="rm-load" id="rmLoad" style="z-index:3"></div></div>`;DR.front="rmA";}
+/* Living faces: <court>.<who>.<state> → <court>.<who>.loop_<state> (seamless Kling loop: blinks, breathing, talking). */
+function loopKey(k){const m=/^(fed|state|c3)\.(\w+)\.(\w+)$/.exec(k||"");if(!m)return null;const L=`${m[1]}.${m[2]}.loop_${m[3]}`;return artHas(L)?L:null;}
+async function rmLoop(L){const v=document.getElementById("rmV");if(!v)return;const tk=DR.loopTok=(DR.loopTok||0)+1;
+  if(!L){v.pause();v.style.display="none";v.dataset.k="";return;}
+  if(v.dataset.k===L&&v.style.display!==""){v.style.display="";v.play().catch(()=>{});return;}if(v.dataset.k===L)return;
+  const u=await artUrl(L).catch(()=>null);if(tk!==DR.loopTok)return;if(!u){v.style.display="none";return;}
+  v.dataset.k=L;v.src=u;v.style.display="";v.play().catch(e=>{if(tk===DR.loopTok&&e&&e.name!=="AbortError")v.style.display="none";});}
+async function rmShot(k,instant){if(!k)return;rmPhotoMount();rmClipHide();DR.shot=k;rmLoop(loopKey(k));const u=await artUrl(k).catch(()=>null);if(!u||DR.shot!==k)return;
+  const a=document.getElementById(DR.front),b=document.getElementById(DR.front==="rmA"?"rmB":"rmA");
+  if(instant){a.src=u;return;}b.style.transition="none";b.src=u;b.style.opacity=0;void b.offsetWidth;b.style.transition="";b.style.opacity=1;a.style.opacity=0;DR.front=b.id;}
+function rmFrame(k){/* instant swap on the front image (mouth flaps) */const a=document.getElementById(DR.front);if(a&&ARTC[k])a.src=ARTC[k];}
+function rmTalkStart(who){clearInterval(DR.flap);const tk=DR.talkTok=(DR.talkTok||0)+1;if(!rmPhotoOn())return;const court=drCourt(DR.q&&DR.q[DR.i]);const mood=who==="bailiff"?"neutral":drMoodState()[1];
+  const idle=artFace(court,who,mood,false),talk=artFace(court,who,mood,true);
+  if(loopKey(talk)){rmShot(talk);return;}
+  rmShot(idle).then(()=>{if(idle===talk||tk!==DR.talkTok||!DR.speaking)return;clearInterval(DR.flap);let open=false;
+    DR.flap=setInterval(()=>{open=!open&&Math.random()>.18;rmFrame(open?talk:idle);},150+Math.random()*60);});}
+function rmTalkStop(who){clearInterval(DR.flap);DR.flap=null;DR.talkTok=(DR.talkTok||0)+1;if(!rmPhotoOn())return;const court=drCourt(DR.q&&DR.q[DR.i]);const idle=artFace(court,who,who==="bailiff"?"neutral":drMoodState()[1],false);
+  if(loopKey(artFace(court,who,who==="bailiff"?"neutral":drMoodState()[1],true))||loopKey(idle))rmShot(idle,true);else rmFrame(idle);}
+
+
+/* ───── 🎤 Say it to the court: after picking an answer I must SAY it. The mic grades delivery: accuracy (did I say
+   the words), pace (130–170 wpm sweet spot), breaks (gaps > 1.3 s), fillers, hesitation before starting, clarity
+   (recognizer confidence / mumbling). Delivery moves the judge's mood; a sensitive judge reacts out loud. ───── */
+function drChoiceObj(x){return Array.isArray(x)?{text:x[0],ok:x[1]}:x;}
+function drSpeakOn(){return DR.mode==="test"||drLS("speak")!==false;}
+function drNorm(t){return (t||"").toLowerCase().replace(/§/g," section ").replace(/[^a-z0-9' ]+/g," ").split(/\s+/).filter(Boolean);}
+function drWer(ref,hyp){const a=drNorm(ref),b=drNorm(hyp);if(!a.length)return 0;const d=Array.from({length:a.length+1},(_,i)=>[i]);
+  for(let j=1;j<=b.length;j++)d[0][j]=j;for(let i=1;i<=a.length;i++)for(let j=1;j<=b.length;j++)d[i][j]=Math.min(d[i-1][j]+1,d[i][j-1]+1,d[i-1][j-1]+(a[i-1]===b[j-1]||a[i-1].replace(/\D/g,"")&&a[i-1].replace(/\D/g,"")===b[j-1].replace(/\D/g,"")?0:1));
+  return Math.min(1,d[a.length][b.length]/a.length);}
+function drSpeakStep(text,after){const R=window.SpeechRecognition||window.webkitSpeechRecognition;const box=document.getElementById("drX");
+  box.innerHTML=`<div class="dr-model"><b>🎤 Now say it to the court.</b> Clear, steady, no "um", no breaks:<br><span style="font-size:18px">“${esc(text)}”</span></div>
+   ${R?`<button class="dr-btn" id="drSay">🎤 Tap and speak</button>`:`<p class="muted">This browser can't hear you here. Open the app in Safari or Chrome to grade your delivery.</p>`}
+   <button class="dr-chip" id="drSkip">${R?"Skip delivery (practice only)":"Continue"}</button><div id="drLive" class="muted" style="min-height:22px;margin-top:6px"></div>`;
+  box.scrollIntoView({behavior:"smooth",block:"start"});
+  const skip=document.getElementById("drSkip");if(DR.mode==="test"&&R)skip.style.display="none";skip.onclick=()=>after(null);
+  if(!R)return;document.getElementById("drSay").onclick=function(){this.disabled=true;this.textContent="⏺ Listening… speak now";
+    const r=new R();r.lang="en-US";r.interimResults=true;r.continuous=true;r.maxAlternatives=1;
+    const t0=Date.now();let first=0,last=0,maxGap=0,prevT=0,finals=[],confs=[],interim="",ended=false,silence=null;
+    const words=drNorm(text).length;
+    const stop=()=>{if(ended)return;ended=true;try{r.stop()}catch(e){}clearTimeout(silence);
+      const heard=(finals.join(" ")+" "+interim).trim(),dur=Math.max(.5,(last-first)/1000+.35);
+      const acc=1-drWer(text,heard),wpm=Math.round(drNorm(heard).length/dur*60),conf=confs.length?confs.reduce((a,b)=>a+b,0)/confs.length:null;
+      const {f,r:rep}=drFillers(heard);after({heard,acc,wpm,maxGap:maxGap/1000,start:first?(first-t0)/1000:99,fill:f+rep,conf,dur});};
+    r.onresult=e=>{const now=Date.now();if(!first)first=now;if(prevT)maxGap=Math.max(maxGap,now-prevT);prevT=last=now;interim="";
+      for(let i=e.resultIndex;i<e.results.length;i++){const x=e.results[i];if(x.isFinal){finals.push(x[0].transcript);if(x[0].confidence)confs.push(x[0].confidence);}else interim+=x[0].transcript;}
+      document.getElementById("drLive").textContent=(finals.join(" ")+" "+interim).trim();
+      clearTimeout(silence);const said=drNorm(finals.join(" ")+" "+interim).length;silence=setTimeout(stop,said>=words*0.8?1300:2600);};
+    r.onerror=()=>stop();r.onend=()=>stop();try{r.start();}catch(e){stop();}
+    setTimeout(()=>{if(!first)stop();},6000);setTimeout(stop,Math.max(12000,words*700));};}
+function drDeliveryGrade(d){if(!d)return null;const issues=[];let delta=0;
+  if(d.acc<0.6||(d.conf!=null&&d.conf<0.45)){issues.push(["mumble","I didn't catch that, Mr. Defendant. Speak clearly."]);delta-=12;}
+  else if(d.acc<0.85){issues.push(["words","Say that again, word for word, plainly."]);delta-=6;}
+  if(d.fill){issues.push(["fill","No ums and uhs in my courtroom."]);delta-=4*Math.min(3,d.fill);}
+  if(d.maxGap>1.3){issues.push(["break","Take a breath and say it in one piece."]);delta-=7;}
+  if(d.start>2.5){issues.push(["slowstart","The court is waiting, Mr. Defendant."]);delta-=5;}
+  if(d.wpm&&d.wpm<110){issues.push(["slow","Get to the point."]);delta-=5;}
+  else if(d.wpm>200){issues.push(["fast","Slow down for the court reporter."]);delta-=4;}
+  if(!issues.length)delta=10;
+  const grade=!issues.length?"A":delta>=-6?"B":delta>=-14?"C":"D";return {issues,delta,grade};}
+function drDeliveryHtml(d,g){if(!d||!g)return "";const ok=v=>v?"✅":"❌";
+  return `<div class="dr-model"><b>🎤 Delivery: ${g.grade}</b> · mood ${g.delta>=0?"+":""}${g.delta}<br>
+   ${ok(d.acc>=0.85)} Said the words: ${Math.round(d.acc*100)}% · ${ok(d.wpm>=110&&d.wpm<=200)} Pace: ${d.wpm||"?"} wpm (aim 130–170) ·
+   ${ok(d.maxGap<=1.3)} Longest break: ${d.maxGap.toFixed(1)}s · ${ok(!d.fill)} Fillers: ${d.fill} · ${ok(d.start<=2.5)} Started in ${d.start>=99?"—":d.start.toFixed(1)+"s"}
+   ${d.conf!=null?` · ${ok(d.conf>=0.45)} Clarity: ${Math.round(d.conf*100)}%`:""}<br><span class="muted">Heard: “${esc(d.heard||"")}”</span></div>`;}
+
+
+/* ───── Telling my story = objection sustained. In court I argue the record and the law; I'm not under oath, so a
+   narrative ("I never…", "she told me…", "what happened was…") draws an objection and the judge sustains it. ───── */
+const DRSTORY=[/\bI (never|didn'?t|did not|wasn'?t|was not|was just|was only|only wanted|just wanted|would never)\b/i,/\b(she|he|they) (said|told|was|called|lied|knew|wanted)\b/i,
+  /\bwhat (really )?happened\b/i,/\bthat (night|day|morning)\b/i,/\bmy side\b/i,/\bthe truth is\b/i,/\bI'?m innocent\b/i,/\blet me explain\b/i,/\bI was (at|with|home|working)\b/i,/\bmy (girl|brother|ex)\b/i];
+function drStory(t){return !!t&&DRSTORY.some(r=>r.test(t));}
+function drStoryHtml(){return `<div class="dr-v no" style="font-size:18px">⚖ OBJECTION SUSTAINED: you told your story</div>
+  <div class="dr-model"><b>Reminder:</b> you're not under oath when you argue. Stick to <b>what's in the record</b> and <b>the law</b>. Start with:<br>
+  • “The record shows…” / “The complaint itself says…”<br>• “The government has offered no evidence of…”<br>• “Under [rule or statute], the court must…”<br>
+  <span class="muted">Your version of events belongs in testimony, and only if you decide to testify after talking it through with counsel.</span></div>`;}
+/* ───── Losing: the last look at my family, then booking, sped up with a racing clock. ───── */
+const DRBOOK=[["any.booking.1","12:10 PM","Holding cell. Hours of waiting. Nobody tells you anything."],["any.booking.2","2:35 PM","Property. Wallet, phone, belt, shoelaces: all of it goes in a bin."],
+  ["any.booking.3","4:05 PM","Search and change-out. Your clothes go in a bag. You won't see them for a long time."],["any.booking.4","6:20 PM","Medical screening. Every question about your body, your meds, your history."],
+  ["any.booking.5","8:45 PM","Fingerprints and booking photo."],["any.booking.6","11:30 PM","Your new clothes. Your new number."],["any.booking.7","3:50 AM","Housing. The dorm door closes behind you."]];
+function drBooking(ct){const sc=document.getElementById("rmScene"),cap=document.getElementById("rmCap");let i=-1;DR.booking=true;
+  const ll=artHas(ct+".family.lastlook")?ct+".family.lastlook":null;
+  const steps=(ll?[[ll,"","The last look. Your family is right there, and there's nothing you can do."]]:[]).concat(DRBOOK.filter(b=>artHas(b[0])));
+  const next=()=>{if(!DR.inRoom||!DR.booking)return;i++;if(i>=steps.length){DR.booking=false;cap.textContent="This is where it goes. Practice until it doesn't.";rmMurmur(0);return;}
+    const [k,clock,txt]=steps[i];if(i===0&&ll&&artHas(ct+".clip.lastlook"))rmClip(ct+".clip.lastlook");else rmShot(k);cap.textContent=(clock?"🕒 "+clock+" · ":"")+txt;if(i===1||i===steps.length-1)rmClang();
+    setTimeout(next,i===0&&ll?5200:3600);};
+  rmMurmur(0.01);setTimeout(next,600);}
+function rmClang(){const a=rmAudio();if(!a)return;const t=a.currentTime,o=a.createOscillator(),g=a.createGain();o.type="square";o.frequency.setValueAtTime(95,t);o.frequency.exponentialRampToValueAtTime(40,t+.5);
+  g.gain.setValueAtTime(.5,t);g.gain.exponentialRampToValueAtTime(.001,t+.7);o.connect(g).connect(a.destination);o.start(t);o.stop(t+.75);
+  const s=a.createBufferSource(),f=a.createBiquadFilter(),g2=a.createGain();s.buffer=rmNoise(a,.3);f.type="highpass";f.frequency.value=2500;g2.gain.setValueAtTime(.25,t+.05);g2.gain.exponentialRampToValueAtTime(.001,t+.35);s.connect(f).connect(g2).connect(a.destination);s.start(t+.05);}
+
+
+
+/* 👔 Wardrobe: what I wear is the judge's first impression (mood + a comment when I walk in). */
+const DROUT=[["suit","Suit & tie",12,"Good morning, Mr. Defendant."],["blazer","Blazer & slacks",8,"Good morning."],["polo","Polo & khakis",2,""],
+  ["tee","T-shirt & jeans",-6,"Mr. Defendant, this is a courtroom. Dress accordingly next time."],
+  ["street","Hoodie, joggers & fitted cap",-14,"Mr. Defendant, take that hat off in my courtroom. And next time, dress for court."],
+  ["tank","Tank top & basketball shorts",-18,"A tank top, Mr. Defendant? In this courtroom? That is disrespectful to this court."],
+  ["house","Pajamas & slippers",-20,"Did you just roll out of bed, Mr. Defendant? Pajamas in my courtroom?"]];
+function drCloset(){const d=document.getElementById("drDrawer");if(!d)return;d.classList.add("open");
+  d.querySelectorAll("img[data-k]").forEach(im=>{artUrl(im.dataset.k).then(u=>{if(u)im.src=u;}).catch(()=>{});});}
+/* ───── ⏰ Morning rush: 15 seconds to get up, shower, dress for court, eat, grab the papers and get through security.
+   Late / wrong outfit / no papers = the judge starts against you (mood), the prosecutor starts smug. ───── */
+const DRAM=[["wake","⏰ Get up",3],["shower","🚿 Shower",4],["dress","👔 Get dressed",0],["eat","🍳 Eat",3],["papers","📁 Grab case file, ID, motions",0],["drive","🚗 Drive & park",5],["security","🛂 Security line",4]];
+function drMorning(go){if(window.TTS)ttsStop();const M={t0:0,done:{},taps:{},outfit:null,papers:null,over:false};DR.morning=null;
+  const LIM=15;let render=()=>{const left=M.t0?Math.max(0,LIM-(Date.now()-M.t0)/1000):LIM;
+    DR.el.innerHTML=`<div class="dr-box"><div class="dr-who">⏰ Court day · 7:30 AM · court starts 8:30 sharp</div>
+     <div class="dr-say" style="font-size:20px">You have <b id="amLeft">${left.toFixed(1)}s</b> to get out the door and through security.</div>
+     <div class="dr-bar" style="height:12px"><i id="amBar" style="width:${100*left/LIM}%;background:${left>8?"#1f9d55":left>4?"#d99a00":"#d64545"}"></i></div>
+     ${DRAM.map(([k,l,n])=>{const d=M.done[k];
+       if(k==="dress")return `<div style="margin:8px 0"><b>${l}</b> ${d?"✅ "+esc((DROUT.find(o=>o[0]===M.outfit)||[])[1]||""):""}
+         ${d?"":`<button class="dr-btn alt" onclick="drAM('drawer')">🗄 Open the drawer</button>`}
+         <div class="dr-drawer${M.drawer&&!d?" open":""}" id="drDrawer"><div class="dr-closet">${DROUT.map(o=>`<button onclick="drAM('dress','${o[0]}')"><img data-k="any.outfit.${o[0]}" alt=""><span>${esc(o[1])}</span></button>`).join("")}</div></div></div>`;
+       if(k==="papers")return `<div style="margin:8px 0"><b>${l}</b> ${d?"✅":""}<div class="dr-row"><button class="dr-btn alt" ${d?"disabled":""} onclick="drAM('papers','yes')">Grab them</button><button class="dr-btn alt" ${d?"disabled":""} onclick="drAM('papers','no')">No time, leave them</button></div></div>`;
+       const t=M.taps[k]||0;return `<button class="dr-btn${d?" alt":""}" ${d?"disabled":""} onclick="drAM('${k}')">${l} ${d?"✅":`· tap ${n-t}×`}</button>`;}).join("")}</div>`;};
+  window.drAM=(k,v)=>{if(M.over)return;if(!M.t0){M.t0=Date.now();M.tick=setInterval(()=>{const left=Math.max(0,LIM-(Date.now()-M.t0)/1000),a=document.getElementById("amLeft"),b=document.getElementById("amBar");if(a)a.textContent=left.toFixed(1)+"s";if(b){b.style.width=(100*left/LIM)+"%";b.style.background=left>8?"#1f9d55":left>4?"#d99a00":"#d64545";}if(left<=0)fin();},100);}
+    if(k==="drawer"){M.drawer=true;render();drCloset();return;}
+    if(k==="dress"){M.outfit=v;M.done.dress=1;M.drawer=false;}else if(k==="papers"){M.papers=v;M.done.papers=1;}
+    else{const n=DRAM.find(x=>x[0]===k)[2];M.taps[k]=(M.taps[k]||0)+1;if(M.taps[k]>=n)M.done[k]=1;}
+    render();if(DRAM.every(x=>M.done[x[0]]))fin();};
+  const fin=()=>{if(M.over)return;M.over=true;clearInterval(M.tick);const used=M.t0?(Date.now()-M.t0)/1000:LIM,late=!DRAM.every(x=>M.done[x[0]]);
+    const of=DROUT.find(o=>o[0]===M.outfit)||["none","Whatever you slept in",-20,"Mr. Defendant, you came to court like that?"];
+    const r={late,mins:late?[7,12,18][Math.floor(Math.random()*3)]:0,outfit:of,hoodie:of[2]<0,noPapers:M.papers!=="yes",hungry:!M.done.eat,secs:used};DR.morning=r;
+    let mood=0,notes=[];if(late){mood-=20;notes.push(`❌ Late by ${r.mins} minutes. The judge noticed; the prosecutor was on time.`);}else{mood+=8;notes.push("✅ Early and through security. Good first impression.");}
+    mood+=of[2];notes.push(`${of[2]>=8?"✅":of[2]>=0?"🆗":"❌"} ${esc(of[1])}${of[2]>=8?": you look like you belong at counsel table.":of[2]>=0?": acceptable, not sharp.":": the judge sees this before you say a word."} (${of[2]>=0?"+":""}${of[2]})`);
+    if(r.noPapers){mood-=8;notes.push("❌ No case file. You'll be arguing from memory.");}
+    if(r.hungry)notes.push("⚠️ Skipped breakfast. Hard to stay sharp for hours.");
+    DR.mood=Math.max(-100,Math.min(100,mood));DR.moodLog=[[mood,"Morning"]];
+    DR.el.innerHTML=`<div class="dr-box"><div class="dr-v ${mood>=0?"ok":"no"}">${late?"⏰ YOU'RE LATE":"✅ ON TIME"}</div><ul class="dr-need">${notes.map(n=>`<li>${n}</li>`).join("")}</ul>
+      <p>Judge's starting mood: <b>${drMoodState(DR.mood)[2]}</b></p><button class="dr-btn" id="drGo">🏛 Walk into the courtroom</button></div>`;
+    document.getElementById("drGo").onclick=()=>{const keep=DR.mood,kl=DR.moodLog;go();DR.mood=keep;DR.moodLog=kl;};};
+  const _r=render;render=()=>{_r();if(M.drawer&&!M.done.dress)drCloset();};render();DR.el.scrollIntoView({behavior:"smooth",block:"start"});}
+function drMorningOn(){return drLS("morning")!==false;}
+
+
+/* ───── 🎙 Real voices: every character line is pre-recorded (ElevenLabs via Higgsfield). Key = "vo." + djb2(voice|normalized text);
+   drills/voices.py builds the same keys. Missing line → phone voice fallback. ───── */
+function voNorm(t){return String(t||"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();}
+function voHash(s){let h=5381;for(let i=0;i<s.length;i++){h=((h<<5)+h+s.charCodeAt(i))>>>0;}return h.toString(16);}
+function voVoice(who,court){if(court==="c3"&&(who==="judge"||who==="ausa"))return who+"_c3";if(who==="judge")return court==="state"?"judge_state":"judge_fed";if(who==="quiz"||who==="clerk")return "clerk";if(who==="cja")return "pd";return who;}
+function voKey(text,who,court){return "vo."+voHash(voVoice(who,court)+"|"+voNorm(text));}
+function voCourt(){const c=DR&&DR.q&&(DR.q[DR.i]||DR.q[0]);return drCourt(c);}
+let VOA=null;
+function voPlay(key,onstart,onend){if(!artHas(key))return false;if(!VOA){VOA=new Audio();VOA.preload="auto";}
+  const a=VOA;a.onended=null;a.onerror=null;try{a.pause()}catch(e){}
+  artUrl(key).then(u=>{if(!u){onend&&onend();return;}a.src=u;a.onended=()=>onend&&onend();a.onerror=()=>onend&&onend();onstart&&onstart();a.play().catch(()=>onend&&onend());}).catch(()=>onend&&onend());return true;}
+function voStop(){if(VOA){try{VOA.pause()}catch(e){}VOA.onended=null;}}
+
+
+function voSay(text,who){text=drTitle(text);ttsStop();if(!voPlay(voKey(text,who,voCourt()),null,null))ttsSay(text);}
+
+function rmSpeakSeq(lines,who,done){const go=i=>{if(i>=lines.length){done&&done();return;}rmSpeak(lines[i],who,()=>go(i+1));};go(0);}
+
+/* iPhone only lets audio play after a tap: on the first tap into the courtroom, play a silent clip on the shared voice
+   player so every recorded line after that can play on its own. */
+function voUnlock(){try{if(!VOA){VOA=new Audio();VOA.preload="auto";}if(VOA.dataset&&VOA.dataset.ok)return;
+  VOA.src="data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YQAAAAA=";const p=VOA.play();if(p)p.then(()=>{VOA.pause();VOA.dataset.ok=1;}).catch(()=>{});}catch(e){}}
+
+
+/* ───── 🫁 Breathing: the room hears the judge breathe. Calm & happy = slow, soft breaths; impatient = quicker;
+   furious = fast, heavy breaths with huffs. Living-face loops also play a touch slower when calm, faster when agitated. ───── */
+let RMBR=null;
+function rmBreath(on){const a=rmAudio();if(!a)return;if(!on){if(RMBR){clearTimeout(RMBR.t);RMBR=null;}return;}if(RMBR)return;RMBR={t:null};
+  const one=()=>{if(!RMBR||!DR||!DR.inRoom)return;const st=drMoodState()[1],P={happy:[4.6,.035,.0],neutral:[3.8,.045,.0],stern:[2.6,.07,.35],furious:[1.7,.11,.75]}[st]||[3.8,.045,0];
+    if(!DR.speaking&&!(DR.booking)){const t=a.currentTime,dur=P[0]*.42;
+      [[0,dur*0.9,700],[dur,dur*1.1,500]].forEach(([off,len,fq],i)=>{const s=a.createBufferSource(),f=a.createBiquadFilter(),g=a.createGain();s.buffer=rmNoise(a,len+.1);
+        f.type="bandpass";f.frequency.value=fq+(i?0:150);f.Q.value=.9;const peak=P[1]*(i?1.25:1)*(Math.random()*.3+.85);
+        g.gain.setValueAtTime(.0001,t+off);g.gain.exponentialRampToValueAtTime(peak,t+off+len*.45);g.gain.exponentialRampToValueAtTime(.0001,t+off+len);
+        s.connect(f).connect(g).connect(a.destination);s.start(t+off);s.stop(t+off+len+.05);});
+      if(Math.random()<P[2]){const s=a.createBufferSource(),f=a.createBiquadFilter(),g=a.createGain();s.buffer=rmNoise(a,.35);f.type="lowpass";f.frequency.value=900;  /* huff */
+        g.gain.setValueAtTime(.0001,t+dur*2.05);g.gain.exponentialRampToValueAtTime(P[1]*2.2,t+dur*2.1);g.gain.exponentialRampToValueAtTime(.0001,t+dur*2.4);
+        s.connect(f).connect(g).connect(a.destination);s.start(t+dur*2.05);s.stop(t+dur*2.5);}}
+    const v=document.getElementById("rmV");if(v)v.playbackRate={happy:.92,neutral:1,stern:1.08,furious:1.16}[st]||1;
+    RMBR.t=setTimeout(one,P[0]*1000*(Math.random()*.2+.9));};one();}
+
+
+/* Public demo: the judge addresses the player as "Mr. Defendant" / "Mrs. Defendant" (chosen at the start). The private app
+   never sets DR_TITLE, so this is a no-op there. */
+function drTitle(t){const T=window.DR_TITLE;if(!T||!t)return t;let s=String(t).replace(/Mr\. Defendant/g,T);
+  if(/^Mrs/.test(T))s=s.replace(/He's not under oath/g,"She's not under oath").replace(/take him\b/g,"take her").replace(/on his current conditions/g,"on her current conditions");return s;}
+
+/* ───── 🏛 Courtroom view: the scene, voices and room sound for the practice game ───── */
+function rmP(id,x,y,sc,skin,cloth,hair,extra){return `<g id="${id}" transform="translate(${x},${y}) scale(${sc})"><g class="bob">
+ <ellipse class="halo" cx="0" cy="8" rx="30" ry="34" fill="none" stroke="#e9c46a" stroke-width="2" stroke-dasharray="4 3"/>
+ <path d="M-24 44 Q-24 16 -10 13 L10 13 Q24 16 24 44 Z" fill="${cloth}"/>${extra||""}
+ <rect x="-4" y="7" width="8" height="8" fill="${skin}"/><circle cx="0" cy="-2" r="12" fill="${skin}"/>
+ <path d="${hair}" fill="#1b1410"/>
+ <circle cx="-4.2" cy="-3" r="1.4" fill="#120d09"/><circle cx="4.2" cy="-3" r="1.4" fill="#120d09"/>
+ <line class="brow l" x1="-7" y1="-7" x2="-2" y2="-7" stroke="#1b1410" stroke-width="1.4"/><line class="brow r" x1="2" y1="-7" x2="7" y2="-7" stroke="#1b1410" stroke-width="1.4"/>
+ <ellipse class="mouth" cx="0" cy="4.5" rx="3" ry="0.9" fill="#5b1f1f"/></g></g>`;}
+const RMH={short:"M-12 -4 Q-12 -15 0 -15 Q12 -15 12 -4 Q9 -11 0 -11 Q-9 -11 -12 -4Z",bun:"M-12 -3 Q-13 -16 0 -16 Q13 -16 12 -3 Q10 -12 0 -12 Q-10 -12 -12 -3Z M-3 -19 a4 4 0 1 0 6 0Z",bald:"M-11 -6 Q-11 -9 -9 -9 Q-10 -7 -11 -6Z",long:"M-13 8 Q-15 -16 0 -16 Q15 -16 13 8 Q11 -10 0 -11 Q-11 -10 -13 8Z"};
+function rmScene(kase,lawyer){const fed=kase!=="state";
+ const seal=fed?"UNITED STATES DISTRICT COURT":"SUPERIOR COURT · COUNTY OF ORANGE";
+ const panels=Array.from({length:12},(_,i)=>`<rect x="${i*30+3}" y="8" width="24" height="132" rx="2" fill="#654429" opacity=".55"/>`).join("");
+ const papers=`<g transform="translate(40,206) rotate(-6)"><rect width="70" height="44" fill="#f4f1ea"/>${[8,14,20,26,32].map(y=>`<line x1="6" x2="62" y1="${y}" y2="${y}" stroke="#9aa3ad" stroke-width="1"/>`).join("")}<text x="6" y="5.5" font-size="4.2" fill="#333" font-family="Georgia">${fed?"U.S. v. DEFENDANT (SAMPLE)":"PEOPLE v. DEFENDANT (SAMPLE)"}</text></g>
+ <g transform="translate(150,210) rotate(3)"><rect width="56" height="40" fill="#f6e27a"/>${[9,15,21,27,33].map(y=>`<line x1="4" x2="52" y1="${y}" y2="${y}" stroke="#c9a94a" stroke-width=".8"/>`).join("")}<line x1="10" x2="10" y1="0" y2="40" stroke="#d66" stroke-width=".8"/></g>
+ <rect x="215" y="214" width="34" height="5" rx="2" fill="#20232a" transform="rotate(-20 232 216)"/><path d="M280 204 h16 l-2 26 h-12 Z" fill="#cfe3f0" opacity=".7"/>
+ <g transform="translate(300,214) rotate(4)"><rect width="46" height="30" fill="#e9eef5"/><text x="5" y="10" font-size="5" fill="#333" font-family="Georgia">MOTIONS</text><text x="5" y="18" font-size="4" fill="#666" font-family="Georgia">Faretta · 5.1 · Brady</text></g>`;
+ return `<svg viewBox="0 0 360 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Courtroom seen from the defense table">
+ <rect width="360" height="150" fill="#4a3220"/>${panels}
+ <circle cx="180" cy="26" r="17" fill="#2b2f4a" stroke="#d9b45a" stroke-width="2.5"/><circle cx="180" cy="26" r="10" fill="none" stroke="#d9b45a" stroke-width="1"/><text x="180" y="29" text-anchor="middle" font-size="7" fill="#d9b45a">⚖</text>
+ <text x="180" y="52" text-anchor="middle" font-size="5.4" letter-spacing=".6" fill="#e2c477" font-family="Georgia">${seal}</text>
+ <line x1="66" y1="20" x2="66" y2="112" stroke="#c9a14a" stroke-width="2"/><path d="M67 22 h22 v15 h-22Z" fill="#b22234"/><path d="M67 22 h10 v8 h-10Z" fill="#3c3b6e"/><line x1="67" y1="27" x2="89" y2="27" stroke="#fff" stroke-width="1.2"/><line x1="67" y1="32" x2="89" y2="32" stroke="#fff" stroke-width="1.2"/>
+ <line x1="294" y1="20" x2="294" y2="112" stroke="#c9a14a" stroke-width="2"/>${fed?`<path d="M295 22 h22 v15 h-22Z" fill="#b22234"/><path d="M295 22 h10 v8 h-10Z" fill="#3c3b6e"/><line x1="295" y1="27" x2="317" y2="27" stroke="#fff" stroke-width="1.2"/><line x1="295" y1="32" x2="317" y2="32" stroke="#fff" stroke-width="1.2"/>`:`<path d="M295 22 h22 v15 h-22Z" fill="#f4f1ea"/><line x1="295" y1="35" x2="317" y2="35" stroke="#b22234" stroke-width="3"/><text x="306" y="31" text-anchor="middle" font-size="5" fill="#7a4b2a">🐻</text>`}
+ <rect x="318" y="62" width="38" height="88" fill="#3a2716" stroke="#24180d"/><circle cx="324" cy="108" r="2" fill="#d9b45a"/><text x="337" y="74" text-anchor="middle" font-size="5" fill="#e2c477">EXIT</text>
+ ${rmP("sp-judge",180,70,1.15,"#c99a76","#111","M-12 -2 Q-13 -16 0 -16 Q13 -16 12 -2 Q10 -12 0 -12 Q-10 -12 -12 -2Z",`<path d="M-6 13 L0 22 L6 13Z" fill="#f4f1ea"/>`)}
+ <rect x="104" y="92" width="152" height="54" fill="#7a5232"/><rect x="100" y="88" width="160" height="7" rx="2" fill="#8d6240"/>${[118,150,182,214].map(x=>`<rect x="${x}" y="100" width="26" height="40" rx="2" fill="#6b4729"/>`).join("")}
+ <rect x="150" y="104" width="60" height="10" rx="2" fill="#2a1d12"/><text x="180" y="111" text-anchor="middle" font-size="5.2" fill="#e2c477" font-family="Georgia">THE HONORABLE</text>
+ <g transform="translate(186,86)"><rect x="-1" y="-2" width="14" height="4" rx="1.5" fill="#3b2412" transform="rotate(-25)"/><rect x="9" y="-6" width="4" height="8" rx="1" fill="#3b2412" transform="rotate(-25)"/></g>
+ ${rmP("sp-clerk",86,112,.78,"#8d5b3c","#3d5a80",RMH.long)}<rect x="56" y="128" width="64" height="24" fill="#6b4729"/><rect x="62" y="118" width="20" height="13" fill="#1b1f27" stroke="#555"/><text x="88" y="146" text-anchor="middle" font-size="4.5" fill="#e2c477">CLERK · REPORTER</text>
+ ${rmP("sp-bailiff",300,116,.86,"#a8744f","#6e6a3a",RMH.short,`<path d="M-2 22 l2 -4 l2 4 l4 0 l-3 3 l1 4 l-4 -2 l-4 2 l1 -4 l-3 -3Z" fill="#e2c477"/>`)}
+ <rect x="0" y="150" width="360" height="100" fill="#26324a"/><path d="M0 150 L360 150 L360 156 L0 156Z" fill="#1c2639"/>
+ <rect x="168" y="160" width="24" height="30" fill="#7a5232"/><rect x="164" y="156" width="32" height="6" fill="#8d6240" transform="rotate(-4 180 159)"/>
+ ${rmP("sp-pros",282,152,.95,"#e0b48f","#22304d",RMH.bun,`<path d="M-4 13 L0 24 L4 13Z" fill="#f4f1ea"/>`)}
+ <rect x="226" y="176" width="124" height="20" fill="#7a5232"/><rect x="222" y="172" width="132" height="6" rx="2" fill="#8d6240"/><rect x="262" y="181" width="52" height="9" rx="1.5" fill="#2a1d12"/><text x="288" y="187.5" text-anchor="middle" font-size="4.6" fill="#e2c477">${fed?"UNITED STATES":"THE PEOPLE"}</text>
+ ${lawyer?rmP("sp-pd",62,176,1.05,"#c48d63","#3b3f46",RMH.short,`<path d="M-3 13 L0 26 L3 13Z" fill="#8b1e2b"/>`):""}
+ <rect x="0" y="200" width="360" height="50" fill="#6b4729"/><rect x="0" y="196" width="360" height="7" fill="#8d6240"/>${papers}
+ <rect x="8" y="198" width="64" height="9" rx="1.5" fill="#2a1d12"/><text x="40" y="204.5" text-anchor="middle" font-size="4.6" fill="#e2c477">DEFENDANT${fed?" · PRO PER":""}</text>
+ </svg>`;}
+function rmGallery(mode){const skins=["#c99a76","#8d5b3c","#e0b48f","#a8744f","#6e4630","#d9a982","#5a3a28"];
+ let heads="";[[170,10],[195,12],[222,14]].forEach(([y,n],r)=>{for(let i=0;i<n;i++){const x=30+i*(300/(n-1)),sk=skins[(i*3+r)%skins.length];heads+=`<g class="hd" style="animation-delay:${((i*7+r*3)%10)/20}s;transform-box:fill-box"><path d="M${x-(12+r)} ${y+8} Q${x} ${y-8} ${x+12+r} ${y+8}Z" fill="${["#33415c","#5c3d2e","#2f3e46","#6d597a","#404040"][(i+r)%5]}"/><circle cx="${x}" cy="${y-14}" r="${9+r}" fill="${sk}"/>${mode==="cry"?`<circle cx="${x-3}" cy="${y-15}" r="1" fill="#120d09"/><circle cx="${x+3}" cy="${y-15}" r="1" fill="#120d09"/><path d="M${x-3} ${y-8} q3 -2 6 0" stroke="#3a1a1a" fill="none" stroke-width="1"/><ellipse class="tear" style="animation-delay:${(i%4)/3}s" cx="${x-3}" cy="${y-12}" rx="1" ry="1.8" fill="#8fd3ff"/><ellipse class="tear" style="animation-delay:${(i%3)/2+.3}s" cx="${x+3}" cy="${y-12}" rx="1" ry="1.8" fill="#8fd3ff"/>`:mode==="cheer"?`<circle cx="${x-3}" cy="${y-15}" r="1" fill="#120d09"/><circle cx="${x+3}" cy="${y-15}" r="1" fill="#120d09"/><path d="M${x-4} ${y-10} q4 4 8 0" stroke="#3a1a1a" fill="#5b1f1f" stroke-width="1"/>${i%3===0?`<path d="M${x-14} ${y-2} l-6 -18 M${x+14} ${y-2} l6 -18" stroke="${sk}" stroke-width="4" stroke-linecap="round"/>`:""}`:""}</g>`;}
+  heads+=`<rect x="10" y="${y+6}" width="340" height="9" fill="#6b4729"/>`;});
+ return `<svg viewBox="0 0 360 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The gallery behind you">
+ <g class="${mode||""}"><rect width="360" height="250" fill="#3a2716"/><rect x="0" y="120" width="360" height="130" fill="#26324a"/>
+ <rect x="150" y="30" width="60" height="96" fill="#2a1d12" stroke="#1b120a"/><text x="180" y="24" text-anchor="middle" font-size="7" fill="#e2c477" font-family="Georgia">QUIET · COURT IN SESSION</text>
+ ${rmP("sp-bailiff2",232,92,.95,"#a8744f","#6e6a3a",RMH.short)}${heads}
+ <rect x="0" y="236" width="360" height="14" fill="#8d6240"/><text x="180" y="246" text-anchor="middle" font-size="6" fill="#120d09">${mode==="cry"?"YOUR FAMILY · THE GALLERY":mode==="cheer"?"🎉 THE GALLERY ERUPTS 🎉":"THE BAR · family and public sit behind it"}</text></g></svg>`;}
+/* Verdict: game outcome from the score (not a prediction). Fed max under § 1512(b) is 20 years = 240 months. */
+function drOutcome(pct,kase){const fed=kase!=="state";
+  if(pct>=90)return {k:"win",big:"CASE DISMISSED",sub:fed?"No probable cause. The complaint is dismissed and you are discharged.":"Motion granted. The case is dismissed.",judge:fed?"The Court finds no probable cause. The complaint is dismissed, and the defendant is discharged. We're adjourned.":"The motion is granted. The case is dismissed. Mr. Defendant, you're free to go."};
+  if(pct>=75)return {k:"mid",big:fed?"RELEASED · CASE WEAKENED":"REDUCED TO A MISDEMEANOR",sub:fed?"The judge found holes in the government's case. You walk out today; the fight continues on your terms.":"Penal Code 17(b): reduced to a misdemeanor. No prison.",judge:fed?"The defendant will remain released on his current conditions. The government's case has real problems.":"The Court will reduce the charge to a misdemeanor under section 17(b)."};
+  const raw=Math.min(240,Math.max(24,Math.round(240*(1-pct/100)*1.25))),m=[24,48,72,96,120,168,240].reduce((b,x)=>Math.abs(x-raw)<Math.abs(b-raw)?x:b,24);
+  return {k:"loss",big:m>=240?"GUILTY · 240 MONTHS (THE MAX)":`GUILTY · ${m} MONTHS`,sub:`That's ${Math.floor(m/12)} years${m%12?" "+(m%12)+" months":""}${fed?" in federal prison":""}. Remanded into custody.`,judge:`The defendant is sentenced to ${m} months${m>=240?", the statutory maximum":""}. The defendant is remanded into custody. Officers, take him.`};}
+function rmVerdict(o,kase){if(rmPhotoOn())return rmVerdictPhoto(o,kase);const sc=document.getElementById("rmScene");const lawyer=false;
+  let svg=rmScene(kase,lawyer);
+  if(o.k==="win"){svg=svg.replace('id="sp-pros"','id="sp-pros" class="mad"').replace('id="sp-bailiff"','id="sp-bailiff" class="mad"');
+    const fly=Array.from({length:9},(_,i)=>`<g class="fly" style="--dx:${(i-4)*28}px;--r:${(i%2?1:-1)*(160+i*40)}deg;animation-delay:${i*0.12}s;transform-box:fill-box;transform-origin:center"><rect x="${120+i*14}" y="200" width="22" height="28" fill="#f4f1ea" stroke="#bbb" stroke-width=".5"/></g>`).join("");
+    svg=svg.replace("</svg>",fly+"</svg>");}
+  else if(o.k==="loss"){svg=svg.replace('id="sp-judge"','id="sp-judge" class="mad"').replace(/<g id="sp-bailiff"[\s\S]*?<\/g><\/g>/,m=>`<g class="walk">${m}</g>`);}
+  sc.innerHTML=svg;document.getElementById("rmCap").textContent=o.big;
+  rmGavel(o.k==="loss"?3:2);rmSpeak(o.judge,"judge",()=>{if(!DR.inRoom)return;
+    setTimeout(()=>{sc.innerHTML=rmGallery(o.k==="win"?"cheer":o.k==="loss"?"cry":"");document.getElementById("rmCap").textContent=o.k==="win"?"THE GALLERY":"YOUR FAMILY";
+      if(o.k==="win"){rmCheer();}else if(o.k==="loss"){rmMurmur(0.02);}},700);});}
+
+
+/* Cutscene clips (Kling renders): play once over the scene, hold the last frame, resolve when done. */
+function rmClip(k){return new Promise(async res=>{if(!artHas(k))return res(false);rmPhotoMount();const box=document.querySelector("#rmScene .rm-photo");
+  let v=box.querySelector("video");if(!v){v=document.createElement("video");v.muted=true;v.playsInline=true;v.setAttribute("playsinline","");v.style.cssText="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:2";box.appendChild(v);}
+  const u=await artUrl(k).catch(()=>null);if(!u)return res(false);DR.shot=k;v.style.display="";v.src=u;const done=()=>{clearTimeout(t);res(true);};const t=setTimeout(done,7000);
+  v.onended=done;v.onerror=()=>{v.style.display="none";done();};v.play().catch(()=>{v.style.display="none";done();});});}
+function rmClipHide(){const v=document.querySelector("#rmScene .rm-photo video");if(v){v.pause();v.style.display="none";}}
+function rmVerdictPhoto(o,kase){const ct=kase==="state"?"state":"fed";const pick=(...ks)=>ks.find(k=>artHas(k))||ct+".wide";
+  const cap=document.getElementById("rmCap");cap.textContent=o.big;rmGavel(o.k==="loss"?3:2);
+  const face=o.k==="win"?"happy":o.k==="loss"?"furious":"neutral";DR.mood=o.k==="win"?80:o.k==="loss"?-90:0;
+  rmShot(pick(`${ct}.judge.${face}`));
+  rmSpeak(o.judge,"judge",async ()=>{if(!DR.inRoom)return;
+    if(o.k==="loss"){await rmClip(`${ct}.clip.gavel`);}
+    const react=o.k==="win"?pick(`${ct}.pros.frustrated`):o.k==="loss"?pick(`${ct}.bailiff.angry`,`${ct}.pros.smug`):pick(`${ct}.pros.neutral`);
+    rmShot(react);cap.textContent=o.k==="win"?"THE PROSECUTION":o.k==="loss"?"OFFICERS STEP FORWARD":"";
+    if(o.k==="loss")rmSpeak("Mr. Defendant, stand up and put your hands behind your back.","bailiff");
+    setTimeout(()=>{if(!DR.inRoom)return;const g=o.k==="win"?"cheer":o.k==="loss"?"cry":"neutral";
+      if(o.k==="win"&&artHas(`${ct}.clip.cheer`))rmClip(`${ct}.clip.cheer`);else rmShot(pick(`${ct}.gallery.${g}`,`any.gallery.${g}`));cap.textContent=o.k==="win"?"🎉 THE GALLERY ERUPTS":o.k==="loss"?"YOUR FAMILY":"THE GALLERY";
+      if(o.k==="win")rmCheer();else rmMurmur(0.02);if(o.k==="loss")setTimeout(()=>drBooking(ct),4500);},o.k==="loss"?4200:2200);});}
+function rmCheer(){const a=rmAudio();if(!a)return;const s=a.createBufferSource(),f=a.createBiquadFilter(),g=a.createGain();s.buffer=rmNoise(a,3);f.type="bandpass";f.frequency.value=900;f.Q.value=0.5;
+  const t=a.currentTime;g.gain.setValueAtTime(0.001,t);g.gain.exponentialRampToValueAtTime(0.5,t+0.4);g.gain.exponentialRampToValueAtTime(0.001,t+3);s.connect(f).connect(g).connect(a.destination);s.start(t);s.stop(t+3);}
+const RMWHO={judge:["sp-judge","THE COURT"],ausa:["sp-pros","AUSA · FOR THE UNITED STATES"],da:["sp-pros","DEPUTY DA · FOR THE PEOPLE"],pd:["sp-pd","YOUR PUBLIC DEFENDER (whispering)"],cja:["sp-pd","YOUR LAWYER (whispering)"],quiz:["sp-clerk","THE CLERK · deadline check"],bailiff:["sp-bailiff","THE BAILIFF"]};
+let RMA=null,RMTONE=null;
+function rmAudio(){try{if(!RMA)RMA=new (window.AudioContext||window.webkitAudioContext)();if(RMA.state==="suspended")RMA.resume();return RMA;}catch(e){return null;}}
+function rmNoise(a,secs){const b=a.createBuffer(1,a.sampleRate*secs,a.sampleRate),d=b.getChannelData(0);let l=0;for(let i=0;i<d.length;i++){const w=Math.random()*2-1;l=(l+0.02*w)/1.02;d[i]=l*3.5;}return b;}
+function rmGavel(n){const a=rmAudio();if(!a)return;for(let k=0;k<(n||2);k++){const t=a.currentTime+k*0.28;
+  const o=a.createOscillator(),g=a.createGain();o.type="triangle";o.frequency.setValueAtTime(190,t);o.frequency.exponentialRampToValueAtTime(70,t+0.12);g.gain.setValueAtTime(0.9,t);g.gain.exponentialRampToValueAtTime(0.001,t+0.18);o.connect(g).connect(a.destination);o.start(t);o.stop(t+0.2);
+  const s=a.createBufferSource(),f=a.createBiquadFilter(),g2=a.createGain();s.buffer=rmNoise(a,0.06);f.type="lowpass";f.frequency.value=1400;g2.gain.setValueAtTime(0.8,t);g2.gain.exponentialRampToValueAtTime(0.001,t+0.06);s.connect(f).connect(g2).connect(a.destination);s.start(t);}}
+function rmTone(on){const a=rmAudio();if(!a)return;if(on&&!RMTONE){const s=a.createBufferSource(),f=a.createBiquadFilter(),g=a.createGain();s.buffer=rmNoise(a,4);s.loop=true;f.type="bandpass";f.frequency.value=420;f.Q.value=0.6;g.gain.value=0.035;s.connect(f).connect(g).connect(a.destination);s.start();RMTONE={s,g};}
+  if(!on&&RMTONE){try{RMTONE.s.stop()}catch(e){}RMTONE=null;}}
+function rmMurmur(level){if(RMTONE&&RMA)RMTONE.g.gain.setTargetAtTime(level,RMA.currentTime,0.4);}
+function rmVoice(who){const v=TTS?TTS.getVoices().filter(x=>/^en[-_]US/i.test(x.lang)):[];const pick=re=>v.find(x=>re.test(x.name));
+  const m={judge:[pick(/aaron|fred|alex|daniel|tom|male/i),0.85,0.93],ausa:[pick(/samantha|allison|ava|susan|zoe/i),1.05,1.02],da:[pick(/samantha|allison|ava|susan|zoe/i),1.05,1.02],
+   pd:[pick(/nathan|evan|tom|alex/i),1.0,1.0],cja:[pick(/nathan|evan|tom|alex/i),1.0,1.0],quiz:[pick(/karen|nicky|ava|samantha/i),1.2,1.05],bailiff:[pick(/fred|ralph|aaron|alex/i),0.7,0.98]}[who]||[null,1,1];
+  return {voice:m[0]||bestVoice(),pitch:m[1],rate:m[2]*RATE};}
+function rmSpeak(text,who,done){text=drTitle(text);const ids=RMWHO[who]||RMWHO.judge;const cap=document.getElementById("rmCap");if(cap)cap.textContent=ids[1]+":";
+  document.querySelectorAll("#rmScene .talk").forEach(e=>e.classList.remove("talk"));const el=document.getElementById(ids[0]);
+  const tok=(DR.sayTok=(DR.sayTok||0)+1);let fin=false;
+  const finish=()=>{if(fin||tok!==DR.sayTok)return;fin=true;clearTimeout(wd);DR.speaking=false;if(el)el.classList.remove("talk");rmTalkStop(who);if(done)done();};
+  /* watchdog: some browsers never fire onend (muted tab, no voices, iPhone silent glitches); the court keeps moving */
+  const wd=setTimeout(finish,Math.max(2500,text.length*85/RATE)+2500);
+  DR.speaking=true;if(el)el.classList.add("talk");rmTalkStart(who);
+  if(TTS)TTS.cancel();voStop();if(voPlay(voKey(text,who,voCourt()),()=>{clearTimeout(wd);},()=>finish()))return;
+  if(!TTS)return;
+  const parts=chunks(text),vo=rmVoice(who);let k=0;const next=()=>{if(tok!==DR.sayTok)return;if(k>=parts.length){finish();return;}
+   const u=new SpeechSynthesisUtterance(parts[k++]);if(vo.voice)u.voice=vo.voice;u.lang="en-US";u.pitch=vo.pitch;u.rate=vo.rate;u.onend=next;u.onerror=finish;TTS.speak(u);};next();}
+function rmFace(st){if(rmPhotoOn()&&!DR.speaking&&DR.q&&DR.q[DR.i]){const c=DR.q[DR.i];rmShot(artFace(drCourt(c),c.who==="quiz"?"clerk":c.who,st,false));}
+  const j=document.getElementById("sp-judge");if(j){j.classList.toggle("mad",st==="stern"||st==="furious");}
+  const p=document.getElementById("sp-pros");if(p){p.classList.toggle("mad",st==="happy");}}
+function drVoice(text,who,done){if(DR&&DR.inRoom)rmSpeak(text,who,done);else{ttsSay(text);if(done)setTimeout(done,Math.min(9000,text.length*60));}}
+function drRoomOn(){return drLS("room")!==false;}
+function drTarget(){return DR.inRoom?document.getElementById("rmPanel"):DR.el;}
+async function drEnter(mode){voUnlock();const c0=DR.q[0]||{};DR.inRoom=true;DR.look=false;const R=document.getElementById("drRoom");R.hidden=false;document.body.style.overflow="hidden";
+  const ct=drCourt(c0);if(DR.art&&artHas(ct+".wide")){document.getElementById("rmScene").innerHTML="";rmPhotoMount();const L=document.getElementById("rmLoad");
+    L.textContent="Entering the courtroom…";try{await artPreload(ct,(n,t)=>{L.textContent=`Entering the courtroom… ${n}/${t}`;});}catch(e){}L.textContent="";rmShot(ct+".wide",true);}
+  else document.getElementById("rmScene").innerHTML=rmScene(c0.case,c0.who==="pd"||c0.who==="cja");document.getElementById("rmPanel").innerHTML=`<div class="dr-box"><p class="muted">Court is in session. Stay quiet until the court speaks to you.</p></div>`;
+  rmAudio();rmTone(true);rmBreath(true);rmMurmur(0.08);const fed=c0.case!=="state";
+  setTimeout(()=>{rmGavel(3);rmMurmur(0.03);rmSpeak(fed?"All rise. The United States District Court for the Central District of California is now in session.":"All rise. Department C 57 of the Superior Court of California, County of Orange, is now in session.","bailiff",()=>{
+   rmSpeak(DR.caseObj?`Please be seated. We're on the record in ${DR.caseObj.name.replace(/ v\. /," versus ")}. The defendant is present.`:fed?"Please be seated. We're on the record in United States versus Defendant. Mr. Defendant, you're present.":"Please be seated. We're on the record in People versus Defendant. Mr. Defendant is present.","judge",()=>{const m=DR.morning;const oc=m&&m.outfit&&m.outfit[3];if(m&&(m.late||oc)){rmFace(drMoodState()[1]);rmSpeakSeq([m.late?`Mr. Defendant, you are ${m.mins} minutes late. This court started at eight thirty. The government was here on time.`:"",oc||"",(m.late||m.outfit[2]<0)?"Let's proceed.":""].filter(Boolean),"judge",()=>drCard());}else drCard();});});},700);}
+function drLeave(){ttsStop();rmTone(false);rmBreath(false);if(DR){drStop();DR.inRoom=false;DR.booking=false;}document.getElementById("drRoom").hidden=true;document.body.style.overflow="";drHome();}
+function drLook(){DR.look=!DR.look;const c=DR.q&&DR.q[DR.i]||{};const ct=drCourt(c);
+  if(rmPhotoOn()){const g=artHas(ct+".gallery.neutral")?ct+".gallery.neutral":artHas("any.gallery.neutral")?"any.gallery.neutral":null;rmShot(DR.look?(g||ct+".wide"):artFace(ct,c.who==="quiz"?"clerk":c.who,drMoodState()[1],false));}
+  else document.getElementById("rmScene").innerHTML=DR.look?rmGallery():rmScene(c.case,c.who==="pd"||c.who==="cja");
+  document.getElementById("rmLook").textContent=DR.look?"⚖ Face the judge":"👀 Look back at the gallery";if(DR.look){rmMurmur(0.06);setTimeout(()=>rmMurmur(0.03),2500);}}
+
+
+/* public mount: real public-record cases only */
+(function(){const el=document.getElementById("drill");
+  window.DR_TITLE=(function(){try{return JSON.parse(localStorage.getItem("drill:title"))||"Mr. Defendant"}catch(e){return "Mr. Defendant"}})();
+  drSrcBar=function(){const T=window.DR_TITLE;return `<div class="dr-box"><div class="dr-who">How should the judge address you?</div><div class="dr-chips">${["Mr. Defendant","Mrs. Defendant"].map(x=>`<button class="dr-chip${x===T?" on":""}" onclick="window.DR_TITLE='${x}';try{localStorage.setItem('drill:title',JSON.stringify('${x}'))}catch(e){};drHome()">${x.split(" ")[0]}</button>`).join("")}</div><p class="muted" style="margin:4px 0 0">The judge will call you “${T}.”</p></div>`;};try{localStorage.setItem("drill:src",JSON.stringify("mine"))}catch(e){}
+  DR={el,cards:drMix([],window.CC_CASES||[]),cases:window.CC_CASES||[],art:window.CC_ART||null,deck:"all",mode:"home",src:"mine"};drHome();})();
+</script></body></html>
