@@ -76,11 +76,17 @@ a{color:var(--accent)}
 
 .dr-drawer{overflow:hidden;max-height:0;transition:max-height .45s ease;border-radius:12px;background:linear-gradient(#5a3d27,#3b2716);box-shadow:inset 0 6px 12px rgba(0,0,0,.45)}
 .dr-drawer.open{max-height:1200px}
+.dr-am button{touch-action:manipulation;-webkit-user-select:none;user-select:none}
 .dr-closet{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;padding:8px}
 .dr-closet button{border:2px solid transparent;border-radius:10px;padding:0;background:#1d1610;color:#f3ede4;font-size:13px;font-weight:600;overflow:hidden;text-align:left}
 .dr-closet button img{display:block;width:100%;aspect-ratio:1;object-fit:cover}
 .dr-closet button span{display:block;padding:4px 6px;font-size:11px;line-height:1.2}
 .dr-closet button.on{border-color:#e9c46a}
+.calc .calr{display:flex;gap:10px;align-items:center;padding:8px 0;border-top:1px solid rgba(128,128,128,.25)}
+.calc .cald{flex:0 0 74px;font-size:13px}.calc .calt{flex:1;font-size:14px}
+.calc .calr.done .calt{text-decoration:line-through;opacity:.6}.calc .calr.late .cald b{color:#d64545}
+.calb{border:1.5px solid currentColor;background:transparent;border-radius:999px;padding:6px 12px;font-weight:700;cursor:pointer;color:inherit;white-space:nowrap}
+.calb.ok{color:#1f9d55}.calb.up{font-size:13px}
 
 </style></head><body>
 <div class="wrap">
@@ -90,7 +96,7 @@ a{color:var(--accent)}
  <div class="drill" id="drill"></div>
  <p class="note">🎓 <b>Practice and education only, not legal advice.</b> Cases and quotes come from public court opinions; characters are fictional. Talk to a lawyer about your own case. <a href="../">← Court Companion</a></p>
 </div>
-<div id="drRoom" hidden><div class="rm-top"><div id="rmScene"></div><div class="rm-cap" id="rmCap"></div><div class="rm-ctl"><button id="rmLook" onclick="drLook()">👀 Look back at the gallery</button><button onclick="drLeave()">🚪 Leave courtroom</button></div></div><div id="rmPanel" class="wrap" style="padding-top:4px"></div></div>
+<div id="drRoom" hidden><div class="rm-top"><div id="rmScene"></div><div class="rm-cap tap" id="rmCap" onclick="rmReplay()" title="Tap to hear it again"></div><div class="rm-ctl"><button id="rmLook" onclick="drLook()">👀 Look back at the gallery</button><button onclick="drLeave()">🚪 Leave courtroom</button></div></div><div id="rmPanel" class="wrap" style="padding-top:4px"></div></div>
 
 <script src="cases.js"></script>
 <script>
@@ -105,22 +111,45 @@ function bestVoice(){const v=TTS?TTS.getVoices().filter(x=>/^en[-_]US/i.test(x.l
   return v.find(x=>/premium|enhanced/i.test(x.name))||v.find(x=>/samantha|ava|allison|google us/i.test(x.name))||v.find(x=>x.localService)||v[0]||null;}
 function chunks(t){t=t.replace(/[‹›↗🔊]/g," ").replace(/\s+/g," ").trim();const out=[];
   (t.match(/[^.!?]+[.!?]*\s*/g)||[t]).forEach(p=>{while(p.length>220){let k=p.lastIndexOf(",",220);if(k<80)k=p.lastIndexOf(" ",220);if(k<1)k=220;out.push(p.slice(0,k+1));p=p.slice(k+1);}if(p.trim())out.push(p);});return out;}
-function ttsNext(){if(!TQ.length){TSPK=false;ttsUI();return;}
-  const u=new SpeechSynthesisUtterance(TQ.shift());const v=bestVoice();if(v)u.voice=v;u.lang="en-US";u.rate=RATE;u.volume=1;
-  u.onend=ttsNext;u.onerror=ttsNext;TTS.speak(u);}
-function ttsSay(text){if(!TTS){toast("This browser can't read aloud.");return;}TTS.cancel();TQ=chunks(text);TSPK=true;ttsUI();ttsNext();}
-function ttsStop(){TQ=[];TSPK=false;if(TTS)TTS.cancel();if(typeof voStop==="function")voStop();ttsUI();}
-function ttsPause(){if(!TTS)return;if(TTS.paused){TTS.resume()}else{TTS.pause()}ttsUI();}
-function ttsUI(){const p=document.getElementById("ttsP");if(!p)return;p.style.display=TSPK?"":"none";
-  document.getElementById("ttsS").style.display=TSPK?"":"none";p.textContent=TTS&&TTS.paused?"▶ Resume":"⏸ Pause";}
+/* Scrub player: the text is split into sentences; ⏸ remembers the sentence, ⏮/⏭ skip one, the slider jumps
+   anywhere, and "📜 All parts" lists every sentence to tap. Pause is cancel + remember (iPhone's own pause is unreliable). */
+let TI=0,TGEN=0,TPAUSED=false,TBAR=false;
+function ttsSpeak(){const g=++TGEN;if(TI>=TQ.length){TSPK=false;TPAUSED=true;TI=Math.max(0,TQ.length-1);ttsUI();return;}
+  const u=new SpeechSynthesisUtterance(TQ[TI]);const v=bestVoice();if(v)u.voice=v;u.lang="en-US";u.rate=RATE;u.volume=1;
+  u.onstart=()=>{TOK=true;};u.onend=u.onerror=()=>{if(g!==TGEN)return;if(!TOK){ttsNoVoice();return;}TI++;ttsSpeak();};TSPK=true;TPAUSED=false;ttsUI();TTS.speak(u);
+  if(!TOK)setTimeout(()=>{if(g===TGEN&&!TOK)ttsNoVoice();},4000);}
+/* Some browsers (Tesla's) have the reader but no voice in it: it never starts. Say so instead of staying silent. */
+let TOK=false;
+function ttsNoVoice(){ttsStop();toast("This browser has no reading voice (Tesla's doesn't). The courtroom game voices still play here; use your phone for 🔊 Listen.");}
+function ttsGo(i){if(!TTS||!TQ.length)return;TGEN++;TTS.cancel();TI=Math.max(0,Math.min(TQ.length-1,i|0));setTimeout(ttsSpeak,60);}
+function ttsSay(text,bar){if(!TTS){toast("This browser can't read aloud.");return;}TGEN++;TTS.cancel();TQ=chunks(text);TI=0;TBAR=!!bar;ttsSpeak();}
+function ttsStop(){TGEN++;TQ=[];TI=0;TSPK=false;TPAUSED=false;TBAR=false;if(TTS)TTS.cancel();if(typeof voStop==="function")voStop();ttsUI();}
+function ttsPause(){if(!TTS||!TQ.length)return;if(TSPK){TGEN++;TTS.cancel();TSPK=false;TPAUSED=true;ttsUI();}else ttsGo(TI);}
+function ttsList(){const L=document.getElementById("tbList");if(!L)return;if(!L.hidden){L.hidden=true;return;}
+  L.innerHTML=TQ.map((t,i)=>`<button class="tbI${i===TI?" on":""}" onclick="ttsGo(${i})"><b>${i+1}</b> ${esc(t)}</button>`).join("");L.hidden=false;
+  const on=L.querySelector(".on");if(on)on.scrollIntoView({block:"center"});}
+function ttsBar(){let b=document.getElementById("ttsBar");if(b)return b;
+  document.body.insertAdjacentHTML("beforeend",`<div id="ttsBar" hidden><div id="tbList" hidden></div><div id="tbNow" onclick="ttsList()" title="Tap to see every part"></div>
+  <input id="tbR" type="range" min="0" value="0" step="1" aria-label="Scrub" oninput="document.getElementById('tbN').textContent=(+this.value+1)+' / '+TQ.length;document.getElementById('tbNow').textContent=TQ[+this.value]||''" onchange="ttsGo(+this.value)">
+  <div class="tbB"><button onclick="ttsGo(TI-1)" aria-label="Back one part">⏮</button><button id="tbP" onclick="ttsPause()" aria-label="Play or pause">⏸</button><button onclick="ttsGo(TI+1)" aria-label="Forward one part">⏭</button>
+  <span id="tbN"></span><button class="sm" onclick="ttsList()">📜 All parts</button><button class="sm" onclick="ttsStop()" aria-label="Close">✕</button></div></div>`);
+  return document.getElementById("ttsBar");}
+function ttsUI(){const on=TQ.length>0&&(TSPK||TPAUSED);document.body.classList.toggle("tbOn",on&&TBAR);
+  if(TBAR){const b=ttsBar();b.hidden=!on;if(on){const r=document.getElementById("tbR");r.max=Math.max(0,TQ.length-1);r.value=TI;
+    document.getElementById("tbN").textContent=(TI+1)+" / "+TQ.length;document.getElementById("tbNow").textContent=TQ[TI]||"";
+    document.getElementById("tbP").textContent=TSPK?"⏸":"▶";const L=document.getElementById("tbList");
+    if(L&&!L.hidden)L.querySelectorAll(".tbI").forEach((x,i)=>x.classList.toggle("on",i===TI));}}
+  else{const b=document.getElementById("ttsBar");if(b)b.hidden=true;}
+  const p=document.getElementById("ttsP");if(!p)return;p.style.display=on?"":"none";
+  document.getElementById("ttsS").style.display=on?"":"none";p.textContent=TSPK?"⏸ Pause":"▶ Resume";}
 
 function ttsUI(){}
 /* ───── 🎯 Courtroom practice: judge / AUSA / DA / my lawyer say a line, I answer, graded on what the court needs to hear ───── */
 const DRW={judge:"👩‍⚖️ The judge",ausa:"🏛 The AUSA (prosecutor)",da:"🏛 The DA",pd:"👔 My public defender",cja:"👔 My federal lawyer",quiz:"⏱ Deadline quiz"};
-const DRDECKS=[["all","All"],["fed","Federal court"],["state","State court"],["lawyer","My lawyer"],["quiz","Deadlines"]];
+const DRDECKS=[["all","All"],["calls","🎧 The calls"],["staterp","⚖️ State pro per"],["lib9","⚖ 9th Cir. binding"],["libsc","🏛 Supreme Court"],["libca","⚖ California binding"],["lib","📚 Case library (all)"],["new","🆕 New from research"],["talk","🗣 Court talk"],["fed","Federal court"],["state","State court"],["lawyer","My lawyer"],["quiz","Deadlines"],["tools","🎓 Pro se tools"]];
 let DR=null;
 function drLS(k,v){try{if(v===undefined)return JSON.parse(localStorage.getItem("drill:"+k)||"null");localStorage.setItem("drill:"+k,JSON.stringify(v));}catch(e){return null;}}
-function drDeck(c,d){if(d==="all")return true;if(d==="lawyer")return c.who==="pd"||c.who==="cja";if(d==="quiz")return c.who==="quiz";
+function drDeck(c,d){if(d==="all")return true;if(d==="new")return !!c.auto;if(d==="lib")return !!c.library;if(d==="lib9")return c.library==="9th";if(d==="libsc")return c.library==="scotus";if(d==="libca")return c.library==="cal";if(d==="talk")return /^Court talk/.test(c.stage||"");if(d==="calls")return /^The calls/.test(c.stage||"");if(d==="staterp")return /^State pro per/.test(c.stage||"");if(d==="lawyer")return c.who==="pd"||c.who==="cja";if(d==="quiz")return c.who==="quiz";if(d==="tools")return c.stage==="Pro se tools";
   return c.who!=="pd"&&c.who!=="cja"&&c.who!=="quiz"&&(c.case===d||c.case==="both");}
 function drWireRx(list){return list.map(p=>{try{return new RegExp(p,"im")}catch(e){return null}}).filter(Boolean);}
 function drGrade(c,t){const need=c.need.map(g=>({k:g.k,hit:drWireRx(g.any).some(r=>r.test(t))}));
@@ -151,10 +180,24 @@ function drHome(){if(window.TTS)ttsStop();if(DR.tick)drStop();DR.src=DR.src||drL
   <button class="dr-chip${drMorningOn()?" on":""}" onclick="drLS('morning',!drMorningOn());drHome()">⏰ Morning rush: ${drMorningOn()?"on":"off"}</button>
   <button class="dr-chip${drLS("speak")===false?"":" on"}" onclick="drLS('speak',drLS('speak')===false);drHome()">🎤 Say it out loud: ${drLS("speak")===false?"off":"on"}</button>
   <button class="dr-chip${drLS("timer")===false?"":" on"}" onclick="drLS('timer',drLS('timer')===false);drHome()">⏱ Response clock: ${drLS("timer")===false?"off":"on"}</button>
-  <button class="dr-btn" onclick="drStart('practice')">▶ Practice (hints on, retry until you get it)</button>
+  ${(()=>{const f=drLS("final:"+DR.deck);return `<p style="margin:6px 0;font-weight:700">${f?(f.pct>=100?"🏁 ✅ PRO PER READY":"🏁 Final exam best: "+f.pct+"%")+" ("+esc(f.on)+")":"🏁 Final exam: not taken yet"} · goal 100%</p>`;})()}
+  <button class="dr-btn alt" onclick="drStudy()">📖 Step 1 · Study: every line they'll say, the answer and the case</button>
+  <button class="dr-btn" onclick="drStart('quiz')">🗣 Step 2 · Quiz out loud (hints on, misses come back)</button>
+  <button class="dr-btn" style="background:#7a1f1f" onclick="drStart('final')">🏁 Step 3 · Final exam: every card, no hints, no choices, 100% to pass</button>
+  <button class="dr-btn alt" onclick="drStart('practice')">▶ Practice (hints on, retry until you get it)</button>
   <button class="dr-btn alt" onclick="drStart('test')">🎓 Take the test (${Math.min(10,n)} random cards, no hints, 80% = ready for court)</button></div>`;}
+
+function drStudy(){if(window.TTS)ttsStop();const pool=DR.cards.filter(c=>drDeck(c,DR.deck));const W={judge:"⚖️ Judge",ausa:"🏛 Prosecutor",da:"🏛 DA",pd:"🧑‍💼 PD",cja:"🧑‍💼 Lawyer",quiz:"📋 Quiz"};
+  DR.el.innerHTML=drSrcBar()+`<div class="dr-box"><div class="dr-who">📖 Study · ${pool.length} cards</div><p class="muted">Read each one out loud: what they say, then your answer. Tap 🔊 to hear the answer. When you can say them without looking, go to 🗣 Quiz.</p>
+  ${pool.map((c,i)=>`<details class="dr-model" style="margin:8px 0"><summary><b>${i+1}. ${esc(W[c.who]||"")}${c.stage?" · "+esc(c.stage):""}${c.ref?" · 🎧 "+esc(c.ref):""}</b><br>“${esc(c.say)}”</summary>
+   ${c.clip?`<audio controls preload="none" src="${c.clip}" style="width:100%;margin:6px 0"></audio>`:""}
+   <p><b>Say it like this:</b> ${esc(c.model)} <button class="dr-chip" onclick="voSay(${JSON.stringify(c.model).replace(/"/g,"&quot;")},'coach')">🔊</button></p>
+   <p><b>The court needs to hear:</b></p><ul class="dr-need">${c.need.map(g=>`<li>• ${esc(g.k)}</li>`).join("")}</ul>
+   ${(c.avoid||[]).length?`<p style="color:var(--risk)"><b>Never:</b> ${c.avoid.map(a=>esc(a.why)).join(" ")}</p>`:""}
+   <p class="tap" onclick="ttsSay(this.textContent)"><b>Why:</b> ${esc(c.why)} <span class="tapi">🔊</span></p>${c.cite?`<p class="muted">${esc(c.cite)}${c.verify?" · <b>verify this cite</b>":""}</p>`:""}</details>`).join("")}
+  <button class="dr-btn" onclick="drStart('quiz')">🗣 Ready: start the quiz</button><button class="dr-btn alt" onclick="drHome()">‹ Back to decks</button></div>`;}
 function drSetDeck(k){DR.deck=k;drLS("deck",k);drHome();}
-function drStart(mode){voUnlock();const pool=DR.cards.filter(c=>drDeck(c,DR.deck));DR.mode=mode;DR.mood=0;DR.moodLog=[];DR.morning=null;DR.q=mode==="test"?drShuffle(pool).slice(0,10):pool.slice();DR.i=0;DR.score=0;DR.miss=[];const go=()=>{if(drRoomOn())drEnter(mode);else drCard();};if(drMorningOn())drMorning(go);else go();}
+function drStart(mode){voUnlock();const pool=DR.cards.filter(c=>drDeck(c,DR.deck));DR.mode=mode;DR.mood=0;DR.moodLog=[];DR.morning=null;DR.q=mode==="test"?drShuffle(pool).slice(0,10):mode==="final"?drShuffle(pool):mode==="quiz"?drShuffle(pool):pool.slice();DR.i=0;DR.score=0;DR.miss=[];const go=()=>{if(drRoomOn()||mode==="final")drEnter(mode);else drCard();};if(drMorningOn())drMorning(go);else go();}
 function drCard(){if(window.TTS)ttsStop();if(DR.tick)drStop();if(DR.i>=DR.q.length)return drEnd();const c=DR.q[DR.i];DR.tries=0;
   if(DR.inRoom&&rmPhotoOn()){DR.look=false;document.getElementById("rmLook").textContent="👀 Look back at the gallery";rmShot(artFace(drCourt(c),c.who==="quiz"?"clerk":c.who,drMoodState()[1],false));rmMurmur(0.03);document.getElementById("drRoom").scrollTop=0;}
   else if(DR.inRoom){DR.look=false;document.getElementById("rmLook").textContent="👀 Look back at the gallery";document.getElementById("rmScene").innerHTML=rmScene(c.case,c.who==="pd"||c.who==="cja");rmFace(drMoodState()[1]);rmMurmur(0.03);document.getElementById("drRoom").scrollTop=0;}
@@ -162,18 +205,18 @@ function drCard(){if(window.TTS)ttsStop();if(DR.tick)drStop();if(DR.i>=DR.q.leng
   <div class="dr-box"><div class="dr-who">${DRW[c.who]||""} · ${esc(c.stage)} · ${c.case==="fed"?"Federal":c.case==="state"?"State":"Both cases"} · ${DR.i+1}/${DR.q.length}</div>
   ${c._case?`<div class="muted" style="font-size:12px;margin:2px 0">📜 From the record: <b>${esc(c._case)}</b> · ${esc(c._cite||"")}</div>`:""}
   <div id="drMood" style="display:flex;align-items:center;font-size:13px;margin:4px 0 8px"></div>
-  <div class="dr-say">“${esc(c.say)}”</div>${c.say_real?`<div class="muted" style="font-size:12px;margin:-6px 0 8px">📜 Real words from the record: ${esc(c.say_src||"")}</div>`:""}
+  <div class="dr-say tap" onclick="voSay(DR.q[DR.i].say,DR.q[DR.i].who)" title="Tap to hear it">“${esc(c.say)}” <span class="tapi">🔊</span></div>${c.ref?`<div class="muted" style="font-size:13px;margin:-4px 0 6px">🎧 ${esc(c.ref)}${c.clip?"":" · clip held until counsel clears the recordings"}</div>`:""}${c.clip?`<audio controls preload="none" src="${c.clip}" style="width:100%;margin:0 0 8px"></audio>`:""}${c.say_real?`<div class="muted" style="font-size:12px;margin:-6px 0 8px">📜 Real words from the record: ${esc(c.say_src||"")}</div>`:""}
   ${drTimerOn()?`<div class="dr-bar" style="height:12px"><i id="drT" style="width:100%;background:#1f9d55;transition:width .25s linear"></i></div><div id="drTl" class="muted" style="font-size:13px"></div>`:""}
   <button class="dr-chip" onclick="voSay(DR.q[DR.i].say,DR.q[DR.i].who)">🔊 Hear it</button>
   <p style="margin:12px 0 6px"><b>Your answer</b> <span class="muted">(type it, or tap 🎤 and talk)</span></p>
   <textarea id="drA" placeholder="Your Honor, …"></textarea>
   <div class="dr-row"><button class="dr-btn" onclick="drSubmit()">Answer</button><button class="dr-btn alt" style="flex:0 0 64px" onclick="drMic(this)" aria-label="Talk">🎤</button></div>
-  <div class="dr-row">${DR.mode==="practice"?`<button class="dr-btn alt" onclick="drHint()">💡 What do they need?</button>`:""}<button class="dr-btn alt" onclick="drChoices()">Show choices</button></div>
+  <div class="dr-row">${DR.mode==="practice"||DR.mode==="quiz"?`<button class="dr-btn alt" onclick="drHint()">💡 What do they need?</button>`:""}${DR.mode==="final"?"":`<button class="dr-btn alt" onclick="drChoices()">Show choices</button>`}</div>
   <div id="drX"></div></div>${DR.inRoom?"":`<button class="dr-chip" onclick="drHome()">‹ Quit to decks</button>`}`;
   drMoodUI();setTimeout(()=>drVoice(c.say,c.who),150);drClock(c);}
-function drHint(){const c=DR.q[DR.i];document.getElementById("drX").innerHTML=`<div class="dr-model"><b>The court needs to hear:</b><ul class="dr-need">${c.need.map(g=>`<li>• ${esc(g.k)}</li>`).join("")}</ul></div>`;}
+function drHint(){const c=DR.q[DR.i];document.getElementById("drX").innerHTML=`<div class="dr-model"><b>The court needs to hear:</b><ul class="dr-need">${c.need.map(g=>`<li class="tap" onclick="ttsSay(this.textContent.replace('•',''))">• ${esc(g.k)} <span class="tapi">🔊</span></li>`).join("")}</ul></div>`;}
 function drChoices(){const c=DR.q[DR.i];const ch=drShuffle(c.choices.map((x,k)=>({...drChoiceObj(x),k})));
-  document.getElementById("drX").innerHTML=ch.map(x=>`<button class="dr-ch" onclick="drPick(${x.k})">${esc(x.text)}</button>`).join("");}
+  document.getElementById("drX").innerHTML=ch.map(x=>`<div class="dr-chw"><button class="dr-ch" onclick="drPick(${x.k})">${esc(x.text)}</button><button class="dr-chip dr-chs" onclick="voSay(drChoiceObj(DR.q[DR.i].choices[${x.k}]).text,'coach')" aria-label="Hear this choice">🔊</button></div>`).join("");}
 function drPick(k){if(drHush())return;const c=DR.q[DR.i],x=drChoiceObj(c.choices[k]);document.getElementById("drA").value=x.text;DR.picked=x;
   const go=d=>{DR.delivery=d;drResult(drGrade(c,x.text),x.ok?null:((c.trap||{})[String(k)]||x.why||null),x.ok===1);};
   if(drSpeakOn()){DR.pauseClock=drStop();drSpeakStep(x.text,go);}else go(null);}
@@ -184,20 +227,23 @@ function drResult(g,trap,forced){const c=DR.q[DR.i];let secs=drStop();if(secs==n
   const dv=DR.delivery,dg=drDeliveryGrade(dv);DR.delivery=null;const pk=DR.picked;DR.picked=null;
   const said=(dv&&dv.heard)||((document.getElementById("drA")||{}).value||""),story=!["pd","cja","quiz"].includes(c.who)&&c.seat!=="witness"&&drStory(said);
   if(story){pass=false;}
-  let mv=null;if(DR.tries===1){if(pass)DR.score++;else DR.miss.push(c);mv=drMoodScore(c,g,secs,(document.getElementById("drA")||{}).value||"",pass);}
+  const dec=!["pd","cja","quiz"].includes(c.who)&&!story?drDecor(said):null;
+  let mv=null;if(DR.tries===1){if(pass)DR.score++;else{DR.miss.push(c);if(DR.mode==="quiz"&&!c._again)DR.q.push({...c,_again:1});}mv=drMoodScore(c,g,secs,(document.getElementById("drA")||{}).value||"",pass);}
   const box=document.getElementById("drX");
   if(story&&DR.tries===1)drMood(-15,"Told your story instead of the law");
-  box.innerHTML=`${story?drStoryHtml():""}<div class="dr-v ${pass?"ok":"no"}">${pass?"✅ "+esc(c.win):"❌ "+esc(c.lose)}</div>
+  if(dec&&DR.tries===1)drMood(-10,dec.k);
+  box.innerHTML=`${story?drStoryHtml():""}${dec?drDecorHtml(dec):""}<div class="dr-v tap ${pass?"ok":"no"}" onclick="ttsSay(this.textContent)">${pass?"✅ "+esc(c.win):"❌ "+esc(c.lose)}</div>
    <b>${pass?"You hit everything the court needed:":"What the court needed to hear:"}</b>
    <ul class="dr-need">${g.need.map(n=>`<li>${n.hit?"✅":"❌"} ${esc(n.k)}</li>`).join("")}</ul>
    ${secs!=null?`<p class="muted">⏱ You answered in ${secs}s of ${DR.lim}s.${secs>DR.lim*0.66?" <b style='color:var(--risk)'>Too slow: in court the judge was already losing patience. Have this one ready word for word.</b>":secs<=DR.lim*0.33?" Sharp. That's how it sounds when you're ready.":""}</p>`:""}
    ${drDeliveryHtml(dv,dg)}${pk&&pk.src?`<p class="muted" style="font-size:13px">That answer: <b>${esc(pk.src)}</b>${pk.why?" · "+esc(pk.why):""}</p>`:""}
    ${mv?`<p style="font-size:14px">${mv.d>=0?"⬆️":"⬇️"} Judge's mood ${mv.d>=0?"+":""}${mv.d}${mv.why.length?" ("+esc(mv.why.join(", "))+")":""} → <b>${drMoodState()[2]}</b></p>`:""}
-   ${g.bad.map(b=>`<p style="color:var(--risk)">⚠️ ${esc(b.why)}</p>`).join("")}${trap?`<p style="color:var(--risk)">⚠️ ${esc(trap)}</p>`:""}
-   <div class="dr-model"><b>Say it like this:</b><br>${esc(c.model)} <button class="dr-chip" onclick="voSay(DR.q[DR.i].model,'coach')">🔊</button></div>
-   <p><b>Why:</b> ${esc(c.why)}</p>${c.cite?`<p class="muted">${esc(c.cite)}${c.verify?" · <b>verify this cite before using it</b>":""}</p>`:""}
-   <div class="dr-row">${!pass&&DR.mode==="practice"?`<button class="dr-btn alt" onclick="drRetry()">↺ Try again</button>`:""}<button class="dr-btn" onclick="DR.i++;drCard()">Next ›</button></div>`;
+   ${g.bad.map(b=>`<p class="tap" onclick="ttsSay(this.textContent)" style="color:var(--risk)">⚠️ ${esc(b.why)}</p>`).join("")}${trap?`<p style="color:var(--risk)">⚠️ ${esc(trap)}</p>`:""}
+   <div class="dr-model tap" onclick="if(event.target.tagName!=='BUTTON')voSay(DR.q[DR.i].model,'coach')"><b>Say it like this:</b><br>${esc(c.model)} <button class="dr-chip" onclick="voSay(DR.q[DR.i].model,'coach')">🔊</button></div>
+   <p class="tap" onclick="ttsSay(this.textContent)"><b>Why:</b> ${esc(c.why)} <span class="tapi">🔊</span></p>${c.cite?`<p class="muted">${esc(c.cite)}${c.verify?" · <b>verify this cite before using it</b>":""}</p>`:""}
+   <div class="dr-row">${!pass&&(DR.mode==="practice"||DR.mode==="quiz")?`<button class="dr-btn alt" onclick="drRetry()">↺ Try again</button>`:""}<button class="dr-btn" onclick="DR.i++;drCard()">Next ›</button></div>`;
   if(dg&&DR.tries===1){drMood(dg.delta,"Delivery "+dg.grade);}
+  if(dec&&DR.inRoom){rmGavel(1);rmSpeak(dec.line,"judge");}
   if(story){if(DR.inRoom){rmGavel(1);rmSpeak(c.case==="state"?"Objection, Your Honor. The defendant is testifying. He's not under oath.":"Objection, Your Honor. The defendant is testifying. He's not under oath.",c.case==="state"?"da":"ausa",()=>rmSpeak("Sustained. Mr. Defendant, you are not under oath. Argue the facts in the record and the law, not your story.","judge"));}
     else if(window.TTS)ttsSay("Objection. The defendant is testifying. Sustained. Argue the record and the law, not your story.");}
   else
@@ -208,7 +254,8 @@ function drResult(g,trap,forced){const c=DR.q[DR.i];let secs=drStop();if(secs==n
 function drRetry(){document.getElementById("drA").value="";document.getElementById("drX").innerHTML="";document.getElementById("drA").focus();drClock(DR.q[DR.i]);}
 /* Response clock: starts after they finish their line. Court cards 30s, lawyer 45s, quiz 20s. At 2/3 the judge
    prompts "Mr. Defendant?"; at zero the request is denied and the court moves on. Test mode always runs the clock. */
-function drTimerOn(){return DR.mode==="test"||drLS("timer")!==false;}
+function drExam(){return DR.mode==="test"||DR.mode==="final";}
+function drTimerOn(){return drExam()||drLS("timer")!==false;}
 const DRTO={judge:"Nothing, Mr. Defendant? Then it's denied. Next matter.",ausa:"Hearing no response, the objection is sustained. Move on.",da:"Hearing no response, the objection is sustained. Move on.",pd:"Okay, I'll go ahead and handle it the way I think is best.",cja:"Okay, just come by the office sometime.",quiz:"Time's up."};
 function drStop(){clearInterval(DR.tick);DR.tick=null;if(!DR.t0)return null;const s=Math.max(0,Math.round((Date.now()-DR.t0)/1000));DR.t0=null;return drTimerOn()?s:null;}
 function drClock(c){clearInterval(DR.tick);DR.lim=c.who==="quiz"?20:(c.who==="pd"||c.who==="cja")?45:30;
@@ -224,9 +271,9 @@ function drTimeout(){const c=DR.q[DR.i];clearInterval(DR.tick);DR.tick=null;DR.t
   const box=document.getElementById("drX");
   box.innerHTML=`<div class="dr-v no">⏰ TIME'S UP · ${esc(c.lose)}</div><p><i>“${esc(drTitle(DRTO[c.who]||"Time's up."))}”</i></p>
    <p>In court, a long silence reads as "no objection" or "nothing to add." Know the first sentence cold so you can start talking right away.</p>
-   <div class="dr-model"><b>Say it like this:</b><br>${esc(c.model)} <button class="dr-chip" onclick="voSay(DR.q[DR.i].model,'coach')">🔊</button></div>
-   <p><b>Why:</b> ${esc(c.why)}</p>
-   <div class="dr-row">${DR.mode==="practice"?`<button class="dr-btn alt" onclick="drRetry()">↺ Try again</button>`:""}<button class="dr-btn" onclick="DR.i++;drCard()">Next ›</button></div>`;
+   <div class="dr-model tap" onclick="if(event.target.tagName!=='BUTTON')voSay(DR.q[DR.i].model,'coach')"><b>Say it like this:</b><br>${esc(c.model)} <button class="dr-chip" onclick="voSay(DR.q[DR.i].model,'coach')">🔊</button></div>
+   <p class="tap" onclick="ttsSay(this.textContent)"><b>Why:</b> ${esc(c.why)} <span class="tapi">🔊</span></p>
+   <div class="dr-row">${DR.mode==="practice"||DR.mode==="quiz"?`<button class="dr-btn alt" onclick="drRetry()">↺ Try again</button>`:""}<button class="dr-btn" onclick="DR.i++;drCard()">Next ›</button></div>`;
   if(DR.inRoom){rmGavel(2);rmMurmur(0.03);}drVoice(DRTO[c.who]||"Time's up.",c.who==="ausa"||c.who==="da"?"judge":c.who);box.scrollIntoView({behavior:"smooth",block:"start"});}
 function drMic(btn){const R=window.SpeechRecognition||window.webkitSpeechRecognition;const ta=document.getElementById("drA");
   if(!R){toast("Tap the text box, then the 🎤 on your keyboard to talk.");ta.focus();return;}
@@ -235,10 +282,12 @@ function drMic(btn){const R=window.SpeechRecognition||window.webkitSpeechRecogni
   catch(e){toast("Tap the text box, then the 🎤 on your keyboard to talk.");ta.focus();}}
 function drEnd(){const n=DR.q.length,pct=n?Math.round(100*DR.score/n):0;
   const kase=DR.q.filter(c=>c.case==="state").length>DR.q.length/2?"state":"fed",fin=Math.round(0.7*pct+0.3*(((DR.mood||0)+100)/2)),o=drOutcome(fin,kase);
+  if(DR.mode==="final"){const first=DR.q.filter(c=>!c._again).length,fp=first?Math.round(100*DR.score/first):0,b=drLS("final:"+DR.deck);if(!b||fp>=b.pct)drLS("final:"+DR.deck,{pct:fp,on:new Date().toLocaleDateString("en-US",{month:"short",day:"numeric"})});
+    try{const cfg=(DATA.tasks||[])[0];if(cfg)tPost(cfg.c,"exam:"+DR.deck,"score",{pct:fp,n:first}).catch(()=>{});}catch(_){}}
   if(DR.mode==="test"){const b=drLS("best:"+DR.deck);if(!b||pct>=b.pct)drLS("best:"+DR.deck,{pct,on:new Date().toLocaleDateString("en-US",{month:"short",day:"numeric"})});}
   drTarget().innerHTML=`<div class="rm-out ${o.k}">${esc(o.big)}<div style="font:500 14px/1.4 -apple-system,sans-serif;margin-top:6px">${esc(o.sub)}</div></div>
   <p class="muted" style="font-size:12px;text-align:center">Score ${pct}% · judge's mood ${drMoodState()[2]} → final ${fin}. Game outcome, not a prediction of your real case.</p>${DR.inRoom?`<button class="dr-chip" onclick="rmVerdict(drOutcome(${fin},'${kase}'),'${kase}')">↺ Replay the verdict</button>`:""}<div class="dr-box"><div class="dr-v ${pct>=80?"ok":"no"}">${DR.score}/${n} right on the first try · ${pct}%</div>
-  <p style="text-align:center;font-weight:700">${pct>=80?"✅ READY FOR COURT on this deck. Run it again the morning of.":"Keep practicing. You need 80% to be ready."}</p>
+  <p style="text-align:center;font-weight:700">${DR.mode==="final"?(pct>=100?"🏁 ✅ PRO PER READY on this deck: 100%, no hints. Run it again the morning of court.":"Not yet. The final exam needs 100%. Quiz the ones you missed, then take it again."):pct>=80?"✅ READY FOR COURT on this deck. Run it again the morning of.":"Keep practicing. You need 80% to be ready."}</p>
   ${(()=>{if(DR.caseObj)return "";const seen=[...new Map(DR.q.filter(c=>c._case).map(c=>[c._case,c])).values()];return seen.length?`<div class="dr-model"><b>How the real cases you played turned out:</b>${seen.map(c=>`<p style="margin:6px 0"><b>${esc(c._case)}</b> (${esc(c._cite||"")}): ${esc(c._real||"")}</p>`).join("")}</div>`:"";})()}
   ${DR.caseObj?`<div class="dr-model"><b>What really happened in ${esc(DR.caseObj.name)}:</b><br>${esc(DR.caseObj.real||"")}<br><br><b>Lesson:</b> ${esc(DR.caseObj.lesson||"")}</div>`:""}
   ${DR.miss.length?`<b>Practice these again:</b><ul class="dr-need">${DR.miss.map(c=>`<li>❌ ${esc(c.say)}</li>`).join("")}</ul><button class="dr-btn" onclick="drRedo()">▶ Practice just the ones I missed</button>`:""}
@@ -314,7 +363,7 @@ function rmTalkStop(who){clearInterval(DR.flap);DR.flap=null;DR.talkTok=(DR.talk
    the words), pace (130–170 wpm sweet spot), breaks (gaps > 1.3 s), fillers, hesitation before starting, clarity
    (recognizer confidence / mumbling). Delivery moves the judge's mood; a sensitive judge reacts out loud. ───── */
 function drChoiceObj(x){return Array.isArray(x)?{text:x[0],ok:x[1]}:x;}
-function drSpeakOn(){return DR.mode==="test"||drLS("speak")!==false;}
+function drSpeakOn(){return drExam()||DR.mode==="quiz"||drLS("speak")!==false;}
 function drNorm(t){return (t||"").toLowerCase().replace(/§/g," section ").replace(/[^a-z0-9' ]+/g," ").split(/\s+/).filter(Boolean);}
 function drWer(ref,hyp){const a=drNorm(ref),b=drNorm(hyp);if(!a.length)return 0;const d=Array.from({length:a.length+1},(_,i)=>[i]);
   for(let j=1;j<=b.length;j++)d[0][j]=j;for(let i=1;i<=a.length;i++)for(let j=1;j<=b.length;j++)d[i][j]=Math.min(d[i-1][j]+1,d[i][j-1]+1,d[i-1][j-1]+(a[i-1]===b[j-1]||a[i-1].replace(/\D/g,"")&&a[i-1].replace(/\D/g,"")===b[j-1].replace(/\D/g,"")?0:1));
@@ -324,7 +373,7 @@ function drSpeakStep(text,after){const R=window.SpeechRecognition||window.webkit
    ${R?`<button class="dr-btn" id="drSay">🎤 Tap and speak</button>`:`<p class="muted">This browser can't hear you here. Open the app in Safari or Chrome to grade your delivery.</p>`}
    <button class="dr-chip" id="drSkip">${R?"Skip delivery (practice only)":"Continue"}</button><div id="drLive" class="muted" style="min-height:22px;margin-top:6px"></div>`;
   box.scrollIntoView({behavior:"smooth",block:"start"});
-  const skip=document.getElementById("drSkip");if(DR.mode==="test"&&R)skip.style.display="none";skip.onclick=()=>after(null);
+  const skip=document.getElementById("drSkip");if(drExam()&&R)skip.style.display="none";skip.onclick=()=>after(null);
   if(!R)return;document.getElementById("drSay").onclick=function(){this.disabled=true;this.textContent="⏺ Listening… speak now";
     const r=new R();r.lang="en-US";r.interimResults=true;r.continuous=true;r.maxAlternatives=1;
     const t0=Date.now();let first=0,last=0,maxGap=0,prevT=0,finals=[],confs=[],interim="",ended=false,silence=null;
@@ -365,6 +414,16 @@ function drStoryHtml(){return `<div class="dr-v no" style="font-size:18px">⚖ O
   <div class="dr-model"><b>Reminder:</b> you're not under oath when you argue. Stick to <b>what's in the record</b> and <b>the law</b>. Start with:<br>
   • “The record shows…” / “The complaint itself says…”<br>• “The government has offered no evidence of…”<br>• “Under [rule or statute], the court must…”<br>
   <span class="muted">Your version of events belongs in testimony, and only if you decide to testify after talking it through with counsel.</span></div>`;}
+/* ───── Courtroom manners (pro se toolkit): "Your Honor", never "Judge"; speak to the court, never at the other side;
+   no cursing. A slip doesn't fail the answer, but the judge warns you on the record and the mood drops. ───── */
+const DRDECOR=[{k:'Called the judge "Judge"',rx:/(^|[.,!?:;]\s*)judge\b|\b(yes|no|ok|okay|but|look|listen|come on|please),?\s+judge\b/i,
+    line:"Mr. Defendant, in this courtroom you address me as Your Honor.",tip:"Say “Your Honor,” never “Judge.”"},
+  {k:"Attacked the other side",rx:/\b(you'?re|she'?s|he'?s|they'?re) (lying|a liar|lyin)\b|\bliar\b|\bthat'?s (a lie|bs|bull)/i,
+    line:"Mr. Defendant, you will address the court, not counsel. Another outburst and I will revisit your self-representation.",tip:"Talk only to the judge. Object with a reason; never call anyone a liar."},
+  {k:"Cursed in court",rx:/\b(damn|bullshit|f+u+c+k\w*|shit\w*|wtf|hell no)\b/i,
+    line:"Watch your language in my courtroom, Mr. Defendant.",tip:"No cursing, no attitude. Calm and firm wins."}];
+function drDecor(t){return t?DRDECOR.find(r=>r.rx.test(t))||null:null;}
+function drDecorHtml(d){return `<div class="dr-v no" style="font-size:16px">⚠️ WARNING FROM THE BENCH: ${esc(d.k)}</div><p><b>Toolkit:</b> ${esc(d.tip)}</p>`;}
 /* ───── Losing: the last look at my family, then booking, sped up with a racing clock. ───── */
 const DRBOOK=[["any.booking.1","12:10 PM","Holding cell. Hours of waiting. Nobody tells you anything."],["any.booking.2","2:35 PM","Property. Wallet, phone, belt, shoelaces: all of it goes in a bin."],
   ["any.booking.3","4:05 PM","Search and change-out. Your clothes go in a bag. You won't see them for a long time."],["any.booking.4","6:20 PM","Medical screening. Every question about your body, your meds, your history."],
@@ -394,21 +453,26 @@ function drCloset(){const d=document.getElementById("drDrawer");if(!d)return;d.c
    Late / wrong outfit / no papers = the judge starts against you (mood), the prosecutor starts smug. ───── */
 const DRAM=[["wake","⏰ Get up",3],["shower","🚿 Shower",4],["dress","👔 Get dressed",0],["eat","🍳 Eat",3],["papers","📁 Grab case file, ID, motions",0],["drive","🚗 Drive & park",5],["security","🛂 Security line",4]];
 function drMorning(go){if(window.TTS)ttsStop();const M={t0:0,done:{},taps:{},outfit:null,papers:null,over:false};DR.morning=null;
-  const LIM=15;let render=()=>{const left=M.t0?Math.max(0,LIM-(Date.now()-M.t0)/1000):LIM;
-    DR.el.innerHTML=`<div class="dr-box"><div class="dr-who">⏰ Court day · 7:30 AM · court starts 8:30 sharp</div>
-     <div class="dr-say" style="font-size:20px">You have <b id="amLeft">${left.toFixed(1)}s</b> to get out the door and through security.</div>
-     <div class="dr-bar" style="height:12px"><i id="amBar" style="width:${100*left/LIM}%;background:${left>8?"#1f9d55":left>4?"#d99a00":"#d64545"}"></i></div>
-     ${DRAM.map(([k,l,n])=>{const d=M.done[k];
-       if(k==="dress")return `<div style="margin:8px 0"><b>${l}</b> ${d?"✅ "+esc((DROUT.find(o=>o[0]===M.outfit)||[])[1]||""):""}
-         ${d?"":`<button class="dr-btn alt" onclick="drAM('drawer')">🗄 Open the drawer</button>`}
-         <div class="dr-drawer${M.drawer&&!d?" open":""}" id="drDrawer"><div class="dr-closet">${DROUT.map(o=>`<button onclick="drAM('dress','${o[0]}')"><img data-k="any.outfit.${o[0]}" alt=""><span>${esc(o[1])}</span></button>`).join("")}</div></div></div>`;
-       if(k==="papers")return `<div style="margin:8px 0"><b>${l}</b> ${d?"✅":""}<div class="dr-row"><button class="dr-btn alt" ${d?"disabled":""} onclick="drAM('papers','yes')">Grab them</button><button class="dr-btn alt" ${d?"disabled":""} onclick="drAM('papers','no')">No time, leave them</button></div></div>`;
-       const t=M.taps[k]||0;return `<button class="dr-btn${d?" alt":""}" ${d?"disabled":""} onclick="drAM('${k}')">${l} ${d?"✅":`· tap ${n-t}×`}</button>`;}).join("")}</div>`;};
+  /* Drawn ONCE; each tap only updates its own button, so nothing on the screen moves or jumps under your finger
+     (the old version redrew the whole screen and the closet opened/closed, shifting every button below it). */
+  const LIM=15;
+  DR.el.innerHTML=`<div class="dr-box dr-am"><div class="dr-who">⏰ Court day · 7:30 AM · court starts 8:30 sharp</div>
+   <div class="dr-say" style="font-size:20px">You have <b id="amLeft">${LIM.toFixed(1)}s</b> to get out the door and through security. The clock starts on your first tap.</div>
+   <div class="dr-bar" style="height:12px"><i id="amBar" style="width:100%;background:#1f9d55"></i></div>
+   ${DRAM.map(([k,l,n])=>{
+     if(k==="dress")return `<div style="margin:8px 0"><b>${l}</b> <span id="am-dress-ok"></span>
+       <div class="dr-drawer open"><div class="dr-closet">${DROUT.map(o=>`<button type="button" id="am-o-${o[0]}" onclick="drAM('dress','${o[0]}')"><img data-k="any.outfit.${o[0]}" alt=""><span>${esc(o[1])}</span></button>`).join("")}</div></div></div>`;
+     if(k==="papers")return `<div style="margin:8px 0"><b>${l}</b> <span id="am-papers-ok"></span><div class="dr-row"><button type="button" class="dr-btn alt" id="am-p-yes" onclick="drAM('papers','yes')">Grab them</button><button type="button" class="dr-btn alt" id="am-p-no" onclick="drAM('papers','no')">No time, leave them</button></div></div>`;
+     return `<button type="button" class="dr-btn" id="am-${k}" onclick="drAM('${k}')">${l} · tap ${n}×</button>`;}).join("")}</div>`;
+  drCloset();
   window.drAM=(k,v)=>{if(M.over)return;if(!M.t0){M.t0=Date.now();M.tick=setInterval(()=>{const left=Math.max(0,LIM-(Date.now()-M.t0)/1000),a=document.getElementById("amLeft"),b=document.getElementById("amBar");if(a)a.textContent=left.toFixed(1)+"s";if(b){b.style.width=(100*left/LIM)+"%";b.style.background=left>8?"#1f9d55":left>4?"#d99a00":"#d64545";}if(left<=0)fin();},100);}
-    if(k==="drawer"){M.drawer=true;render();drCloset();return;}
-    if(k==="dress"){M.outfit=v;M.done.dress=1;M.drawer=false;}else if(k==="papers"){M.papers=v;M.done.papers=1;}
-    else{const n=DRAM.find(x=>x[0]===k)[2];M.taps[k]=(M.taps[k]||0)+1;if(M.taps[k]>=n)M.done[k]=1;}
-    render();if(DRAM.every(x=>M.done[x[0]]))fin();};
+    const $=id=>document.getElementById(id);
+    if(k==="dress"){if(M.done.dress)return;M.outfit=v;M.done.dress=1;DROUT.forEach(o=>{const e=$("am-o-"+o[0]);if(e){e.disabled=true;e.classList.toggle("on",o[0]===v);e.style.opacity=o[0]===v?"1":".45";}});
+      $("am-dress-ok").textContent="✅ "+((DROUT.find(o=>o[0]===v)||[])[1]||"");}
+    else if(k==="papers"){if(M.done.papers)return;M.papers=v;M.done.papers=1;["yes","no"].forEach(x=>{const e=$("am-p-"+x);if(e){e.disabled=true;e.style.opacity=x===v?"1":".45";}});$("am-papers-ok").textContent="✅";}
+    else{if(M.done[k])return;const [,l,n]=DRAM.find(x=>x[0]===k);M.taps[k]=(M.taps[k]||0)+1;const e=$("am-"+k);
+      if(M.taps[k]>=n){M.done[k]=1;if(e){e.disabled=true;e.classList.add("alt");e.textContent=l+" ✅";}}else if(e)e.textContent=`${l} · tap ${n-M.taps[k]}×`;}
+    if(DRAM.every(x=>M.done[x[0]]))fin();};
   const fin=()=>{if(M.over)return;M.over=true;clearInterval(M.tick);const used=M.t0?(Date.now()-M.t0)/1000:LIM,late=!DRAM.every(x=>M.done[x[0]]);
     const of=DROUT.find(o=>o[0]===M.outfit)||["none","Whatever you slept in",-20,"Mr. Defendant, you came to court like that?"];
     const r={late,mins:late?[7,12,18][Math.floor(Math.random()*3)]:0,outfit:of,hoodie:of[2]<0,noPapers:M.papers!=="yes",hungry:!M.done.eat,secs:used};DR.morning=r;
@@ -419,8 +483,9 @@ function drMorning(go){if(window.TTS)ttsStop();const M={t0:0,done:{},taps:{},out
     DR.mood=Math.max(-100,Math.min(100,mood));DR.moodLog=[[mood,"Morning"]];
     DR.el.innerHTML=`<div class="dr-box"><div class="dr-v ${mood>=0?"ok":"no"}">${late?"⏰ YOU'RE LATE":"✅ ON TIME"}</div><ul class="dr-need">${notes.map(n=>`<li>${n}</li>`).join("")}</ul>
       <p>Judge's starting mood: <b>${drMoodState(DR.mood)[2]}</b></p><button class="dr-btn" id="drGo">🏛 Walk into the courtroom</button></div>`;
-    document.getElementById("drGo").onclick=()=>{const keep=DR.mood,kl=DR.moodLog;go();DR.mood=keep;DR.moodLog=kl;};};
-  const _r=render;render=()=>{_r();if(M.drawer&&!M.done.dress)drCloset();};render();DR.el.scrollIntoView({behavior:"smooth",block:"start"});}
+    const g=document.getElementById("drGo");g.disabled=true;g.style.opacity=".5";setTimeout(()=>{g.disabled=false;g.style.opacity="";},1000);   // a fast extra tap can't skip the results
+    g.onclick=()=>{const keep=DR.mood,kl=DR.moodLog;go();DR.mood=keep;DR.moodLog=kl;};};
+  DR.el.scrollIntoView({block:"start"});}
 function drMorningOn(){return drLS("morning")!==false;}
 
 
@@ -448,6 +513,50 @@ function voUnlock(){try{if(!VOA){VOA=new Audio();VOA.preload="auto";}if(VOA.data
   VOA.src="data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YQAAAAA=";const p=VOA.play();if(p)p.then(()=>{VOA.pause();VOA.dataset.ok=1;}).catch(()=>{});}catch(e){}}
 
 
+/* ───── 📖 Court dictionary (dictionary/dictionary.py): recorded "say it" + "hear it all" clips per word (encrypted media on
+   the web; the Desktop file falls back to the phone voice). 🎤 Repeat after me plays the word, then listens and grades it. ───── */
+let DCA=null,DCAU=null,DCC="",DCS="",DCSP=1;try{DCSP=+(localStorage.getItem("dcSpd")||1)||1}catch(e){}
+function dcWire(root){const el=root.querySelector(".dcA");if(!el)return;const it=DATA.sections.find(x=>x.id===el.dataset.s).items[+el.dataset.i];
+  DCA=it.audio||{};DCC="";DCS="";const b=document.getElementById("dcspd");if(b)b.textContent="🐢 Speed "+DCSP+"×";dcFind();}
+async function dcUrl(k){if(ARTC[k])return ARTC[k];const a=DCA&&DCA[k];if(!a)return null;if(typeof a==="string")return ARTC[k]=a;
+  const r=await fetch("m/"+a.m);if(!r.ok)return null;const b=new Uint8Array(await r.arrayBuffer());
+  const pt=await crypto.subtle.decrypt({name:"AES-GCM",iv:b.slice(0,12)},KEY,b.slice(12));return ARTC[k]=URL.createObjectURL(new Blob([pt],{type:a.mime||"audio/mp4"}));}
+function dcStop(){if(DCAU){try{DCAU.pause()}catch(e){}DCAU.onended=null;DCAU.onerror=null;}document.querySelectorAll(".dcb.on").forEach(b=>b.classList.remove("on"));}
+function dcPlay(btn,k,done){ttsStop();dcStop();btn.classList.add("on");let gone=false;
+  const fb=()=>{if(gone)return;gone=true;btn.classList.remove("on");const t=btn.dataset.tx||"";if(t)ttsSay(t,/\.f$/.test(k));if(done)setTimeout(done,600+t.split(/\s+/).length*450);};
+  if(!DCAU){DCAU=new Audio();DCAU.preload="auto";}const a=DCAU;
+  dcUrl(k).then(u=>{if(!u)return fb();a.src=u;a.playbackRate=DCSP;try{a.preservesPitch=true;a.webkitPreservesPitch=true}catch(e){}
+    a.onended=()=>{btn.classList.remove("on");if(done)done();};a.onerror=fb;const p=a.play();if(p)p.catch(fb);}).catch(fb);}
+const DCNUM=new Set("zero oh one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty thirty forty fifty sixty seventy eighty ninety hundred".split(" "));
+function dcWords(t){return String(t||"").toLowerCase().replace(/-/g," ").replace(/[^a-z0-9 ]+/g," ").split(/\s+/).filter(Boolean);}
+function dcScore(target,digits,heard){let W=dcWords(target);const H=dcWords(heard);const hd=(heard.match(/\d+/g)||[]).join(" ");
+  if(digits&&hd&&digits.split(" ").every(d=>hd.includes(d)))W=W.filter(w=>!DCNUM.has(w));if(!W.length)return 1;
+  const hit=W.filter(w=>H.some(h=>h===w||(w.length>4&&h.length>3&&(h.startsWith(w.slice(0,4))||w.startsWith(h.slice(0,4)))))).length;return hit/W.length;}
+function dcRepeat(btn,id){const box=btn.closest(".dct"),res=box.querySelector(".dcres"),w=btn.dataset.w||"",dg=((box.querySelector(".dcn").textContent+" "+w).match(/\d+/g)||[]).join(" ");
+  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;res.hidden=false;res.innerHTML="👂 Listen first…";
+  dcPlay(box.querySelector(".dcb"),"dict."+id+".s",()=>{
+    if(!SR){res.innerHTML=`Now say it out loud 3 times: <b>“${esc(w)}”</b><br><span class="muted">This browser can't listen. Open the app in Safari or Chrome on the phone to get graded.</span>`;return;}
+    res.innerHTML=`⏺ Listening… say: <b>“${esc(w)}”</b>`;let r;try{r=new SR();}catch(e){res.innerHTML="The microphone isn't available here.";return;}
+    r.lang="en-US";r.interimResults=false;r.maxAlternatives=5;let got=false;
+    r.onresult=ev=>{got=true;const alts=[...ev.results[0]].map(x=>x.transcript);const sc=Math.max(...alts.map(a=>dcScore(w,dg,a)));
+      res.innerHTML=(sc>=0.8?"✅ Got it! Say it two more times to lock it in. ":sc>=0.5?"🟡 Close. Listen again and match it. ":"🔁 Not yet. Listen and try again. ")+`<br>I heard: “${esc(alts[0])}”`+
+        ` <button class="dcb" onclick="dcRepeat(this.closest('.dct').querySelector('[data-w]'),'${id}')">🎤 Again</button>`;};
+    r.onerror=e=>{res.innerHTML=`I couldn't hear that (${esc(e.error||"no microphone")}). Allow the microphone and tap 🎤 again.`;};
+    r.onend=()=>{if(!got&&/Listening/.test(res.textContent))res.innerHTML="I didn't hear anything. Tap 🎤 Repeat after me and speak right after the voice.";};
+    try{r.start();}catch(e){res.innerHTML="The microphone didn't start. Tap 🎤 again.";}});}
+function dcCat(b){DCC=b.dataset.c;document.querySelectorAll(".dcc[data-c]").forEach(x=>x.classList.toggle("on",x===b));dcFind();}
+function dcSys(b){DCS=b.dataset.s;document.querySelectorAll(".dcs").forEach(x=>x.classList.toggle("on",x===b));dcFind();}
+function dcFind(){const q=document.getElementById("dcq");const ws=(q?q.value:"").toLowerCase().split(/\s+/).filter(Boolean);let n=0;
+  document.querySelectorAll(".dct").forEach(d=>{const ok=(!DCC||d.dataset.cat===DCC)&&(!DCS||d.dataset.sys===DCS||d.dataset.sys==="both")&&ws.every(w=>d.dataset.q.includes(w));d.hidden=!ok;if(ok)n++;});
+  const c=document.getElementById("dccount");if(c)c.textContent=n+" shown";}
+function dcJump(L){const d=[...document.querySelectorAll(".dct")].find(x=>!x.hidden&&x.querySelector(".dcn").textContent.replace(/^(the|a|an) /i,"").toUpperCase().startsWith(L));if(d)d.scrollIntoView({behavior:"smooth",block:"start"});}
+function dcSpeed(){DCSP=DCSP===1?0.75:DCSP===0.75?1.25:1;try{localStorage.setItem("dcSpd",DCSP)}catch(e){}const b=document.getElementById("dcspd");if(b)b.textContent="🐢 Speed "+DCSP+"×";if(DCAU)DCAU.playbackRate=DCSP;}
+window.addEventListener("hashchange",()=>{dcStop();});
+
+/* ───── ⏱ Clocks: live days-left (Pacific time) */
+function clkWire(root){const t=new Date(new Date().toLocaleString("en-US",{timeZone:"America/Los_Angeles"}));t.setHours(0,0,0,0);
+root.querySelectorAll(".clk[data-due]").forEach(b=>{const [y,m,d]=b.dataset.due.split("-").map(Number),n=Math.round((new Date(y,m-1,d)-t)/864e5);
+b.textContent=n===0?"TODAY":n===1?"tomorrow":n>1?n+" days left":"passed "+(-n)+" days ago";b.style.color=n<0?"var(--muted)":n<=3?"#d64545":n<=7?"#c98a00":"var(--ink)";});}
 /* ───── 🫁 Breathing: the room hears the judge breathe. Calm & happy = slow, soft breaths; impatient = quicker;
    furious = fast, heavy breaths with huffs. Living-face loops also play a touch slower when calm, faster when agitated. ───── */
 let RMBR=null;
@@ -568,7 +677,8 @@ function rmVoice(who){const v=TTS?TTS.getVoices().filter(x=>/^en[-_]US/i.test(x.
   const m={judge:[pick(/aaron|fred|alex|daniel|tom|male/i),0.85,0.93],ausa:[pick(/samantha|allison|ava|susan|zoe/i),1.05,1.02],da:[pick(/samantha|allison|ava|susan|zoe/i),1.05,1.02],
    pd:[pick(/nathan|evan|tom|alex/i),1.0,1.0],cja:[pick(/nathan|evan|tom|alex/i),1.0,1.0],quiz:[pick(/karen|nicky|ava|samantha/i),1.2,1.05],bailiff:[pick(/fred|ralph|aaron|alex/i),0.7,0.98]}[who]||[null,1,1];
   return {voice:m[0]||bestVoice(),pitch:m[1],rate:m[2]*RATE};}
-function rmSpeak(text,who,done){text=drTitle(text);const ids=RMWHO[who]||RMWHO.judge;const cap=document.getElementById("rmCap");if(cap)cap.textContent=ids[1]+":";
+function rmReplay(){if(!DR||!DR.last||DR.speaking)return;rmSpeak(DR.last.text,DR.last.who);}
+function rmSpeak(text,who,done){text=drTitle(text);DR.last={text,who};const ids=RMWHO[who]||RMWHO.judge;const cap=document.getElementById("rmCap");if(cap)cap.textContent=ids[1]+": 🔊 tap to replay";
   document.querySelectorAll("#rmScene .talk").forEach(e=>e.classList.remove("talk"));const el=document.getElementById(ids[0]);
   const tok=(DR.sayTok=(DR.sayTok||0)+1);let fin=false;
   const finish=()=>{if(fin||tok!==DR.sayTok)return;fin=true;clearTimeout(wd);DR.speaking=false;if(el)el.classList.remove("talk");rmTalkStop(who);if(done)done();};
