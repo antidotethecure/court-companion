@@ -39,7 +39,7 @@ async function files(){ if (FILES) return FILES; try{ FILES = await DB.all(); }c
 let pdfjs = null;
 async function loadPdfJs(){
   if (pdfjs) return pdfjs;
-  await new Promise((res,rej)=>{ const s=document.createElement("script"); s.src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"; s.onload=res; s.onerror=()=>rej(new Error("pdf.js")); document.head.appendChild(s); });
+  await new Promise((res,rej)=>{ const s=document.createElement("script"); s.src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js";s.integrity="sha384-/1qUCSGwTur9vjf/z9lmu/eCUYbpOTgSjmpbMQZ1/CtX2v/WcAIKqRv+U1DUCG6e";s.crossOrigin="anonymous"; s.onload=res; s.onerror=()=>rej(new Error("pdf.js")); document.head.appendChild(s); });
   pdfjs = window.pdfjsLib; pdfjs.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js"; return pdfjs;
 }
 async function extract(file){
@@ -712,7 +712,7 @@ CC.firstDoc = () => ({id:"tk-first", title:"Read this first — me and my attorn
 
 /* Signed PDF (drawn signature) + one-tap send to the attorney. */
 let jsPDFp = null;
-const loadPDF = () => jsPDFp ||= new Promise((res,rej)=>{ const s = document.createElement("script"); s.src = "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"; s.onload = () => res(window.jspdf.jsPDF); s.onerror = rej; document.head.appendChild(s); });
+const loadPDF = () => jsPDFp ||= new Promise((res,rej)=>{ const s = document.createElement("script"); s.src = "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js";s.integrity="sha384-JcnsjUPPylna1s1fvi1u12X5qjY5OL56iySh75FdtrwhO/SWXgMjoVqcKyIIWOLk";s.crossOrigin="anonymous"; s.onload = () => res(window.jspdf.jsPDF); s.onerror = rej; document.head.appendChild(s); });
 async function signedPDF(title, body, sigImg, name, when){
   const J = await loadPDF(), doc = new J({unit:"pt", format:"letter"}), W = 612, M = 54; let y = M;
   doc.setFont("helvetica","bold"); doc.setFontSize(15); doc.text(title, M, y); y += 24; doc.setFont("helvetica","normal"); doc.setFontSize(11);
