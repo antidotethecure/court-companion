@@ -663,7 +663,7 @@ function rmVerdictPhoto(o,kase){const ct=kase==="state"?"state":"fed";const pick
       if(o.k==="win")rmCheer();else rmMurmur(0.02);if(o.k==="loss")setTimeout(()=>drBooking(ct),4500);},o.k==="loss"?4200:2200);});}
 function rmCheer(){const a=rmAudio();if(!a)return;const s=a.createBufferSource(),f=a.createBiquadFilter(),g=a.createGain();s.buffer=rmNoise(a,3);f.type="bandpass";f.frequency.value=900;f.Q.value=0.5;
   const t=a.currentTime;g.gain.setValueAtTime(0.001,t);g.gain.exponentialRampToValueAtTime(0.5,t+0.4);g.gain.exponentialRampToValueAtTime(0.001,t+3);s.connect(f).connect(g).connect(a.destination);s.start(t);s.stop(t+3);}
-const RMWHO={judge:["sp-judge","THE COURT"],ausa:["sp-pros","AUSA · FOR THE UNITED STATES"],da:["sp-pros","DEPUTY DA · FOR THE PEOPLE"],pd:["sp-pd","YOUR PUBLIC DEFENDER (whispering)"],cja:["sp-pd","YOUR LAWYER (whispering)"],quiz:["sp-clerk","THE CLERK · deadline check"],bailiff:["sp-bailiff","THE BAILIFF"]};
+const RMWHO={judge:["sp-judge","THE COURT"],ausa:["sp-pros","AUSA · FOR THE UNITED STATES"],da:["sp-pros","DEPUTY DA · FOR THE PEOPLE"],pd:["sp-pd","YOUR PUBLIC DEFENDER (whispering)"],cja:["sp-pd","YOUR FEDERAL LAWYER (whispering)"],quiz:["sp-clerk","THE CLERK · deadline check"],bailiff:["sp-bailiff","THE BAILIFF"]};
 let RMA=null,RMTONE=null;
 function rmAudio(){try{if(!RMA)RMA=new (window.AudioContext||window.webkitAudioContext)();if(RMA.state==="suspended")RMA.resume();return RMA;}catch(e){return null;}}
 function rmNoise(a,secs){const b=a.createBuffer(1,a.sampleRate*secs,a.sampleRate),d=b.getChannelData(0);let l=0;for(let i=0;i<d.length;i++){const w=Math.random()*2-1;l=(l+0.02*w)/1.02;d[i]=l*3.5;}return b;}
